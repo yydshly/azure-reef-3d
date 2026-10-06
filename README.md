@@ -12,7 +12,7 @@
 
 A static, genuine-3D reef scene with a five-stop Chinese beginner guide. The guide connects camera positions and visible labels to explanations of reef context, sand/hardbottom, coral animals, generic fish, and light/water. Sources and modeling limits are available in the interface.
 
-This export starts from deployed source commit `6637a05c8b712ba5e2d508b5da0c96fb8a8ff4e9`. Every file under `dist/` is byte-identical to that deployed snapshot; see `docs/source-baseline-sha256.json` and `docs/export-changes.json`.
+This export includes deployed source commit `515811ecbb536d5e78a5aa4010d9ef789672cfb7` (the guide-anchor fix on top of `6637a05c8b712ba5e2d508b5da0c96fb8a8ff4e9`). Every file under `dist/` is byte-identical to that deployed snapshot; see `docs/source-baseline-sha256.json` and `docs/export-changes.json`.
 
 ## Run the exact snapshot
 
@@ -116,3 +116,9 @@ See `THIRD_PARTY_NOTICES.md`. NOAA photographs were inspected for reference and 
 ## Spatial-depth revision
 
 Nine closed low hardbottom rises and twelve linked instances of existing staghorn geometry extend the middle/distance. Core geometry, transforms, fish, maps and guide remain intact. The older generated 2.5D image informed composition only; unseen structure is inferred, not automatically reconstructed or field-measured. The final editable blend packs six maps. The previous edge GLB is supplied for comparison only. The a9dfa703 export remains separate and unchanged.
+
+## Guide anchor correction / 导览标记修正
+
+海床站改为两个经过当前模型射线验证的独立标记：砂底、坚硬礁面。修复圆点中心与投影点的对齐，并检查手机视口的导览卡片避让；模型几何不变。`npm test` 现在包含真实模型表面与标记检查。模拟测试和几何投影检查不等同于真实浏览器截图验证。
+
+Source revision: `515811ecbb536d5e78a5aa4010d9ef789672cfb7`.

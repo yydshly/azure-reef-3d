@@ -4,7 +4,7 @@ import {GLTFLoader} from './vendor/GLTFLoader.js';
 import {sampleSwimRoute} from './fish-motion.js';
 import {GUIDE_STOPS,GuideJourney} from './guide-data.js';
 const $=s=>document.querySelector(s);const canvas=$('#reef'),reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;let renderer,scene,camera,controls,root,ready=false,low=false,tour=false,last=0,time=0,frame=0,fish=[],shaders=[],targetMove=null,points;const guide=new GuideJourney();let followOffset=null;const names=['珊瑚正面','绕到背面','贴近珊瑚'];const views=[{p:[9,4.2,12],t:[0,.9,0]},{p:[-8,3.7,-11],t:[0,.9,0]},{p:[1.6,1.8,5.8],t:[-2,.9,0]}];
-function fail(message){$('#loading').hidden=true;$('#unsupported').hidden=false;if(message)$('#failure').textContent=message+' 下面是同一模型的离线渲染，不能拖动，也不代表实机画面。';document.querySelectorAll('footer button').forEach(b=>b.disabled=true);ready=false;$('#guideCard').hidden=true;$('#guideEntry').disabled=true;$('#focusMarker').hidden=true}
+function fail(message){$('#loading').hidden=true;$('#unsupported').hidden=false;if(message)$('#failure').textContent=message+' 下面是同一模型的离线渲染，不能拖动，也不代表实机画面。';document.querySelectorAll('footer button').forEach(b=>b.disabled=true);ready=false;$('#guideCard').hidden=true;$('#guideEntry').disabled=true;$('#focusMarker').hidden=true;$('#focusMarkerSecondary').hidden=true}
 function setTour(on){tour=on;if(controls)controls.autoRotate=on;$('#orbit').setAttribute('aria-pressed',String(on));$('#orbit').textContent=on?'暂停环绕':'自动环绕';targetMove=null}
 function preset(i){if(!ready)return;leaveGuide();setTour(false);const v=views[i];targetMove={p:new THREE.Vector3(...v.p),t:new THREE.Vector3(...v.t)};$('#viewName').textContent=names[i];document.querySelectorAll('[data-view]').forEach((b,j)=>{b.classList.toggle('selected',i===j);b.setAttribute('aria-pressed',String(i===j))})}
 function causticMaterial(mat){if(!mat.isMeshStandardMaterial)return;mat.onBeforeCompile=s=>{s.uniforms.reefTime={value:0};s.vertexShader='varying vec3 vReefWorld;\n'+s.vertexShader;s.vertexShader=s.vertexShader.replace('#include <project_vertex>','vReefWorld = (modelMatrix * vec4(transformed, 1.0)).xyz;\n#include <project_vertex>');s.fragmentShader='uniform float reefTime;\nvarying vec3 vReefWorld;\n'+s.fragmentShader;s.fragmentShader=s.fragmentShader.replace('#include <color_fragment>',`#include <color_fragment>
@@ -37,7 +37,7 @@ $('#orbit').onclick=()=>{if(ready){leaveGuide();setTour(!tour)}};$('#reset').onc
 function guideCameraLayout(){if(!camera)return;if(guide.active){camera.setViewOffset(innerWidth,innerHeight,innerWidth>700?innerWidth*.12:0,innerWidth<=700?innerHeight*.18:0,innerWidth,innerHeight)}else camera.clearViewOffset();camera.updateProjectionMatrix()}
 function renderGuide(){
  const active=ready&&guide.active;document.body.classList.toggle('guided',active);$('#guideCard').hidden=!active;$('#guideEntry').setAttribute('aria-pressed',String(active));$('#guideEntry').textContent=active?'浅海导览':'继续导览';
- if(!active){$('#focusMarker').hidden=true;guideCameraLayout();return}
+ if(!active){$('#focusMarker').hidden=true;$('#focusMarkerSecondary').hidden=true;guideCameraLayout();return}
  const s=guide.current;$('#guideCounter').textContent=String(guide.index+1).padStart(2,'0')+' / 05';$('#guideTitle').textContent=s.title;$('#guideLook').textContent=s.look;$('#guideText').textContent=s.text;$('#guideNote').textContent=s.note;$('#guideSource').textContent=s.source;$('#guideSource').href=s.url;
  $('#guidePrev').disabled=guide.index===0;$('#guideNext').textContent=guide.index===GUIDE_STOPS.length-1?'自由探索':'下一站';$('#guidePlay').textContent=guide.playing?'暂停导览':guide.paused?'继续导览':'自动前进';$('#guidePlay').setAttribute('aria-pressed',String(guide.playing));
  $('#guideStatus').textContent=guide.completed?'五站已看完，可以自由探索':guide.paused?'已暂停，可慢慢观察':guide.playing?'自动前进中；到站后会留出阅读时间':'到站停留；读完后点下一站';
@@ -45,7 +45,24 @@ function renderGuide(){
 }
 function goGuide(i){if(!ready)return;const autoplay=guide.playing;guide.go(i);guide.playing=autoplay;setTour(false);const s=guide.current;let t=new THREE.Vector3(...s.target),p=new THREE.Vector3(...s.position);if(s.trackFish&&fish[0]){t.copy(fish[0].object.position);p.copy(t).add(new THREE.Vector3(3,1.7,4.5));followOffset=p.clone().sub(t)}targetMove={p,t};if(reduced){camera.position.copy(p);controls.target.copy(t);targetMove=null;controls.update()}$('#guideEvidence').open=false;renderGuide()}
 function leaveGuide(){guide.explore();targetMove=null;followOffset=null;renderGuide()}
-function updateGuideMarker(){if(!ready||!guide.active)return;const s=guide.current;const p=s.trackFish&&fish[0]?fish[0].object.position.clone():new THREE.Vector3(...s.marker);p.project(camera);const visible=p.z>-1&&p.z<1&&Math.abs(p.x)<.95&&Math.abs(p.y)<.95;$('#focusMarker').hidden=!visible;if(visible){$('#focusMarker').style.left=((p.x+1)*innerWidth/2)+'px';$('#focusMarker').style.top=((-p.y+1)*innerHeight/2)+'px';$('#focusMarker span').textContent=s.label}if(guide.completed&&!guide.playing)$('#guideStatus').textContent='五站已看完，可以自由探索'}
+function positionGuideMarker(selector,point,label){
+ const p=point.clone().project(camera),visible=p.z>-1&&p.z<1&&Math.abs(p.x)<.95&&Math.abs(p.y)<.95;
+ const marker=$(selector);marker.hidden=!visible;
+ if(visible){marker.style.left=((p.x+1)*innerWidth/2)+'px';marker.style.top=((-p.y+1)*innerHeight/2)+'px';$(selector+' span').textContent=label}
+}
+function updateGuideMarker(){
+ if(!ready||!guide.active)return;
+ const s=guide.current;
+ if(s.anchors){
+  positionGuideMarker('#focusMarker',new THREE.Vector3(...s.anchors[0].point),s.anchors[0].label);
+  positionGuideMarker('#focusMarkerSecondary',new THREE.Vector3(...s.anchors[1].point),s.anchors[1].label);
+ }else{
+  $('#focusMarkerSecondary').hidden=true;
+  positionGuideMarker('#focusMarker',s.trackFish&&fish[0]?fish[0].object.position:new THREE.Vector3(...s.marker),s.label);
+ }
+ if(guide.completed&&!guide.playing)$('#guideStatus').textContent='五站已看完，可以自由探索';
+}
+
 GUIDE_STOPS.forEach((s,i)=>{const b=document.createElement('button');b.type='button';b.dataset.guide=String(i);b.textContent=s.short;b.setAttribute('aria-label','第'+(i+1)+'站：'+s.title);b.onclick=()=>{guide.playing=false;goGuide(i)};$('#guideSteps').appendChild(b)});
 $('#guideEvidence').addEventListener('toggle',()=>{if($('#guideEvidence').open&&guide.active){guide.pause();renderGuide()}});
 $('#guideEntry').onclick=()=>{if(ready){if(guide.active){leaveGuide()}else{guide.resume();goGuide(guide.index)}}};

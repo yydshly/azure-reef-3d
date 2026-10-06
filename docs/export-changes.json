@@ -1,5 +1,5 @@
 {
-  "source_commit": "6637a05c8b712ba5e2d508b5da0c96fb8a8ff4e9",
+  "source_commit": "515811ecbb536d5e78a5aa4010d9ef789672cfb7",
   "previous_export_preserved": "a9dfa703a53077f3a5f82f233cafb9ea65d37dd9",
   "dist_byte_identical": true,
   "published_checkout_modified": false,
@@ -63,6 +63,20 @@
     {
       "file": "README.md",
       "change": "Added Chinese project overview, quickstart, private deployed website link, deployment independence and verification boundaries for GitHub delivery."
+    },
+    {
+      "files": [
+        "dist/app.js",
+        "dist/guide-data.js",
+        "dist/index.html",
+        "dist/style.css",
+        "qa-guide-anchors.mjs",
+        "qa-guide-integration.mjs",
+        "qa-no-webgl.mjs",
+        "README.md",
+        "package.json"
+      ],
+      "change": "Sync verified sand/hardbottom anchors, center marker dots and integrate portable actual-model regression test."
     }
   ],
   "added_inputs": [
