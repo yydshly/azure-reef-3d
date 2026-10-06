@@ -1,0 +1,96 @@
+{
+  "source_commit": "6637a05c8b712ba5e2d508b5da0c96fb8a8ff4e9",
+  "previous_export_preserved": "a9dfa703a53077f3a5f82f233cafb9ea65d37dd9",
+  "dist_byte_identical": true,
+  "published_checkout_modified": false,
+  "changes": [
+    {
+      "file": ".gitignore",
+      "change": "portable-export edit"
+    },
+    {
+      "file": "README.md",
+      "change": "portable-export edit"
+    },
+    {
+      "file": "blend_boundary.py",
+      "change": "portable-export edit"
+    },
+    {
+      "file": "build-routes.mjs",
+      "change": "portable-export edit"
+    },
+    {
+      "file": "build_depth.py",
+      "change": "portable-export edit"
+    },
+    {
+      "file": "build_reef.py",
+      "change": "portable-export edit"
+    },
+    {
+      "file": "extend_sand.py",
+      "change": "portable-export edit"
+    },
+    {
+      "file": "generate_textures.py",
+      "change": "portable-export edit"
+    },
+    {
+      "file": "qa-model.mjs",
+      "change": "portable-export edit"
+    },
+    {
+      "file": "qa-motion.mjs",
+      "change": "portable-export edit"
+    },
+    {
+      "file": "qa-static-model.mjs",
+      "change": "portable-export edit"
+    },
+    {
+      "file": "rebuild_reference_reef.py",
+      "change": "portable-export edit"
+    },
+    {
+      "file": "render_evidence.py",
+      "change": "portable-export edit"
+    },
+    {
+      "file": "render_reimport_evidence.py",
+      "change": "portable-export edit"
+    },
+    {
+      "file": "README.md",
+      "change": "Added Chinese project overview, quickstart, private deployed website link, deployment independence and verification boundaries for GitHub delivery."
+    }
+  ],
+  "added_inputs": [
+    "modeling/inputs/seed-reef.blend",
+    "modeling/inputs/previous-edge.glb",
+    "modeling/inputs/textures/",
+    "modeling/editable/reef-garden-final.blend"
+  ],
+  "pipeline": "supplied seed -> reference -> edge -> spatial depth -> glTF externalization -> route generation",
+  "validation": [
+    "npm ci --ignore-scripts succeeded",
+    "npm test passed using declared local dependencies",
+    "npm run test:motion passed",
+    "Python scripts compile",
+    "both Blender inputs opened; final six image maps packed",
+    "all dist hashes match deployed source commit"
+  ],
+  "not_claimed": [
+    "full from-seed regeneration rerun",
+    "bit-identical procedural output across platforms",
+    "live browser or WebGL QA"
+  ],
+  "excluded": [
+    ".git/",
+    ".openai/",
+    "node_modules/",
+    "caches",
+    "credentials",
+    "private notes"
+  ]
+}

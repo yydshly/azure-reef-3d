@@ -1,0 +1,18 @@
+{
+  "name": "azure-reef-3d",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Reference-guided shallow reef exploration with a five-stop Chinese beginner journey",
+  "scripts": {
+    "serve": "python3 -m http.server 8000 --directory dist",
+    "test": "node qa-guide.mjs && node qa-guide-integration.mjs && node qa-no-webgl.mjs && node qa-model.mjs && node qa-static-model.mjs",
+    "test:motion": "node qa-motion.mjs",
+    "build:routes": "node build-routes.mjs"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "0.1.100",
+    "three": "0.186.1"
+  },
+  "engines": { "node": ">=22" }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "file": "modeling/inputs/seed-reef.blend",
+    "external_images": 0,
+    "packed_images": 0,
+    "mesh_objects": 51,
+    "unpacked_dependencies": 0
+  },
+  {
+    "file": "modeling/editable/reef-garden-final.blend",
+    "external_images": 6,
+    "packed_images": 6,
+    "mesh_objects": 71,
+    "unpacked_dependencies": 0
+  }
+]

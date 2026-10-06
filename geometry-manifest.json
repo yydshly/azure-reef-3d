@@ -1,0 +1,213 @@
+{
+  "objects": {
+    "Sand_Rippled_32m": {
+      "vertices": 13456,
+      "triangles": 26450
+    },
+    "Rock_Islands_Limestone": {
+      "vertices": 21504,
+      "triangles": 42880
+    },
+    "Coral_Branch_Peach_Left": {
+      "vertices": 21600,
+      "triangles": 42240
+    },
+    "Coral_Branch_Lavender_Right": {
+      "vertices": 21600,
+      "triangles": 42240
+    },
+    "Coral_Branch_Cream_BackLeft": {
+      "vertices": 21600,
+      "triangles": 42240
+    },
+    "Coral_Branch_Rose_BackRight": {
+      "vertices": 21600,
+      "triangles": 42240
+    },
+    "Coral_Branch_Turquoise_Left": {
+      "vertices": 21600,
+      "triangles": 42240
+    },
+    "Coral_Plates_Teal_FrontLeft": {
+      "vertices": 17920,
+      "triangles": 35840
+    },
+    "Coral_Plates_Salmon_FrontRight": {
+      "vertices": 17920,
+      "triangles": 35840
+    },
+    "Coral_Plates_Lilac_FarLeft": {
+      "vertices": 17920,
+      "triangles": 35840
+    },
+    "Coral_Brain_Gold_Colonies": {
+      "vertices": 22512,
+      "triangles": 45012
+    },
+    "Coral_Brain_Aqua_Colonies": {
+      "vertices": 15008,
+      "triangles": 30008
+    },
+    "Seagrass_Tapered_Blades": {
+      "vertices": 9024,
+      "triangles": 16544
+    },
+    "Coral_Compact_Base_00": {
+      "vertices": 7020,
+      "triangles": 13728
+    },
+    "Coral_Compact_Base_01": {
+      "vertices": 7020,
+      "triangles": 13728
+    },
+    "Coral_Compact_Base_02": {
+      "vertices": 7020,
+      "triangles": 13728
+    },
+    "Coral_Compact_Base_03": {
+      "vertices": 7020,
+      "triangles": 13728
+    },
+    "Coral_Compact_Base_04": {
+      "vertices": 7020,
+      "triangles": 13728
+    },
+    "fish_01_body": {
+      "vertices": 1584,
+      "triangles": 3164
+    },
+    "fish_01_tail": {
+      "vertices": 8,
+      "triangles": 12
+    },
+    "fish_01_dorsal": {
+      "vertices": 6,
+      "triangles": 8
+    },
+    "fish_01_ventral": {
+      "vertices": 6,
+      "triangles": 8
+    },
+    "fish_01_pectoral_-1": {
+      "vertices": 6,
+      "triangles": 8
+    },
+    "fish_01_eye_-1": {
+      "vertices": 1344,
+      "triangles": 2680
+    },
+    "fish_01_pectoral_1": {
+      "vertices": 6,
+      "triangles": 8
+    },
+    "fish_01_eye_1": {
+      "vertices": 1344,
+      "triangles": 2680
+    },
+    "fish_02_body": {
+      "vertices": 1584,
+      "triangles": 3164
+    },
+    "fish_02_tail": {
+      "vertices": 8,
+      "triangles": 12
+    },
+    "fish_02_dorsal": {
+      "vertices": 6,
+      "triangles": 8
+    },
+    "fish_02_ventral": {
+      "vertices": 6,
+      "triangles": 8
+    },
+    "fish_02_pectoral_-1": {
+      "vertices": 6,
+      "triangles": 8
+    },
+    "fish_02_eye_-1": {
+      "vertices": 1344,
+      "triangles": 2680
+    },
+    "fish_02_pectoral_1": {
+      "vertices": 6,
+      "triangles": 8
+    },
+    "fish_02_eye_1": {
+      "vertices": 1344,
+      "triangles": 2680
+    },
+    "fish_03_body": {
+      "vertices": 1584,
+      "triangles": 3164
+    },
+    "fish_03_tail": {
+      "vertices": 8,
+      "triangles": 12
+    },
+    "fish_03_dorsal": {
+      "vertices": 6,
+      "triangles": 8
+    },
+    "fish_03_ventral": {
+      "vertices": 6,
+      "triangles": 8
+    },
+    "fish_03_pectoral_-1": {
+      "vertices": 6,
+      "triangles": 8
+    },
+    "fish_03_eye_-1": {
+      "vertices": 1344,
+      "triangles": 2680
+    },
+    "fish_03_pectoral_1": {
+      "vertices": 6,
+      "triangles": 8
+    },
+    "fish_03_eye_1": {
+      "vertices": 1344,
+      "triangles": 2680
+    },
+    "fish_04_body": {
+      "vertices": 1584,
+      "triangles": 3164
+    },
+    "fish_04_tail": {
+      "vertices": 8,
+      "triangles": 12
+    },
+    "fish_04_dorsal": {
+      "vertices": 6,
+      "triangles": 8
+    },
+    "fish_04_ventral": {
+      "vertices": 6,
+      "triangles": 8
+    },
+    "fish_04_pectoral_-1": {
+      "vertices": 6,
+      "triangles": 8
+    },
+    "fish_04_eye_-1": {
+      "vertices": 1344,
+      "triangles": 2680
+    },
+    "fish_04_pectoral_1": {
+      "vertices": 6,
+      "triangles": 8
+    },
+    "fish_04_eye_1": {
+      "vertices": 1344,
+      "triangles": 2680
+    },
+    "Sand_Horizon_80m": {
+      "vertices": 4,
+      "triangles": 2
+    }
+  },
+  "coordinate_system": "GLB Y up, sand horizon 80m across with central 32m ripple mesh. Passage follows X=0, negative Z.",
+  "original_procedural_geometry": true,
+  "portable_materials": "PBR roughness plus ReefColor vertex colors; no texture or external asset dependencies",
+  "offline_only": "Blender area lights, blue world, and compositor mist are presentation only; GLB contains only reef/fish/sand meshes and four fish parent nodes.",
+  "total_triangles": 582528
+}

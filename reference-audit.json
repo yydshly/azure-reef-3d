@@ -1,0 +1,108 @@
+{
+  "seed": 932,
+  "reference_urls": [
+    "https://www.fisheries.noaa.gov/species/staghorn-coral",
+    "https://sanctuaries.noaa.gov/news/press/mission-iconic-reefs/"
+  ],
+  "scope": "Interpretive Florida/Caribbean shallow staghorn-dominated patch edge; not a named-site reconstruction or validated species model",
+  "removed": [
+    "all tiered plates",
+    "all old thick candy-colored branching corals",
+    "old blue/gold brain balls",
+    "seagrass",
+    "symmetrical rock islands"
+  ],
+  "retained": "Original sand meshes and generic fish geometry; fish size reduced to 48% and palette desaturated",
+  "colony_stats": [
+    {
+      "name": "Coral_Staghorn_Thicket_00",
+      "bbox_height": 1.022854546085
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_01",
+      "bbox_height": 1.242509849369526
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_02",
+      "bbox_height": 1.178380735218525
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_03",
+      "bbox_height": 1.3999999649822712
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_04",
+      "bbox_height": 1.3020112812519073
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_05",
+      "bbox_height": 1.1918631177395582
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_06",
+      "bbox_height": 1.154793281108141
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_07",
+      "bbox_height": 1.400000050663948
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_08",
+      "bbox_height": 1.0640379395335913
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_09",
+      "bbox_height": 1.3404198959469795
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_10",
+      "bbox_height": 1.316735839471221
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_11",
+      "bbox_height": 1.3101781867444515
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_12",
+      "bbox_height": 1.1959702223539352
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_13",
+      "bbox_height": 1.2467376440763474
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_14",
+      "bbox_height": 0.9454983361065388
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_15",
+      "bbox_height": 1.204352904111147
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_16",
+      "bbox_height": 1.2706704810261726
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_17",
+      "bbox_height": 1.0543897468596697
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_18",
+      "bbox_height": 1.308944396674633
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_19",
+      "bbox_height": 1.305201318114996
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_20",
+      "bbox_height": 1.399999976158142
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_21",
+      "bbox_height": 1.3674891106784344
+    }
+  ],
+  "textures": "Original procedural embedded PBR normal/roughness maps; see texture-provenance.json",
+  "offline_only": "Original camera/lights/compositor mist preserved; not embedded in GLB"
+}

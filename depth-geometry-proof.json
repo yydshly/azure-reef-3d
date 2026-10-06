@@ -1,0 +1,277 @@
+{
+  "source": "reef3d-edge-pass/reef-garden-edge-blended.blend",
+  "provenance": "Original procedural closed hardbottom rises and linked copies of existing procedural staghorn meshes. NOAA reference images informed restraint and morphology only. The generated reference image informed spatial composition only. Unseen geometry is inferred, not image-reconstructed.",
+  "new_unique_vertices": 6912,
+  "new_rock_faces": 6480,
+  "added_objects": 13,
+  "original_geometry_and_transforms_unchanged": {
+    "Sand_Rippled_32m": true,
+    "fish_01_body": true,
+    "fish_01_dorsal": true,
+    "fish_01_eye_-1": true,
+    "fish_01_eye_1": true,
+    "fish_01_pectoral_-1": true,
+    "fish_01_pectoral_1": true,
+    "fish_01_tail": true,
+    "fish_01_ventral": true,
+    "fish_02_body": true,
+    "fish_02_dorsal": true,
+    "fish_02_eye_-1": true,
+    "fish_02_eye_1": true,
+    "fish_02_pectoral_-1": true,
+    "fish_02_pectoral_1": true,
+    "fish_02_tail": true,
+    "fish_02_ventral": true,
+    "fish_03_body": true,
+    "fish_03_dorsal": true,
+    "fish_03_eye_-1": true,
+    "fish_03_eye_1": true,
+    "fish_03_pectoral_-1": true,
+    "fish_03_pectoral_1": true,
+    "fish_03_tail": true,
+    "fish_03_ventral": true,
+    "fish_04_body": true,
+    "fish_04_dorsal": true,
+    "fish_04_eye_-1": true,
+    "fish_04_eye_1": true,
+    "fish_04_pectoral_-1": true,
+    "fish_04_pectoral_1": true,
+    "fish_04_tail": true,
+    "fish_04_ventral": true,
+    "Sand_Horizon_80m": true,
+    "Hardbottom_Low_Irregular_Limestone": true,
+    "Coral_Low_Irregular_Encrusting_Mounds": true,
+    "Coral_Staghorn_Thicket_00": true,
+    "Coral_Staghorn_Thicket_01": true,
+    "Coral_Staghorn_Thicket_02": true,
+    "Coral_Staghorn_Thicket_03": true,
+    "Coral_Staghorn_Thicket_04": true,
+    "Coral_Staghorn_Thicket_05": true,
+    "Coral_Staghorn_Thicket_06": true,
+    "Coral_Staghorn_Thicket_07": true,
+    "Coral_Staghorn_Thicket_08": true,
+    "Coral_Staghorn_Thicket_09": true,
+    "Coral_Staghorn_Thicket_10": true,
+    "Coral_Staghorn_Thicket_11": true,
+    "Coral_Staghorn_Thicket_12": true,
+    "Coral_Staghorn_Thicket_13": true,
+    "Coral_Staghorn_Thicket_14": true,
+    "Coral_Staghorn_Thicket_15": true,
+    "Coral_Staghorn_Thicket_16": true,
+    "Coral_Staghorn_Thicket_17": true,
+    "Coral_Staghorn_Thicket_18": true,
+    "Coral_Staghorn_Thicket_19": true,
+    "Coral_Staghorn_Thicket_20": true,
+    "Coral_Staghorn_Thicket_21": true
+  },
+  "placements": [
+    [
+      -10,
+      3,
+      2.3,
+      1.9,
+      0.5,
+      0.3
+    ],
+    [
+      1.5,
+      12,
+      3.1,
+      2.0,
+      0.64,
+      -0.6
+    ],
+    [
+      11,
+      8,
+      2.3,
+      2.7,
+      0.42,
+      0.8
+    ],
+    [
+      -12,
+      15,
+      3.3,
+      2.5,
+      0.65,
+      0.5
+    ],
+    [
+      10,
+      21,
+      3.8,
+      2.8,
+      0.57,
+      -0.4
+    ],
+    [
+      -20,
+      2,
+      3.0,
+      2.5,
+      0.52,
+      0.7
+    ],
+    [
+      -3,
+      -14,
+      3.1,
+      2.1,
+      0.46,
+      -0.9
+    ],
+    [
+      14,
+      -9,
+      2.8,
+      1.9,
+      0.58,
+      0.2
+    ],
+    [
+      -15,
+      -11,
+      2.5,
+      2.4,
+      0.43,
+      -0.5
+    ]
+  ],
+  "instances": [
+    {
+      "name": "Depth_Staghorn_Linked_00_0",
+      "source": "Coral_Staghorn_Thicket_14",
+      "shared_mesh": true,
+      "world_translation": [
+        -9.253602981567383,
+        0.6140133142471313,
+        0.44999998807907104
+      ],
+      "scale": 0.88
+    },
+    {
+      "name": "Depth_Staghorn_Linked_00_1",
+      "source": "Coral_Staghorn_Thicket_17",
+      "shared_mesh": true,
+      "world_translation": [
+        -9.157793045043945,
+        7.380264759063721,
+        0.44999998807907104
+      ],
+      "scale": 0.6688000000000001
+    },
+    {
+      "name": "Depth_Staghorn_Linked_01_0",
+      "source": "Coral_Staghorn_Thicket_08",
+      "shared_mesh": true,
+      "world_translation": [
+        2.9052562713623047,
+        11.345818519592285,
+        0.5899999737739563
+      ],
+      "scale": 0.95
+    },
+    {
+      "name": "Depth_Staghorn_Linked_01_1",
+      "source": "Coral_Staghorn_Thicket_11",
+      "shared_mesh": true,
+      "world_translation": [
+        4.956271171569824,
+        11.1922607421875,
+        0.5899999737739563
+      ],
+      "scale": 0.722
+    },
+    {
+      "name": "Depth_Staghorn_Linked_02_0",
+      "source": "Coral_Staghorn_Thicket_00",
+      "shared_mesh": true,
+      "world_translation": [
+        7.655806064605713,
+        9.80162239074707,
+        0.3700000047683716
+      ],
+      "scale": 0.82
+    },
+    {
+      "name": "Depth_Staghorn_Linked_03_0",
+      "source": "Coral_Staghorn_Thicket_12",
+      "shared_mesh": true,
+      "world_translation": [
+        -16.02362632751465,
+        18.28188705444336,
+        0.6000000238418579
+      ],
+      "scale": 0.92
+    },
+    {
+      "name": "Depth_Staghorn_Linked_03_1",
+      "source": "Coral_Staghorn_Thicket_15",
+      "shared_mesh": true,
+      "world_translation": [
+        -13.948254585266113,
+        15.33520221710205,
+        0.6000000238418579
+      ],
+      "scale": 0.6992
+    },
+    {
+      "name": "Depth_Staghorn_Linked_04_0",
+      "source": "Coral_Staghorn_Thicket_05",
+      "shared_mesh": true,
+      "world_translation": [
+        13.734529495239258,
+        20.295907974243164,
+        0.5199999809265137
+      ],
+      "scale": 0.78
+    },
+    {
+      "name": "Depth_Staghorn_Linked_05_0",
+      "source": "Coral_Staghorn_Thicket_17",
+      "shared_mesh": true,
+      "world_translation": [
+        -23.510465621948242,
+        -1.3564128875732422,
+        0.4699999988079071
+      ],
+      "scale": 0.74
+    },
+    {
+      "name": "Depth_Staghorn_Linked_06_0",
+      "source": "Coral_Staghorn_Thicket_02",
+      "shared_mesh": true,
+      "world_translation": [
+        -2.738008499145508,
+        -14.781949996948242,
+        0.4099999964237213
+      ],
+      "scale": 0.83
+    },
+    {
+      "name": "Depth_Staghorn_Linked_07_0",
+      "source": "Coral_Staghorn_Thicket_04",
+      "shared_mesh": true,
+      "world_translation": [
+        11.845916748046875,
+        -7.620236396789551,
+        0.5299999713897705
+      ],
+      "scale": 0.9
+    },
+    {
+      "name": "Depth_Staghorn_Linked_08_0",
+      "source": "Coral_Staghorn_Thicket_16",
+      "shared_mesh": true,
+      "world_translation": [
+        -17.651145935058594,
+        -14.37004280090332,
+        0.3799999952316284
+      ],
+      "scale": 0.77
+    }
+  ],
+  "materials_changed": false,
+  "glb_bytes": 29104816
+}

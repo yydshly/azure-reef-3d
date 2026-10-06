@@ -1,0 +1,12 @@
+{
+  "glb_bytes": 29104816,
+  "geometry_binary_bytes": 22678292,
+  "original_meshes": 58,
+  "final_unique_meshes": 59,
+  "added_nodes": 13,
+  "all_original_node_names_retained": true,
+  "same_materials": true,
+  "same_embedded_image_sha256": true,
+  "all_linked_staghorn_reuse_original_mesh_indices": true,
+  "new_unique_mesh_vertices": 6912
+}

@@ -1,0 +1,68 @@
+{
+  "original": true,
+  "seed": 240601,
+  "generator": "generate_textures.py",
+  "normal_convention": "OpenGL tangent-space +Y",
+  "maps": {
+    "coral_normal": {
+      "size": [
+        1024,
+        1024
+      ],
+      "min": 4,
+      "max": 255,
+      "stddev": 61.4702883578636,
+      "sha256": "e4dae628a8db581e328d9db24439b75758b1078be76d3c3c7723e22b715e6e10"
+    },
+    "coral_roughness": {
+      "size": [
+        1024,
+        1024
+      ],
+      "min": 115,
+      "max": 225,
+      "stddev": 15.508084335027071,
+      "sha256": "16fbd7b29feaf98bad5479d43b5d56bc8a25b6fe5eb9596e35e853619c18364f"
+    },
+    "limestone_normal": {
+      "size": [
+        1024,
+        1024
+      ],
+      "min": 3,
+      "max": 255,
+      "stddev": 62.349239958580675,
+      "sha256": "8dd71f6be567f68002fc7b48fa4bd7c6da8e9f9799fe0a3bfb78b58592244cbe"
+    },
+    "limestone_roughness": {
+      "size": [
+        1024,
+        1024
+      ],
+      "min": 180,
+      "max": 242,
+      "stddev": 9.660472588134743,
+      "sha256": "dad36f51c139f1197e4bbcf09251b17b9f89b49a91494bcf20bd63bca498d52b"
+    },
+    "sand_normal": {
+      "size": [
+        1024,
+        1024
+      ],
+      "min": 39,
+      "max": 255,
+      "stddev": 61.27081884265514,
+      "sha256": "ed024e8a9ba831094f4accf291e3cb22f6c04d8e738e8e79244dc2d3c28e1057"
+    },
+    "sand_roughness": {
+      "size": [
+        1024,
+        1024
+      ],
+      "min": 181,
+      "max": 250,
+      "stddev": 8.11976008434909,
+      "sha256": "912fa197cad0ad7b4c65aa4327a23d41c35f60592e736ba9fcecbb46c3cd11e8"
+    }
+  }
+}

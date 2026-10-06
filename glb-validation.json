@@ -1,0 +1,54 @@
+{
+  "bytes": 28718912,
+  "meshes": 58,
+  "nodes": 62,
+  "triangles": 539250,
+  "embedded_images": 6,
+  "all_images_embedded": true,
+  "every_primitive_has_COLOR_0": true,
+  "pbr_maps": [
+    {
+      "material": "Sand | reference-led porous PBR",
+      "normal": {
+        "index": 0,
+        "scale": 0.3499999940395355
+      },
+      "roughness": {
+        "index": 1
+      }
+    },
+    {
+      "material": "Living coral.001",
+      "normal": null,
+      "roughness": null
+    },
+    {
+      "material": "Limestone | reference-led porous PBR",
+      "normal": {
+        "index": 2,
+        "scale": 0.699999988079071
+      },
+      "roughness": {
+        "index": 3
+      }
+    },
+    {
+      "material": "Coral | reference-led porous PBR",
+      "normal": {
+        "index": 4,
+        "scale": 0.47999998927116394
+      },
+      "roughness": {
+        "index": 5
+      }
+    }
+  ],
+  "fish_parent_names": [
+    "fish_01",
+    "fish_02",
+    "fish_03",
+    "fish_04"
+  ],
+  "removed_unsupported_nodes": true,
+  "sha256": "b99672d38425e17c2f475020f35d62a9529da6b5f17b6673deda3203e118f15b"
+}
