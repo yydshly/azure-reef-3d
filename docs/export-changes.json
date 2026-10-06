@@ -81,6 +81,9 @@
     {
       "change": "Immersive scene, restrained water caustics, safer sampled fish routes, portable deterministic model patches, final packed editable, preserved historical offline-lighting fixture; visual goal remains open.",
       "source": "adcab74aed75f8186f73b94b5f55eaa9a19171e3"
+    },
+    {
+      "change": "Added compact geometry-free offline evidence fixture and portable renderer; explicitly corrected offline caustic boundary; normalized audit texture paths."
     }
   ],
   "added_inputs": [

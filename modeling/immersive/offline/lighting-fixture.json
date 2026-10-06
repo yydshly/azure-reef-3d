@@ -1,0 +1,54 @@
+{
+  "bytes": 6472917,
+  "objects": [
+    {
+      "name": "Blue water fill",
+      "type": "LIGHT"
+    },
+    {
+      "name": "Offline evidence camera",
+      "type": "CAMERA"
+    },
+    {
+      "name": "Surface sunlight",
+      "type": "LIGHT"
+    }
+  ],
+  "meshes": 0,
+  "materials": [
+    "Coral | reference-led porous PBR",
+    "Limestone | reference-led porous PBR",
+    "Living coral.001",
+    "Sand | reference-led porous PBR"
+  ],
+  "images": [
+    {
+      "name": "coral_normal.001",
+      "packed": true
+    },
+    {
+      "name": "coral_roughness.001",
+      "packed": true
+    },
+    {
+      "name": "limestone_normal.001",
+      "packed": true
+    },
+    {
+      "name": "limestone_roughness.001",
+      "packed": true
+    },
+    {
+      "name": "Render Result",
+      "packed": false
+    },
+    {
+      "name": "sand_normal.001",
+      "packed": true
+    },
+    {
+      "name": "sand_roughness.001",
+      "packed": true
+    }
+  ]
+}

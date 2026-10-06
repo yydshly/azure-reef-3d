@@ -138,3 +138,15 @@ A new original wave-slope caustic texture and restrained runtime light modulatio
 Fish routes were rebuilt with denser body-footprint sampling after the moved thickets exposed a clearance issue. QA now samples full route periods and four camera positions, including a low lateral orbit view. These checks demonstrate sampled clearance/occlusion, not continuous collision safety or validated biological behavior.
 
 The first-version visual target is still open: the corridor and layered depth are clearer, but regular branch morphology, simple distant transitions, and unverified realtime water appearance prevent claiming photorealistic or completed immersion. See ITERATION_LOG.md for rationale and evidence/immersive for numerical proof.
+
+## Offline evidence clarification and reproduction
+
+The published offline comparison images do **not** show the new projected caustic effect. They show the actual assigned PBR materials, saved lighting and depth compositor. Unassigned Blender material variants contained the caustic texture but were not rendered. The browser shader implementation remains structurally checked, not GPU-verified.
+
+A compact camera/light/material fixture and portable renderer now reproduce those actual offline images. See `modeling/immersive/offline/README.md` and its material-assignment audit. From this repository root:
+
+```sh
+blender -b -t 12 --python modeling/immersive/offline/render_evidence.py -- modeling/immersive/offline/lighting-fixture.blend source-model.glb artifacts/immersive-offline
+```
+
+The separately verified reproduction differs only at 27 opening-view pixels and 56 reverse-view pixels out of 784,000, with sparse numerical differences documented. These remain offline geometry/lighting evidence, not measurements of runtime water animation.

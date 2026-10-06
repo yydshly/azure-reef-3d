@@ -55,3 +55,7 @@ Decision: publish this checked improvement and retain the first-version visual g
 Final geometry SHA-256: `deac6a8e6d2173fc649023b763264f3b195fc5c084bf5a2c58c3ca76c4abcb0e`. The last reverse-view check caught rectangular support edges; the new support perimeter was lowered below sand and re-rendered before release. All eight sampled basal attachment sets hit their corresponding limestone supports, with positive gaps below 8mm. Original core bytes and anchors remain preserved.
 
 The portable three-step patch chain was rerun independently from the preceding baseline and reproduced the final GLB byte-for-byte. Static deployment keeps its largest file, reef.bin, at 24,041,060 bytes. Final checks also retain explicit WebGL failure handling without a misleading interactive-2D substitution.
+
+## Evidence boundary correction
+
+Material-assignment audit established that the accepted offline comparison images contain no projected caustic modulation. Unused suffixed material variants had the water texture; actual rendered materials did not. No image was replaced to conceal the discrepancy. Browser water-light code has structural checks only. The compact, geometry-free fixture under modeling/immersive/offline reproduces the pixels actually inspected and records the numerical comparison.

@@ -1,0 +1,32 @@
+{
+  "opening": {
+    "reference_sha256": "ac0a69b7f1797c63fc14c987d3d592344b3984082ed63fbc57fc59a0f5eb85fe",
+    "reproduced_sha256": "b0fb710f19f7c4d7344a7e66aa7fecd7ee536c0a5879918760580847dd4f6c86",
+    "dimensions": [
+      700,
+      1120,
+      4
+    ],
+    "mean_absolute_channel_error_0_to_255": 1.1798469387755103e-05,
+    "maximum_channel_error_0_to_255": 3,
+    "changed_pixels": 27,
+    "total_pixels": 784000,
+    "visually_inspected": true,
+    "assessment": "Visually indistinguishable; tiny sparse numeric differences, not pixel-identical"
+  },
+  "reverse": {
+    "reference_sha256": "3eb29aaaebb31243108c66299d47cecc7d198fd0833f47710b67b79ce0e9479b",
+    "reproduced_sha256": "62e56d79ce07fe8607239756f48d3eb4143cf6b62d707d390cb2f9056f6b991a",
+    "dimensions": [
+      700,
+      1120,
+      4
+    ],
+    "mean_absolute_channel_error_0_to_255": 2.5191326530612245e-05,
+    "maximum_channel_error_0_to_255": 5,
+    "changed_pixels": 56,
+    "total_pixels": 784000,
+    "visually_inspected": true,
+    "assessment": "Visually indistinguishable; tiny sparse numeric differences, not pixel-identical"
+  }
+}

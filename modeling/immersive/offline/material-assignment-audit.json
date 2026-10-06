@@ -1,0 +1,239 @@
+[
+  {
+    "material": "Coral | reference-led porous PBR",
+    "assigned_to_mesh": true,
+    "texture_nodes": [
+      {
+        "node": "Image Texture",
+        "image": "coral_roughness.001",
+        "path": ""
+      },
+      {
+        "node": "Image Texture.001",
+        "image": "coral_normal.001",
+        "path": ""
+      }
+    ],
+    "has_caustics_image": false,
+    "node_types": [
+      "ShaderNodeBsdfPrincipled",
+      "ShaderNodeOutputMaterial",
+      "ShaderNodeVertexColor",
+      "ShaderNodeMath",
+      "ShaderNodeSeparateColor",
+      "ShaderNodeTexImage",
+      "ShaderNodeNormalMap",
+      "ShaderNodeTexImage"
+    ]
+  },
+  {
+    "material": "Coral | reference-led porous PBR.001",
+    "assigned_to_mesh": false,
+    "texture_nodes": [
+      {
+        "node": "Image Texture",
+        "image": "coral_roughness",
+        "path": ""
+      },
+      {
+        "node": "Image Texture.001",
+        "image": "coral_normal",
+        "path": ""
+      },
+      {
+        "node": "Image Texture.002",
+        "image": "water-caustics.png",
+        "path": "dist/assets/water-caustics.png"
+      }
+    ],
+    "has_caustics_image": true,
+    "node_types": [
+      "ShaderNodeBsdfPrincipled",
+      "ShaderNodeOutputMaterial",
+      "ShaderNodeVertexColor",
+      "ShaderNodeMath",
+      "ShaderNodeSeparateColor",
+      "ShaderNodeTexImage",
+      "ShaderNodeNormalMap",
+      "ShaderNodeTexImage",
+      "ShaderNodeNewGeometry",
+      "ShaderNodeSeparateXYZ",
+      "ShaderNodeCombineXYZ",
+      "ShaderNodeMath",
+      "ShaderNodeVectorMath",
+      "ShaderNodeTexImage",
+      "ShaderNodeMath",
+      "ShaderNodeMixRGB"
+    ]
+  },
+  {
+    "material": "Limestone | reference-led porous PBR",
+    "assigned_to_mesh": true,
+    "texture_nodes": [
+      {
+        "node": "Image Texture",
+        "image": "limestone_roughness.001",
+        "path": ""
+      },
+      {
+        "node": "Image Texture.001",
+        "image": "limestone_normal.001",
+        "path": ""
+      }
+    ],
+    "has_caustics_image": false,
+    "node_types": [
+      "ShaderNodeBsdfPrincipled",
+      "ShaderNodeOutputMaterial",
+      "ShaderNodeVertexColor",
+      "ShaderNodeMath",
+      "ShaderNodeSeparateColor",
+      "ShaderNodeTexImage",
+      "ShaderNodeNormalMap",
+      "ShaderNodeTexImage"
+    ]
+  },
+  {
+    "material": "Limestone | reference-led porous PBR.001",
+    "assigned_to_mesh": false,
+    "texture_nodes": [
+      {
+        "node": "Image Texture",
+        "image": "limestone_roughness",
+        "path": ""
+      },
+      {
+        "node": "Image Texture.001",
+        "image": "limestone_normal",
+        "path": ""
+      },
+      {
+        "node": "Image Texture.002",
+        "image": "water-caustics.png",
+        "path": "dist/assets/water-caustics.png"
+      }
+    ],
+    "has_caustics_image": true,
+    "node_types": [
+      "ShaderNodeBsdfPrincipled",
+      "ShaderNodeOutputMaterial",
+      "ShaderNodeVertexColor",
+      "ShaderNodeMath",
+      "ShaderNodeSeparateColor",
+      "ShaderNodeTexImage",
+      "ShaderNodeNormalMap",
+      "ShaderNodeTexImage",
+      "ShaderNodeNewGeometry",
+      "ShaderNodeSeparateXYZ",
+      "ShaderNodeCombineXYZ",
+      "ShaderNodeMath",
+      "ShaderNodeVectorMath",
+      "ShaderNodeTexImage",
+      "ShaderNodeMath",
+      "ShaderNodeMixRGB"
+    ]
+  },
+  {
+    "material": "Living coral.001",
+    "assigned_to_mesh": true,
+    "texture_nodes": [],
+    "has_caustics_image": false,
+    "node_types": [
+      "ShaderNodeBsdfPrincipled",
+      "ShaderNodeOutputMaterial",
+      "ShaderNodeVertexColor"
+    ]
+  },
+  {
+    "material": "Living coral.002",
+    "assigned_to_mesh": false,
+    "texture_nodes": [
+      {
+        "node": "Image Texture",
+        "image": "water-caustics.png",
+        "path": "dist/assets/water-caustics.png"
+      }
+    ],
+    "has_caustics_image": true,
+    "node_types": [
+      "ShaderNodeBsdfPrincipled",
+      "ShaderNodeOutputMaterial",
+      "ShaderNodeVertexColor",
+      "ShaderNodeNewGeometry",
+      "ShaderNodeSeparateXYZ",
+      "ShaderNodeCombineXYZ",
+      "ShaderNodeMath",
+      "ShaderNodeVectorMath",
+      "ShaderNodeTexImage",
+      "ShaderNodeMath",
+      "ShaderNodeMixRGB"
+    ]
+  },
+  {
+    "material": "Sand | reference-led porous PBR",
+    "assigned_to_mesh": true,
+    "texture_nodes": [
+      {
+        "node": "Image Texture",
+        "image": "sand_roughness.001",
+        "path": ""
+      },
+      {
+        "node": "Image Texture.001",
+        "image": "sand_normal.001",
+        "path": ""
+      }
+    ],
+    "has_caustics_image": false,
+    "node_types": [
+      "ShaderNodeBsdfPrincipled",
+      "ShaderNodeOutputMaterial",
+      "ShaderNodeVertexColor",
+      "ShaderNodeMath",
+      "ShaderNodeSeparateColor",
+      "ShaderNodeTexImage",
+      "ShaderNodeNormalMap",
+      "ShaderNodeTexImage"
+    ]
+  },
+  {
+    "material": "Sand | reference-led porous PBR.001",
+    "assigned_to_mesh": false,
+    "texture_nodes": [
+      {
+        "node": "Image Texture",
+        "image": "sand_roughness",
+        "path": ""
+      },
+      {
+        "node": "Image Texture.001",
+        "image": "sand_normal",
+        "path": ""
+      },
+      {
+        "node": "Image Texture.002",
+        "image": "water-caustics.png",
+        "path": "dist/assets/water-caustics.png"
+      }
+    ],
+    "has_caustics_image": true,
+    "node_types": [
+      "ShaderNodeBsdfPrincipled",
+      "ShaderNodeOutputMaterial",
+      "ShaderNodeVertexColor",
+      "ShaderNodeMath",
+      "ShaderNodeSeparateColor",
+      "ShaderNodeTexImage",
+      "ShaderNodeNormalMap",
+      "ShaderNodeTexImage",
+      "ShaderNodeNewGeometry",
+      "ShaderNodeSeparateXYZ",
+      "ShaderNodeCombineXYZ",
+      "ShaderNodeMath",
+      "ShaderNodeVectorMath",
+      "ShaderNodeTexImage",
+      "ShaderNodeMath",
+      "ShaderNodeMixRGB"
+    ]
+  }
+]

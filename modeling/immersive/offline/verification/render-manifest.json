@@ -1,0 +1,47 @@
+{
+  "blender_version": "4.3.2",
+  "input_glb_sha256": "deac6a8e6d2173fc649023b763264f3b195fc5c084bf5a2c58c3ca76c4abcb0e",
+  "lighting_fixture_sha256": "f4ca30b9338ef08eeda09af95d94cee39508aa2eceb4eeaf9dd074bef58af55d",
+  "render_engine": "CYCLES",
+  "samples": 24,
+  "denoising": false,
+  "resolution": [
+    1120,
+    700
+  ],
+  "materials": {
+    "Sand | reference-led porous PBR": "Sand | reference-led porous PBR",
+    "Living coral": "Living coral.001",
+    "Limestone | reference-led porous PBR": "Limestone | reference-led porous PBR",
+    "Coral | reference-led porous PBR": "Coral | reference-led porous PBR"
+  },
+  "views": [
+    [
+      "opening",
+      [
+        1.5,
+        -4.8,
+        1.6
+      ],
+      [
+        -0.5,
+        6,
+        0.8
+      ]
+    ],
+    [
+      "reverse",
+      [
+        -0.1,
+        7.8,
+        1.6
+      ],
+      [
+        1.1,
+        -3.8,
+        0.65
+      ]
+    ]
+  ],
+  "disclosure": "Offline Cycles reimport renders, not browser captures. Fish use matched static GLB poses; runtime movement/caustics are not measured here."
+}
