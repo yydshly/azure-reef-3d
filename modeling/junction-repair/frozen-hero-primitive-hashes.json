@@ -1,0 +1,45 @@
+{
+  "frozen_candidate_sha256": "704efe2c4a948674f64b0b93d4aa4423dee53f94e0cef737ebca2aeff84927a6",
+  "primitive": {
+    "POSITION": {
+      "sha256": "82703c2df04be723fd6521490d19d86be258d4f81ef4e4e2dbb652f7e3d5e91d",
+      "shape": [
+        17479,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "NORMAL": {
+      "sha256": "86e3705baa9e64a0871402d183ce1ae77fb5c7b28127737b04481acfcda5e863",
+      "shape": [
+        17479,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "TEXCOORD_0": {
+      "sha256": "7401642eadd429d8d208d969d2a3d34900cee2345735591e6ae90ee52aca9615",
+      "shape": [
+        17479,
+        2
+      ],
+      "dtype": "float32"
+    },
+    "COLOR_0": {
+      "sha256": "b6183f816158c3a2108ff1e1f9fb3f488e4dc68842d6ec74941b9430c3f8c40e",
+      "shape": [
+        17479,
+        3
+      ],
+      "dtype": "float32"
+    },
+    "indices": {
+      "sha256": "56bdf0777477c749c91919fa9fb3d039518d4a0f38e82f2f442e5eef7a41357e",
+      "shape": [
+        60264,
+        1
+      ],
+      "dtype": "uint16"
+    }
+  }
+}

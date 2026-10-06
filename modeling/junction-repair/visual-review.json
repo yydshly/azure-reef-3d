@@ -1,0 +1,20 @@
+{
+  "candidate_sha256": "619806ff9fbe2911d7a805ba2ef94019adea7e0538b6132bb9b7734e7ab06c54",
+  "views_inspected": [
+    "after/opening.png",
+    "after/reverse.png",
+    "after/close.png",
+    "after/close-reverse.png"
+  ],
+  "comparison": "Original frozen before/ views use identical cameras, fixture,24 Cycles samples,1120x700,denoising disabled",
+  "result": "Narrow continuation-joint improvement with composition, silhouettes, density, tips and substrate placement preserved; no visible wide-view regression",
+  "morphology_basis": "Original exact-replayed22 thickets, not redesigned colonies",
+  "limits": [
+    "Offline renders, not browser captures",
+    "No caustics or runtime animation checked by this worker",
+    "No ecological validation or photorealism claim",
+    "Side-shoot intersections remain original independent overlap topology"
+  ],
+  "owner_acceptance": "Parent accepted narrow correction and separately reported all guide/motion checks passed for a losslessly pruned deployment whose loaded attribute/index/world-transform bytes match the authoritative candidate",
+  "frozen": true
+}

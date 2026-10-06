@@ -1,5 +1,5 @@
 {
-  "source_commit": "adcab74aed75f8186f73b94b5f55eaa9a19171e3",
+  "source_commit": "084c82e9a2f5a9df2582ecfcfb025ec83833dc2e",
   "previous_export_preserved": "a9dfa703a53077f3a5f82f233cafb9ea65d37dd9",
   "dist_byte_identical": true,
   "published_checkout_modified": false,
@@ -84,6 +84,10 @@
     },
     {
       "change": "Added compact geometry-free offline evidence fixture and portable renderer; explicitly corrected offline caustic boundary; normalized audit texture paths."
+    },
+    {
+      "change": "Repair accepted original continuation joints, preserve thicket layouts, losslessly compact unused source storage, version all runtime model dependencies for cache safety; failed intermediate release never published.",
+      "source": "084c82e9a2f5a9df2582ecfcfb025ec83833dc2e"
     }
   ],
   "added_inputs": [

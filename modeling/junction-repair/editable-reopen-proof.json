@@ -1,0 +1,14 @@
+{
+  "blend_sha256": "f34c1efff534e12676dfc183a97bbbf0437aed17e796ffc902924d316cfb49c6",
+  "reopen_pass": true,
+  "objects": 91,
+  "mesh_objects": 87,
+  "all22_original_thickets": true,
+  "fish_present": true,
+  "sand_present": true,
+  "camera_and_light_count": 0,
+  "world": null,
+  "compositor_enabled": false,
+  "all_used_file_images_packed": true,
+  "geometry_triangles_unique": 581780
+}

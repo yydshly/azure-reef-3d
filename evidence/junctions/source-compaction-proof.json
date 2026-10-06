@@ -1,0 +1,10 @@
+{
+  "input_sha256": "619806ff9fbe2911d7a805ba2ef94019adea7e0538b6132bb9b7734e7ab06c54",
+  "output_sha256": "ce6a7bc4d005ecd794d378c792d5d05d79f4683b10a2d3446333e6053ead4d21",
+  "input_bytes": 47059408,
+  "output_bytes": 28962072,
+  "kept_buffer_views": 247,
+  "removed_unreferenced_views": 110,
+  "all_retained_view_bytes_identical": true,
+  "method": "Only unreachable mesh/accessor storage removed; scene nodes, transforms, materials, images and live attribute/index bytes preserved."
+}

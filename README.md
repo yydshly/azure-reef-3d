@@ -14,7 +14,7 @@
 
 A static, genuine-3D reef scene with a five-stop Chinese beginner guide. The guide connects camera positions and visible labels to explanations of reef context, sand/hardbottom, coral animals, generic fish, and light/water. Sources and modeling limits are available in the interface.
 
-This export includes source commit `adcab74aed75f8186f73b94b5f55eaa9a19171e3`. Every file under `dist/` is byte-identical to that scene snapshot; see `docs/source-baseline-sha256.json` and `docs/export-changes.json`.
+This export includes source commit `084c82e9a2f5a9df2582ecfcfb025ec83833dc2e`. Every file under `dist/` is byte-identical to that scene snapshot; see `docs/source-baseline-sha256.json` and `docs/export-changes.json`.
 
 ## Run the exact snapshot
 
@@ -125,9 +125,9 @@ Nine closed low hardbottom rises and twelve linked instances of existing staghor
 
 Source revision: `515811ecbb536d5e78a5aa4010d9ef789672cfb7`.
 
-## Current exact model reproduction
+## Historical immersive model reproduction
 
-Use the deterministic three-stage chain in `modeling/immersive/README.md` for the current immersive model. The historical pipeline above produces the earlier depth revision. The final editable Blender file contains packed geometry/materials; runtime water lighting remains in JavaScript. `modeling/inputs/offline-lighting.blend` preserves the older offline camera/light rig for historical render scripts. Those legacy views do not reproduce the new evidence camera/lighting exactly.
+Use the deterministic three-stage chain in `modeling/immersive/README.md` for the preceding immersive model. The historical pipeline above produces the earlier depth revision. The final editable Blender file contains packed geometry/materials; runtime water lighting remains in JavaScript. `modeling/inputs/offline-lighting.blend` preserves the older offline camera/light rig for historical render scripts. Those legacy views do not reproduce the new evidence camera/lighting exactly.
 
 ## Immersive view and water-light pass
 
@@ -150,3 +150,17 @@ blender -b -t 12 --python modeling/immersive/offline/render_evidence.py -- model
 ```
 
 The separately verified reproduction differs only at 27 opening-view pixels and 56 reverse-view pixels out of 784,000, with sparse numerical differences documented. These remain offline geometry/lighting evidence, not measurements of runtime water animation.
+
+## Original-thicket junction correction
+
+Two rebuilt single-colony prototypes were rejected: they replaced a multi-stem thicket with an unsupported sparse/comb-like structure. The accepted correction instead replays all 22 original seeded thickets exactly, preserves their axes, terminal tips, independent basal shoots, envelopes, node transforms and materials, and repairs only recorded nonterminal continuation joins. Separate roots and incidental crossings are not welded together. This fixes a known generator artifact without claiming a reconstructed ecological growth process.
+
+The deterministic repair first produces an archival GLB with the earlier authoring bytes. compact_source_model.py then removes only unreferenced mesh/accessor storage for the distributed source; prior baselines and checksums retain auditability. Deployment externalization compares every active attribute/index byte and world transform to the authoritative source, and can split output into bounded buffers if needed. No active geometry is simplified or quantized by this step.
+
+Offline evidence contains lighting, fog and authored PBR shading, but no projected caustic modulation: the Blender material remapping selected original non-caustic materials. The browser caustic shader remains a separate implementation that has only structural tests, not actual GPU-render verification. The clean editable model remains separate from the offline lighting fixture.
+
+Model packages now have immutable content/version URLs. Pages responses were observed with a 600-second cache lifetime, so glTF and all of its binary/texture dependencies move together; the previous fixed URLs remain valid. Old versioned directories must not be overwritten while cached clients may still reference them. The version identity includes the source GLB and packing implementation.
+
+## Current exact model reproduction
+
+Use `modeling/junction-repair/README.md` for the accepted correction and verified deterministic rebuild, then run `compact_source_model.py` as documented to remove only unused source storage. The preceding GLB is in this repository’s history; earlier pipelines and inputs remain preserved. `dist/model-version.js` selects one immutable model directory containing all glTF dependencies. Legacy fixed paths are retained for cached clients.

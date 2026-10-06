@@ -1,0 +1,28 @@
+{
+  "candidate.glb": {
+    "bytes": 47059408,
+    "sha256": "619806ff9fbe2911d7a805ba2ef94019adea7e0538b6132bb9b7734e7ab06c54"
+  },
+  "full-scene-editable.blend": {
+    "bytes": 27436033,
+    "sha256": "f34c1efff534e12676dfc183a97bbbf0437aed17e796ffc902924d316cfb49c6"
+  },
+  "replacement-thickets.glb": {
+    "bytes": 18465220,
+    "sha256": "03c25e3217ead925070bcb1a7827abe46e29304b83452b3cbcfa13cd932fc7a7"
+  },
+  "thickets-editable.blend": {
+    "bytes": 28644699,
+    "sha256": "9756eb044daca12cbbe6047dd6ce90bed4d3344ba68c01cf99c9005964a91f24"
+  },
+  "baseline.glb": {
+    "bytes": 30471852,
+    "sha256": "deac6a8e6d2173fc649023b763264f3b195fc5c084bf5a2c58c3ca76c4abcb0e"
+  },
+  "lighting-fixture.blend": {
+    "bytes": 6472917,
+    "sha256": "f4ca30b9338ef08eeda09af95d94cee39508aa2eceb4eeaf9dd074bef58af55d"
+  },
+  "baseline_prior_git_path": "62473dab5d10d1c6673fd962a8dec224d3733bdc:source-model.glb",
+  "status": "Frozen asset-only output; owner accepted narrow geometry and verified runtime guide/fish checks; no deployment performed by this worker"
+}

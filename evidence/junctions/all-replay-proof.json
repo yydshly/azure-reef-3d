@@ -1,0 +1,312 @@
+{
+  "source_sha256": "deac6a8e6d2173fc649023b763264f3b195fc5c084bf5a2c58c3ca76c4abcb0e",
+  "all22_exact": true,
+  "meshes": [
+    {
+      "name": "Coral_Staghorn_Thicket_00",
+      "mesh_index": 36,
+      "export_vertices": 15176,
+      "native_vertices": 8610,
+      "exact_position_set_match": true,
+      "missing_expected": 0,
+      "extra_actual": 0,
+      "height_scale": 1.0,
+      "referencing_nodes": [
+        "Coral_Staghorn_Thicket_00",
+        "Depth_Staghorn_Linked_02_0"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_01",
+      "mesh_index": 37,
+      "export_vertices": 19163,
+      "native_vertices": 10850,
+      "exact_position_set_match": true,
+      "missing_expected": 0,
+      "extra_actual": 0,
+      "height_scale": 1.0,
+      "referencing_nodes": [
+        "Coral_Staghorn_Thicket_01"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_02",
+      "mesh_index": 38,
+      "export_vertices": 14109,
+      "native_vertices": 8050,
+      "exact_position_set_match": true,
+      "missing_expected": 0,
+      "extra_actual": 0,
+      "height_scale": 1.0,
+      "referencing_nodes": [
+        "Coral_Staghorn_Thicket_02",
+        "Depth_Staghorn_Linked_06_0"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_03",
+      "mesh_index": 39,
+      "export_vertices": 19023,
+      "native_vertices": 10850,
+      "exact_position_set_match": true,
+      "missing_expected": 0,
+      "extra_actual": 0,
+      "height_scale": 0.8844015849566649,
+      "referencing_nodes": [
+        "Coral_Staghorn_Thicket_03",
+        "Corridor_Distant_Linked_02"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_04",
+      "mesh_index": 40,
+      "export_vertices": 13647,
+      "native_vertices": 7770,
+      "exact_position_set_match": true,
+      "missing_expected": 0,
+      "extra_actual": 0,
+      "height_scale": 1.0,
+      "referencing_nodes": [
+        "Coral_Staghorn_Thicket_04",
+        "Depth_Staghorn_Linked_07_0",
+        "Corridor_Distant_Linked_07"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_05",
+      "mesh_index": 41,
+      "export_vertices": 14190,
+      "native_vertices": 8050,
+      "exact_position_set_match": true,
+      "missing_expected": 0,
+      "extra_actual": 0,
+      "height_scale": 1.0,
+      "referencing_nodes": [
+        "Coral_Staghorn_Thicket_05",
+        "Depth_Staghorn_Linked_04_0"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_06",
+      "mesh_index": 42,
+      "export_vertices": 18995,
+      "native_vertices": 10780,
+      "exact_position_set_match": true,
+      "missing_expected": 0,
+      "extra_actual": 0,
+      "height_scale": 1.0,
+      "referencing_nodes": [
+        "Coral_Staghorn_Thicket_06"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_07",
+      "mesh_index": 43,
+      "export_vertices": 15854,
+      "native_vertices": 9030,
+      "exact_position_set_match": true,
+      "missing_expected": 0,
+      "extra_actual": 0,
+      "height_scale": 0.9977009963987129,
+      "referencing_nodes": [
+        "Coral_Staghorn_Thicket_07",
+        "Corridor_Distant_Linked_05"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_08",
+      "mesh_index": 44,
+      "export_vertices": 12254,
+      "native_vertices": 7000,
+      "exact_position_set_match": true,
+      "missing_expected": 0,
+      "extra_actual": 0,
+      "height_scale": 1.0,
+      "referencing_nodes": [
+        "Coral_Staghorn_Thicket_08",
+        "Depth_Staghorn_Linked_01_0"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_09",
+      "mesh_index": 45,
+      "export_vertices": 21215,
+      "native_vertices": 12040,
+      "exact_position_set_match": true,
+      "missing_expected": 0,
+      "extra_actual": 0,
+      "height_scale": 1.0,
+      "referencing_nodes": [
+        "Coral_Staghorn_Thicket_09"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_10",
+      "mesh_index": 46,
+      "export_vertices": 15314,
+      "native_vertices": 8680,
+      "exact_position_set_match": true,
+      "missing_expected": 0,
+      "extra_actual": 0,
+      "height_scale": 1.0,
+      "referencing_nodes": [
+        "Coral_Staghorn_Thicket_10"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_11",
+      "mesh_index": 47,
+      "export_vertices": 20934,
+      "native_vertices": 11970,
+      "exact_position_set_match": true,
+      "missing_expected": 0,
+      "extra_actual": 0,
+      "height_scale": 1.0,
+      "referencing_nodes": [
+        "Coral_Staghorn_Thicket_11",
+        "Depth_Staghorn_Linked_01_1",
+        "Corridor_Distant_Linked_03"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_12",
+      "mesh_index": 48,
+      "export_vertices": 13678,
+      "native_vertices": 7770,
+      "exact_position_set_match": true,
+      "missing_expected": 0,
+      "extra_actual": 0,
+      "height_scale": 1.0,
+      "referencing_nodes": [
+        "Coral_Staghorn_Thicket_12",
+        "Depth_Staghorn_Linked_03_0",
+        "Corridor_Distant_Linked_06"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_13",
+      "mesh_index": 49,
+      "export_vertices": 14599,
+      "native_vertices": 8330,
+      "exact_position_set_match": true,
+      "missing_expected": 0,
+      "extra_actual": 0,
+      "height_scale": 1.0,
+      "referencing_nodes": [
+        "Coral_Staghorn_Thicket_13",
+        "Corridor_Distant_Linked_00"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_14",
+      "mesh_index": 50,
+      "export_vertices": 12031,
+      "native_vertices": 6790,
+      "exact_position_set_match": true,
+      "missing_expected": 0,
+      "extra_actual": 0,
+      "height_scale": 1.0,
+      "referencing_nodes": [
+        "Coral_Staghorn_Thicket_14",
+        "Depth_Staghorn_Linked_00_0"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_15",
+      "mesh_index": 51,
+      "export_vertices": 14640,
+      "native_vertices": 8330,
+      "exact_position_set_match": true,
+      "missing_expected": 0,
+      "extra_actual": 0,
+      "height_scale": 1.0,
+      "referencing_nodes": [
+        "Coral_Staghorn_Thicket_15",
+        "Depth_Staghorn_Linked_03_1",
+        "Corridor_Distant_Linked_04"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_16",
+      "mesh_index": 52,
+      "export_vertices": 15453,
+      "native_vertices": 8750,
+      "exact_position_set_match": true,
+      "missing_expected": 0,
+      "extra_actual": 0,
+      "height_scale": 1.0,
+      "referencing_nodes": [
+        "Coral_Staghorn_Thicket_16",
+        "Depth_Staghorn_Linked_08_0"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_17",
+      "mesh_index": 53,
+      "export_vertices": 16341,
+      "native_vertices": 9310,
+      "exact_position_set_match": true,
+      "missing_expected": 0,
+      "extra_actual": 0,
+      "height_scale": 1.0,
+      "referencing_nodes": [
+        "Coral_Staghorn_Thicket_17",
+        "Depth_Staghorn_Linked_00_1",
+        "Depth_Staghorn_Linked_05_0"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_18",
+      "mesh_index": 54,
+      "export_vertices": 18856,
+      "native_vertices": 10710,
+      "exact_position_set_match": true,
+      "missing_expected": 0,
+      "extra_actual": 0,
+      "height_scale": 1.0,
+      "referencing_nodes": [
+        "Coral_Staghorn_Thicket_18",
+        "Corridor_Distant_Linked_01"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_19",
+      "mesh_index": 55,
+      "export_vertices": 17596,
+      "native_vertices": 10010,
+      "exact_position_set_match": true,
+      "missing_expected": 0,
+      "extra_actual": 0,
+      "height_scale": 1.0,
+      "referencing_nodes": [
+        "Coral_Staghorn_Thicket_19"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_20",
+      "mesh_index": 56,
+      "export_vertices": 18698,
+      "native_vertices": 10640,
+      "exact_position_set_match": true,
+      "missing_expected": 0,
+      "extra_actual": 0,
+      "height_scale": 0.9929430861126195,
+      "referencing_nodes": [
+        "Coral_Staghorn_Thicket_20"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_21",
+      "mesh_index": 57,
+      "export_vertices": 15324,
+      "native_vertices": 8750,
+      "exact_position_set_match": true,
+      "missing_expected": 0,
+      "extra_actual": 0,
+      "height_scale": 1.0,
+      "referencing_nodes": [
+        "Coral_Staghorn_Thicket_21"
+      ]
+    }
+  ]
+}

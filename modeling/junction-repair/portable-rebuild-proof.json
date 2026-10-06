@@ -1,0 +1,9 @@
+{
+  "frozen_candidate_sha256": "619806ff9fbe2911d7a805ba2ef94019adea7e0538b6132bb9b7734e7ab06c54",
+  "rebuilt_candidate_sha256": "619806ff9fbe2911d7a805ba2ef94019adea7e0538b6132bb9b7734e7ab06c54",
+  "exact_whole_glb_reproduction": true,
+  "baseline_sha256": "deac6a8e6d2173fc649023b763264f3b195fc5c084bf5a2c58c3ca76c4abcb0e",
+  "minimal_recipe_sha256": "10d4025f620087d16c7546e3802a8ab3ba94673cec2ebad2c81bc8cbe850ce50",
+  "rebuild_folder": "rebuild-check",
+  "scope": "Separate-folder full22 replay, correction, GLB export and append-only patch using the minimal geometry-only recipe. Frozen candidate untouched."
+}

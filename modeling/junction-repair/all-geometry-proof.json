@@ -1,0 +1,5556 @@
+{
+  "source_sha256": "deac6a8e6d2173fc649023b763264f3b195fc5c084bf5a2c58c3ca76c4abcb0e",
+  "mesh_count": 22,
+  "joints_repaired": 1155,
+  "triangles": 376056,
+  "all_original_axes_tips_bases_colors_retained": true,
+  "all_envelopes_exactly_unchanged": true,
+  "all_native_boundary_nonmanifold_zero": true,
+  "meshes": [
+    {
+      "name": "Coral_Staghorn_Thicket_00",
+      "source_tubes": 123,
+      "basal_shoots": 16,
+      "terminal_segments": 74,
+      "joints_corrected": 49,
+      "changed_vertices": 490,
+      "triangles": 15944,
+      "height_scale_preserved": 1.0,
+      "all_terminal_tips_and_basal_roots_unchanged": true,
+      "bbox_before": [
+        [
+          -5.45406436920166,
+          -1.8776254653930664,
+          -0.01848790980875492
+        ],
+        [
+          -3.571734666824341,
+          0.00011587375774979591,
+          1.0043666362762451
+        ]
+      ],
+      "bbox_after": [
+        [
+          -5.45406436920166,
+          -1.8776254653930664,
+          -0.01848790980875492
+        ],
+        [
+          -3.571734666824341,
+          0.00011587375774979591,
+          1.0043666362762451
+        ]
+      ],
+      "joints": [
+        {
+          "parent": 0,
+          "continuation_child": 1
+        },
+        {
+          "parent": 1,
+          "continuation_child": 2
+        },
+        {
+          "parent": 4,
+          "continuation_child": 5
+        },
+        {
+          "parent": 7,
+          "continuation_child": 8
+        },
+        {
+          "parent": 8,
+          "continuation_child": 9
+        },
+        {
+          "parent": 11,
+          "continuation_child": 12
+        },
+        {
+          "parent": 14,
+          "continuation_child": 15
+        },
+        {
+          "parent": 15,
+          "continuation_child": 16
+        },
+        {
+          "parent": 18,
+          "continuation_child": 19
+        },
+        {
+          "parent": 21,
+          "continuation_child": 22
+        },
+        {
+          "parent": 22,
+          "continuation_child": 23
+        },
+        {
+          "parent": 25,
+          "continuation_child": 26
+        },
+        {
+          "parent": 28,
+          "continuation_child": 29
+        },
+        {
+          "parent": 29,
+          "continuation_child": 30
+        },
+        {
+          "parent": 33,
+          "continuation_child": 34
+        },
+        {
+          "parent": 36,
+          "continuation_child": 37
+        },
+        {
+          "parent": 37,
+          "continuation_child": 38
+        },
+        {
+          "parent": 41,
+          "continuation_child": 42
+        },
+        {
+          "parent": 45,
+          "continuation_child": 46
+        },
+        {
+          "parent": 48,
+          "continuation_child": 49
+        },
+        {
+          "parent": 49,
+          "continuation_child": 50
+        },
+        {
+          "parent": 52,
+          "continuation_child": 53
+        },
+        {
+          "parent": 55,
+          "continuation_child": 56
+        },
+        {
+          "parent": 56,
+          "continuation_child": 57
+        },
+        {
+          "parent": 59,
+          "continuation_child": 60
+        },
+        {
+          "parent": 62,
+          "continuation_child": 63
+        },
+        {
+          "parent": 63,
+          "continuation_child": 64
+        },
+        {
+          "parent": 66,
+          "continuation_child": 67
+        },
+        {
+          "parent": 70,
+          "continuation_child": 71
+        },
+        {
+          "parent": 71,
+          "continuation_child": 72
+        },
+        {
+          "parent": 74,
+          "continuation_child": 75
+        },
+        {
+          "parent": 78,
+          "continuation_child": 79
+        },
+        {
+          "parent": 79,
+          "continuation_child": 80
+        },
+        {
+          "parent": 82,
+          "continuation_child": 83
+        },
+        {
+          "parent": 86,
+          "continuation_child": 87
+        },
+        {
+          "parent": 87,
+          "continuation_child": 88
+        },
+        {
+          "parent": 90,
+          "continuation_child": 91
+        },
+        {
+          "parent": 93,
+          "continuation_child": 94
+        },
+        {
+          "parent": 94,
+          "continuation_child": 95
+        },
+        {
+          "parent": 97,
+          "continuation_child": 98
+        },
+        {
+          "parent": 101,
+          "continuation_child": 102
+        },
+        {
+          "parent": 102,
+          "continuation_child": 103
+        },
+        {
+          "parent": 106,
+          "continuation_child": 107
+        },
+        {
+          "parent": 109,
+          "continuation_child": 110
+        },
+        {
+          "parent": 110,
+          "continuation_child": 111
+        },
+        {
+          "parent": 113,
+          "continuation_child": 114
+        },
+        {
+          "parent": 116,
+          "continuation_child": 117
+        },
+        {
+          "parent": 117,
+          "continuation_child": 118
+        },
+        {
+          "parent": 120,
+          "continuation_child": 121
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "intrinsic_vertices": 8120,
+      "bbox_exactly_unchanged": true,
+      "final_polygons": 7528
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_01",
+      "source_tubes": 155,
+      "basal_shoots": 19,
+      "terminal_segments": 93,
+      "joints_corrected": 62,
+      "changed_vertices": 620,
+      "triangles": 20088,
+      "height_scale_preserved": 1.0,
+      "all_terminal_tips_and_basal_roots_unchanged": true,
+      "bbox_before": [
+        [
+          -4.244222164154053,
+          -2.7152674198150635,
+          -0.029190190136432648
+        ],
+        [
+          -1.7923390865325928,
+          -0.4228469729423523,
+          1.2133196592330933
+        ]
+      ],
+      "bbox_after": [
+        [
+          -4.244222164154053,
+          -2.7152674198150635,
+          -0.029190190136432648
+        ],
+        [
+          -1.7923390865325928,
+          -0.4228469729423523,
+          1.2133196592330933
+        ]
+      ],
+      "joints": [
+        {
+          "parent": 0,
+          "continuation_child": 1
+        },
+        {
+          "parent": 1,
+          "continuation_child": 2
+        },
+        {
+          "parent": 4,
+          "continuation_child": 5
+        },
+        {
+          "parent": 7,
+          "continuation_child": 8
+        },
+        {
+          "parent": 8,
+          "continuation_child": 9
+        },
+        {
+          "parent": 11,
+          "continuation_child": 12
+        },
+        {
+          "parent": 14,
+          "continuation_child": 15
+        },
+        {
+          "parent": 15,
+          "continuation_child": 16
+        },
+        {
+          "parent": 19,
+          "continuation_child": 20
+        },
+        {
+          "parent": 22,
+          "continuation_child": 23
+        },
+        {
+          "parent": 23,
+          "continuation_child": 24
+        },
+        {
+          "parent": 27,
+          "continuation_child": 28
+        },
+        {
+          "parent": 31,
+          "continuation_child": 32
+        },
+        {
+          "parent": 32,
+          "continuation_child": 33
+        },
+        {
+          "parent": 35,
+          "continuation_child": 36
+        },
+        {
+          "parent": 38,
+          "continuation_child": 39
+        },
+        {
+          "parent": 39,
+          "continuation_child": 40
+        },
+        {
+          "parent": 42,
+          "continuation_child": 43
+        },
+        {
+          "parent": 45,
+          "continuation_child": 46
+        },
+        {
+          "parent": 46,
+          "continuation_child": 47
+        },
+        {
+          "parent": 49,
+          "continuation_child": 50
+        },
+        {
+          "parent": 52,
+          "continuation_child": 53
+        },
+        {
+          "parent": 53,
+          "continuation_child": 54
+        },
+        {
+          "parent": 56,
+          "continuation_child": 57
+        },
+        {
+          "parent": 59,
+          "continuation_child": 60
+        },
+        {
+          "parent": 60,
+          "continuation_child": 61
+        },
+        {
+          "parent": 63,
+          "continuation_child": 64
+        },
+        {
+          "parent": 67,
+          "continuation_child": 68
+        },
+        {
+          "parent": 70,
+          "continuation_child": 71
+        },
+        {
+          "parent": 71,
+          "continuation_child": 72
+        },
+        {
+          "parent": 74,
+          "continuation_child": 75
+        },
+        {
+          "parent": 77,
+          "continuation_child": 78
+        },
+        {
+          "parent": 78,
+          "continuation_child": 79
+        },
+        {
+          "parent": 82,
+          "continuation_child": 83
+        },
+        {
+          "parent": 85,
+          "continuation_child": 86
+        },
+        {
+          "parent": 88,
+          "continuation_child": 89
+        },
+        {
+          "parent": 89,
+          "continuation_child": 90
+        },
+        {
+          "parent": 92,
+          "continuation_child": 93
+        },
+        {
+          "parent": 95,
+          "continuation_child": 96
+        },
+        {
+          "parent": 96,
+          "continuation_child": 97
+        },
+        {
+          "parent": 99,
+          "continuation_child": 100
+        },
+        {
+          "parent": 102,
+          "continuation_child": 103
+        },
+        {
+          "parent": 105,
+          "continuation_child": 106
+        },
+        {
+          "parent": 106,
+          "continuation_child": 107
+        },
+        {
+          "parent": 109,
+          "continuation_child": 110
+        },
+        {
+          "parent": 112,
+          "continuation_child": 113
+        },
+        {
+          "parent": 113,
+          "continuation_child": 114
+        },
+        {
+          "parent": 116,
+          "continuation_child": 117
+        },
+        {
+          "parent": 119,
+          "continuation_child": 120
+        },
+        {
+          "parent": 120,
+          "continuation_child": 121
+        },
+        {
+          "parent": 123,
+          "continuation_child": 124
+        },
+        {
+          "parent": 126,
+          "continuation_child": 127
+        },
+        {
+          "parent": 130,
+          "continuation_child": 131
+        },
+        {
+          "parent": 131,
+          "continuation_child": 132
+        },
+        {
+          "parent": 134,
+          "continuation_child": 135
+        },
+        {
+          "parent": 138,
+          "continuation_child": 139
+        },
+        {
+          "parent": 139,
+          "continuation_child": 140
+        },
+        {
+          "parent": 142,
+          "continuation_child": 143
+        },
+        {
+          "parent": 145,
+          "continuation_child": 146
+        },
+        {
+          "parent": 146,
+          "continuation_child": 147
+        },
+        {
+          "parent": 149,
+          "continuation_child": 150
+        },
+        {
+          "parent": 152,
+          "continuation_child": 153
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "intrinsic_vertices": 10230,
+      "bbox_exactly_unchanged": true,
+      "final_polygons": 9486
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_02",
+      "source_tubes": 115,
+      "basal_shoots": 14,
+      "terminal_segments": 69,
+      "joints_corrected": 46,
+      "changed_vertices": 460,
+      "triangles": 14904,
+      "height_scale_preserved": 1.0,
+      "all_terminal_tips_and_basal_roots_unchanged": true,
+      "bbox_before": [
+        [
+          -1.9800925254821777,
+          -1.9464151859283447,
+          -0.033531554043293
+        ],
+        [
+          0.7362141609191895,
+          0.36310112476348877,
+          1.144849181175232
+        ]
+      ],
+      "bbox_after": [
+        [
+          -1.9800925254821777,
+          -1.9464151859283447,
+          -0.033531554043293
+        ],
+        [
+          0.7362141609191895,
+          0.36310112476348877,
+          1.144849181175232
+        ]
+      ],
+      "joints": [
+        {
+          "parent": 0,
+          "continuation_child": 1
+        },
+        {
+          "parent": 1,
+          "continuation_child": 2
+        },
+        {
+          "parent": 5,
+          "continuation_child": 6
+        },
+        {
+          "parent": 8,
+          "continuation_child": 9
+        },
+        {
+          "parent": 11,
+          "continuation_child": 12
+        },
+        {
+          "parent": 12,
+          "continuation_child": 13
+        },
+        {
+          "parent": 15,
+          "continuation_child": 16
+        },
+        {
+          "parent": 18,
+          "continuation_child": 19
+        },
+        {
+          "parent": 19,
+          "continuation_child": 20
+        },
+        {
+          "parent": 22,
+          "continuation_child": 23
+        },
+        {
+          "parent": 25,
+          "continuation_child": 26
+        },
+        {
+          "parent": 26,
+          "continuation_child": 27
+        },
+        {
+          "parent": 29,
+          "continuation_child": 30
+        },
+        {
+          "parent": 33,
+          "continuation_child": 34
+        },
+        {
+          "parent": 34,
+          "continuation_child": 35
+        },
+        {
+          "parent": 38,
+          "continuation_child": 39
+        },
+        {
+          "parent": 41,
+          "continuation_child": 42
+        },
+        {
+          "parent": 42,
+          "continuation_child": 43
+        },
+        {
+          "parent": 45,
+          "continuation_child": 46
+        },
+        {
+          "parent": 48,
+          "continuation_child": 49
+        },
+        {
+          "parent": 49,
+          "continuation_child": 50
+        },
+        {
+          "parent": 52,
+          "continuation_child": 53
+        },
+        {
+          "parent": 55,
+          "continuation_child": 56
+        },
+        {
+          "parent": 58,
+          "continuation_child": 59
+        },
+        {
+          "parent": 59,
+          "continuation_child": 60
+        },
+        {
+          "parent": 62,
+          "continuation_child": 63
+        },
+        {
+          "parent": 65,
+          "continuation_child": 66
+        },
+        {
+          "parent": 66,
+          "continuation_child": 67
+        },
+        {
+          "parent": 69,
+          "continuation_child": 70
+        },
+        {
+          "parent": 73,
+          "continuation_child": 74
+        },
+        {
+          "parent": 74,
+          "continuation_child": 75
+        },
+        {
+          "parent": 77,
+          "continuation_child": 78
+        },
+        {
+          "parent": 80,
+          "continuation_child": 81
+        },
+        {
+          "parent": 81,
+          "continuation_child": 82
+        },
+        {
+          "parent": 84,
+          "continuation_child": 85
+        },
+        {
+          "parent": 87,
+          "continuation_child": 88
+        },
+        {
+          "parent": 90,
+          "continuation_child": 91
+        },
+        {
+          "parent": 91,
+          "continuation_child": 92
+        },
+        {
+          "parent": 95,
+          "continuation_child": 96
+        },
+        {
+          "parent": 98,
+          "continuation_child": 99
+        },
+        {
+          "parent": 101,
+          "continuation_child": 102
+        },
+        {
+          "parent": 102,
+          "continuation_child": 103
+        },
+        {
+          "parent": 105,
+          "continuation_child": 106
+        },
+        {
+          "parent": 108,
+          "continuation_child": 109
+        },
+        {
+          "parent": 109,
+          "continuation_child": 110
+        },
+        {
+          "parent": 112,
+          "continuation_child": 113
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "intrinsic_vertices": 7590,
+      "bbox_exactly_unchanged": true,
+      "final_polygons": 7038
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_03",
+      "source_tubes": 155,
+      "basal_shoots": 18,
+      "terminal_segments": 95,
+      "joints_corrected": 60,
+      "changed_vertices": 600,
+      "triangles": 20120,
+      "height_scale_preserved": 0.8844015849566649,
+      "all_terminal_tips_and_basal_roots_unchanged": true,
+      "bbox_before": [
+        [
+          0.14067882299423218,
+          -3.2405953407287598,
+          -0.02655588462948799
+        ],
+        [
+          2.792860984802246,
+          -0.06793197989463806,
+          1.3734440803527832
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.14067882299423218,
+          -3.2405953407287598,
+          -0.02655588462948799
+        ],
+        [
+          2.792860984802246,
+          -0.06793197989463806,
+          1.3734440803527832
+        ]
+      ],
+      "joints": [
+        {
+          "parent": 0,
+          "continuation_child": 1
+        },
+        {
+          "parent": 1,
+          "continuation_child": 2
+        },
+        {
+          "parent": 5,
+          "continuation_child": 6
+        },
+        {
+          "parent": 8,
+          "continuation_child": 9
+        },
+        {
+          "parent": 12,
+          "continuation_child": 13
+        },
+        {
+          "parent": 13,
+          "continuation_child": 14
+        },
+        {
+          "parent": 17,
+          "continuation_child": 18
+        },
+        {
+          "parent": 20,
+          "continuation_child": 21
+        },
+        {
+          "parent": 23,
+          "continuation_child": 24
+        },
+        {
+          "parent": 24,
+          "continuation_child": 25
+        },
+        {
+          "parent": 27,
+          "continuation_child": 28
+        },
+        {
+          "parent": 30,
+          "continuation_child": 31
+        },
+        {
+          "parent": 31,
+          "continuation_child": 32
+        },
+        {
+          "parent": 34,
+          "continuation_child": 35
+        },
+        {
+          "parent": 37,
+          "continuation_child": 38
+        },
+        {
+          "parent": 38,
+          "continuation_child": 39
+        },
+        {
+          "parent": 41,
+          "continuation_child": 42
+        },
+        {
+          "parent": 44,
+          "continuation_child": 45
+        },
+        {
+          "parent": 47,
+          "continuation_child": 48
+        },
+        {
+          "parent": 48,
+          "continuation_child": 49
+        },
+        {
+          "parent": 51,
+          "continuation_child": 52
+        },
+        {
+          "parent": 54,
+          "continuation_child": 55
+        },
+        {
+          "parent": 57,
+          "continuation_child": 58
+        },
+        {
+          "parent": 58,
+          "continuation_child": 59
+        },
+        {
+          "parent": 61,
+          "continuation_child": 62
+        },
+        {
+          "parent": 64,
+          "continuation_child": 65
+        },
+        {
+          "parent": 68,
+          "continuation_child": 69
+        },
+        {
+          "parent": 69,
+          "continuation_child": 70
+        },
+        {
+          "parent": 72,
+          "continuation_child": 73
+        },
+        {
+          "parent": 75,
+          "continuation_child": 76
+        },
+        {
+          "parent": 76,
+          "continuation_child": 77
+        },
+        {
+          "parent": 80,
+          "continuation_child": 81
+        },
+        {
+          "parent": 84,
+          "continuation_child": 85
+        },
+        {
+          "parent": 85,
+          "continuation_child": 86
+        },
+        {
+          "parent": 89,
+          "continuation_child": 90
+        },
+        {
+          "parent": 92,
+          "continuation_child": 93
+        },
+        {
+          "parent": 93,
+          "continuation_child": 94
+        },
+        {
+          "parent": 96,
+          "continuation_child": 97
+        },
+        {
+          "parent": 99,
+          "continuation_child": 100
+        },
+        {
+          "parent": 100,
+          "continuation_child": 101
+        },
+        {
+          "parent": 103,
+          "continuation_child": 104
+        },
+        {
+          "parent": 106,
+          "continuation_child": 107
+        },
+        {
+          "parent": 107,
+          "continuation_child": 108
+        },
+        {
+          "parent": 110,
+          "continuation_child": 111
+        },
+        {
+          "parent": 113,
+          "continuation_child": 114
+        },
+        {
+          "parent": 114,
+          "continuation_child": 115
+        },
+        {
+          "parent": 118,
+          "continuation_child": 119
+        },
+        {
+          "parent": 121,
+          "continuation_child": 122
+        },
+        {
+          "parent": 122,
+          "continuation_child": 123
+        },
+        {
+          "parent": 126,
+          "continuation_child": 127
+        },
+        {
+          "parent": 130,
+          "continuation_child": 131
+        },
+        {
+          "parent": 131,
+          "continuation_child": 132
+        },
+        {
+          "parent": 135,
+          "continuation_child": 136
+        },
+        {
+          "parent": 138,
+          "continuation_child": 139
+        },
+        {
+          "parent": 141,
+          "continuation_child": 142
+        },
+        {
+          "parent": 142,
+          "continuation_child": 143
+        },
+        {
+          "parent": 145,
+          "continuation_child": 146
+        },
+        {
+          "parent": 148,
+          "continuation_child": 149
+        },
+        {
+          "parent": 149,
+          "continuation_child": 150
+        },
+        {
+          "parent": 152,
+          "continuation_child": 153
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "intrinsic_vertices": 10250,
+      "bbox_exactly_unchanged": true,
+      "final_polygons": 9490
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_04",
+      "source_tubes": 111,
+      "basal_shoots": 13,
+      "terminal_segments": 67,
+      "joints_corrected": 44,
+      "changed_vertices": 440,
+      "triangles": 14392,
+      "height_scale_preserved": 1.0,
+      "all_terminal_tips_and_basal_roots_unchanged": true,
+      "bbox_before": [
+        [
+          1.3112483024597168,
+          -1.9474176168441772,
+          -0.033549100160598755
+        ],
+        [
+          4.0953569412231445,
+          0.5282799601554871,
+          1.2684621810913086
+        ]
+      ],
+      "bbox_after": [
+        [
+          1.3112483024597168,
+          -1.9474176168441772,
+          -0.033549100160598755
+        ],
+        [
+          4.0953569412231445,
+          0.5282799601554871,
+          1.2684621810913086
+        ]
+      ],
+      "joints": [
+        {
+          "parent": 0,
+          "continuation_child": 1
+        },
+        {
+          "parent": 1,
+          "continuation_child": 2
+        },
+        {
+          "parent": 4,
+          "continuation_child": 5
+        },
+        {
+          "parent": 7,
+          "continuation_child": 8
+        },
+        {
+          "parent": 10,
+          "continuation_child": 11
+        },
+        {
+          "parent": 11,
+          "continuation_child": 12
+        },
+        {
+          "parent": 14,
+          "continuation_child": 15
+        },
+        {
+          "parent": 18,
+          "continuation_child": 19
+        },
+        {
+          "parent": 19,
+          "continuation_child": 20
+        },
+        {
+          "parent": 22,
+          "continuation_child": 23
+        },
+        {
+          "parent": 25,
+          "continuation_child": 26
+        },
+        {
+          "parent": 26,
+          "continuation_child": 27
+        },
+        {
+          "parent": 29,
+          "continuation_child": 30
+        },
+        {
+          "parent": 33,
+          "continuation_child": 34
+        },
+        {
+          "parent": 36,
+          "continuation_child": 37
+        },
+        {
+          "parent": 37,
+          "continuation_child": 38
+        },
+        {
+          "parent": 40,
+          "continuation_child": 41
+        },
+        {
+          "parent": 43,
+          "continuation_child": 44
+        },
+        {
+          "parent": 44,
+          "continuation_child": 45
+        },
+        {
+          "parent": 47,
+          "continuation_child": 48
+        },
+        {
+          "parent": 50,
+          "continuation_child": 51
+        },
+        {
+          "parent": 51,
+          "continuation_child": 52
+        },
+        {
+          "parent": 54,
+          "continuation_child": 55
+        },
+        {
+          "parent": 57,
+          "continuation_child": 58
+        },
+        {
+          "parent": 60,
+          "continuation_child": 61
+        },
+        {
+          "parent": 61,
+          "continuation_child": 62
+        },
+        {
+          "parent": 65,
+          "continuation_child": 66
+        },
+        {
+          "parent": 68,
+          "continuation_child": 69
+        },
+        {
+          "parent": 71,
+          "continuation_child": 72
+        },
+        {
+          "parent": 72,
+          "continuation_child": 73
+        },
+        {
+          "parent": 75,
+          "continuation_child": 76
+        },
+        {
+          "parent": 79,
+          "continuation_child": 80
+        },
+        {
+          "parent": 80,
+          "continuation_child": 81
+        },
+        {
+          "parent": 84,
+          "continuation_child": 85
+        },
+        {
+          "parent": 87,
+          "continuation_child": 88
+        },
+        {
+          "parent": 90,
+          "continuation_child": 91
+        },
+        {
+          "parent": 91,
+          "continuation_child": 92
+        },
+        {
+          "parent": 94,
+          "continuation_child": 95
+        },
+        {
+          "parent": 97,
+          "continuation_child": 98
+        },
+        {
+          "parent": 98,
+          "continuation_child": 99
+        },
+        {
+          "parent": 101,
+          "continuation_child": 102
+        },
+        {
+          "parent": 104,
+          "continuation_child": 105
+        },
+        {
+          "parent": 105,
+          "continuation_child": 106
+        },
+        {
+          "parent": 108,
+          "continuation_child": 109
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "intrinsic_vertices": 7330,
+      "bbox_exactly_unchanged": true,
+      "final_polygons": 6794
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_05",
+      "source_tubes": 115,
+      "basal_shoots": 15,
+      "terminal_segments": 68,
+      "joints_corrected": 47,
+      "changed_vertices": 470,
+      "triangles": 14888,
+      "height_scale_preserved": 1.0,
+      "all_terminal_tips_and_basal_roots_unchanged": true,
+      "bbox_before": [
+        [
+          3.6618852615356445,
+          -1.064716100692749,
+          -0.029758749529719353
+        ],
+        [
+          6.104658126831055,
+          1.2787309885025024,
+          1.1621043682098389
+        ]
+      ],
+      "bbox_after": [
+        [
+          3.6618852615356445,
+          -1.064716100692749,
+          -0.029758749529719353
+        ],
+        [
+          6.104658126831055,
+          1.2787309885025024,
+          1.1621043682098389
+        ]
+      ],
+      "joints": [
+        {
+          "parent": 0,
+          "continuation_child": 1
+        },
+        {
+          "parent": 1,
+          "continuation_child": 2
+        },
+        {
+          "parent": 4,
+          "continuation_child": 5
+        },
+        {
+          "parent": 7,
+          "continuation_child": 8
+        },
+        {
+          "parent": 8,
+          "continuation_child": 9
+        },
+        {
+          "parent": 11,
+          "continuation_child": 12
+        },
+        {
+          "parent": 14,
+          "continuation_child": 15
+        },
+        {
+          "parent": 15,
+          "continuation_child": 16
+        },
+        {
+          "parent": 19,
+          "continuation_child": 20
+        },
+        {
+          "parent": 22,
+          "continuation_child": 23
+        },
+        {
+          "parent": 23,
+          "continuation_child": 24
+        },
+        {
+          "parent": 26,
+          "continuation_child": 27
+        },
+        {
+          "parent": 29,
+          "continuation_child": 30
+        },
+        {
+          "parent": 30,
+          "continuation_child": 31
+        },
+        {
+          "parent": 33,
+          "continuation_child": 34
+        },
+        {
+          "parent": 36,
+          "continuation_child": 37
+        },
+        {
+          "parent": 37,
+          "continuation_child": 38
+        },
+        {
+          "parent": 40,
+          "continuation_child": 41
+        },
+        {
+          "parent": 43,
+          "continuation_child": 44
+        },
+        {
+          "parent": 44,
+          "continuation_child": 45
+        },
+        {
+          "parent": 47,
+          "continuation_child": 48
+        },
+        {
+          "parent": 51,
+          "continuation_child": 52
+        },
+        {
+          "parent": 52,
+          "continuation_child": 53
+        },
+        {
+          "parent": 55,
+          "continuation_child": 56
+        },
+        {
+          "parent": 58,
+          "continuation_child": 59
+        },
+        {
+          "parent": 59,
+          "continuation_child": 60
+        },
+        {
+          "parent": 62,
+          "continuation_child": 63
+        },
+        {
+          "parent": 65,
+          "continuation_child": 66
+        },
+        {
+          "parent": 66,
+          "continuation_child": 67
+        },
+        {
+          "parent": 69,
+          "continuation_child": 70
+        },
+        {
+          "parent": 73,
+          "continuation_child": 74
+        },
+        {
+          "parent": 74,
+          "continuation_child": 75
+        },
+        {
+          "parent": 77,
+          "continuation_child": 78
+        },
+        {
+          "parent": 80,
+          "continuation_child": 81
+        },
+        {
+          "parent": 84,
+          "continuation_child": 85
+        },
+        {
+          "parent": 85,
+          "continuation_child": 86
+        },
+        {
+          "parent": 88,
+          "continuation_child": 89
+        },
+        {
+          "parent": 91,
+          "continuation_child": 92
+        },
+        {
+          "parent": 92,
+          "continuation_child": 93
+        },
+        {
+          "parent": 95,
+          "continuation_child": 96
+        },
+        {
+          "parent": 98,
+          "continuation_child": 99
+        },
+        {
+          "parent": 99,
+          "continuation_child": 100
+        },
+        {
+          "parent": 102,
+          "continuation_child": 103
+        },
+        {
+          "parent": 105,
+          "continuation_child": 106
+        },
+        {
+          "parent": 108,
+          "continuation_child": 109
+        },
+        {
+          "parent": 109,
+          "continuation_child": 110
+        },
+        {
+          "parent": 112,
+          "continuation_child": 113
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "intrinsic_vertices": 7580,
+      "bbox_exactly_unchanged": true,
+      "final_polygons": 7036
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_06",
+      "source_tubes": 154,
+      "basal_shoots": 20,
+      "terminal_segments": 93,
+      "joints_corrected": 61,
+      "changed_vertices": 610,
+      "triangles": 19968,
+      "height_scale_preserved": 1.0,
+      "all_terminal_tips_and_basal_roots_unchanged": true,
+      "bbox_before": [
+        [
+          -6.0655293464660645,
+          0.06757199019193649,
+          -0.028940577059984207
+        ],
+        [
+          -3.6998696327209473,
+          2.6527762413024902,
+          1.1258527040481567
+        ]
+      ],
+      "bbox_after": [
+        [
+          -6.0655293464660645,
+          0.06757199019193649,
+          -0.028940577059984207
+        ],
+        [
+          -3.6998696327209473,
+          2.6527762413024902,
+          1.1258527040481567
+        ]
+      ],
+      "joints": [
+        {
+          "parent": 0,
+          "continuation_child": 1
+        },
+        {
+          "parent": 1,
+          "continuation_child": 2
+        },
+        {
+          "parent": 4,
+          "continuation_child": 5
+        },
+        {
+          "parent": 7,
+          "continuation_child": 8
+        },
+        {
+          "parent": 8,
+          "continuation_child": 9
+        },
+        {
+          "parent": 12,
+          "continuation_child": 13
+        },
+        {
+          "parent": 15,
+          "continuation_child": 16
+        },
+        {
+          "parent": 16,
+          "continuation_child": 17
+        },
+        {
+          "parent": 20,
+          "continuation_child": 21
+        },
+        {
+          "parent": 24,
+          "continuation_child": 25
+        },
+        {
+          "parent": 25,
+          "continuation_child": 26
+        },
+        {
+          "parent": 28,
+          "continuation_child": 29
+        },
+        {
+          "parent": 31,
+          "continuation_child": 32
+        },
+        {
+          "parent": 32,
+          "continuation_child": 33
+        },
+        {
+          "parent": 35,
+          "continuation_child": 36
+        },
+        {
+          "parent": 39,
+          "continuation_child": 40
+        },
+        {
+          "parent": 40,
+          "continuation_child": 41
+        },
+        {
+          "parent": 43,
+          "continuation_child": 44
+        },
+        {
+          "parent": 46,
+          "continuation_child": 47
+        },
+        {
+          "parent": 47,
+          "continuation_child": 48
+        },
+        {
+          "parent": 50,
+          "continuation_child": 51
+        },
+        {
+          "parent": 53,
+          "continuation_child": 54
+        },
+        {
+          "parent": 54,
+          "continuation_child": 55
+        },
+        {
+          "parent": 57,
+          "continuation_child": 58
+        },
+        {
+          "parent": 60,
+          "continuation_child": 61
+        },
+        {
+          "parent": 61,
+          "continuation_child": 62
+        },
+        {
+          "parent": 64,
+          "continuation_child": 65
+        },
+        {
+          "parent": 67,
+          "continuation_child": 68
+        },
+        {
+          "parent": 68,
+          "continuation_child": 69
+        },
+        {
+          "parent": 71,
+          "continuation_child": 72
+        },
+        {
+          "parent": 75,
+          "continuation_child": 76
+        },
+        {
+          "parent": 76,
+          "continuation_child": 77
+        },
+        {
+          "parent": 79,
+          "continuation_child": 80
+        },
+        {
+          "parent": 82,
+          "continuation_child": 83
+        },
+        {
+          "parent": 83,
+          "continuation_child": 84
+        },
+        {
+          "parent": 87,
+          "continuation_child": 88
+        },
+        {
+          "parent": 91,
+          "continuation_child": 92
+        },
+        {
+          "parent": 92,
+          "continuation_child": 93
+        },
+        {
+          "parent": 96,
+          "continuation_child": 97
+        },
+        {
+          "parent": 99,
+          "continuation_child": 100
+        },
+        {
+          "parent": 102,
+          "continuation_child": 103
+        },
+        {
+          "parent": 103,
+          "continuation_child": 104
+        },
+        {
+          "parent": 106,
+          "continuation_child": 107
+        },
+        {
+          "parent": 109,
+          "continuation_child": 110
+        },
+        {
+          "parent": 110,
+          "continuation_child": 111
+        },
+        {
+          "parent": 113,
+          "continuation_child": 114
+        },
+        {
+          "parent": 116,
+          "continuation_child": 117
+        },
+        {
+          "parent": 117,
+          "continuation_child": 118
+        },
+        {
+          "parent": 120,
+          "continuation_child": 121
+        },
+        {
+          "parent": 124,
+          "continuation_child": 125
+        },
+        {
+          "parent": 125,
+          "continuation_child": 126
+        },
+        {
+          "parent": 128,
+          "continuation_child": 129
+        },
+        {
+          "parent": 131,
+          "continuation_child": 132
+        },
+        {
+          "parent": 132,
+          "continuation_child": 133
+        },
+        {
+          "parent": 135,
+          "continuation_child": 136
+        },
+        {
+          "parent": 139,
+          "continuation_child": 140
+        },
+        {
+          "parent": 140,
+          "continuation_child": 141
+        },
+        {
+          "parent": 143,
+          "continuation_child": 144
+        },
+        {
+          "parent": 146,
+          "continuation_child": 147
+        },
+        {
+          "parent": 147,
+          "continuation_child": 148
+        },
+        {
+          "parent": 151,
+          "continuation_child": 152
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "intrinsic_vertices": 10170,
+      "bbox_exactly_unchanged": true,
+      "final_polygons": 9426
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_07",
+      "source_tubes": 129,
+      "basal_shoots": 16,
+      "terminal_segments": 78,
+      "joints_corrected": 51,
+      "changed_vertices": 510,
+      "triangles": 16728,
+      "height_scale_preserved": 0.9977009963987129,
+      "all_terminal_tips_and_basal_roots_unchanged": true,
+      "bbox_before": [
+        [
+          -4.755051136016846,
+          -0.7822626233100891,
+          -0.031888678669929504
+        ],
+        [
+          -1.8306201696395874,
+          1.7672624588012695,
+          1.3681113719940186
+        ]
+      ],
+      "bbox_after": [
+        [
+          -4.755051136016846,
+          -0.7822626233100891,
+          -0.031888678669929504
+        ],
+        [
+          -1.8306201696395874,
+          1.7672624588012695,
+          1.3681113719940186
+        ]
+      ],
+      "joints": [
+        {
+          "parent": 0,
+          "continuation_child": 1
+        },
+        {
+          "parent": 1,
+          "continuation_child": 2
+        },
+        {
+          "parent": 5,
+          "continuation_child": 6
+        },
+        {
+          "parent": 8,
+          "continuation_child": 9
+        },
+        {
+          "parent": 9,
+          "continuation_child": 10
+        },
+        {
+          "parent": 13,
+          "continuation_child": 14
+        },
+        {
+          "parent": 17,
+          "continuation_child": 18
+        },
+        {
+          "parent": 20,
+          "continuation_child": 21
+        },
+        {
+          "parent": 21,
+          "continuation_child": 22
+        },
+        {
+          "parent": 24,
+          "continuation_child": 25
+        },
+        {
+          "parent": 27,
+          "continuation_child": 28
+        },
+        {
+          "parent": 28,
+          "continuation_child": 29
+        },
+        {
+          "parent": 31,
+          "continuation_child": 32
+        },
+        {
+          "parent": 35,
+          "continuation_child": 36
+        },
+        {
+          "parent": 36,
+          "continuation_child": 37
+        },
+        {
+          "parent": 40,
+          "continuation_child": 41
+        },
+        {
+          "parent": 43,
+          "continuation_child": 44
+        },
+        {
+          "parent": 47,
+          "continuation_child": 48
+        },
+        {
+          "parent": 48,
+          "continuation_child": 49
+        },
+        {
+          "parent": 51,
+          "continuation_child": 52
+        },
+        {
+          "parent": 54,
+          "continuation_child": 55
+        },
+        {
+          "parent": 55,
+          "continuation_child": 56
+        },
+        {
+          "parent": 58,
+          "continuation_child": 59
+        },
+        {
+          "parent": 61,
+          "continuation_child": 62
+        },
+        {
+          "parent": 62,
+          "continuation_child": 63
+        },
+        {
+          "parent": 65,
+          "continuation_child": 66
+        },
+        {
+          "parent": 69,
+          "continuation_child": 70
+        },
+        {
+          "parent": 70,
+          "continuation_child": 71
+        },
+        {
+          "parent": 73,
+          "continuation_child": 74
+        },
+        {
+          "parent": 76,
+          "continuation_child": 77
+        },
+        {
+          "parent": 77,
+          "continuation_child": 78
+        },
+        {
+          "parent": 80,
+          "continuation_child": 81
+        },
+        {
+          "parent": 83,
+          "continuation_child": 84
+        },
+        {
+          "parent": 84,
+          "continuation_child": 85
+        },
+        {
+          "parent": 87,
+          "continuation_child": 88
+        },
+        {
+          "parent": 90,
+          "continuation_child": 91
+        },
+        {
+          "parent": 91,
+          "continuation_child": 92
+        },
+        {
+          "parent": 94,
+          "continuation_child": 95
+        },
+        {
+          "parent": 97,
+          "continuation_child": 98
+        },
+        {
+          "parent": 98,
+          "continuation_child": 99
+        },
+        {
+          "parent": 101,
+          "continuation_child": 102
+        },
+        {
+          "parent": 104,
+          "continuation_child": 105
+        },
+        {
+          "parent": 105,
+          "continuation_child": 106
+        },
+        {
+          "parent": 108,
+          "continuation_child": 109
+        },
+        {
+          "parent": 111,
+          "continuation_child": 112
+        },
+        {
+          "parent": 115,
+          "continuation_child": 116
+        },
+        {
+          "parent": 116,
+          "continuation_child": 117
+        },
+        {
+          "parent": 119,
+          "continuation_child": 120
+        },
+        {
+          "parent": 122,
+          "continuation_child": 123
+        },
+        {
+          "parent": 123,
+          "continuation_child": 124
+        },
+        {
+          "parent": 126,
+          "continuation_child": 127
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "intrinsic_vertices": 8520,
+      "bbox_exactly_unchanged": true,
+      "final_polygons": 7896
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_08",
+      "source_tubes": 100,
+      "basal_shoots": 13,
+      "terminal_segments": 60,
+      "joints_corrected": 40,
+      "changed_vertices": 400,
+      "triangles": 12960,
+      "height_scale_preserved": 1.0,
+      "all_terminal_tips_and_basal_roots_unchanged": true,
+      "bbox_before": [
+        [
+          -3.156707286834717,
+          -0.058133356273174286,
+          -0.020406147465109825
+        ],
+        [
+          -0.5948418378829956,
+          2.2098894119262695,
+          1.0436317920684814
+        ]
+      ],
+      "bbox_after": [
+        [
+          -3.156707286834717,
+          -0.058133356273174286,
+          -0.020406147465109825
+        ],
+        [
+          -0.5948418378829956,
+          2.2098894119262695,
+          1.0436317920684814
+        ]
+      ],
+      "joints": [
+        {
+          "parent": 0,
+          "continuation_child": 1
+        },
+        {
+          "parent": 1,
+          "continuation_child": 2
+        },
+        {
+          "parent": 5,
+          "continuation_child": 6
+        },
+        {
+          "parent": 8,
+          "continuation_child": 9
+        },
+        {
+          "parent": 9,
+          "continuation_child": 10
+        },
+        {
+          "parent": 12,
+          "continuation_child": 13
+        },
+        {
+          "parent": 15,
+          "continuation_child": 16
+        },
+        {
+          "parent": 16,
+          "continuation_child": 17
+        },
+        {
+          "parent": 19,
+          "continuation_child": 20
+        },
+        {
+          "parent": 23,
+          "continuation_child": 24
+        },
+        {
+          "parent": 24,
+          "continuation_child": 25
+        },
+        {
+          "parent": 27,
+          "continuation_child": 28
+        },
+        {
+          "parent": 30,
+          "continuation_child": 31
+        },
+        {
+          "parent": 31,
+          "continuation_child": 32
+        },
+        {
+          "parent": 34,
+          "continuation_child": 35
+        },
+        {
+          "parent": 37,
+          "continuation_child": 38
+        },
+        {
+          "parent": 38,
+          "continuation_child": 39
+        },
+        {
+          "parent": 41,
+          "continuation_child": 42
+        },
+        {
+          "parent": 44,
+          "continuation_child": 45
+        },
+        {
+          "parent": 45,
+          "continuation_child": 46
+        },
+        {
+          "parent": 48,
+          "continuation_child": 49
+        },
+        {
+          "parent": 52,
+          "continuation_child": 53
+        },
+        {
+          "parent": 53,
+          "continuation_child": 54
+        },
+        {
+          "parent": 57,
+          "continuation_child": 58
+        },
+        {
+          "parent": 61,
+          "continuation_child": 62
+        },
+        {
+          "parent": 64,
+          "continuation_child": 65
+        },
+        {
+          "parent": 65,
+          "continuation_child": 66
+        },
+        {
+          "parent": 68,
+          "continuation_child": 69
+        },
+        {
+          "parent": 71,
+          "continuation_child": 72
+        },
+        {
+          "parent": 72,
+          "continuation_child": 73
+        },
+        {
+          "parent": 75,
+          "continuation_child": 76
+        },
+        {
+          "parent": 78,
+          "continuation_child": 79
+        },
+        {
+          "parent": 79,
+          "continuation_child": 80
+        },
+        {
+          "parent": 82,
+          "continuation_child": 83
+        },
+        {
+          "parent": 85,
+          "continuation_child": 86
+        },
+        {
+          "parent": 86,
+          "continuation_child": 87
+        },
+        {
+          "parent": 90,
+          "continuation_child": 91
+        },
+        {
+          "parent": 93,
+          "continuation_child": 94
+        },
+        {
+          "parent": 94,
+          "continuation_child": 95
+        },
+        {
+          "parent": 97,
+          "continuation_child": 98
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "intrinsic_vertices": 6600,
+      "bbox_exactly_unchanged": true,
+      "final_polygons": 6120
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_09",
+      "source_tubes": 172,
+      "basal_shoots": 21,
+      "terminal_segments": 104,
+      "joints_corrected": 68,
+      "changed_vertices": 680,
+      "triangles": 22304,
+      "height_scale_preserved": 1.0,
+      "all_terminal_tips_and_basal_roots_unchanged": true,
+      "bbox_before": [
+        [
+          -0.8679446578025818,
+          0.1781400591135025,
+          -0.030224211513996124
+        ],
+        [
+          1.4994878768920898,
+          2.943645477294922,
+          1.3101956844329834
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.8679446578025818,
+          0.1781400591135025,
+          -0.030224211513996124
+        ],
+        [
+          1.4994878768920898,
+          2.943645477294922,
+          1.3101956844329834
+        ]
+      ],
+      "joints": [
+        {
+          "parent": 0,
+          "continuation_child": 1
+        },
+        {
+          "parent": 1,
+          "continuation_child": 2
+        },
+        {
+          "parent": 4,
+          "continuation_child": 5
+        },
+        {
+          "parent": 7,
+          "continuation_child": 8
+        },
+        {
+          "parent": 8,
+          "continuation_child": 9
+        },
+        {
+          "parent": 12,
+          "continuation_child": 13
+        },
+        {
+          "parent": 15,
+          "continuation_child": 16
+        },
+        {
+          "parent": 18,
+          "continuation_child": 19
+        },
+        {
+          "parent": 19,
+          "continuation_child": 20
+        },
+        {
+          "parent": 22,
+          "continuation_child": 23
+        },
+        {
+          "parent": 26,
+          "continuation_child": 27
+        },
+        {
+          "parent": 27,
+          "continuation_child": 28
+        },
+        {
+          "parent": 30,
+          "continuation_child": 31
+        },
+        {
+          "parent": 33,
+          "continuation_child": 34
+        },
+        {
+          "parent": 36,
+          "continuation_child": 37
+        },
+        {
+          "parent": 37,
+          "continuation_child": 38
+        },
+        {
+          "parent": 40,
+          "continuation_child": 41
+        },
+        {
+          "parent": 43,
+          "continuation_child": 44
+        },
+        {
+          "parent": 44,
+          "continuation_child": 45
+        },
+        {
+          "parent": 47,
+          "continuation_child": 48
+        },
+        {
+          "parent": 50,
+          "continuation_child": 51
+        },
+        {
+          "parent": 54,
+          "continuation_child": 55
+        },
+        {
+          "parent": 55,
+          "continuation_child": 56
+        },
+        {
+          "parent": 59,
+          "continuation_child": 60
+        },
+        {
+          "parent": 62,
+          "continuation_child": 63
+        },
+        {
+          "parent": 63,
+          "continuation_child": 64
+        },
+        {
+          "parent": 66,
+          "continuation_child": 67
+        },
+        {
+          "parent": 69,
+          "continuation_child": 70
+        },
+        {
+          "parent": 70,
+          "continuation_child": 71
+        },
+        {
+          "parent": 73,
+          "continuation_child": 74
+        },
+        {
+          "parent": 77,
+          "continuation_child": 78
+        },
+        {
+          "parent": 78,
+          "continuation_child": 79
+        },
+        {
+          "parent": 81,
+          "continuation_child": 82
+        },
+        {
+          "parent": 84,
+          "continuation_child": 85
+        },
+        {
+          "parent": 85,
+          "continuation_child": 86
+        },
+        {
+          "parent": 89,
+          "continuation_child": 90
+        },
+        {
+          "parent": 92,
+          "continuation_child": 93
+        },
+        {
+          "parent": 93,
+          "continuation_child": 94
+        },
+        {
+          "parent": 96,
+          "continuation_child": 97
+        },
+        {
+          "parent": 100,
+          "continuation_child": 101
+        },
+        {
+          "parent": 101,
+          "continuation_child": 102
+        },
+        {
+          "parent": 104,
+          "continuation_child": 105
+        },
+        {
+          "parent": 107,
+          "continuation_child": 108
+        },
+        {
+          "parent": 108,
+          "continuation_child": 109
+        },
+        {
+          "parent": 111,
+          "continuation_child": 112
+        },
+        {
+          "parent": 114,
+          "continuation_child": 115
+        },
+        {
+          "parent": 115,
+          "continuation_child": 116
+        },
+        {
+          "parent": 119,
+          "continuation_child": 120
+        },
+        {
+          "parent": 123,
+          "continuation_child": 124
+        },
+        {
+          "parent": 127,
+          "continuation_child": 128
+        },
+        {
+          "parent": 128,
+          "continuation_child": 129
+        },
+        {
+          "parent": 131,
+          "continuation_child": 132
+        },
+        {
+          "parent": 134,
+          "continuation_child": 135
+        },
+        {
+          "parent": 137,
+          "continuation_child": 138
+        },
+        {
+          "parent": 138,
+          "continuation_child": 139
+        },
+        {
+          "parent": 141,
+          "continuation_child": 142
+        },
+        {
+          "parent": 144,
+          "continuation_child": 145
+        },
+        {
+          "parent": 145,
+          "continuation_child": 146
+        },
+        {
+          "parent": 148,
+          "continuation_child": 149
+        },
+        {
+          "parent": 151,
+          "continuation_child": 152
+        },
+        {
+          "parent": 152,
+          "continuation_child": 153
+        },
+        {
+          "parent": 155,
+          "continuation_child": 156
+        },
+        {
+          "parent": 158,
+          "continuation_child": 159
+        },
+        {
+          "parent": 159,
+          "continuation_child": 160
+        },
+        {
+          "parent": 162,
+          "continuation_child": 163
+        },
+        {
+          "parent": 165,
+          "continuation_child": 166
+        },
+        {
+          "parent": 166,
+          "continuation_child": 167
+        },
+        {
+          "parent": 169,
+          "continuation_child": 170
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "intrinsic_vertices": 11360,
+      "bbox_exactly_unchanged": true,
+      "final_polygons": 10528
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_10",
+      "source_tubes": 124,
+      "basal_shoots": 16,
+      "terminal_segments": 74,
+      "joints_corrected": 50,
+      "changed_vertices": 500,
+      "triangles": 16064,
+      "height_scale_preserved": 1.0,
+      "all_terminal_tips_and_basal_roots_unchanged": true,
+      "bbox_before": [
+        [
+          0.7025232315063477,
+          -0.397871196269989,
+          -0.014876341447234154
+        ],
+        [
+          2.628977060317993,
+          1.9517648220062256,
+          1.3018594980239868
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.7025232315063477,
+          -0.397871196269989,
+          -0.014876341447234154
+        ],
+        [
+          2.628977060317993,
+          1.9517648220062256,
+          1.3018594980239868
+        ]
+      ],
+      "joints": [
+        {
+          "parent": 0,
+          "continuation_child": 1
+        },
+        {
+          "parent": 1,
+          "continuation_child": 2
+        },
+        {
+          "parent": 4,
+          "continuation_child": 5
+        },
+        {
+          "parent": 7,
+          "continuation_child": 8
+        },
+        {
+          "parent": 8,
+          "continuation_child": 9
+        },
+        {
+          "parent": 11,
+          "continuation_child": 12
+        },
+        {
+          "parent": 14,
+          "continuation_child": 15
+        },
+        {
+          "parent": 15,
+          "continuation_child": 16
+        },
+        {
+          "parent": 18,
+          "continuation_child": 19
+        },
+        {
+          "parent": 21,
+          "continuation_child": 22
+        },
+        {
+          "parent": 22,
+          "continuation_child": 23
+        },
+        {
+          "parent": 25,
+          "continuation_child": 26
+        },
+        {
+          "parent": 28,
+          "continuation_child": 29
+        },
+        {
+          "parent": 29,
+          "continuation_child": 30
+        },
+        {
+          "parent": 32,
+          "continuation_child": 33
+        },
+        {
+          "parent": 35,
+          "continuation_child": 36
+        },
+        {
+          "parent": 36,
+          "continuation_child": 37
+        },
+        {
+          "parent": 39,
+          "continuation_child": 40
+        },
+        {
+          "parent": 42,
+          "continuation_child": 43
+        },
+        {
+          "parent": 43,
+          "continuation_child": 44
+        },
+        {
+          "parent": 46,
+          "continuation_child": 47
+        },
+        {
+          "parent": 49,
+          "continuation_child": 50
+        },
+        {
+          "parent": 50,
+          "continuation_child": 51
+        },
+        {
+          "parent": 54,
+          "continuation_child": 55
+        },
+        {
+          "parent": 57,
+          "continuation_child": 58
+        },
+        {
+          "parent": 58,
+          "continuation_child": 59
+        },
+        {
+          "parent": 61,
+          "continuation_child": 62
+        },
+        {
+          "parent": 65,
+          "continuation_child": 66
+        },
+        {
+          "parent": 66,
+          "continuation_child": 67
+        },
+        {
+          "parent": 70,
+          "continuation_child": 71
+        },
+        {
+          "parent": 73,
+          "continuation_child": 74
+        },
+        {
+          "parent": 74,
+          "continuation_child": 75
+        },
+        {
+          "parent": 78,
+          "continuation_child": 79
+        },
+        {
+          "parent": 82,
+          "continuation_child": 83
+        },
+        {
+          "parent": 85,
+          "continuation_child": 86
+        },
+        {
+          "parent": 86,
+          "continuation_child": 87
+        },
+        {
+          "parent": 90,
+          "continuation_child": 91
+        },
+        {
+          "parent": 93,
+          "continuation_child": 94
+        },
+        {
+          "parent": 94,
+          "continuation_child": 95
+        },
+        {
+          "parent": 97,
+          "continuation_child": 98
+        },
+        {
+          "parent": 100,
+          "continuation_child": 101
+        },
+        {
+          "parent": 101,
+          "continuation_child": 102
+        },
+        {
+          "parent": 104,
+          "continuation_child": 105
+        },
+        {
+          "parent": 107,
+          "continuation_child": 108
+        },
+        {
+          "parent": 108,
+          "continuation_child": 109
+        },
+        {
+          "parent": 111,
+          "continuation_child": 112
+        },
+        {
+          "parent": 114,
+          "continuation_child": 115
+        },
+        {
+          "parent": 117,
+          "continuation_child": 118
+        },
+        {
+          "parent": 118,
+          "continuation_child": 119
+        },
+        {
+          "parent": 121,
+          "continuation_child": 122
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "intrinsic_vertices": 8180,
+      "bbox_exactly_unchanged": true,
+      "final_polygons": 7588
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_11",
+      "source_tubes": 171,
+      "basal_shoots": 21,
+      "terminal_segments": 103,
+      "joints_corrected": 68,
+      "changed_vertices": 680,
+      "triangles": 22168,
+      "height_scale_preserved": 1.0,
+      "all_terminal_tips_and_basal_roots_unchanged": true,
+      "bbox_before": [
+        [
+          2.292651653289795,
+          0.5468685030937195,
+          -0.028464343398809433
+        ],
+        [
+          5.284125804901123,
+          3.185032606124878,
+          1.281713843345642
+        ]
+      ],
+      "bbox_after": [
+        [
+          2.292651653289795,
+          0.5468685030937195,
+          -0.028464343398809433
+        ],
+        [
+          5.284125804901123,
+          3.185032606124878,
+          1.281713843345642
+        ]
+      ],
+      "joints": [
+        {
+          "parent": 0,
+          "continuation_child": 1
+        },
+        {
+          "parent": 1,
+          "continuation_child": 2
+        },
+        {
+          "parent": 4,
+          "continuation_child": 5
+        },
+        {
+          "parent": 7,
+          "continuation_child": 8
+        },
+        {
+          "parent": 8,
+          "continuation_child": 9
+        },
+        {
+          "parent": 12,
+          "continuation_child": 13
+        },
+        {
+          "parent": 15,
+          "continuation_child": 16
+        },
+        {
+          "parent": 16,
+          "continuation_child": 17
+        },
+        {
+          "parent": 19,
+          "continuation_child": 20
+        },
+        {
+          "parent": 22,
+          "continuation_child": 23
+        },
+        {
+          "parent": 23,
+          "continuation_child": 24
+        },
+        {
+          "parent": 26,
+          "continuation_child": 27
+        },
+        {
+          "parent": 29,
+          "continuation_child": 30
+        },
+        {
+          "parent": 30,
+          "continuation_child": 31
+        },
+        {
+          "parent": 34,
+          "continuation_child": 35
+        },
+        {
+          "parent": 37,
+          "continuation_child": 38
+        },
+        {
+          "parent": 38,
+          "continuation_child": 39
+        },
+        {
+          "parent": 42,
+          "continuation_child": 43
+        },
+        {
+          "parent": 45,
+          "continuation_child": 46
+        },
+        {
+          "parent": 46,
+          "continuation_child": 47
+        },
+        {
+          "parent": 49,
+          "continuation_child": 50
+        },
+        {
+          "parent": 52,
+          "continuation_child": 53
+        },
+        {
+          "parent": 53,
+          "continuation_child": 54
+        },
+        {
+          "parent": 56,
+          "continuation_child": 57
+        },
+        {
+          "parent": 59,
+          "continuation_child": 60
+        },
+        {
+          "parent": 60,
+          "continuation_child": 61
+        },
+        {
+          "parent": 63,
+          "continuation_child": 64
+        },
+        {
+          "parent": 66,
+          "continuation_child": 67
+        },
+        {
+          "parent": 67,
+          "continuation_child": 68
+        },
+        {
+          "parent": 71,
+          "continuation_child": 72
+        },
+        {
+          "parent": 75,
+          "continuation_child": 76
+        },
+        {
+          "parent": 76,
+          "continuation_child": 77
+        },
+        {
+          "parent": 80,
+          "continuation_child": 81
+        },
+        {
+          "parent": 83,
+          "continuation_child": 84
+        },
+        {
+          "parent": 84,
+          "continuation_child": 85
+        },
+        {
+          "parent": 87,
+          "continuation_child": 88
+        },
+        {
+          "parent": 90,
+          "continuation_child": 91
+        },
+        {
+          "parent": 93,
+          "continuation_child": 94
+        },
+        {
+          "parent": 94,
+          "continuation_child": 95
+        },
+        {
+          "parent": 97,
+          "continuation_child": 98
+        },
+        {
+          "parent": 100,
+          "continuation_child": 101
+        },
+        {
+          "parent": 103,
+          "continuation_child": 104
+        },
+        {
+          "parent": 104,
+          "continuation_child": 105
+        },
+        {
+          "parent": 107,
+          "continuation_child": 108
+        },
+        {
+          "parent": 110,
+          "continuation_child": 111
+        },
+        {
+          "parent": 111,
+          "continuation_child": 112
+        },
+        {
+          "parent": 114,
+          "continuation_child": 115
+        },
+        {
+          "parent": 117,
+          "continuation_child": 118
+        },
+        {
+          "parent": 118,
+          "continuation_child": 119
+        },
+        {
+          "parent": 121,
+          "continuation_child": 122
+        },
+        {
+          "parent": 124,
+          "continuation_child": 125
+        },
+        {
+          "parent": 127,
+          "continuation_child": 128
+        },
+        {
+          "parent": 128,
+          "continuation_child": 129
+        },
+        {
+          "parent": 131,
+          "continuation_child": 132
+        },
+        {
+          "parent": 134,
+          "continuation_child": 135
+        },
+        {
+          "parent": 138,
+          "continuation_child": 139
+        },
+        {
+          "parent": 139,
+          "continuation_child": 140
+        },
+        {
+          "parent": 142,
+          "continuation_child": 143
+        },
+        {
+          "parent": 146,
+          "continuation_child": 147
+        },
+        {
+          "parent": 149,
+          "continuation_child": 150
+        },
+        {
+          "parent": 150,
+          "continuation_child": 151
+        },
+        {
+          "parent": 154,
+          "continuation_child": 155
+        },
+        {
+          "parent": 157,
+          "continuation_child": 158
+        },
+        {
+          "parent": 158,
+          "continuation_child": 159
+        },
+        {
+          "parent": 161,
+          "continuation_child": 162
+        },
+        {
+          "parent": 164,
+          "continuation_child": 165
+        },
+        {
+          "parent": 165,
+          "continuation_child": 166
+        },
+        {
+          "parent": 168,
+          "continuation_child": 169
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "intrinsic_vertices": 11290,
+      "bbox_exactly_unchanged": true,
+      "final_polygons": 10466
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_12",
+      "source_tubes": 111,
+      "basal_shoots": 14,
+      "terminal_segments": 67,
+      "joints_corrected": 44,
+      "changed_vertices": 440,
+      "triangles": 14392,
+      "height_scale_preserved": 1.0,
+      "all_terminal_tips_and_basal_roots_unchanged": true,
+      "bbox_before": [
+        [
+          -5.487821102142334,
+          1.844254493713379,
+          -0.022860929369926453
+        ],
+        [
+          -3.093740224838257,
+          4.356993675231934,
+          1.1731092929840088
+        ]
+      ],
+      "bbox_after": [
+        [
+          -5.487821102142334,
+          1.844254493713379,
+          -0.022860929369926453
+        ],
+        [
+          -3.093740224838257,
+          4.356993675231934,
+          1.1731092929840088
+        ]
+      ],
+      "joints": [
+        {
+          "parent": 0,
+          "continuation_child": 1
+        },
+        {
+          "parent": 1,
+          "continuation_child": 2
+        },
+        {
+          "parent": 4,
+          "continuation_child": 5
+        },
+        {
+          "parent": 7,
+          "continuation_child": 8
+        },
+        {
+          "parent": 8,
+          "continuation_child": 9
+        },
+        {
+          "parent": 11,
+          "continuation_child": 12
+        },
+        {
+          "parent": 14,
+          "continuation_child": 15
+        },
+        {
+          "parent": 15,
+          "continuation_child": 16
+        },
+        {
+          "parent": 18,
+          "continuation_child": 19
+        },
+        {
+          "parent": 21,
+          "continuation_child": 22
+        },
+        {
+          "parent": 22,
+          "continuation_child": 23
+        },
+        {
+          "parent": 25,
+          "continuation_child": 26
+        },
+        {
+          "parent": 28,
+          "continuation_child": 29
+        },
+        {
+          "parent": 29,
+          "continuation_child": 30
+        },
+        {
+          "parent": 32,
+          "continuation_child": 33
+        },
+        {
+          "parent": 35,
+          "continuation_child": 36
+        },
+        {
+          "parent": 36,
+          "continuation_child": 37
+        },
+        {
+          "parent": 40,
+          "continuation_child": 41
+        },
+        {
+          "parent": 44,
+          "continuation_child": 45
+        },
+        {
+          "parent": 47,
+          "continuation_child": 48
+        },
+        {
+          "parent": 48,
+          "continuation_child": 49
+        },
+        {
+          "parent": 51,
+          "continuation_child": 52
+        },
+        {
+          "parent": 54,
+          "continuation_child": 55
+        },
+        {
+          "parent": 55,
+          "continuation_child": 56
+        },
+        {
+          "parent": 58,
+          "continuation_child": 59
+        },
+        {
+          "parent": 62,
+          "continuation_child": 63
+        },
+        {
+          "parent": 63,
+          "continuation_child": 64
+        },
+        {
+          "parent": 67,
+          "continuation_child": 68
+        },
+        {
+          "parent": 70,
+          "continuation_child": 71
+        },
+        {
+          "parent": 71,
+          "continuation_child": 72
+        },
+        {
+          "parent": 74,
+          "continuation_child": 75
+        },
+        {
+          "parent": 77,
+          "continuation_child": 78
+        },
+        {
+          "parent": 80,
+          "continuation_child": 81
+        },
+        {
+          "parent": 81,
+          "continuation_child": 82
+        },
+        {
+          "parent": 85,
+          "continuation_child": 86
+        },
+        {
+          "parent": 88,
+          "continuation_child": 89
+        },
+        {
+          "parent": 89,
+          "continuation_child": 90
+        },
+        {
+          "parent": 92,
+          "continuation_child": 93
+        },
+        {
+          "parent": 96,
+          "continuation_child": 97
+        },
+        {
+          "parent": 97,
+          "continuation_child": 98
+        },
+        {
+          "parent": 101,
+          "continuation_child": 102
+        },
+        {
+          "parent": 104,
+          "continuation_child": 105
+        },
+        {
+          "parent": 105,
+          "continuation_child": 106
+        },
+        {
+          "parent": 108,
+          "continuation_child": 109
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "intrinsic_vertices": 7330,
+      "bbox_exactly_unchanged": true,
+      "final_polygons": 6794
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_13",
+      "source_tubes": 119,
+      "basal_shoots": 14,
+      "terminal_segments": 73,
+      "joints_corrected": 46,
+      "changed_vertices": 460,
+      "triangles": 15448,
+      "height_scale_preserved": 1.0,
+      "all_terminal_tips_and_basal_roots_unchanged": true,
+      "bbox_before": [
+        [
+          -3.4761953353881836,
+          2.2009150981903076,
+          -0.026380345225334167
+        ],
+        [
+          -1.192134141921997,
+          4.591306209564209,
+          1.2203572988510132
+        ]
+      ],
+      "bbox_after": [
+        [
+          -3.4761953353881836,
+          2.2009150981903076,
+          -0.026380345225334167
+        ],
+        [
+          -1.192134141921997,
+          4.591306209564209,
+          1.2203572988510132
+        ]
+      ],
+      "joints": [
+        {
+          "parent": 0,
+          "continuation_child": 1
+        },
+        {
+          "parent": 1,
+          "continuation_child": 2
+        },
+        {
+          "parent": 4,
+          "continuation_child": 5
+        },
+        {
+          "parent": 8,
+          "continuation_child": 9
+        },
+        {
+          "parent": 11,
+          "continuation_child": 12
+        },
+        {
+          "parent": 12,
+          "continuation_child": 13
+        },
+        {
+          "parent": 16,
+          "continuation_child": 17
+        },
+        {
+          "parent": 19,
+          "continuation_child": 20
+        },
+        {
+          "parent": 20,
+          "continuation_child": 21
+        },
+        {
+          "parent": 24,
+          "continuation_child": 25
+        },
+        {
+          "parent": 27,
+          "continuation_child": 28
+        },
+        {
+          "parent": 28,
+          "continuation_child": 29
+        },
+        {
+          "parent": 31,
+          "continuation_child": 32
+        },
+        {
+          "parent": 34,
+          "continuation_child": 35
+        },
+        {
+          "parent": 35,
+          "continuation_child": 36
+        },
+        {
+          "parent": 38,
+          "continuation_child": 39
+        },
+        {
+          "parent": 41,
+          "continuation_child": 42
+        },
+        {
+          "parent": 42,
+          "continuation_child": 43
+        },
+        {
+          "parent": 45,
+          "continuation_child": 46
+        },
+        {
+          "parent": 48,
+          "continuation_child": 49
+        },
+        {
+          "parent": 51,
+          "continuation_child": 52
+        },
+        {
+          "parent": 52,
+          "continuation_child": 53
+        },
+        {
+          "parent": 55,
+          "continuation_child": 56
+        },
+        {
+          "parent": 59,
+          "continuation_child": 60
+        },
+        {
+          "parent": 60,
+          "continuation_child": 61
+        },
+        {
+          "parent": 63,
+          "continuation_child": 64
+        },
+        {
+          "parent": 66,
+          "continuation_child": 67
+        },
+        {
+          "parent": 67,
+          "continuation_child": 68
+        },
+        {
+          "parent": 71,
+          "continuation_child": 72
+        },
+        {
+          "parent": 74,
+          "continuation_child": 75
+        },
+        {
+          "parent": 77,
+          "continuation_child": 78
+        },
+        {
+          "parent": 78,
+          "continuation_child": 79
+        },
+        {
+          "parent": 82,
+          "continuation_child": 83
+        },
+        {
+          "parent": 85,
+          "continuation_child": 86
+        },
+        {
+          "parent": 86,
+          "continuation_child": 87
+        },
+        {
+          "parent": 90,
+          "continuation_child": 91
+        },
+        {
+          "parent": 93,
+          "continuation_child": 94
+        },
+        {
+          "parent": 96,
+          "continuation_child": 97
+        },
+        {
+          "parent": 97,
+          "continuation_child": 98
+        },
+        {
+          "parent": 100,
+          "continuation_child": 101
+        },
+        {
+          "parent": 103,
+          "continuation_child": 104
+        },
+        {
+          "parent": 104,
+          "continuation_child": 105
+        },
+        {
+          "parent": 107,
+          "continuation_child": 108
+        },
+        {
+          "parent": 111,
+          "continuation_child": 112
+        },
+        {
+          "parent": 112,
+          "continuation_child": 113
+        },
+        {
+          "parent": 116,
+          "continuation_child": 117
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "intrinsic_vertices": 7870,
+      "bbox_exactly_unchanged": true,
+      "final_polygons": 7286
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_14",
+      "source_tubes": 97,
+      "basal_shoots": 13,
+      "terminal_segments": 57,
+      "joints_corrected": 40,
+      "changed_vertices": 400,
+      "triangles": 12552,
+      "height_scale_preserved": 1.0,
+      "all_terminal_tips_and_basal_roots_unchanged": true,
+      "bbox_before": [
+        [
+          -1.7117897272109985,
+          2.215141773223877,
+          -0.034994352608919144
+        ],
+        [
+          0.4189465045928955,
+          4.079056739807129,
+          0.9105039834976196
+        ]
+      ],
+      "bbox_after": [
+        [
+          -1.7117897272109985,
+          2.215141773223877,
+          -0.034994352608919144
+        ],
+        [
+          0.4189465045928955,
+          4.079056739807129,
+          0.9105039834976196
+        ]
+      ],
+      "joints": [
+        {
+          "parent": 0,
+          "continuation_child": 1
+        },
+        {
+          "parent": 1,
+          "continuation_child": 2
+        },
+        {
+          "parent": 4,
+          "continuation_child": 5
+        },
+        {
+          "parent": 7,
+          "continuation_child": 8
+        },
+        {
+          "parent": 8,
+          "continuation_child": 9
+        },
+        {
+          "parent": 11,
+          "continuation_child": 12
+        },
+        {
+          "parent": 14,
+          "continuation_child": 15
+        },
+        {
+          "parent": 15,
+          "continuation_child": 16
+        },
+        {
+          "parent": 18,
+          "continuation_child": 19
+        },
+        {
+          "parent": 21,
+          "continuation_child": 22
+        },
+        {
+          "parent": 22,
+          "continuation_child": 23
+        },
+        {
+          "parent": 26,
+          "continuation_child": 27
+        },
+        {
+          "parent": 29,
+          "continuation_child": 30
+        },
+        {
+          "parent": 30,
+          "continuation_child": 31
+        },
+        {
+          "parent": 33,
+          "continuation_child": 34
+        },
+        {
+          "parent": 36,
+          "continuation_child": 37
+        },
+        {
+          "parent": 37,
+          "continuation_child": 38
+        },
+        {
+          "parent": 40,
+          "continuation_child": 41
+        },
+        {
+          "parent": 43,
+          "continuation_child": 44
+        },
+        {
+          "parent": 46,
+          "continuation_child": 47
+        },
+        {
+          "parent": 47,
+          "continuation_child": 48
+        },
+        {
+          "parent": 50,
+          "continuation_child": 51
+        },
+        {
+          "parent": 54,
+          "continuation_child": 55
+        },
+        {
+          "parent": 55,
+          "continuation_child": 56
+        },
+        {
+          "parent": 58,
+          "continuation_child": 59
+        },
+        {
+          "parent": 61,
+          "continuation_child": 62
+        },
+        {
+          "parent": 62,
+          "continuation_child": 63
+        },
+        {
+          "parent": 65,
+          "continuation_child": 66
+        },
+        {
+          "parent": 68,
+          "continuation_child": 69
+        },
+        {
+          "parent": 69,
+          "continuation_child": 70
+        },
+        {
+          "parent": 72,
+          "continuation_child": 73
+        },
+        {
+          "parent": 75,
+          "continuation_child": 76
+        },
+        {
+          "parent": 76,
+          "continuation_child": 77
+        },
+        {
+          "parent": 79,
+          "continuation_child": 80
+        },
+        {
+          "parent": 82,
+          "continuation_child": 83
+        },
+        {
+          "parent": 83,
+          "continuation_child": 84
+        },
+        {
+          "parent": 86,
+          "continuation_child": 87
+        },
+        {
+          "parent": 89,
+          "continuation_child": 90
+        },
+        {
+          "parent": 90,
+          "continuation_child": 91
+        },
+        {
+          "parent": 94,
+          "continuation_child": 95
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "intrinsic_vertices": 6390,
+      "bbox_exactly_unchanged": true,
+      "final_polygons": 5934
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_15",
+      "source_tubes": 119,
+      "basal_shoots": 14,
+      "terminal_segments": 72,
+      "joints_corrected": 47,
+      "changed_vertices": 470,
+      "triangles": 15432,
+      "height_scale_preserved": 1.0,
+      "all_terminal_tips_and_basal_roots_unchanged": true,
+      "bbox_before": [
+        [
+          0.27794042229652405,
+          2.1449832916259766,
+          -0.008921194821596146
+        ],
+        [
+          2.5558719635009766,
+          4.760893821716309,
+          1.1954317092895508
+        ]
+      ],
+      "bbox_after": [
+        [
+          0.27794042229652405,
+          2.1449832916259766,
+          -0.008921194821596146
+        ],
+        [
+          2.5558719635009766,
+          4.760893821716309,
+          1.1954317092895508
+        ]
+      ],
+      "joints": [
+        {
+          "parent": 0,
+          "continuation_child": 1
+        },
+        {
+          "parent": 1,
+          "continuation_child": 2
+        },
+        {
+          "parent": 4,
+          "continuation_child": 5
+        },
+        {
+          "parent": 7,
+          "continuation_child": 8
+        },
+        {
+          "parent": 8,
+          "continuation_child": 9
+        },
+        {
+          "parent": 11,
+          "continuation_child": 12
+        },
+        {
+          "parent": 14,
+          "continuation_child": 15
+        },
+        {
+          "parent": 15,
+          "continuation_child": 16
+        },
+        {
+          "parent": 18,
+          "continuation_child": 19
+        },
+        {
+          "parent": 21,
+          "continuation_child": 22
+        },
+        {
+          "parent": 22,
+          "continuation_child": 23
+        },
+        {
+          "parent": 26,
+          "continuation_child": 27
+        },
+        {
+          "parent": 30,
+          "continuation_child": 31
+        },
+        {
+          "parent": 31,
+          "continuation_child": 32
+        },
+        {
+          "parent": 34,
+          "continuation_child": 35
+        },
+        {
+          "parent": 37,
+          "continuation_child": 38
+        },
+        {
+          "parent": 40,
+          "continuation_child": 41
+        },
+        {
+          "parent": 41,
+          "continuation_child": 42
+        },
+        {
+          "parent": 44,
+          "continuation_child": 45
+        },
+        {
+          "parent": 47,
+          "continuation_child": 48
+        },
+        {
+          "parent": 48,
+          "continuation_child": 49
+        },
+        {
+          "parent": 51,
+          "continuation_child": 52
+        },
+        {
+          "parent": 55,
+          "continuation_child": 56
+        },
+        {
+          "parent": 58,
+          "continuation_child": 59
+        },
+        {
+          "parent": 59,
+          "continuation_child": 60
+        },
+        {
+          "parent": 62,
+          "continuation_child": 63
+        },
+        {
+          "parent": 66,
+          "continuation_child": 67
+        },
+        {
+          "parent": 69,
+          "continuation_child": 70
+        },
+        {
+          "parent": 70,
+          "continuation_child": 71
+        },
+        {
+          "parent": 73,
+          "continuation_child": 74
+        },
+        {
+          "parent": 76,
+          "continuation_child": 77
+        },
+        {
+          "parent": 77,
+          "continuation_child": 78
+        },
+        {
+          "parent": 80,
+          "continuation_child": 81
+        },
+        {
+          "parent": 83,
+          "continuation_child": 84
+        },
+        {
+          "parent": 84,
+          "continuation_child": 85
+        },
+        {
+          "parent": 87,
+          "continuation_child": 88
+        },
+        {
+          "parent": 90,
+          "continuation_child": 91
+        },
+        {
+          "parent": 91,
+          "continuation_child": 92
+        },
+        {
+          "parent": 95,
+          "continuation_child": 96
+        },
+        {
+          "parent": 98,
+          "continuation_child": 99
+        },
+        {
+          "parent": 101,
+          "continuation_child": 102
+        },
+        {
+          "parent": 102,
+          "continuation_child": 103
+        },
+        {
+          "parent": 105,
+          "continuation_child": 106
+        },
+        {
+          "parent": 109,
+          "continuation_child": 110
+        },
+        {
+          "parent": 110,
+          "continuation_child": 111
+        },
+        {
+          "parent": 113,
+          "continuation_child": 114
+        },
+        {
+          "parent": 116,
+          "continuation_child": 117
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "intrinsic_vertices": 7860,
+      "bbox_exactly_unchanged": true,
+      "final_polygons": 7284
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_16",
+      "source_tubes": 125,
+      "basal_shoots": 16,
+      "terminal_segments": 75,
+      "joints_corrected": 50,
+      "changed_vertices": 500,
+      "triangles": 16200,
+      "height_scale_preserved": 1.0,
+      "all_terminal_tips_and_basal_roots_unchanged": true,
+      "bbox_before": [
+        [
+          1.5805772542953491,
+          3.318761110305786,
+          -0.040152497589588165
+        ],
+        [
+          3.9674360752105713,
+          5.408870220184326,
+          1.2305179834365845
+        ]
+      ],
+      "bbox_after": [
+        [
+          1.5805772542953491,
+          3.318761110305786,
+          -0.040152497589588165
+        ],
+        [
+          3.9674360752105713,
+          5.408870220184326,
+          1.2305179834365845
+        ]
+      ],
+      "joints": [
+        {
+          "parent": 0,
+          "continuation_child": 1
+        },
+        {
+          "parent": 1,
+          "continuation_child": 2
+        },
+        {
+          "parent": 4,
+          "continuation_child": 5
+        },
+        {
+          "parent": 7,
+          "continuation_child": 8
+        },
+        {
+          "parent": 8,
+          "continuation_child": 9
+        },
+        {
+          "parent": 12,
+          "continuation_child": 13
+        },
+        {
+          "parent": 15,
+          "continuation_child": 16
+        },
+        {
+          "parent": 16,
+          "continuation_child": 17
+        },
+        {
+          "parent": 19,
+          "continuation_child": 20
+        },
+        {
+          "parent": 22,
+          "continuation_child": 23
+        },
+        {
+          "parent": 23,
+          "continuation_child": 24
+        },
+        {
+          "parent": 26,
+          "continuation_child": 27
+        },
+        {
+          "parent": 29,
+          "continuation_child": 30
+        },
+        {
+          "parent": 30,
+          "continuation_child": 31
+        },
+        {
+          "parent": 33,
+          "continuation_child": 34
+        },
+        {
+          "parent": 36,
+          "continuation_child": 37
+        },
+        {
+          "parent": 37,
+          "continuation_child": 38
+        },
+        {
+          "parent": 40,
+          "continuation_child": 41
+        },
+        {
+          "parent": 43,
+          "continuation_child": 44
+        },
+        {
+          "parent": 44,
+          "continuation_child": 45
+        },
+        {
+          "parent": 47,
+          "continuation_child": 48
+        },
+        {
+          "parent": 51,
+          "continuation_child": 52
+        },
+        {
+          "parent": 52,
+          "continuation_child": 53
+        },
+        {
+          "parent": 55,
+          "continuation_child": 56
+        },
+        {
+          "parent": 58,
+          "continuation_child": 59
+        },
+        {
+          "parent": 59,
+          "continuation_child": 60
+        },
+        {
+          "parent": 63,
+          "continuation_child": 64
+        },
+        {
+          "parent": 66,
+          "continuation_child": 67
+        },
+        {
+          "parent": 67,
+          "continuation_child": 68
+        },
+        {
+          "parent": 70,
+          "continuation_child": 71
+        },
+        {
+          "parent": 73,
+          "continuation_child": 74
+        },
+        {
+          "parent": 74,
+          "continuation_child": 75
+        },
+        {
+          "parent": 78,
+          "continuation_child": 79
+        },
+        {
+          "parent": 82,
+          "continuation_child": 83
+        },
+        {
+          "parent": 83,
+          "continuation_child": 84
+        },
+        {
+          "parent": 86,
+          "continuation_child": 87
+        },
+        {
+          "parent": 90,
+          "continuation_child": 91
+        },
+        {
+          "parent": 91,
+          "continuation_child": 92
+        },
+        {
+          "parent": 94,
+          "continuation_child": 95
+        },
+        {
+          "parent": 97,
+          "continuation_child": 98
+        },
+        {
+          "parent": 98,
+          "continuation_child": 99
+        },
+        {
+          "parent": 102,
+          "continuation_child": 103
+        },
+        {
+          "parent": 105,
+          "continuation_child": 106
+        },
+        {
+          "parent": 106,
+          "continuation_child": 107
+        },
+        {
+          "parent": 109,
+          "continuation_child": 110
+        },
+        {
+          "parent": 112,
+          "continuation_child": 113
+        },
+        {
+          "parent": 115,
+          "continuation_child": 116
+        },
+        {
+          "parent": 116,
+          "continuation_child": 117
+        },
+        {
+          "parent": 119,
+          "continuation_child": 120
+        },
+        {
+          "parent": 122,
+          "continuation_child": 123
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "intrinsic_vertices": 8250,
+      "bbox_exactly_unchanged": true,
+      "final_polygons": 7650
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_17",
+      "source_tubes": 133,
+      "basal_shoots": 17,
+      "terminal_segments": 80,
+      "joints_corrected": 53,
+      "changed_vertices": 530,
+      "triangles": 17240,
+      "height_scale_preserved": 1.0,
+      "all_terminal_tips_and_basal_roots_unchanged": true,
+      "bbox_before": [
+        [
+          -4.860779762268066,
+          4.219857215881348,
+          -0.02323213405907154
+        ],
+        [
+          -2.9572112560272217,
+          5.982032299041748,
+          1.0311576128005981
+        ]
+      ],
+      "bbox_after": [
+        [
+          -4.860779762268066,
+          4.219857215881348,
+          -0.02323213405907154
+        ],
+        [
+          -2.9572112560272217,
+          5.982032299041748,
+          1.0311576128005981
+        ]
+      ],
+      "joints": [
+        {
+          "parent": 0,
+          "continuation_child": 1
+        },
+        {
+          "parent": 1,
+          "continuation_child": 2
+        },
+        {
+          "parent": 4,
+          "continuation_child": 5
+        },
+        {
+          "parent": 7,
+          "continuation_child": 8
+        },
+        {
+          "parent": 11,
+          "continuation_child": 12
+        },
+        {
+          "parent": 12,
+          "continuation_child": 13
+        },
+        {
+          "parent": 15,
+          "continuation_child": 16
+        },
+        {
+          "parent": 18,
+          "continuation_child": 19
+        },
+        {
+          "parent": 19,
+          "continuation_child": 20
+        },
+        {
+          "parent": 22,
+          "continuation_child": 23
+        },
+        {
+          "parent": 25,
+          "continuation_child": 26
+        },
+        {
+          "parent": 26,
+          "continuation_child": 27
+        },
+        {
+          "parent": 29,
+          "continuation_child": 30
+        },
+        {
+          "parent": 32,
+          "continuation_child": 33
+        },
+        {
+          "parent": 33,
+          "continuation_child": 34
+        },
+        {
+          "parent": 37,
+          "continuation_child": 38
+        },
+        {
+          "parent": 40,
+          "continuation_child": 41
+        },
+        {
+          "parent": 41,
+          "continuation_child": 42
+        },
+        {
+          "parent": 44,
+          "continuation_child": 45
+        },
+        {
+          "parent": 48,
+          "continuation_child": 49
+        },
+        {
+          "parent": 49,
+          "continuation_child": 50
+        },
+        {
+          "parent": 52,
+          "continuation_child": 53
+        },
+        {
+          "parent": 55,
+          "continuation_child": 56
+        },
+        {
+          "parent": 56,
+          "continuation_child": 57
+        },
+        {
+          "parent": 59,
+          "continuation_child": 60
+        },
+        {
+          "parent": 62,
+          "continuation_child": 63
+        },
+        {
+          "parent": 65,
+          "continuation_child": 66
+        },
+        {
+          "parent": 66,
+          "continuation_child": 67
+        },
+        {
+          "parent": 70,
+          "continuation_child": 71
+        },
+        {
+          "parent": 73,
+          "continuation_child": 74
+        },
+        {
+          "parent": 74,
+          "continuation_child": 75
+        },
+        {
+          "parent": 78,
+          "continuation_child": 79
+        },
+        {
+          "parent": 81,
+          "continuation_child": 82
+        },
+        {
+          "parent": 82,
+          "continuation_child": 83
+        },
+        {
+          "parent": 85,
+          "continuation_child": 86
+        },
+        {
+          "parent": 88,
+          "continuation_child": 89
+        },
+        {
+          "parent": 89,
+          "continuation_child": 90
+        },
+        {
+          "parent": 93,
+          "continuation_child": 94
+        },
+        {
+          "parent": 96,
+          "continuation_child": 97
+        },
+        {
+          "parent": 97,
+          "continuation_child": 98
+        },
+        {
+          "parent": 100,
+          "continuation_child": 101
+        },
+        {
+          "parent": 103,
+          "continuation_child": 104
+        },
+        {
+          "parent": 104,
+          "continuation_child": 105
+        },
+        {
+          "parent": 107,
+          "continuation_child": 108
+        },
+        {
+          "parent": 110,
+          "continuation_child": 111
+        },
+        {
+          "parent": 111,
+          "continuation_child": 112
+        },
+        {
+          "parent": 114,
+          "continuation_child": 115
+        },
+        {
+          "parent": 118,
+          "continuation_child": 119
+        },
+        {
+          "parent": 119,
+          "continuation_child": 120
+        },
+        {
+          "parent": 122,
+          "continuation_child": 123
+        },
+        {
+          "parent": 126,
+          "continuation_child": 127
+        },
+        {
+          "parent": 127,
+          "continuation_child": 128
+        },
+        {
+          "parent": 130,
+          "continuation_child": 131
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "intrinsic_vertices": 8780,
+      "bbox_exactly_unchanged": true,
+      "final_polygons": 8140
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_18",
+      "source_tubes": 153,
+      "basal_shoots": 18,
+      "terminal_segments": 94,
+      "joints_corrected": 59,
+      "changed_vertices": 590,
+      "triangles": 19864,
+      "height_scale_preserved": 1.0,
+      "all_terminal_tips_and_basal_roots_unchanged": true,
+      "bbox_before": [
+        [
+          -3.3809587955474854,
+          4.1291046142578125,
+          -0.03495853394269943
+        ],
+        [
+          -0.5932313203811646,
+          6.6115498542785645,
+          1.2739858627319336
+        ]
+      ],
+      "bbox_after": [
+        [
+          -3.3809587955474854,
+          4.1291046142578125,
+          -0.03495853394269943
+        ],
+        [
+          -0.5932313203811646,
+          6.6115498542785645,
+          1.2739858627319336
+        ]
+      ],
+      "joints": [
+        {
+          "parent": 0,
+          "continuation_child": 1
+        },
+        {
+          "parent": 1,
+          "continuation_child": 2
+        },
+        {
+          "parent": 4,
+          "continuation_child": 5
+        },
+        {
+          "parent": 7,
+          "continuation_child": 8
+        },
+        {
+          "parent": 8,
+          "continuation_child": 9
+        },
+        {
+          "parent": 11,
+          "continuation_child": 12
+        },
+        {
+          "parent": 14,
+          "continuation_child": 15
+        },
+        {
+          "parent": 15,
+          "continuation_child": 16
+        },
+        {
+          "parent": 19,
+          "continuation_child": 20
+        },
+        {
+          "parent": 22,
+          "continuation_child": 23
+        },
+        {
+          "parent": 23,
+          "continuation_child": 24
+        },
+        {
+          "parent": 26,
+          "continuation_child": 27
+        },
+        {
+          "parent": 29,
+          "continuation_child": 30
+        },
+        {
+          "parent": 30,
+          "continuation_child": 31
+        },
+        {
+          "parent": 33,
+          "continuation_child": 34
+        },
+        {
+          "parent": 37,
+          "continuation_child": 38
+        },
+        {
+          "parent": 40,
+          "continuation_child": 41
+        },
+        {
+          "parent": 41,
+          "continuation_child": 42
+        },
+        {
+          "parent": 45,
+          "continuation_child": 46
+        },
+        {
+          "parent": 48,
+          "continuation_child": 49
+        },
+        {
+          "parent": 49,
+          "continuation_child": 50
+        },
+        {
+          "parent": 53,
+          "continuation_child": 54
+        },
+        {
+          "parent": 56,
+          "continuation_child": 57
+        },
+        {
+          "parent": 60,
+          "continuation_child": 61
+        },
+        {
+          "parent": 61,
+          "continuation_child": 62
+        },
+        {
+          "parent": 65,
+          "continuation_child": 66
+        },
+        {
+          "parent": 68,
+          "continuation_child": 69
+        },
+        {
+          "parent": 69,
+          "continuation_child": 70
+        },
+        {
+          "parent": 72,
+          "continuation_child": 73
+        },
+        {
+          "parent": 75,
+          "continuation_child": 76
+        },
+        {
+          "parent": 79,
+          "continuation_child": 80
+        },
+        {
+          "parent": 80,
+          "continuation_child": 81
+        },
+        {
+          "parent": 83,
+          "continuation_child": 84
+        },
+        {
+          "parent": 86,
+          "continuation_child": 87
+        },
+        {
+          "parent": 87,
+          "continuation_child": 88
+        },
+        {
+          "parent": 90,
+          "continuation_child": 91
+        },
+        {
+          "parent": 93,
+          "continuation_child": 94
+        },
+        {
+          "parent": 94,
+          "continuation_child": 95
+        },
+        {
+          "parent": 97,
+          "continuation_child": 98
+        },
+        {
+          "parent": 100,
+          "continuation_child": 101
+        },
+        {
+          "parent": 104,
+          "continuation_child": 105
+        },
+        {
+          "parent": 105,
+          "continuation_child": 106
+        },
+        {
+          "parent": 108,
+          "continuation_child": 109
+        },
+        {
+          "parent": 111,
+          "continuation_child": 112
+        },
+        {
+          "parent": 112,
+          "continuation_child": 113
+        },
+        {
+          "parent": 115,
+          "continuation_child": 116
+        },
+        {
+          "parent": 119,
+          "continuation_child": 120
+        },
+        {
+          "parent": 120,
+          "continuation_child": 121
+        },
+        {
+          "parent": 124,
+          "continuation_child": 125
+        },
+        {
+          "parent": 127,
+          "continuation_child": 128
+        },
+        {
+          "parent": 128,
+          "continuation_child": 129
+        },
+        {
+          "parent": 131,
+          "continuation_child": 132
+        },
+        {
+          "parent": 134,
+          "continuation_child": 135
+        },
+        {
+          "parent": 135,
+          "continuation_child": 136
+        },
+        {
+          "parent": 138,
+          "continuation_child": 139
+        },
+        {
+          "parent": 141,
+          "continuation_child": 142
+        },
+        {
+          "parent": 145,
+          "continuation_child": 146
+        },
+        {
+          "parent": 146,
+          "continuation_child": 147
+        },
+        {
+          "parent": 150,
+          "continuation_child": 151
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "intrinsic_vertices": 10120,
+      "bbox_exactly_unchanged": true,
+      "final_polygons": 9368
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_19",
+      "source_tubes": 143,
+      "basal_shoots": 18,
+      "terminal_segments": 86,
+      "joints_corrected": 57,
+      "changed_vertices": 570,
+      "triangles": 18536,
+      "height_scale_preserved": 1.0,
+      "all_terminal_tips_and_basal_roots_unchanged": true,
+      "bbox_before": [
+        [
+          -0.9828159809112549,
+          4.518284320831299,
+          -0.018332745879888535
+        ],
+        [
+          1.588410496711731,
+          6.451301097869873,
+          1.2868685722351074
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.9828159809112549,
+          4.518284320831299,
+          -0.018332745879888535
+        ],
+        [
+          1.588410496711731,
+          6.451301097869873,
+          1.2868685722351074
+        ]
+      ],
+      "joints": [
+        {
+          "parent": 0,
+          "continuation_child": 1
+        },
+        {
+          "parent": 1,
+          "continuation_child": 2
+        },
+        {
+          "parent": 4,
+          "continuation_child": 5
+        },
+        {
+          "parent": 8,
+          "continuation_child": 9
+        },
+        {
+          "parent": 9,
+          "continuation_child": 10
+        },
+        {
+          "parent": 12,
+          "continuation_child": 13
+        },
+        {
+          "parent": 16,
+          "continuation_child": 17
+        },
+        {
+          "parent": 17,
+          "continuation_child": 18
+        },
+        {
+          "parent": 20,
+          "continuation_child": 21
+        },
+        {
+          "parent": 23,
+          "continuation_child": 24
+        },
+        {
+          "parent": 24,
+          "continuation_child": 25
+        },
+        {
+          "parent": 27,
+          "continuation_child": 28
+        },
+        {
+          "parent": 30,
+          "continuation_child": 31
+        },
+        {
+          "parent": 31,
+          "continuation_child": 32
+        },
+        {
+          "parent": 34,
+          "continuation_child": 35
+        },
+        {
+          "parent": 37,
+          "continuation_child": 38
+        },
+        {
+          "parent": 38,
+          "continuation_child": 39
+        },
+        {
+          "parent": 41,
+          "continuation_child": 42
+        },
+        {
+          "parent": 44,
+          "continuation_child": 45
+        },
+        {
+          "parent": 45,
+          "continuation_child": 46
+        },
+        {
+          "parent": 48,
+          "continuation_child": 49
+        },
+        {
+          "parent": 51,
+          "continuation_child": 52
+        },
+        {
+          "parent": 52,
+          "continuation_child": 53
+        },
+        {
+          "parent": 55,
+          "continuation_child": 56
+        },
+        {
+          "parent": 58,
+          "continuation_child": 59
+        },
+        {
+          "parent": 59,
+          "continuation_child": 60
+        },
+        {
+          "parent": 62,
+          "continuation_child": 63
+        },
+        {
+          "parent": 65,
+          "continuation_child": 66
+        },
+        {
+          "parent": 68,
+          "continuation_child": 69
+        },
+        {
+          "parent": 69,
+          "continuation_child": 70
+        },
+        {
+          "parent": 72,
+          "continuation_child": 73
+        },
+        {
+          "parent": 76,
+          "continuation_child": 77
+        },
+        {
+          "parent": 77,
+          "continuation_child": 78
+        },
+        {
+          "parent": 80,
+          "continuation_child": 81
+        },
+        {
+          "parent": 83,
+          "continuation_child": 84
+        },
+        {
+          "parent": 84,
+          "continuation_child": 85
+        },
+        {
+          "parent": 87,
+          "continuation_child": 88
+        },
+        {
+          "parent": 90,
+          "continuation_child": 91
+        },
+        {
+          "parent": 93,
+          "continuation_child": 94
+        },
+        {
+          "parent": 94,
+          "continuation_child": 95
+        },
+        {
+          "parent": 98,
+          "continuation_child": 99
+        },
+        {
+          "parent": 101,
+          "continuation_child": 102
+        },
+        {
+          "parent": 102,
+          "continuation_child": 103
+        },
+        {
+          "parent": 106,
+          "continuation_child": 107
+        },
+        {
+          "parent": 109,
+          "continuation_child": 110
+        },
+        {
+          "parent": 110,
+          "continuation_child": 111
+        },
+        {
+          "parent": 113,
+          "continuation_child": 114
+        },
+        {
+          "parent": 117,
+          "continuation_child": 118
+        },
+        {
+          "parent": 118,
+          "continuation_child": 119
+        },
+        {
+          "parent": 121,
+          "continuation_child": 122
+        },
+        {
+          "parent": 124,
+          "continuation_child": 125
+        },
+        {
+          "parent": 125,
+          "continuation_child": 126
+        },
+        {
+          "parent": 128,
+          "continuation_child": 129
+        },
+        {
+          "parent": 132,
+          "continuation_child": 133
+        },
+        {
+          "parent": 135,
+          "continuation_child": 136
+        },
+        {
+          "parent": 136,
+          "continuation_child": 137
+        },
+        {
+          "parent": 140,
+          "continuation_child": 141
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "intrinsic_vertices": 9440,
+      "bbox_exactly_unchanged": true,
+      "final_polygons": 8752
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_20",
+      "source_tubes": 152,
+      "basal_shoots": 20,
+      "terminal_segments": 89,
+      "joints_corrected": 63,
+      "changed_vertices": 630,
+      "triangles": 19664,
+      "height_scale_preserved": 0.9929430861126195,
+      "all_terminal_tips_and_basal_roots_unchanged": true,
+      "bbox_before": [
+        [
+          -0.026193767786026,
+          4.728480339050293,
+          -0.034049153327941895
+        ],
+        [
+          2.3182058334350586,
+          7.678207874298096,
+          1.3659508228302002
+        ]
+      ],
+      "bbox_after": [
+        [
+          -0.026193767786026,
+          4.728480339050293,
+          -0.034049153327941895
+        ],
+        [
+          2.3182058334350586,
+          7.678207874298096,
+          1.3659508228302002
+        ]
+      ],
+      "joints": [
+        {
+          "parent": 0,
+          "continuation_child": 1
+        },
+        {
+          "parent": 1,
+          "continuation_child": 2
+        },
+        {
+          "parent": 4,
+          "continuation_child": 5
+        },
+        {
+          "parent": 7,
+          "continuation_child": 8
+        },
+        {
+          "parent": 8,
+          "continuation_child": 9
+        },
+        {
+          "parent": 11,
+          "continuation_child": 12
+        },
+        {
+          "parent": 14,
+          "continuation_child": 15
+        },
+        {
+          "parent": 15,
+          "continuation_child": 16
+        },
+        {
+          "parent": 18,
+          "continuation_child": 19
+        },
+        {
+          "parent": 21,
+          "continuation_child": 22
+        },
+        {
+          "parent": 22,
+          "continuation_child": 23
+        },
+        {
+          "parent": 25,
+          "continuation_child": 26
+        },
+        {
+          "parent": 28,
+          "continuation_child": 29
+        },
+        {
+          "parent": 29,
+          "continuation_child": 30
+        },
+        {
+          "parent": 32,
+          "continuation_child": 33
+        },
+        {
+          "parent": 35,
+          "continuation_child": 36
+        },
+        {
+          "parent": 36,
+          "continuation_child": 37
+        },
+        {
+          "parent": 39,
+          "continuation_child": 40
+        },
+        {
+          "parent": 42,
+          "continuation_child": 43
+        },
+        {
+          "parent": 43,
+          "continuation_child": 44
+        },
+        {
+          "parent": 46,
+          "continuation_child": 47
+        },
+        {
+          "parent": 49,
+          "continuation_child": 50
+        },
+        {
+          "parent": 50,
+          "continuation_child": 51
+        },
+        {
+          "parent": 53,
+          "continuation_child": 54
+        },
+        {
+          "parent": 56,
+          "continuation_child": 57
+        },
+        {
+          "parent": 59,
+          "continuation_child": 60
+        },
+        {
+          "parent": 60,
+          "continuation_child": 61
+        },
+        {
+          "parent": 63,
+          "continuation_child": 64
+        },
+        {
+          "parent": 66,
+          "continuation_child": 67
+        },
+        {
+          "parent": 67,
+          "continuation_child": 68
+        },
+        {
+          "parent": 70,
+          "continuation_child": 71
+        },
+        {
+          "parent": 73,
+          "continuation_child": 74
+        },
+        {
+          "parent": 74,
+          "continuation_child": 75
+        },
+        {
+          "parent": 77,
+          "continuation_child": 78
+        },
+        {
+          "parent": 80,
+          "continuation_child": 81
+        },
+        {
+          "parent": 81,
+          "continuation_child": 82
+        },
+        {
+          "parent": 84,
+          "continuation_child": 85
+        },
+        {
+          "parent": 87,
+          "continuation_child": 88
+        },
+        {
+          "parent": 88,
+          "continuation_child": 89
+        },
+        {
+          "parent": 91,
+          "continuation_child": 92
+        },
+        {
+          "parent": 94,
+          "continuation_child": 95
+        },
+        {
+          "parent": 95,
+          "continuation_child": 96
+        },
+        {
+          "parent": 99,
+          "continuation_child": 100
+        },
+        {
+          "parent": 102,
+          "continuation_child": 103
+        },
+        {
+          "parent": 103,
+          "continuation_child": 104
+        },
+        {
+          "parent": 106,
+          "continuation_child": 107
+        },
+        {
+          "parent": 109,
+          "continuation_child": 110
+        },
+        {
+          "parent": 110,
+          "continuation_child": 111
+        },
+        {
+          "parent": 113,
+          "continuation_child": 114
+        },
+        {
+          "parent": 117,
+          "continuation_child": 118
+        },
+        {
+          "parent": 120,
+          "continuation_child": 121
+        },
+        {
+          "parent": 121,
+          "continuation_child": 122
+        },
+        {
+          "parent": 124,
+          "continuation_child": 125
+        },
+        {
+          "parent": 127,
+          "continuation_child": 128
+        },
+        {
+          "parent": 131,
+          "continuation_child": 132
+        },
+        {
+          "parent": 132,
+          "continuation_child": 133
+        },
+        {
+          "parent": 135,
+          "continuation_child": 136
+        },
+        {
+          "parent": 138,
+          "continuation_child": 139
+        },
+        {
+          "parent": 139,
+          "continuation_child": 140
+        },
+        {
+          "parent": 142,
+          "continuation_child": 143
+        },
+        {
+          "parent": 145,
+          "continuation_child": 146
+        },
+        {
+          "parent": 146,
+          "continuation_child": 147
+        },
+        {
+          "parent": 149,
+          "continuation_child": 150
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "intrinsic_vertices": 10010,
+      "bbox_exactly_unchanged": true,
+      "final_polygons": 9298
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_21",
+      "source_tubes": 125,
+      "basal_shoots": 16,
+      "terminal_segments": 75,
+      "joints_corrected": 50,
+      "changed_vertices": 500,
+      "triangles": 16200,
+      "height_scale_preserved": 1.0,
+      "all_terminal_tips_and_basal_roots_unchanged": true,
+      "bbox_before": [
+        [
+          2.815215587615967,
+          2.2806098461151123,
+          -0.03061903640627861
+        ],
+        [
+          5.509718418121338,
+          4.568136692047119,
+          1.3368700742721558
+        ]
+      ],
+      "bbox_after": [
+        [
+          2.815215587615967,
+          2.2806098461151123,
+          -0.03061903640627861
+        ],
+        [
+          5.509718418121338,
+          4.568136692047119,
+          1.3368700742721558
+        ]
+      ],
+      "joints": [
+        {
+          "parent": 0,
+          "continuation_child": 1
+        },
+        {
+          "parent": 1,
+          "continuation_child": 2
+        },
+        {
+          "parent": 4,
+          "continuation_child": 5
+        },
+        {
+          "parent": 7,
+          "continuation_child": 8
+        },
+        {
+          "parent": 8,
+          "continuation_child": 9
+        },
+        {
+          "parent": 12,
+          "continuation_child": 13
+        },
+        {
+          "parent": 15,
+          "continuation_child": 16
+        },
+        {
+          "parent": 16,
+          "continuation_child": 17
+        },
+        {
+          "parent": 19,
+          "continuation_child": 20
+        },
+        {
+          "parent": 22,
+          "continuation_child": 23
+        },
+        {
+          "parent": 23,
+          "continuation_child": 24
+        },
+        {
+          "parent": 26,
+          "continuation_child": 27
+        },
+        {
+          "parent": 29,
+          "continuation_child": 30
+        },
+        {
+          "parent": 30,
+          "continuation_child": 31
+        },
+        {
+          "parent": 34,
+          "continuation_child": 35
+        },
+        {
+          "parent": 37,
+          "continuation_child": 38
+        },
+        {
+          "parent": 38,
+          "continuation_child": 39
+        },
+        {
+          "parent": 41,
+          "continuation_child": 42
+        },
+        {
+          "parent": 44,
+          "continuation_child": 45
+        },
+        {
+          "parent": 47,
+          "continuation_child": 48
+        },
+        {
+          "parent": 48,
+          "continuation_child": 49
+        },
+        {
+          "parent": 51,
+          "continuation_child": 52
+        },
+        {
+          "parent": 54,
+          "continuation_child": 55
+        },
+        {
+          "parent": 55,
+          "continuation_child": 56
+        },
+        {
+          "parent": 59,
+          "continuation_child": 60
+        },
+        {
+          "parent": 63,
+          "continuation_child": 64
+        },
+        {
+          "parent": 64,
+          "continuation_child": 65
+        },
+        {
+          "parent": 67,
+          "continuation_child": 68
+        },
+        {
+          "parent": 70,
+          "continuation_child": 71
+        },
+        {
+          "parent": 71,
+          "continuation_child": 72
+        },
+        {
+          "parent": 74,
+          "continuation_child": 75
+        },
+        {
+          "parent": 78,
+          "continuation_child": 79
+        },
+        {
+          "parent": 79,
+          "continuation_child": 80
+        },
+        {
+          "parent": 83,
+          "continuation_child": 84
+        },
+        {
+          "parent": 86,
+          "continuation_child": 87
+        },
+        {
+          "parent": 87,
+          "continuation_child": 88
+        },
+        {
+          "parent": 90,
+          "continuation_child": 91
+        },
+        {
+          "parent": 93,
+          "continuation_child": 94
+        },
+        {
+          "parent": 94,
+          "continuation_child": 95
+        },
+        {
+          "parent": 97,
+          "continuation_child": 98
+        },
+        {
+          "parent": 100,
+          "continuation_child": 101
+        },
+        {
+          "parent": 101,
+          "continuation_child": 102
+        },
+        {
+          "parent": 104,
+          "continuation_child": 105
+        },
+        {
+          "parent": 107,
+          "continuation_child": 108
+        },
+        {
+          "parent": 108,
+          "continuation_child": 109
+        },
+        {
+          "parent": 111,
+          "continuation_child": 112
+        },
+        {
+          "parent": 114,
+          "continuation_child": 115
+        },
+        {
+          "parent": 115,
+          "continuation_child": 116
+        },
+        {
+          "parent": 118,
+          "continuation_child": 119
+        },
+        {
+          "parent": 121,
+          "continuation_child": 122
+        }
+      ],
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "intrinsic_vertices": 8250,
+      "bbox_exactly_unchanged": true,
+      "final_polygons": 7650
+    }
+  ],
+  "scope": "Apply the same reviewed source-graph nonterminal radius restoration and continuation bridge only. No new growth forms, global unions, incidental crossing welds, base shifts or color changes."
+}

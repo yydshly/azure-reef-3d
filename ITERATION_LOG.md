@@ -59,3 +59,17 @@ The portable three-step patch chain was rerun independently from the preceding b
 ## Evidence boundary correction
 
 Material-assignment audit established that the accepted offline comparison images contain no projected caustic modulation. Unused suffixed material variants had the water texture; actual rendered materials did not. No image was replaced to conceal the discrepancy. Browser water-light code has structural checks only. The compact, geometry-free fixture under modeling/immersive/offline reproduces the pixels actually inspected and records the numerical comparison.
+
+## 2026-10-06 · Preserve original growth layout, repair junction artifacts
+
+Actual NOAA staghorn pixels were compared with fixed close and neutral views. Two replacement-colony designs passed numerical geometry checks but failed visual review: they imposed a sparse connected framework on an originally multi-stem thicket. Neither was deployed. Their rejection and the corrected scope are recorded in evidence/junctions/EXPERIMENT_LOG.md.
+
+The accepted approach reproduces every original thicket's vertices exactly from the original seed and only removes the artificial nonterminal narrowing/continuation discontinuity. All 22 source thickets pass exact replay; 1,155 recorded continuation joins are corrected. Axes, terminal tips, basal networks, envelopes, transforms and materials remain intact. Owner and independent review inspected before/after front/back neutral views and full opening/reverse images. This is a narrow visible defect correction, not a claim that the complete scene now meets the realism target.
+
+A too-small spatial seam-merge tolerance initially reported false export boundaries. Exact float32 coordinate equality resolved the diagnostic: only duplicated UV/normal attribute vertices were collapsed for counting, with no change to the asset. Reimport topology, source preservation and final scene checks were then repeated.
+
+The earlier offline comparison did not contain projected caustics. Actual assigned materials were audited; caustic-bearing material variants were unused. The evidence and reference page now state this explicitly. Runtime WebGL, motion appearance and device performance remain unverified.
+
+Release integrity: observed Pages cache headers were max-age=600 on independently cached model resources. The runtime now selects one immutable versioned glTF package with all dependencies under the same directory; previous fixed URLs are preserved for cached clients. Deployment pruning reduces active binary data to 22,531,288 bytes without changing any live attribute/index byte or world transform. Final full-period routes, anchor rays, five-stop app wiring, reduced motion, low mode, explicit WebGL failure and structural water-light checks pass; no live browser GPU claim is added.
+
+The first source push was rejected with `artifacts_git_receive_pack_object_too_large` because the archival 47 MB model retained old unreferenced geometry. No failed build was deployed. A deterministic compaction step reduced the distributed GLB to 28,962,072 bytes, SHA-256 `ce6a7bc4d005ecd794d378c792d5d05d79f4683b10a2d3446333e6053ead4d21`; loaded active geometry/index bytes and world transforms remain identical. The unpublished local commit was amended, and the immutable model directory was regenerated from this accepted-size source. Prior released baselines and the archival candidate hash are preserved.

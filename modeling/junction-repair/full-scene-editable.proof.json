@@ -1,0 +1,57 @@
+{
+  "input_glb_sha256": "619806ff9fbe2911d7a805ba2ef94019adea7e0538b6132bb9b7734e7ab06c54",
+  "blend_sha256": "f34c1efff534e12676dfc183a97bbbf0437aed17e796ffc902924d316cfb49c6",
+  "blend_bytes": 27436033,
+  "scene_objects": 91,
+  "mesh_objects": 87,
+  "unique_meshes": 60,
+  "camera_count": 0,
+  "light_count": 0,
+  "compositor_enabled": false,
+  "world": null,
+  "materials": [
+    "Coral | reference-led porous PBR",
+    "Limestone | reference-led porous PBR",
+    "Living coral.001",
+    "Sand | reference-led porous PBR"
+  ],
+  "images": [
+    {
+      "name": "coral_normal",
+      "packed": true,
+      "users": 1,
+      "source": "FILE"
+    },
+    {
+      "name": "coral_roughness",
+      "packed": true,
+      "users": 1,
+      "source": "FILE"
+    },
+    {
+      "name": "limestone_normal",
+      "packed": true,
+      "users": 1,
+      "source": "FILE"
+    },
+    {
+      "name": "limestone_roughness",
+      "packed": true,
+      "users": 1,
+      "source": "FILE"
+    },
+    {
+      "name": "sand_normal",
+      "packed": true,
+      "users": 1,
+      "source": "FILE"
+    },
+    {
+      "name": "sand_roughness",
+      "packed": true,
+      "users": 1,
+      "source": "FILE"
+    }
+  ],
+  "scope": "Clean full exact-candidate GLB import only, all fish and substrate included. Original imported material graphs unchanged, no camera/lights/world/compositor or presentation substitutions. Packed textures and unused datablocks purged; no geometry edits."
+}

@@ -1,0 +1,258 @@
+{
+  "candidate_sha256": "619806ff9fbe2911d7a805ba2ef94019adea7e0538b6132bb9b7734e7ab06c54",
+  "all22_exact_export_topology_pass": true,
+  "method": "Exact float32 coordinate tuple remapping only; no tolerance or asset edits",
+  "frozen_one_specimen_attribute_arrays_identical": {
+    "POSITION": true,
+    "NORMAL": true,
+    "TEXCOORD_0": true,
+    "COLOR_0": true,
+    "indices": true
+  },
+  "total_triangles": 376056,
+  "total_exact_vertices": 191520,
+  "meshes": [
+    {
+      "name": "Coral_Staghorn_Thicket_00",
+      "export_vertices": 13825,
+      "exact_unique_positions": 8120,
+      "triangles": 15944,
+      "components": 74,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "orientation_inconsistent_edges": 0,
+      "degenerate_triangles": 0
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_01",
+      "export_vertices": 17479,
+      "exact_unique_positions": 10230,
+      "triangles": 20088,
+      "components": 93,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "orientation_inconsistent_edges": 0,
+      "degenerate_triangles": 0
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_02",
+      "export_vertices": 12857,
+      "exact_unique_positions": 7590,
+      "triangles": 14904,
+      "components": 69,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "orientation_inconsistent_edges": 0,
+      "degenerate_triangles": 0
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_03",
+      "export_vertices": 17354,
+      "exact_unique_positions": 10250,
+      "triangles": 20120,
+      "components": 95,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "orientation_inconsistent_edges": 0,
+      "degenerate_triangles": 0
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_04",
+      "export_vertices": 12441,
+      "exact_unique_positions": 7330,
+      "triangles": 14392,
+      "components": 67,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "orientation_inconsistent_edges": 0,
+      "degenerate_triangles": 0
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_05",
+      "export_vertices": 12855,
+      "exact_unique_positions": 7580,
+      "triangles": 14888,
+      "components": 68,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "orientation_inconsistent_edges": 0,
+      "degenerate_triangles": 0
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_06",
+      "export_vertices": 17358,
+      "exact_unique_positions": 10170,
+      "triangles": 19968,
+      "components": 93,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "orientation_inconsistent_edges": 0,
+      "degenerate_triangles": 0
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_07",
+      "export_vertices": 14386,
+      "exact_unique_positions": 8520,
+      "triangles": 16728,
+      "components": 78,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "orientation_inconsistent_edges": 0,
+      "degenerate_triangles": 0
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_08",
+      "export_vertices": 11122,
+      "exact_unique_positions": 6600,
+      "triangles": 12960,
+      "components": 60,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "orientation_inconsistent_edges": 0,
+      "degenerate_triangles": 0
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_09",
+      "export_vertices": 19323,
+      "exact_unique_positions": 11360,
+      "triangles": 22304,
+      "components": 104,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "orientation_inconsistent_edges": 0,
+      "degenerate_triangles": 0
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_10",
+      "export_vertices": 13956,
+      "exact_unique_positions": 8180,
+      "triangles": 16064,
+      "components": 74,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "orientation_inconsistent_edges": 0,
+      "degenerate_triangles": 0
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_11",
+      "export_vertices": 19082,
+      "exact_unique_positions": 11290,
+      "triangles": 22168,
+      "components": 103,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "orientation_inconsistent_edges": 0,
+      "degenerate_triangles": 0
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_12",
+      "export_vertices": 12447,
+      "exact_unique_positions": 7330,
+      "triangles": 14392,
+      "components": 67,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "orientation_inconsistent_edges": 0,
+      "degenerate_triangles": 0
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_13",
+      "export_vertices": 13370,
+      "exact_unique_positions": 7870,
+      "triangles": 15448,
+      "components": 73,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "orientation_inconsistent_edges": 0,
+      "degenerate_triangles": 0
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_14",
+      "export_vertices": 10943,
+      "exact_unique_positions": 6390,
+      "triangles": 12552,
+      "components": 57,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "orientation_inconsistent_edges": 0,
+      "degenerate_triangles": 0
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_15",
+      "export_vertices": 13384,
+      "exact_unique_positions": 7860,
+      "triangles": 15432,
+      "components": 72,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "orientation_inconsistent_edges": 0,
+      "degenerate_triangles": 0
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_16",
+      "export_vertices": 14085,
+      "exact_unique_positions": 8250,
+      "triangles": 16200,
+      "components": 75,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "orientation_inconsistent_edges": 0,
+      "degenerate_triangles": 0
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_17",
+      "export_vertices": 14865,
+      "exact_unique_positions": 8780,
+      "triangles": 17240,
+      "components": 80,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "orientation_inconsistent_edges": 0,
+      "degenerate_triangles": 0
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_18",
+      "export_vertices": 17236,
+      "exact_unique_positions": 10120,
+      "triangles": 19864,
+      "components": 94,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "orientation_inconsistent_edges": 0,
+      "degenerate_triangles": 0
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_19",
+      "export_vertices": 16019,
+      "exact_unique_positions": 9440,
+      "triangles": 18536,
+      "components": 86,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "orientation_inconsistent_edges": 0,
+      "degenerate_triangles": 0
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_20",
+      "export_vertices": 16955,
+      "exact_unique_positions": 10010,
+      "triangles": 19664,
+      "components": 89,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "orientation_inconsistent_edges": 0,
+      "degenerate_triangles": 0
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_21",
+      "export_vertices": 13955,
+      "exact_unique_positions": 8250,
+      "triangles": 16200,
+      "components": 75,
+      "boundary_edges": 0,
+      "nonmanifold_edges": 0,
+      "orientation_inconsistent_edges": 0,
+      "degenerate_triangles": 0
+    }
+  ]
+}

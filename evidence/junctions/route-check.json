@@ -1,0 +1,26 @@
+[
+  {
+    "fish": "fish_01",
+    "minCenterClearance": 0.41102021419844514,
+    "maxStepPer05Seconds": 0.3824670768620472,
+    "occludedSamplesAcrossFourViews": 0
+  },
+  {
+    "fish": "fish_02",
+    "minCenterClearance": 0.5057670044596474,
+    "maxStepPer05Seconds": 0.29213514863808554,
+    "occludedSamplesAcrossFourViews": 13
+  },
+  {
+    "fish": "fish_03",
+    "minCenterClearance": 0.4860175328373355,
+    "maxStepPer05Seconds": 0.17776651457428655,
+    "occludedSamplesAcrossFourViews": 27
+  },
+  {
+    "fish": "fish_04",
+    "minCenterClearance": 0.39795194951364987,
+    "maxStepPer05Seconds": 0.22123101562455771,
+    "occludedSamplesAcrossFourViews": 4
+  }
+]

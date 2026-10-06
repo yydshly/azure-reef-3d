@@ -1,0 +1,75 @@
+[
+  {
+    "viewport": [
+      900,
+      650
+    ],
+    "anchors": [
+      {
+        "label": "砂底",
+        "pixel": [
+          342.00000000000017,
+          349.99999999999955
+        ],
+        "mesh": "Sand_Rippled_32m"
+      },
+      {
+        "label": "坚硬礁面",
+        "pixel": [
+          351.9999999999998,
+          395.0000000000006
+        ],
+        "mesh": "Hardbottom_Low_Irregular_Limestone"
+      }
+    ]
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "anchors": [
+      {
+        "label": "砂底",
+        "pixel": [
+          195.00000000000023,
+          302.5415384615378
+        ],
+        "mesh": "Sand_Rippled_32m"
+      },
+      {
+        "label": "坚硬礁面",
+        "pixel": [
+          207.98461538461507,
+          360.9723076923085
+        ],
+        "mesh": "Hardbottom_Low_Irregular_Limestone"
+      }
+    ]
+  },
+  {
+    "viewport": [
+      390,
+      740
+    ],
+    "anchors": [
+      {
+        "label": "砂底",
+        "pixel": [
+          195.00000000000017,
+          265.2615384615379
+        ],
+        "mesh": "Sand_Rippled_32m"
+      },
+      {
+        "label": "坚硬礁面",
+        "pixel": [
+          206.38461538461507,
+          316.4923076923084
+        ],
+        "mesh": "Hardbottom_Low_Irregular_Limestone"
+      }
+    ]
+  }
+]
+PASS: actual model surface identity, first-hit visibility, responsive projection and card clearance. Not browser screenshot verification.

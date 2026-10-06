@@ -1,0 +1,201 @@
+{
+  "source_sha256": "deac6a8e6d2173fc649023b763264f3b195fc5c084bf5a2c58c3ca76c4abcb0e",
+  "candidate_sha256": "619806ff9fbe2911d7a805ba2ef94019adea7e0538b6132bb9b7734e7ab06c54",
+  "candidate_bytes": 47059408,
+  "appended_binary_bytes": 16569404,
+  "checks": {
+    "all_nodes_transforms_and_mesh_references_unchanged": true,
+    "all_noncoral_meshes_unchanged": true,
+    "all_original_accessors_unchanged": true,
+    "all_original_buffer_views_unchanged": true,
+    "entire_original_binary_prefix_unchanged": true,
+    "materials_images_textures_samplers_unchanged": true,
+    "all_other_scene_state_unchanged": true
+  },
+  "changed_original_meshes": [
+    {
+      "name": "Coral_Staghorn_Thicket_00",
+      "mesh_index": 36,
+      "shared_nodes": [
+        "Coral_Staghorn_Thicket_00",
+        "Depth_Staghorn_Linked_02_0"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_01",
+      "mesh_index": 37,
+      "shared_nodes": [
+        "Coral_Staghorn_Thicket_01"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_02",
+      "mesh_index": 38,
+      "shared_nodes": [
+        "Coral_Staghorn_Thicket_02",
+        "Depth_Staghorn_Linked_06_0"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_03",
+      "mesh_index": 39,
+      "shared_nodes": [
+        "Coral_Staghorn_Thicket_03",
+        "Corridor_Distant_Linked_02"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_04",
+      "mesh_index": 40,
+      "shared_nodes": [
+        "Coral_Staghorn_Thicket_04",
+        "Depth_Staghorn_Linked_07_0",
+        "Corridor_Distant_Linked_07"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_05",
+      "mesh_index": 41,
+      "shared_nodes": [
+        "Coral_Staghorn_Thicket_05",
+        "Depth_Staghorn_Linked_04_0"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_06",
+      "mesh_index": 42,
+      "shared_nodes": [
+        "Coral_Staghorn_Thicket_06"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_07",
+      "mesh_index": 43,
+      "shared_nodes": [
+        "Coral_Staghorn_Thicket_07",
+        "Corridor_Distant_Linked_05"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_08",
+      "mesh_index": 44,
+      "shared_nodes": [
+        "Coral_Staghorn_Thicket_08",
+        "Depth_Staghorn_Linked_01_0"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_09",
+      "mesh_index": 45,
+      "shared_nodes": [
+        "Coral_Staghorn_Thicket_09"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_10",
+      "mesh_index": 46,
+      "shared_nodes": [
+        "Coral_Staghorn_Thicket_10"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_11",
+      "mesh_index": 47,
+      "shared_nodes": [
+        "Coral_Staghorn_Thicket_11",
+        "Depth_Staghorn_Linked_01_1",
+        "Corridor_Distant_Linked_03"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_12",
+      "mesh_index": 48,
+      "shared_nodes": [
+        "Coral_Staghorn_Thicket_12",
+        "Depth_Staghorn_Linked_03_0",
+        "Corridor_Distant_Linked_06"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_13",
+      "mesh_index": 49,
+      "shared_nodes": [
+        "Coral_Staghorn_Thicket_13",
+        "Corridor_Distant_Linked_00"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_14",
+      "mesh_index": 50,
+      "shared_nodes": [
+        "Coral_Staghorn_Thicket_14",
+        "Depth_Staghorn_Linked_00_0"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_15",
+      "mesh_index": 51,
+      "shared_nodes": [
+        "Coral_Staghorn_Thicket_15",
+        "Depth_Staghorn_Linked_03_1",
+        "Corridor_Distant_Linked_04"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_16",
+      "mesh_index": 52,
+      "shared_nodes": [
+        "Coral_Staghorn_Thicket_16",
+        "Depth_Staghorn_Linked_08_0"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_17",
+      "mesh_index": 53,
+      "shared_nodes": [
+        "Coral_Staghorn_Thicket_17",
+        "Depth_Staghorn_Linked_00_1",
+        "Depth_Staghorn_Linked_05_0"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_18",
+      "mesh_index": 54,
+      "shared_nodes": [
+        "Coral_Staghorn_Thicket_18",
+        "Corridor_Distant_Linked_01"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_19",
+      "mesh_index": 55,
+      "shared_nodes": [
+        "Coral_Staghorn_Thicket_19"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_20",
+      "mesh_index": 56,
+      "shared_nodes": [
+        "Coral_Staghorn_Thicket_20"
+      ]
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_21",
+      "mesh_index": 57,
+      "shared_nodes": [
+        "Coral_Staghorn_Thicket_21"
+      ]
+    }
+  ],
+  "preserved_hashes": {
+    "nodes": "bbf5797bc934181e75f8f58995b75525cd3ef4a0d59c918d32269f7f7701a61a",
+    "materials": "531f45c662a0a2315a57c96353b67891366f0276cc3cc8b6d92055483991f6fb",
+    "images": "e8e4d919b188b5a5ef5d50e634f5219819505d2769c6a24e813029d4327b7410",
+    "textures": "a47086fc6d978d27915fbaea59eec718c3d48eb60963723d03a79d21e40f5a3b",
+    "samplers": "0f3273e4b92d4e98e3ee78749a96168498f4fee421d1a0c06c987583d57064e5",
+    "scenes": "32986a7426b3fe869282887b944200edcb3c0e34808eca1a6d55ff45f6561f54",
+    "animations": "74234e98afe7498fb5daf1f36ac2d78acc339464f950703b8c019892f982b90b"
+  },
+  "scope": "Only22 original thicket mesh primitive accessor references updated. Existing distant nodes automatically use their shared corrected original meshes, with transforms unchanged."
+}
