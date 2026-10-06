@@ -1,0 +1,62 @@
+{
+  "sand": {
+    "anchor": [
+      -1.0108096,
+      -0.1403618,
+      2.8146734
+    ],
+    "camera": [
+      2.4,
+      2.3,
+      7.2
+    ],
+    "hit_object": "Sand_Rippled_32m",
+    "hit_position_blender": [
+      -1.0108096599578857,
+      -2.8146729469299316,
+      -0.14036202430725098
+    ],
+    "distance_to_anchor": 5.399486700294446e-07,
+    "unoccluded_to_anchor": true
+  },
+  "hard": {
+    "anchor": [
+      -0.3038789,
+      -0.00275017,
+      3.6140898
+    ],
+    "camera": [
+      2.4,
+      2.3,
+      7.2
+    ],
+    "hit_object": "Hardbottom_Low_Irregular_Limestone",
+    "hit_position_blender": [
+      -0.3038787841796875,
+      -3.6140897274017334,
+      -0.002750396728515625
+    ],
+    "distance_to_anchor": 2.562004756522613e-07,
+    "unoccluded_to_anchor": true
+  },
+  "coral": {
+    "anchor": [
+      -2.9,
+      0.65,
+      1.7
+    ],
+    "camera": [
+      -0.6,
+      1.9,
+      5
+    ],
+    "hit_object": null,
+    "hit_position_blender": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "distance_to_anchor": 3.423813788845864,
+    "unoccluded_to_anchor": true
+  }
+}

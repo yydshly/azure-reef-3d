@@ -1,0 +1,208 @@
+{
+  "glb_bytes": 30471852,
+  "sha256": "deac6a8e6d2173fc649023b763264f3b195fc5c084bf5a2c58c3ca76c4abcb0e",
+  "supports": [
+    {
+      "coral": "Corridor_Distant_Linked_00",
+      "support": {
+        "name": "Distant_Limestone_Support_00",
+        "mesh": 59,
+        "translation": [
+          -3.1,
+          -0.12,
+          -12.693558469944415
+        ],
+        "scale": [
+          0.2920373455777256,
+          0.4,
+          0.3165259562847402
+        ]
+      },
+      "support_z_bounds": [
+        -15.41568169399318,
+        -10.984318306006818
+      ],
+      "source_mesh": "Hardbottom_Low_Irregular_Limestone",
+      "source_geometry": "Original baseline limestone mesh reused, with derived perimeter lowering only; one shared support mesh",
+      "layout": "Low partly buried inferred attachment beds on existing sand, not observed survey reconstruction",
+      "perimeter_correction": "New shared support only: radius <= .63 untouched; smooth .85 local-unit downward taper outside, burying perimeter. Derived original limestone morphology; old core unchanged."
+    },
+    {
+      "coral": "Corridor_Distant_Linked_01",
+      "support": {
+        "name": "Distant_Limestone_Support_01",
+        "mesh": 59,
+        "translation": [
+          3.5999999999999996,
+          -0.19,
+          -16.303276353021037
+        ],
+        "scale": [
+          0.27921695272527836,
+          0.4,
+          0.3104522793618532
+        ]
+      },
+      "support_z_bounds": [
+        -18.973165955532973,
+        -14.626834044467028
+      ],
+      "source_mesh": "Hardbottom_Low_Irregular_Limestone",
+      "source_geometry": "Original baseline limestone mesh reused, with derived perimeter lowering only; one shared support mesh",
+      "layout": "Low partly buried inferred attachment beds on existing sand, not observed survey reconstruction",
+      "perimeter_correction": "New shared support only: radius <= .63 untouched; smooth .85 local-unit downward taper outside, burying perimeter. Derived original limestone morphology; old core unchanged."
+    },
+    {
+      "coral": "Corridor_Distant_Linked_02",
+      "support": {
+        "name": "Distant_Limestone_Support_02",
+        "mesh": 59,
+        "translation": [
+          -4.5,
+          -0.19,
+          -20.420358018134465
+        ],
+        "scale": [
+          0.3973892827102538,
+          0.4,
+          0.4247762386659594
+        ]
+      },
+      "support_z_bounds": [
+        -24.073433670661718,
+        -18.126566329338285
+      ],
+      "source_mesh": "Hardbottom_Low_Irregular_Limestone",
+      "source_geometry": "Original baseline limestone mesh reused, with derived perimeter lowering only; one shared support mesh",
+      "layout": "Low partly buried inferred attachment beds on existing sand, not observed survey reconstruction",
+      "perimeter_correction": "New shared support only: radius <= .63 untouched; smooth .85 local-unit downward taper outside, burying perimeter. Derived original limestone morphology; old core unchanged."
+    },
+    {
+      "coral": "Corridor_Distant_Linked_03",
+      "support": {
+        "name": "Distant_Limestone_Support_03",
+        "mesh": 59,
+        "translation": [
+          1.8000000000000007,
+          -0.19,
+          -25.455740383253257
+        ],
+        "scale": [
+          0.2984665945963227,
+          0.4,
+          0.3401622604667149
+        ]
+      },
+      "support_z_bounds": [
+        -28.381135823267005,
+        -23.618864176732995
+      ],
+      "source_mesh": "Hardbottom_Low_Irregular_Limestone",
+      "source_geometry": "Original baseline limestone mesh reused, with derived perimeter lowering only; one shared support mesh",
+      "layout": "Low partly buried inferred attachment beds on existing sand, not observed survey reconstruction",
+      "perimeter_correction": "New shared support only: radius <= .63 untouched; smooth .85 local-unit downward taper outside, burying perimeter. Derived original limestone morphology; old core unchanged."
+    },
+    {
+      "coral": "Corridor_Distant_Linked_04",
+      "support": {
+        "name": "Distant_Limestone_Support_04",
+        "mesh": 59,
+        "translation": [
+          3.6,
+          -0.12,
+          13.813125502140402
+        ],
+        "scale": [
+          0.2851880646402683,
+          0.4,
+          0.32070343883775215
+        ]
+      },
+      "support_z_bounds": [
+        11.055075928135732,
+        15.544924071864266
+      ],
+      "source_mesh": "Hardbottom_Low_Irregular_Limestone",
+      "source_geometry": "Original baseline limestone mesh reused, with derived perimeter lowering only; one shared support mesh",
+      "layout": "Low partly buried inferred attachment beds on existing sand, not observed survey reconstruction",
+      "perimeter_correction": "New shared support only: radius <= .63 untouched; smooth .85 local-unit downward taper outside, burying perimeter. Derived original limestone morphology; old core unchanged."
+    },
+    {
+      "coral": "Corridor_Distant_Linked_05",
+      "support": {
+        "name": "Distant_Limestone_Support_05",
+        "mesh": 59,
+        "translation": [
+          -6.400000000000001,
+          -0.19,
+          16.91799499420748
+        ],
+        "scale": [
+          0.30374257891590983,
+          0.4,
+          0.3237468713796754
+        ]
+      },
+      "support_z_bounds": [
+        14.13377190034227,
+        18.666228099657726
+      ],
+      "source_mesh": "Hardbottom_Low_Irregular_Limestone",
+      "source_geometry": "Original baseline limestone mesh reused, with derived perimeter lowering only; one shared support mesh",
+      "layout": "Low partly buried inferred attachment beds on existing sand, not observed survey reconstruction",
+      "perimeter_correction": "New shared support only: radius <= .63 untouched; smooth .85 local-unit downward taper outside, burying perimeter. Derived original limestone morphology; old core unchanged."
+    },
+    {
+      "coral": "Corridor_Distant_Linked_06",
+      "support": {
+        "name": "Distant_Limestone_Support_06",
+        "mesh": 59,
+        "translation": [
+          4.2,
+          -0.19,
+          21.87193422256862
+        ],
+        "scale": [
+          0.33383574850899855,
+          0.4,
+          0.35745888910538687
+        ]
+      },
+      "support_z_bounds": [
+        18.797787776262293,
+        23.80221222373771
+      ],
+      "source_mesh": "Hardbottom_Low_Irregular_Limestone",
+      "source_geometry": "Original baseline limestone mesh reused, with derived perimeter lowering only; one shared support mesh",
+      "layout": "Low partly buried inferred attachment beds on existing sand, not observed survey reconstruction",
+      "perimeter_correction": "New shared support only: radius <= .63 untouched; smooth .85 local-unit downward taper outside, burying perimeter. Derived original limestone morphology; old core unchanged."
+    },
+    {
+      "coral": "Corridor_Distant_Linked_07",
+      "support": {
+        "name": "Distant_Limestone_Support_07",
+        "mesh": 59,
+        "translation": [
+          -3.8,
+          -0.19,
+          26.68807864756614
+        ],
+        "scale": [
+          0.2652629133056405,
+          0.4,
+          0.30504915472883887
+        ]
+      },
+      "support_z_bounds": [
+        24.064655916898126,
+        28.335344083101873
+      ],
+      "source_mesh": "Hardbottom_Low_Irregular_Limestone",
+      "source_geometry": "Original baseline limestone mesh reused, with derived perimeter lowering only; one shared support mesh",
+      "layout": "Low partly buried inferred attachment beds on existing sand, not observed survey reconstruction",
+      "perimeter_correction": "New shared support only: radius <= .63 untouched; smooth .85 local-unit downward taper outside, burying perimeter. Derived original limestone morphology; old core unchanged."
+    }
+  ],
+  "existing_binary_prefix_unchanged": true,
+  "unchanged_core_nodes": true
+}

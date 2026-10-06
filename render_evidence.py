@@ -3,7 +3,7 @@ from mathutils import Vector
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent
 P=str(ROOT/'artifacts'/'comparison');os.makedirs(P,exist_ok=True)
-bpy.ops.wm.open_mainfile(filepath=str(ROOT/'modeling'/'editable'/'reef-garden-final.blend'))
+bpy.ops.wm.open_mainfile(filepath=str(ROOT/'modeling'/'inputs'/'offline-lighting.blend'))
 s=bpy.context.scene;s.render.engine='CYCLES';s.cycles.samples=48;s.cycles.use_denoising=False;s.cycles.max_bounces=5
 s.render.resolution_x=1100;s.render.resolution_y=800;s.render.resolution_percentage=100
 s.use_nodes=True;nt=s.node_tree

@@ -1,5 +1,5 @@
 {
-  "source_commit": "515811ecbb536d5e78a5aa4010d9ef789672cfb7",
+  "source_commit": "adcab74aed75f8186f73b94b5f55eaa9a19171e3",
   "previous_export_preserved": "a9dfa703a53077f3a5f82f233cafb9ea65d37dd9",
   "dist_byte_identical": true,
   "published_checkout_modified": false,
@@ -77,6 +77,10 @@
         "package.json"
       ],
       "change": "Sync verified sand/hardbottom anchors, center marker dots and integrate portable actual-model regression test."
+    },
+    {
+      "change": "Immersive scene, restrained water caustics, safer sampled fish routes, portable deterministic model patches, final packed editable, preserved historical offline-lighting fixture; visual goal remains open.",
+      "source": "adcab74aed75f8186f73b94b5f55eaa9a19171e3"
     }
   ],
   "added_inputs": [

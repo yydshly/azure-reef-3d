@@ -14,7 +14,7 @@
 
 A static, genuine-3D reef scene with a five-stop Chinese beginner guide. The guide connects camera positions and visible labels to explanations of reef context, sand/hardbottom, coral animals, generic fish, and light/water. Sources and modeling limits are available in the interface.
 
-This export includes deployed source commit `515811ecbb536d5e78a5aa4010d9ef789672cfb7` (the guide-anchor fix on top of `6637a05c8b712ba5e2d508b5da0c96fb8a8ff4e9`). Every file under `dist/` is byte-identical to that deployed snapshot; see `docs/source-baseline-sha256.json` and `docs/export-changes.json`.
+This export includes source commit `adcab74aed75f8186f73b94b5f55eaa9a19171e3`. Every file under `dist/` is byte-identical to that scene snapshot; see `docs/source-baseline-sha256.json` and `docs/export-changes.json`.
 
 ## Run the exact snapshot
 
@@ -66,7 +66,7 @@ Open `modeling/editable/reef-garden-final.blend` in Blender 4.3.2. The image map
 
 If exporting a changed model, preserve mesh names and `fish_01`…`fish_04` parent names used by app animation. Export meshes and fish parent empties as glTF binary, including vertex colors, UVs, normals and materials; do not export offline cameras/lights. Replace `source-model.glb`, then run `python3 export-static-model.py` and `npm run build:routes`. Recheck guide focus points after geometry changes.
 
-## Rebuild the current procedural model from supplied inputs
+## Historical reference → edge → depth pipeline
 
 Run all commands from the repository root. Texture regeneration requires Python 3.11 or newer. Install Blender 4.3.2 from its official distribution. The six original maps are supplied; regeneration is optional.
 
@@ -95,7 +95,7 @@ npm run test:motion
 
 `build_reef.py` and `extend_sand.py` reconstruct an older exploratory model under `artifacts/legacy-base/`; they are provenance, **not** the approved current rebuild route. The supplied seed blend is the authoritative input for the current generator because the historical chain included separately verified normal/material corrections.
 
-## Offline camera evidence
+## Offline camera evidence (legacy views)
 
 ```sh
 blender -b --factory-startup --python render_evidence.py
@@ -124,3 +124,17 @@ Nine closed low hardbottom rises and twelve linked instances of existing staghor
 海床站改为两个经过当前模型射线验证的独立标记：砂底、坚硬礁面。修复圆点中心与投影点的对齐，并检查手机视口的导览卡片避让；模型几何不变。`npm test` 现在包含真实模型表面与标记检查。模拟测试和几何投影检查不等同于真实浏览器截图验证。
 
 Source revision: `515811ecbb536d5e78a5aa4010d9ef789672cfb7`.
+
+## Current exact model reproduction
+
+Use the deterministic three-stage chain in `modeling/immersive/README.md` for the current immersive model. The historical pipeline above produces the earlier depth revision. The final editable Blender file contains packed geometry/materials; runtime water lighting remains in JavaScript. `modeling/inputs/offline-lighting.blend` preserves the older offline camera/light rig for historical render scripts. Those legacy views do not reproduce the new evidence camera/lighting exactly.
+
+## Immersive view and water-light pass
+
+The opening camera is now inside the reef rather than looking down at a miniature. Ten existing thickets move aside around an uneven sand opening, and eight shared-mesh instances continue the existing form into the middle/distance. Exact source-accessor checks preserve all other core geometry, fish, materials and image maps. The sand/hardbottom guide anchors retain first-hit visibility. Layout and concealed geometry are artistic inference, not a survey or ecological density measurement.
+
+A new original wave-slope caustic texture and restrained runtime light modulation replace the earlier banded analytical effect. The surrounding water field varies with viewing direction; there is no background picture replacing terrain. Runtime shader insertion is structurally tested, but no actual browser GPU compile/render is claimed. The offline before/after images use matching cameras and lighting; their light renderer and static fish poses differ from live runtime.
+
+Fish routes were rebuilt with denser body-footprint sampling after the moved thickets exposed a clearance issue. QA now samples full route periods and four camera positions, including a low lateral orbit view. These checks demonstrate sampled clearance/occlusion, not continuous collision safety or validated biological behavior.
+
+The first-version visual target is still open: the corridor and layered depth are clearer, but regular branch morphology, simple distant transitions, and unverified realtime water appearance prevent claiming photorealistic or completed immersion. See ITERATION_LOG.md for rationale and evidence/immersive for numerical proof.

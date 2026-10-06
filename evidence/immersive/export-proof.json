@@ -1,0 +1,137 @@
+{
+  "counts": {
+    "nodes": [
+      75,
+      75
+    ],
+    "meshes": [
+      59,
+      59
+    ],
+    "materials": [
+      4,
+      4
+    ],
+    "images": [
+      6,
+      6
+    ]
+  },
+  "transforms_changed": [
+    {
+      "name": "Coral_Staghorn_Thicket_02",
+      "before": {},
+      "after": {
+        "translation": [
+          -0.6709111045177252,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_03",
+      "before": {},
+      "after": {
+        "translation": [
+          2.0729397338888824,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_04",
+      "before": {},
+      "after": {
+        "translation": [
+          0.8789262747522101,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_09",
+      "before": {},
+      "after": {
+        "translation": [
+          -1.681306874286085,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_10",
+      "before": {},
+      "after": {
+        "translation": [
+          0.9751676902059861,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_14",
+      "before": {},
+      "after": {
+        "translation": [
+          -1.1162401330792724,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_15",
+      "before": {},
+      "after": {
+        "translation": [
+          0.5925483967429089,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_18",
+      "before": {},
+      "after": {
+        "translation": [
+          -0.3331158363714941,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_19",
+      "before": {},
+      "after": {
+        "translation": [
+          1.9194411772560667,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "name": "Coral_Staghorn_Thicket_20",
+      "before": {},
+      "after": {
+        "translation": [
+          1.057804808273512,
+          0,
+          0
+        ]
+      }
+    }
+  ],
+  "geometry_changed": [
+    "Hardbottom_Low_Irregular_Limestone"
+  ],
+  "thicket_01_transform_unchanged": true,
+  "all_fish_transforms_unchanged": true
+}

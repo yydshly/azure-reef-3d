@@ -1,0 +1,33 @@
+{
+  "images": [
+    {
+      "name": "coral_normal",
+      "packed": true
+    },
+    {
+      "name": "coral_roughness",
+      "packed": true
+    },
+    {
+      "name": "limestone_normal",
+      "packed": true
+    },
+    {
+      "name": "limestone_roughness",
+      "packed": true
+    },
+    {
+      "name": "sand_normal",
+      "packed": true
+    },
+    {
+      "name": "sand_roughness",
+      "packed": true
+    }
+  ],
+  "all_images_packed": true,
+  "objects": 91,
+  "meshes": 60,
+  "lights": 0,
+  "cameras": 0
+}

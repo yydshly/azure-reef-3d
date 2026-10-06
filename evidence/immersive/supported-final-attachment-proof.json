@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Corridor_Distant_Linked_00",
+    "sampled_lowest_branch_vertices": 28,
+    "maximum_base_above_substrate_m": -0.003606364130973816,
+    "minimum_base_above_substrate_m": -0.0495530366897583,
+    "substrates": [
+      "Distant_Limestone_Support_00"
+    ],
+    "grounded_within_3cm": true
+  },
+  {
+    "name": "Corridor_Distant_Linked_01",
+    "sampled_lowest_branch_vertices": 67,
+    "maximum_base_above_substrate_m": 0.003254041075706482,
+    "minimum_base_above_substrate_m": -0.05822943150997162,
+    "substrates": [
+      "Distant_Limestone_Support_01"
+    ],
+    "grounded_within_3cm": true
+  },
+  {
+    "name": "Corridor_Distant_Linked_02",
+    "sampled_lowest_branch_vertices": 86,
+    "maximum_base_above_substrate_m": -0.012622296810150146,
+    "minimum_base_above_substrate_m": -0.05474403500556946,
+    "substrates": [
+      "Distant_Limestone_Support_02"
+    ],
+    "grounded_within_3cm": true
+  },
+  {
+    "name": "Corridor_Distant_Linked_03",
+    "sampled_lowest_branch_vertices": 81,
+    "maximum_base_above_substrate_m": 0.007216617465019226,
+    "minimum_base_above_substrate_m": -0.06553678214550018,
+    "substrates": [
+      "Distant_Limestone_Support_03"
+    ],
+    "grounded_within_3cm": true
+  },
+  {
+    "name": "Corridor_Distant_Linked_04",
+    "sampled_lowest_branch_vertices": 97,
+    "maximum_base_above_substrate_m": 0.005622491240501404,
+    "minimum_base_above_substrate_m": -0.06695310771465302,
+    "substrates": [
+      "Distant_Limestone_Support_04"
+    ],
+    "grounded_within_3cm": true
+  },
+  {
+    "name": "Corridor_Distant_Linked_05",
+    "sampled_lowest_branch_vertices": 37,
+    "maximum_base_above_substrate_m": -0.0035784244537353516,
+    "minimum_base_above_substrate_m": -0.07728523015975952,
+    "substrates": [
+      "Distant_Limestone_Support_05"
+    ],
+    "grounded_within_3cm": true
+  },
+  {
+    "name": "Corridor_Distant_Linked_06",
+    "sampled_lowest_branch_vertices": 42,
+    "maximum_base_above_substrate_m": -0.00678001344203949,
+    "minimum_base_above_substrate_m": -0.0495133250951767,
+    "substrates": [
+      "Distant_Limestone_Support_06"
+    ],
+    "grounded_within_3cm": true
+  },
+  {
+    "name": "Corridor_Distant_Linked_07",
+    "sampled_lowest_branch_vertices": 27,
+    "maximum_base_above_substrate_m": 0.007952764630317688,
+    "minimum_base_above_substrate_m": -0.04864194989204407,
+    "substrates": [
+      "Distant_Limestone_Support_07"
+    ],
+    "grounded_within_3cm": true
+  }
+]

@@ -3,7 +3,7 @@ from mathutils import Vector
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent
 P=str(ROOT/'artifacts'/'renders');os.makedirs(P,exist_ok=True)
-bpy.ops.wm.open_mainfile(filepath=str(ROOT/'modeling'/'editable'/'reef-garden-final.blend'))
+bpy.ops.wm.open_mainfile(filepath=str(ROOT/'modeling'/'inputs'/'offline-lighting.blend'))
 for o in list(bpy.context.scene.objects):
  if o.type in {'MESH','EMPTY'}:bpy.data.objects.remove(o,do_unlink=True)
 bpy.ops.import_scene.gltf(filepath=str(ROOT/'source-model.glb'))

@@ -1,0 +1,274 @@
+{
+  "source_sha256": "fce96692e3f805edd4ac4cd4dc1380a20dd333f7978e5dc20d6d710afa4c9c02",
+  "output_sha256": "f97a6f44ce9664d06c8f4e098a315e18ca30706e2d175f721d312dbf8be54863",
+  "glb_bytes": 29106848,
+  "all_original_nodes_exactly_unchanged": true,
+  "entire_original_binary_exactly_unchanged": true,
+  "accessors_meshes_materials_images_unchanged": true,
+  "added_nodes": [
+    {
+      "node": {
+        "name": "Corridor_Distant_Linked_00",
+        "mesh": 49,
+        "translation": [
+          1.3119253407412192,
+          -0.138343585729599,
+          -9.866428838713434
+        ],
+        "rotation": [
+          0,
+          0.24740395925452294,
+          0,
+          0.9689124217106447
+        ],
+        "scale": [
+          1.2,
+          1.2,
+          1.2
+        ]
+      },
+      "source": "Coral_Staghorn_Thicket_13",
+      "center": [
+        -3.1,
+        -0.17,
+        -12.1
+      ],
+      "z_bounds": [
+        -14.01568169399318,
+        -10.18431830600682
+      ],
+      "grounding": "Existing sand substrate; branch bases seated slightly below sand surface"
+    },
+    {
+      "node": {
+        "name": "Corridor_Distant_Linked_01",
+        "mesh": 54,
+        "translation": [
+          7.859116483693711,
+          -0.2032935393601656,
+          -21.043790368470095
+        ],
+        "rotation": [
+          0,
+          0.8414709848078965,
+          0,
+          0.5403023058681398
+        ],
+        "scale": [
+          1.05,
+          1.05,
+          1.05
+        ]
+      },
+      "source": "Coral_Staghorn_Thicket_18",
+      "center": [
+        3.6,
+        -0.24,
+        -16.8
+      ],
+      "z_bounds": [
+        -18.673165955532973,
+        -14.926834044467029
+      ],
+      "grounding": "Existing sand substrate; branch bases seated slightly below sand surface"
+    },
+    {
+      "node": {
+        "name": "Corridor_Distant_Linked_02",
+        "mesh": 39,
+        "translation": [
+          -4.285776016566883,
+          -0.2054773499816656,
+          -23.966152790381233
+        ],
+        "rotation": [
+          0,
+          -0.3894183423086505,
+          0,
+          0.9210609940028851
+        ],
+        "scale": [
+          1.3,
+          1.3,
+          1.3
+        ]
+      },
+      "source": "Coral_Staghorn_Thicket_03",
+      "center": [
+        -4.5,
+        -0.24,
+        -21.1
+      ],
+      "z_bounds": [
+        -23.773433670661717,
+        -18.426566329338286
+      ],
+      "grounding": "Existing sand substrate; branch bases seated slightly below sand surface"
+    },
+    {
+      "node": {
+        "name": "Corridor_Distant_Linked_03",
+        "mesh": 47,
+        "translation": [
+          2.7100923643611026,
+          -0.20698136165738104,
+          -21.1866118337738
+        ],
+        "rotation": [
+          0,
+          0.6051864057360395,
+          0,
+          0.7960837985490559
+        ],
+        "scale": [
+          1.16,
+          1.16,
+          1.16
+        ]
+      },
+      "source": "Coral_Staghorn_Thicket_11",
+      "center": [
+        1.8,
+        -0.24,
+        -26.0
+      ],
+      "z_bounds": [
+        -28.081135823267005,
+        -23.918864176732995
+      ],
+      "grounding": "Existing sand substrate; branch bases seated slightly below sand surface"
+    },
+    {
+      "node": {
+        "name": "Corridor_Distant_Linked_04",
+        "mesh": 51,
+        "translation": [
+          0.4733603303782523,
+          -0.15947299011051655,
+          15.301745354903641
+        ],
+        "rotation": [
+          0,
+          -0.19866933079506122,
+          0,
+          0.9800665778412416
+        ],
+        "scale": [
+          1.18,
+          1.18,
+          1.18
+        ]
+      },
+      "source": "Coral_Staghorn_Thicket_15",
+      "center": [
+        3.6,
+        -0.17,
+        12.2
+      ],
+      "z_bounds": [
+        10.255075928135735,
+        14.144924071864263
+      ],
+      "grounding": "Existing sand substrate; branch bases seated slightly below sand surface"
+    },
+    {
+      "node": {
+        "name": "Corridor_Distant_Linked_05",
+        "mesh": 43,
+        "translation": [
+          -8.537359770960947,
+          -0.2074735477566719,
+          13.760897300911413
+        ],
+        "rotation": [
+          0,
+          0.9320390859672263,
+          0,
+          0.3623577544766736
+        ],
+        "scale": [
+          1.02,
+          1.02,
+          1.02
+        ]
+      },
+      "source": "Coral_Staghorn_Thicket_07",
+      "center": [
+        -6.4,
+        -0.24,
+        16.4
+      ],
+      "z_bounds": [
+        14.43377190034227,
+        18.366228099657725
+      ],
+      "grounding": "Existing sand substrate; branch bases seated slightly below sand surface"
+    },
+    {
+      "node": {
+        "name": "Corridor_Distant_Linked_06",
+        "mesh": 48,
+        "translation": [
+          10.821357406454775,
+          -0.2109666197001934,
+          20.134404108116502
+        ],
+        "rotation": [
+          0,
+          0.3894183423086505,
+          0,
+          0.9210609940028851
+        ],
+        "scale": [
+          1.27,
+          1.27,
+          1.27
+        ]
+      },
+      "source": "Coral_Staghorn_Thicket_12",
+      "center": [
+        4.2,
+        -0.24,
+        21.3
+      ],
+      "z_bounds": [
+        19.097787776262294,
+        23.502212223737708
+      ],
+      "grounding": "Existing sand substrate; branch bases seated slightly below sand surface"
+    },
+    {
+      "node": {
+        "name": "Corridor_Distant_Linked_07",
+        "mesh": 40,
+        "translation": [
+          -3.5218647267655885,
+          -0.20108304381370545,
+          22.969896218750026
+        ],
+        "rotation": [
+          0,
+          -0.644217687237691,
+          0,
+          0.7648421872844885
+        ],
+        "scale": [
+          1.16,
+          1.16,
+          1.16
+        ]
+      },
+      "source": "Coral_Staghorn_Thicket_04",
+      "center": [
+        -3.8,
+        -0.24,
+        26.2
+      ],
+      "z_bounds": [
+        24.364655916898126,
+        28.035344083101872
+      ],
+      "grounding": "Existing sand substrate; branch bases seated slightly below sand surface"
+    }
+  ]
+}
