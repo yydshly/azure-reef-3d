@@ -4,7 +4,9 @@
 
 一个可自由旋转、缩放的真实三维浅海珊瑚礁场景，包含五站中文初学者导览、四条泛化鱼类的三维运动路线，以及新增的中远景起伏与珊瑚层次。支持手动推进、自动讲解、暂停与自由探索。
 
-在线体验：[浅蓝 · 立体珊瑚礁](https://azure-reef-3d.yydshly.chatgpt.site)（当前为私有访问，访问权限取决于网站设置）。本仓库是完整可迁移的静态网页与建模源码；网站已单独部署，GitHub 推送不会自动触发网站更新。
+在线体验：[GitHub Pages · 浅蓝三维珊瑚礁](https://yydshly.github.io/azure-reef-3d/)（公开网页）。本仓库及完整建模源码现已按项目所有者授权公开。`main` 上的 `dist/` 或部署工作流变更会通过 GitHub Actions 更新 Pages；工作流仅发布 `dist/`，不把 Blender 工程或开发依赖作为网页发布。
+
+[原来的独立 Site](https://azure-reef-3d.yydshly.chatgpt.site) 保留原有私有访问设置，它与 GitHub Pages 分别部署。
 
 快速运行：在仓库根目录执行 `python3 -m http.server 8000 --directory dist`，然后打开 http://localhost:8000 。运行网页无需安装 npm、登录或填写 API 密钥。模型、纹理与 Three.js 已随项目提供。
 
