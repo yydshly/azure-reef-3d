@@ -1,0 +1,141 @@
+{
+  "base": "f95136788b4af003a17834ef140ebff400c08073",
+  "status": "Local only; actual browser QA and publication pending authorization",
+  "files": [
+    {
+      "path": "ITERATION_LOG.md",
+      "sha256": "6de9c6fd885f77a3ea56ffccac4d40d733166d20b6ed2b7a94bdfd006ac4129d",
+      "bytes": 25081
+    },
+    {
+      "path": "README.md",
+      "sha256": "52b2f092b7f5ebff59d2bbbc7e63826bebc80b4613503493b56731a421f6141b",
+      "bytes": 18887
+    },
+    {
+      "path": "dist/app.js",
+      "sha256": "0f355d1c0b0c686f1c794b041149b5c0cc6b808af188239e46cf224e8494fbc9",
+      "bytes": 20635
+    },
+    {
+      "path": "dist/assets/specimens/fe5fc88fe1bb4ae6/skeleton.glb",
+      "sha256": "fe5fc88fe1bb4ae6d3203de52ee8946db1263db9503459d365c9f60dcf8fec71",
+      "bytes": 4046032
+    },
+    {
+      "path": "dist/index.html",
+      "sha256": "e2fb589240fe48956f6db40ff45fe1123ac57b1317cf48cb0ff14df2bae549eb",
+      "bytes": 4684
+    },
+    {
+      "path": "dist/references.html",
+      "sha256": "56c99b4eedb3911404df4b7a1bcdd4a6eb0cd48beb868eaaeecc9890d7123626",
+      "bytes": 25258
+    },
+    {
+      "path": "dist/specimen-focus.js",
+      "sha256": "14a42ae38076cc87c344463d00b75c97ceb45eeac338a22294bba6898064582f",
+      "bytes": 2092
+    },
+    {
+      "path": "dist/specimen.js",
+      "sha256": "cf9b85f48bc17cae56ffdf099068480bb07af0356cef9d4d21bee700db5be761",
+      "bytes": 2009
+    },
+    {
+      "path": "dist/style.css",
+      "sha256": "cbc2905a8b8beda9436c4949e0eb1beb4d99ea982dd3c86d76e0caa47d847a1d",
+      "bytes": 10301
+    },
+    {
+      "path": "evidence/skeletal-patch-oct7/STATUS.md",
+      "sha256": "6c05876c3bfe827977841e20ad45c04fe263f9004e37d18d253741165b773a86",
+      "bytes": 1128
+    },
+    {
+      "path": "evidence/skeletal-patch-oct7/asset-check.json",
+      "sha256": "7901b26e0607fbe69d6d54b543bbbb8d3059b9a212f2ae971156d28b57cc020b",
+      "bytes": 723
+    },
+    {
+      "path": "evidence/skeletal-patch-oct7/projection-check.json",
+      "sha256": "41c19243e85595561854eb753efc3766c081a15579fe87e1c8fe033e9fa2bd2e",
+      "bytes": 3290
+    },
+    {
+      "path": "modeling/specimen/README.md",
+      "sha256": "960c0b79c4819369970318827d3051c0adae8c4c953f7e623e2106172ddba85f",
+      "bytes": 1545
+    },
+    {
+      "path": "modeling/specimen/asset-report.json",
+      "sha256": "f515897c04418a221d9997731cac3c88ca5c0b62ceb5a2d4d880d7db89147bc7",
+      "bytes": 3198
+    },
+    {
+      "path": "modeling/specimen/camera-fish-readonly-results.json",
+      "sha256": "0bfeee65fc58a5ff01e2da8eb829e24ac0209eaa72177c5df70b2841b92fb6fb",
+      "bytes": 12519
+    },
+    {
+      "path": "modeling/specimen/derive.py",
+      "sha256": "16b4db6c861e635409885c380dfbe41832931fedded6f5fbb71742f4a3afc046",
+      "bytes": 686
+    },
+    {
+      "path": "modeling/specimen/ground-contact.json",
+      "sha256": "dcd6f3b7391fb7a1704f813af14b5a1ddba31a609002a983c0161e2f7c7a9489",
+      "bytes": 3584
+    },
+    {
+      "path": "modeling/specimen/orbit-domain-certificate.json",
+      "sha256": "955219ed5e75aa6bac5825ce2f46a89cd313ca28e1769b45ad9770d90e870a32",
+      "bytes": 1343
+    },
+    {
+      "path": "modeling/specimen/placement.json",
+      "sha256": "8b2cd0743659c29274f157d3ebf8d50447a41e591cbd092edc3e21bf2e3fe97c",
+      "bytes": 7421
+    },
+    {
+      "path": "modeling/specimen/shape-error.json",
+      "sha256": "3e6d33d2c9940f48176da1306bff5511a388d1b42bb5225a073a2215b8c495cc",
+      "bytes": 659
+    },
+    {
+      "path": "modeling/specimen/smithsonian-provenance.json",
+      "sha256": "0e54769c1b3d85f2defb851490188cdf39620fb61b0cef95265719996e3ae075",
+      "bytes": 984
+    },
+    {
+      "path": "modeling/specimen/usnm_74016-100k-2048_std.glb",
+      "sha256": "ef169ce0b8768f2991f0f9411e964472129a1c873d1f7e6b0eabc38a2db5ccc7",
+      "bytes": 5828640
+    },
+    {
+      "path": "qa-guide-integration.mjs",
+      "sha256": "c0715c55b5fe38bc9da16a411c0bae322021b1fe5264325a33ae4eb902d5691f",
+      "bytes": 12784
+    },
+    {
+      "path": "qa-no-webgl.mjs",
+      "sha256": "5b8a94eeb332ec81f55ee024032f930e14b05fb8297994ae368e710bdce452dd",
+      "bytes": 1317
+    },
+    {
+      "path": "qa-specimen-asset.mjs",
+      "sha256": "e6dc604be2bd4f6c1c5da643fdf222e0c7948cbeb091cf2ffcb7bfd2a8e81eb2",
+      "bytes": 2267
+    },
+    {
+      "path": "qa-specimen-focus.mjs",
+      "sha256": "25f252d1951e8124f7956ceb9f11bdf85893e65d3ae8490bfb7674923e5ddfc8",
+      "bytes": 1632
+    },
+    {
+      "path": "qa-specimen-projection.mjs",
+      "sha256": "5abee4cd74d866c302c98d3684135667ba40b87f5d320b5b51ed7fe9e65aba09",
+      "bytes": 2130
+    }
+  ]
+}

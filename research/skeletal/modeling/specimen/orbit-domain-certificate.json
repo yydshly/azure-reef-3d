@@ -1,0 +1,43 @@
+{
+  "method": "Adaptive full-parameter-domain certificate using exact nearest-triangle samples and conservative 1-Lipschitz distance lower bounds. Spherical cell displacement bound = dr/2 + rMax*dPolar/2 + rMax*sin(polarMax)*dAzimuth/2. Float precision is not interval arithmetic; >.00001 numerical buffer required above internal .46 target.",
+  "domain": {
+    "targetThree": [
+      -0.4,
+      0,
+      -6.5
+    ],
+    "radius": [
+      0.85,
+      1.6
+    ],
+    "polarRadians": [
+      0.2,
+      1.0471975511965976
+    ],
+    "azimuthRadians": [
+      0,
+      6.283185307179586
+    ],
+    "pan": false
+  },
+  "staticIncludes": "Actual runtime-pruned scene, all three rigid pilot landmarks, both original and 25k specimen geometries conservatively superposed, sand and limestone. Excludes animated fish.",
+  "threshold": 0.45,
+  "internalCertificationTarget": 0.46,
+  "minimumCertifiedLowerBound": 0.46001887679589254,
+  "minimumSampledDistance": 0.4781288802623749,
+  "closestSample": {
+    "positionThree": [
+      -1.1322263479232788,
+      0.43282604217529297,
+      -6.594876289367676
+    ],
+    "mesh": "Hardbottom_Low_Irregular_Limestone",
+    "distance": 0.4781288802623749
+  },
+  "sampleCount": 1143,
+  "certifiedCells": 572,
+  "maximumDepth": 21,
+  "unprovenCells": [],
+  "wallSeconds": 0.021369457244873047,
+  "passed": true
+}

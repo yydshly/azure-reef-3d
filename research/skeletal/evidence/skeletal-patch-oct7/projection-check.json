@@ -1,0 +1,182 @@
+[
+  {
+    "viewport": [
+      1120,
+      700
+    ],
+    "azimuth": 25,
+    "pixelBounds": {
+      "min": [
+        295.0598145083642,
+        295.1870731758141
+      ],
+      "max": [
+        553.8341462739961,
+        462.3781179325274
+      ]
+    },
+    "scope": "Projection only; DOM overlay and native touch not tested"
+  },
+  {
+    "viewport": [
+      1120,
+      700
+    ],
+    "azimuth": 205,
+    "pixelBounds": {
+      "min": [
+        303.0558088842372,
+        278.6634949778634
+      ],
+      "max": [
+        561.5320382315697,
+        484.7989895788809
+      ]
+    },
+    "scope": "Projection only; DOM overlay and native touch not tested"
+  },
+  {
+    "viewport": [
+      1440,
+      900
+    ],
+    "azimuth": 25,
+    "pixelBounds": {
+      "min": [
+        379.36261865361115,
+        379.5262369403324
+      ],
+      "max": [
+        712.0724737808521,
+        594.4861516275353
+      ]
+    },
+    "scope": "Projection only; DOM overlay and native touch not tested"
+  },
+  {
+    "viewport": [
+      1440,
+      900
+    ],
+    "azimuth": 205,
+    "pixelBounds": {
+      "min": [
+        389.64318285116207,
+        358.28163640011013
+      ],
+      "max": [
+        721.9697634405896,
+        623.3129866014183
+      ]
+    },
+    "scope": "Projection only; DOM overlay and native touch not tested"
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "azimuth": 25,
+    "pixelBounds": {
+      "min": [
+        37.60583349294199,
+        203.99127108626726
+      ],
+      "max": [
+        349.6137420789323,
+        405.57590219293303
+      ]
+    },
+    "scope": "Projection only; DOM overlay and native touch not tested"
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "azimuth": 205,
+    "pixelBounds": {
+      "min": [
+        47.24671814042312,
+        184.06855680188104
+      ],
+      "max": [
+        358.8952003820641,
+        432.6090674351079
+      ]
+    },
+    "scope": "Projection only; DOM overlay and native touch not tested"
+  },
+  {
+    "viewport": [
+      700,
+      900
+    ],
+    "azimuth": 25,
+    "pixelBounds": {
+      "min": [
+        182.16261865361108,
+        217.5262369403324
+      ],
+      "max": [
+        514.872473780852,
+        432.4861516275352
+      ]
+    },
+    "scope": "Projection only; DOM overlay and native touch not tested"
+  },
+  {
+    "viewport": [
+      700,
+      900
+    ],
+    "azimuth": 205,
+    "pixelBounds": {
+      "min": [
+        192.44318285116205,
+        196.2816364001101
+      ],
+      "max": [
+        524.7697634405897,
+        461.31298660141834
+      ]
+    },
+    "scope": "Projection only; DOM overlay and native touch not tested"
+  },
+  {
+    "viewport": [
+      320,
+      568
+    ],
+    "azimuth": 25,
+    "pixelBounds": {
+      "min": [
+        54.07596377250124,
+        137.283225091232
+      ],
+      "max": [
+        264.0528501194711,
+        272.9468156938222
+      ]
+    },
+    "scope": "Projection only; DOM overlay and native touch not tested"
+  },
+  {
+    "viewport": [
+      320,
+      568
+    ],
+    "azimuth": 205,
+    "pixelBounds": {
+      "min": [
+        60.564142066066736,
+        123.8755216391806
+      ],
+      "max": [
+        270.2991395936166,
+        291.13975154400623
+      ]
+    },
+    "scope": "Projection only; DOM overlay and native touch not tested"
+  }
+]

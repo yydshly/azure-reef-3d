@@ -1,0 +1,17 @@
+{
+  "scope": "Bidirectional source-space vertex-to-surface error. Samples every source/derived vertex; not an exact continuous Hausdorff maximum. No asset transformation or second simplification.",
+  "originalVerticesToReducedSurface": {
+    "samples": 63880,
+    "meanMetres": 0.0001445885181971313,
+    "p95Metres": 0.00046476098941639066,
+    "p99Metres": 0.0007591525791212916,
+    "maximumMetres": 0.001789081608876586
+  },
+  "reducedVerticesToOriginalSurface": {
+    "samples": 22229,
+    "meanMetres": 9.996272594758024e-05,
+    "p95Metres": 0.0003995856095571071,
+    "p99Metres": 0.000718122289981693,
+    "maximumMetres": 0.0015800751280039549
+  }
+}

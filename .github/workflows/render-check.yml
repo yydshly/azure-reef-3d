@@ -1,17 +1,6 @@
-name: Verify public Pages WebGL rendering
+name: Inspect frozen real-skeleton candidate with native inputs
 on:
   workflow_dispatch:
-    inputs:
-      target_source:
-        description: Public Pages or isolated checked-out branch preview
-        type: choice
-        options: [public-pages, branch-preview]
-        default: public-pages
-      view_set:
-        description: Explicit fixed camera set
-        type: choice
-        options: [passage, legacy]
-        default: passage
 permissions:
   contents: read
 concurrency:
@@ -20,7 +9,7 @@ concurrency:
 jobs:
   render:
     runs-on: ubuntu-22.04
-    timeout-minutes: 12
+    timeout-minutes: 22
     steps:
       - uses: actions/checkout@v6
         with:
@@ -28,41 +17,25 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: '22'
-      - name: Install pinned browser test dependency
-        run: npm ci --prefix tests/browser
-      - name: Install official Chromium and OS dependencies
-        run: tests/browser/node_modules/.bin/playwright install --with-deps chromium
-      - name: Start isolated branch preview when requested
-        if: inputs.target_source == 'branch-preview'
+      - run: npm ci --prefix tests/browser
+      - run: tests/browser/node_modules/.bin/playwright install --with-deps chromium
+      - name: Serve the unchanged production files
         run: |
           mkdir -p render-evidence
-          python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > render-evidence/preview-server.log 2>&1 &
-          echo $! > render-evidence/preview-server.pid
-      - name: Probe real WebGL2 without security overrides
+          python3 -m http.server 4173 --bind 127.0.0.1 --directory . > render-evidence/server.log 2>&1 &
+      - name: Probe safe WebGL2
         id: probe
         timeout-minutes: 2
-        run: node tests/browser/verify-pages.mjs probe
-      - name: Preserve capability evidence immediately
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: webgl2-capability-${{ github.run_id }}
-          path: render-evidence/probe.json
-          retention-days: 7
-      - name: Render actual public Pages and exercise fixed views
+        run: node tests/browser/verify-skeletal.mjs probe
+      - name: Inspect entry, native orbit, source card and restored return
         if: steps.probe.outputs.available == 'true'
-        timeout-minutes: 6
-        env:
-          REEF_TARGET: ${{ inputs.target_source == 'branch-preview' && 'http://127.0.0.1:4173/' || 'https://yydshly.github.io/azure-reef-3d/' }}
-          REEF_VIEW_SET: ${{ inputs.view_set }}
-        run: node tests/browser/verify-pages.mjs render
-      - name: Preserve screenshots, short video and runtime report
+        timeout-minutes: 17
+        run: REEF_ARM=candidate REEF_SOURCE_DIR=research/skeletal/dist REEF_TARGET=http://127.0.0.1:4173/research/skeletal/dist/ node tests/browser/verify-skeletal.mjs render
+      - uses: actions/upload-artifact@v4
         if: always()
-        uses: actions/upload-artifact@v4
         with:
-          name: pages-render-${{ github.run_id }}
+          name: skeletal-${{ github.run_id }}
           path: render-evidence/
           retention-days: 7
-      - name: Mark unsupported renderer honestly
-        if: steps.probe.outputs.available != 'true'
-        run: echo 'WebGL2 probe unavailable or failed; inspect probe.json. No visual acceptance claimed.'; exit 1
+      - if: steps.probe.outputs.available != 'true'
+        run: exit 1

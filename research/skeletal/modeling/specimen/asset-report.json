@@ -1,0 +1,105 @@
+{
+  "source": {
+    "file": "usnm_74016-100k-2048_std.glb",
+    "sha256": "ef169ce0b8768f2991f0f9411e964472129a1c873d1f7e6b0eabc38a2db5ccc7",
+    "bytes": 5828640,
+    "exportedVertices": 63880,
+    "triangles": 100000,
+    "threeBoundsMetres": {
+      "min": [
+        -0.141463994979858,
+        -0.101421996951103,
+        -0.100555002689362
+      ],
+      "max": [
+        0.141321003437042,
+        0.101435996592045,
+        0.100685000419617
+      ],
+      "dimensions": [
+        0.28278499841689997,
+        0.20285799354314799,
+        0.201240003108979
+      ]
+    },
+    "textures": {
+      "baseColor": {
+        "sha256": "5da165a788f90eca08ce27831247298209b5099a27120b42f3dd2370e7455d29",
+        "bytes": 674089,
+        "mimeType": "image/jpeg"
+      },
+      "normal": {
+        "sha256": "d44f6b6505e6c8e12d1bb89b4b3254f8dbeb4a0e5ca1e87c30a24590db7ff99c",
+        "bytes": 1858567,
+        "mimeType": "image/jpeg"
+      },
+      "occlusion": {
+        "sha256": "09c68969dc25d9bf54c8087c7cfede4c125316139e3b0e35940f1bfa266f703c",
+        "bytes": 650267,
+        "mimeType": "image/jpeg"
+      }
+    },
+    "gltfRootNodes": [
+      {
+        "mesh": 0
+      }
+    ]
+  },
+  "derived": {
+    "file": "usnm_74016-25k-2048_candidate.glb",
+    "sha256": "fe5fc88fe1bb4ae6d3203de52ee8946db1263db9503459d365c9f60dcf8fec71",
+    "bytes": 4046032,
+    "exportedVertices": 22229,
+    "triangles": 25000,
+    "threeBoundsMetres": {
+      "min": [
+        -0.14129407703876495,
+        -0.1013648584485054,
+        -0.10059096664190292
+      ],
+      "max": [
+        0.14145198464393616,
+        0.1016107127070427,
+        0.1008748933672905
+      ],
+      "dimensions": [
+        0.2827460616827011,
+        0.2029755711555481,
+        0.20146586000919342
+      ]
+    },
+    "textures": {
+      "baseColor": {
+        "sha256": "5da165a788f90eca08ce27831247298209b5099a27120b42f3dd2370e7455d29",
+        "bytes": 674089,
+        "mimeType": "image/jpeg"
+      },
+      "normal": {
+        "sha256": "d44f6b6505e6c8e12d1bb89b4b3254f8dbeb4a0e5ca1e87c30a24590db7ff99c",
+        "bytes": 1858567,
+        "mimeType": "image/jpeg"
+      },
+      "occlusion": {
+        "sha256": "09c68969dc25d9bf54c8087c7cfede4c125316139e3b0e35940f1bfa266f703c",
+        "bytes": 650267,
+        "mimeType": "image/jpeg"
+      }
+    },
+    "gltfRootNodes": [
+      {
+        "mesh": 0,
+        "name": "USNM_74016_Dry_Skeleton_25k"
+      }
+    ]
+  },
+  "selection": {
+    "file": "usnm_74016-25k-2048_candidate.glb",
+    "reason": "At the bounded .85 scene-unit close view, matched front/reverse frames preserve branch count, recognizable outline and textured corallite surface. Only one 25% decimation attempted. 75% fewer triangles; original available unchanged for fine scientific inspection.",
+    "qualification": "Decimation has measurable local surface error (see shape-error.json), maximum sampled 1.789 mm. It is a viewing derivative, not scientific morphometry data.",
+    "sourceTextureBytesIdentical": true,
+    "placementBakedIntoGLB": false,
+    "unitScale": 1,
+    "rawSourceUnmodified": true,
+    "originalArchivePath": "../reef-coral-source-oct7/usnm74016/usnm_74016-100k-2048_std.glb"
+  }
+}
