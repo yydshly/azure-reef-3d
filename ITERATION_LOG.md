@@ -227,3 +227,7 @@ Hide redundant floating marker only during skeleton inspection; ordinary guide m
 ## 2026-10-07 · Staggered new-topology colony rejected
 
 [Exact failed artifact and offline evidence](experiments/2026-10-07-staggered-colony-rejected/ARCHIVE.md). Central basket opening is reduced, but thin laterals disappear at280px and the silhouette becomes a narrow pointed shrub. Local width falls2.99→2.41. Export also has16 nonmanifold edges with four incident triangles despite polygon-stage hard checks. Owner, author and independent review reject the result. No geometry integration, new rendering, runtime clearance claim, or deployment follows. The21 original outward root directions remain useful diagnostic evidence, not proof of a biological mechanism.
+
+## 2026-10-07 · Two live-colony leads remain outside production
+
+[Source verification](docs/asset-research-20261007/live-colony-leads.md): the separate Smithsonian live-model destination, rights and scale remain unverified; a St Andrews CC BY/2026 dataset offers a285MB PLY package beyond this50MB acquisition scope, with units and appearance still unverified. Tool fetch failures are not generalized origin-access restrictions. No model was downloaded or inserted, and non-Caribbean provenance is not mixed into the current scene.
