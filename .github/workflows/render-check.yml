@@ -1,4 +1,4 @@
-name: Inspect frozen real-skeleton candidate with native inputs
+name: Verify specimen label and390px source-card interaction
 on:
   workflow_dispatch:
 permissions:
@@ -26,11 +26,13 @@ jobs:
       - name: Probe safe WebGL2
         id: probe
         timeout-minutes: 2
-        run: node tests/browser/verify-skeletal.mjs probe
+        run: node tests/browser/verify-inspection-ui.mjs probe
       - name: Inspect entry, native orbit, source card and restored return
         if: steps.probe.outputs.available == 'true'
         timeout-minutes: 17
-        run: REEF_ARM=candidate REEF_SOURCE_DIR=research/skeletal/dist REEF_TARGET=http://127.0.0.1:4173/research/skeletal/dist/ node tests/browser/verify-skeletal.mjs render
+        run: |
+          REEF_ARM=desktop REEF_SOURCE_DIR=research/skeletal/dist REEF_TARGET=http://127.0.0.1:4173/research/skeletal/dist/ node tests/browser/verify-inspection-ui.mjs render
+          REEF_MOBILE=true REEF_ARM=mobile REEF_SOURCE_DIR=research/skeletal/dist REEF_TARGET=http://127.0.0.1:4173/research/skeletal/dist/ node tests/browser/verify-inspection-ui.mjs render
       - uses: actions/upload-artifact@v4
         if: always()
         with:
