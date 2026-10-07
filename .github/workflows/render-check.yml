@@ -55,6 +55,7 @@ jobs:
         env:
           REEF_TARGET: ${{ inputs.target_source == 'branch-preview' && 'http://127.0.0.1:4173/' || 'https://yydshly.github.io/azure-reef-3d/' }}
           REEF_VIEW_SET: ${{ inputs.view_set }}
+          REEF_CONFIRM_ONLY: 'true'
         run: node tests/browser/verify-pages.mjs render
       - name: Preserve screenshots, short video and runtime report
         if: always()

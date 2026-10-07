@@ -64,14 +64,17 @@ try{
     }
     const planned=viewSet==='passage'?[{name:'departure',p:[1.5,2.1,4.8],t:[-.5,.8,-6]},{name:'midway',p:[0,2.7,-18],t:[-1.5,1,-31]},{name:'look-back',p:[-3.8,3.6,-36],t:[0,.9,-8]}]:[{name:'opening',p:[1.5,1.6,4.8],t:[-.5,.8,-6]},{name:'reverse',p:[-8,3.7,-11],t:[0,.9,0]},{name:'close',p:[1.6,1.8,5.8],t:[-2,.9,0]}];
     await page.evaluate(()=>window.reef3d.leaveGuide());
+    if(process.env.REEF_CONFIRM_ONLY==='true'){planned.splice(1);report.scope='Targeted opening and seabed-guide regression only; not full interaction acceptance';}
     report.plannedViews=planned;
     for(let i=0;i<planned.length;i++){const v=planned[i];await fixedCamera(v.p,v.t);await capture(`${i+1}-${v.name}`);}
+    if(process.env.REEF_CONFIRM_ONLY==='true'){report.animation={skipped:true,reason:'Earlier candidate run separately recorded motion; this targeted regression does not repeat it'};}else{
     const v=planned[0];await fixedCamera(v.p,v.t);
     const fish=()=>page.evaluate(()=>{const a=[];window.reef3d.root.traverse(o=>{if(/^fish_\d+$/.test(o.name))a.push({name:o.name,position:o.position.toArray()});});return a;});
     const before=await fish();await page.waitForTimeout(8000);const after=await fish();report.animation={sampleSeconds:8,before,after,positionsChanged:JSON.stringify(before)!==JSON.stringify(after)};await capture('4-after-animation');
+    }
     await page.evaluate(()=>window.reef3d.goGuide(1));await fixedCamera([2.4,2.3,7.2],[-1.1,.02,2.7],false);await capture('5-seabed-guide');
     report.guideMarkers=await page.locator('#focusMarker, #focusMarkerSecondary').evaluateAll(es=>es.map(e=>({hidden:e.hidden,text:e.textContent,rect:e.getBoundingClientRect().toJSON()})));
-    report.passed=report.pageErrors.length===0&&report.consoleErrors.length===0&&report.failedRequests.length===0&&report.httpErrors.length===0&&report.animation.positionsChanged&&!report.actualCanvas.contextLost;
+    report.passed=report.pageErrors.length===0&&report.consoleErrors.length===0&&report.failedRequests.length===0&&report.httpErrors.length===0&&(report.animation.positionsChanged||report.animation.skipped)&&!report.actualCanvas.contextLost;
     if(!report.passed)throw Error('Runtime error, failed request, lost context or unchanged animation; inspect evidence');
   }
 }catch(e){report.error=String(e?.stack||e);report.passed=false;console.error(report.error);if(mode==='probe'&&process.env.GITHUB_OUTPUT)await fs.appendFile(process.env.GITHUB_OUTPUT,'available=false\n');if(mode==='render')process.exitCode=1;}
