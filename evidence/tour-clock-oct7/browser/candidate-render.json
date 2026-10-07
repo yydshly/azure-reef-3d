@@ -1,0 +1,517 @@
+{
+  "mode": "render",
+  "target": "http://127.0.0.1:4173/research/tour-clock/dist/",
+  "viewSet": "passage",
+  "checkedAt": "2026-10-07T15:39:19.364Z",
+  "checkoutCommit": "ff017f5cd95aec3285a2dbf837ad25f17a2d9d43",
+  "sandbox": true,
+  "unsafeGraphicsFlags": false,
+  "limitations": [
+    "Hosted runner rendering is not user-device performance or physical GPU acceptance.",
+    "Screenshots require human visual review; successful rendering alone is not realism acceptance."
+  ],
+  "browserVersion": "153.0.8010.12",
+  "securityFlags": {
+    "sandboxDisabled": false,
+    "gpuSandboxDisabled": false,
+    "unsafeSwiftshader": false,
+    "gpuBlocklistIgnored": false
+  },
+  "webgl2": {
+    "available": true,
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "shadingLanguage": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+    "vendor": "WebKit",
+    "renderer": "WebKit WebGL",
+    "unmaskedVendor": "Google Inc. (Google)",
+    "unmaskedRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "pixel": [
+      51,
+      102,
+      153,
+      255
+    ],
+    "error": 0,
+    "softwareRenderer": true
+  },
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "httpErrors": [],
+  "sourceMatch": {
+    "app.js": {
+      "status": 200,
+      "served": "7fb17b860615cc513235b5f70871d033e85dcdb52a060cc97861ec57dd95dbb7",
+      "checkout": "7fb17b860615cc513235b5f70871d033e85dcdb52a060cc97861ec57dd95dbb7"
+    },
+    "model-version.js": {
+      "status": 200,
+      "served": "9bb2544b7d26ec235dd5d068e832711d391174005cb6c1077760cde324a2f975",
+      "checkout": "9bb2544b7d26ec235dd5d068e832711d391174005cb6c1077760cde324a2f975"
+    }
+  },
+  "runtime": {
+    "ready": true,
+    "low": false,
+    "tour": false,
+    "passageProgress": 0,
+    "guide": {
+      "active": true,
+      "index": 0,
+      "playing": false,
+      "paused": false
+    },
+    "fish": 6,
+    "simulationTime": 0,
+    "tourTiming": {
+      "lastStep": 0,
+      "interrupted": false
+    },
+    "camera": [
+      1.5000000000000004,
+      2.099999999999999,
+      4.800000000000003
+    ],
+    "target": [
+      -0.4999999999999999,
+      0.7999999999999996,
+      -5.999999999999997
+    ]
+  },
+  "actualCanvas": {
+    "width": 1120,
+    "height": 700,
+    "contextLost": false,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+  },
+  "captures": [
+    {
+      "file": "pre-native-start.png",
+      "sha256": "9bae5320fb7372ecf634660e715a1e75016d8eaebd077abfde3cbe6eb5e11e1e",
+      "state": {
+        "ready": true,
+        "low": false,
+        "tour": false,
+        "passageProgress": 0,
+        "guide": {
+          "active": false,
+          "index": 0,
+          "playing": false,
+          "paused": true
+        },
+        "fish": 6,
+        "simulationTime": 0,
+        "tourTiming": {
+          "lastStep": 0,
+          "interrupted": false
+        },
+        "camera": [
+          1.5000000000000004,
+          2.099999999999999,
+          4.800000000000003
+        ],
+        "target": [
+          -0.4999999999999999,
+          0.7999999999999996,
+          -5.999999999999997
+        ]
+      }
+    },
+    {
+      "file": "native-tour-segment.png",
+      "sha256": "a140e06d5e4881c332b98fb3ab681f98d9af1f290518520755517e009b44f7bf",
+      "state": {
+        "ready": true,
+        "low": false,
+        "tour": false,
+        "passageProgress": 0.21282400000000412,
+        "guide": {
+          "active": false,
+          "index": 0,
+          "playing": false,
+          "paused": true
+        },
+        "fish": 6,
+        "simulationTime": 24.815699999999996,
+        "tourTiming": {
+          "lastStep": 0,
+          "interrupted": false
+        },
+        "camera": [
+          0.26225411745390087,
+          2.3758410098675102,
+          -7.07723237683496
+        ],
+        "target": [
+          0.13079329584007082,
+          0.7000000000000016,
+          -21.41457097033042
+        ]
+      }
+    }
+  ],
+  "fixedViewMethod": "Explicit camera/target and guide state through the existing app API; not an assertion that native input or transition smoothness passed.",
+  "plannedViews": [],
+  "sceneCounts": {
+    "groups": [
+      "Inhabited_NearLeft",
+      "Inhabited_Middle"
+    ],
+    "branches": [
+      "Coral_Staghorn_Thicket_00",
+      "Coral_Staghorn_Thicket_01",
+      "Coral_Staghorn_Thicket_03",
+      "Coral_Staghorn_Thicket_12",
+      "Coral_Staghorn_Thicket_16"
+    ],
+    "guideStops": 5,
+    "fish": 6
+  },
+  "nativeInput": {
+    "method": "mouse click at observed button center",
+    "rect": {
+      "x": 410,
+      "y": 595,
+      "width": 90,
+      "height": 44
+    }
+  },
+  "nativeTour": {
+    "before": {
+      "wallMs": 100909.29999999993,
+      "state": {
+        "ready": true,
+        "low": false,
+        "tour": true,
+        "passageProgress": 0,
+        "guide": {
+          "active": false,
+          "index": 0,
+          "playing": false,
+          "paused": true
+        },
+        "fish": 6,
+        "simulationTime": 3.5332999999999886,
+        "tourTiming": {
+          "lastStep": 0,
+          "interrupted": false
+        },
+        "camera": [
+          1.5000000000000004,
+          2.099999999999999,
+          4.800000000000003
+        ],
+        "target": [
+          -0.4999999999999999,
+          0.7999999999999996,
+          -5.999999999999997
+        ]
+      },
+      "raf": {
+        "count": 61,
+        "last": 97383.4,
+        "gaps": [
+          50,
+          16.700000000000017,
+          16.599999999999994,
+          16.599999999999994,
+          16.69999999999999,
+          66.70000000000002,
+          16.599999999999994,
+          16.69999999999999,
+          16.69999999999999,
+          16.700000000000045,
+          16.599999999999966,
+          16.69999999999999,
+          16.600000000000023,
+          16.69999999999999,
+          16.600000000000023,
+          16.80000000000001,
+          33.299999999999955,
+          16.700000000000045,
+          33.19999999999999,
+          16.69999999999999,
+          16.700000000000045,
+          16.59999999999991,
+          50.10000000000002,
+          33.30000000000007,
+          16.699999999999932,
+          16.700000000000045,
+          16.600000000000023,
+          16.699999999999932,
+          16.700000000000045,
+          16.600000000000023,
+          16.59999999999991,
+          16.800000000000068,
+          16.600000000000023,
+          4649.8,
+          3549.8999999999996,
+          3533.2000000000007,
+          3549.7999999999993,
+          3533.199999999999,
+          3533.2000000000007,
+          3533.2000000000007,
+          3533.2000000000007,
+          3549.899999999998,
+          3549.800000000003,
+          3516.5,
+          3533.199999999997,
+          3516.5,
+          3533.2000000000044,
+          3533.199999999997,
+          3533.199999999997,
+          3549.800000000003,
+          3533.300000000003,
+          3583.199999999997,
+          3533.100000000006,
+          3533.2999999999884,
+          3533.100000000006,
+          3533.199999999997,
+          3516.600000000006,
+          3533.199999999997,
+          3533.100000000006,
+          3533.2999999999884
+        ]
+      }
+    },
+    "after": {
+      "wallMs": 118668.69999999995,
+      "state": {
+        "ready": true,
+        "low": false,
+        "tour": true,
+        "passageProgress": 0.176659000000002,
+        "guide": {
+          "active": false,
+          "index": 0,
+          "playing": false,
+          "paused": true
+        },
+        "fish": 6,
+        "simulationTime": 21.199199999999998,
+        "tourTiming": {
+          "lastStep": 3.433199999999997,
+          "interrupted": false
+        },
+        "camera": [
+          0.4294149213879529,
+          2.3260547974722954,
+          -5.076677429226917
+        ],
+        "target": [
+          0.13485990907489923,
+          0.7000000000000016,
+          -19.82847045153655
+        ]
+      },
+      "raf": {
+        "count": 66,
+        "last": 115049.3,
+        "gaps": [
+          50,
+          16.700000000000017,
+          16.599999999999994,
+          16.599999999999994,
+          16.69999999999999,
+          66.70000000000002,
+          16.599999999999994,
+          16.69999999999999,
+          16.69999999999999,
+          16.700000000000045,
+          16.599999999999966,
+          16.69999999999999,
+          16.600000000000023,
+          16.69999999999999,
+          16.600000000000023,
+          16.80000000000001,
+          33.299999999999955,
+          16.700000000000045,
+          33.19999999999999,
+          16.69999999999999,
+          16.700000000000045,
+          16.59999999999991,
+          50.10000000000002,
+          33.30000000000007,
+          16.699999999999932,
+          16.700000000000045,
+          16.600000000000023,
+          16.699999999999932,
+          16.700000000000045,
+          16.600000000000023,
+          16.59999999999991,
+          16.800000000000068,
+          16.600000000000023,
+          4649.8,
+          3549.8999999999996,
+          3533.2000000000007,
+          3549.7999999999993,
+          3533.199999999999,
+          3533.2000000000007,
+          3533.2000000000007,
+          3533.2000000000007,
+          3549.899999999998,
+          3549.800000000003,
+          3516.5,
+          3533.199999999997,
+          3516.5,
+          3533.2000000000044,
+          3533.199999999997,
+          3533.199999999997,
+          3549.800000000003,
+          3533.300000000003,
+          3583.199999999997,
+          3533.100000000006,
+          3533.2999999999884,
+          3533.100000000006,
+          3533.199999999997,
+          3516.600000000006,
+          3533.199999999997,
+          3533.100000000006,
+          3533.2999999999884,
+          3516.5,
+          3716.4000000000087,
+          3400,
+          3599.800000000003,
+          3433.199999999997
+        ]
+      }
+    },
+    "wallSeconds": 17.759400000000024,
+    "progressChanged": true,
+    "interrupted": false,
+    "pausedBeforeCapture": {
+      "ready": true,
+      "low": false,
+      "tour": false,
+      "passageProgress": 0.21282400000000412,
+      "guide": {
+        "active": false,
+        "index": 0,
+        "playing": false,
+        "paused": true
+      },
+      "fish": 6,
+      "simulationTime": 24.815699999999996,
+      "tourTiming": {
+        "lastStep": 0,
+        "interrupted": false
+      },
+      "camera": [
+        0.26225411745390087,
+        2.3758410098675102,
+        -7.07723237683496
+      ],
+      "target": [
+        0.13079329584007082,
+        0.7000000000000016,
+        -21.41457097033042
+      ]
+    }
+  },
+  "fixedTime": {
+    "reducedMotion": true,
+    "tour": false,
+    "before": [
+      {
+        "name": "fish_01",
+        "position": [
+          -3.4362493410739865,
+          1.3540348264032893,
+          0.8721678666526279
+        ]
+      },
+      {
+        "name": "fish_02",
+        "position": [
+          0.8838315205378298,
+          1.1952139958955947,
+          1.8284424760766533
+        ]
+      },
+      {
+        "name": "fish_03",
+        "position": [
+          1.4027277022441416,
+          1.3675294717893574,
+          -27.629896776389362
+        ]
+      },
+      {
+        "name": "fish_04",
+        "position": [
+          -0.561248269625877,
+          1.386254232990458,
+          -31.913599533625092
+        ]
+      },
+      {
+        "name": "fish_05",
+        "position": [
+          2.0894199781488636,
+          1.3391600616993347,
+          -27.85782344489202
+        ]
+      },
+      {
+        "name": "fish_06",
+        "position": [
+          -1.2095165315059053,
+          1.468400230361948,
+          -32.39484195836291
+        ]
+      }
+    ],
+    "after": [
+      {
+        "name": "fish_01",
+        "position": [
+          -3.4362493410739865,
+          1.3540348264032893,
+          0.8721678666526279
+        ]
+      },
+      {
+        "name": "fish_02",
+        "position": [
+          0.8838315205378298,
+          1.1952139958955947,
+          1.8284424760766533
+        ]
+      },
+      {
+        "name": "fish_03",
+        "position": [
+          1.4027277022441416,
+          1.3675294717893574,
+          -27.629896776389362
+        ]
+      },
+      {
+        "name": "fish_04",
+        "position": [
+          -0.561248269625877,
+          1.386254232990458,
+          -31.913599533625092
+        ]
+      },
+      {
+        "name": "fish_05",
+        "position": [
+          2.0894199781488636,
+          1.3391600616993347,
+          -27.85782344489202
+        ]
+      },
+      {
+        "name": "fish_06",
+        "position": [
+          -1.2095165315059053,
+          1.468400230361948,
+          -32.39484195836291
+        ]
+      }
+    ],
+    "fishUnchanged": true
+  },
+  "passed": true
+}

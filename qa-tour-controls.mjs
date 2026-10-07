@@ -1,0 +1,9 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';import * as T from './dist/vendor/three.module.js';
+import {OrbitControls} from './dist/vendor/OrbitControls.js';import {advanceTourPose} from './dist/tour-clock.js';import {samplePassage} from './dist/passage.js';
+const results=[];
+for(const direction of [1,-1])for(const hz of [60,1,.3]){
+ let progress=direction>0?0:1,seconds=0;const pose=samplePassage(progress,direction),camera=new T.PerspectiveCamera(47,1.6,.12,140);camera.position.copy(pose.p);const controls=new OrbitControls(camera,null);controls.target.copy(pose.t);Object.assign(controls,{minDistance:3.2,maxDistance:30,maxPolarAngle:Math.PI*.485,minPolarAngle:.2,maxTargetRadius:70});controls.update();let maximumConstraintMovement=0,maximumStep=0;
+ while(seconds<100-1e-9){const dt=Math.min(100-seconds,1/hz);seconds+=dt;const previous=camera.position.clone();progress=advanceTourPose({progress,direction,seconds:dt,duration:100,camera:camera.position,target:controls.target,sample:samplePassage});const raw=camera.position.clone(),rawTarget=controls.target.clone();controls.update(Math.min(dt,.06));maximumConstraintMovement=Math.max(maximumConstraintMovement,camera.position.distanceTo(raw),controls.target.distanceTo(rawTarget));maximumStep=Math.max(maximumStep,camera.position.distanceTo(previous));}
+ assert.ok(maximumConstraintMovement<1e-8,'existing controls must not push the integrated camera off route');results.push({direction,hz,progress,maximumConstraintMovement,maximumObservedFrameTranslation:maximumStep});
+}
+fs.writeFileSync(new URL('./evidence/tour-clock-oct7/real-controls-check.json',import.meta.url),JSON.stringify({scope:'Actual OrbitControls source updates over original route; no browser or performance claim',results},null,2));console.log(JSON.stringify(results));

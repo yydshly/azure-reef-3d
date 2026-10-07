@@ -1,0 +1,9 @@
+{
+  "distChanges": [
+    "dist/app.js",
+    "dist/tour-clock.js"
+  ],
+  "allOtherDistFilesExact": true,
+  "baselineSource": "480d20f7e097e2bfd4719e3e700154f04d1cd025",
+  "scope": "Original model, textures, fish, passage path, water, guides and UI assets preserved"
+}

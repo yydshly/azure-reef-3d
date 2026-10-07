@@ -1,0 +1,11 @@
+# Native tour timing candidate
+
+Baseline source480d20f / publicdb1f921. The original tour phase advanced by min(frame interval,.06)/100, so actual software WebGL observations (~5 frames in15 seconds) advanced only .003. This candidate keeps the original route and changes its timing, not frame rate or reef visual realism.
+
+Visible elapsed time advances the100-second route. The existing exponential camera follower is integrated at up to1/60-second steps between rendered frames. OrbitControls damping and guide timing remain unchanged. Manual pause/resume preserves exact phase if the camera/target were not moved; after manual exploration it reprojects onto the existing route as before. Hidden time is excluded by resetting the tour clock at both visibility transitions. Explicit tour activation remains allowed under reduced motion.
+
+A foreground RAF gap greater than8 seconds pauses the tour with a visible message; it does not spend the stalled interval travelling. This is an explicit interaction boundary, not biological physics or a claim that poor frame rates become smooth. The boundary allows the observed3–4-second software-rendered frames while bounding catch-up. Starting again resets the clock; no accumulated debt is carried. Fish/water timing and rendering quality remain unchanged.
+
+Source tests: node --import ./qa-register.mjs qa-tour-clock.mjs; node --import ./qa-register.mjs qa-guide-integration.mjs; REEF_REDUCED_MOTION=1 with the same integration test; qa-no-webgl.mjs. At60/15/1/.3Hz,30 visible seconds yields .3 progress in both directions, with matched integrated camera poses. Actual app simulated DOM tests cover manual pause, hidden return, foreground stall, restart, end/reverse and guide controls. This is not browser evidence.
+
+Required next gate: same safe Chromium runner, baseline and candidate native button start, initial screenshot BEFORE start, a15-second observation without intervening screenshot; record wallclock, phase, camera, lastStep, RAF and errors, then pause before final screenshot. Candidate progress should correspond to its observed elapsed rendered interval, not RAF count. Preserve actual software-rendering limits and inspect first/end frames/video. Do not call this an FPS improvement or full journey real-time acceptance.

@@ -1,0 +1,47 @@
+{
+  "scope": "Actual OrbitControls source updates over original route; no browser or performance claim",
+  "results": [
+    {
+      "direction": 1,
+      "hz": 60,
+      "progress": 0.9999999999999232,
+      "maximumConstraintMovement": 1.0841599276764049e-14,
+      "maximumObservedFrameTranslation": 0.009737241245720344
+    },
+    {
+      "direction": 1,
+      "hz": 1,
+      "progress": 0.9999999999999226,
+      "maximumConstraintMovement": 9.53499970250244e-15,
+      "maximumObservedFrameTranslation": 0.5841628905030899
+    },
+    {
+      "direction": 1,
+      "hz": 0.3,
+      "progress": 0.9999999999999232,
+      "maximumConstraintMovement": 8.067281120720504e-15,
+      "maximumObservedFrameTranslation": 1.9466842494472556
+    },
+    {
+      "direction": -1,
+      "hz": 60,
+      "progress": 7.683496850915961e-14,
+      "maximumConstraintMovement": 7.768388458966724e-15,
+      "maximumObservedFrameTranslation": 0.009737242315122059
+    },
+    {
+      "direction": -1,
+      "hz": 1,
+      "progress": 7.734850086815737e-14,
+      "maximumConstraintMovement": 6.512158398214004e-15,
+      "maximumObservedFrameTranslation": 0.5841630920797811
+    },
+    {
+      "direction": -1,
+      "hz": 0.3,
+      "progress": 7.683496850915961e-14,
+      "maximumConstraintMovement": 4.288393621505008e-15,
+      "maximumObservedFrameTranslation": 1.945484225780613
+    }
+  ]
+}

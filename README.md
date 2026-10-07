@@ -211,3 +211,8 @@ The preceding coarse fan LOD was rejected for visible polygonal cells and densit
 ### Single-fish surface repair
 
 Only fish_03 receives continuous procedural pigment and closed thin fins. It remains unidentified and illustrative. Source checks: `node --import ./qa-register.mjs qa-fish-surface.mjs`, `node --import ./qa-register.mjs qa-life.mjs`, `node --import ./qa-register.mjs qa-guide-integration.mjs`; see `evidence/fish-surface-oct7/DECISION.md` for actual six-frame software WebGL evidence, reference provenance and limitations. No fresh editable mesh is needed: the module derives fins from the unchanged original GLB after companion cloning.
+
+
+### Native tour timing
+
+The100-second along-reef route advances by visible elapsed time independently of rendering frequency. Hidden/manual-paused time is excluded; a foreground gap over8s pauses travel. It does not improve FPS. Actual limited native evidence and unresolved slow-rendering limits are in evidence/tour-clock-oct7/DECISION.md. Checks: node --import ./qa-register.mjs qa-tour-clock.mjs and qa-tour-controls.mjs, plus the existing guide integration test.
