@@ -14,7 +14,7 @@
 
 A static, genuine-3D reef scene with a five-stop Chinese beginner guide. The guide connects camera positions and visible labels to explanations of reef context, sand/hardbottom, coral animals, generic fish, and light/water. Sources and modeling limits are available in the interface.
 
-This export includes source commit `527ef99c39da30570583f78299ddf8ce853a1a9a`. The scene/model baseline is recorded in `docs/source-baseline-sha256.json`; GitHub interface and verification-tool changes are recorded in `docs/export-changes.json`.
+This export includes source commit `6750ba68bb139c85c4ed5ca77d8d109200358a53`. The scene/model baseline is recorded in `docs/source-baseline-sha256.json`; GitHub interface and verification-tool changes are recorded in `docs/export-changes.json`.
 
 ## Run the exact snapshot
 
@@ -200,3 +200,9 @@ Actual software-WebGL run37577405341 established three-view population and real 
 三个错落的礁体实例和四个可见海扇，结合原有硬底色纹过渡；近处分枝保留5组，包含原导览目标。主GLB、水光参数、六鱼路线与五站导览保持。新增组件和原始生成材质、完整提示词与[可编辑Blender/复现边界](modeling/inhabited/README.md)随源码提供。固定editable重导出可精确匹配活动GLB；从零重新生成的UV/烘焙不保证逐字节一致。历史离线图不代表当前组合。
 
 [实际浏览器证据](evidence/inhabited-oct7/README.md)包括六张同机位对照、原生点击失败与定向修正、明确标记的13个测试驱动路线姿态。只有限接受结构/构图和采样空间表现。原生软件对照中基线5RAF/15.6155秒，候选5RAF/17.5007秒，单次回调率低10.8%；两者都很慢，性能与完整实时漫游未通过。不得把采样录像称为流畅原生自动游览。
+
+## Late-route landmark rebalancing, 2026-10-07
+
+The existing near-right shoulder moves rigidly to the late right bank. Total geometry, textures, three structures/four fan meshes, water, six fish, route and teaching flow are preserved. Material influence follows its position. Actual run37602816684 compares four matched t0 views and six labeled test-driven late-route poses; owner and independent review accepted only this limited composition/space increment. Departure remains framed and late travel gains a landmark. Isolated-rock appearance, broad texture patches and empty banks remain. This does not accept full realism, native tour smoothness or physical GPU performance.
+
+The preceding coarse fan LOD was rejected for visible polygonal cells and density changes despite small software-frame gains. Shadow/resolution cost separation is diagnostic only; neither low-resolution nor shadow-disabled settings were adopted. See ROUTE_REBALANCE.md and evidence/route-rebalance-oct7. The original packed modeling/inhabited/editable.blend and exact asset export are unchanged.

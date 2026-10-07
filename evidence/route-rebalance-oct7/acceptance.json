@@ -1,0 +1,22 @@
+{
+  "decision": "accept limited landmark redistribution, not complete naturalness or native performance",
+  "tested_candidate": "73f334e63e236965993c361126c8266d100c1db7",
+  "actual_run": "https://github.com/yydshly/azure-reef-3d/actions/runs/37602816684",
+  "fixed_views": 4,
+  "sampled_late_route": [
+    0.55,
+    0.67,
+    0.75,
+    0.85,
+    0.92,
+    1
+  ],
+  "review": "owner and independent reviewer inspected actual A/B frames and late-route samples; owner also reviewed chronological raw-video contact sheet",
+  "final_runtime_delta": "cache query only; tested layout byte-identical; gallery/prose added",
+  "limits": [
+    "software WebGL, not physical GPU FPS",
+    "sampled route not native real-time tour",
+    "isolated rock / broad textured bank / empty banks remain",
+    "unchanged total geometry does not prove unchanged runtime speed"
+  ]
+}

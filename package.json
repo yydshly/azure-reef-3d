@@ -1,6 +1,6 @@
 {
   "name": "azure-reef-3d",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "private": true,
   "type": "module",
   "description": "Reference-guided shallow reef exploration with a five-stop Chinese beginner journey",
@@ -10,7 +10,8 @@
     "test:motion": "node qa-motion.mjs",
     "build:routes": "node build-life-routes.mjs",
     "test:life": "node qa-life.mjs",
-    "test:inhabited": "node qa-inhabited.mjs"
+    "test:inhabited": "node qa-inhabited.mjs",
+    "test:route-rebalance": "node qa-route-rebalance.mjs"
   },
   "devDependencies": {
     "@napi-rs/canvas": "0.1.100",

@@ -1,4 +1,4 @@
-import {addShoulder,applySubstrateLink} from './inhabited-reef.js?v=inhabited-20261007-r1';
+import {addShoulder,applySubstrateLink} from './inhabited-reef.js?v=route-rebalance-20261007-r1';
 import {addCompanionFish} from './fish-population.js?v=life-20261007-r1';
 import {PASSAGE_STOPS,samplePassage,nearestPassageProgress,PASSAGE_SECONDS} from './passage.js';
 import {MODEL_URL} from './model-version.js';

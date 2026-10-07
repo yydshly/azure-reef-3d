@@ -149,3 +149,11 @@ Same-runner37593200908 observed5 RAF in15.6155s baseline versus17.5007s candidat
 ## 2026-10-07 · Fan LOD rejected
 
 [Experiment and actual evidence](experiments/2026-10-07-fan-lod-rejected/README.md). The distant3D fan retained close geometry and passed selection/hysteresis tests, but coarse cells and density jumps fail visual review. Two small software timing intervals showed5–7% higher RAF rate, not robust performance acceptance. Production assets remain unchanged; no threshold/density sweep follows this candidate.
+
+## 2026-10-07 · Late-route rebalance
+
+The existing near-right shoulder moves rigidly to the late right bank. Total geometry, textures, three structures/four fan meshes, water, six fish, route and teaching flow are preserved. Material influence follows its position. Actual run37602816684 compares four matched t0 views and six labeled test-driven late-route poses; owner and independent review accepted only this limited composition/space increment. Departure remains framed and late travel gains a landmark. Isolated-rock appearance, broad texture patches and empty banks remain. This does not accept full realism, native tour smoothness or physical GPU performance.
+
+The preceding coarse fan LOD was rejected for visible polygonal cells and density changes despite small software-frame gains. Shadow/resolution cost separation is diagnostic only; neither low-resolution nor shadow-disabled settings were adopted. See ROUTE_REBALANCE.md and evidence/route-rebalance-oct7. The original packed modeling/inhabited/editable.blend and exact asset export are unchanged.
+
+Source6750ba68 / measured candidate73f334e / run37602816684. Original four-view comparisons and labelled six-pose recordings are preserved on QA branch qa/route-rebalance. This changes placement, not total assets or performance acceptance.

@@ -1,0 +1,702 @@
+{
+  "scope": "27 rigid poses, exact original v3 mesh/UV, supports sampled against accepted terrain; not a scientific scale fit.",
+  "supports": [
+    [
+      -1.9611084461212158,
+      -0.4797361493110657,
+      -0.30032092332839966
+    ],
+    [
+      2.6791634559631348,
+      -0.24480365216732025,
+      -0.6499135494232178
+    ],
+    [
+      1.1491767168045044,
+      -0.3728554844856262,
+      -0.8364349007606506
+    ],
+    [
+      -1.8458105325698853,
+      -0.45428937673568726,
+      -0.651003897190094
+    ]
+  ],
+  "candidates": [
+    {
+      "position": [
+        4.8,
+        0.11285548567771911,
+        -44
+      ],
+      "yaw": 1.3,
+      "burial": [
+        0.14688066482543946,
+        0.10029239936732118,
+        0.04000000000000001,
+        0.12143389225006104
+      ],
+      "open": [
+        1.2328554844856263,
+        1.5328554844856261
+      ],
+      "fanVisible": true,
+      "score": 0.14688066482543946,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": 0.11285548567771911,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        3.5,
+        0.11285548567771911,
+        -44
+      ],
+      "yaw": 0.6,
+      "burial": [
+        0.14688066482543946,
+        0.18441759158928353,
+        0.04000000000000001,
+        0.12143389225006104
+      ],
+      "open": [
+        1.2328554844856263,
+        1.5328554844856261
+      ],
+      "fanVisible": true,
+      "score": 0.18441759158928353,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": 0.11285548567771911,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        3.5,
+        -0.015196346640586854,
+        -40
+      ],
+      "yaw": 0.6,
+      "burial": [
+        0.2749324971437454,
+        0.04,
+        0.16805183231830598,
+        0.249485724568367
+      ],
+      "open": [
+        1.1048036521673201,
+        1.4048036521673202
+      ],
+      "fanVisible": true,
+      "score": 0.2749324971437454,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": -0.015196346640586854,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        3.5,
+        -0.015196346640586854,
+        -44
+      ],
+      "yaw": 1.3,
+      "burial": [
+        0.2749324971437454,
+        0.04,
+        0.16805183231830598,
+        0.249485724568367
+      ],
+      "open": [
+        1.1048036521673201,
+        1.4048036521673202
+      ],
+      "fanVisible": true,
+      "score": 0.2749324971437454,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": -0.015196346640586854,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        4.8,
+        0.19428937792778014,
+        -44
+      ],
+      "yaw": 0.6,
+      "burial": [
+        0.06544677257537843,
+        0.6844480046352104,
+        0.11275219457069355,
+        0.04000000000000001
+      ],
+      "open": [
+        1.3142893767356874,
+        1.6142893767356872
+      ],
+      "fanVisible": true,
+      "score": 0.6844480046352104,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": 0.19428937792778014,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        6,
+        0.19428937792778014,
+        -44
+      ],
+      "yaw": 0.6,
+      "burial": [
+        0.06544677257537843,
+        1.2503841632768153,
+        0.58568538394898,
+        0.04000000000000001
+      ],
+      "open": [
+        1.3142893767356874,
+        1.4969505226232025
+      ],
+      "fanVisible": true,
+      "score": 1.2503841632768153,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": 0.19428937792778014,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        6,
+        0.11068783352661729,
+        -40
+      ],
+      "yaw": 1.3,
+      "burial": [
+        0.14904831697654128,
+        0.04000000000000001,
+        0.042167652151101825,
+        0.12360154440116286
+      ],
+      "open": [
+        1.2306878323345245,
+        1.5306878323345243
+      ],
+      "fanVisible": false,
+      "score": 10.149048316976542,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": 0.11068783352661729,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        4.8,
+        0.11285548567771911,
+        -40
+      ],
+      "yaw": 0.6,
+      "burial": [
+        0.14688066482543946,
+        0.15919766914346248,
+        0.04000000000000001,
+        0.12143389225006104
+      ],
+      "open": [
+        1.2328554844856263,
+        1.5328554844856261
+      ],
+      "fanVisible": false,
+      "score": 10.159197669143463,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": 0.11285548567771911,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        3.5,
+        -0.015196346640586854,
+        -36
+      ],
+      "yaw": 0.6,
+      "burial": [
+        0.2749324971437454,
+        0.04,
+        0.16805183231830598,
+        0.249485724568367
+      ],
+      "open": [
+        1.1048036521673201,
+        1.4048036521673202
+      ],
+      "fanVisible": false,
+      "score": 10.274932497143745,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": -0.015196346640586854,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        3.5,
+        -0.015196346640586854,
+        -36
+      ],
+      "yaw": 1.3,
+      "burial": [
+        0.2749324971437454,
+        0.04,
+        0.16805183231830598,
+        0.249485724568367
+      ],
+      "open": [
+        1.1048036521673201,
+        1.4048036521673202
+      ],
+      "fanVisible": false,
+      "score": 10.274932497143745,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": -0.015196346640586854,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        3.5,
+        -0.015196346640586854,
+        -36
+      ],
+      "yaw": 2,
+      "burial": [
+        0.2749324971437454,
+        0.04,
+        0.16805183231830598,
+        0.249485724568367
+      ],
+      "open": [
+        1.1048036521673201,
+        1.4048036521673202
+      ],
+      "fanVisible": false,
+      "score": 10.274932497143745,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": -0.015196346640586854,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        3.5,
+        -0.015196346640586854,
+        -40
+      ],
+      "yaw": 1.3,
+      "burial": [
+        0.2749324971437454,
+        0.04,
+        0.16805183231830598,
+        0.249485724568367
+      ],
+      "open": [
+        1.1048036521673201,
+        1.4048036521673202
+      ],
+      "fanVisible": false,
+      "score": 10.274932497143745,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": -0.015196346640586854,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        3.5,
+        -0.015196346640586854,
+        -40
+      ],
+      "yaw": 2,
+      "burial": [
+        0.2749324971437454,
+        0.04,
+        0.16805183231830598,
+        0.249485724568367
+      ],
+      "open": [
+        1.1048036521673201,
+        1.4048036521673202
+      ],
+      "fanVisible": false,
+      "score": 10.274932497143745,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": -0.015196346640586854,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        3.5,
+        -0.015196346640586854,
+        -44
+      ],
+      "yaw": 2,
+      "burial": [
+        0.2749324971437454,
+        0.04,
+        0.16805183231830598,
+        0.249485724568367
+      ],
+      "open": [
+        1.1048036521673201,
+        1.4048036521673202
+      ],
+      "fanVisible": false,
+      "score": 10.274932497143745,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": -0.015196346640586854,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        4.8,
+        -0.015196346640586854,
+        -36
+      ],
+      "yaw": 0.6,
+      "burial": [
+        0.2749324971437454,
+        0.04,
+        0.16805183231830598,
+        0.249485724568367
+      ],
+      "open": [
+        1.1048036521673201,
+        1.4048036521673202
+      ],
+      "fanVisible": false,
+      "score": 10.274932497143745,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": -0.015196346640586854,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        4.8,
+        -0.015196346640586854,
+        -36
+      ],
+      "yaw": 1.3,
+      "burial": [
+        0.2749324971437454,
+        0.04,
+        0.16805183231830598,
+        0.249485724568367
+      ],
+      "open": [
+        1.1048036521673201,
+        1.4048036521673202
+      ],
+      "fanVisible": false,
+      "score": 10.274932497143745,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": -0.015196346640586854,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        4.8,
+        -0.015196346640586854,
+        -40
+      ],
+      "yaw": 1.3,
+      "burial": [
+        0.2749324971437454,
+        0.04,
+        0.16805183231830598,
+        0.249485724568367
+      ],
+      "open": [
+        1.1048036521673201,
+        1.4048036521673202
+      ],
+      "fanVisible": false,
+      "score": 10.274932497143745,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": -0.015196346640586854,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        4.8,
+        -0.015196346640586854,
+        -40
+      ],
+      "yaw": 2,
+      "burial": [
+        0.2749324971437454,
+        0.04,
+        0.16805183231830598,
+        0.249485724568367
+      ],
+      "open": [
+        1.1048036521673201,
+        1.4048036521673202
+      ],
+      "fanVisible": false,
+      "score": 10.274932497143745,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": -0.015196346640586854,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        4.8,
+        -0.015196346640586854,
+        -44
+      ],
+      "yaw": 2,
+      "burial": [
+        0.2749324971437454,
+        0.04,
+        0.16805183231830598,
+        0.249485724568367
+      ],
+      "open": [
+        1.0078709570858484,
+        1.4048036521673202
+      ],
+      "fanVisible": false,
+      "score": 10.274932497143745,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": -0.015196346640586854,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        6,
+        -0.015196346640586854,
+        -36
+      ],
+      "yaw": 0.6,
+      "burial": [
+        0.2749324971437454,
+        0.04,
+        0.16805183231830598,
+        0.249485724568367
+      ],
+      "open": [
+        1.1048036521673201,
+        1.4048036521673202
+      ],
+      "fanVisible": false,
+      "score": 10.274932497143745,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": -0.015196346640586854,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        6,
+        -0.015196346640586854,
+        -36
+      ],
+      "yaw": 1.3,
+      "burial": [
+        0.2749324971437454,
+        0.04,
+        0.16805183231830598,
+        0.249485724568367
+      ],
+      "open": [
+        1.066981037050122,
+        1.4048036521673202
+      ],
+      "fanVisible": false,
+      "score": 10.274932497143745,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": -0.015196346640586854,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        6,
+        -0.015196346640586854,
+        -40
+      ],
+      "yaw": 2,
+      "burial": [
+        0.2749324971437454,
+        0.04,
+        0.16805183231830598,
+        0.249485724568367
+      ],
+      "open": [
+        1.1048036521673201,
+        1.4048036521673202
+      ],
+      "fanVisible": false,
+      "score": 10.274932497143745,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": -0.015196346640586854,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        4.8,
+        -0.015196346640586854,
+        -36
+      ],
+      "yaw": 2,
+      "burial": [
+        0.2807723218283002,
+        0.04,
+        0.16805183231830598,
+        0.249485724568367
+      ],
+      "open": [
+        1.1048036521673201,
+        1.4048036521673202
+      ],
+      "fanVisible": false,
+      "score": 10.2807723218283,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": -0.015196346640586854,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        6,
+        -0.015196346640586854,
+        -36
+      ],
+      "yaw": 2,
+      "burial": [
+        0.4293472545708524,
+        0.04,
+        0.16805183231830598,
+        0.35749653143451965
+      ],
+      "open": [
+        1.0752714733772675,
+        1.4048036521673202
+      ],
+      "fanVisible": false,
+      "score": 10.429347254570853,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": -0.015196346640586854,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        6,
+        -0.015196346640586854,
+        -44
+      ],
+      "yaw": 2,
+      "burial": [
+        0.4871961294747924,
+        0.04,
+        0.16805183231830598,
+        0.34945349780955565
+      ],
+      "open": [
+        0.5232100139605355,
+        1.4048036521673202
+      ],
+      "fanVisible": false,
+      "score": 10.487196129474793,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": -0.015196346640586854,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        6,
+        0.19428937792778014,
+        -44
+      ],
+      "yaw": 1.3,
+      "burial": [
+        0.06544677257537843,
+        0.5168350916055412,
+        0.17430590505124513,
+        0.04000000000000001
+      ],
+      "open": [
+        1.10638135205034,
+        1.6142893767356872
+      ],
+      "fanVisible": false,
+      "score": 10.516835091605541,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": 0.19428937792778014,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    },
+    {
+      "position": [
+        6,
+        0.19428937792778014,
+        -40
+      ],
+      "yaw": 0.6,
+      "burial": [
+        0.06544677257537843,
+        0.639410288791768,
+        0.05685746702730374,
+        0.04000000000000001
+      ],
+      "open": [
+        1.3142893767356874,
+        1.6142893767356872
+      ],
+      "fanVisible": false,
+      "score": 10.639410288791767,
+      "initialFishClearance": null,
+      "extraBurial": 0,
+      "initialSupportHeight": 0.19428937792778014,
+      "minimumFishClearance": null,
+      "fishSafe": true
+    }
+  ]
+}

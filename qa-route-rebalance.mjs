@@ -1,0 +1,12 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';import*as T from'three';import{GLTFLoader}from'./dist/vendor/GLTFLoader.js';import{composeReef,REEF_LAYOUT,applySubstrateLink,RETAINED_NEAR_BRANCHES}from'./dist/inhabited-reef.js';import{applyWaterLight}from'./dist/water-light.js';import{samplePassage}from'./dist/passage.js';import{createRequire}from'node:module';const require=createRequire(import.meta.url);const{loadImage}=require('@napi-rs/canvas');globalThis.self=globalThis;globalThis.createImageBitmap=async b=>loadImage(Buffer.from(await b.arrayBuffer()));
+async function load(p){const b=fs.readFileSync(p);return(await new Promise((r,j)=>new GLTFLoader().parse(b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength),'',r,j))).scene}
+const root=await load('source-model.glb'),asset=await load('dist/assets/inhabited/bf93ec504f8f2fc3/pilot.glb');const sand=[];root.traverse(o=>{if(o.isMesh&&o.name.startsWith('Sand'))sand.push({o,g:o.geometry,m:o.material})});const fish=[];root.traverse(o=>{if(/^fish_\d+$/.test(o.name))fish.push({o,m:o.matrix.toArray()})});composeReef(root,asset);
+
+const far=root.getObjectByName('Inhabited_FarRight');assert.ok(far);let totalTriangles=0,meshCount=0;root.traverse(o=>{if(o.isMesh){meshCount++;totalTriangles+=(o.geometry.index?.count??o.geometry.attributes.position.count)/3}});
+const snapshots=[];
+for(const progress of [.67,.75,.85]){
+ const pose=samplePassage(progress),camera=new T.PerspectiveCamera(47,1120/700,.12,140);camera.position.copy(pose.p);camera.lookAt(pose.t);camera.updateMatrixWorld(true);
+ const forms=[];far.traverse(o=>{if(!o.isMesh)return;const a=o.geometry.attributes.position;let minX=Infinity,maxX=-Infinity,minY=Infinity,maxY=-Infinity;for(let i=0;i<a.count;i++){const p=new T.Vector3().fromBufferAttribute(a,i).applyMatrix4(o.matrixWorld).project(camera);minX=Math.min(minX,p.x);maxX=Math.max(maxX,p.x);minY=Math.min(minY,p.y);maxY=Math.max(maxY,p.y)}forms.push({name:o.name,ndc:[minX,maxX,minY,maxY]});});
+ snapshots.push({progress,camera:pose.p.toArray(),target:pose.t.toArray(),forms});
+}
+const result={scope:'Source projection only; actual silhouette, occlusion and attachment require browser review',layout:REEF_LAYOUT,totalTriangles,meshCount,snapshots};fs.mkdirSync('evidence/route-rebalance-oct7',{recursive:true});fs.writeFileSync('evidence/route-rebalance-oct7/late-projection.json',JSON.stringify(result,null,2));console.log(JSON.stringify(result,null,2));

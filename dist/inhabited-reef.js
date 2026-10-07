@@ -5,7 +5,7 @@ import {GLTFLoader} from './vendor/GLTFLoader.js';
 // These are interpreted scene units, not surveyed colonies or species records.
 export const REEF_LAYOUT=[
  {id:'NearLeft',position:[-4.8,.09174240518222349,-10],yaw:1.3,omit:'Attached_small_fan_form'},
- {id:'NearRight',position:[4.8,.19078407404906897,-8.5],yaw:-2.6,omit:'Attached_reticulate_fan_form'},
+ {id:'FarRight',position:[3.5,-.015196346640586854,-44],yaw:1.3,omit:'Attached_reticulate_fan_form'},
  {id:'Middle',position:[-4.8,-.06576677229367059,-26],yaw:-.2}
 ];
 export const RETAINED_NEAR_BRANCHES=[0,1,3,12,16];
