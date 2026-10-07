@@ -1,0 +1,14 @@
+{
+  "successfulRun": 37687661092,
+  "failedHarnessRun": 37686976815,
+  "technicalPassed": true,
+  "onlyChange": "Depth_Staghorn_Linked_01_1.position.y .5899999737739563 -> .4877548419755352",
+  "allGeometryAttributesIndicesMaterialsOtherTransformsMatched": true,
+  "node78Preserved": true,
+  "cameraFishTimeMatched": true,
+  "visualDecision": "Owner and independent review accept visible basal contact with primary branches/crown retained and no obvious new passage20 degradation. Not whole-world naturalness, motion or performance acceptance.",
+  "limitations": [
+    "Two API-fixed software-rendered views, not preset-navigation/performance acceptance",
+    "Initial failure was test variable shadowing before application load; no screenshots then"
+  ]
+}

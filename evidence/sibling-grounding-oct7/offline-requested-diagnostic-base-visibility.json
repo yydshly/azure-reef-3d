@@ -1,0 +1,215 @@
+{
+  "method": "Actual source-frame object-index pass at projected original basal-ring centers; coarse evidence of external obstruction only. Seeing index2 does not exclude self-occlusion by another branch of node66. Candidate cap centers are deliberately buried and are not used for this visibility check.",
+  "roots": [
+    {
+      "root": 1,
+      "state": "fully_floating",
+      "pixel": [
+        545.3201037404716,
+        389.32352548251805
+      ],
+      "object_index_at_projection": 2.0,
+      "target_node66_present_in_3x3": true
+    },
+    {
+      "root": 2,
+      "state": "fully_floating",
+      "pixel": [
+        573.7687720486608,
+        389.6717020801385
+      ],
+      "object_index_at_projection": 2.0,
+      "target_node66_present_in_3x3": true
+    },
+    {
+      "root": 3,
+      "state": "fully_floating",
+      "pixel": [
+        487.71132241743453,
+        385.01520531169064
+      ],
+      "object_index_at_projection": 2.0,
+      "target_node66_present_in_3x3": true
+    },
+    {
+      "root": 4,
+      "state": "fully_floating",
+      "pixel": [
+        576.2414665615295,
+        394.4808805165218
+      ],
+      "object_index_at_projection": 2.0,
+      "target_node66_present_in_3x3": true
+    },
+    {
+      "root": 5,
+      "state": "fully_floating",
+      "pixel": [
+        492.19445108460485,
+        390.6942667064531
+      ],
+      "object_index_at_projection": 2.0,
+      "target_node66_present_in_3x3": true
+    },
+    {
+      "root": 6,
+      "state": "fully_floating",
+      "pixel": [
+        565.9520550622952,
+        402.0452268250052
+      ],
+      "object_index_at_projection": 2.0,
+      "target_node66_present_in_3x3": true
+    },
+    {
+      "root": 7,
+      "state": "fully_floating",
+      "pixel": [
+        546.645065982989,
+        382.77426994456346
+      ],
+      "object_index_at_projection": 2.0,
+      "target_node66_present_in_3x3": true
+    },
+    {
+      "root": 8,
+      "state": "fully_below_substrate",
+      "pixel": [
+        524.7073636601938,
+        401.89460349129206
+      ],
+      "object_index_at_projection": 0.0,
+      "target_node66_present_in_3x3": false
+    },
+    {
+      "root": 9,
+      "state": "intersects_substrate",
+      "pixel": [
+        506.69047894187366,
+        381.9682492692915
+      ],
+      "object_index_at_projection": 0.0,
+      "target_node66_present_in_3x3": true
+    },
+    {
+      "root": 10,
+      "state": "intersects_substrate",
+      "pixel": [
+        513.8473123681869,
+        387.0317390956289
+      ],
+      "object_index_at_projection": 2.0,
+      "target_node66_present_in_3x3": true
+    },
+    {
+      "root": 11,
+      "state": "fully_floating",
+      "pixel": [
+        546.5841718889127,
+        406.4018355420025
+      ],
+      "object_index_at_projection": 2.0,
+      "target_node66_present_in_3x3": true
+    },
+    {
+      "root": 12,
+      "state": "fully_floating",
+      "pixel": [
+        534.874594873253,
+        391.72600500110224
+      ],
+      "object_index_at_projection": 2.0,
+      "target_node66_present_in_3x3": true
+    },
+    {
+      "root": 13,
+      "state": "intersects_substrate",
+      "pixel": [
+        536.0947906336344,
+        387.80770555420224
+      ],
+      "object_index_at_projection": 2.0,
+      "target_node66_present_in_3x3": true
+    },
+    {
+      "root": 14,
+      "state": "fully_floating",
+      "pixel": [
+        555.2870439303662,
+        395.6082446717142
+      ],
+      "object_index_at_projection": 2.0,
+      "target_node66_present_in_3x3": true
+    },
+    {
+      "root": 15,
+      "state": "fully_below_substrate",
+      "pixel": [
+        530.2588713491292,
+        403.68360129754683
+      ],
+      "object_index_at_projection": 0.0,
+      "target_node66_present_in_3x3": false
+    },
+    {
+      "root": 16,
+      "state": "fully_floating",
+      "pixel": [
+        553.1903615236964,
+        398.55662227400103
+      ],
+      "object_index_at_projection": 2.0,
+      "target_node66_present_in_3x3": true
+    },
+    {
+      "root": 17,
+      "state": "fully_floating",
+      "pixel": [
+        581.4361531986524,
+        399.6524681674615
+      ],
+      "object_index_at_projection": 2.0,
+      "target_node66_present_in_3x3": true
+    },
+    {
+      "root": 18,
+      "state": "intersects_substrate",
+      "pixel": [
+        537.0078168541353,
+        384.6801393408789
+      ],
+      "object_index_at_projection": 2.0,
+      "target_node66_present_in_3x3": true
+    },
+    {
+      "root": 19,
+      "state": "fully_floating",
+      "pixel": [
+        567.1122568540187,
+        401.3662691381617
+      ],
+      "object_index_at_projection": 2.0,
+      "target_node66_present_in_3x3": true
+    },
+    {
+      "root": 20,
+      "state": "fully_floating",
+      "pixel": [
+        510.33977871155446,
+        405.0694853568208
+      ],
+      "object_index_at_projection": 2.0,
+      "target_node66_present_in_3x3": true
+    },
+    {
+      "root": 21,
+      "state": "intersects_substrate",
+      "pixel": [
+        524.1710617214716,
+        394.7365333442558
+      ],
+      "object_index_at_projection": 2.0,
+      "target_node66_present_in_3x3": true
+    }
+  ]
+}
