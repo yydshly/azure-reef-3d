@@ -1,0 +1,48 @@
+name: Verify public Pages WebGL rendering
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: reef-render-check
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - name: Install pinned browser test dependency
+        run: npm ci --prefix tests/browser
+      - name: Install official Chromium and OS dependencies
+        run: tests/browser/node_modules/.bin/playwright install --with-deps chromium
+      - name: Probe real WebGL2 without security overrides
+        id: probe
+        timeout-minutes: 2
+        run: node tests/browser/verify-pages.mjs probe
+      - name: Preserve capability evidence immediately
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: webgl2-capability-${{ github.run_id }}
+          path: render-evidence/probe.json
+          retention-days: 7
+      - name: Render actual public Pages and exercise fixed views
+        if: steps.probe.outputs.available == 'true'
+        timeout-minutes: 6
+        run: node tests/browser/verify-pages.mjs render
+      - name: Preserve screenshots, short video and runtime report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pages-render-${{ github.run_id }}
+          path: render-evidence/
+          retention-days: 7
+      - name: Mark unsupported renderer honestly
+        if: steps.probe.outputs.available != 'true'
+        run: echo 'WebGL2 not available under normal sandboxed Chromium; no visual acceptance claimed.'; exit 1
