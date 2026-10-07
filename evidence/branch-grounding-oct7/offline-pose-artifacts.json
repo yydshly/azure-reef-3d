@@ -1,0 +1,46 @@
+{
+  "offline-pose-preview-close-gray.png": {
+    "sha256": "a42371c38ff33d66a36428259aff697e7bf9623bfc0786ef7e8961d2d4be38ea",
+    "bytes": 1076719
+  },
+  "fish-roof-monotonicity.json": {
+    "sha256": "c40468470d6f69bf5cc9ae10e5d0ba5e32ce01bcbe365db37fce4e2861b0f226",
+    "bytes": 3481
+  },
+  "package_offline_pose.py": {
+    "sha256": "773ada3de90729e7f41243d5fe01c0dff8e9e4157b939353bc10f7f59c2911f2",
+    "bytes": 3677
+  },
+  "offline-pose-manifest.json": {
+    "sha256": "9ce90cb34f172cb5f5298c87fe7d4ea7fe7f5a1f745fd9bf13a03ca54bec1a0f",
+    "bytes": 1095
+  },
+  "offline-before-close-textured.png": {
+    "sha256": "34eb4d7557a47a47f86023f63d774352cef3efd60b40615f3e6872ada6a71c75",
+    "bytes": 1221919
+  },
+  "render_offline_pose.py": {
+    "sha256": "dac11b4c635629aba4fdbfc1e56f44f3c510d3320c681d6147b2de92f394b87a",
+    "bytes": 5215
+  },
+  "offline-pose-preview-close-textured.png": {
+    "sha256": "a5e2fd982ad418c27272dfcb36a398a7015b1973cfa5d25ffdc0209af6e9f79c",
+    "bytes": 1219557
+  },
+  "offline-pose-compare-textured.png": {
+    "sha256": "f95da446b7b40dda65d9ce6c18087303088d681ddd60293a14d2090594f93f55",
+    "bytes": 1740275
+  },
+  "offline-render.log": {
+    "sha256": "6921e6e87999900b01c4efe1c9460c2868d4374011d98f52f89ccc7faa1f9577",
+    "bytes": 71129
+  },
+  "offline-before-close-gray.png": {
+    "sha256": "614069651a71d1e86e8ff4d6c56d37769db7c29c68380eecaf8c4fdc26ad87d0",
+    "bytes": 1080378
+  },
+  "offline-pose-compare-gray.png": {
+    "sha256": "4d5fdc36a9fb4382bd14a800312ae84378a3a059b7144de014c26f784bb96586",
+    "bytes": 1598898
+  }
+}

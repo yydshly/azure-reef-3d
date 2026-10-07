@@ -1,0 +1,3932 @@
+{
+  "distance_units": "uncalibrated scene units",
+  "method": "Exact piecewise-linear overlay of every actual basal-cap GLB triangle with all vertically projected source sand/limestone triangles. Partition by all projected triangle edges and competing height-plane intersections; select highest ground within each cell. Gap extrema occur at cell vertices. No center/radius approximation. Float64 with 1e-11 clipping tolerance, not interval arithmetic. Positive gap = branch cap above ground; negative = buried.",
+  "source_replay_and_transform_proof": "basal-rings.json",
+  "arms": {
+    "baseline": {
+      "states": {
+        "fully_floating": 11,
+        "intersects_substrate": 8,
+        "fully_below_substrate": 2
+      },
+      "roots": [
+        {
+          "root": 1,
+          "segment": 0,
+          "center_world": [
+            1.7549909672929995,
+            -0.13157610794901847,
+            -26.0936059890815
+          ],
+          "minimum_vertical_gap_scene_units": 0.04941417947307514,
+          "maximum_vertical_gap_scene_units": 0.09919154229625349,
+          "projected_cap_area": 0.0033644585578649355,
+          "above_substrate_projected_area_fraction": 1.0,
+          "state": "fully_floating",
+          "top_surface_nodes": [
+            37,
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.0823743903758416,
+            0.06979890949317172,
+            0.0604434275302172,
+            0.05254531017286185,
+            0.05710241724316292,
+            0.07633417560697708,
+            0.09474380323349142,
+            0.0944491494036963,
+            0.08721986607291109,
+            0.09033168970866513
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.7073351565475363,
+              "maximum_vertical_gap_scene_units": 0.7404753014951635,
+              "projected_cap_area": 0.002081450863393286,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 1
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.5553243342424778,
+              "maximum_vertical_gap_scene_units": 0.5985163110565423,
+              "projected_cap_area": 0.0013844883894940097,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 4
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.008336154340263136,
+            "maximum_vertical_gap_scene_units": 0.041441208482915215,
+            "projected_cap_area": 0.0033644585578649355,
+            "above_substrate_projected_area_fraction": 0.9625749312174186,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.072703128152446,
+            "maximum_vertical_gap_scene_units": -0.022925765329267656,
+            "projected_cap_area": 0.0033644585578649355,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.003364458557851924,
+          "overlay_area_coverage_error": 1.3011727112433036e-14
+        },
+        {
+          "root": 2,
+          "segment": 7,
+          "center_world": [
+            2.019792368145592,
+            -0.13270149898529052,
+            -25.93787171957674
+          ],
+          "minimum_vertical_gap_scene_units": 0.043850792836549246,
+          "maximum_vertical_gap_scene_units": 0.08180522327685935,
+          "projected_cap_area": 0.0015666857224232444,
+          "above_substrate_projected_area_fraction": 1.0,
+          "state": "fully_floating",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.06007154691708061,
+            0.052236923930918194,
+            0.04385079283655138,
+            0.04465974912919393,
+            0.049621053516593766,
+            0.05532004199484619,
+            0.07265042313792677,
+            0.08180522327685552,
+            0.07351198693752242,
+            0.06875290018152477
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.5711173420871205,
+              "maximum_vertical_gap_scene_units": 0.5977091089800393,
+              "projected_cap_area": 0.0009231563684153343,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 8
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.4718114332854739,
+              "maximum_vertical_gap_scene_units": 0.5067799668014032,
+              "projected_cap_area": 0.0007198232541831828,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 12
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.013899540976789027,
+            "maximum_vertical_gap_scene_units": 0.02405488946352108,
+            "projected_cap_area": 0.0015666857224232444,
+            "above_substrate_projected_area_fraction": 0.6744379236122281,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.0782665147889719,
+            "maximum_vertical_gap_scene_units": -0.04031208434866179,
+            "projected_cap_area": 0.0015666857224232444,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0015666857224364782,
+          "overlay_area_coverage_error": -1.3233771717358067e-14
+        },
+        {
+          "root": 3,
+          "segment": 15,
+          "center_world": [
+            1.2464134185598834,
+            -0.10570200219750403,
+            -26.47630186638471
+          ],
+          "minimum_vertical_gap_scene_units": 0.03752057304083323,
+          "maximum_vertical_gap_scene_units": 0.09204696717411309,
+          "projected_cap_area": 0.0032898496146742673,
+          "above_substrate_projected_area_fraction": 1.0,
+          "state": "fully_floating",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.07435906858513996,
+            0.051941995474388714,
+            0.03793007566531756,
+            0.04453879985826689,
+            0.06484075955536306,
+            0.0821551086413258,
+            0.0920469671741082,
+            0.09154475089795412,
+            0.09154789647473806,
+            0.08322152492856148
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.6427976703361655,
+              "maximum_vertical_gap_scene_units": 0.6568463267185507,
+              "projected_cap_area": 0.002389580185589324,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 16
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.5624709012431381,
+              "maximum_vertical_gap_scene_units": 0.6187045560695168,
+              "projected_cap_area": 0.0013016590275434226,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 19
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.020229760772505045,
+            "maximum_vertical_gap_scene_units": 0.03429663336077482,
+            "projected_cap_area": 0.0032898496146742673,
+            "above_substrate_projected_area_fraction": 0.8219167169449985,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.08459673458468792,
+            "maximum_vertical_gap_scene_units": -0.03007034045140805,
+            "projected_cap_area": 0.0032898496146742673,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.003289849614680628,
+          "overlay_area_coverage_error": -6.3607973055379574e-15
+        },
+        {
+          "root": 4,
+          "segment": 22,
+          "center_world": [
+            2.046924301311777,
+            -0.18426024428755045,
+            -25.93100823960531
+          ],
+          "minimum_vertical_gap_scene_units": -0.012285908841505933,
+          "maximum_vertical_gap_scene_units": 0.03256326364454776,
+          "projected_cap_area": 0.0017753615737916562,
+          "above_substrate_projected_area_fraction": 0.7631228349760252,
+          "state": "intersects_substrate",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.010180807766274141,
+            -0.002472158650051487,
+            -0.010262307455644853,
+            -0.012285908841505627,
+            -0.006540513203501769,
+            0.011236996798320104,
+            0.022161631939353027,
+            0.03031436529236059,
+            0.03231457367890084,
+            0.02333714371550441
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.5270601539782889,
+              "maximum_vertical_gap_scene_units": 0.5634133427727139,
+              "projected_cap_area": 0.0011988540037890516,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 23
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.4227266137301875,
+              "maximum_vertical_gap_scene_units": 0.4577389828860774,
+              "projected_cap_area": 0.0007800759993621398,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 26
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.0700362426548442,
+            "maximum_vertical_gap_scene_units": -0.025187070168790515,
+            "projected_cap_area": 0.0017753615737916562,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.13440321646702708,
+            "maximum_vertical_gap_scene_units": -0.08955404398097339,
+            "projected_cap_area": 0.0017753615737916562,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.001775361573792118,
+          "overlay_area_coverage_error": -4.618701254788249e-16
+        },
+        {
+          "root": 5,
+          "segment": 29,
+          "center_world": [
+            1.1562432240265201,
+            -0.1008488903939724,
+            -26.161314335159535
+          ],
+          "minimum_vertical_gap_scene_units": 0.04676112382172981,
+          "maximum_vertical_gap_scene_units": 0.12211730762552114,
+          "projected_cap_area": 0.0031310936359751906,
+          "above_substrate_projected_area_fraction": 1.0,
+          "state": "fully_floating",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.09805992610886903,
+            0.06861082080078354,
+            0.0479252491721375,
+            0.046761123821729506,
+            0.06261320754124569,
+            0.08321187336279,
+            0.10262226183004991,
+            0.118466503260762,
+            0.12211730762552117,
+            0.11909689650779459
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.5964765440328836,
+              "maximum_vertical_gap_scene_units": 0.6334199629938901,
+              "projected_cap_area": 0.0021891338062758336,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 30
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.528658290006085,
+              "maximum_vertical_gap_scene_units": 0.5611270741754302,
+              "projected_cap_area": 0.0011630516306251337,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 34
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.010989209991608462,
+            "maximum_vertical_gap_scene_units": 0.06436697381218287,
+            "projected_cap_area": 0.0031310936359751906,
+            "above_substrate_projected_area_fraction": 0.9371168066395857,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.07535618380379133,
+            "maximum_vertical_gap_scene_units": 0.0,
+            "projected_cap_area": 0.0031310936359751906,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0031310936359859225,
+          "overlay_area_coverage_error": -1.0731866784130517e-14
+        },
+        {
+          "root": 6,
+          "segment": 37,
+          "center_world": [
+            1.7240977560131605,
+            -0.16604517531394958,
+            -25.594688445803932
+          ],
+          "minimum_vertical_gap_scene_units": -0.0010007036788213242,
+          "maximum_vertical_gap_scene_units": 0.0627684290565842,
+          "projected_cap_area": 0.0022795284989634013,
+          "above_substrate_projected_area_fraction": 0.9977742829145927,
+          "state": "intersects_substrate",
+          "top_surface_nodes": [
+            37,
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.05395482435822488,
+            0.03734543499924961,
+            0.01985097413472886,
+            0.0064085041905089235,
+            -0.0010007036788231838,
+            0.008209729550574113,
+            0.021425769241034537,
+            0.036410740766381566,
+            0.056043574790594686,
+            0.06188165192134129
+          ],
+          "ring_vertex_top_surface_nodes": [
+            37,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.5628052194128301,
+              "maximum_vertical_gap_scene_units": 0.6108078705671467,
+              "projected_cap_area": 0.0012233602476712235,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 38
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.41413673100732495,
+              "maximum_vertical_gap_scene_units": 0.46187687158373336,
+              "projected_cap_area": 0.0007772733527282583,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 42
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.0587510374921596,
+            "maximum_vertical_gap_scene_units": 0.005018095243245924,
+            "projected_cap_area": 0.0022795284989634013,
+            "above_substrate_projected_area_fraction": 0.03588970276614868,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.12311801130434247,
+            "maximum_vertical_gap_scene_units": -0.05934887856893695,
+            "projected_cap_area": 0.0022795284989634013,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0022795284989724847,
+          "overlay_area_coverage_error": -9.083445801083556e-15
+        },
+        {
+          "root": 7,
+          "segment": 45,
+          "center_world": [
+            1.945085531772002,
+            -0.13455027920007706,
+            -26.412392438218443
+          ],
+          "minimum_vertical_gap_scene_units": 0.0433323059018349,
+          "maximum_vertical_gap_scene_units": 0.10501913592219836,
+          "projected_cap_area": 0.0013628621851822231,
+          "above_substrate_projected_area_fraction": 1.0,
+          "state": "fully_floating",
+          "top_surface_nodes": [
+            37,
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.08479651541139677,
+            0.062402601717307105,
+            0.043943271524753635,
+            0.04920728323824819,
+            0.060914830850685886,
+            0.07687958656733929,
+            0.09754428640007974,
+            0.10501913592219354,
+            0.10389948318984439,
+            0.09754428640007974
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            37,
+            37,
+            86,
+            37
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.5406034538950664,
+              "maximum_vertical_gap_scene_units": 0.5801713484246065,
+              "projected_cap_area": 0.000712588492792321,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 46
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.4532362650079165,
+              "maximum_vertical_gap_scene_units": 0.49717426300643197,
+              "projected_cap_area": 0.0007152542006636509,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 49
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.014418027911503373,
+            "maximum_vertical_gap_scene_units": 0.047268802108860086,
+            "projected_cap_area": 0.0013628621851822231,
+            "above_substrate_projected_area_fraction": 0.8818607939688667,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.07878500172368624,
+            "maximum_vertical_gap_scene_units": -0.017098171703322784,
+            "projected_cap_area": 0.0013628621851822231,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0013628621851685088,
+          "overlay_area_coverage_error": 1.3714290120203643e-14
+        },
+        {
+          "root": 8,
+          "segment": 52,
+          "center_world": [
+            1.4681658678509857,
+            -0.2201650468334555,
+            -26.022466206799653
+          ],
+          "minimum_vertical_gap_scene_units": -0.036086706335990204,
+          "maximum_vertical_gap_scene_units": 0.0054740274217888185,
+          "projected_cap_area": 0.0031283220536160172,
+          "above_substrate_projected_area_fraction": 0.05658995921852427,
+          "state": "intersects_substrate",
+          "top_surface_nodes": [
+            37,
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            -0.03499465006037966,
+            -0.036000849544827934,
+            -0.034883262258970094,
+            -0.03166363514690196,
+            -0.02226579372821033,
+            -0.0001650482416152843,
+            0.0025908895890411066,
+            -0.005062789687829139,
+            -0.011515960725997254,
+            -0.024559734572297293
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            37,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.5283355533724858,
+              "maximum_vertical_gap_scene_units": 0.5847336368099283,
+              "projected_cap_area": 0.002391746582135923,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 53
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.41229164177284616,
+              "maximum_vertical_gap_scene_units": 0.45872710084738344,
+              "projected_cap_area": 0.001435499671325502,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 56
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.09383704014932848,
+            "maximum_vertical_gap_scene_units": -0.052276306391549454,
+            "projected_cap_area": 0.0031283220536160172,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.15820401396151135,
+            "maximum_vertical_gap_scene_units": -0.11664328020373232,
+            "projected_cap_area": 0.0031283220536160172,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.003128322053637299,
+          "overlay_area_coverage_error": -2.128158760328347e-14
+        },
+        {
+          "root": 9,
+          "segment": 59,
+          "center_world": [
+            1.6108011163009492,
+            -0.15384969666600226,
+            -26.757699764077337
+          ],
+          "minimum_vertical_gap_scene_units": 0.008627530280314488,
+          "maximum_vertical_gap_scene_units": 0.04867641876560924,
+          "projected_cap_area": 0.001631445649248775,
+          "above_substrate_projected_area_fraction": 1.0,
+          "state": "fully_floating",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.023343482352048722,
+            0.015721072886721477,
+            0.0096858496642305,
+            0.010204286266409374,
+            0.017753872554035877,
+            0.030677753529684798,
+            0.043174461261293984,
+            0.04864157483262446,
+            0.037712742995283405,
+            0.03173664596948844
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.4928312901034637,
+              "maximum_vertical_gap_scene_units": 0.5413009570853671,
+              "projected_cap_area": 0.001403912892893544,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 60
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.45445878381340776,
+              "maximum_vertical_gap_scene_units": 0.4938513627936061,
+              "projected_cap_area": 0.000626777526527178,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 63
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.049122803533023784,
+            "maximum_vertical_gap_scene_units": -0.009073915047729031,
+            "projected_cap_area": 0.001631445649248775,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.11348977734520665,
+            "maximum_vertical_gap_scene_units": -0.0734408888599119,
+            "projected_cap_area": 0.001631445649248775,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0016314456492387583,
+          "overlay_area_coverage_error": 1.0016727031159078e-14
+        },
+        {
+          "root": 10,
+          "segment": 66,
+          "center_world": [
+            1.5957918703761202,
+            -0.1708500402569771,
+            -26.541292807767427
+          ],
+          "minimum_vertical_gap_scene_units": -0.016481255826995778,
+          "maximum_vertical_gap_scene_units": 0.049850943613009235,
+          "projected_cap_area": 0.0021483871336123173,
+          "above_substrate_projected_area_fraction": 0.8901127708056181,
+          "state": "intersects_substrate",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.03418205678418368,
+            0.01388120039333024,
+            -0.0005484167837115916,
+            -0.01648125582699561,
+            -0.008417737057366537,
+            0.011283733597380496,
+            0.0381602935117909,
+            0.040231166003724256,
+            0.04706631044606405,
+            0.04985094361300932
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.5527670707746246,
+              "maximum_vertical_gap_scene_units": 0.5947019661398514,
+              "projected_cap_area": 0.001150391398006434,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 67
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.41899796111317045,
+              "maximum_vertical_gap_scene_units": 0.4544884478030653,
+              "projected_cap_area": 0.0017706033661362142,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 71
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.07423158964033405,
+            "maximum_vertical_gap_scene_units": -0.007899390200329037,
+            "projected_cap_area": 0.0021483871336123173,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.13859856345251692,
+            "maximum_vertical_gap_scene_units": -0.07226636401251191,
+            "projected_cap_area": 0.0021483871336123173,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.00214838713359949,
+          "overlay_area_coverage_error": 1.28274127431105e-14
+        },
+        {
+          "root": 11,
+          "segment": 75,
+          "center_world": [
+            1.387720685353329,
+            -0.13397564339637755,
+            -25.391268327545102
+          ],
+          "minimum_vertical_gap_scene_units": 0.016599147110738954,
+          "maximum_vertical_gap_scene_units": 0.06704522015023429,
+          "projected_cap_area": 0.0024832147100788404,
+          "above_substrate_projected_area_fraction": 1.0,
+          "state": "fully_floating",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.03674122724824913,
+            0.033811341933270456,
+            0.023792683968026973,
+            0.01671627639195311,
+            0.02411516958982457,
+            0.04170885147601211,
+            0.053274003087922475,
+            0.0628827876673313,
+            0.06100061403488405,
+            0.04861972375167896
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.5711520943317296,
+              "maximum_vertical_gap_scene_units": 0.6180689428867829,
+              "projected_cap_area": 0.0013916846326580412,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 76
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.4275984001328439,
+              "maximum_vertical_gap_scene_units": 0.4708278485110071,
+              "projected_cap_area": 0.0014334246467040401,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 80
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.04115118670259932,
+            "maximum_vertical_gap_scene_units": 0.009294886336896013,
+            "projected_cap_area": 0.0024832147100788404,
+            "above_substrate_projected_area_fraction": 0.05363836450934687,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.10551816051478219,
+            "maximum_vertical_gap_scene_units": -0.05507208747528686,
+            "projected_cap_area": 0.0024832147100788404,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.002483214710077519,
+          "overlay_area_coverage_error": 1.3214256078253328e-15
+        },
+        {
+          "root": 12,
+          "segment": 83,
+          "center_world": [
+            1.5586020991431255,
+            -0.11424606278538704,
+            -25.962432163287843
+          ],
+          "minimum_vertical_gap_scene_units": 0.05775033381333827,
+          "maximum_vertical_gap_scene_units": 0.08015326734735798,
+          "projected_cap_area": 0.0017445037550096743,
+          "above_substrate_projected_area_fraction": 1.0,
+          "state": "fully_floating",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.0680510627051573,
+            0.06633396069272178,
+            0.06514284090157602,
+            0.062433338410173456,
+            0.05994705797889631,
+            0.057750333813340424,
+            0.06386131826347495,
+            0.07762504191470222,
+            0.0711549904715252,
+            0.06439330145948007
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.749869194477796,
+              "maximum_vertical_gap_scene_units": 0.7785390858352201,
+              "projected_cap_area": 0.0009086356684306907,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 84
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.5516578510576196,
+              "maximum_vertical_gap_scene_units": 0.5745641580517997,
+              "projected_cap_area": 0.0010437513438716906,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 87
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.5168714166837276,
+              "maximum_vertical_gap_scene_units": 0.5583588401015831,
+              "projected_cap_area": 0.0007105582751307793,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 90
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": 0.0,
+            "maximum_vertical_gap_scene_units": 0.022402933534019703,
+            "projected_cap_area": 0.0017445037550096743,
+            "above_substrate_projected_area_fraction": 1.0,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.06436697381218287,
+            "maximum_vertical_gap_scene_units": -0.04196404027816317,
+            "projected_cap_area": 0.0017445037550096743,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0017445037550049437,
+          "overlay_area_coverage_error": 4.730590918988753e-15
+        },
+        {
+          "root": 13,
+          "segment": 93,
+          "center_world": [
+            1.8935532617043997,
+            -0.21229546361789103,
+            -26.570708941615287
+          ],
+          "minimum_vertical_gap_scene_units": -0.06563584391407185,
+          "maximum_vertical_gap_scene_units": -0.034979251984430526,
+          "projected_cap_area": 0.0019271344899891574,
+          "above_substrate_projected_area_fraction": 0.0,
+          "state": "fully_below_substrate",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            -0.051729033519915285,
+            -0.05385056795902726,
+            -0.04996478557708761,
+            -0.06553703451265036,
+            -0.05995614134724753,
+            -0.053342631995802664,
+            -0.04781346665060765,
+            -0.04143390200103425,
+            -0.037598604513507605,
+            -0.04796411745676826
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.6597219174294828,
+              "maximum_vertical_gap_scene_units": 0.6925632280065734,
+              "projected_cap_area": 0.0010494055433163396,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 94
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.5936295756845271,
+              "maximum_vertical_gap_scene_units": 0.6132412059431225,
+              "projected_cap_area": 0.001018178463578323,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 97
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.5016717407780851,
+              "maximum_vertical_gap_scene_units": 0.5499968965026314,
+              "projected_cap_area": 0.0010181557654824758,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 100
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.12338617772741012,
+            "maximum_vertical_gap_scene_units": -0.0927295857977688,
+            "projected_cap_area": 0.0019271344899891574,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.187753151539593,
+            "maximum_vertical_gap_scene_units": -0.15709655960995167,
+            "projected_cap_area": 0.0019271344899891574,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0019271344899848572,
+          "overlay_area_coverage_error": 4.300162656512008e-15
+        },
+        {
+          "root": 14,
+          "segment": 103,
+          "center_world": [
+            1.7190247403982681,
+            -0.14131049543619156,
+            -25.80885714986394
+          ],
+          "minimum_vertical_gap_scene_units": 0.05675429015406053,
+          "maximum_vertical_gap_scene_units": 0.09830643191933675,
+          "projected_cap_area": 0.0030564544825253392,
+          "above_substrate_projected_area_fraction": 1.0,
+          "state": "fully_floating",
+          "top_surface_nodes": [
+            37,
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.06222273481816154,
+            0.05920037597761657,
+            0.0567542901540643,
+            0.05907257482409478,
+            0.06656557396054269,
+            0.07868950337171554,
+            0.09081343278288842,
+            0.09830643191933633,
+            0.0982624921426232,
+            0.08237755048700188
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            37,
+            37,
+            37,
+            37,
+            37,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.6227663499467297,
+              "maximum_vertical_gap_scene_units": 0.6743556278297795,
+              "projected_cap_area": 0.0018191490162706714,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 104
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.48908295266731017,
+              "maximum_vertical_gap_scene_units": 0.5339957402619646,
+              "projected_cap_area": 0.0014350138954526415,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 107
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.0009960436592777455,
+            "maximum_vertical_gap_scene_units": 0.04055609810599847,
+            "projected_cap_area": 0.0030564544825253392,
+            "above_substrate_projected_area_fraction": 0.9992445591303025,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.06536301747146062,
+            "maximum_vertical_gap_scene_units": -0.023810875706184398,
+            "projected_cap_area": 0.0030564544825253392,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0030564544825319763,
+          "overlay_area_coverage_error": -6.637052019087264e-15
+        },
+        {
+          "root": 15,
+          "segment": 110,
+          "center_world": [
+            1.488372851499362,
+            -0.22346039776504037,
+            -25.933954921916676
+          ],
+          "minimum_vertical_gap_scene_units": -0.014859308749437083,
+          "maximum_vertical_gap_scene_units": 0.00774124947591881,
+          "projected_cap_area": 0.002286182566390238,
+          "above_substrate_projected_area_fraction": 0.3127381983779931,
+          "state": "intersects_substrate",
+          "top_surface_nodes": [
+            37,
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            -0.003460399173200124,
+            -0.010505313500761976,
+            -0.014859308749437306,
+            -0.014859308749437306,
+            -0.010505313500761976,
+            -0.003460399173200124,
+            0.003584515154361756,
+            0.002254140444526709,
+            0.007216661550453918,
+            0.003584515154361756
+          ],
+          "ring_vertex_top_surface_nodes": [
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            86,
+            86,
+            37
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.7162551168614844,
+              "maximum_vertical_gap_scene_units": 0.7531905681938635,
+              "projected_cap_area": 0.0012631878332367563,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 111
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.5423050853608142,
+              "maximum_vertical_gap_scene_units": 0.5683938876680052,
+              "projected_cap_area": 0.0009396460814841134,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 114
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.07260964256277536,
+            "maximum_vertical_gap_scene_units": -0.05000908433741946,
+            "projected_cap_area": 0.002286182566390238,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.13697661637495823,
+            "maximum_vertical_gap_scene_units": -0.11437605814960233,
+            "projected_cap_area": 0.002286182566390238,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.002286182566397994,
+          "overlay_area_coverage_error": -7.755948661092305e-15
+        },
+        {
+          "root": 16,
+          "segment": 117,
+          "center_world": [
+            1.7479717101472665,
+            -0.1922806741334498,
+            -25.906171062557245
+          ],
+          "minimum_vertical_gap_scene_units": -0.01976614362310869,
+          "maximum_vertical_gap_scene_units": 0.010770998646546515,
+          "projected_cap_area": 0.0030732288212398373,
+          "above_substrate_projected_area_fraction": 0.1694256490124721,
+          "state": "intersects_substrate",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.006281760310607898,
+            0.003605378020219402,
+            -0.005248227642374675,
+            -0.014716734491342837,
+            -0.009815136011305486,
+            -0.0054945470788756445,
+            -0.009823318779035167,
+            0.0005039098270590014,
+            0.00034627495573574807,
+            0.010770998646546653
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.7480979076952146,
+              "maximum_vertical_gap_scene_units": 0.7944143154316734,
+              "projected_cap_area": 0.0017057405513440926,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 118
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.5848296671831434,
+              "maximum_vertical_gap_scene_units": 0.6332052845768956,
+              "projected_cap_area": 0.0012164693069252053,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 121
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.659013624023757,
+              "maximum_vertical_gap_scene_units": 0.7157057351990179,
+              "projected_cap_area": 0.0015323526241637353,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 124
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.07751647743644696,
+            "maximum_vertical_gap_scene_units": -0.04697933516679176,
+            "projected_cap_area": 0.0030732288212398373,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.14188345124862983,
+            "maximum_vertical_gap_scene_units": -0.11134630897897463,
+            "projected_cap_area": 0.0030732288212398373,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0030732288212242764,
+          "overlay_area_coverage_error": 1.5560903260380954e-14
+        },
+        {
+          "root": 17,
+          "segment": 127,
+          "center_world": [
+            2.031824531979983,
+            -0.21164404889568686,
+            -25.79747683378934
+          ],
+          "minimum_vertical_gap_scene_units": -0.034861387852504144,
+          "maximum_vertical_gap_scene_units": -0.007608015847454297,
+          "projected_cap_area": 0.0033623673614719962,
+          "above_substrate_projected_area_fraction": 0.0,
+          "state": "fully_below_substrate",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            -0.02961240435132026,
+            -0.023643681880901796,
+            -0.01451951779988353,
+            -0.00882229410761387,
+            -0.01013468712535645,
+            -0.011374911624086964,
+            -0.01228223208393886,
+            -0.02102713958588287,
+            -0.02934743066534129,
+            -0.0233979805451352
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.5286373262845634,
+              "maximum_vertical_gap_scene_units": 0.566774072248073,
+              "projected_cap_area": 0.0019355812133667882,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 128
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.36720087362803966,
+              "maximum_vertical_gap_scene_units": 0.397939630605709,
+              "projected_cap_area": 0.0014916659804491417,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 131
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.43738961056975967,
+              "maximum_vertical_gap_scene_units": 0.5006023359151417,
+              "projected_cap_area": 0.0016103715494075743,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 134
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.09261172166584242,
+            "maximum_vertical_gap_scene_units": -0.06535834966079257,
+            "projected_cap_area": 0.0033623673614719962,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.1569786954780253,
+            "maximum_vertical_gap_scene_units": -0.12972532347297544,
+            "projected_cap_area": 0.0033623673614719962,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0033623673614527764,
+          "overlay_area_coverage_error": 1.9219868752085034e-14
+        },
+        {
+          "root": 18,
+          "segment": 138,
+          "center_world": [
+            1.978641914565705,
+            -0.20930212145857507,
+            -26.709134009000273
+          ],
+          "minimum_vertical_gap_scene_units": -0.04823775395072616,
+          "maximum_vertical_gap_scene_units": 0.005946979001770103,
+          "projected_cap_area": 0.0024383133871097584,
+          "above_substrate_projected_area_fraction": 0.02996541738967261,
+          "state": "intersects_substrate",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            -0.01584549797575288,
+            -0.021391175322801187,
+            -0.03594396522781268,
+            -0.048237753950729545,
+            -0.039647907562221,
+            -0.02338179354951256,
+            -0.006947976690573843,
+            -0.0021391156421866897,
+            0.0059469790017686874,
+            -0.0046410991166355164
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.7524056838858098,
+              "maximum_vertical_gap_scene_units": 0.7839205088501267,
+              "projected_cap_area": 0.001649719146598727,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 139
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.6265201286971571,
+              "maximum_vertical_gap_scene_units": 0.6611791853606714,
+              "projected_cap_area": 0.0009680918786862946,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 142
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.5908799571524197,
+              "maximum_vertical_gap_scene_units": 0.6246017317473882,
+              "projected_cap_area": 0.001235867753077713,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 146
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.10598808776406443,
+            "maximum_vertical_gap_scene_units": -0.05180335481156817,
+            "projected_cap_area": 0.0024383133871097584,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.1703550615762473,
+            "maximum_vertical_gap_scene_units": -0.11617032862375104,
+            "projected_cap_area": 0.0024383133871097584,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0024383133870718213,
+          "overlay_area_coverage_error": 3.793710137700579e-14
+        },
+        {
+          "root": 19,
+          "segment": 149,
+          "center_world": [
+            1.7154050960565879,
+            -0.15108779984712598,
+            -25.556104695940704
+          ],
+          "minimum_vertical_gap_scene_units": 0.041683953806781915,
+          "maximum_vertical_gap_scene_units": 0.08376496943602518,
+          "projected_cap_area": 0.0019207101032421292,
+          "above_substrate_projected_area_fraction": 1.0,
+          "state": "fully_floating",
+          "top_surface_nodes": [
+            37,
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.06891219809651378,
+            0.057874743491411224,
+            0.05105322390794756,
+            0.05105322390794756,
+            0.04168395380678472,
+            0.044236944303108594,
+            0.060348468193227534,
+            0.0668020388795631,
+            0.08049982466189748,
+            0.0799496527016163
+          ],
+          "ring_vertex_top_surface_nodes": [
+            37,
+            37,
+            37,
+            37,
+            86,
+            86,
+            86,
+            86,
+            86,
+            37
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.5140345484793514,
+              "maximum_vertical_gap_scene_units": 0.5690656490435586,
+              "projected_cap_area": 0.0010351745216006236,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 150
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.4681169978643318,
+              "maximum_vertical_gap_scene_units": 0.5061059687737952,
+              "projected_cap_area": 0.0013866046279602529,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 154
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.016066380006556358,
+            "maximum_vertical_gap_scene_units": 0.02601463562268691,
+            "projected_cap_area": 0.0019207101032421292,
+            "above_substrate_projected_area_fraction": 0.7681494013030277,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.08043335381873923,
+            "maximum_vertical_gap_scene_units": -0.03835233818949596,
+            "projected_cap_area": 0.0019207101032421292,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.001920710103239057,
+          "overlay_area_coverage_error": 3.0721952759549254e-15
+        },
+        {
+          "root": 20,
+          "segment": 157,
+          "center_world": [
+            1.1309066060185757,
+            -0.14966239914298057,
+            -25.673942547266687
+          ],
+          "minimum_vertical_gap_scene_units": 0.046439894631575385,
+          "maximum_vertical_gap_scene_units": 0.07813865994126301,
+          "projected_cap_area": 0.0016681763115773407,
+          "above_substrate_projected_area_fraction": 1.0,
+          "state": "fully_floating",
+          "top_surface_nodes": [
+            37,
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.07033759966492653,
+            0.061535680592060105,
+            0.05566601214438707,
+            0.04747400321704845,
+            0.0575124660873651,
+            0.05844736146770885,
+            0.06515042850818739,
+            0.07349958531924139,
+            0.0763149548806753,
+            0.07148731106213654
+          ],
+          "ring_vertex_top_surface_nodes": [
+            37,
+            37,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.5899069898341907,
+              "maximum_vertical_gap_scene_units": 0.6054726387595677,
+              "projected_cap_area": 0.0012575829458540966,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 158
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.4549571206154539,
+              "maximum_vertical_gap_scene_units": 0.4935917587120997,
+              "projected_cap_area": 0.0008063668744267005,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 161
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.011310439181762888,
+            "maximum_vertical_gap_scene_units": 0.02038832612792474,
+            "projected_cap_area": 0.0016681763115773407,
+            "above_substrate_projected_area_fraction": 0.9081414033494185,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.07567741299394576,
+            "maximum_vertical_gap_scene_units": -0.04397864768425813,
+            "projected_cap_area": 0.0016681763115773407,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0016681763115686653,
+          "overlay_area_coverage_error": 8.675352103360012e-15
+        },
+        {
+          "root": 21,
+          "segment": 164,
+          "center_world": [
+            1.5636715536515455,
+            -0.19299683317542074,
+            -26.222535253978368
+          ],
+          "minimum_vertical_gap_scene_units": -0.008579785092230452,
+          "maximum_vertical_gap_scene_units": 0.045868088677529784,
+          "projected_cap_area": 0.0017766726734933513,
+          "above_substrate_projected_area_fraction": 0.8786137157262237,
+          "state": "intersects_substrate",
+          "top_surface_nodes": [
+            37,
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.006284506587867916,
+            -0.006244566755685882,
+            -0.004282613382903949,
+            -0.006864718359660432,
+            0.011016856362647348,
+            0.027003165632486364,
+            0.038662328794598605,
+            0.04586808867752554,
+            0.03305323516096001,
+            0.020524391347287424
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            37,
+            37,
+            37,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.5949621925824546,
+              "maximum_vertical_gap_scene_units": 0.6309242815905343,
+              "projected_cap_area": 0.0011659558239323076,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 165
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.44793256888350186,
+              "maximum_vertical_gap_scene_units": 0.4590548142862474,
+              "projected_cap_area": 0.0013039669478231986,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 168
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.06633011890556872,
+            "maximum_vertical_gap_scene_units": -0.011882245135808489,
+            "projected_cap_area": 0.0017766726734933513,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.1306970927177516,
+            "maximum_vertical_gap_scene_units": -0.07624921894799136,
+            "projected_cap_area": 0.0017766726734933513,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0017766726735197736,
+          "overlay_area_coverage_error": -2.642222378390624e-14
+        }
+      ],
+      "distribution_of_root_minimum_gaps_scene_units": {
+        "0": -0.06563584391407185,
+        "0.25": -0.016481255826995778,
+        "0.5": 0.008627530280314488,
+        "0.75": 0.043850792836549246,
+        "0.9": 0.04941417947307514,
+        "1": 0.05775033381333827
+      },
+      "maximum_gap_any_basal_surface_scene_units": 0.12211730762552114,
+      "rigid_vertical_shift_analysis": {
+        "minimum_downshift_for_at_least_one_contact_point_per_root_scene_units": 0.05775033381333827,
+        "minimum_downshift_for_every_basal_cap_point_at_or_below_ground_scene_units": 0.12211730762552114,
+        "first_primary_branch_cross_section_contacts_ground_at_downshift_scene_units": 0.36720087362803966,
+        "at_least_one_contact_solution_before_primary_branch_burial": true,
+        "entire_cap_solution_before_primary_branch_burial": true,
+        "remaining_first_primary_branch_clearance_after_minimum_contact_shift_scene_units": 0.3094505398147014,
+        "remaining_first_primary_branch_clearance_after_full_cap_shift_scene_units": 0.24508356600251852,
+        "maximum_basal_burial_after_minimum_contact_shift_scene_units": 0.12338617772741012,
+        "maximum_basal_burial_after_full_cap_shift_scene_units": 0.187753151539593,
+        "no_geometry_or_transform_was_changed": true
+      },
+      "seconds": 19.710527420043945
+    },
+    "candidate": {
+      "states": {
+        "fully_floating": 11,
+        "intersects_substrate": 8,
+        "fully_below_substrate": 2
+      },
+      "roots": [
+        {
+          "root": 1,
+          "segment": 0,
+          "center_world": [
+            1.7549909672929995,
+            -0.13157610794901847,
+            -26.0936059890815
+          ],
+          "minimum_vertical_gap_scene_units": 0.049923705717642264,
+          "maximum_vertical_gap_scene_units": 0.09919154229625349,
+          "projected_cap_area": 0.0033644585578684882,
+          "above_substrate_projected_area_fraction": 1.0,
+          "state": "fully_floating",
+          "top_surface_nodes": [
+            37,
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.0823743903758416,
+            0.06979890949317172,
+            0.0604434275302172,
+            0.05331632769752476,
+            0.056296149069657436,
+            0.07633417560697708,
+            0.09474380323349142,
+            0.0944491494036963,
+            0.08721986607291109,
+            0.09033168970866513
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.7073351565475363,
+              "maximum_vertical_gap_scene_units": 0.7404753014951635,
+              "projected_cap_area": 0.002081450863407497,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 1
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.5581102501444697,
+              "maximum_vertical_gap_scene_units": 0.5982789055496767,
+              "projected_cap_area": 0.0013844883894869042,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 4
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.006830584436418263,
+            "maximum_vertical_gap_scene_units": 0.04243725214219296,
+            "projected_cap_area": 0.0033644585578684882,
+            "above_substrate_projected_area_fraction": 0.9699344642941503,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.07351045900977349,
+            "maximum_vertical_gap_scene_units": -0.024242622431162264,
+            "projected_cap_area": 0.0033644585578684882,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.003364458557851924,
+          "overlay_area_coverage_error": 1.6564440791233537e-14
+        },
+        {
+          "root": 2,
+          "segment": 7,
+          "center_world": [
+            2.019792368145592,
+            -0.13270149898529052,
+            -25.93787171957674
+          ],
+          "minimum_vertical_gap_scene_units": 0.04238499371712834,
+          "maximum_vertical_gap_scene_units": 0.08669466950903981,
+          "projected_cap_area": 0.0015666857224339026,
+          "above_substrate_projected_area_fraction": 1.0,
+          "state": "fully_floating",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.06015827471332302,
+            0.05179965943237799,
+            0.04304800048183735,
+            0.04335917682717075,
+            0.052965112962652744,
+            0.05660382342227199,
+            0.07388902745402445,
+            0.08618485863513431,
+            0.07733394090393525,
+            0.06506382970003385
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.5699397723100201,
+              "maximum_vertical_gap_scene_units": 0.5987561033430673,
+              "projected_cap_area": 0.0009231563684011235,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 8
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.4718114332854739,
+              "maximum_vertical_gap_scene_units": 0.5067799668014032,
+              "projected_cap_area": 0.0007198232541796301,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 12
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.014369296436932188,
+            "maximum_vertical_gap_scene_units": 0.029940379354979285,
+            "projected_cap_area": 0.0015666857224339026,
+            "above_substrate_projected_area_fraction": 0.6965511548827512,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.08104917101028741,
+            "maximum_vertical_gap_scene_units": -0.03673949521837594,
+            "projected_cap_area": 0.0015666857224339026,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0015666857224364782,
+          "overlay_area_coverage_error": -2.5756306809565643e-15
+        },
+        {
+          "root": 3,
+          "segment": 15,
+          "center_world": [
+            1.2464134185598834,
+            -0.10570200219750403,
+            -26.47630186638471
+          ],
+          "minimum_vertical_gap_scene_units": 0.044001136345082514,
+          "maximum_vertical_gap_scene_units": 0.09444720590241218,
+          "projected_cap_area": 0.0032898496146991363,
+          "above_substrate_projected_area_fraction": 1.0,
+          "state": "fully_floating",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.07228757917377793,
+            0.05018953951299765,
+            0.04400113634508426,
+            0.05029057439536541,
+            0.06380228706822977,
+            0.08140091887847178,
+            0.09310641683112707,
+            0.09444720590241197,
+            0.09126977437399099,
+            0.0875161408094751
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.6434925692248066,
+              "maximum_vertical_gap_scene_units": 0.6535552735196617,
+              "projected_cap_area": 0.0023895801855822185,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 16
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.5613326476289515,
+              "maximum_vertical_gap_scene_units": 0.6167334824798729,
+              "projected_cap_area": 0.001301659027545199,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 19
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.012753153808978013,
+            "maximum_vertical_gap_scene_units": 0.03769291574835165,
+            "projected_cap_area": 0.0032898496146991363,
+            "above_substrate_projected_area_fraction": 0.7970224347351829,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.07943302838233324,
+            "maximum_vertical_gap_scene_units": -0.028986958825003573,
+            "projected_cap_area": 0.0032898496146991363,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.003289849614680628,
+          "overlay_area_coverage_error": 1.850819844606555e-14
+        },
+        {
+          "root": 4,
+          "segment": 22,
+          "center_world": [
+            2.046924301311777,
+            -0.18426024428755045,
+            -25.93100823960531
+          ],
+          "minimum_vertical_gap_scene_units": -0.009774934197983143,
+          "maximum_vertical_gap_scene_units": 0.03094360623724768,
+          "projected_cap_area": 0.0017753615737916562,
+          "above_substrate_projected_area_fraction": 0.8252090824082803,
+          "state": "intersects_substrate",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.011390979447855248,
+            -0.0019264394090322268,
+            -0.009292748661518552,
+            -0.009402029755361557,
+            0.0002756029803358262,
+            0.013496438094980218,
+            0.025210591218311235,
+            0.030943606237247734,
+            0.029827143116213872,
+            0.023371046337972684
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.5233679645514919,
+              "maximum_vertical_gap_scene_units": 0.560806236986652,
+              "projected_cap_area": 0.0011988540036682593,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 23
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.4227266137301875,
+              "maximum_vertical_gap_scene_units": 0.4577389828860774,
+              "projected_cap_area": 0.0007800759993621398,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 26
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.06652922435204367,
+            "maximum_vertical_gap_scene_units": -0.02581068391681285,
+            "projected_cap_area": 0.0017753615737916562,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.1332090989253989,
+            "maximum_vertical_gap_scene_units": -0.09249055849016807,
+            "projected_cap_area": 0.0017753615737916562,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.001775361573792118,
+          "overlay_area_coverage_error": -4.618701254788249e-16
+        },
+        {
+          "root": 5,
+          "segment": 29,
+          "center_world": [
+            1.1562432240265201,
+            -0.1008488903939724,
+            -26.161314335159535
+          ],
+          "minimum_vertical_gap_scene_units": 0.04833881797844697,
+          "maximum_vertical_gap_scene_units": 0.12343416472741575,
+          "projected_cap_area": 0.003131093635971638,
+          "above_substrate_projected_area_fraction": 1.0,
+          "state": "fully_floating",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.09995959571003742,
+            0.07467052693225665,
+            0.054953257745748246,
+            0.05042185271303326,
+            0.07126315871322411,
+            0.07940729265553158,
+            0.10216034463046514,
+            0.11870492954884723,
+            0.12343416472741561,
+            0.11893586467881218
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.5927657360361245,
+              "maximum_vertical_gap_scene_units": 0.6336455590086949,
+              "projected_cap_area": 0.002189133806263399,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 30
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.528658290006085,
+              "maximum_vertical_gap_scene_units": 0.5595659008011307,
+              "projected_cap_area": 0.0011630516306286864,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 34
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.008415472175613559,
+            "maximum_vertical_gap_scene_units": 0.06667987457335522,
+            "projected_cap_area": 0.003131093635971638,
+            "above_substrate_projected_area_fraction": 0.9773397765043002,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.07509534674896878,
+            "maximum_vertical_gap_scene_units": 0.0,
+            "projected_cap_area": 0.003131093635971638,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0031310936359859225,
+          "overlay_area_coverage_error": -1.4284580462931018e-14
+        },
+        {
+          "root": 6,
+          "segment": 37,
+          "center_world": [
+            1.7240977560131605,
+            -0.16604517531394958,
+            -25.594688445803932
+          ],
+          "minimum_vertical_gap_scene_units": -0.0008901444877125186,
+          "maximum_vertical_gap_scene_units": 0.0627684290565842,
+          "projected_cap_area": 0.0022795284989634013,
+          "above_substrate_projected_area_fraction": 0.998010574840437,
+          "state": "intersects_substrate",
+          "top_surface_nodes": [
+            37,
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.05395482435822488,
+            0.03734543499924961,
+            0.01985097413472886,
+            0.0064085041905089235,
+            -0.0008901444877126019,
+            0.008572611145262893,
+            0.0206077340135061,
+            0.034630075951012695,
+            0.056043574790594686,
+            0.06188165192134129
+          ],
+          "ring_vertex_top_surface_nodes": [
+            37,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.5628052194128301,
+              "maximum_vertical_gap_scene_units": 0.6108078705671467,
+              "projected_cap_area": 0.0012233602476605654,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 38
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.41372177347673755,
+              "maximum_vertical_gap_scene_units": 0.46364970379917736,
+              "projected_cap_area": 0.0007772733527104947,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 42
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.057644434641773046,
+            "maximum_vertical_gap_scene_units": 0.006014138902523669,
+            "projected_cap_area": 0.0022795284989634013,
+            "above_substrate_projected_area_fraction": 0.04751176015199423,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.12432430921512827,
+            "maximum_vertical_gap_scene_units": -0.060665735670831555,
+            "projected_cap_area": 0.0022795284989634013,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0022795284989724847,
+          "overlay_area_coverage_error": -9.083445801083556e-15
+        },
+        {
+          "root": 7,
+          "segment": 45,
+          "center_world": [
+            1.945085531772002,
+            -0.13455027920007706,
+            -26.412392438218443
+          ],
+          "minimum_vertical_gap_scene_units": 0.0433323059018349,
+          "maximum_vertical_gap_scene_units": 0.10501913592219836,
+          "projected_cap_area": 0.0013628621851822231,
+          "above_substrate_projected_area_fraction": 1.0,
+          "state": "fully_floating",
+          "top_surface_nodes": [
+            37,
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.08479651541139677,
+            0.062402601717307105,
+            0.04449706740168957,
+            0.04920728323824819,
+            0.060914830850685886,
+            0.07687958656733929,
+            0.09754428640007974,
+            0.10501913592219354,
+            0.10389948318984439,
+            0.09754428640007974
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            37,
+            37,
+            86,
+            37
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.5406034538950664,
+              "maximum_vertical_gap_scene_units": 0.5801713484246065,
+              "projected_cap_area": 0.000712588492792321,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 46
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.46416098448217724,
+              "maximum_vertical_gap_scene_units": 0.49806621345978463,
+              "projected_cap_area": 0.0007152542006529927,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 49
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.013421984252225627,
+            "maximum_vertical_gap_scene_units": 0.04826484576813783,
+            "projected_cap_area": 0.0013628621851822231,
+            "above_substrate_projected_area_fraction": 0.894551458004379,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.08010185882558085,
+            "maximum_vertical_gap_scene_units": -0.018415028805217393,
+            "projected_cap_area": 0.0013628621851822231,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0013628621851685088,
+          "overlay_area_coverage_error": 1.3714290120203643e-14
+        },
+        {
+          "root": 8,
+          "segment": 52,
+          "center_world": [
+            1.4681658678509857,
+            -0.2201650468334555,
+            -26.022466206799653
+          ],
+          "minimum_vertical_gap_scene_units": -0.03694597200566374,
+          "maximum_vertical_gap_scene_units": 0.0054740274217888185,
+          "projected_cap_area": 0.0031283220536266754,
+          "above_substrate_projected_area_fraction": 0.05658995921946713,
+          "state": "intersects_substrate",
+          "top_surface_nodes": [
+            37,
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            -0.03327480792916332,
+            -0.036945972005663824,
+            -0.03470137703799181,
+            -0.03247786676293596,
+            -0.02226579372821033,
+            -0.0001650482416152843,
+            0.0025908895890411066,
+            -0.005062789687829139,
+            -0.013748061254800548,
+            -0.024045441550211683
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            37,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.5329626329444075,
+              "maximum_vertical_gap_scene_units": 0.5847336368099283,
+              "projected_cap_area": 0.0023917465821732264,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 53
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.41229164177284616,
+              "maximum_vertical_gap_scene_units": 0.45872710084738344,
+              "projected_cap_area": 0.001435499671325502,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 56
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.09370026215972427,
+            "maximum_vertical_gap_scene_units": -0.05128026273227171,
+            "projected_cap_area": 0.0031283220536266754,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.1603801367330795,
+            "maximum_vertical_gap_scene_units": -0.11796013730562693,
+            "projected_cap_area": 0.0031283220536266754,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.003128322053637299,
+          "overlay_area_coverage_error": -1.0623446566881967e-14
+        },
+        {
+          "root": 9,
+          "segment": 59,
+          "center_world": [
+            1.6108011163009492,
+            -0.15384969666600226,
+            -26.757699764077337
+          ],
+          "minimum_vertical_gap_scene_units": 0.0030340235913044467,
+          "maximum_vertical_gap_scene_units": 0.043980096581368144,
+          "projected_cap_area": 0.0016314456492310114,
+          "above_substrate_projected_area_fraction": 1.0,
+          "state": "fully_floating",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.032913361859503526,
+            0.020337780734816235,
+            0.0062203673080743205,
+            0.009571893366496359,
+            0.023573379945721673,
+            0.035709594751725054,
+            0.0421246797221764,
+            0.043980096581368366,
+            0.037657314233554895,
+            0.039049104381819855
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.4923187996786744,
+              "maximum_vertical_gap_scene_units": 0.5413009570853662,
+              "projected_cap_area": 0.001403912892918413,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 60
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.45445878381340776,
+              "maximum_vertical_gap_scene_units": 0.4938513627936061,
+              "projected_cap_area": 0.000626777526527178,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 63
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.05372026656275608,
+            "maximum_vertical_gap_scene_units": -0.012774193572692383,
+            "projected_cap_area": 0.0016314456492310114,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.1204001411361113,
+            "maximum_vertical_gap_scene_units": -0.07945406814604761,
+            "projected_cap_area": 0.0016314456492310114,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0016314456492387583,
+          "overlay_area_coverage_error": -7.746841362843426e-15
+        },
+        {
+          "root": 10,
+          "segment": 66,
+          "center_world": [
+            1.5957918703761202,
+            -0.1708500402569771,
+            -26.541292807767427
+          ],
+          "minimum_vertical_gap_scene_units": -0.015059604559546358,
+          "maximum_vertical_gap_scene_units": 0.049850943613009235,
+          "projected_cap_area": 0.002148387133591001,
+          "above_substrate_projected_area_fraction": 0.8415473395604091,
+          "state": "intersects_substrate",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.03418205678418368,
+            0.011485142298494566,
+            -0.005766364250625433,
+            -0.015059604559548856,
+            -0.006963416933406463,
+            0.011732466192910962,
+            0.02847936979482854,
+            0.04416247448635116,
+            0.048038163947189655,
+            0.04985094361300932
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.5527670707746246,
+              "maximum_vertical_gap_scene_units": 0.5947019661398514,
+              "projected_cap_area": 0.0011503913980135394,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 67
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.4266966922991582,
+              "maximum_vertical_gap_scene_units": 0.4540746853226487,
+              "projected_cap_area": 0.0017706033661077925,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 71
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.07181389471360689,
+            "maximum_vertical_gap_scene_units": -0.006903346541051292,
+            "projected_cap_area": 0.002148387133591001,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.1384937692869621,
+            "maximum_vertical_gap_scene_units": -0.07358322111440652,
+            "projected_cap_area": 0.002148387133591001,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.00214838713359949,
+          "overlay_area_coverage_error": -8.488869329692506e-15
+        },
+        {
+          "root": 11,
+          "segment": 75,
+          "center_world": [
+            1.387720685353329,
+            -0.13397564339637755,
+            -25.391268327545102
+          ],
+          "minimum_vertical_gap_scene_units": 0.01713094887007749,
+          "maximum_vertical_gap_scene_units": 0.06064052290641797,
+          "projected_cap_area": 0.002483214710096604,
+          "above_substrate_projected_area_fraction": 1.0,
+          "state": "fully_floating",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.04096381704488239,
+            0.03285744085118242,
+            0.02153016136511049,
+            0.017592263642833894,
+            0.029234934696680093,
+            0.04415459407642819,
+            0.05077702970502203,
+            0.06025790739766973,
+            0.06064052290641514,
+            0.049190170095426436
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.5736021605673791,
+              "maximum_vertical_gap_scene_units": 0.6209091910787699,
+              "projected_cap_area": 0.0013916846326527121,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 76
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.4289760431700387,
+              "maximum_vertical_gap_scene_units": 0.4696121754786269,
+              "projected_cap_area": 0.0014334246467058165,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 80
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.03962334128398304,
+            "maximum_vertical_gap_scene_units": 0.0038862327523574436,
+            "projected_cap_area": 0.002483214710096604,
+            "above_substrate_projected_area_fraction": 0.031545079296180924,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.10630321585733826,
+            "maximum_vertical_gap_scene_units": -0.06279364182099778,
+            "projected_cap_area": 0.002483214710096604,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.002483214710077519,
+          "overlay_area_coverage_error": 1.9084994001827837e-14
+        },
+        {
+          "root": 12,
+          "segment": 83,
+          "center_world": [
+            1.5586020991431255,
+            -0.11424606278538704,
+            -25.962432163287843
+          ],
+          "minimum_vertical_gap_scene_units": 0.05453610670547704,
+          "maximum_vertical_gap_scene_units": 0.07162017132384335,
+          "projected_cap_area": 0.001744503755073623,
+          "above_substrate_projected_area_fraction": 1.0,
+          "state": "fully_floating",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.07146704011957732,
+            0.06865005644270526,
+            0.06470155905276825,
+            0.062398431506896224,
+            0.05457986152706583,
+            0.05865880402505945,
+            0.06442165893459482,
+            0.07162017132384337,
+            0.07108947105634746,
+            0.06805824083280464
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.749869194477796,
+              "maximum_vertical_gap_scene_units": 0.7785390858352201,
+              "projected_cap_area": 0.0009086356684306907,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 84
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.5458964596707467,
+              "maximum_vertical_gap_scene_units": 0.574202215684064,
+              "projected_cap_area": 0.0010437513438503743,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 87
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.5165765387801855,
+              "maximum_vertical_gap_scene_units": 0.558311161705852,
+              "projected_cap_area": 0.000710558275134332,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 90
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.0022181834485834884,
+            "maximum_vertical_gap_scene_units": 0.014865881169782824,
+            "projected_cap_area": 0.001744503755073623,
+            "above_substrate_projected_area_fraction": 0.932942225502846,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.06889805802193871,
+            "maximum_vertical_gap_scene_units": -0.0518139934035724,
+            "projected_cap_area": 0.001744503755073623,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0017445037550049437,
+          "overlay_area_coverage_error": 6.867943713739777e-14
+        },
+        {
+          "root": 13,
+          "segment": 93,
+          "center_world": [
+            1.8935532617043997,
+            -0.21229546361789103,
+            -26.570708941615287
+          ],
+          "minimum_vertical_gap_scene_units": -0.06185894562061023,
+          "maximum_vertical_gap_scene_units": -0.04282857974207133,
+          "projected_cap_area": 0.001927134489982052,
+          "above_substrate_projected_area_fraction": 0.0,
+          "state": "fully_below_substrate",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            -0.04711004783417713,
+            -0.045430643397709136,
+            -0.045885284452241826,
+            -0.058350992876029184,
+            -0.058160279717621666,
+            -0.0527805755159024,
+            -0.04523162774797798,
+            -0.042828579742072104,
+            -0.045018033732506235,
+            -0.04774599345786262
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.6576629247340939,
+              "maximum_vertical_gap_scene_units": 0.6935060559092676,
+              "projected_cap_area": 0.0010494055433518668,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 94
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.594321724505745,
+              "maximum_vertical_gap_scene_units": 0.6133867079106627,
+              "projected_cap_area": 0.0010181784636102975,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 97
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.5030166854801257,
+              "maximum_vertical_gap_scene_units": 0.550046594323458,
+              "projected_cap_area": 0.0010181557654718176,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 100
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.11861323577467076,
+            "maximum_vertical_gap_scene_units": -0.09958286989613185,
+            "projected_cap_area": 0.001927134489982052,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.18529311034802598,
+            "maximum_vertical_gap_scene_units": -0.16626274446948708,
+            "projected_cap_area": 0.001927134489982052,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0019271344899848572,
+          "overlay_area_coverage_error": -2.805264701088994e-15
+        },
+        {
+          "root": 14,
+          "segment": 103,
+          "center_world": [
+            1.7190247403982681,
+            -0.14131049543619156,
+            -25.80885714986394
+          ],
+          "minimum_vertical_gap_scene_units": 0.05675429015406053,
+          "maximum_vertical_gap_scene_units": 0.09830643191933675,
+          "projected_cap_area": 0.0030564544825253392,
+          "above_substrate_projected_area_fraction": 1.0,
+          "state": "fully_floating",
+          "top_surface_nodes": [
+            37,
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.06222273481816154,
+            0.05920037597761657,
+            0.0567542901540643,
+            0.05907257482409478,
+            0.06656557396054269,
+            0.07868950337171554,
+            0.09081343278288842,
+            0.09830643191933633,
+            0.0982624921426232,
+            0.08237755048700188
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            37,
+            37,
+            37,
+            37,
+            37,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.6274435096599866,
+              "maximum_vertical_gap_scene_units": 0.6805950903679676,
+              "projected_cap_area": 0.0018191490162848822,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 104
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.48908295266731017,
+              "maximum_vertical_gap_scene_units": 0.5339957402619646,
+              "projected_cap_area": 0.0014350138954419833,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 107
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": 0.0,
+            "maximum_vertical_gap_scene_units": 0.04155214176527622,
+            "projected_cap_area": 0.0030564544825253392,
+            "above_substrate_projected_area_fraction": 1.0,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.06667987457335522,
+            "maximum_vertical_gap_scene_units": -0.025127732808079006,
+            "projected_cap_area": 0.0030564544825253392,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0030564544825319763,
+          "overlay_area_coverage_error": -6.637052019087264e-15
+        },
+        {
+          "root": 15,
+          "segment": 110,
+          "center_world": [
+            1.488372851499362,
+            -0.22346039776504037,
+            -25.933954921916676
+          ],
+          "minimum_vertical_gap_scene_units": -0.014859308749437083,
+          "maximum_vertical_gap_scene_units": 0.007741249475918699,
+          "projected_cap_area": 0.0022861825664080015,
+          "above_substrate_projected_area_fraction": 0.3127381983786711,
+          "state": "intersects_substrate",
+          "top_surface_nodes": [
+            37,
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            -0.003460399173200124,
+            -0.010505313500761976,
+            -0.014859308749437306,
+            -0.014859308749437306,
+            -0.010505313500761976,
+            -0.003460399173200124,
+            0.003584515154361756,
+            0.002254140444526709,
+            0.007216661550453918,
+            0.003584515154361756
+          ],
+          "ring_vertex_top_surface_nodes": [
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            37,
+            86,
+            86,
+            37
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.7211504023755184,
+              "maximum_vertical_gap_scene_units": 0.7448428600509587,
+              "projected_cap_area": 0.0012631878332527435,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 111
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.5425441469454828,
+              "maximum_vertical_gap_scene_units": 0.5738961099634032,
+              "projected_cap_area": 0.0009396460814823371,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 114
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.07161359890349761,
+            "maximum_vertical_gap_scene_units": -0.04901304067814183,
+            "projected_cap_area": 0.0022861825664080015,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.13829347347685284,
+            "maximum_vertical_gap_scene_units": -0.11569291525149705,
+            "projected_cap_area": 0.0022861825664080015,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.002286182566397994,
+          "overlay_area_coverage_error": 1.00076197329102e-14
+        },
+        {
+          "root": 16,
+          "segment": 117,
+          "center_world": [
+            1.7479717101472665,
+            -0.1922806741334498,
+            -25.906171062557245
+          ],
+          "minimum_vertical_gap_scene_units": -0.019282932775258388,
+          "maximum_vertical_gap_scene_units": 0.012999672978663668,
+          "projected_cap_area": 0.0030732288212220737,
+          "above_substrate_projected_area_fraction": 0.1811804783075827,
+          "state": "intersects_substrate",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.006281760310607898,
+            0.002938902356271339,
+            -0.005345719152103828,
+            -0.016700570820465305,
+            -0.010613102681266834,
+            -0.0038915711483181736,
+            -0.007477959702484299,
+            -0.00929309755065083,
+            0.0006498275350857452,
+            0.012745984319986997
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.7505898610431139,
+              "maximum_vertical_gap_scene_units": 0.798298897591927,
+              "projected_cap_area": 0.0017057405513334345,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 118
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.5857605505243555,
+              "maximum_vertical_gap_scene_units": 0.6324714444477202,
+              "projected_cap_area": 0.0012164693069394161,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 121
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.6611011844333916,
+              "maximum_vertical_gap_scene_units": 0.7160636202317967,
+              "projected_cap_area": 0.001532352624192157,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 124
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.07603722292931892,
+            "maximum_vertical_gap_scene_units": -0.04375461717539686,
+            "projected_cap_area": 0.0030732288212220737,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.14271709750267414,
+            "maximum_vertical_gap_scene_units": -0.11043449174875208,
+            "projected_cap_area": 0.0030732288212220737,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0030732288212242764,
+          "overlay_area_coverage_error": -2.202665133621551e-15
+        },
+        {
+          "root": 17,
+          "segment": 127,
+          "center_world": [
+            2.031824531979983,
+            -0.21164404889568686,
+            -25.79747683378934
+          ],
+          "minimum_vertical_gap_scene_units": -0.03169383204071785,
+          "maximum_vertical_gap_scene_units": -0.007608015847454297,
+          "projected_cap_area": 0.0033623673614435745,
+          "above_substrate_projected_area_fraction": 0.0,
+          "state": "fully_below_substrate",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            -0.028119207279110187,
+            -0.019882221796255067,
+            -0.01451951779988353,
+            -0.00882229410761387,
+            -0.01013468712535645,
+            -0.01135801080554763,
+            -0.010046548426003998,
+            -0.01957639908756853,
+            -0.028071773171419567,
+            -0.0311898675420903
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.5291515273621119,
+              "maximum_vertical_gap_scene_units": 0.566774072248073,
+              "projected_cap_area": 0.0019355812133667882,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 128
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.36720087362803966,
+              "maximum_vertical_gap_scene_units": 0.397939630605709,
+              "projected_cap_area": 0.0014916659804491417,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 131
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.4374175429829208,
+              "maximum_vertical_gap_scene_units": 0.5006023359151417,
+              "projected_cap_area": 0.0016103715493969162,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 134
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.08844812219477838,
+            "maximum_vertical_gap_scene_units": -0.06436230600151482,
+            "projected_cap_area": 0.0033623673614435745,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.1551279967681336,
+            "maximum_vertical_gap_scene_units": -0.13104218057487005,
+            "projected_cap_area": 0.0033623673614435745,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0033623673614527764,
+          "overlay_area_coverage_error": -9.201840678318973e-15
+        },
+        {
+          "root": 18,
+          "segment": 138,
+          "center_world": [
+            1.978641914565705,
+            -0.20930212145857507,
+            -26.709134009000273
+          ],
+          "minimum_vertical_gap_scene_units": -0.04412354030665,
+          "maximum_vertical_gap_scene_units": 0.005946979001770103,
+          "projected_cap_area": 0.0024383133870706786,
+          "above_substrate_projected_area_fraction": 0.029965417393066955,
+          "state": "intersects_substrate",
+          "top_surface_nodes": [
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            -0.017452676732602562,
+            -0.025600544196849734,
+            -0.03523367571393249,
+            -0.04412354030664983,
+            -0.03846515552859095,
+            -0.024263362946939232,
+            -0.006947976690573843,
+            -0.0021391156421866897,
+            0.0059469790017686874,
+            -0.0046410991166355164
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.7525896121586424,
+              "maximum_vertical_gap_scene_units": 0.7839205088501267,
+              "projected_cap_area": 0.0016497191465809635,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 139
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.6265201286971571,
+              "maximum_vertical_gap_scene_units": 0.6611791853606714,
+              "projected_cap_area": 0.0009680918786862946,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 142
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.5908799571524197,
+              "maximum_vertical_gap_scene_units": 0.6246017317473882,
+              "projected_cap_area": 0.001235867753077713,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                37,
+                86
+              ],
+              "child_segment": 146
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.10087783046071053,
+            "maximum_vertical_gap_scene_units": -0.050807311152290424,
+            "projected_cap_area": 0.0024383133870706786,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.16755770503406575,
+            "maximum_vertical_gap_scene_units": -0.11748718572564565,
+            "projected_cap_area": 0.0024383133870706786,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0024383133870718213,
+          "overlay_area_coverage_error": -1.1427490897997217e-15
+        },
+        {
+          "root": 19,
+          "segment": 149,
+          "center_world": [
+            1.7154050960565879,
+            -0.15108779984712598,
+            -25.556104695940704
+          ],
+          "minimum_vertical_gap_scene_units": 0.041683953806781915,
+          "maximum_vertical_gap_scene_units": 0.08376496943602518,
+          "projected_cap_area": 0.0019207101032421292,
+          "above_substrate_projected_area_fraction": 1.0,
+          "state": "fully_floating",
+          "top_surface_nodes": [
+            37,
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.06891219809651378,
+            0.057874743491411224,
+            0.05105322390794756,
+            0.05105322390794756,
+            0.04168395380678472,
+            0.044236944303108594,
+            0.060348468193227534,
+            0.0668020388795631,
+            0.08049982466189748,
+            0.0799496527016163
+          ],
+          "ring_vertex_top_surface_nodes": [
+            37,
+            37,
+            37,
+            37,
+            86,
+            86,
+            86,
+            86,
+            86,
+            37
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.5160668444762067,
+              "maximum_vertical_gap_scene_units": 0.5693163278349473,
+              "projected_cap_area": 0.0010351745215935182,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 150
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.46920472397413526,
+              "maximum_vertical_gap_scene_units": 0.5061059687737632,
+              "projected_cap_area": 0.001386604627970911,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 154
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.015070336347278612,
+            "maximum_vertical_gap_scene_units": 0.027010679281964656,
+            "projected_cap_area": 0.0019207101032421292,
+            "above_substrate_projected_area_fraction": 0.7980561052364739,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.08175021092063384,
+            "maximum_vertical_gap_scene_units": -0.03966919529139057,
+            "projected_cap_area": 0.0019207101032421292,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.001920710103239057,
+          "overlay_area_coverage_error": 3.0721952759549254e-15
+        },
+        {
+          "root": 20,
+          "segment": 157,
+          "center_world": [
+            1.1309066060185757,
+            -0.14966239914298057,
+            -25.673942547266687
+          ],
+          "minimum_vertical_gap_scene_units": 0.046439894631575385,
+          "maximum_vertical_gap_scene_units": 0.07813865589248081,
+          "projected_cap_area": 0.001668176311573788,
+          "above_substrate_projected_area_fraction": 1.0,
+          "state": "fully_floating",
+          "top_surface_nodes": [
+            37,
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.07033759966492653,
+            0.061535680592060105,
+            0.05566601214438707,
+            0.04747400321704845,
+            0.0575124660873651,
+            0.05844736146770885,
+            0.06515042850818739,
+            0.07413491296351304,
+            0.0763149548806753,
+            0.07148731106213654
+          ],
+          "ring_vertex_top_surface_nodes": [
+            37,
+            37,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.5889660287030782,
+              "maximum_vertical_gap_scene_units": 0.604332960537592,
+              "projected_cap_area": 0.0012575829458292276,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 158
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.4530479290829419,
+              "maximum_vertical_gap_scene_units": 0.4941677032036651,
+              "projected_cap_area": 0.0008063668744267005,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 161
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.010314395522485142,
+            "maximum_vertical_gap_scene_units": 0.021384365738420286,
+            "projected_cap_area": 0.001668176311573788,
+            "above_substrate_projected_area_fraction": 0.9252922619163336,
+            "state": "intersects_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.07699427009584037,
+            "maximum_vertical_gap_scene_units": -0.04529550883493494,
+            "projected_cap_area": 0.001668176311573788,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0016681763115686653,
+          "overlay_area_coverage_error": 5.122638424559511e-15
+        },
+        {
+          "root": 21,
+          "segment": 164,
+          "center_world": [
+            1.5636715536515455,
+            -0.19299683317542074,
+            -26.222535253978368
+          ],
+          "minimum_vertical_gap_scene_units": -0.008579785092273085,
+          "maximum_vertical_gap_scene_units": 0.045868088677529784,
+          "projected_cap_area": 0.001776672673511115,
+          "above_substrate_projected_area_fraction": 0.9201027546681835,
+          "state": "intersects_substrate",
+          "top_surface_nodes": [
+            37,
+            86
+          ],
+          "actual_10_ring_vertex_gaps_scene_units": [
+            0.006284506587867916,
+            -0.003221471567464801,
+            -0.0003574697722350806,
+            -0.006864718359660432,
+            0.011016856362647348,
+            0.027003165632486364,
+            0.038662328794598605,
+            0.04586808867752554,
+            0.03305323516096001,
+            0.020524391347287424
+          ],
+          "ring_vertex_top_surface_nodes": [
+            86,
+            86,
+            86,
+            86,
+            86,
+            37,
+            37,
+            37,
+            86,
+            86
+          ],
+          "primary_junction_cross_sections": [
+            {
+              "minimum_vertical_gap_scene_units": 0.6004711106999991,
+              "maximum_vertical_gap_scene_units": 0.6337499424823783,
+              "projected_cap_area": 0.0011659558239358603,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 165
+            },
+            {
+              "minimum_vertical_gap_scene_units": 0.45044273157134906,
+              "maximum_vertical_gap_scene_units": 0.4590548142862474,
+              "projected_cap_area": 0.0013039669478125404,
+              "above_substrate_projected_area_fraction": 1.0,
+              "state": "fully_floating",
+              "top_surface_nodes": [
+                86
+              ],
+              "child_segment": 168
+            }
+          ],
+          "after_analytical_minimum_contact_downshift": {
+            "minimum_vertical_gap_scene_units": -0.06533407524633361,
+            "maximum_vertical_gap_scene_units": -0.010886201476530744,
+            "projected_cap_area": 0.001776672673511115,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "after_analytical_full_cap_downshift": {
+            "minimum_vertical_gap_scene_units": -0.13201394981968884,
+            "maximum_vertical_gap_scene_units": -0.07756607604988597,
+            "projected_cap_area": 0.001776672673511115,
+            "above_substrate_projected_area_fraction": 0.0,
+            "state": "fully_below_substrate",
+            "top_surface_nodes": [
+              37,
+              86
+            ]
+          },
+          "original_projected_cap_area": 0.0017766726735197736,
+          "overlay_area_coverage_error": -8.658655389903736e-15
+        }
+      ],
+      "distribution_of_root_minimum_gaps_scene_units": {
+        "0": -0.06185894562061023,
+        "0.25": -0.015059604559546358,
+        "0.5": 0.0030340235913044467,
+        "0.75": 0.044001136345082514,
+        "0.9": 0.049923705717642264,
+        "1": 0.05675429015406053
+      },
+      "maximum_gap_any_basal_surface_scene_units": 0.12343416472741575,
+      "rigid_vertical_shift_analysis": {
+        "minimum_downshift_for_at_least_one_contact_point_per_root_scene_units": 0.05675429015406053,
+        "minimum_downshift_for_every_basal_cap_point_at_or_below_ground_scene_units": 0.12343416472741575,
+        "first_primary_branch_cross_section_contacts_ground_at_downshift_scene_units": 0.36720087362803966,
+        "at_least_one_contact_solution_before_primary_branch_burial": true,
+        "entire_cap_solution_before_primary_branch_burial": true,
+        "remaining_first_primary_branch_clearance_after_minimum_contact_shift_scene_units": 0.31044658347397913,
+        "remaining_first_primary_branch_clearance_after_full_cap_shift_scene_units": 0.2437667089006239,
+        "maximum_basal_burial_after_minimum_contact_shift_scene_units": 0.11861323577467076,
+        "maximum_basal_burial_after_full_cap_shift_scene_units": 0.18529311034802598,
+        "no_geometry_or_transform_was_changed": true
+      },
+      "seconds": 23.61572551727295
+    }
+  },
+  "continuous_overlay_validation": {
+    "maximum_projected_area_partition_error": 6.867943713739777e-14,
+    "cap_count": 42,
+    "method_scope": "Every original basal cap GLB triangle, not point samples. Float64 exhaustive arrangement with 1e-11 clipping tolerance, not interval arithmetic or a certified exact floating-point bound.",
+    "classification_tolerance_scene_units": 1e-07
+  },
+  "requested_analytical_pose_proposal": {
+    "scope": "Analytical only, original support baseline; no geometry or pose was changed.",
+    "downshift_scene_units": 0.12711730762552115,
+    "derivation": "Original complete-cap maximum positive gap 0.12211730762552114 plus 0.005 scene-unit embed allowance.",
+    "node78_translation_y_before": -0.20698136165738104,
+    "node78_translation_y_if_applied": -0.3340986692829022,
+    "maximum_basal_cap_gap_after_shift_scene_units": -0.005,
+    "deepest_basal_cap_burial_after_shift_scene_units": 0.192753151539593,
+    "first_primary_junction_cross_section_clearance_after_shift_scene_units": 0.2400835660025185,
+    "junction_scope": "All actual first-order branch starting rings, or the repaired root terminal ring for a continuation whose initial ring is absent; evaluated as finite cross-sections. This bounds those first primary junctions, not a whole-world collision certificate."
+  }
+}

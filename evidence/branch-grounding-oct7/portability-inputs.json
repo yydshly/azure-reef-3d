@@ -1,0 +1,14 @@
+{
+  "evidence/branch-grounding-oct7/glb_tools.py": {
+    "originalSha256": "19b8be20e8aba1d1924f1df3f9cbc750ab6c2a83103f26cd9809affd79179f1b",
+    "archivedSha256": "2e9a684df00271021b73651276ea50e5f37bf9d554b702ea992ba3214d6fb031"
+  },
+  "evidence/branch-grounding-oct7/measurement/source-branch-graph.json": {
+    "originalSha256": "616cc63b8619bc70ec695fbe9468c8e63be119c731473c5e946b644756d618b7",
+    "archivedSha256": "616cc63b8619bc70ec695fbe9468c8e63be119c731473c5e946b644756d618b7"
+  },
+  "evidence/branch-grounding-oct7/inputs/support03-geometry-only.glb": {
+    "originalSha256": "db694e926309b79863b06db6b023e194921e69541107729170d2f7abd8f7f417",
+    "archivedSha256": "db694e926309b79863b06db6b023e194921e69541107729170d2f7abd8f7f417"
+  }
+}

@@ -223,3 +223,10 @@ The100-second along-reef route advances by visible elapsed time independently of
 One Smithsonian CC0 dry specimen,25k triangles, original maps, unchanged scale. Third guide stop adds constrained inspection and return. See modeling/specimen/README.md and evidence/skeletal-patch-oct7/STATUS.md for provenance, measured bounds and pending actual-browser gate. Not published or accepted as whole-scene realism.
 
 Desktop software-WebGL QA37657885741 passed and five actual images were reviewed. Limited near-look detail accepted; see evidence/skeletal-patch-oct7/ACCEPTANCE.md. Production publication remains pending. Cache URL updates are local preparation only.
+
+
+## 2026-10-07 — Repair one existing colony's grounding
+
+The continuous triangle audit found 11 of 21 basal caps entirely above the actual substrate. A single rigid downward translation of 0.12711730762552115 uncalibrated scene units seats all caps with a 0.005 margin. The earliest primary junction retains 0.2400835660 clearance. Original geometry and materials are unchanged; the reduced-support and fan-motion experiments are not included.
+
+Runtime placement must be included when reproducing the scene. Four actual software-WebGL images from run 37677841832 and independent visual review support this limited grounding repair. They do not establish FPS improvement or whole-world realism. See evidence/branch-grounding-oct7 for the method, observations and limits.

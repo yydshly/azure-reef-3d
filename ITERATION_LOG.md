@@ -241,3 +241,10 @@ Hide redundant floating marker only during skeleton inspection; ordinary guide m
 Run37673506367 passes4 actual software-WebGL comparisons, isolated target index144150→44280 and unchanged materials/transforms. Owner finds no obvious added degradation, but this is not a performance or production acceptance: original shared geometry remains allocated, one geometry and432556 bytes are added, calls unchanged. Both arms reveal an existing branch-base gap; a separate grounding correction keeps the original high-resolution support. Evidence is in evidence/support03-ci-37673506367; exact candidate remains on qa/support03.
 
 [USNM3968 source study](docs/asset-research-20261007/usnm3968/SOURCE_REPORT.md) verifies an official CC0, recorded-meter-unit dry specimen with a rectangular artificial base. Four original-scale offline views are archived, without the source GLB or production import. It is not adopted as a complete live colony or main reef asset.
+
+
+## 2026-10-07 — Repair one existing colony's grounding
+
+The continuous triangle audit found 11 of 21 basal caps entirely above the actual substrate. A single rigid downward translation of 0.12711730762552115 uncalibrated scene units seats all caps with a 0.005 margin. The earliest primary junction retains 0.2400835660 clearance. Original geometry and materials are unchanged; the reduced-support and fan-motion experiments are not included.
+
+Runtime placement must be included when reproducing the scene. Four actual software-WebGL images from run 37677841832 and independent visual review support this limited grounding repair. They do not establish FPS improvement or whole-world realism. See evidence/branch-grounding-oct7 for the method, observations and limits.

@@ -1,0 +1,66 @@
+{
+  "scope": "Preserves the existing sampled vertical roof-clearance criterion for the unchanged six fish routes; not a new whole-body or continuous collision certificate.",
+  "distance_units": "uncalibrated scene units",
+  "changed_target": "Corridor_Distant_Linked_03",
+  "world_y_downshift_scene_units": 0.12711730762552115,
+  "argument": "For any fixed (x,z), pure downward translation leaves the target footprint fixed and changes its highest vertical intersection height T to T-delta. Every other terrain height O is unchanged, so max(O,T-delta) <= max(O,T). Therefore unchanged fish-center height minus sampled roof cannot decrease at any previously checked footprint point. The same five-point footprint checks remain no worse under this isolated change.",
+  "preserved_existing_check": "qa-life.mjs checks fish center plus x/z offsets [\u00b10.22,0] and [0,\u00b10.22] against highest triangle roof every 0.5 simulated seconds within its 164-second sampled run. This does not certify articulated full-body swept collision.",
+  "fish_route_and_motion_hashes": [
+    {
+      "path": "dist/assets/swim-routes.json",
+      "source_sha256": "e3191c37dcebef900a785625324cc1d5bd987c8f0df2e9d1d6cc93594eb23fac",
+      "pose_candidate_sha256": "e3191c37dcebef900a785625324cc1d5bd987c8f0df2e9d1d6cc93594eb23fac",
+      "unchanged": true
+    },
+    {
+      "path": "dist/fish-motion.js",
+      "source_sha256": "2204242b56792e1f187db0e9d7577cf4e5039b8249271649d78778edbcecc740",
+      "pose_candidate_sha256": "2204242b56792e1f187db0e9d7577cf4e5039b8249271649d78778edbcecc740",
+      "unchanged": true
+    },
+    {
+      "path": "dist/fish-population.js",
+      "source_sha256": "74de23658f735fadcba6ea37857d54b8ff4d168ba7005fdd263121ef30bcb943",
+      "pose_candidate_sha256": "74de23658f735fadcba6ea37857d54b8ff4d168ba7005fdd263121ef30bcb943",
+      "unchanged": true
+    },
+    {
+      "path": "dist/fish-surface.js",
+      "source_sha256": "b207dc99943f0d530fa3b4a2bd6bfaee8b88c5c67cfbf05a7be2bf96d593ff95",
+      "pose_candidate_sha256": "b207dc99943f0d530fa3b4a2bd6bfaee8b88c5c67cfbf05a7be2bf96d593ff95",
+      "unchanged": true
+    }
+  ],
+  "historical_report_path": "/workspace/scratch/56bf13a306b9/coral-3d/evidence/fish-surface-oct7/geometry-motion-check.json",
+  "historical_report_sha256": "de4c1a8aac3065c6cd08f2849a9bd838f0e0dd1f8d93edaf88bad3499e7ec9fa",
+  "historical_scope": "Sampled geometry/kinematic checks, not continuous collision proof or biological validation",
+  "historical_minimum_vertical_clearances": [
+    {
+      "name": "fish_01",
+      "minimum_clearance_scene_units": 0.40499482184077873
+    },
+    {
+      "name": "fish_02",
+      "minimum_clearance_scene_units": 0.46424910034243627
+    },
+    {
+      "name": "fish_03",
+      "minimum_clearance_scene_units": 0.42562038606205976
+    },
+    {
+      "name": "fish_04",
+      "minimum_clearance_scene_units": 0.7538037811503365
+    },
+    {
+      "name": "fish_05",
+      "minimum_clearance_scene_units": 0.29999999999986915
+    },
+    {
+      "name": "fish_06",
+      "minimum_clearance_scene_units": 1.0600230185540267
+    }
+  ],
+  "historical_numeric_caveat": "The historical report does not embed its geometry source hash; its numbers are reference values, not newly measured current-pose minima. The monotonicity statement applies to the isolated old-pose/new-pose comparison independent of those values.",
+  "new_worldwide_route_test_run": false,
+  "new_full_body_collision_test_run": false
+}
