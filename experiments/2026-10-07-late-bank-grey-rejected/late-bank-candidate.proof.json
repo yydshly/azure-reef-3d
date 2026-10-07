@@ -1,0 +1,145 @@
+{
+  "scope": "OFFLINE original bounded late-bank morphology experiment; not published, not runtime validation",
+  "units": "interpreted scene units, not measured metres or a surveyed habitat",
+  "source_sha256": "c12624b2f1da3add8f801421b161daaa5ef9177f7f6edf8ce1a3d1ae7caf66dd",
+  "candidate_sha256": "941e9fa1ca42b2918ff818a2f9f46aff1f948860d52d0dc836f1625b68947ed1",
+  "landmark_sha256": "d6377e6bcfc5145ef6da7c139de26772b6065b30fbe24c2d3180bcba9ae48cdf",
+  "glb_bytes_before_after": [
+    29534488,
+    29534488
+  ],
+  "all_json_bytes_unchanged": true,
+  "all_non_position_normal_binary_bytes_unchanged": true,
+  "all_nodes_materials_images_uv_colors_indices_transforms_unchanged": true,
+  "changed_node": "Spatial_Continuous_Weathered_Limestone",
+  "mesh_vertices_before_after": [
+    10190,
+    10190
+  ],
+  "mesh_triangles_before_after": [
+    20376,
+    20376
+  ],
+  "vertices_moved": 305,
+  "normals_recalculated": 458,
+  "moved_xyz_bounds": [
+    [
+      4.5,
+      -0.3832312226295471,
+      -48.5
+    ],
+    [
+      16.5,
+      1.77217435836792,
+      -38.5
+    ]
+  ],
+  "height_delta_min_max": [
+    -1.6041715145111084,
+    0.6314709782600403
+  ],
+  "closed_manifold_edge_incidence_min_max": [
+    2,
+    2
+  ],
+  "min_triangle_area": 0.11500000208616257,
+  "finite_positions_and_normals": true,
+  "normal_length_min_max": [
+    0.9999998211860657,
+    1.0000001192092896
+  ],
+  "top_faces_upward": true,
+  "bottom_and_perimeter_unchanged": true,
+  "thicket_support_disk_radius_1_9_unchanged": true,
+  "sand_route_x_minus3_plusminus4_unchanged": true,
+  "height_samples": [
+    {
+      "x": 4.5,
+      "z": -43.5,
+      "before_y": -0.3235735595226288,
+      "after_y": -0.008138671517372131
+    },
+    {
+      "x": 5.0,
+      "z": -43.5,
+      "before_y": -0.2767178416252136,
+      "after_y": 0.27763813734054565
+    },
+    {
+      "x": 6.0,
+      "z": -43.5,
+      "before_y": -0.06381291151046753,
+      "after_y": 0.5150443911552429
+    },
+    {
+      "x": 7.5,
+      "z": -44.0,
+      "before_y": 0.70509934425354,
+      "after_y": 0.7753084897994995
+    },
+    {
+      "x": 9.0,
+      "z": -44.5,
+      "before_y": 1.5912978649139404,
+      "after_y": 1.5912978649139404
+    },
+    {
+      "x": 9.0,
+      "z": -46.0,
+      "before_y": 1.6662254333496094,
+      "after_y": 0.21622543036937714
+    },
+    {
+      "x": 10.0,
+      "z": -46.5,
+      "before_y": 1.7827824354171753,
+      "after_y": 0.39027947187423706
+    },
+    {
+      "x": 12.0,
+      "z": -44.0,
+      "before_y": 2.0399999618530273,
+      "after_y": 2.0399999618530273
+    },
+    {
+      "x": 14.0,
+      "z": -42.0,
+      "before_y": 1.8522453308105469,
+      "after_y": 0.5858391523361206
+    },
+    {
+      "x": 15.0,
+      "z": -42.0,
+      "before_y": 1.6582722663879395,
+      "after_y": 0.3276364207267761
+    },
+    {
+      "x": 14.0,
+      "z": -47.5,
+      "before_y": 1.154068112373352,
+      "after_y": -0.178763747215271
+    }
+  ],
+  "limit": "Single closed heightfield. Open gullies, inclined spurs and uneven ledges are possible; overhangs, through-cavities and exact NPS reference reconstruction are not. Coarse 0.5 scene-unit sampling limits sharp fracture relief. No landmark vertex or pose is edited.",
+  "reference": {
+    "page": "https://www.nps.gov/drto/learn/nature/corals.htm",
+    "image": "DRTO-DUW-046.jpg",
+    "credit": "NPS Submerged Resource Center",
+    "use": "Viewed pixels for macro irregular exposed skeleton and recess hierarchy only. No photo as texture; no habitat, species or survey fidelity claim."
+  },
+  "deterministic_replay_position_match": true,
+  "landmark_low_rear_toe_surface_test": {
+    "method": "Exact preserved-grid triangle interpolation at landmark vertices, world x>4.0, -44.1<z<-42.85, y<0.3",
+    "sample_count": 584,
+    "before_signed_clearance_min_max": [
+      -0.02299434634281755,
+      0.645322919235159
+    ],
+    "after_signed_clearance_min_max": [
+      -0.18938388828585562,
+      0.6450689568931091
+    ],
+    "sign_crossing_indicates_surface_contact": true,
+    "limitation": "Vertex sample diagnostic, not a complete triangle-triangle collision or watertight union proof. Landmark stays a separate original rigid asset."
+  }
+}

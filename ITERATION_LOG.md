@@ -157,3 +157,7 @@ The existing near-right shoulder moves rigidly to the late right bank. Total geo
 The preceding coarse fan LOD was rejected for visible polygonal cells and density changes despite small software-frame gains. Shadow/resolution cost separation is diagnostic only; neither low-resolution nor shadow-disabled settings were adopted. See ROUTE_REBALANCE.md and evidence/route-rebalance-oct7. The original packed modeling/inhabited/editable.blend and exact asset export are unchanged.
 
 Source6750ba68 / measured candidate73f334e / run37602816684. Original four-view comparisons and labelled six-pose recordings are preserved on QA branch qa/route-rebalance. This changes placement, not total assets or performance acceptance.
+
+## 2026-10-07 · Late-bank grey deformation rejected
+
+[Offline grey experiment](experiments/2026-10-07-late-bank-grey-rejected/REPORT.md):305 terrain positions and458 normals changed with no added triangles. Gullies are real, but the rounded cap and isolated-mass character remain; the actual75% camera changes almost imperceptibly. Rejected before WebGL, without modifying production. Independent portable replay reproduced SHA256941e9fa1ca42b2918ff818a2f9f46aff1f948860d52d0dc836f1625b68947ed1. Recipe/proof/images are retained; the29MB generated GLB and original reference photograph are excluded.

@@ -1,0 +1,19 @@
+{
+  "artifact-sha256.json": "037aedae20c6fc7baae6a832cc10b908cb31e486dc3368c9bb451a82485d3f95",
+  "sculpt_late_bank.py": "9d317a2f05a3f40bd97f4899747f4776fd6ccb84971048a7b1d7944993f962af",
+  "REPORT.md": "bc25aa8c822c6681bbc85854bce4cb87a511a2d02d22c286bf45910046c8a73c",
+  "render_grey_comparison.py": "acd91cd212a6110b976f232b036f7737468ccc43ae721033f11477e8e2536a6e",
+  "late-bank-candidate.proof.json": "960ec870b2a9361ba529ba7baeaec719835a1144dc75ba4b01db3773f70fd5ba",
+  "grey/render-manifest.json": "265a209e7d84dcb4cb34f292c183f563a33c97840cfc7b07c20c929f29550895",
+  "grey/comparison-actual-route-75.png": "6e95e35039defc3e2ed1cd61ac6ed940f9525899bcab32840378841f8dbcd285",
+  "grey/comparison-neutral-front.png": "65ff6a7de5e74fef8ca76137085b84f1136a646bda97cfdaec08c87ed0a76bfb",
+  "grey/before-neutral-front.png": "3178a95d86f6f10fb643fccf49b3ecf151a1a7abf3543947834ff289be2fc208",
+  "grey/before-actual-route-75.png": "9df99f93bb38afa2dc13076711e7c8c6759b8081f68e4d7763c6b723983bdeb0",
+  "grey/comparison-neutral-reverse.png": "40d12279d5b6021837ef07919814ee1e731bd9724453d27a669eecec5c76abdf",
+  "grey/before-neutral-reverse.png": "f81be45fd0d3d7bffb4d06a0110dcebc8fff0c8b3da6036fd0a51476b97ed057",
+  "grey/after-neutral-reverse.png": "bc6dd309158bbd966ca563a9c2a31168b23623741f99ab7e5130f48284a2b1bf",
+  "grey/after-actual-route-75.png": "88d7c34cfb9349c5039a31da947af98508a8bae7940a97b3a13b91a3d9eb07f6",
+  "grey/after-neutral-front.png": "d24ff05843f313cbf07c1c7e514dfb48b9ea87de4b751d856dbfcd902df66e4b",
+  "grey/all-three-comparisons.png": "d2226f2889e0cb14c9ad81c47f23a99bcdf84a23dc880d0cca826b8c6ba02455",
+  "grey/first-neutral-front-comparison.png": "5184f1a26d06570dde4bf7b3f8537db3f9e6b8d1910f563c3c47aea6e8774836"
+}
