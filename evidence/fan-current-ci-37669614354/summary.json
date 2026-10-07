@@ -1,7 +1,7 @@
 {
   "run": 37669614354,
   "preparationFailureRun": 37666030793,
-  "status": "technical passed, visual motion review pending",
+  "status": "REJECTED as perceptible life-improvement candidate; technical checks passed",
   "nativeWallSeconds": 24.840900000000023,
   "nativeSimulationDelta": 24.815700000000007,
   "observedRAF": 10,
@@ -25,5 +25,6 @@
     "Fixed phases are test-driven renderer calls with RAF frozen; native video is separate genuine RAF motion.",
     "Runner lacks CJK fonts after using preinstalled libraries; Chinese UI appears as missing glyphs. This run does not validate Chinese text/layout.",
     "Software timing is not user-device FPS or biological flow calibration."
-  ]
+  ],
+  "visualDecision": "Owner and independent review reject this .04-amplitude candidate: fixed extrema show a small deformation, but whole1120px/native45/55/60s frames appear nearly stationary. No obvious new root, shape or shadow defect does not establish perceptible benefit. Ten RAF observations over24.84s do not establish smooth sway or performance. No amplitude adjustment or additional test."
 }
