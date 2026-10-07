@@ -15,3 +15,7 @@ Actual pixel inspection shows that downward extension reduces the unsupported ga
 Final review rejects v4 for the visible geometric skirt and UV stretching. The direct downward-extension approach is closed. Production remains public commit1e1a055. A future rigid-placement investigation must retain originalv3 geometry/UV and pass separate numerical and visual checks; no such candidate is accepted here.
 
 New isolated rigid placement candidate21706b1 restores the exact originalv3 geometry/UV, changing only position and yaw. This is a separate test after rejecting v4, not a reversal of that rejection. Three original fixed cameras compare originalv3 placement against v5; production remains unchanged.
+
+## Rigid v5 actual comparison
+
+Run37588768850 / QA0445652 compares originalv3 placement against source21706b1 rigid placement with the exact originalv3 GLB. Both arms pass at all three original cameras, with equal fixed fish phase and no console errors. The midpoint fan now fits in frame and the rejectedv4 vertical extrusion is absent. At the unchanged local-front diagnostic camera the right side extends beyond the frame; terrain integration and authored-rock appearance remain subjects for visual review. No acceptance of a complete reef or production deployment is implied.
