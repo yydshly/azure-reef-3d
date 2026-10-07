@@ -1,0 +1,194 @@
+{
+  "baseline": "25c66bc0d53529947044155fe223fdee9500874c",
+  "runtimeFiles": [
+    "dist/app.js",
+    "dist/branch-grounding.js"
+  ],
+  "files": [
+    {
+      "path": "dist/app.js",
+      "sha256": "4127a29d4d9aed14a55d0f8a9a8ac8058fd8d6fc524683fa5dc48f8e8744a027",
+      "bytes": 20898
+    },
+    {
+      "path": "dist/branch-grounding.js",
+      "sha256": "47e8b60b098c109b6bfa01557126ee19860dad9df35737217ff30239623f8bee",
+      "bytes": 1855
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/STATUS.md",
+      "sha256": "6bdaa48c9ebec33f670c1df4c274e8f021ac640051d52d778fc325a25e808fc6",
+      "bytes": 2138
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/check_diagnostic_base_visibility.py",
+      "sha256": "d7bef1dd286c7bd40860b27204110ce6cd395a5f54efa3e88b3c85fdc1495116",
+      "bytes": 1670
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/label_scope_and_finalize.py",
+      "sha256": "58b1b4c94a787bb1f2f4e1af592784911054a602e1cd6447393242eae0f30203",
+      "bytes": 3374
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/measurement/README.md",
+      "sha256": "e45723f4e31b0fa6794529f2c11d0601319f6d6c7114edc2f5423cfafc8d588d",
+      "bytes": 4658
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/measurement/audit_node66.py",
+      "sha256": "227677ea4b70a4bc88145ccc856385c85d614fe4fd7996c46fac4eb333024b33",
+      "bytes": 6404
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/measurement/node66-all-21-caps.csv",
+      "sha256": "a66a197ee1f7b09f4cfae02f92062eca5c56bbeabd6347068c4b05d124816e22",
+      "bytes": 1762
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/measurement/node66-grounding-proof.json",
+      "sha256": "13085d3d2b7b5de1b5be6d0ddc28a3dbc65bcfb9030cf9359ddb4fe2c36c148c",
+      "bytes": 153310
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-before-diagnostic-gray.png",
+      "sha256": "fe7a94cbf39e8e5d5c9fad887c11bf60683bb7544f070b1b7e8310031a76bba6",
+      "bytes": 1060990
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-before-diagnostic-textured.png",
+      "sha256": "c05fc96d59d312e030335375d2b5e12a82632e0927f35707ef34c8f3a5b6f526",
+      "bytes": 1189985
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-before-lowest-junction-projection.png",
+      "sha256": "a2f0c4b7fda2d6eb2acace06fafcdc51ef9956380f0498d7d03807ddad815f5a",
+      "bytes": 897344
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-before-passage20-gray.png",
+      "sha256": "ce598f67711731d2b15235ba47b78ba2e618a3c268a3be23c2680f63bf081349",
+      "bytes": 1043838
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-before-passage20-target-labeled.png",
+      "sha256": "233d043f8057f7e535f1fa9cd08f87029a2b910692b3fc5382a6cd12fdabb3ed",
+      "bytes": 1013660
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-before-passage20-textured.png",
+      "sha256": "a0f3abf85332a3a8ff1c81e34903543ff5cdbfa7bb56ac8317b954579786d57d",
+      "bytes": 1185424
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-candidate-diagnostic-gray.png",
+      "sha256": "b8352cdcd53268cf7100d53b7a30ffd38f5094e47460446635b16de2356a994c",
+      "bytes": 1060736
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-candidate-diagnostic-textured.png",
+      "sha256": "80cbc787f5f27bc567db81877a9646a888482707ecab890c187984b1bdcffedf",
+      "bytes": 1190873
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-candidate-lowest-junction-projection.png",
+      "sha256": "e89b8c324755ee916daa26f17b1cdb7a87aad63a79c5dbeaa466d200d151ecba",
+      "bytes": 896218
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-candidate-passage20-gray.png",
+      "sha256": "aa0618e5c5a31cedce8f948475c511b008fb17664d3dc9cf6e2f2b2d826b5fa8",
+      "bytes": 1043367
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-candidate-passage20-target-labeled.png",
+      "sha256": "ce749e7a968b21c99ee9b9e3ebbb269c6a270efe867f4b699e118b581981e883",
+      "bytes": 1013160
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-candidate-passage20-textured.png",
+      "sha256": "a502389010f38ac7f4a2f38db60af69ce9f23a84c4a20c8aae94d7941568a4ff",
+      "bytes": 1185502
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-frame-progress.json",
+      "sha256": "354fe9f1ead71f1dded1899498c7028eac972a283d21f133e11d002212f1ce1a",
+      "bytes": 2459
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-requested-diagnostic-base-visibility.json",
+      "sha256": "90e01241ea8fd860e30647940f523c4fe9942640b9de7e667d3f4e1fccd87d75",
+      "bytes": 5140
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-sibling-artifacts.json",
+      "sha256": "6f9d85d0fe360f139bcb936258f5e42ffd525ad13a917712230298bd2ca41b51",
+      "bytes": 6027
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-sibling-compare-diagnostic-gray.png",
+      "sha256": "73f0ea34caf6fb119edab1a5e120c5970250b25e4ab61dc4be160d48a667f1d0",
+      "bytes": 1291867
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-sibling-compare-diagnostic-textured.png",
+      "sha256": "3dd9eb3a7f4cc846fe11c2af8ab99ec1483ac4fc659e6a27d99f1f6f5ce61808",
+      "bytes": 1404613
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-sibling-compare-passage20-gray.png",
+      "sha256": "b960fef59af13232e4eff7aa2cd2ce98cd818524c1598a7f9fee2e2ecab6396c",
+      "bytes": 1175528
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-sibling-compare-passage20-textured.png",
+      "sha256": "59db0b4183493674986ba3633146c6f612b276a99a5f63699786a66a1a5c3daa",
+      "bytes": 1285691
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-sibling-diagnostic-crop-gray.png",
+      "sha256": "174723f09bfa5d8d31e69e571ee504d502c788aca56e00d854d20c1dddc4d36d",
+      "bytes": 276052
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-sibling-diagnostic-crop-textured.png",
+      "sha256": "69bab564c6737f44fbbfa797aa6b6d24517a1f7d13e1fce16e857b67def97c23",
+      "bytes": 323972
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-sibling-pose-manifest.json",
+      "sha256": "173499d1fc9f9a74a80ec56cd4fb76b275d8f9d2deb89bac15409fde87ec5c94",
+      "bytes": 4432
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-sibling-review.md",
+      "sha256": "accd83627a889589bfebea2e7123bf2a0d28f8c9b13beb291e2781c68246f9b2",
+      "bytes": 4436
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/offline-sibling-visual-review.json",
+      "sha256": "3a988185ada4a8863e7daaf8bb0a4c4c0d3c94e62a3805160f453d17056c7914",
+      "bytes": 2884
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/package_offline_sibling_pose.py",
+      "sha256": "ee440f8f2ef00bd1e943606a9a8d4f29f93160ed9c4f5eeb4e10afb3551d6586",
+      "bytes": 10273
+    },
+    {
+      "path": "evidence/sibling-grounding-oct7/render_offline_sibling_pose.py",
+      "sha256": "67eb853b6d2bd14a24b9c92512d4e21dfea3fdff3840e15d38d2435864516d29",
+      "bytes": 7242
+    },
+    {
+      "path": "qa-guide-integration.mjs",
+      "sha256": "e354a27ae04cbc8097cb7c83515421efeeb9e77bfdcd000ab551eb29cda373ef",
+      "bytes": 13152
+    },
+    {
+      "path": "qa-sibling-grounding.mjs",
+      "sha256": "dfe1b5ce058dcadb0fbcf73e9358a7d51173cab20470acf51a6b97806f2dc3c6",
+      "bytes": 2453
+    }
+  ]
+}

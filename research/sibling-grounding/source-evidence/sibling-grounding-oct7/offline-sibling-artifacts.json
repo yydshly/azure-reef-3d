@@ -1,0 +1,158 @@
+{
+  "offline-sibling-compare-diagnostic-gray.png": {
+    "bytes": 1291867,
+    "sha256": "73f0ea34caf6fb119edab1a5e120c5970250b25e4ab61dc4be160d48a667f1d0"
+  },
+  "offline-sibling-diagnostic-crop-textured.png": {
+    "bytes": 323972,
+    "sha256": "69bab564c6737f44fbbfa797aa6b6d24517a1f7d13e1fce16e857b67def97c23"
+  },
+  "offline-requested-diagnostic-base-visibility.json": {
+    "bytes": 5140,
+    "sha256": "90e01241ea8fd860e30647940f523c4fe9942640b9de7e667d3f4e1fccd87d75"
+  },
+  "offline-before-passage20-textured-index-0001.exr": {
+    "bytes": 40467,
+    "sha256": "1b4e8de5c3e00a2bfd7a4f29a0ebff6c0068151e3b1db1ae4108e244ae48e5c4"
+  },
+  "offline-sibling-visual-review.json": {
+    "bytes": 2884,
+    "sha256": "3a988185ada4a8863e7daaf8bb0a4c4c0d3c94e62a3805160f453d17056c7914"
+  },
+  "offline-before-diagnostic-textured-index-0001.exr": {
+    "bytes": 41211,
+    "sha256": "eeffd35ef951ec18e7af096116693f5b21b229a0a1f8699c4c5f56d28a83f5b7"
+  },
+  "offline-candidate-passage20-target-labeled.png": {
+    "bytes": 1013160,
+    "sha256": "ce749e7a968b21c99ee9b9e3ebbb269c6a270efe867f4b699e118b581981e883"
+  },
+  "offline-before-passage20-gray.png": {
+    "bytes": 1043838,
+    "sha256": "ce598f67711731d2b15235ba47b78ba2e618a3c268a3be23c2680f63bf081349"
+  },
+  "offline-sibling-compare-passage20-gray.png": {
+    "bytes": 1175528,
+    "sha256": "b960fef59af13232e4eff7aa2cd2ce98cd818524c1598a7f9fee2e2ecab6396c"
+  },
+  "offline-before-diagnostic-gray-index-0001.exr": {
+    "bytes": 41211,
+    "sha256": "0fa67a567a54cc14635e69765f17188ab6821152d3380e22f7db5376b6d7f3aa"
+  },
+  "label_scope_and_finalize.py": {
+    "bytes": 3374,
+    "sha256": "58b1b4c94a787bb1f2f4e1af592784911054a602e1cd6447393242eae0f30203"
+  },
+  "offline-before-passage20-node66-mask.npy": {
+    "bytes": 784128,
+    "sha256": "fa778d68a2f968e03f334db6c9bfefec1f1856140763c393d0bb0ab80d104ef5"
+  },
+  "offline-sibling-render.log": {
+    "bytes": 142410,
+    "sha256": "e6da2abfc6c5608a05bcd4848b0b2bbe2ab536f760c756fba049647093ec8ec8"
+  },
+  "offline-candidate-passage20-node66-mask.npy": {
+    "bytes": 784128,
+    "sha256": "f29c23765b83850762238bc493acc7de965f7d6560df7b0f8a4d9959a094c10e"
+  },
+  "offline-candidate-passage20-gray-index-0001.exr": {
+    "bytes": 39856,
+    "sha256": "c89d5fbfb986422d4e0fe6ab6f58a1f6050a8db29c3642b234f121decc3ef0fb"
+  },
+  "offline-candidate-passage20-textured-index-0001.exr": {
+    "bytes": 39856,
+    "sha256": "f3c60c95af711ae4f086560faf989e86d745811cc811b3b6be43bd7d25a060ac"
+  },
+  "offline-sibling-review.md": {
+    "bytes": 4436,
+    "sha256": "accd83627a889589bfebea2e7123bf2a0d28f8c9b13beb291e2781c68246f9b2"
+  },
+  "render_offline_sibling_pose.py": {
+    "bytes": 7242,
+    "sha256": "67eb853b6d2bd14a24b9c92512d4e21dfea3fdff3840e15d38d2435864516d29"
+  },
+  "offline-candidate-diagnostic-textured.png": {
+    "bytes": 1190873,
+    "sha256": "80cbc787f5f27bc567db81877a9646a888482707ecab890c187984b1bdcffedf"
+  },
+  "offline-sibling-compare-passage20-textured.png": {
+    "bytes": 1285691,
+    "sha256": "59db0b4183493674986ba3633146c6f612b276a99a5f63699786a66a1a5c3daa"
+  },
+  "offline-before-passage20-textured.png": {
+    "bytes": 1185424,
+    "sha256": "a0f3abf85332a3a8ff1c81e34903543ff5cdbfa7bb56ac8317b954579786d57d"
+  },
+  "offline-candidate-passage20-gray.png": {
+    "bytes": 1043367,
+    "sha256": "aa0618e5c5a31cedce8f948475c511b008fb17664d3dc9cf6e2f2b2d826b5fa8"
+  },
+  "offline-candidate-lowest-junction-projection.png": {
+    "bytes": 896218,
+    "sha256": "e89b8c324755ee916daa26f17b1cdb7a87aad63a79c5dbeaa466d200d151ecba"
+  },
+  "offline-sibling-diagnostic-crop-gray.png": {
+    "bytes": 276052,
+    "sha256": "174723f09bfa5d8d31e69e571ee504d502c788aca56e00d854d20c1dddc4d36d"
+  },
+  "offline-before-passage20-gray-index-0001.exr": {
+    "bytes": 40467,
+    "sha256": "e3ea72f41cabd84339d522362cfc031bcf1fb52947861746228b6786ba97eff8"
+  },
+  "offline-candidate-diagnostic-gray.png": {
+    "bytes": 1060736,
+    "sha256": "b8352cdcd53268cf7100d53b7a30ffd38f5094e47460446635b16de2356a994c"
+  },
+  "offline-sibling-pose-manifest.json": {
+    "bytes": 4432,
+    "sha256": "173499d1fc9f9a74a80ec56cd4fb76b275d8f9d2deb89bac15409fde87ec5c94"
+  },
+  "check_diagnostic_base_visibility.py": {
+    "bytes": 1670,
+    "sha256": "d7bef1dd286c7bd40860b27204110ce6cd395a5f54efa3e88b3c85fdc1495116"
+  },
+  "offline-candidate-passage20-textured.png": {
+    "bytes": 1185502,
+    "sha256": "a502389010f38ac7f4a2f38db60af69ce9f23a84c4a20c8aae94d7941568a4ff"
+  },
+  "offline-before-passage20-target-labeled.png": {
+    "bytes": 1013660,
+    "sha256": "233d043f8057f7e535f1fa9cd08f87029a2b910692b3fc5382a6cd12fdabb3ed"
+  },
+  "offline-base-visibility.log": {
+    "bytes": 4425,
+    "sha256": "609c36c579d16e2fc04fa7e0dc62a1b93bda3aee990d11443e6c8d77880338f6"
+  },
+  "package_offline_sibling_pose.py": {
+    "bytes": 10273,
+    "sha256": "ee440f8f2ef00bd1e943606a9a8d4f29f93160ed9c4f5eeb4e10afb3551d6586"
+  },
+  "offline-candidate-diagnostic-gray-index-0001.exr": {
+    "bytes": 40846,
+    "sha256": "d24d7912bcf022c416932dbd5fe691c2409e8ca40b5eb28ebaa41184a97e3a3c"
+  },
+  "offline-before-diagnostic-textured.png": {
+    "bytes": 1189985,
+    "sha256": "c05fc96d59d312e030335375d2b5e12a82632e0927f35707ef34c8f3a5b6f526"
+  },
+  "offline-candidate-diagnostic-textured-index-0001.exr": {
+    "bytes": 40846,
+    "sha256": "c73b4e4904296044a6e94c13adb1a9044a3fa777162691a97d2d55cf6859f496"
+  },
+  "offline-before-diagnostic-gray.png": {
+    "bytes": 1060990,
+    "sha256": "fe7a94cbf39e8e5d5c9fad887c11bf60683bb7544f070b1b7e8310031a76bba6"
+  },
+  "offline-sibling-compare-diagnostic-textured.png": {
+    "bytes": 1404613,
+    "sha256": "3dd9eb3a7f4cc846fe11c2af8ab99ec1483ac4fc659e6a27d99f1f6f5ce61808"
+  },
+  "offline-before-lowest-junction-projection.png": {
+    "bytes": 897344,
+    "sha256": "a2f0c4b7fda2d6eb2acace06fafcdc51ef9956380f0498d7d03807ddad815f5a"
+  },
+  "offline-frame-progress.json": {
+    "bytes": 2459,
+    "sha256": "354fe9f1ead71f1dded1899498c7028eac972a283d21f133e11d002212f1ce1a"
+  }
+}

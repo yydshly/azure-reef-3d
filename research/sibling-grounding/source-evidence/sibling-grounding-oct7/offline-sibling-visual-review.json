@@ -1,0 +1,43 @@
+{
+  "scope": "Independent offline pose preview for node66 only; prior node78 numerical audit and earlier simplification study remain unchanged.",
+  "distance_units": "Uncalibrated scene units",
+  "original_support_and_materials_used": true,
+  "published_node78_shift_in_both_arms_scene_units": 0.12711730762552115,
+  "only_candidate_node66_downshift_scene_units": 0.1022451317984211,
+  "candidate_basal_cap_maximum_signed_gap_from_prior_continuous_measurement_scene_units": -0.0050000000000000044,
+  "candidate_deepest_basal_cap_burial_scene_units": 0.1462879827319129,
+  "controlling_first_primary_junction": {
+    "root": 8,
+    "child_segment": 56,
+    "original_minimum_clearance_scene_units": 0.21484597514086712,
+    "candidate_minimum_clearance_scene_units": 0.11260084334244602,
+    "projection_disclosure": "Orange ring is the projected measured cross-section location; projection alone is not an occlusion or collision certificate."
+  },
+  "requested_cameras_used_without_replacement": true,
+  "all_camera_constraints_pass": true,
+  "qualitative_offline_review": {
+    "status": "Limited offline visual pass for the specified pose change",
+    "reviewed": "All four normal/diagnostic textured/gray before-after pairs plus fixed diagnostic crop and controlling-junction projection",
+    "findings": [
+      "The candidate target stem bases visually enter the existing mound; the detached base-end impression is reduced.",
+      "The main branching structure remains exposed and legible in both requested views; no obvious swallowing of the first primary branches was seen.",
+      "No alternative camera was needed; the provided diagnostic view exposes the target."
+    ],
+    "boundary": "This visual reading supplements the prior continuous contact/junction calculation and is not a production-water-shader or browser acceptance result."
+  },
+  "render_scope_limits": "Offline fixed-light original-GLB-material pose comparison. Both arms preserve published node78 grounding. Production world-space linked substrate shader, water/fog/caustics, browser output, dynamic fish and performance are not reproduced. No source GLB, runtime module, ground geometry or pose file was edited.",
+  "no_runtime_or_CI_run": true,
+  "normal_view_scope": "Node66 is the rear/right-hand target in the nearby group. The more prominent foreground neighboring clump is outside this change; its existing issues are not claimed resolved.",
+  "requested_diagnostic_occlusion_check": {
+    "floating_baseline_caps": 14,
+    "centers_project_to_actual_node66_object_index2": 14,
+    "foreground_neighbor_does_not_cover_those_projected_centers": true,
+    "self_occlusion_within_node66_not_excluded": true,
+    "already_buried_cap_centers_on_ground": [
+      8,
+      15
+    ],
+    "method_reference": "offline-requested-diagnostic-base-visibility.json",
+    "no_additional_camera_chosen": true
+  }
+}

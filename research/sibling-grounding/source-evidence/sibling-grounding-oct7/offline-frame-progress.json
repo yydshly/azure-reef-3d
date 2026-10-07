@@ -1,0 +1,114 @@
+[
+  {
+    "pose": "before",
+    "view": "passage20",
+    "style": "textured",
+    "file": "offline-before-passage20-textured.png",
+    "node66_visible_pixels": 13500,
+    "node66_fraction_of_frame": 0.01721938775510204,
+    "node66_visible_bbox_xyxy": [
+      675,
+      372,
+      1006,
+      521
+    ]
+  },
+  {
+    "pose": "before",
+    "view": "diagnostic",
+    "style": "textured",
+    "file": "offline-before-diagnostic-textured.png",
+    "node66_visible_pixels": 15146,
+    "node66_fraction_of_frame": 0.019318877551020408,
+    "node66_visible_bbox_xyxy": [
+      403,
+      249,
+      678,
+      408
+    ]
+  },
+  {
+    "pose": "candidate",
+    "view": "passage20",
+    "style": "textured",
+    "file": "offline-candidate-passage20-textured.png",
+    "node66_visible_pixels": 12491,
+    "node66_fraction_of_frame": 0.015932397959183674,
+    "node66_visible_bbox_xyxy": [
+      675,
+      386,
+      1005,
+      529
+    ]
+  },
+  {
+    "pose": "candidate",
+    "view": "diagnostic",
+    "style": "textured",
+    "file": "offline-candidate-diagnostic-textured.png",
+    "node66_visible_pixels": 14209,
+    "node66_fraction_of_frame": 0.01812372448979592,
+    "node66_visible_bbox_xyxy": [
+      403,
+      264,
+      677,
+      421
+    ]
+  },
+  {
+    "pose": "before",
+    "view": "passage20",
+    "style": "gray",
+    "file": "offline-before-passage20-gray.png",
+    "node66_visible_pixels": 13500,
+    "node66_fraction_of_frame": 0.01721938775510204,
+    "node66_visible_bbox_xyxy": [
+      675,
+      372,
+      1006,
+      521
+    ]
+  },
+  {
+    "pose": "before",
+    "view": "diagnostic",
+    "style": "gray",
+    "file": "offline-before-diagnostic-gray.png",
+    "node66_visible_pixels": 15146,
+    "node66_fraction_of_frame": 0.019318877551020408,
+    "node66_visible_bbox_xyxy": [
+      403,
+      249,
+      678,
+      408
+    ]
+  },
+  {
+    "pose": "candidate",
+    "view": "passage20",
+    "style": "gray",
+    "file": "offline-candidate-passage20-gray.png",
+    "node66_visible_pixels": 12491,
+    "node66_fraction_of_frame": 0.015932397959183674,
+    "node66_visible_bbox_xyxy": [
+      675,
+      386,
+      1005,
+      529
+    ]
+  },
+  {
+    "pose": "candidate",
+    "view": "diagnostic",
+    "style": "gray",
+    "file": "offline-candidate-diagnostic-gray.png",
+    "node66_visible_pixels": 14209,
+    "node66_fraction_of_frame": 0.01812372448979592,
+    "node66_visible_bbox_xyxy": [
+      403,
+      264,
+      677,
+      421
+    ]
+  }
+]
