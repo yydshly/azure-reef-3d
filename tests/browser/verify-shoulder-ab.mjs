@@ -62,7 +62,7 @@ try{
       if(actual.camera.some((v,i)=>Math.abs(v-position[i])>.001)||actual.target.some((v,i)=>Math.abs(v-target[i])>.001))throw Error('Application constrained the requested camera; not the claimed fixed viewpoint');
       await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(()=>resolve(true)))));
     }
-    const planned=[{name:'local-front',p:[-2,2.4,-20],t:[-6.4,.9,-26]},{name:'local-reverse',p:[-10,2.7,-32],t:[-6.4,.9,-26]}];
+    const planned=[{name:'midway',p:[0,2.7,-18],t:[-1.5,1,-31]},{name:'local-front',p:[-2,2.4,-20],t:[-6.4,.9,-26]},{name:'local-reverse',p:[-10,2.7,-32],t:[-6.4,.9,-26]}];
     await page.evaluate(()=>window.reef3d.leaveGuide());
     report.plannedViews=planned;
     for(let i=0;i<planned.length;i++){const v=planned[i];await fixedCamera(v.p,v.t);await capture(`${i+1}-${v.name}`);}

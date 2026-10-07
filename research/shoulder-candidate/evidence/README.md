@@ -13,3 +13,5 @@ Run37586644231 compares v3 and v4 at identical front/reverse cameras and fish ph
 Actual pixel inspection shows that downward extension reduces the unsupported gap but produces a conspicuous vertical skirt and stretched surface pattern at the front/right and back. This technical pass is not natural ground-integration acceptance. No production update is included.
 
 Final review rejects v4 for the visible geometric skirt and UV stretching. The direct downward-extension approach is closed. Production remains public commit1e1a055. A future rigid-placement investigation must retain originalv3 geometry/UV and pass separate numerical and visual checks; no such candidate is accepted here.
+
+New isolated rigid placement candidate21706b1 restores the exact originalv3 geometry/UV, changing only position and yaw. This is a separate test after rejecting v4, not a reversal of that rejection. Three original fixed cameras compare originalv3 placement against v5; production remains unchanged.

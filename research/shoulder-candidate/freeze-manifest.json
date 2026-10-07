@@ -1,7 +1,7 @@
 {
   "baselineSource": "8c8d763d02d2afcd59c2b510cafd577eee9d11ce",
   "baselinePublic": "1e1a05546b71f98119a3695620c0b8a7e62924d1",
-  "scope": "Finite physical grounding fix of visually rejected local v3; unaccepted production",
+  "scope": "Original v3 asset rigid placement, screened against terrain and unchanged routes; not accepted production",
   "files": {
     "dist/app.js": {
       "bytes": 17810,
@@ -129,7 +129,7 @@
     },
     "dist/assets/shoulder-v3/pilot.glb": {
       "bytes": 12701472,
-      "sha256": "618797ee32308fc39ded467f74a0f0d13dd6decd5a393fd12c4fe3f518363519"
+      "sha256": "d6377e6bcfc5145ef6da7c139de26772b6065b30fbe24c2d3180bcba9ae48cdf"
     },
     "dist/assets/spatial-mid.webp": {
       "bytes": 32560,
@@ -184,8 +184,8 @@
       "sha256": "d4c96b74d7678f7a3a62cd372e31a4a230c4bd38486fc28a226131091539eba6"
     },
     "dist/shoulder-local.js": {
-      "bytes": 313,
-      "sha256": "72eb07a6a8930c4096fc54680e3fd6de210ea73a9297d92da972ab63d92b9fed"
+      "bytes": 350,
+      "sha256": "b8b904f2d71a43186768c76b91155efa812e8f2f53f9f8223cc8eb2255d3942f"
     },
     "dist/style.css": {
       "bytes": 9879,
