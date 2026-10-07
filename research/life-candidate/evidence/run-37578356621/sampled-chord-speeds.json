@@ -1,0 +1,53 @@
+{
+  "limitation": "Endpoint chord speed over long intervals, not instantaneous biological speed or a continuous collision check",
+  "values": [
+    {
+      "fish": "fish_01",
+      "intervalChordSpeeds": [
+        0.31019,
+        0.192,
+        0.1221
+      ]
+    },
+    {
+      "fish": "fish_02",
+      "intervalChordSpeeds": [
+        0.23845,
+        0.1587,
+        0.15262
+      ]
+    },
+    {
+      "fish": "fish_03",
+      "intervalChordSpeeds": [
+        0.09945,
+        0.1918,
+        0.21655
+      ]
+    },
+    {
+      "fish": "fish_04",
+      "intervalChordSpeeds": [
+        0.0821,
+        0.18684,
+        0.25733
+      ]
+    },
+    {
+      "fish": "fish_05",
+      "intervalChordSpeeds": [
+        0.11787,
+        0.25655,
+        0.27833
+      ]
+    },
+    {
+      "fish": "fish_06",
+      "intervalChordSpeeds": [
+        0.07092,
+        0.15067,
+        0.22567
+      ]
+    }
+  ]
+}
