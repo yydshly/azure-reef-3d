@@ -18,3 +18,7 @@ Software rendering, if reported by the actual context, can reveal shader,
 appearance and UI faults. It does not establish user GPU frame rate, iPad
 performance, biological realism, or final visual acceptance. Artifacts are
 retained for seven days; the workflow has a twelve-minute maximum.
+
+## Controlled candidate comparison
+
+Use target_source=branch-preview only on an explicitly prepared QA branch. A loopback-only static server serves that checkout; it does not publish or replace Pages. view_set=passage captures the agreed departure, midway and look-back camera/target values via the existing app API. Actual coordinates are checked against requested coordinates, so constrained legacy cameras cannot be mislabelled as matching viewpoints. Native click/transition responsiveness is outside this fixed-camera test. The target is restricted to the project’s public Pages URL or runner loopback.

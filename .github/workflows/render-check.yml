@@ -1,6 +1,17 @@
 name: Verify public Pages WebGL rendering
 on:
   workflow_dispatch:
+    inputs:
+      target_source:
+        description: Public Pages or isolated checked-out branch preview
+        type: choice
+        options: [public-pages, branch-preview]
+        default: public-pages
+      view_set:
+        description: Explicit fixed camera set
+        type: choice
+        options: [legacy, passage]
+        default: legacy
 permissions:
   contents: read
 concurrency:
@@ -21,6 +32,12 @@ jobs:
         run: npm ci --prefix tests/browser
       - name: Install official Chromium and OS dependencies
         run: tests/browser/node_modules/.bin/playwright install --with-deps chromium
+      - name: Start isolated branch preview when requested
+        if: inputs.target_source == 'branch-preview'
+        run: |
+          mkdir -p render-evidence
+          python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > render-evidence/preview-server.log 2>&1 &
+          echo $! > render-evidence/preview-server.pid
       - name: Probe real WebGL2 without security overrides
         id: probe
         timeout-minutes: 2
@@ -35,6 +52,9 @@ jobs:
       - name: Render actual public Pages and exercise fixed views
         if: steps.probe.outputs.available == 'true'
         timeout-minutes: 6
+        env:
+          REEF_TARGET: ${{ inputs.target_source == 'branch-preview' && 'http://127.0.0.1:4173/' || 'https://yydshly.github.io/azure-reef-3d/' }}
+          REEF_VIEW_SET: ${{ inputs.view_set }}
         run: node tests/browser/verify-pages.mjs render
       - name: Preserve screenshots, short video and runtime report
         if: always()

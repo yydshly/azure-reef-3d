@@ -6,9 +6,11 @@ import {createHash} from 'node:crypto';
 const mode=process.argv[2]||'probe';
 if(!['probe','render'].includes(mode))throw Error('Expected probe or render');
 const out=path.resolve('render-evidence');await fs.mkdir(out,{recursive:true});
-const target='https://yydshly.github.io/azure-reef-3d/';
+const target=process.env.REEF_TARGET||'https://yydshly.github.io/azure-reef-3d/';
+if(!['https://yydshly.github.io/azure-reef-3d/','http://127.0.0.1:4173/'].includes(target))throw Error('Unapproved test target');
+const viewSet=process.env.REEF_VIEW_SET||'legacy';
 const sha=b=>createHash('sha256').update(b).digest('hex');
-const report={mode,target,checkedAt:new Date().toISOString(),checkoutCommit:process.env.GITHUB_SHA||null,
+const report={mode,target,viewSet,checkedAt:new Date().toISOString(),checkoutCommit:process.env.GITHUB_SHA||null,
   sandbox:true,unsafeGraphicsFlags:false,limitations:['Hosted runner rendering is not user-device performance or physical GPU acceptance.','Screenshots require human visual review; successful rendering alone is not realism acceptance.']};
 let browser,context,page;
 const save=()=>fs.writeFile(path.join(out,`${mode}.json`),JSON.stringify(report,null,2)+'\n');
@@ -52,20 +54,22 @@ try{
     if(await page.locator('#unsupported').isVisible())throw Error(await page.locator('#failure').innerText());
     report.runtime=await page.evaluate(()=>window.reef3d.getState());
     report.actualCanvas=await page.evaluate(()=>{const c=document.querySelector('#reef');const gl=c.getContext('webgl2');const ext=gl.getExtension('WEBGL_debug_renderer_info');return {width:c.width,height:c.height,contextLost:gl.isContextLost(),renderer:ext?gl.getParameter(ext.UNMASKED_RENDERER_WEBGL):gl.getParameter(gl.RENDERER)};});
-    report.captures=[];report.fixedViewMethod='UI intent followed by explicit camera/target via existing app API. These fixed-view captures do not pass animation-transition smoothness.';
+    report.captures=[];report.fixedViewMethod='Explicit camera/target and guide state through the existing app API; not an assertion that native input or transition smoothness passed.';
     async function capture(name){const file=path.join(out,`${name}.png`);await page.screenshot({path:file,timeout:45000});const state=await page.evaluate(()=>window.reef3d.getState());report.captures.push({file:`${name}.png`,sha256:sha(await fs.readFile(file)),state});await save();}
     async function fixedCamera(position,target,free=true){
       await page.evaluate(({position,target,free})=>{const r=window.reef3d;if(free)r.leaveGuide();r.setTour(false);r.camera.position.set(...position);r.controls.target.set(...target);r.controls.update();r.camera.updateMatrixWorld();},{position,target,free});
+      const actual=await page.evaluate(()=>window.reef3d.getState());
+      if(actual.camera.some((v,i)=>Math.abs(v-position[i])>.001)||actual.target.some((v,i)=>Math.abs(v-target[i])>.001))throw Error('Application constrained the requested camera; not the claimed fixed viewpoint');
       await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(()=>resolve(true)))));
     }
-    await fixedCamera([1.5,1.6,4.8],[-.5,.8,-6],false);await capture('01-opening-guide');
-    await page.locator('#guideExplore').click();await capture('02-opening-free');
+    const planned=viewSet==='passage'?[{name:'departure',p:[1.5,2.1,4.8],t:[-.5,.8,-6]},{name:'midway',p:[0,2.7,-18],t:[-1.5,1,-31]},{name:'look-back',p:[-3.8,3.6,-36],t:[0,.9,-8]}]:[{name:'opening',p:[1.5,1.6,4.8],t:[-.5,.8,-6]},{name:'reverse',p:[-8,3.7,-11],t:[0,.9,0]},{name:'close',p:[1.6,1.8,5.8],t:[-2,.9,0]}];
+    await page.evaluate(()=>window.reef3d.leaveGuide());
+    report.plannedViews=planned;
+    for(let i=0;i<planned.length;i++){const v=planned[i];await fixedCamera(v.p,v.t);await capture(`${i+1}-${v.name}`);}
+    const v=planned[0];await fixedCamera(v.p,v.t);
     const fish=()=>page.evaluate(()=>{const a=[];window.reef3d.root.traverse(o=>{if(/^fish_\d+$/.test(o.name))a.push({name:o.name,position:o.position.toArray()});});return a;});
-    const before=await fish();await page.waitForTimeout(8000);const after=await fish();report.animation={sampleSeconds:8,before,after,positionsChanged:JSON.stringify(before)!==JSON.stringify(after)};await capture('03-opening-after-animation');
-    await page.locator('[data-view="1"]').click();await fixedCamera([-8,3.7,-11],[0,.9,0]);await capture('04-reverse');
-    await page.locator('[data-view="2"]').click();await fixedCamera([1.6,1.8,5.8],[-2,.9,0]);await capture('05-close');
-    await fixedCamera([-20.5,1.6,0],[-6.9,.3,0]);await capture('06-reachable-sand-edge');
-    await page.locator('#guideEntry').click();await page.locator('[data-guide="1"]').click();await fixedCamera([2.4,2.3,7.2],[-1.1,.02,2.7],false);await capture('07-seabed-guide');
+    const before=await fish();await page.waitForTimeout(8000);const after=await fish();report.animation={sampleSeconds:8,before,after,positionsChanged:JSON.stringify(before)!==JSON.stringify(after)};await capture('4-after-animation');
+    await page.evaluate(()=>window.reef3d.goGuide(1));await fixedCamera([2.4,2.3,7.2],[-1.1,.02,2.7],false);await capture('5-seabed-guide');
     report.guideMarkers=await page.locator('#focusMarker, #focusMarkerSecondary').evaluateAll(es=>es.map(e=>({hidden:e.hidden,text:e.textContent,rect:e.getBoundingClientRect().toJSON()})));
     report.passed=report.pageErrors.length===0&&report.consoleErrors.length===0&&report.failedRequests.length===0&&report.httpErrors.length===0&&report.animation.positionsChanged&&!report.actualCanvas.contextLost;
     if(!report.passed)throw Error('Runtime error, failed request, lost context or unchanged animation; inspect evidence');

@@ -1,6 +1,6 @@
 {
   ".github/workflows/pages.yml": "6084fb57bee443ab3100964d990659f581007242cfab94d70454b005f36d7bea",
-  ".github/workflows/render-check.yml": "2eeb2c3662b186b319206bf0dd21d4b7d01b955486506d8b06d8efe87135fef0",
+  ".github/workflows/render-check.yml": "c5f7d4a7286609ab36e640cf93b728c7614846e38f2b4525044645a37564cdcb",
   ".gitignore": "08a47475a2c7ca64e6268652e1e4deaac7cc637cd114810609a799b825be343e",
   "ITERATION_LOG.md": "3ef6f7c45217c2d09b85566353196051861b99ef80b7fb3b9b5b1a89c67b89dd",
   "README.md": "cd0b16114b8d602babfd796b10640ec0239569669f9a44ed0455f341f23e7ad9",
@@ -144,9 +144,9 @@
   "render_reimport_evidence.py": "0996a12bd99c4c6fd131187e28870fd92467643e2880cf9b7ab073b82a02341a",
   "requirements-modeling.txt": "e32056a5263b5972e789540468f3d3e1e8e2d1649d21ef65e814317727be4897",
   "source-model.glb": "ce6a7bc4d005ecd794d378c792d5d05d79f4683b10a2d3446333e6053ead4d21",
-  "tests/browser/README.md": "db430a8e8b3e1c08e4fe02626601e16bb865d20d522131591c771f9ed691b078",
+  "tests/browser/README.md": "c7e4749291e2ab377507b1d288311d822402ac9e131b99338e163d847da2aad6",
   "tests/browser/package-lock.json": "ed862f6968bdcdccd62f1a5517d1f50e5943fde0d2fbf6359088e02e38cd3584",
   "tests/browser/package.json": "5c8f0ec76ab16b508bf8d74ea224c6047869ea7fd9a811cd99d6d1b2fbf3f401",
-  "tests/browser/verify-pages.mjs": "7fc85cb5ccdfb16ef00d67d2e08d2d2da57ba6b68de8b9f2ee62a4a934fe1640",
+  "tests/browser/verify-pages.mjs": "116b3f8fe323fb533537a47aa5ee2d0de706e147edc377a77b67cb81e593d87a",
   "texture-provenance.json": "b68f94ecc043f023f6b7cc07b8291c60829285f252923da0f390030991ad0076"
 }
