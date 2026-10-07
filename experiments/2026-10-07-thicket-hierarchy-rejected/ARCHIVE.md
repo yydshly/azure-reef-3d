@@ -1,13 +1,12 @@
 # Rejected thicket experiment archive
 
-All 25 original allowlisted files are preserved byte for byte; SHA256SUMS and the original manifest remain valid. The README is the original author record, including its historical workspace examples. No candidate geometry was integrated. Production stays at public commit db1f92122b39ba67cf0ec1d468bc89b7c09bd516 (Site source 480d20f7).
+All 25 original allowlisted files were verified before copying. One README unit correction replaces the uncalibrated “m” with “local scene units (not a calibrated real-world length)”; proof values and scripts remain unchanged. SHA256SUMS and manifest.json preserve the original input hashes, so the corrected README intentionally differs. archive-file-sha256.json records the final archive bytes. The README is the original author record, including its historical workspace examples. No candidate geometry was integrated. Production stays at public commit db1f92122b39ba67cf0ec1d468bc89b7c09bd516 (Site source 480d20f7).
 
 For a portable replay, start in this directory in a clone of the public repository. The existing root source-model.glb has SHA256 c12624b2f1da3add8f801421b161daaa5ef9177f7f6edf8ce1a3d1ae7caf66dd. With the documented Blender/Python dependencies:
 
 ```sh
 REEF_SOURCE="$(realpath ../../source-model.glb)"
 REEF_OUT="$(mktemp -d)"
-sha256sum -c SHA256SUMS
 blender -b -t 4 --python-exit-code 1 --python build_candidate.py -- --source "$REEF_SOURCE" --out "$REEF_OUT"
 python verify_replacement.py --source "$REEF_SOURCE" --out "$REEF_OUT"
 sha256sum "$REEF_OUT/replacement.glb"

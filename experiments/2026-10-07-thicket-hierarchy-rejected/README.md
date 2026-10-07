@@ -16,7 +16,7 @@ The retained budget is 22,168 rendered triangles, 21 basal shoots, 171 source se
 
 ## Two recorded stages
 
-1. The initial fixed construction deformed the retained graph into unequal branch masses and stronger taper. Its global envelope limiter returned zero: source terminal segment 13, rooted at root #1, moved its extreme tip 0.015116095542907715 m beyond the original local −Y boundary. Fifteen vertex coordinates on this single segment failed; the remaining 170 segments and 20 complete root subtrees were within the box. Exact source replay passed, so this was an authored-direction/constraint problem, not floating-point replay error. The original failure proof and recipe remain unchanged.
+1. The initial fixed construction deformed the retained graph into unequal branch masses and stronger taper. Its global envelope limiter returned zero: source terminal segment 13, rooted at root #1, moved its extreme tip 0.015116095542907715 local scene units (not a calibrated real-world length) beyond the original local −Y boundary. Fifteen vertex coordinates on this single segment failed; the remaining 170 segments and 20 complete root subtrees were within the box. Exact source replay passed, so this was an authored-direction/constraint problem, not floating-point replay error. The original failure proof and recipe remain unchanged.
 2. The one authorized constraint correction froze the complete root #1 subtree in its original accepted geometry and radii. The other 20 subtree specifications were unchanged. This passed the hard gates, then failed the visual gate. There was no parameter scan, second geometry revision, population expansion, texture replacement or global palette change.
 
 ## Verified hard gates
