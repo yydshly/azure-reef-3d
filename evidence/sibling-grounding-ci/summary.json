@@ -1,0 +1,14 @@
+{
+  "successfulRun": 37687661092,
+  "failedHarnessRun": 37686976815,
+  "technicalPassed": true,
+  "onlyChange": "Depth_Staghorn_Linked_01_1.position.y .5899999737739563 -> .4877548419755352",
+  "allGeometryAttributesIndicesMaterialsOtherTransformsMatched": true,
+  "node78Preserved": true,
+  "cameraFishTimeMatched": true,
+  "visualDecision": "Pending review",
+  "limitations": [
+    "Two API-fixed software-rendered views, not preset-navigation/performance acceptance",
+    "Initial failure was test variable shadowing before application load; no screenshots then"
+  ]
+}
