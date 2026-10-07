@@ -14,7 +14,7 @@
 
 A static, genuine-3D reef scene with a five-stop Chinese beginner guide. The guide connects camera positions and visible labels to explanations of reef context, sand/hardbottom, coral animals, generic fish, and light/water. Sources and modeling limits are available in the interface.
 
-This export includes source commit `084c82e9a2f5a9df2582ecfcfb025ec83833dc2e`. Every file under `dist/` is byte-identical to that scene snapshot; see `docs/source-baseline-sha256.json` and `docs/export-changes.json`.
+This export includes source commit `084c82e9a2f5a9df2582ecfcfb025ec83833dc2e`. The scene/model baseline is recorded in `docs/source-baseline-sha256.json`; later GitHub interface and verification-tool changes are recorded separately in `docs/export-changes.json`.
 
 ## Run the exact snapshot
 
@@ -164,3 +164,7 @@ Model packages now have immutable content/version URLs. Pages responses were obs
 ## Current exact model reproduction
 
 Use `modeling/junction-repair/README.md` for the accepted correction and verified deterministic rebuild, then run `compact_source_model.py` as documented to remove only unused source storage. The preceding GLB is in this repository’s history; earlier pipelines and inputs remain preserved. `dist/model-version.js` selects one immutable model directory containing all glTF dependencies. Legacy fixed paths are retained for cached clients.
+
+## Separate 2.5D display
+
+页面新增“图片动画展示（2.5D）”入口，打开既有私有展示站 https://azure-coral-garden.yydshly.chatgpt.site/ 。该站仍需要 ChatGPT 登录且仅项目所有者可见。它仅用于独立效果呈现，不作为科学资料或三维建模参考；访问权限及托管位置均未改变。

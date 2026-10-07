@@ -9,3 +9,5 @@
 .focus-marker span{position:absolute;left:14px;top:-14px;min-width:0;width:max-content;max-width:230px;line-height:1.4;font-size:14px}
 .focus-marker-above span{left:auto;right:14px;top:auto;bottom:14px}
 @media(max-width:700px){.focus-marker span{max-width:155px}.focus-marker-above span{bottom:14px}}
+
+.legacy-version{position:absolute;left:38px;bottom:30px;z-index:2;font-size:12px;text-decoration:none;color:#bdd9d8;line-height:1.6}.legacy-version small{display:block;font-size:10px;color:#96b7be}.legacy-version:hover{color:#fff}@media(max-width:900px){.legacy-version{left:18px;top:86px;bottom:auto;font-size:11px}.legacy-version small{font-size:9px}.view-label{top:144px}}

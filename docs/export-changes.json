@@ -88,6 +88,9 @@
     {
       "change": "Repair accepted original continuation joints, preserve thicket layouts, losslessly compact unused source storage, version all runtime model dependencies for cache safety; failed intermediate release never published.",
       "source": "084c82e9a2f5a9df2582ecfcfb025ec83833dc2e"
+    },
+    {
+      "change": "Add explicitly requested separate 2.5D display link with owner-only ChatGPT login notice; no model, shader, source-reference or audience changes."
     }
   ],
   "added_inputs": [
