@@ -1,0 +1,42 @@
+[
+  {
+    "path": "SOURCE_REPORT.md",
+    "sha256": "0d97ace8ca5b10223eafa94d427be74d4bd3da5893e04edc5c76465b2da158fb",
+    "bytes": 5003
+  },
+  {
+    "path": "back_y_plus.png",
+    "sha256": "55e342b61fda93b5753384680926a93942ca94ee3926b0f1ef49e0636fcb2714",
+    "bytes": 901357
+  },
+  {
+    "path": "blender-inspection.json",
+    "sha256": "5999fa49b1ef99d454feafb24d3cb08b9fe205d3478a5eb98fdf1890439575cb",
+    "bytes": 851
+  },
+  {
+    "path": "bottom_z_minus.png",
+    "sha256": "40ea67bccb438ed5db796a83e68846d3bfac44c79446bee8a13da440cf23652b",
+    "bytes": 838264
+  },
+  {
+    "path": "download-inspection.json",
+    "sha256": "1433ff423068b213a158afa408d48fd0a97567cc1e22d35d35ac8751a00fada8",
+    "bytes": 1493
+  },
+  {
+    "path": "front_y_minus.png",
+    "sha256": "0eb44153087be8e481ec36daf5b219aff2412b194e3e2eb714628c47e77b03ee",
+    "bytes": 875894
+  },
+  {
+    "path": "glb-structure.json",
+    "sha256": "bb1fe651e6196ee635a52e8a48059244f7648161ab756f8ee4e3dce56ae74a6c",
+    "bytes": 2608
+  },
+  {
+    "path": "right_x_plus.png",
+    "sha256": "a3f6710566b22771127c814a560586ad8d23aef65b54be9f9b52a8086f55e5f3",
+    "bytes": 721155
+  }
+]

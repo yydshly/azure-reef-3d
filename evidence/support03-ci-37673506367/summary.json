@@ -1,0 +1,40 @@
+{
+  "run": 37673506367,
+  "technicalPassed": true,
+  "pairControlsAndMaterialTransformMatched": true,
+  "targetIndexCount": [
+    144150,
+    44280
+  ],
+  "otherSupportsIndexCount": 144150,
+  "renderer": {
+    "midwayTriangles": [
+      1625616,
+      1559036
+    ],
+    "closeTriangles": [
+      1471043,
+      1404463
+    ],
+    "callsUnchanged": [
+      117,
+      94
+    ],
+    "geometries": [
+      69,
+      70
+    ],
+    "textures": [
+      16,
+      16
+    ]
+  },
+  "font": "Verified licensed Reef QA CJK fixture, product CSS unchanged",
+  "visualDecision": "Limited static comparisons show no obvious additional simplification degradation. Not adopted for production or performance. Both arms expose a pre-existing branch-base gap; a separate grounding correction will use the original high-resolution support. No added performance trial.",
+  "limits": [
+    "Only2 fixed cameras4 images; no native performance measurement",
+    "Single instance saves33290 source triangles; actual renderer difference includes passes",
+    "Original shared mesh remains allocated;432556-byte separate asset added",
+    "API-set diagnostic camera does not update the existing departure heading; images do not validate native preset navigation."
+  ]
+}

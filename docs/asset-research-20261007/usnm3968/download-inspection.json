@@ -1,0 +1,81 @@
+{
+  "file": "usnm_3968-100k-2048_std.glb",
+  "bytes": 5181748,
+  "sha256": "aeda71264fd0ee7e503f375e9f18e60ad930c636e3204984e8ec4f32ae136341",
+  "glbVersion": 2,
+  "asset": {
+    "generator": "MeshSmith mesh conversion tool",
+    "version": "2.0"
+  },
+  "nodes": [
+    {
+      "mesh": 0
+    }
+  ],
+  "meshes": [
+    {
+      "name": null,
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "images": [
+    {
+      "bufferView": 4,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "bufferView": 5,
+      "mimeType": "image/jpeg"
+    },
+    {
+      "bufferView": 6,
+      "mimeType": "image/jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "name": "default",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.100000001490116,
+        "roughnessFactor": 0.800000011920929
+      }
+    }
+  ],
+  "positionAccessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 56442,
+      "max": [
+        0.162128001451492,
+        0.139136001467705,
+        0.131834000349045
+      ],
+      "min": [
+        -0.162165001034737,
+        -0.139157995581627,
+        -0.131925001740456
+      ],
+      "type": "VEC3"
+    }
+  ]
+}

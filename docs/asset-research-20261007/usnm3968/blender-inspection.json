@@ -1,0 +1,38 @@
+{
+  "source_units": "meters, official visible download link label",
+  "blender_axes": "X source X; Y negative source Z; Z source Y (glTF import basis conversion only)",
+  "bounds_min_m": [
+    -0.16216500103473663,
+    -0.1318340003490448,
+    -0.1391579955816269
+  ],
+  "bounds_max_m": [
+    0.1621280014514923,
+    0.13192500174045563,
+    0.13913600146770477
+  ],
+  "dimensions_m": [
+    0.32429301738739014,
+    0.2637590169906616,
+    0.27829399704933167
+  ],
+  "objects": [
+    {
+      "name": "Mesh_0",
+      "location": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vertices": 56442,
+      "polygons": 100000,
+      "triangles": 100000
+    }
+  ],
+  "changes": "No geometry, scale, texture or material edits. Added cameras, illumination and world for inspection only."
+}

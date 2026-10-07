@@ -235,3 +235,9 @@ Hide redundant floating marker only during skeleton inspection; ordinary guide m
 ## 2026-10-07 · Single-fan current rejected
 
 [Rejected bounded motion study](experiments/2026-10-07-fan-current-rejected/README.md): fixed0/±.04 phases compiled and roots stayed attached, but actual whole-view/native frames remained nearly static. Owner and independent review reject perceptible-life improvement. Actual fixed-view calls/triangles were unchanged, with one additional geometry and two programs; source scene counts are distinct from renderer counts. The24.84-second/10-RAF record is not performance acceptance. Apt cancellation and missing-CJK-font limitation are preserved. No deployment or amplitude sweep.
+
+## 2026-10-07 · Support03 fixed-view budget study, not adopted
+
+Run37673506367 passes4 actual software-WebGL comparisons, isolated target index144150→44280 and unchanged materials/transforms. Owner finds no obvious added degradation, but this is not a performance or production acceptance: original shared geometry remains allocated, one geometry and432556 bytes are added, calls unchanged. Both arms reveal an existing branch-base gap; a separate grounding correction keeps the original high-resolution support. Evidence is in evidence/support03-ci-37673506367; exact candidate remains on qa/support03.
+
+[USNM3968 source study](docs/asset-research-20261007/usnm3968/SOURCE_REPORT.md) verifies an official CC0, recorded-meter-unit dry specimen with a rectangular artificial base. Four original-scale offline views are archived, without the source GLB or production import. It is not adopted as a complete live colony or main reef asset.
