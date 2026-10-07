@@ -1,0 +1,8 @@
+{
+  "baseline_source": "527ef99",
+  "changed_dist_files": [
+    "dist/inhabited-reef.js"
+  ],
+  "original_geometry_textures_fish_water_camera_guide_files": "byte-identical",
+  "candidate_uses_no_rejected_lod_assets": true
+}

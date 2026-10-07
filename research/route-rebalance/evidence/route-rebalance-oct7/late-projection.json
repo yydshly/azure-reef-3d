@@ -1,0 +1,137 @@
+{
+  "scope": "Source projection only; actual silhouette, occlusion and attachment require browser review",
+  "layout": [
+    {
+      "id": "NearLeft",
+      "position": [
+        -4.8,
+        0.09174240518222349,
+        -10
+      ],
+      "yaw": 1.3,
+      "omit": "Attached_small_fan_form"
+    },
+    {
+      "id": "FarRight",
+      "position": [
+        3.5,
+        -0.015196346640586854,
+        -44
+      ],
+      "yaw": 1.3,
+      "omit": "Attached_reticulate_fan_form"
+    },
+    {
+      "id": "Middle",
+      "position": [
+        -4.8,
+        -0.06576677229367059,
+        -26
+      ],
+      "yaw": -0.2
+    }
+  ],
+  "totalTriangles": 1435053,
+  "meshCount": 82,
+  "snapshots": [
+    {
+      "progress": 0.67,
+      "camera": [
+        -1.4581217364438697,
+        3.090075441397252,
+        -26.801002991816027
+      ],
+      "target": [
+        -3.302698178658514,
+        0.7,
+        -40.212279484622094
+      ],
+      "forms": [
+        {
+          "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+          "ndc": [
+            0.4604593318432647,
+            0.7427058787795194,
+            -0.15044665511585936,
+            0.19686811601053797
+          ]
+        },
+        {
+          "name": "Inhabited_FarRight_Attached_small_fan_form",
+          "ndc": [
+            0.5079307410160366,
+            0.5519085954302352,
+            -0.022756688911380316,
+            0.1007787820485905
+          ]
+        }
+      ]
+    },
+    {
+      "progress": 0.75,
+      "camera": [
+        -2.208167284183959,
+        3.259500550508243,
+        -30.006196517022275
+      ],
+      "target": [
+        -3.835229074543919,
+        0.7,
+        -42.26543655798051
+      ],
+      "forms": [
+        {
+          "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+          "ndc": [
+            0.5820908036909497,
+            0.9686847669381051,
+            -0.26900434454720484,
+            0.18589069319523593
+          ]
+        },
+        {
+          "name": "Inhabited_FarRight_Attached_small_fan_form",
+          "ndc": [
+            0.6670879159997031,
+            0.733880566133217,
+            -0.10188641890576695,
+            0.05362513878922301
+          ]
+        }
+      ]
+    },
+    {
+      "progress": 0.85,
+      "camera": [
+        -3.2737223823192974,
+        3.48703100692189,
+        -34.00160650441318
+      ],
+      "target": [
+        -3.9302818272149143,
+        0.7,
+        -43.980029711279
+      ],
+      "forms": [
+        {
+          "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+          "ndc": [
+            0.7387126872294264,
+            1.381661362924525,
+            -0.5086087867298883,
+            0.18688406723037243
+          ]
+        },
+        {
+          "name": "Inhabited_FarRight_Attached_small_fan_form",
+          "ndc": [
+            0.931984059556176,
+            1.0609704115931018,
+            -0.25204476428355993,
+            -0.03543426432619606
+          ]
+        }
+      ]
+    }
+  ]
+}

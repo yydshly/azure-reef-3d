@@ -1,0 +1,2351 @@
+[
+  {
+    "position": [
+      4.8,
+      0.11285548567771911,
+      -44
+    ],
+    "yaw": 1.3,
+    "burial": [
+      0.14688066482543946,
+      0.10029239936732118,
+      0.04000000000000001,
+      0.12143389225006104
+    ],
+    "open": [
+      1.2328554844856263,
+      1.5328554844856261
+    ],
+    "fanVisible": true,
+    "score": 0.14688066482543946,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": 0.11285548567771911,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.5703408938919419,
+              -0.13767065317644525
+            ],
+            "hi": [
+              0.8747202416844521,
+              0.21259693270157143
+            ],
+            "widthPixels": 170.4524347638057
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.6353400382847714,
+              -0.008373808639503726
+            ],
+            "hi": [
+              0.6865273676206971,
+              0.1168533831072356
+            ],
+            "widthPixels": 28.66490442811841
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.7156414735710336,
+              -0.2549689459652137
+            ],
+            "hi": [
+              1.148890413612638,
+              0.20440793835017707
+            ],
+            "widthPixels": 242.61940642329853
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.8299784083751237,
+              -0.0858479637967971
+            ],
+            "hi": [
+              0.9090619363883627,
+              0.07234865928637213
+            ],
+            "widthPixels": 44.28677568741386
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 28.66490442811841
+  },
+  {
+    "position": [
+      3.5,
+      0.11285548567771911,
+      -44
+    ],
+    "yaw": 0.6,
+    "burial": [
+      0.14688066482543946,
+      0.18441759158928353,
+      0.04000000000000001,
+      0.12143389225006104
+    ],
+    "open": [
+      1.2328554844856263,
+      1.5328554844856261
+    ],
+    "fanVisible": true,
+    "score": 0.18441759158928353,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": 0.11285548567771911,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.363545880167819,
+              -0.10443634662881963
+            ],
+            "hi": [
+              0.7657739291814903,
+              0.21544654153934617
+            ],
+            "widthPixels": 225.24770744765593
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.43399236680155323,
+              0.0309606417721174
+            ],
+            "hi": [
+              0.4501603161914613,
+              0.14352533406540757
+            ],
+            "widthPixels": 9.054051658348516
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.47740574976864225,
+              -0.20248558011391116
+            ],
+            "hi": [
+              0.9707869314257217,
+              0.2092279514618227
+            ],
+            "widthPixels": 276.2934617279645
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.5649635217916644,
+              -0.020596649618856426
+            ],
+            "hi": [
+              0.585591094952841,
+              0.11805378939039735
+            ],
+            "widthPixels": 11.551440970258886
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 9.054051658348516
+  },
+  {
+    "position": [
+      3.5,
+      -0.015196346640586854,
+      -40
+    ],
+    "yaw": 0.6,
+    "burial": [
+      0.2749324971437454,
+      0.04,
+      0.16805183231830598,
+      0.249485724568367
+    ],
+    "open": [
+      1.1048036521673201,
+      1.4048036521673202
+    ],
+    "fanVisible": true,
+    "score": 0.2749324971437454,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": -0.015196346640586854,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.4138481209007583,
+              -0.3043199093942026
+            ],
+            "hi": [
+              0.9352723003424717,
+              0.1340683411177904
+            ],
+            "widthPixels": 291.9975404873595
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.5073733240136674,
+              -0.10812752022779198
+            ],
+            "hi": [
+              0.527239109988717,
+              0.03811094093410584
+            ],
+            "widthPixels": 11.124840146027788
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.5928944132610623,
+              -0.5550169549948968
+            ],
+            "hi": [
+              1.2907473904646831,
+              0.07061243628318674
+            ],
+            "widthPixels": 390.79766723402764
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.7122607571896734,
+              -0.25472552187665526
+            ],
+            "hi": [
+              0.7467797741344594,
+              -0.0620425958860409
+            ],
+            "widthPixels": 19.33064948908015
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 11.124840146027788
+  },
+  {
+    "position": [
+      3.5,
+      -0.015196346640586854,
+      -44
+    ],
+    "yaw": 1.3,
+    "burial": [
+      0.2749324971437454,
+      0.04,
+      0.16805183231830598,
+      0.249485724568367
+    ],
+    "open": [
+      1.1048036521673201,
+      1.4048036521673202
+    ],
+    "fanVisible": true,
+    "score": 0.2749324971437454,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": -0.015196346640586854,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.4604593318432647,
+              -0.15044665511585936
+            ],
+            "hi": [
+              0.7427058787795194,
+              0.19686811601053797
+            ],
+            "widthPixels": 158.05806628430264
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.5079307410160366,
+              -0.022756688911380316
+            ],
+            "hi": [
+              0.5519085954302352,
+              0.1007787820485905
+            ],
+            "widthPixels": 24.62759847195119
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.5820908036909497,
+              -0.26900434454720484
+            ],
+            "hi": [
+              0.9686847669381051,
+              0.18589069319523593
+            ],
+            "widthPixels": 216.49261941840706
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.6670879159997031,
+              -0.10188641890576695
+            ],
+            "hi": [
+              0.733880566133217,
+              0.05362513878922301
+            ],
+            "widthPixels": 37.403884074767774
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": true,
+    "minimumFanPixels": 24.62759847195119
+  },
+  {
+    "position": [
+      4.8,
+      0.19428937792778014,
+      -44
+    ],
+    "yaw": 0.6,
+    "burial": [
+      0.06544677257537843,
+      0.6844480046352104,
+      0.11275219457069355,
+      0.04000000000000001
+    ],
+    "open": [
+      1.3142893767356874,
+      1.6142893767356872
+    ],
+    "fanVisible": true,
+    "score": 0.6844480046352104,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": 0.19428937792778014,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.4823469308594484,
+              -0.09821593929608252
+            ],
+            "hi": [
+              0.8848269127077735,
+              0.22482044751053318
+            ],
+            "widthPixels": 225.38878983506203
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.5537903588300304,
+              0.03828621002303787
+            ],
+            "hi": [
+              0.5697588471515078,
+              0.1522136232321892
+            ],
+            "widthPixels": 8.942353460027377
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.6258734793219267,
+              -0.19693577687693636
+            ],
+            "hi": [
+              1.1268832025408388,
+              0.21994556051227082
+            ],
+            "widthPixels": 280.56544500259076
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.7117143167603122,
+              -0.012998148018200848
+            ],
+            "hi": [
+              0.7364355033068251,
+              0.12769336058067227
+            ],
+            "widthPixels": 13.843864466047222
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 8.942353460027377
+  },
+  {
+    "position": [
+      6,
+      0.19428937792778014,
+      -44
+    ],
+    "yaw": 0.6,
+    "burial": [
+      0.06544677257537843,
+      1.2503841632768153,
+      0.58568538394898,
+      0.04000000000000001
+    ],
+    "open": [
+      1.3142893767356874,
+      1.4969505226232025
+    ],
+    "fanVisible": true,
+    "score": 1.2503841632768153,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": 0.19428937792778014,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.5935797187177644,
+              -0.10365214072746405
+            ],
+            "hi": [
+              1.0002358089484038,
+              0.223029489764831
+            ],
+            "widthPixels": 227.72741052915808
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.6638749351537909,
+              0.03461828809354294
+            ],
+            "hi": [
+              0.6821010773271903,
+              0.14966399340008493
+            ],
+            "widthPixels": 10.206639617103637
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.7650437265236583,
+              -0.20574254499396671
+            ],
+            "hi": [
+              1.2734315331057953,
+              0.21692621256532987
+            ],
+            "widthPixels": 284.69717168599675
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.8496554953491974,
+              -0.01881760129927466
+            ],
+            "hi": [
+              0.8788394571998387,
+              0.123504112490719
+            ],
+            "widthPixels": 16.343018636359137
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 10.206639617103637
+  },
+  {
+    "position": [
+      6,
+      0.11068783352661729,
+      -40
+    ],
+    "yaw": 1.3,
+    "burial": [
+      0.14904831697654128,
+      0.04000000000000001,
+      0.042167652151101825,
+      0.12360154440116286
+    ],
+    "open": [
+      1.2306878323345245,
+      1.5306878323345243
+    ],
+    "fanVisible": false,
+    "score": 10.149048316976542,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": 0.11068783352661729,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.8053587258552074,
+              -0.34958859747597687
+            ],
+            "hi": [
+              1.3079116100994845,
+              0.1484648124980229
+            ],
+            "widthPixels": 281.4296151767952
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.9467181518163961,
+              -0.1638087682916643
+            ],
+            "hi": [
+              1.0407611173201083,
+              0.007649612910215898
+            ],
+            "widthPixels": 52.66406068207887
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              1.07550524023544,
+              -0.6700041607089469
+            ],
+            "hi": [
+              1.9379341082641095,
+              0.08459069052460104
+            ],
+            "widthPixels": 482.960166096055
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              1.3595861979522232,
+              -0.3793914928027289
+            ],
+            "hi": [
+              1.5383247994453997,
+              -0.14101005158003777
+            ],
+            "widthPixels": 100.09361683617881
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 52.66406068207887
+  },
+  {
+    "position": [
+      4.8,
+      0.11285548567771911,
+      -40
+    ],
+    "yaw": 0.6,
+    "burial": [
+      0.14688066482543946,
+      0.15919766914346248,
+      0.04000000000000001,
+      0.12143389225006104
+    ],
+    "open": [
+      1.2328554844856263,
+      1.5328554844856261
+    ],
+    "fanVisible": false,
+    "score": 10.159197669143463,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": 0.11285548567771911,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.5709017799746162,
+              -0.29010536069093107
+            ],
+            "hi": [
+              1.1008159319327158,
+              0.15361026928757995
+            ],
+            "widthPixels": 296.75192509653573
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.6624606686694452,
+              -0.09218812658348333
+            ],
+            "hi": [
+              0.6861732516917735,
+              0.056536057728716005
+            ],
+            "widthPixels": 13.279046492503825
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.804874628880976,
+              -0.5424746725632617
+            ],
+            "hi": [
+              1.5206129674153954,
+              0.09426683118661304
+            ],
+            "widthPixels": 400.81346957927485
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.922015297465491,
+              -0.2375230043093875
+            ],
+            "hi": [
+              0.9664910118758224,
+              -0.04053079057245717
+            ],
+            "widthPixels": 24.906400069785573
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 13.279046492503825
+  },
+  {
+    "position": [
+      3.5,
+      -0.015196346640586854,
+      -36
+    ],
+    "yaw": 0.6,
+    "burial": [
+      0.2749324971437454,
+      0.04,
+      0.16805183231830598,
+      0.249485724568367
+    ],
+    "open": [
+      1.1048036521673201,
+      1.4048036521673202
+    ],
+    "fanVisible": false,
+    "score": 10.274932497143745,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": -0.015196346640586854,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.5107864226685842,
+              -0.6755970729012428
+            ],
+            "hi": [
+              1.2691591592095322,
+              0.014279208427036106
+            ],
+            "widthPixels": 424.68873246293083
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.642287220084359,
+              -0.338686803093762
+            ],
+            "hi": [
+              0.6754799879795896,
+              -0.12889492685932882
+            ],
+            "widthPixels": 18.58795002132915
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.8683389353960905,
+              -1.5135036092912852
+            ],
+            "hi": [
+              2.0889317489844426,
+              -0.18592388163827592
+            ],
+            "widthPixels": 683.5319756094772
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              1.058041355735261,
+              -0.7635693815907353
+            ],
+            "hi": [
+              1.1448391823102726,
+              -0.4423879293078136
+            ],
+            "widthPixels": 48.60678288200647
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 18.58795002132915
+  },
+  {
+    "position": [
+      3.5,
+      -0.015196346640586854,
+      -36
+    ],
+    "yaw": 1.3,
+    "burial": [
+      0.2749324971437454,
+      0.04,
+      0.16805183231830598,
+      0.249485724568367
+    ],
+    "open": [
+      1.1048036521673201,
+      1.4048036521673202
+    ],
+    "fanVisible": false,
+    "score": 10.274932497143745,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": -0.015196346640586854,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.6601832045935713,
+              -0.7956590908280069
+            ],
+            "hi": [
+              1.3520324824767507,
+              0.011413902603535763
+            ],
+            "widthPixels": 387.43559561458045
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.8187812497217343,
+              -0.4799379082833364
+            ],
+            "hi": [
+              0.9465067688222965,
+              -0.22735270772093588
+            ],
+            "widthPixels": 71.52629069631482
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              1.0032579857331316,
+              -1.9658811940576855
+            ],
+            "hi": [
+              2.7108738715085097,
+              -0.16571277739908788
+            ],
+            "widthPixels": 956.2648960342117
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              1.4658347562618688,
+              -1.1681137068635679
+            ],
+            "hi": [
+              1.8320711030846049,
+              -0.7319631100772398
+            ],
+            "widthPixels": 205.0923542207322
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 71.52629069631482
+  },
+  {
+    "position": [
+      3.5,
+      -0.015196346640586854,
+      -36
+    ],
+    "yaw": 2,
+    "burial": [
+      0.2749324971437454,
+      0.04,
+      0.16805183231830598,
+      0.249485724568367
+    ],
+    "open": [
+      1.1048036521673201,
+      1.4048036521673202
+    ],
+    "fanVisible": false,
+    "score": 10.274932497143745,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": -0.015196346640586854,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.5628435776600011,
+              -0.8830326978787698
+            ],
+            "hi": [
+              1.6707090463230352,
+              0.003625096301806508
+            ],
+            "widthPixels": 620.404662451299
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              1.1508146928257277,
+              -0.5736683620806312
+            ],
+            "hi": [
+              1.3828271649853887,
+              -0.2929886883820205
+            ],
+            "widthPixels": 129.92698440941018
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.8276932432072664,
+              -2.4429723870882403
+            ],
+            "hi": [
+              3.555993641998184,
+              -0.20797869426565377
+            ],
+            "widthPixels": 1527.8482233229138
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              2.2273106171192976,
+              -1.489749354001977
+            ],
+            "hi": [
+              2.8507313266963292,
+              -0.9781413611077211
+            ],
+            "widthPixels": 349.11559736313774
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 129.92698440941018
+  },
+  {
+    "position": [
+      3.5,
+      -0.015196346640586854,
+      -40
+    ],
+    "yaw": 1.3,
+    "burial": [
+      0.2749324971437454,
+      0.04,
+      0.16805183231830598,
+      0.249485724568367
+    ],
+    "open": [
+      1.1048036521673201,
+      1.4048036521673202
+    ],
+    "fanVisible": false,
+    "score": 10.274932497143745,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": -0.015196346640586854,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.5335241004289925,
+              -0.3518557082645838
+            ],
+            "hi": [
+              0.9310708424968673,
+              0.13255281318405332
+            ],
+            "widthPixels": 222.62617555800995
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.6112189115746658,
+              -0.17186057077331507
+            ],
+            "hi": [
+              0.6781796972758949,
+              -0.0059335663829543734
+            ],
+            "widthPixels": 37.49803999268829
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.718500460333054,
+              -0.6562551953875487
+            ],
+            "hi": [
+              1.366401775823106,
+              0.0678906013985772
+            ],
+            "widthPixels": 362.82473667442906
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.8834748949457886,
+              -0.37918310671898875
+            ],
+            "hi": [
+              1.0058972011359417,
+              -0.1511456672285553
+            ],
+            "widthPixels": 68.55649146648577
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 37.49803999268829
+  },
+  {
+    "position": [
+      3.5,
+      -0.015196346640586854,
+      -40
+    ],
+    "yaw": 2,
+    "burial": [
+      0.2749324971437454,
+      0.04,
+      0.16805183231830598,
+      0.249485724568367
+    ],
+    "open": [
+      1.1048036521673201,
+      1.4048036521673202
+    ],
+    "fanVisible": false,
+    "score": 10.274932497143745,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": -0.015196346640586854,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.46945630125956767,
+              -0.37794492552062975
+            ],
+            "hi": [
+              1.106205271776174,
+              0.12872873266705068
+            ],
+            "widthPixels": 356.57942348929953
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.8056112855541624,
+              -0.21051108303212557
+            ],
+            "hi": [
+              0.9324285988131914,
+              -0.03273027215799026
+            ],
+            "widthPixels": 71.01769542505625
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.6227006828488045,
+              -0.7264702052886225
+            ],
+            "hi": [
+              1.6504962584256313,
+              0.06048042025650283
+            ],
+            "widthPixels": 575.5655223230231
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              1.1893622630348113,
+              -0.4589637661224453
+            ],
+            "hi": [
+              1.3988658590609817,
+              -0.2085826524925017
+            ],
+            "widthPixels": 117.32201377465543
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 71.01769542505625
+  },
+  {
+    "position": [
+      3.5,
+      -0.015196346640586854,
+      -44
+    ],
+    "yaw": 2,
+    "burial": [
+      0.2749324971437454,
+      0.04,
+      0.16805183231830598,
+      0.249485724568367
+    ],
+    "open": [
+      1.1048036521673201,
+      1.4048036521673202
+    ],
+    "fanVisible": false,
+    "score": 10.274932497143745,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": -0.015196346640586854,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.41436398445091027,
+              -0.1638509963579418
+            ],
+            "hi": [
+              0.8575428696251163,
+              0.1946384736713968
+            ],
+            "widthPixels": 248.18017569755537
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.6443901273894816,
+              -0.043774175175121
+            ],
+            "hi": [
+              0.7305711139184559,
+              0.08631004017418266
+            ],
+            "widthPixels": 48.26135245622556
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.5180148540406496,
+              -0.29201021647243075
+            ],
+            "hi": [
+              1.1329666639140668,
+              0.1820707096118355
+            ],
+            "widthPixels": 344.3730135291136
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.8531609090948368,
+              -0.13740921873404535
+            ],
+            "hi": [
+              0.9734884822649625,
+              0.02832939786992679
+            ],
+            "widthPixels": 67.38344097527043
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 48.26135245622556
+  },
+  {
+    "position": [
+      4.8,
+      -0.015196346640586854,
+      -36
+    ],
+    "yaw": 0.6,
+    "burial": [
+      0.2749324971437454,
+      0.04,
+      0.16805183231830598,
+      0.249485724568367
+    ],
+    "open": [
+      1.1048036521673201,
+      1.4048036521673202
+    ],
+    "fanVisible": false,
+    "score": 10.274932497143745,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": -0.015196346640586854,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.7397805969303788,
+              -0.7020597404137009
+            ],
+            "hi": [
+              1.515691551054479,
+              0.0064112927049907505
+            ],
+            "widthPixels": 434.51013430949615
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.8667546899371397,
+              -0.3539284063801919
+            ],
+            "hi": [
+              0.9104354917561923,
+              -0.13997341154309523
+            ],
+            "widthPixels": 24.461249018669484
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              1.2304789972359127,
+              -1.5977984465364194
+            ],
+            "hi": [
+              2.590695748279009,
+              -0.20217167519617166
+            ],
+            "widthPixels": 761.7213805841341
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              1.414005905129384,
+              -0.8019553302805396
+            ],
+            "hi": [
+              1.5392181988438696,
+              -0.47081783561072404
+            ],
+            "widthPixels": 70.11888448011189
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 24.461249018669484
+  },
+  {
+    "position": [
+      4.8,
+      -0.015196346640586854,
+      -36
+    ],
+    "yaw": 1.3,
+    "burial": [
+      0.2749324971437454,
+      0.04,
+      0.16805183231830598,
+      0.249485724568367
+    ],
+    "open": [
+      1.1048036521673201,
+      1.4048036521673202
+    ],
+    "fanVisible": false,
+    "score": 10.274932497143745,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": -0.015196346640586854,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.855295475470209,
+              -0.8285185489404305
+            ],
+            "hi": [
+              1.6757635823452783,
+              0.003456197591663921
+            ],
+            "widthPixels": 459.4621398500388
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              1.083149163692157,
+              -0.5015657621822237
+            ],
+            "hi": [
+              1.244631139252899,
+              -0.24294426111817935
+            ],
+            "widthPixels": 90.4299063140155
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              1.2911506337738623,
+              -2.0983234356546516
+            ],
+            "hi": [
+              3.4910820753974225,
+              -0.18095652790063427
+            ],
+            "widthPixels": 1231.9616073091938
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              1.940019314624832,
+              -1.236249134028716
+            ],
+            "hi": [
+              2.4245315407524703,
+              -0.7816229927540348
+            ],
+            "widthPixels": 271.3268466314775
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 90.4299063140155
+  },
+  {
+    "position": [
+      4.8,
+      -0.015196346640586854,
+      -40
+    ],
+    "yaw": 1.3,
+    "burial": [
+      0.2749324971437454,
+      0.04,
+      0.16805183231830598,
+      0.249485724568367
+    ],
+    "open": [
+      1.1048036521673201,
+      1.4048036521673202
+    ],
+    "fanVisible": false,
+    "score": 10.274932497143745,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": -0.015196346640586854,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.6725944611644186,
+              -0.3645669480741822
+            ],
+            "hi": [
+              1.1216589661502792,
+              0.12874156099853587
+            ],
+            "widthPixels": 251.47612279208192
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.7822826318123777,
+              -0.18098495670176246
+            ],
+            "hi": [
+              0.8627022826053926,
+              -0.012473325410214968
+            ],
+            "widthPixels": 45.035004444088365
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.9002111776357751,
+              -0.682224003968336
+            ],
+            "hi": [
+              1.6537065115361391,
+              0.06061071999735976
+            ],
+            "widthPixels": 421.9573869842039
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              1.1242737809522165,
+              -0.3972578030158593
+            ],
+            "hi": [
+              1.274361908327503,
+              -0.16454070643143526
+            ],
+            "widthPixels": 84.04935133016046
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 45.035004444088365
+  },
+  {
+    "position": [
+      4.8,
+      -0.015196346640586854,
+      -40
+    ],
+    "yaw": 2,
+    "burial": [
+      0.2749324971437454,
+      0.04,
+      0.16805183231830598,
+      0.249485724568367
+    ],
+    "open": [
+      1.1048036521673201,
+      1.4048036521673202
+    ],
+    "fanVisible": false,
+    "score": 10.274932497143745,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": -0.015196346640586854,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.5987080207898205,
+              -0.3918380173133648
+            ],
+            "hi": [
+              1.3098637470455639,
+              0.1248093891693061
+            ],
+            "widthPixels": 398.24720670321625
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.994123689934141,
+              -0.22089912105429868
+            ],
+            "hi": [
+              1.1324675367012793,
+              -0.04015611788847514
+            ],
+            "widthPixels": 77.47255418959745
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.788234852999912,
+              -0.7565669111796114
+            ],
+            "hi": [
+              1.9649301591765929,
+              0.05293132054748233
+            ],
+            "widthPixels": 658.9493714589413
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              1.4652602836422897,
+              -0.4805938538623458
+            ],
+            "hi": [
+              1.6995791889097631,
+              -0.22457493479248877
+            ],
+            "widthPixels": 131.21858694978513
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 77.47255418959745
+  },
+  {
+    "position": [
+      4.8,
+      -0.015196346640586854,
+      -44
+    ],
+    "yaw": 2,
+    "burial": [
+      0.2749324971437454,
+      0.04,
+      0.16805183231830598,
+      0.249485724568367
+    ],
+    "open": [
+      1.0078709570858484,
+      1.4048036521673202
+    ],
+    "fanVisible": false,
+    "score": 10.274932497143745,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": -0.015196346640586854,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.5163601064066876,
+              -0.17074929330930905
+            ],
+            "hi": [
+              0.999859046266842,
+              0.19236840296729346
+            ],
+            "widthPixels": 270.7594063216864
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.7801321115145426,
+              -0.0492782965456798
+            ],
+            "hi": [
+              0.87219845516512,
+              0.0823849503305049
+            ],
+            "widthPixels": 51.55715244432329
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.6415010086395608,
+              -0.3040712571486699
+            ],
+            "hi": [
+              1.3223420609613445,
+              0.1783133165709102
+            ],
+            "widthPixels": 381.2709893001989
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              1.0294380264664664,
+              -0.14664604323501038
+            ],
+            "hi": [
+              1.1596792390710662,
+              0.02154560954989684
+            ],
+            "widthPixels": 72.93507905857587
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 51.55715244432329
+  },
+  {
+    "position": [
+      6,
+      -0.015196346640586854,
+      -36
+    ],
+    "yaw": 0.6,
+    "burial": [
+      0.2749324971437454,
+      0.04,
+      0.16805183231830598,
+      0.249485724568367
+    ],
+    "open": [
+      1.1048036521673201,
+      1.4048036521673202
+    ],
+    "fanVisible": false,
+    "score": 10.274932497143745,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": -0.015196346640586854,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.955712947880028,
+              -0.7276626358491437
+            ],
+            "hi": [
+              1.7525176517013659,
+              -0.0011371961529607639
+            ],
+            "widthPixels": 446.2106341399492
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              1.0811401139042705,
+              -0.3685619710657705
+            ],
+            "hi": [
+              1.1372916720204818,
+              -0.15061492293830764
+            ],
+            "widthPixels": 31.444872545078333
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              1.5807177858360262,
+              -1.6822071910468346
+            ],
+            "hi": [
+              3.096154366163939,
+              -0.21789403330105447
+            ],
+            "widthPixels": 848.6444849836312
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              1.7594285386237973,
+              -0.8395607497286051
+            ],
+            "hi": [
+              1.9306557802287827,
+              -0.4986690804223979
+            ],
+            "widthPixels": 95.88725529879181
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 31.444872545078333
+  },
+  {
+    "position": [
+      6,
+      -0.015196346640586854,
+      -36
+    ],
+    "yaw": 1.3,
+    "burial": [
+      0.2749324971437454,
+      0.04,
+      0.16805183231830598,
+      0.249485724568367
+    ],
+    "open": [
+      1.066981037050122,
+      1.4048036521673202
+    ],
+    "fanVisible": false,
+    "score": 10.274932497143745,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": -0.015196346640586854,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              1.041491279989448,
+              -0.8604866520977923
+            ],
+            "hi": [
+              1.9908643972459823,
+              -0.0041796335531297454
+            ],
+            "widthPixels": 531.6489456636592
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              1.3382710333952044,
+              -0.5224887525813663
+            ],
+            "hi": [
+              1.5338050292606404,
+              -0.25803360653570506
+            ],
+            "widthPixels": 109.49903768464421
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              1.5607163608398076,
+              -2.2340014835853346
+            ],
+            "hi": [
+              4.294074310424196,
+              -0.1956849059327095
+            ],
+            "widthPixels": 1530.6804517672574
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              2.410748303264687,
+              -1.3043552141291501
+            ],
+            "hi": [
+              3.021895463383731,
+              -0.8312298998763331
+            ],
+            "widthPixels": 342.2424096666647
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 109.49903768464421
+  },
+  {
+    "position": [
+      6,
+      -0.015196346640586854,
+      -40
+    ],
+    "yaw": 2,
+    "burial": [
+      0.2749324971437454,
+      0.04,
+      0.16805183231830598,
+      0.249485724568367
+    ],
+    "open": [
+      1.1048036521673201,
+      1.4048036521673202
+    ],
+    "fanVisible": false,
+    "score": 10.274932497143745,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": -0.015196346640586854,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.720722458304292,
+              -0.40518946456557287
+            ],
+            "hi": [
+              1.5053419106857528,
+              0.12109190255383184
+            ],
+            "widthPixels": 439.38689333361805
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              1.173745497817524,
+              -0.23080368076270488
+            ],
+            "hi": [
+              1.3233716781000289,
+              -0.04723737929633572
+            ],
+            "widthPixels": 83.79066095820278
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.9451780542653068,
+              -0.785717327847877
+            ],
+            "hi": [
+              2.269603287364396,
+              0.04571529907087496
+            ],
+            "widthPixels": 741.6781305354899
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              1.7312009119685017,
+              -0.5014677750877277
+            ],
+            "hi": [
+              1.9904722627835814,
+              -0.24001484425357575
+            ],
+            "widthPixels": 145.19195645644461
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 83.79066095820278
+  },
+  {
+    "position": [
+      4.8,
+      -0.015196346640586854,
+      -36
+    ],
+    "yaw": 2,
+    "burial": [
+      0.2807723218283002,
+      0.04,
+      0.16805183231830598,
+      0.249485724568367
+    ],
+    "open": [
+      1.1048036521673201,
+      1.4048036521673202
+    ],
+    "fanVisible": false,
+    "score": 10.2807723218283,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": -0.015196346640586854,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.7391997076970047,
+              -0.9214583102350165
+            ],
+            "hi": [
+              2.0295649697103495,
+              -0.004653127701296266
+            ],
+            "widthPixels": 722.6045467274731
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              1.4587688738450402,
+              -0.6001606731668228
+            ],
+            "hi": [
+              1.7222952883853235,
+              -0.3120276095245558
+            ],
+            "widthPixels": 147.5747921425587
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              1.0778647548876719,
+              -2.6376730038292537
+            ],
+            "hi": [
+              4.552151405378589,
+              -0.22529703922649902
+            ],
+            "widthPixels": 1945.6005242749134
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              2.853647929008944,
+              -1.5879471488503496
+            ],
+            "hi": [
+              3.614275978749056,
+              -1.0522443890656639
+            ],
+            "widthPixels": 425.95170785446277
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 147.5747921425587
+  },
+  {
+    "position": [
+      6,
+      -0.015196346640586854,
+      -36
+    ],
+    "yaw": 2,
+    "burial": [
+      0.4293472545708524,
+      0.04,
+      0.16805183231830598,
+      0.35749653143451965
+    ],
+    "open": [
+      1.0752714733772675,
+      1.4048036521673202
+    ],
+    "fanVisible": false,
+    "score": 10.429347254570853,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": -0.015196346640586854,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.9070033369664673,
+              -0.9595417579852372
+            ],
+            "hi": [
+              2.3809415949598676,
+              -0.012602713373352621
+            ],
+            "widthPixels": 825.4054244763042
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              1.7576999329746668,
+              -0.625919346111734
+            ],
+            "hi": [
+              2.0532078061016916,
+              -0.3305462366969318
+            ],
+            "widthPixels": 165.48440895113393
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              1.3179540131696492,
+              -2.8419629234820016
+            ],
+            "hi": [
+              5.6039150101668955,
+              -0.2420802473756896
+            ],
+            "widthPixels": 2400.1381583184584
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              3.4866007000329384,
+              -1.6877200869846767
+            ],
+            "hi": [
+              4.39745516351157,
+              -1.127681602790458
+            ],
+            "widthPixels": 510.0784995480339
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 165.48440895113393
+  },
+  {
+    "position": [
+      6,
+      -0.015196346640586854,
+      -44
+    ],
+    "yaw": 2,
+    "burial": [
+      0.4871961294747924,
+      0.04,
+      0.16805183231830598,
+      0.34945349780955565
+    ],
+    "open": [
+      0.5232100139605355,
+      1.4048036521673202
+    ],
+    "fanVisible": false,
+    "score": 10.487196129474793,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": -0.015196346640586854,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.6121995482152706,
+              -0.1772668533442575
+            ],
+            "hi": [
+              1.1349357185120874,
+              0.19022924831745452
+            ],
+            "widthPixels": 292.73225536621743
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.908351615249973,
+              -0.05447994713165051
+            ],
+            "hi": [
+              1.0061176587958858,
+              0.07867527413047025
+            ],
+            "widthPixels": 54.74898438571116
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.7578494849456986,
+              -0.3155523768420229
+            ],
+            "hi": [
+              1.5029628231284096,
+              0.17475866888814384
+            ],
+            "widthPixels": 417.26346938231814
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              1.1968497784260164,
+              -0.1554227319910648
+            ],
+            "hi": [
+              1.3367686162927772,
+              0.015098576041806158
+            ],
+            "widthPixels": 78.35454920538608
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 54.74898438571116
+  },
+  {
+    "position": [
+      6,
+      0.19428937792778014,
+      -44
+    ],
+    "yaw": 1.3,
+    "burial": [
+      0.06544677257537843,
+      0.5168350916055412,
+      0.17430590505124513,
+      0.04000000000000001
+    ],
+    "open": [
+      1.10638135205034,
+      1.6142893767356872
+    ],
+    "fanVisible": false,
+    "score": 10.516835091605541,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": 0.19428937792778014,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.6726124966770954,
+              -0.13119680294979374
+            ],
+            "hi": [
+              1.0050679763382282,
+              0.22223162803900648
+            ],
+            "widthPixels": 186.17506861023435
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.7554793692127031,
+              -0.00040346539318416864
+            ],
+            "hi": [
+              0.8137160774527717,
+              0.1263489029873025
+            ],
+            "widthPixels": 32.612556614438446
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.841642663113621,
+              -0.24894616707325307
+            ],
+            "hi": [
+              1.3217264322903246,
+              0.21551147673975052
+            ],
+            "widthPixels": 268.846910738954
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.9843936401493848,
+              -0.07765534000757059
+            ],
+            "hi": [
+              1.0754208223446893,
+              0.08294838965200134
+            ],
+            "widthPixels": 50.97522202937051
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 32.612556614438446
+  },
+  {
+    "position": [
+      6,
+      0.19428937792778014,
+      -40
+    ],
+    "yaw": 0.6,
+    "burial": [
+      0.06544677257537843,
+      0.639410288791768,
+      0.05685746702730374,
+      0.04000000000000001
+    ],
+    "open": [
+      1.3142893767356874,
+      1.6142893767356872
+    ],
+    "fanVisible": false,
+    "score": 10.639410288791767,
+    "initialFishClearance": null,
+    "extraBurial": 0,
+    "initialSupportHeight": 0.19428937792778014,
+    "minimumFishClearance": null,
+    "fishSafe": true,
+    "projections": [
+      {
+        "progress": 0.67,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              0.7195930524896573,
+              -0.283921145145882
+            ],
+            "hi": [
+              1.257821977230031,
+              0.16539044121405838
+            ],
+            "widthPixels": 301.4081978546092
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              0.8090719274660026,
+              -0.0837821013645037
+            ],
+            "hi": [
+              0.837518850700232,
+              0.06716928906652633
+            ],
+            "widthPixels": 15.930277011168448
+          }
+        ]
+      },
+      {
+        "progress": 0.75,
+        "forms": [
+          {
+            "name": "Inhabited_FarRight_Shoulder_closed_irregular_skeleton",
+            "lo": [
+              1.0056456498947204,
+              -0.5403261067589179
+            ],
+            "hi": [
+              1.7401537033084158,
+              0.10791461144886802
+            ],
+            "widthPixels": 411.32450991166945
+          },
+          {
+            "name": "Inhabited_FarRight_Attached_small_fan_form",
+            "lo": [
+              1.1217075866682682,
+              -0.22991768910155466
+            ],
+            "hi": [
+              1.1775902835474674,
+              -0.029063493167373066
+            ],
+            "widthPixels": 31.294310252351565
+          }
+        ]
+      }
+    ],
+    "wholeViewFits": false,
+    "minimumFanPixels": 15.930277011168448
+  }
+]
