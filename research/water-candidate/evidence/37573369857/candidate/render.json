@@ -1,0 +1,285 @@
+{
+  "mode": "render",
+  "target": "http://127.0.0.1:4173/research/water-candidate/dist/",
+  "viewSet": "passage",
+  "checkedAt": "2026-10-07T04:53:02.779Z",
+  "checkoutCommit": "b4c44ca4794df3515ca72cfa80d950acd14156dc",
+  "sandbox": true,
+  "unsafeGraphicsFlags": false,
+  "limitations": [
+    "Hosted runner rendering is not user-device performance or physical GPU acceptance.",
+    "Screenshots require human visual review; successful rendering alone is not realism acceptance."
+  ],
+  "browserVersion": "153.0.8010.12",
+  "securityFlags": {
+    "sandboxDisabled": false,
+    "gpuSandboxDisabled": false,
+    "unsafeSwiftshader": false,
+    "gpuBlocklistIgnored": false
+  },
+  "webgl2": {
+    "available": true,
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "shadingLanguage": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+    "vendor": "WebKit",
+    "renderer": "WebKit WebGL",
+    "unmaskedVendor": "Google Inc. (Google)",
+    "unmaskedRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "pixel": [
+      51,
+      102,
+      153,
+      255
+    ],
+    "error": 0,
+    "softwareRenderer": true
+  },
+  "consoleErrors": [
+    "THREE.WebGLProgram: Shader Error 0 - VALIDATE_STATUS false\n\nMaterial Name: Living coral.001\nMaterial Type: MeshStandardMaterial\n\nProgram Info Log: Fragment shader is not compiled.\n\nFRAGMENT\n\nERROR: 0:171: '#' : invalid character\nERROR: 0:171: 'define' : syntax error\n\n  166: varying vec3 vReefWorld;\n  167: \n  168: vec3 reefWaterRadiance(vec3 direction) {\n  169:  float overhead = smoothstep(-.12, .85, direction.y);\n  170:  return mix(vec3(.004,.040,.075), vec3(.018,.18,.24), overhead);\n> 171: }#define STANDARD\n  172: #ifdef PHYSICAL\n  173: \t#define IOR\n  174: \t#define USE_SPECULAR\n  175: #endif\n  176: uniform vec3 diffuse;\n  177: uniform vec3 emissive;",
+    "THREE.WebGLProgram: Shader Error 1282 - VALIDATE_STATUS false\n\nMaterial Name: Limestone | reference-led porous PBR\nMaterial Type: MeshStandardMaterial\n\nProgram Info Log: Fragment shader is not compiled.\n\nFRAGMENT\n\nERROR: 0:175: '#' : invalid character\nERROR: 0:175: 'define' : syntax error\n\n  170: varying vec3 vReefWorld;\n  171: \n  172: vec3 reefWaterRadiance(vec3 direction) {\n  173:  float overhead = smoothstep(-.12, .85, direction.y);\n  174:  return mix(vec3(.004,.040,.075), vec3(.018,.18,.24), overhead);\n> 175: }#define STANDARD\n  176: #ifdef PHYSICAL\n  177: \t#define IOR\n  178: \t#define USE_SPECULAR\n  179: #endif\n  180: uniform vec3 diffuse;\n  181: uniform vec3 emissive;"
+  ],
+  "pageErrors": [],
+  "failedRequests": [],
+  "httpErrors": [],
+  "sourceMatch": {
+    "app.js": {
+      "status": 200,
+      "served": "03531770ce613259df417e9f809e404abd9f5b1837d6828cd767cbf39343dd76",
+      "checkout": "03531770ce613259df417e9f809e404abd9f5b1837d6828cd767cbf39343dd76"
+    },
+    "model-version.js": {
+      "status": 200,
+      "served": "9bb2544b7d26ec235dd5d068e832711d391174005cb6c1077760cde324a2f975",
+      "checkout": "9bb2544b7d26ec235dd5d068e832711d391174005cb6c1077760cde324a2f975"
+    }
+  },
+  "runtime": {
+    "ready": true,
+    "low": false,
+    "tour": false,
+    "passageProgress": 0,
+    "guide": {
+      "active": true,
+      "index": 0,
+      "playing": false,
+      "paused": false
+    },
+    "fish": 4,
+    "camera": [
+      1.5000000000000004,
+      2.099999999999999,
+      4.800000000000003
+    ],
+    "target": [
+      -0.4999999999999999,
+      0.7999999999999996,
+      -5.999999999999997
+    ]
+  },
+  "actualCanvas": {
+    "width": 1120,
+    "height": 700,
+    "contextLost": false,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+  },
+  "captures": [
+    {
+      "file": "1-departure.png",
+      "sha256": "63078c0c1b3b7a17259aae7a492273fd0fa01f3b5f46b512ee99dd90a89c6802",
+      "state": {
+        "ready": true,
+        "low": false,
+        "tour": false,
+        "passageProgress": 0,
+        "guide": {
+          "active": false,
+          "index": 0,
+          "playing": false,
+          "paused": true
+        },
+        "fish": 4,
+        "camera": [
+          1.5000000000000004,
+          2.099999999999999,
+          4.800000000000003
+        ],
+        "target": [
+          -0.4999999999999999,
+          0.7999999999999996,
+          -5.999999999999997
+        ]
+      }
+    },
+    {
+      "file": "2-midway.png",
+      "sha256": "ce41ab831dad667b1f8e4e879bd0a66870c3ddc5c24140d71c4a97a586f55314",
+      "state": {
+        "ready": true,
+        "low": false,
+        "tour": false,
+        "passageProgress": 0,
+        "guide": {
+          "active": false,
+          "index": 0,
+          "playing": false,
+          "paused": true
+        },
+        "fish": 4,
+        "camera": [
+          8.881784197001252e-16,
+          2.700000000000001,
+          -18
+        ],
+        "target": [
+          -1.5,
+          1,
+          -31
+        ]
+      }
+    },
+    {
+      "file": "3-look-back.png",
+      "sha256": "ffa1de9a272511137682efd20a4e95af4a563abd765a8ff7a8922cb14e6db9ea",
+      "state": {
+        "ready": true,
+        "low": false,
+        "tour": false,
+        "passageProgress": 0,
+        "guide": {
+          "active": false,
+          "index": 0,
+          "playing": false,
+          "paused": true
+        },
+        "fish": 4,
+        "camera": [
+          -3.7999999999999954,
+          3.599999999999998,
+          -36
+        ],
+        "target": [
+          0,
+          0.9,
+          -8
+        ]
+      }
+    }
+  ],
+  "fixedViewMethod": "Explicit camera/target and guide state through the existing app API; not an assertion that native input or transition smoothness passed.",
+  "plannedViews": [
+    {
+      "name": "departure",
+      "p": [
+        1.5,
+        2.1,
+        4.8
+      ],
+      "t": [
+        -0.5,
+        0.8,
+        -6
+      ]
+    },
+    {
+      "name": "midway",
+      "p": [
+        0,
+        2.7,
+        -18
+      ],
+      "t": [
+        -1.5,
+        1,
+        -31
+      ]
+    },
+    {
+      "name": "look-back",
+      "p": [
+        -3.8,
+        3.6,
+        -36
+      ],
+      "t": [
+        0,
+        0.9,
+        -8
+      ]
+    }
+  ],
+  "fixedTime": {
+    "reducedMotion": true,
+    "tour": false,
+    "before": [
+      {
+        "name": "fish_01",
+        "position": [
+          -2,
+          0.86,
+          3.7499999046325683
+        ]
+      },
+      {
+        "name": "fish_02",
+        "position": [
+          3.6661233965692133,
+          1.4421648513226963,
+          -0.696699136673346
+        ]
+      },
+      {
+        "name": "fish_03",
+        "position": [
+          -2.5908090695355432,
+          1.3978063143084958,
+          -3.6015354548947798
+        ]
+      },
+      {
+        "name": "fish_04",
+        "position": [
+          4.749818033915804,
+          1.3884410092901525,
+          -1.0532449164657156
+        ]
+      }
+    ],
+    "after": [
+      {
+        "name": "fish_01",
+        "position": [
+          -2,
+          0.86,
+          3.7499999046325683
+        ]
+      },
+      {
+        "name": "fish_02",
+        "position": [
+          3.6661233965692133,
+          1.4421648513226963,
+          -0.696699136673346
+        ]
+      },
+      {
+        "name": "fish_03",
+        "position": [
+          -2.5908090695355432,
+          1.3978063143084958,
+          -3.6015354548947798
+        ]
+      },
+      {
+        "name": "fish_04",
+        "position": [
+          4.749818033915804,
+          1.3884410092901525,
+          -1.0532449164657156
+        ]
+      }
+    ],
+    "fishUnchanged": true
+  },
+  "passed": false,
+  "error": "Error: Runtime or fixed-time check failed\n    at file:///home/runner/work/azure-reef-3d/azure-reef-3d/tests/browser/verify-water-ab.mjs:73:29\n    at runNextTicks (node:internal/process/task_queues:64:5)\n    at process.processImmediate (node:internal/timers:452:9)\n    at process.callbackTrampoline (node:internal/async_hooks:130:17)"
+}
