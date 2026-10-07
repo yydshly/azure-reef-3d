@@ -1,0 +1,20 @@
+{
+  "run": 37677841832,
+  "technicalPassed": true,
+  "onlyChangedRuntimeMeshField": "Corridor_Distant_Linked_03.position.y",
+  "y": [
+    -0.20698136165738104,
+    -0.3340986692829022
+  ],
+  "allMeshAttributesIndicesMaterialsScaleQuaternionMatched": true,
+  "fixedFishCameraTimeMatched": true,
+  "supportIndexCount": 144150,
+  "branchIndexCount": 66504,
+  "rendererCallsTrianglesUnchanged": true,
+  "visualDecision": "Pending owner review",
+  "limitations": [
+    "Two fixed47-degree software-WebGL views, not whole-scene realism or performance acceptance",
+    "Scene units are uncalibrated",
+    "API diagnostic camera leaves existing departure heading unchanged"
+  ]
+}
