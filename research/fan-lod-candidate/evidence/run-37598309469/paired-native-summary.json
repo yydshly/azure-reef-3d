@@ -1,0 +1,40 @@
+{
+  "native-baseline": {
+    "passed": true,
+    "segments": [
+      {
+        "seconds": 15.129599999999977,
+        "rafCount": 5,
+        "rafRate": 0.3304780033840953,
+        "progressDelta": 0.0029999999999999996,
+        "simulationDelta": 14.949300000000003
+      },
+      {
+        "seconds": 15.397400000000022,
+        "rafCount": 5,
+        "rafRate": 0.3247301492459761,
+        "progressDelta": 0.0029999999999999996,
+        "simulationDelta": 15.382699999999996
+      }
+    ]
+  },
+  "native-candidate": {
+    "passed": true,
+    "segments": [
+      {
+        "seconds": 17.228,
+        "rafCount": 6,
+        "rafRate": 0.3482702577199907,
+        "progressDelta": 0.0036,
+        "simulationDelta": 17.016000000000002
+      },
+      {
+        "seconds": 17.220099999999977,
+        "rafCount": 6,
+        "rafRate": 0.3484300323459218,
+        "progressDelta": 0.003599999999999999,
+        "simulationDelta": 17.415899999999993
+      }
+    ]
+  }
+}
