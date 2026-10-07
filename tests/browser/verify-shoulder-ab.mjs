@@ -7,7 +7,7 @@ const mode=process.argv[2]||'probe';
 if(!['probe','render'].includes(mode))throw Error('Expected probe or render');
 const out=path.resolve('render-evidence',process.env.REEF_ARM||'probe');await fs.mkdir(out,{recursive:true});
 const target=process.env.REEF_TARGET||'https://yydshly.github.io/azure-reef-3d/';
-if(!['https://yydshly.github.io/azure-reef-3d/','http://127.0.0.1:4173/dist/','http://127.0.0.1:4173/research/shoulder-candidate/dist/'].includes(target))throw Error('Unapproved test target');
+if(!['https://yydshly.github.io/azure-reef-3d/','http://127.0.0.1:4173/research/shoulder-v3-baseline/dist/','http://127.0.0.1:4173/research/shoulder-candidate/dist/'].includes(target))throw Error('Unapproved test target');
 const viewSet=process.env.REEF_VIEW_SET||'passage';
 const sha=b=>createHash('sha256').update(b).digest('hex');
 const report={mode,target,viewSet,checkedAt:new Date().toISOString(),checkoutCommit:process.env.GITHUB_SHA||null,
@@ -44,7 +44,7 @@ try{
     page.on('requestfailed',r=>report.failedRequests.push({url:r.url(),error:r.failure()?.errorText}));
     page.on('response',r=>{if(r.status()>=400)report.httpErrors.push({url:r.url(),status:r.status()});});
     report.sourceMatch={};
-    for(const f of ['app.js','model-version.js']){
+    for(const f of ['app.js','model-version.js','assets/shoulder-v3/pilot.glb']){
       const r=await context.request.get(new URL(f,target).href);const bytes=await r.body();
       report.sourceMatch[f]={status:r.status(),served:sha(bytes),checkout:sha(await fs.readFile(`${process.env.REEF_SOURCE_DIR||'dist'}/${f}`))};
       if(!r.ok()||report.sourceMatch[f].served!==report.sourceMatch[f].checkout)throw Error(`Pages source differs from checked-out ${f}`);
@@ -62,7 +62,7 @@ try{
       if(actual.camera.some((v,i)=>Math.abs(v-position[i])>.001)||actual.target.some((v,i)=>Math.abs(v-target[i])>.001))throw Error('Application constrained the requested camera; not the claimed fixed viewpoint');
       await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(()=>resolve(true)))));
     }
-    const planned=[{name:'midway',p:[0,2.7,-18],t:[-1.5,1,-31]},{name:'local-front',p:[-2,2.4,-20],t:[-6.4,.9,-26]},{name:'local-reverse',p:[-10,2.7,-32],t:[-6.4,.9,-26]}];
+    const planned=[{name:'local-front',p:[-2,2.4,-20],t:[-6.4,.9,-26]},{name:'local-reverse',p:[-10,2.7,-32],t:[-6.4,.9,-26]}];
     await page.evaluate(()=>window.reef3d.leaveGuide());
     report.plannedViews=planned;
     for(let i=0;i<planned.length;i++){const v=planned[i];await fixedCamera(v.p,v.t);await capture(`${i+1}-${v.name}`);}

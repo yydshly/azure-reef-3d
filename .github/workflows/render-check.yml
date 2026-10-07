@@ -56,7 +56,7 @@ jobs:
           REEF_TARGET: ${{ inputs.target_source == 'branch-preview' && 'http://127.0.0.1:4173/' || 'https://yydshly.github.io/azure-reef-3d/' }}
           REEF_VIEW_SET: ${{ inputs.view_set }}
         run: |
-          REEF_ARM=baseline REEF_SOURCE_DIR=dist REEF_TARGET=http://127.0.0.1:4173/dist/ node tests/browser/verify-shoulder-ab.mjs render
+          REEF_ARM=baseline REEF_SOURCE_DIR=research/shoulder-v3-baseline/dist REEF_TARGET=http://127.0.0.1:4173/research/shoulder-v3-baseline/dist/ node tests/browser/verify-shoulder-ab.mjs render
           REEF_ARM=candidate REEF_SOURCE_DIR=research/shoulder-candidate/dist REEF_TARGET=http://127.0.0.1:4173/research/shoulder-candidate/dist/ node tests/browser/verify-shoulder-ab.mjs render
       - name: Preserve screenshots, short video and runtime report
         if: always()
