@@ -1,0 +1,509 @@
+{
+  "mode": "render",
+  "target": "http://127.0.0.1:4173/research/fan-current/candidate/dist/",
+  "viewSet": "passage",
+  "checkedAt": "2026-10-07T18:50:12.624Z",
+  "checkoutCommit": "fd4368d04e25616bcfe0f68d243279c28bf0ec0e",
+  "sandbox": true,
+  "unsafeGraphicsFlags": false,
+  "limitations": [
+    "Hosted runner rendering is not user-device performance or physical GPU acceptance.",
+    "Screenshots require human visual review; successful rendering alone is not realism acceptance."
+  ],
+  "browserVersion": "153.0.8010.12",
+  "securityFlags": {
+    "sandboxDisabled": false,
+    "gpuSandboxDisabled": false,
+    "unsafeSwiftshader": false,
+    "gpuBlocklistIgnored": false
+  },
+  "webgl2": {
+    "available": true,
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "shadingLanguage": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+    "vendor": "WebKit",
+    "renderer": "WebKit WebGL",
+    "unmaskedVendor": "Google Inc. (Google)",
+    "unmaskedRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "pixel": [
+      51,
+      102,
+      153,
+      255
+    ],
+    "error": 0,
+    "softwareRenderer": true
+  },
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "httpErrors": [],
+  "sourceMatch": {
+    "app.js": {
+      "status": 200,
+      "served": "2d8cd60e723e14c41e5772eff3d1e00da22daf6a3a8e31ea902c2045a2c75330",
+      "checkout": "2d8cd60e723e14c41e5772eff3d1e00da22daf6a3a8e31ea902c2045a2c75330"
+    },
+    "model-version.js": {
+      "status": 200,
+      "served": "9bb2544b7d26ec235dd5d068e832711d391174005cb6c1077760cde324a2f975",
+      "checkout": "9bb2544b7d26ec235dd5d068e832711d391174005cb6c1077760cde324a2f975"
+    },
+    "inhabited-reef.js": {
+      "status": 200,
+      "served": "a430aa57f863d52eb1c710986a27ab1a79690a28cb7f3e7bd79210b78e183ca3",
+      "checkout": "a430aa57f863d52eb1c710986a27ab1a79690a28cb7f3e7bd79210b78e183ca3"
+    }
+  },
+  "runtime": {
+    "ready": true,
+    "low": false,
+    "tour": false,
+    "passageProgress": 0,
+    "specimenInspection": false,
+    "guide": {
+      "active": true,
+      "index": 0,
+      "playing": false,
+      "paused": false
+    },
+    "fish": 6,
+    "simulationTime": 14.816099999999999,
+    "fanCurrent": {
+      "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+      "amplitude": -0.03206080092204535,
+      "maxDisplacement": 0.04,
+      "fixedThroughLocalY": 1.84,
+      "periodSeconds": 8
+    },
+    "tourTiming": {
+      "lastStep": 0,
+      "interrupted": false
+    },
+    "camera": [
+      1.5000000000000004,
+      2.099999999999999,
+      4.800000000000003
+    ],
+    "target": [
+      -0.4999999999999999,
+      0.7999999999999996,
+      -5.999999999999997
+    ]
+  },
+  "actualCanvas": {
+    "width": 1120,
+    "height": 700,
+    "contextLost": false,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+  },
+  "captures": [
+    {
+      "rendererInfo": {
+        "render": {
+          "frame": 29,
+          "calls": 89,
+          "triangles": 1362360,
+          "points": 0,
+          "lines": 0
+        },
+        "memory": {
+          "geometries": 70,
+          "textures": 16
+        },
+        "programCount": 12
+      },
+      "file": "native-observation-end.png",
+      "sha256": "9a71e469256a3494fbaa7971b19f01ca00a3aaee1c4f76f0ca83f6acadf16919",
+      "state": {
+        "ready": true,
+        "low": false,
+        "tour": false,
+        "passageProgress": 0,
+        "specimenInspection": false,
+        "guide": {
+          "active": false,
+          "index": 0,
+          "playing": false,
+          "paused": true
+        },
+        "fish": 6,
+        "simulationTime": 79.06349999999999,
+        "fanCurrent": {
+          "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+          "amplitude": -0.026839072245127295,
+          "maxDisplacement": 0.04,
+          "fixedThroughLocalY": 1.84,
+          "periodSeconds": 8
+        },
+        "tourTiming": {
+          "lastStep": 0,
+          "interrupted": false
+        },
+        "camera": [
+          -7.972653486778265,
+          2.5342332277063297,
+          -23.939230761867375
+        ],
+        "target": [
+          -5.572664305470652,
+          1.8842332277063294,
+          -26.013779370506473
+        ]
+      }
+    }
+  ],
+  "fixedViewMethod": "Explicit camera/target and guide state through the existing app API; not an assertion that native input or transition smoothness passed.",
+  "method": "Two equally instrumented QA copies expose the existing renderer only. Fixed phases explicitly freeze RAF and render after fan update; native segment uses genuine RAF/visible elapsed time. Not a device FPS claim.",
+  "native": {
+    "before": {
+      "wallMs": 40479.5,
+      "state": {
+        "ready": true,
+        "low": false,
+        "tour": false,
+        "passageProgress": 0,
+        "specimenInspection": false,
+        "guide": {
+          "active": false,
+          "index": 0,
+          "playing": false,
+          "paused": true
+        },
+        "fish": 6,
+        "simulationTime": 36.9319,
+        "fanCurrent": {
+          "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+          "amplitude": -0.026731743865864233,
+          "maxDisplacement": 0.04,
+          "fixedThroughLocalY": 1.84,
+          "periodSeconds": 8
+        },
+        "tourTiming": {
+          "lastStep": 0,
+          "interrupted": false
+        },
+        "camera": [
+          -7.972653486778265,
+          2.5342332277063297,
+          -23.939230761867375
+        ],
+        "target": [
+          -5.572664305470652,
+          1.8842332277063294,
+          -26.013779370506473
+        ]
+      },
+      "frames": 14
+    },
+    "after": {
+      "wallMs": 65320.40000000002,
+      "state": {
+        "ready": true,
+        "low": false,
+        "tour": false,
+        "passageProgress": 0,
+        "specimenInspection": false,
+        "guide": {
+          "active": false,
+          "index": 0,
+          "playing": false,
+          "paused": true
+        },
+        "fish": 6,
+        "simulationTime": 61.747600000000006,
+        "fanCurrent": {
+          "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+          "amplitude": -0.03921663206539052,
+          "maxDisplacement": 0.04,
+          "fixedThroughLocalY": 1.84,
+          "periodSeconds": 8
+        },
+        "tourTiming": {
+          "lastStep": 0,
+          "interrupted": false
+        },
+        "camera": [
+          -7.972653486778265,
+          2.5342332277063297,
+          -23.939230761867375
+        ],
+        "target": [
+          -5.572664305470652,
+          1.8842332277063294,
+          -26.013779370506473
+        ]
+      },
+      "frames": 24,
+      "samples": [
+        {
+          "wallMs": 1089.5999999999767,
+          "time": 0,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": 0,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        },
+        {
+          "wallMs": 1788.2000000000116,
+          "time": 0,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": 0,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        },
+        {
+          "wallMs": 8692.700000000012,
+          "time": 7.583099999999999,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": -0.012864519756572068,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        },
+        {
+          "wallMs": 12225.400000000023,
+          "time": 11.116299999999999,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": 0.02558641544062257,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        },
+        {
+          "wallMs": 15911.799999999988,
+          "time": 14.816099999999999,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": -0.03206080092204535,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        },
+        {
+          "wallMs": 19610.099999999977,
+          "time": 18.516,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": 0.0367599108637369,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        },
+        {
+          "wallMs": 23251.79999999999,
+          "time": 22.1492,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": -0.039725684474043704,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        },
+        {
+          "wallMs": 26913.29999999999,
+          "time": 25.8157,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": 0.03958168637571255,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        },
+        {
+          "wallMs": 30614.29999999999,
+          "time": 29.5156,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": -0.0371399515799271,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        },
+        {
+          "wallMs": 33124.59999999998,
+          "time": 32.0321,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": 0.001008344415134817,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        },
+        {
+          "wallMs": 35592.90000000002,
+          "time": 34.4987,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": 0.03697079109625203,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        },
+        {
+          "wallMs": 35592.90000000002,
+          "time": 34.4987,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": 0.03697079109625203,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        },
+        {
+          "wallMs": 38036.59999999998,
+          "time": 36.9319,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": -0.026731743865864233,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        },
+        {
+          "wallMs": 38036.70000000001,
+          "time": 36.9319,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": -0.026731743865864233,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        },
+        {
+          "wallMs": 40481.40000000002,
+          "time": 39.3818,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": -0.018667198114032654,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        },
+        {
+          "wallMs": 42929,
+          "time": 41.8318,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": 0.03965147811034495,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        },
+        {
+          "wallMs": 45413.29999999999,
+          "time": 44.315,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": -0.009795374488353716,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        },
+        {
+          "wallMs": 47904.09999999998,
+          "time": 46.7982,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": -0.03239388589893579,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        },
+        {
+          "wallMs": 50391.59999999998,
+          "time": 49.298100000000005,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": 0.034074380536664554,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        },
+        {
+          "wallMs": 52920,
+          "time": 51.8147,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": 0.005800843278346706,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        },
+        {
+          "wallMs": 55413.09999999998,
+          "time": 54.314600000000006,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": -0.03878516711964155,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        },
+        {
+          "wallMs": 57863.5,
+          "time": 56.7645,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": 0.02260012021020936,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        },
+        {
+          "wallMs": 60370.29999999999,
+          "time": 59.281,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": 0.0214065398473094,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        },
+        {
+          "wallMs": 62839.59999999998,
+          "time": 61.747600000000006,
+          "fan": {
+            "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+            "amplitude": -0.03921663206539052,
+            "maxDisplacement": 0.04,
+            "fixedThroughLocalY": 1.84,
+            "periodSeconds": 8
+          }
+        }
+      ]
+    },
+    "wallSeconds": 24.840900000000023,
+    "observedRaf": 10
+  },
+  "passed": true
+}

@@ -1,0 +1,29 @@
+{
+  "run": 37669614354,
+  "preparationFailureRun": 37666030793,
+  "status": "technical passed, visual motion review pending",
+  "nativeWallSeconds": 24.840900000000023,
+  "nativeSimulationDelta": 24.815700000000007,
+  "observedRAF": 10,
+  "fixedPhaseAmplitudes": [
+    0,
+    0.04,
+    -0.04
+  ],
+  "fixedControlsMatched": true,
+  "actualFixedViewBudget": {
+    "baselineCalls": 73,
+    "candidateCalls": 73,
+    "baselineTriangles": 1344244,
+    "candidateTriangles": 1344244,
+    "baselineGeometry": 69,
+    "candidateGeometry": 70,
+    "baselinePrograms": 10,
+    "candidatePrograms": 12
+  },
+  "limitations": [
+    "Fixed phases are test-driven renderer calls with RAF frozen; native video is separate genuine RAF motion.",
+    "Runner lacks CJK fonts after using preinstalled libraries; Chinese UI appears as missing glyphs. This run does not validate Chinese text/layout.",
+    "Software timing is not user-device FPS or biological flow calibration."
+  ]
+}
