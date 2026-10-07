@@ -11,3 +11,5 @@ The v3 visual review rejected expansion: the right-front projection looked unsup
 Run37586644231 compares v3 and v4 at identical front/reverse cameras and fish phase. Both technically pass; actual served v4 GLB SHA256618797ee32308fc39ded467f74a0f0d13dd6decd5a393fd12c4fe3f518363519 matches the frozen candidate.
 
 Actual pixel inspection shows that downward extension reduces the unsupported gap but produces a conspicuous vertical skirt and stretched surface pattern at the front/right and back. This technical pass is not natural ground-integration acceptance. No production update is included.
+
+Final review rejects v4 for the visible geometric skirt and UV stretching. The direct downward-extension approach is closed. Production remains public commit1e1a055. A future rigid-placement investigation must retain originalv3 geometry/UV and pass separate numerical and visual checks; no such candidate is accepted here.
