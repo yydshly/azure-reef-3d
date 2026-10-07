@@ -20,7 +20,7 @@
       "candidate": {
         "p": [
           0,
-          1.45,
+          1.7,
           -18
         ],
         "t": [
@@ -47,7 +47,7 @@
       "candidate": {
         "p": [
           -2.208167284183959,
-          1.45,
+          1.7,
           -30.006196517022275
         ],
         "t": [
@@ -57,5 +57,6 @@
         ]
       }
     }
-  ]
+  ],
+  "supersedes": "y1.45 input cancelled before acceptance: midway polar angle exceeded existing .485*pi maximum; this is a reachability correction, not a visual parameter sweep."
 }

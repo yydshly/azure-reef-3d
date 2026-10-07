@@ -23,7 +23,7 @@
       "arm": "candidate",
       "position": [
         0,
-        1.45,
+        1.7,
         -18
       ],
       "target": [
@@ -31,7 +31,7 @@
         1,
         -31
       ],
-      "minimumStaticTriangleDistance": 1.669999998807907,
+      "minimumStaticTriangleDistance": 1.919999998807907,
       "nearestMesh": "Sand_Horizon_80m"
     },
     {
@@ -55,7 +55,7 @@
       "arm": "candidate",
       "position": [
         -2.208167284183959,
-        1.45,
+        1.7,
         -30.006196517022275
       ],
       "target": [
@@ -63,7 +63,7 @@
         0.7,
         -42.26543655798051
       ],
-      "minimumStaticTriangleDistance": 1.669999998807907,
+      "minimumStaticTriangleDistance": 1.919999998807907,
       "nearestMesh": "Sand_Horizon_80m"
     }
   ]

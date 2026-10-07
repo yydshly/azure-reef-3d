@@ -1,0 +1,35 @@
+{
+  "scope": "QA-only camera study; corrected reachable height1.7; no scene/product file changes",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1744,
+      "sha256": "dd5733269dbc22cb6469b31ab655bc8fab0a214d7e0f3cf9cf8f9c92b0a22e77"
+    },
+    {
+      "path": "camera-clearance.json",
+      "bytes": 1490,
+      "sha256": "2b0cb476b3aeac2f974275cabfd81336e72799b24ab3821536ad937a5bca436f"
+    },
+    {
+      "path": "camera-pairs.json",
+      "bytes": 1421,
+      "sha256": "747cdc29af52dd93bcd4c48ac4dd2c93107d1f1adbad67e959824806b19c82bc"
+    },
+    {
+      "path": "check-camera-clearance.mjs",
+      "bytes": 2740,
+      "sha256": "e04e080ae72118bd9075cbd7c04aa63d28fe28758f46fff51de9320b3900e5c5"
+    },
+    {
+      "path": "check-control-reachability.mjs",
+      "bytes": 1349,
+      "sha256": "9953c1a66b78e4f35837ce5a5d112b71544c59d5d5fc7ce287d021b62c96126b"
+    },
+    {
+      "path": "control-reachability.json",
+      "bytes": 1708,
+      "sha256": "eb35fe9cc57cb07ba3e90e245b708390e6fa5e5218dbfb80eeecc2cf456f9fa9"
+    }
+  ]
+}
