@@ -67,10 +67,12 @@ try{
     report.plannedViews=planned;
     for(let i=0;i<planned.length;i++){const v=planned[i];await fixedCamera(v.p,v.t);await capture(`${i+1}-${v.name}`);}
     if(process.env.REEF_ROUTE==='true'){
+      report.sceneCounts=await page.evaluate(async()=>{const r=window.reef3d,{GUIDE_STOPS}=await import('./guide-data.js'),branches=[];r.root.traverse(o=>{if(/^Coral_Staghorn_Thicket_\d+$/.test(o.name))branches.push(o.name)});return {groups:r.root.children.filter(o=>/^Inhabited_(NearLeft|NearRight|Middle)$/.test(o.name)).map(o=>o.name),branches,guideStops:GUIDE_STOPS.length,fish:r.getState().fish}});
+      if(report.sceneCounts.groups.length!==3||report.sceneCounts.branches.length!==5||report.sceneCounts.guideStops!==5||report.sceneCounts.fish!==6)throw Error('Actual scene count mismatch');
       await fixedCamera([1.5,2.1,4.8],[-.5,.8,-6]);
       const label=async text=>page.evaluate(text=>{let e=document.querySelector('#qa-route-label');if(!e){e=document.createElement('div');e.id='qa-route-label';e.style.cssText='position:fixed;left:25%;top:8px;z-index:99999;background:#001c2ce8;color:white;padding:6px 10px;font:12px sans-serif';document.body.append(e)}e.textContent=text},text);
       await label('Native tour segment · software renderer · not device FPS');
-      await page.locator('#orbit').click({noWaitAfter:true});
+      const rect=await page.locator('#orbit').boundingBox();if(!rect)throw Error('Tour button missing');report.nativeInput={method:'mouse click at observed button center',rect};await page.mouse.click(rect.x+rect.width/2,rect.y+rect.height/2);
       const before=await page.evaluate(()=>({wallMs:performance.now(),state:window.reef3d.getState()}));
       await page.waitForTimeout(15000);
       const after=await page.evaluate(()=>({wallMs:performance.now(),state:window.reef3d.getState()}));
