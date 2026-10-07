@@ -1,0 +1,72 @@
+[
+  {
+    "path": "README.md",
+    "bytes": 3256,
+    "sha256": "120a02bc8751699fe442ff63c8ca2afca379eca8cf4f1558610e4457a49e691e"
+  },
+  {
+    "path": "build_solid.py",
+    "bytes": 5547,
+    "sha256": "2424a1c2bd43c233ddcbc8b4193bd66bb5e43b37801aacd3340b8c14a7a55508"
+  },
+  {
+    "path": "geometry-proof.json",
+    "bytes": 1309,
+    "sha256": "57f3b8b09f49b09e6af2a355c1668fce791a050a2083bd2f254d6b10746a8392"
+  },
+  {
+    "path": "grey/after-actual-route-75.png",
+    "bytes": 298528,
+    "sha256": "e6b858111bb13a0e573203d1af9d2b5f9ef036884c23a280dce1e72296e06a9d"
+  },
+  {
+    "path": "grey/after-actual-route-92.png",
+    "bytes": 300912,
+    "sha256": "d341b1013424bcbb76b8dee676f93bc645743f151ff923bf368af54e7f328b93"
+  },
+  {
+    "path": "grey/after-neutral-reverse.png",
+    "bytes": 338296,
+    "sha256": "8fcc2c2037cca95f9edaef2f3a88f0893c3c5a162a7d11de16535b31b87a139f"
+  },
+  {
+    "path": "grey/before-actual-route-75.png",
+    "bytes": 297171,
+    "sha256": "3d7fa2537d04452416c2866b01d81f4e6cc8c5df0f2adb56534928b0bb53f30d"
+  },
+  {
+    "path": "grey/before-actual-route-92.png",
+    "bytes": 299008,
+    "sha256": "9c5e17e639832e6f6d98e820190904ef7a8da10538f863259959d7e236ab7193"
+  },
+  {
+    "path": "grey/before-neutral-reverse.png",
+    "bytes": 337287,
+    "sha256": "558e236d9c11b6702f4b2dcde29dd9bd438dabfae42740d5f73130d72dae0a96"
+  },
+  {
+    "path": "grey/render-manifest-actual-route-75.json",
+    "bytes": 1261,
+    "sha256": "4f1f0e226a60e0855902afed97de2154f481ad7d49abf8070659ee098dac18cc"
+  },
+  {
+    "path": "grey/render-manifest-actual-route-92.json",
+    "bytes": 1217,
+    "sha256": "b8fa5dd89cb8f9215a6c5b2a58c73088453167398caf67c3f586c1d855ea0b7a"
+  },
+  {
+    "path": "grey/render-manifest-neutral-reverse.json",
+    "bytes": 1191,
+    "sha256": "79d7921038cc11add86b9bb2bd67435e30397bc19a98ad798cf23afece321ee8"
+  },
+  {
+    "path": "rejected-solid-shoulder.glb",
+    "bytes": 377428,
+    "sha256": "7472155ab3be14c310eb0865093397b1906d759b6a40a79af6ebbe885ab0ce40"
+  },
+  {
+    "path": "render_comparison.py",
+    "bytes": 5463,
+    "sha256": "a242b635d637cd0d5dde1e1c194fe1f962d5b482b66671e8523836c357f4e684"
+  }
+]

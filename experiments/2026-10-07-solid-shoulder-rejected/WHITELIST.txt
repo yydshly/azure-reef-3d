@@ -1,0 +1,16 @@
+README.md
+build_solid.py
+geometry-proof.json
+grey/after-actual-route-75.png
+grey/after-actual-route-92.png
+grey/after-neutral-reverse.png
+grey/before-actual-route-75.png
+grey/before-actual-route-92.png
+grey/before-neutral-reverse.png
+grey/render-manifest-actual-route-75.json
+grey/render-manifest-actual-route-92.json
+grey/render-manifest-neutral-reverse.json
+rejected-solid-shoulder.glb
+render_comparison.py
+manifest.json
+WHITELIST.txt

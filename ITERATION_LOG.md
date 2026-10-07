@@ -193,3 +193,7 @@ Release-only changes after captured candidate: app/module query versioning, evid
 ## 2026-10-07 · Single-thicket hierarchy rejected
 
 [Archived recipe, proof and eight offline images](experiments/2026-10-07-thicket-hierarchy-rejected/ARCHIVE.md). One selected branch mesh retained 21 basal shoots, 103 tips and 22,168 triangles. A single constraint correction held the boundary subtree unchanged; hard gates passed, but normal and thumbnail views formed an empty basket with parallel curved rods. Owner and independent review rejected it. Offline images omit runtime landmarks and are not a whole-production A/B. No geometry integration, browser CI or deployment; production remains db1f921.
+
+## 2026-10-07 · Two further macro-form methods rejected
+
+[Closed solid construction](experiments/2026-10-07-solid-shoulder-rejected/README.md) created three side cavities but reads as straight-faced perforated blocks, with late-view clipping. [Volumetric remeshing](experiments/2026-10-07-volume-surface-rejected/README.md) added relief but retained the soft block form, rear add-on row and clipping. Both were rejected in offline local structural comparisons; these omit parts of the runtime scene. No browser evaluation, production integration or material tuning followed. Source recipes, exact retained sample where required and original proof limitations are archived.

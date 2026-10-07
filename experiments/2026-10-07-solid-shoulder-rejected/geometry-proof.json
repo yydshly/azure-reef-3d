@@ -1,0 +1,54 @@
+{
+  "scope": "Original inferred new solid topology; geometry gate only, not visual/scientific/runtime acceptance",
+  "sourceSHA256": "c12624b2f1da3add8f801421b161daaa5ef9177f7f6edf8ce1a3d1ae7caf66dd",
+  "inputTerrainUnmodified": true,
+  "supportMeasurements": [
+    {
+      "name": "Near_supported_face",
+      "xz": [
+        5.15,
+        -45.6
+      ],
+      "terrainY": -0.07687854766845703,
+      "bottomY": -0.35687854766845706,
+      "topY": 0.823121452331543
+    },
+    {
+      "name": "Recessed_middle_mass",
+      "xz": [
+        6.42,
+        -47.0
+      ],
+      "terrainY": 0.6622066497802734,
+      "bottomY": 0.3822066497802734,
+      "topY": 1.3622066497802734
+    },
+    {
+      "name": "Unequal_back_buttress",
+      "xz": [
+        7.12,
+        -48.7
+      ],
+      "terrainY": 0.8015193939208984,
+      "bottomY": 0.5215193939208984,
+      "topY": 1.8615193939208985
+    },
+    {
+      "name": "Low_cross_support",
+      "xz": [
+        5.65,
+        -47.5
+      ],
+      "terrainY": 0.3016071319580078,
+      "bottomY": 0.021607131958007786,
+      "topY": 0.7216071319580077
+    }
+  ],
+  "trianglesAdded": 3764,
+  "boundaryEdges": 0,
+  "nonmanifoldEdges": 0,
+  "degenerateTriangles": 0,
+  "signedVolume": 8.400137380754057,
+  "units": "uncalibrated scene units",
+  "assetBytes": 377428
+}

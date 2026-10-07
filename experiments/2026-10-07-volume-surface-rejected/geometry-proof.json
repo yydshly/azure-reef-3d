@@ -1,0 +1,17 @@
+{
+  "triangles": 18000,
+  "boundaryEdges": 0,
+  "nonmanifoldEdges": 0,
+  "degenerateTriangles": 0,
+  "signedVolume": 8.42148106350486,
+  "components": [
+    9002
+  ],
+  "maxWarpDistance": 0.21801640017918508,
+  "buriedVerticesProtected": 5302,
+  "voxelSize": 0.065,
+  "units": "uncalibrated scene units",
+  "scope": "Geometric surface reconstruction, not physical erosion or visual acceptance",
+  "sourceAssetHash": "7472155ab3be14c310eb0865093397b1906d759b6a40a79af6ebbe885ab0ce40",
+  "assetBytes": 325212
+}

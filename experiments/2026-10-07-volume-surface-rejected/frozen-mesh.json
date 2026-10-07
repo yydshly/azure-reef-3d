@@ -1,0 +1,22 @@
+[
+  {
+    "path": "volume-shoulder.glb",
+    "bytes": 325212,
+    "sha256": "f77845ac5a06c872e9821aab6e097c91cf8c2f071a2692774770d8d7d0c6d9fc"
+  },
+  {
+    "path": "volume-shoulder.blend",
+    "bytes": 7785727,
+    "sha256": "28c5d2bc4203eb08e0ddd7303a808a24d5fef55c425447c4039c1f6c756caf41"
+  },
+  {
+    "path": "rebuild_volume.py",
+    "bytes": 3785,
+    "sha256": "527bac5fffce062a86f0927f200215ae3a28a7743742147c8678c98b8ae79c74"
+  },
+  {
+    "path": "geometry-proof.json",
+    "bytes": 508,
+    "sha256": "5e39537c095e5bb2fda4ecbbf76f29cec409ff5db67bff6ee15e4e7d8b3c5ff1"
+  }
+]
