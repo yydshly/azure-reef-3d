@@ -1,0 +1,22 @@
+{
+  "run": 37657885741,
+  "testedCommit": "a86d2da0b9a3990fa6f6900a7b13c64ecfd020fd",
+  "sourceCandidate": "eba0449b44089c82229a83fc6b4864fed831e4d9",
+  "viewport": [
+    1120,
+    700
+  ],
+  "nativeFlowPassed": true,
+  "runtimeErrors": 0,
+  "counts": {
+    "fish": 6,
+    "stops": 5
+  },
+  "visualReview": "Pending owner/independent review; floating marker overlaps some branches.",
+  "limitations": [
+    "Software renderer, not user GPU performance",
+    "Desktop only; no mobile layout claim",
+    "Candidate includes previously tested but unpublished tour-clock source",
+    "No production publication authorized by this QA result"
+  ]
+}
