@@ -18,7 +18,21 @@ jobs:
         with:
           node-version: '22'
       - run: npm ci --prefix tests/browser
-      - run: tests/browser/node_modules/.bin/playwright install --with-deps chromium
+      - name: Download pinned official Chromium with bounded timeout
+        timeout-minutes: 4
+        run: timeout --kill-after=10s 180s tests/browser/node_modules/.bin/playwright install chromium
+      - name: Check existing runner libraries before bounded dependency setup
+        timeout-minutes: 3
+        shell: bash
+        run: |
+          mkdir -p render-evidence
+          browser_binary=$(node -e "console.log(require('./tests/browser/node_modules/playwright').chromium.executablePath())")
+          ldd "$browser_binary" > render-evidence/browser-libraries.txt
+          if grep -q 'not found' render-evidence/browser-libraries.txt; then
+            timeout --kill-after=10s 120s tests/browser/node_modules/.bin/playwright install-deps chromium
+            ldd "$browser_binary" > render-evidence/browser-libraries-after.txt
+            if grep -q 'not found' render-evidence/browser-libraries-after.txt; then exit 1; fi
+          fi
       - name: Serve the unchanged production files
         run: |
           mkdir -p render-evidence
