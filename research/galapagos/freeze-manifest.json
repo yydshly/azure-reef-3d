@@ -36,8 +36,8 @@
     },
     {
       "path": "dist/index.html",
-      "bytes": 2392,
-      "sha256": "6abbe8b582cad5acc58cfdf549a0914a975bfbfe821b5991da543099698e6c5c"
+      "bytes": 2423,
+      "sha256": "030971295db9bbc08460d02c1e9f729a2f99a8ab34058fe201a4c2db2dac49fa"
     },
     {
       "path": "dist/model-version.js",
@@ -124,5 +124,6 @@
       "bytes": 3919,
       "sha256": "734dc77d9bdc8680a0024248daa1f8c8a7579b8036d16c2f31900cd0fc3f4c89"
     }
-  ]
+  ],
+  "qa_adjustment": "Explicit empty favicon added after run37571588719 recorded favicon.ico404; model/runtime code unchanged"
 }
