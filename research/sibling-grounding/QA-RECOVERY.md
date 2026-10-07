@@ -1,0 +1,1 @@
+Run37686976815 failed before loading the application or capturing images: a test-local target node variable shadowed the target URL and caused a JavaScript temporal-dead-zone ReferenceError. Only that variable was renamed. Candidate source, camera protocol, quality and security settings are unchanged. No candidate visual failure is inferred.
