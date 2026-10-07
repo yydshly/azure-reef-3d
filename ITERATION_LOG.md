@@ -161,3 +161,7 @@ Source6750ba68 / measured candidate73f334e / run37602816684. Original four-view 
 ## 2026-10-07 · Late-bank grey deformation rejected
 
 [Offline grey experiment](experiments/2026-10-07-late-bank-grey-rejected/REPORT.md):305 terrain positions and458 normals changed with no added triangles. Gullies are real, but the rounded cap and isolated-mass character remain; the actual75% camera changes almost imperceptibly. Rejected before WebGL, without modifying production. Independent portable replay reproduced SHA256941e9fa1ca42b2918ff818a2f9f46aff1f948860d52d0dc836f1625b68947ed1. Recipe/proof/images are retained; the29MB generated GLB and original reference photograph are excluded.
+
+## 2026-10-07 · Visible folded ledge rejected
+
+[Rejected structure record](experiments/2026-10-07-visible-ledge-rejected/README.md). Offline75%/92%/reverse views show a broad cap/ribbon and loss of the old reef layering. Independent diagnostics find12 improper intersections and35 new rear contacts; cavity gap shrinks from.95 to.1555, so preservation is explicitly not claimed. A prior935-ray visibility diagnostic explains why the earlier bank edit barely affected the view, not why this candidate should pass. Portable recipe replay exactly matches9e0cb3f4… . No new geometry deployment, WebGL run, or parameter repair.

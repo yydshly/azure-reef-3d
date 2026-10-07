@@ -1,0 +1,23 @@
+REJECTED OFFLINE CANDIDATE: INDEPENDENT VALIDATION
+Candidate SHA-256: 9e0cb3f417905582b7947e5fc4e239dbd6596e3bea6905921c177903356e4239
+
+FAIL: The candidate is not an embedded, intersection-free terrain surface.
+Exact arithmetic found 12 improper triangle pairs: 8 nonzero crossing segments plus 4 isolated boundary contacts. Two pairs share a mesh vertex but intersect beyond that allowed vertex. These are real geometry crossings, not the intentional 116 downward-facing former top triangles.
+Intersection bounds XYZ: [[6.528054768532187, 0.6074678897857666, -52.67671587021784], [6.699999809265137, 0.7129144072532654, -51.897773946838164]]
+Intersecting terrain triangle pairs (zero-based): [3191, 3195], [3191, 3386], [3193, 3195], [3195, 3382], [3382, 3386], [3382, 3387], [3383, 3387], [3383, 3578], [3387, 3574], [3574, 3578], [3575, 3576], [3575, 3578]
+
+PASS: Exact preservation. 220 positions and 286 normals differ; 4,226 bytes differ, all inside the target terrain POSITION/NORMAL accessors. All JSON, remaining accessors, indices, materials, images, attributes, nodes and transforms remain byte-identical. Actual GLB bytes are authoritative; the NPZ is an optional cross-check only.
+Mesh retains 10,190 vertices and 20,376 triangles, closed opposite edge winding, Euler characteristic 2, finite values and nonzero triangle areas. Every Z value, 45 thicket-disk vertices (center 12,-44; radius 1.9), 1,752 sand-route vertices (X -7 to 1), perimeter and base are unchanged. Closed/manifold combinatorics alone does not imply an intersection-free embedding.
+
+LANDMARK: Both fixed-pose assets are hash-verified; large reticulate fan omitted and small fan retained. All 343 existing basal contact pairs remain, at Y approximately -0.370 to -0.309. The candidate adds 35 upper rear shoulder-contact pairs within XYZ [[4.150000095367432, 1.0381097622124045, -44.61114438600442], [4.255587240872522, 1.115594481695235, -44.28739820023736]]. The retained small fan has no terrain contacts before or after.
+The Z=-45 cavity-adjacent section retains a 0.155520 scene-unit surface gap (before 0.949861). No new surface intersection occurs near that section; all new contact is within Z -44.611 to -44.287. This distinguishes rear contact from geometric intrusion at Z=-45. It does not certify view-ray cavity visibility, shadow quality, or intentional contact semantics; use the paired fixed-camera images for those judgments.
+
+FACE REDISTRIBUTION: 504 existing interior top-grid faces are affected. Longest affected edge changes from 0.804061 to 2.476802; maximum corresponding edge stretch is 3.848618x. Normalized aspect ratio (equilateral=1) median / 95th / worst changes from [1.7318255019030504, 1.8680562085447552, 1.9277183620849898] to [2.0936953719060227, 4.965243978164215, 23.49529403413839]. All perimeter/side and base faces are identical: stretching comes from redistribution of existing top faces, not a pulled vertical skirt.
+
+METHOD: Source nonintersection is proved from a regular 9,600-cell heightfield strictly above a flat base, vertical rectangle perimeter quads, and an interior-centered base fan. Candidate unchanged face pairs inherit that proof. Every changed face is tested against all terrain faces using exhaustive bounding boxes (4,383 possible pairs) then exact Python integer/Fraction plane cuts or convex coplanar clipping. Declared shared vertices/edges are verified rather than excluded. Ten adversarial kernel cases include coplanar and noncoplanar improper shared-simplex intersections.
+Landmark contacts use exhaustive terrain/landmark AABB pairs and the same exact predicates after the specified float64 rigid world transform. Fixed-Z clearance values are numerical section diagnostics, not exhaustive minimum 3D clearances.
+
+REPRODUCE: python validate_folded_ledge.py <source.glb> <candidate.glb> <landmark.glb> <output.json>
+REQUIRES: Python 3 and NumPy; no Blender, SciPy or source-side validation arrays are needed.
+OUTPUTS: <output.json> (full contact and crossing witnesses) and <output.txt> (this report). An optional --validation-npz <input.npz> checks saved arrays against authoritative GLB bytes.
+ARCHIVE WHITELIST FOR THIS DIAGNOSTIC: validate_folded_ledge.py; visible-ledge-independent-validation.json; visible-ledge-independent-validation.txt. Candidate/proof/NPZ and fixed grey images are parent-owned evidence. No production asset, candidate shape, browser, deployment or external state was changed.
