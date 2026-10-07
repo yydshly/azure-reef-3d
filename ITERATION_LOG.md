@@ -165,3 +165,7 @@ Source6750ba68 / measured candidate73f334e / run37602816684. Original four-view 
 ## 2026-10-07 · Visible folded ledge rejected
 
 [Rejected structure record](experiments/2026-10-07-visible-ledge-rejected/README.md). Offline75%/92%/reverse views show a broad cap/ribbon and loss of the old reef layering. Independent diagnostics find12 improper intersections and35 new rear contacts; cavity gap shrinks from.95 to.1555, so preservation is explicitly not claimed. A prior935-ray visibility diagnostic explains why the earlier bank edit barely affected the view, not why this candidate should pass. Portable recipe replay exactly matches9e0cb3f4… . No new geometry deployment, WebGL run, or parameter repair.
+
+## 2026-10-07 · Bounded source-asset research
+
+[Two source-chain findings](docs/asset-research-20261007/SOURCE_ASSET_CHECKS.md): the inspected Bremen archive exposes orthomosaic TIFFs rather than3D geometry; the NAUTILUS portal and18 relevant linked-map entries did not establish a reusable current-Caribbean mesh. The portal was readable; temporary cancelled/502 reads are not generalized access prohibitions. These findings close only those leads, not all asset sources or all design approaches. No downloaded scene asset, production change, or new rendering follows this record. The folded-ledge archive also includes its final22-item source whitelist.

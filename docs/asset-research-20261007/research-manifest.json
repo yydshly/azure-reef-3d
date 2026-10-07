@@ -1,0 +1,130 @@
+{
+  "checked_at_utc": "2026-10-07T10:43:41Z",
+  "scope": "Two specified new leads and their direct primary links only; no new asset integrated or publicly uploaded.",
+  "bremen": {
+    "source": "https://zenodo.org/records/17513294",
+    "metadata_api": "https://zenodo.org/api/records/17513294",
+    "creator": "Patrick Boyden, Center for Marine Environmental Sciences, University of Bremen",
+    "title": "Modern shallow reef orthomosaic dataset from the ABC Islands (Leeward Antilles, Caribbean)",
+    "doi": "10.5281/zenodo.17513294",
+    "license_as_declared": "CC BY 4.0",
+    "license_id": "cc-by-4.0",
+    "record_archive_md5": "824c8e9d45b60289217430f61921a400",
+    "record_csv_md5": "24654814805c8eb2f49153879e0271a8",
+    "verification": "Complete ZIP64 central directory obtained using HTTP Range, 131072 bytes only. All 76 entries accounted for: 3 folders, 69 TIFF-named entries (one empty), 4 macOS resource fork sidecars. No mesh, point cloud, Blender scene, reconstruction project, or input photographs in archive. TIFF pixels not inspected.",
+    "unit_context": "Metadata reports area in square metres, depths and errors in metres, resolution in mm/pixel. These describe source survey/orthomosaic, not a released true-3D mesh."
+  },
+  "poser": {
+    "paper": "https://repository.library.noaa.gov/view/noaa/69815/noaa_69815_DS1.pdf",
+    "publisher": "https://isprs-archives.copernicus.org/articles/XLVIII-2-2024/265/2024/",
+    "direct_portal": "https://nautilus-isprs.fbk.eu/dataset-collection/nautilus-web-portal",
+    "verification": "Paper and publisher page provide no repository or reef asset download. Article CC BY 4.0 does not establish underlying asset rights. Public NAUTILUS ArcGIS metadata and related records were subsequently inspected: 18 unique matched ecology/reef/POSER/Moorea/geography entries. No suitable Caribbean living-reef mesh verified. The Red Sea entry marked 3D model resolves to CC0 TIFF orthomosaic/DEM and shapefile releases; Scott Reef resolves to Australian stereo reconstruction inputs (22 GB), without an explicit commercial reuse grant on inspected page. GoPro9UnderwaterVIO source page returned HTTP 502, so remains unverified. Detailed bounded assessment is saved separately.",
+    "portal_check": {
+      "checked_at_utc": "2026-10-07T10:38:59Z",
+      "requested_url": "https://nautilus-isprs.fbk.eu/dataset-collection/nautilus-web-portal",
+      "final_url": "https://nautilus-isprs.fbk.eu/dataset-collection/nautilus-web-portal",
+      "http_status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 135858,
+      "saved_as": "nautilus-portal.html",
+      "embedded_map_url": "https://poli.maps.arcgis.com/apps/webappviewer/index.html?id=cbc0c928079543028a3adc5a31f33d23",
+      "embedded_target_fetched": true,
+      "asset_availability_inside_map": "Inspected public app/map/layer metadata and relevant entries; no usable current-scene mesh verified; see nautilus-assessment.json.",
+      "scope": "After initial one-GET verification, parent separately authorized public embedded ArcGIS map and directly related reef-entry inspection; no login, security change, large payload download, or broad new search."
+    },
+    "assessment_file": "nautilus-assessment.json"
+  },
+  "decision": "No verified suitable true-3D Caribbean living-reef asset acquired from the two-lead source chain. Bremen archive is raster-only. POSER article supplies no asset package; linked NAUTILUS candidates did not verify a matching licensed mesh. This closes this bounded data-source investigation, with limitations retained for the unavailable VIO source page and unexamined archive payloads.",
+  "execution_note": "An initial read process was cancelled during retrieval. One permitted retry of the original official page succeeded (HTTP 200); its linked public map metadata and relevant entries were then verified. This was not a portal access ban.",
+  "files": [
+    {
+      "name": "Modern_Reef_Ortho_Metadata.csv",
+      "bytes": 9965,
+      "sha256": "57cb82538a95b08eebe9f12d128a17dd75d1c3db68f79b55d75b34052660a10d"
+    },
+    {
+      "name": "SOURCE_ASSET_CHECKS.md",
+      "bytes": 2642,
+      "sha256": "6aac7cb83cef6264dda1933dd1a07ddaaa346415a80d00a32fa3833952c0cae3"
+    },
+    {
+      "name": "bremen-record.json",
+      "bytes": 6321,
+      "sha256": "a3721750d3fb4286170bcc000081bec7dc266df9f0f377a329519ddd05786adf"
+    },
+    {
+      "name": "bremen-zip-inventory.json",
+      "bytes": 13341,
+      "sha256": "99bf92c78847a1210b9beff03eda3d6dd1f7aadc276bc90291ae608d6f695665"
+    },
+    {
+      "name": "bremen-zip-tail.bin",
+      "bytes": 131072,
+      "sha256": "5e71dbb1cdae1571d0bb3c1785f125e872470c38c67f75a0c11808d6e92f2084"
+    },
+    {
+      "name": "nautilus-arcgis-app-data.json",
+      "bytes": 37688,
+      "sha256": "0086df086e281dc0b3d2568677f36bc4fb61d0e7f082f4b090487876eb610db7"
+    },
+    {
+      "name": "nautilus-arcgis-app-item.json",
+      "bytes": 7688,
+      "sha256": "d14afa46e03c9e2516eb81c58d06419e1948d4749043099fa0774787fae0a6fc"
+    },
+    {
+      "name": "nautilus-arcgis-map-data.json",
+      "bytes": 8105,
+      "sha256": "6ed62fffce000b5d81e6a4b3f9ccc6161a41253aae9d490177b72a97c8a13e25"
+    },
+    {
+      "name": "nautilus-arcgis-map-item.json",
+      "bytes": 7391,
+      "sha256": "a31a76846a106ac42be02001faea064777358f0e63ac1cfb0c4d23784a88e121"
+    },
+    {
+      "name": "nautilus-assessment.json",
+      "bytes": 27706,
+      "sha256": "77b038be50b2e089a7de84aa50f0063202521f13463b87da06af6062d162eb4a"
+    },
+    {
+      "name": "nautilus-portal.html",
+      "bytes": 135858,
+      "sha256": "5b117b0e5b629c67f5cd410742d5ba780d7143c10cd9ae38851d1a163f179e8b"
+    },
+    {
+      "name": "nautilus-red-sea-dryad-final-url.txt",
+      "bytes": 58,
+      "sha256": "6b9ecc6a555e8149339fd905b8aaee88568f13a29ef1c2182b9f225f80454aa1"
+    },
+    {
+      "name": "nautilus-red-sea-dryad-structured.json",
+      "bytes": 6158,
+      "sha256": "d31477760d0d970a1fe0ad704e7f73f87247eaa356c08d06d4686949aae9a8e7"
+    },
+    {
+      "name": "nautilus-red-sea-dryad.html",
+      "bytes": 46837,
+      "sha256": "48a89eb72cd94711a2a307e4e753f554a4b40193c705a416700cb39b5de2e798"
+    },
+    {
+      "name": "nautilus-reef-geography-check.json",
+      "bytes": 5893,
+      "sha256": "d33b7e57e2aa92894b17881524d867630fac76dc30198e6ae10d005e8d8c3f89"
+    },
+    {
+      "name": "nautilus-reef-query-url.txt",
+      "bytes": 756,
+      "sha256": "77d6f40eb458b92f36e50383dd32b8373a855eef1966f71ca3eca26ab661d8ad"
+    },
+    {
+      "name": "nautilus-reef-records.json",
+      "bytes": 33347,
+      "sha256": "08d98d4906dea343eb7bf68b83ff239c7aadeae5facdc68079b25b7568fa8cea"
+    }
+  ],
+  "strategy_limit": "The stated model/reconstruction-input dependency applies to this selected data-led asset route only. It is not asserted to be the only possible route to any visual improvement, nor evidence that all open reef assets are absent.",
+  "archive_frozen_at_utc": "2026-10-07T10:43:41Z",
+  "research_status": "Bounded two-lead research completed; final manifest frozen for archive. No asset integration.",
+  "archive_note": "Only this derived manifest, concise assessment, file inventory and authored summary are archived. Files listed below are provenance/checksum receipts, not all redistributed inputs."
+}

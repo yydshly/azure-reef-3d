@@ -1,0 +1,22 @@
+[
+  {
+    "path": "SOURCE_ASSET_CHECKS.md",
+    "bytes": 3777,
+    "sha256": "28393bf4ea5a39a62e0be86cd995c6f6555afa5f173363739733485bb8622150"
+  },
+  {
+    "path": "bremen-zip-inventory.json",
+    "bytes": 13341,
+    "sha256": "99bf92c78847a1210b9beff03eda3d6dd1f7aadc276bc90291ae608d6f695665"
+  },
+  {
+    "path": "nautilus-assessment.json",
+    "bytes": 6660,
+    "sha256": "aa4dc2ea06f7d01643563880d5f96cefe9395f1ca3e5ee9671ef37ca08cc45f7"
+  },
+  {
+    "path": "research-manifest.json",
+    "bytes": 7317,
+    "sha256": "e87a72895bd811a0ddb45f7d8822d5c12b5a07e1c28237924be058eb2d043776"
+  }
+]

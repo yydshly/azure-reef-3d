@@ -1,0 +1,485 @@
+{
+  "verification": {
+    "eocd64_relative_offset": 130974,
+    "archive_total_bytes": 17497769120,
+    "tail_start": 17497638048,
+    "tail_bytes": 131072,
+    "central_directory_entries": 76,
+    "central_directory_bytes": 9368,
+    "central_directory_offset": 17497759654,
+    "parsed_entries": 76,
+    "parsed_directory_bytes": 9368,
+    "complete_directory": true,
+    "extension_counts": {
+      "(directory)": 3,
+      ".tif": 73
+    },
+    "tiff_image_entries": 69,
+    "macos_resource_forks": 4,
+    "zero_length_tiff_entries": [
+      "Aruba/AUA-CruiseTerminal-T2M_Ortho.tif"
+    ],
+    "source_url": "https://zenodo.org/api/records/17513294/files/Modern_Reef_Orthos.zip/content",
+    "http_status": 206,
+    "content_range": "bytes 17497638048-17497769119/17497769120",
+    "archive_downloaded": false
+  },
+  "entries": [
+    {
+      "name": "Curaçao/",
+      "compressed_size": 0,
+      "uncompressed_size": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "Curaçao/CUR-Carmabi-T2-Ortho.tif",
+      "compressed_size": 454550392,
+      "uncompressed_size": 462356817,
+      "crc32": "7b57d103"
+    },
+    {
+      "name": "Curaçao/CUR-DirectorsBay-T5_Ortho.tif",
+      "compressed_size": 334201856,
+      "uncompressed_size": 337241797,
+      "crc32": "0a4055ff"
+    },
+    {
+      "name": "Curaçao/CUR-SantaMarta-T3M_Ortho.tif",
+      "compressed_size": 249188536,
+      "uncompressed_size": 250750009,
+      "crc32": "8bc6c89e"
+    },
+    {
+      "name": "__MACOSX/Curaçao/._CUR-SantaMarta-T3M_Ortho.tif",
+      "compressed_size": 92,
+      "uncompressed_size": 176,
+      "crc32": "936ac1dd"
+    },
+    {
+      "name": "Curaçao/CUR-Tugboat-T2_Ortho.tif",
+      "compressed_size": 962229857,
+      "uncompressed_size": 975976397,
+      "crc32": "d813de25"
+    },
+    {
+      "name": "Curaçao/CUR-DirectorsBay-T2.tif",
+      "compressed_size": 39893109,
+      "uncompressed_size": 40370655,
+      "crc32": "d2e1092c"
+    },
+    {
+      "name": "Curaçao/CUR-PlayaLargu-T2M_Ortho.tif",
+      "compressed_size": 91390051,
+      "uncompressed_size": 93027589,
+      "crc32": "c74412f0"
+    },
+    {
+      "name": "Curaçao/CUR-DirectorsBay-T4M_Ortho.tif",
+      "compressed_size": 45388591,
+      "uncompressed_size": 46033037,
+      "crc32": "af8305d7"
+    },
+    {
+      "name": "Curaçao/CUR-PlayaLargu-T1_Ortho.tif",
+      "compressed_size": 538989330,
+      "uncompressed_size": 546989895,
+      "crc32": "33209a1e"
+    },
+    {
+      "name": "Curaçao/CUR-Tugboat-T1M_Ortho.tif",
+      "compressed_size": 665993737,
+      "uncompressed_size": 673384957,
+      "crc32": "b2b16408"
+    },
+    {
+      "name": "Curaçao/CUR-DirectorsBay-T1M_Ortho.tif",
+      "compressed_size": 52760644,
+      "uncompressed_size": 53293629,
+      "crc32": "f2bfe866"
+    },
+    {
+      "name": "Curaçao/CUR-PlayaKalki-T1M_Ortho.tif",
+      "compressed_size": 73101032,
+      "uncompressed_size": 74561203,
+      "crc32": "0e286b14"
+    },
+    {
+      "name": "Curaçao/CUR-PlayaPortoMari-T1M_Ortho.tif",
+      "compressed_size": 471790685,
+      "uncompressed_size": 479316003,
+      "crc32": "28b4b1e0"
+    },
+    {
+      "name": "Curaçao/CUR-SantaMarta-T3_Ortho.tif",
+      "compressed_size": 249188536,
+      "uncompressed_size": 250750009,
+      "crc32": "8bc6c89e"
+    },
+    {
+      "name": "Curaçao/CUR-Carmabi-T1M_Ortho.tif",
+      "compressed_size": 673005281,
+      "uncompressed_size": 1065913667,
+      "crc32": "31b9a37a"
+    },
+    {
+      "name": "Curaçao/CUR-CasAbou-T3M_Ortho.tif",
+      "compressed_size": 104071606,
+      "uncompressed_size": 105656375,
+      "crc32": "ead15bc1"
+    },
+    {
+      "name": "Curaçao/CUR-PlayaHundu-T2_Ortho.tif",
+      "compressed_size": 291273281,
+      "uncompressed_size": 293304397,
+      "crc32": "a5f8679a"
+    },
+    {
+      "name": "Curaçao/CUR-Tugboat-T3_Ortho.tif",
+      "compressed_size": 285446132,
+      "uncompressed_size": 288963615,
+      "crc32": "76847fa9"
+    },
+    {
+      "name": "Curaçao/CUR-SantaMarta-T1M_Ortho.tif",
+      "compressed_size": 318483819,
+      "uncompressed_size": 320976975,
+      "crc32": "63319a20"
+    },
+    {
+      "name": "Curaçao/CUR-PlayaKalki-T3M_Ortho.tif",
+      "compressed_size": 83876178,
+      "uncompressed_size": 84856829,
+      "crc32": "ecea57df"
+    },
+    {
+      "name": "Curaçao/CUR-PlayaPortoMari-T2_Ortho.tif",
+      "compressed_size": 480633587,
+      "uncompressed_size": 487135363,
+      "crc32": "b7af97d2"
+    },
+    {
+      "name": "Curaçao/CUR-Tugboat-T3M_Ortho.tif",
+      "compressed_size": 285446132,
+      "uncompressed_size": 288963615,
+      "crc32": "76847fa9"
+    },
+    {
+      "name": "Curaçao/CUR-DirectorsBay-T3M_Ortho.tif",
+      "compressed_size": 40680496,
+      "uncompressed_size": 41265159,
+      "crc32": "bd601767"
+    },
+    {
+      "name": "Curaçao/CUR-SantaMarta-T2_Ortho.tif",
+      "compressed_size": 310202084,
+      "uncompressed_size": 312846577,
+      "crc32": "6a629f9f"
+    },
+    {
+      "name": "Curaçao/CUR-CasAbou-T1M_Ortho.tif",
+      "compressed_size": 179133819,
+      "uncompressed_size": 181196805,
+      "crc32": "749cdc1e"
+    },
+    {
+      "name": "__MACOSX/Curaçao/._CUR-CasAbou-T1M_Ortho.tif",
+      "compressed_size": 92,
+      "uncompressed_size": 176,
+      "crc32": "6c808f08"
+    },
+    {
+      "name": "Curaçao/CUR-CasAbou-T2M_Ortho.tif",
+      "compressed_size": 87351883,
+      "uncompressed_size": 88110447,
+      "crc32": "fbbfe4de"
+    },
+    {
+      "name": "Curaçao/CUR-PlayaLargu-T3_Ortho.tif",
+      "compressed_size": 700722073,
+      "uncompressed_size": 713929089,
+      "crc32": "46dcfa36"
+    },
+    {
+      "name": "Curaçao/CUR-SantaMarta-T2M_Ortho.tif",
+      "compressed_size": 310202084,
+      "uncompressed_size": 312846577,
+      "crc32": "6a629f9f"
+    },
+    {
+      "name": "Curaçao/CUR-PlayaPortoMari-T1_Ortho.tif",
+      "compressed_size": 471790685,
+      "uncompressed_size": 479316003,
+      "crc32": "28b4b1e0"
+    },
+    {
+      "name": "Curaçao/CUR-PlayaLargu-T3M_Ortho.tif",
+      "compressed_size": 700722073,
+      "uncompressed_size": 713929089,
+      "crc32": "46dcfa36"
+    },
+    {
+      "name": "Curaçao/CUR-CasAbou-T2.tif",
+      "compressed_size": 87351883,
+      "uncompressed_size": 88110447,
+      "crc32": "fbbfe4de"
+    },
+    {
+      "name": "Curaçao/CUR-SantaMarta-T1_Ortho.tif",
+      "compressed_size": 318483819,
+      "uncompressed_size": 320976975,
+      "crc32": "63319a20"
+    },
+    {
+      "name": "Curaçao/CUR-Tugboat-T1_Ortho.tif",
+      "compressed_size": 665993737,
+      "uncompressed_size": 673384957,
+      "crc32": "b2b16408"
+    },
+    {
+      "name": "Curaçao/CUR-Tugboat-T2M_Ortho.tif",
+      "compressed_size": 962229857,
+      "uncompressed_size": 975976397,
+      "crc32": "d813de25"
+    },
+    {
+      "name": "Curaçao/CUR-DirectorsBay-T2M_Ortho.tif",
+      "compressed_size": 39893109,
+      "uncompressed_size": 40370655,
+      "crc32": "d2e1092c"
+    },
+    {
+      "name": "Curaçao/CUR-DirectorsBay-T6_Ortho.tif",
+      "compressed_size": 325069329,
+      "uncompressed_size": 328318721,
+      "crc32": "84865d93"
+    },
+    {
+      "name": "Curaçao/CUR-Carmabi-T1-Ortho.tif",
+      "compressed_size": 673005281,
+      "uncompressed_size": 1065913667,
+      "crc32": "31b9a37a"
+    },
+    {
+      "name": "Curaçao/CUR-Carmabi-T2M_Ortho.tif",
+      "compressed_size": 454550392,
+      "uncompressed_size": 462356817,
+      "crc32": "7b57d103"
+    },
+    {
+      "name": "Curaçao/CUR-PlayaPortoMari-T2M_Ortho.tif",
+      "compressed_size": 480633587,
+      "uncompressed_size": 487135363,
+      "crc32": "b7af97d2"
+    },
+    {
+      "name": "Curaçao/CUR-CasAbou-T1-Ortho.tif",
+      "compressed_size": 179133819,
+      "uncompressed_size": 181196805,
+      "crc32": "749cdc1e"
+    },
+    {
+      "name": "Curaçao/CUR-PlayaLargu-T1M_Ortho.tif",
+      "compressed_size": 538989330,
+      "uncompressed_size": 546989895,
+      "crc32": "33209a1e"
+    },
+    {
+      "name": "Aruba/",
+      "compressed_size": 0,
+      "uncompressed_size": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "Aruba/AUA-DePalm-T2M_Ortho.tif",
+      "compressed_size": 138273342,
+      "uncompressed_size": 140177845,
+      "crc32": "44fbae4c"
+    },
+    {
+      "name": "Aruba/AUA-Fuelbarge-T2M_Ortho.tif",
+      "compressed_size": 95286293,
+      "uncompressed_size": 97416181,
+      "crc32": "d1c3795d"
+    },
+    {
+      "name": "Aruba/AUA-BabyBeachNW-T1M_Ortho.tif",
+      "compressed_size": 50448892,
+      "uncompressed_size": 51356879,
+      "crc32": "fa22e4eb"
+    },
+    {
+      "name": "Aruba/AUA-RockyBeachSE-T2M_Ortho.tif",
+      "compressed_size": 84510074,
+      "uncompressed_size": 85606941,
+      "crc32": "c147f0e3"
+    },
+    {
+      "name": "Aruba/AUA-CruiseTerminal-T2M_Ortho.tif",
+      "compressed_size": 2,
+      "uncompressed_size": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "Aruba/AUA-RockyBeachNW-T1M_Ortho.tif",
+      "compressed_size": 110626951,
+      "uncompressed_size": 112050673,
+      "crc32": "876f6d91"
+    },
+    {
+      "name": "Aruba/AUA-BabayBeachSE-T1M_Ortho.tif",
+      "compressed_size": 39810632,
+      "uncompressed_size": 40373999,
+      "crc32": "3983b855"
+    },
+    {
+      "name": "Aruba/AUA-CruiseTerminal-T2M-High_Ortho.tif",
+      "compressed_size": 1232606782,
+      "uncompressed_size": 1238827487,
+      "crc32": "7a623570"
+    },
+    {
+      "name": "Aruba/AUA-CruiseTerminal-T1M_Ortho.tif",
+      "compressed_size": 63892665,
+      "uncompressed_size": 64436013,
+      "crc32": "03481c35"
+    },
+    {
+      "name": "Aruba/AUA-RockyBeachNW-T2M_Ortho.tif",
+      "compressed_size": 111434892,
+      "uncompressed_size": 113305429,
+      "crc32": "baa50e87"
+    },
+    {
+      "name": "Aruba/AUA-FuelBarge-T3M_Ortho.tif",
+      "compressed_size": 92651843,
+      "uncompressed_size": 94452903,
+      "crc32": "3bd890db"
+    },
+    {
+      "name": "Aruba/AUA-RockyBeachSE-T1M_Ortho.tif",
+      "compressed_size": 93021168,
+      "uncompressed_size": 95159355,
+      "crc32": "86b3422c"
+    },
+    {
+      "name": "Aruba/AUA-BabyBeachNW-T2M_Ortho.tif",
+      "compressed_size": 42635404,
+      "uncompressed_size": 43295593,
+      "crc32": "368c6c33"
+    },
+    {
+      "name": "Aruba/AUA-Renaissance-T1M_Ortho.tif",
+      "compressed_size": 117826099,
+      "uncompressed_size": 119106871,
+      "crc32": "2aee3edf"
+    },
+    {
+      "name": "Aruba/AUA-DePalm-T1M_Ortho.tif",
+      "compressed_size": 80415525,
+      "uncompressed_size": 81883109,
+      "crc32": "c494ca6a"
+    },
+    {
+      "name": "Aruba/AUA-FuelBarge-T1M_Ortho.tif",
+      "compressed_size": 114170929,
+      "uncompressed_size": 114956203,
+      "crc32": "bdf90839"
+    },
+    {
+      "name": "Aruba/AUA-CruiseTerminal-T3M_Ortho.tif",
+      "compressed_size": 142172055,
+      "uncompressed_size": 145889897,
+      "crc32": "4f0128d5"
+    },
+    {
+      "name": "Bonaire/",
+      "compressed_size": 0,
+      "uncompressed_size": 0,
+      "crc32": "00000000"
+    },
+    {
+      "name": "Bonaire/BON-KleinBonaire-T2M_Ortho.tif",
+      "compressed_size": 59924308,
+      "uncompressed_size": 61218781,
+      "crc32": "5f809dbc"
+    },
+    {
+      "name": "Bonaire/BON-1000Steps-T2M_Ortho.tif",
+      "compressed_size": 48158061,
+      "uncompressed_size": 49139419,
+      "crc32": "238cb5f0"
+    },
+    {
+      "name": "Bonaire/BON-VistaBlue-T2M_Ortho.tif",
+      "compressed_size": 38663841,
+      "uncompressed_size": 39636695,
+      "crc32": "2ba5bf19"
+    },
+    {
+      "name": "Bonaire/BON-BonBiniNaKas-T2M_Ortho.tif",
+      "compressed_size": 43345130,
+      "uncompressed_size": 44329227,
+      "crc32": "281aeb42"
+    },
+    {
+      "name": "__MACOSX/Bonaire/._BON-BonBiniNaKas-T2M_Ortho.tif",
+      "compressed_size": 141,
+      "uncompressed_size": 233,
+      "crc32": "7f471f4b"
+    },
+    {
+      "name": "Bonaire/BON-SaltCity-T2M_Ortho.tif",
+      "compressed_size": 41328788,
+      "uncompressed_size": 42367599,
+      "crc32": "d4e31cae"
+    },
+    {
+      "name": "Bonaire/BON-PinkBeach-T1M_Ortho.tif",
+      "compressed_size": 62575543,
+      "uncompressed_size": 63643703,
+      "crc32": "178c1b0b"
+    },
+    {
+      "name": "Bonaire/BON-SaltCity-T1M_Ortho.tif",
+      "compressed_size": 60943229,
+      "uncompressed_size": 62609829,
+      "crc32": "1a6814d0"
+    },
+    {
+      "name": "Bonaire/BON-PinkBeach-T2M_Ortho.tif",
+      "compressed_size": 63549315,
+      "uncompressed_size": 65252167,
+      "crc32": "9f34ee45"
+    },
+    {
+      "name": "Bonaire/BON-VistaBlue-T1M_Ortho.tif",
+      "compressed_size": 32171121,
+      "uncompressed_size": 32800581,
+      "crc32": "2a7c0c7b"
+    },
+    {
+      "name": "Bonaire/BON-BonBiniNaKas-T1M_Ortho.tif",
+      "compressed_size": 48188652,
+      "uncompressed_size": 49188883,
+      "crc32": "eac76b6a"
+    },
+    {
+      "name": "Bonaire/BON-KleinBonaire-T1M_Ortho.tif",
+      "compressed_size": 57202927,
+      "uncompressed_size": 58376023,
+      "crc32": "63a3c34f"
+    },
+    {
+      "name": "Bonaire/BON-1000Steps-T1M_Ortho.tif",
+      "compressed_size": 54874414,
+      "uncompressed_size": 56349019,
+      "crc32": "42ad4316"
+    },
+    {
+      "name": "__MACOSX/Bonaire/._BON-1000Steps-T1M_Ortho.tif",
+      "compressed_size": 140,
+      "uncompressed_size": 233,
+      "crc32": "f28e904a"
+    }
+  ]
+}

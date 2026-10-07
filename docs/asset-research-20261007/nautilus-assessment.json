@@ -1,0 +1,161 @@
+{
+  "frozen_at_utc": "2026-10-07T10:43:41Z",
+  "scope": "Only linked NAUTILUS public ArcGIS app/map/layer, matching ecology/reef/POSER/Moorea entries and a Caribbean/Florida coordinate check; direct relevant source pages. No new broad search.",
+  "app_url": "https://poli.maps.arcgis.com/apps/webappviewer/index.html?id=cbc0c928079543028a3adc5a31f33d23",
+  "app_item_metadata_url": "https://poli.maps.arcgis.com/sharing/rest/content/items/cbc0c928079543028a3adc5a31f33d23?f=pjson",
+  "map_item_id": "9b5da615b412497ca8850cbe8b276b4b",
+  "layer_url": "https://services3.arcgis.com/zhmVWeFi3qKWY2Y8/arcgis/rest/services/ISPRS_SI2023___NAUTILUS_dataset_collection_form/FeatureServer/0",
+  "configured_operational_layers": 1,
+  "matched_unique_entries": 18,
+  "entry_ids": [
+    2,
+    6,
+    10,
+    11,
+    12,
+    13,
+    17,
+    24,
+    25,
+    28,
+    30,
+    35,
+    37,
+    39,
+    40,
+    42,
+    43,
+    44
+  ],
+  "query_truncation": false,
+  "asset_reuse_grant_from_portal": false,
+  "portal_license_info": "Generic disclaimer, including external copyrighted material; does not provide a blanket asset reuse grant.",
+  "relevant_findings": [
+    {
+      "fid": 17,
+      "name": "Red Sea UAV reef mapping data",
+      "source": "https://datadryad.org/dataset/doi:10.5061/dryad.6m905qg2p",
+      "published_file_listing": "Dataset_1_UAV_orthomosaics_and_DEMs.zip (6.88 GB); Dataset_2_Snorkel_transect_orthomosaics.zip (31.43 GB); Dataset_3_Habitat_classifications.zip (1.38 GB); Dataset_4_Manual_classifications_for_accuracy_assessment.zip (44.82 KB); README.txt (1.04 KB)",
+      "actual_release_description": "TIFF orthomosaics/DEMs and habitat/accuracy shapefiles. No true-3D mesh or original reconstruction photographs listed. ZIP contents not downloaded or independently inventoried.",
+      "license": "Creative Commons Zero v1.0 Universal, verified in dataset JSON-LD",
+      "location": "Saudi Arabian Red Sea coast near KAUST",
+      "scale": "Real very shallow reefs under 5 m deep; map entry maximum depth 4; no released mesh units verified. Spatial_resolution value 1 in portal lacks explicit unit in inspected record.",
+      "decision": "Not an appropriate Caribbean living-reef mesh; do not mistake portal 3D-model category for released mesh."
+    },
+    {
+      "fid": 11,
+      "name": "Scott Reef 25",
+      "source": "https://marine.acfr.usyd.edu.au/datasets/",
+      "release_description": "9831 stereo image pairs, 22 GB; multibeam GSF 6.2 MB; SLAM solution and KML 1.4 MB; raw sensor data 7.0 MB. No ready mesh listed.",
+      "scale": "75 m x 50 m survey",
+      "location": "Scott Reef, Australia",
+      "license": "Page requests attribution; explicit commercial asset reuse license not found on inspected page",
+      "decision": "Real reconstruction-input route, different ecology/region and large image package; no download undertaken."
+    },
+    {
+      "fid": 13,
+      "name": "GoPro9UnderwaterVIO",
+      "source": "https://afrl.cse.sc.edu/afrl/resources/datasets/",
+      "release_description": "Map states two GoPro9 cameras, calibration and odometry sequences; Video, Calibration data, script. No mesh listed.",
+      "location": "Map point 30.0033824423028, -82.996895674668; exact acquisition scene not independently verified.",
+      "license": "Unverified",
+      "source_response": "HTTP 502 Bad Gateway",
+      "decision": "No usable reef asset verified. Do not equate map point or video metadata with a Caribbean coral survey."
+    }
+  ],
+  "other_results": "Remaining relevant records concern Australia/Tasmania stereo imagery, deep-sea or polar surveys, benthic classification imagery, species annotations, Mediterranean monitoring, tabular fauna data, or other nonmatching materials. None was a verified Caribbean living-reef mesh.",
+  "poser_moorea_result": "No POSER or Moorea asset record returned by the bounded name/description queries.",
+  "conclusion": "No verified suitable true-3D Caribbean reef asset acquired from this bounded source chain. This does not prove every global reef asset absent or that data acquisition is the only visual-improvement route.",
+  "inspected_record_links": [
+    {
+      "fid": 2,
+      "source": "https://datadryad.org/stash/dataset/doi:10.5061/dryad.4mw6m9095",
+      "data_types": "List of specimens"
+    },
+    {
+      "fid": 6,
+      "source": "https://datadryad.org/stash/dataset/doi:10.5061/dryad.bh051",
+      "data_types": "Table"
+    },
+    {
+      "fid": 10,
+      "source": "http://marine.acfr.usyd.edu.au/datasets/",
+      "data_types": "RGB images; Camera pose; timestamp; Script"
+    },
+    {
+      "fid": 11,
+      "source": "http://marine.acfr.usyd.edu.au/datasets/",
+      "data_types": "RGB images; acoustic"
+    },
+    {
+      "fid": 12,
+      "source": "http://marine.acfr.usyd.edu.au/datasets/",
+      "data_types": "RGB images; acoustic"
+    },
+    {
+      "fid": 17,
+      "source": "https://doi.org/10.5061/dryad.6m905qg2p",
+      "data_types": "3D model, 2.5D surface, 2D map, RGB images"
+    },
+    {
+      "fid": 24,
+      "source": "https://zenodo.org/records/7318531",
+      "data_types": "RGB images, Labels"
+    },
+    {
+      "fid": 25,
+      "source": "https://zenodo.org/records/4000213",
+      "data_types": "SRI shapefiles"
+    },
+    {
+      "fid": 28,
+      "source": "https://github.com/LehiChiang/Underwater-object-detection-dataset",
+      "data_types": "RGB images, Annotations"
+    },
+    {
+      "fid": 30,
+      "source": "https://mvk.hkustvgd.com/",
+      "data_types": "video"
+    },
+    {
+      "fid": 35,
+      "source": "https://campagnes.flotteoceanographique.fr/campagnes/18001448/",
+      "data_types": "RGB images"
+    },
+    {
+      "fid": 37,
+      "source": "https://data.mendeley.com/datasets/mmzb4hhptc/1",
+      "data_types": "2D map, RGB images, Videos; Mosaics; Annotations"
+    },
+    {
+      "fid": 39,
+      "source": "https://fathomnet.org/fathomnet/#/",
+      "data_types": "RGB images, Acoustic data"
+    },
+    {
+      "fid": 40,
+      "source": "https://www.biigle.de",
+      "data_types": "2D map, RGB images, Annotations"
+    },
+    {
+      "fid": 42,
+      "source": "https://github.com/hdoi5324/benthic-uda",
+      "data_types": "RGB images"
+    },
+    {
+      "fid": 43,
+      "source": "https://datadryad.org/stash/dataset/doi:10.5061/dryad.0j6s6",
+      "data_types": "environmental, location and fauna data in .txt format"
+    },
+    {
+      "fid": 44,
+      "source": null,
+      "data_types": "RGB images, georeferenced data"
+    },
+    {
+      "fid": 13,
+      "source": "https://afrl.cse.sc.edu/afrl/resources/datasets/",
+      "data_types": "Video; Calibration data; script"
+    }
+  ]
+}

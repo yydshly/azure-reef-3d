@@ -2,6 +2,7 @@
   "visible-ledge-independent-validation.txt": "095e1b5348f025825e51ba6447b2e1d61361b6e1bfa0d9a3305e79f0a3b1a0f2",
   "fold_visible_ledge.py": "29d6b3769d383f4e150e7b1733a37fa121f1700f39cc1bb5e25085e94045febc",
   "validate_folded_ledge.py": "ffb5a9707deab27239d048a8d8db804564fe0f48e0b11aff6293449a46439569",
+  "archive-allowlist.json": "ad5e9585ba7b720f1423f41255eb65b9242641030773fa0d9aa8fc55419d9d42",
   "REPORT.md": "507920c317b71c3d5c48d666f87e27509f96c37365e907792f60aaab16344336",
   "visible-ledge-candidate.proof.json": "9d887f1803af86d62b944d76a2731010d848463eec2bd3504055b1832a82d38b",
   "visible-ledge-independent-validation.json": "239e549e97b4e49bfae4c4a790fb56fc5cdc095c6ef0ab8176c45e17cb9f7ab0",
