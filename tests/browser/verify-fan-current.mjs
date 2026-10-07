@@ -56,7 +56,7 @@ try{
     report.runtime=await page.evaluate(()=>window.reef3d.getState());
     report.actualCanvas=await page.evaluate(()=>{const c=document.querySelector('#reef');const gl=c.getContext('webgl2');const ext=gl.getExtension('WEBGL_debug_renderer_info');return {width:c.width,height:c.height,contextLost:gl.isContextLost(),renderer:ext?gl.getParameter(ext.UNMASKED_RENDERER_WEBGL):gl.getParameter(gl.RENDERER)};});
     report.captures=[];report.fixedViewMethod='Explicit camera/target and guide state through the existing app API; not an assertion that native input or transition smoothness passed.';
-    async function capture(name){const file=path.join(out,`${name}.png`);await page.screenshot({path:file,timeout:45000});const state=await page.evaluate(()=>window.reef3d.getState());report.captures.push({file:`${name}.png`,sha256:sha(await fs.readFile(file)),state});await save();}
+    async function capture(name){const file=path.join(out,`${name}.png`);await page.screenshot({path:file,timeout:45000});const state=await page.evaluate(()=>window.reef3d.getState());const rendererInfo=await page.evaluate(()=>({render:{...window.__qaRenderer.info.render},memory:{...window.__qaRenderer.info.memory},programCount:window.__qaRenderer.info.programs.length}));report.captures.push({rendererInfo,file:`${name}.png`,sha256:sha(await fs.readFile(file)),state});await save();}
     async function fixedCamera(position,target,free=true){
       await page.evaluate(({position,target,free})=>{const r=window.reef3d;if(free)r.leaveGuide();r.setTour(false);r.camera.position.set(...position);r.controls.target.set(...target);r.controls.update();r.camera.updateMatrixWorld();},{position,target,free});
       const actual=await page.evaluate(()=>window.reef3d.getState());
