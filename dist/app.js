@@ -1,5 +1,5 @@
-import {addSpecimen,SPECIMEN,SPECIMEN_LESSON} from './specimen.js?v=skeleton-20261007-r1';
-import {SpecimenFocus} from './specimen-focus.js?v=skeleton-20261007-r1';
+import {addSpecimen,SPECIMEN,SPECIMEN_LESSON} from './specimen.js?v=skeleton-ui-20261007-r2';
+import {SpecimenFocus} from './specimen-focus.js?v=skeleton-ui-20261007-r2';
 import {TourClock,advanceTourPose} from './tour-clock.js?v=tour-clock-20261007-r1';
 import {refineFish03} from './fish-surface.js?v=fish-surface-20261007-r1';
 import {addShoulder,applySubstrateLink} from './inhabited-reef.js?v=route-rebalance-20261007-r1';
@@ -56,7 +56,8 @@ function positionGuideMarker(selector,point,label){
 }
 function updateGuideMarker(){
  if(!ready||!guide.active)return;
- const s=specimenFocus?.active?SPECIMEN_LESSON:guide.current;
+ if(specimenFocus?.active){$('#focusMarker').hidden=true;$('#focusMarkerSecondary').hidden=true;return}
+ const s=guide.current;
  if(s.anchors){
   positionGuideMarker('#focusMarker',new THREE.Vector3(...s.anchors[0].point),s.anchors[0].label);
   positionGuideMarker('#focusMarkerSecondary',new THREE.Vector3(...s.anchors[1].point),s.anchors[1].label);

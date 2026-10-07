@@ -218,3 +218,8 @@ Release changes after captured runtime are import/app cache-query versioning and
 One Smithsonian CC0 dry specimen,25k triangles, original maps, unchanged scale. Third guide stop adds constrained inspection and return. See modeling/specimen/README.md and evidence/skeletal-patch-oct7/STATUS.md for provenance, measured bounds and pending actual-browser gate. Not published or accepted as whole-scene realism.
 
 Desktop software-WebGL QA37657885741 passed and five actual images were reviewed. Limited near-look detail accepted; see evidence/skeletal-patch-oct7/ACCEPTANCE.md. Production publication remains pending. Cache URL updates are local preparation only.
+
+
+## 2026-10-07 — Inspection label and narrow viewport
+
+Hide redundant floating marker only during skeleton inspection; ordinary guide markers retained. Actual desktop and390x844 software-WebGL checks37661136965 passed; source and return reachable by scrolling. Mobile hardware/gesture/performance remain untested. No geometry, placement or scene changes.

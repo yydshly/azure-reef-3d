@@ -54,6 +54,7 @@ app.goGuide(2);for(let i=0;i<400;i++)raf(clockNow+1000/60);
 const beforeFocus={p:app.camera.position.clone(),t:app.controls.target.clone(),near:app.camera.near};
 assert.equal($('#specimenInspect').hidden,false);$('#specimenInspect').onclick();
 assert.equal(app.getState().specimenInspection,true);assert.equal(app.controls.minDistance,.85);assert.equal(app.controls.enablePan,false);assert.equal(app.camera.near,.01);assert.equal($('#guidePlay').disabled,true);assert.ok($('#guideTitle').textContent.includes('真实珊瑚骨架'));assert.equal($('#guideSource').href,SPECIMEN.source);
+assert.equal($('#focusMarker').hidden,true);assert.equal($('#focusMarkerSecondary').hidden,true);
 const nearCamera=app.camera.position.clone();$('#specimenInspect').onclick();assert.ok(app.camera.position.distanceTo(nearCamera)<1e-10);
 for(let i=0;i<80;i++)$('#reef').listeners.keydown({key:'+',preventDefault(){}});
 assert.ok(Math.abs(app.camera.position.distanceTo(app.controls.target)-.85)<1e-8);
