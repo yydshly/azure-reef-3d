@@ -1,0 +1,74 @@
+{
+  "scope": "Source frustum geometry estimate, not GPU timing: no occlusion pruning, particles, shader texture cost or shadow-pass cost measured.",
+  "results": [
+    {
+      "view": "departure",
+      "baseline": {
+        "visibleTriangles": 978426,
+        "visibleMeshes": 85,
+        "totalTriangles": 1348610,
+        "byKind": {
+          "existing": 935586,
+          "fish": 42840
+        }
+      },
+      "candidate": {
+        "visibleTriangles": 1082005,
+        "visibleMeshes": 75,
+        "totalTriangles": 1452189,
+        "byKind": {
+          "existing": 646274,
+          "fish": 42840,
+          "new-structure": 392891
+        }
+      },
+      "visibleTriangleRatio": 1.1058628859004156
+    },
+    {
+      "view": "midway",
+      "baseline": {
+        "visibleTriangles": 326642,
+        "visibleMeshes": 44,
+        "totalTriangles": 1348610,
+        "byKind": {
+          "existing": 292370,
+          "fish": 34272
+        }
+      },
+      "candidate": {
+        "visibleTriangles": 508223,
+        "visibleMeshes": 47,
+        "totalTriangles": 1452189,
+        "byKind": {
+          "existing": 292370,
+          "fish": 34272,
+          "new-structure": 181581
+        }
+      },
+      "visibleTriangleRatio": 1.5559021803687216
+    },
+    {
+      "view": "look-back",
+      "baseline": {
+        "visibleTriangles": 1265362,
+        "visibleMeshes": 88,
+        "totalTriangles": 1348610,
+        "byKind": {
+          "existing": 1231090,
+          "fish": 34272
+        }
+      },
+      "candidate": {
+        "visibleTriangles": 1368941,
+        "visibleMeshes": 78,
+        "totalTriangles": 1452189,
+        "byKind": {
+          "existing": 941778,
+          "fish": 34272,
+          "new-structure": 392891
+        }
+      },
+      "visibleTriangleRatio": 1.0818572076607327
+    }
+  ]
+}

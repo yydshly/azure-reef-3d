@@ -1,0 +1,86 @@
+[
+  {
+    "mesh": "Icosphere",
+    "POSITION": {
+      "same_shape": true,
+      "exact": false,
+      "max_absolute_difference": 2.1904706954956055e-06
+    },
+    "NORMAL": {
+      "same_shape": true,
+      "exact": false,
+      "max_absolute_difference": 0.00010000180918723345
+    },
+    "TEXCOORD_0": {
+      "same_shape": true,
+      "exact": false,
+      "max_absolute_difference": 0.9738147258758545
+    },
+    "COLOR_0": {
+      "same_shape": true,
+      "exact": true,
+      "max_absolute_difference": 0.0
+    },
+    "COLOR_1": {
+      "same_shape": true,
+      "exact": true,
+      "max_absolute_difference": 0.0
+    },
+    "COLOR_2": {
+      "same_shape": true,
+      "exact": true,
+      "max_absolute_difference": 0.0
+    },
+    "indices": {
+      "same_shape": true,
+      "exact": false,
+      "max_absolute_difference": 5.0
+    }
+  },
+  {
+    "mesh": "Attached_reticulate_fan_form",
+    "POSITION": {
+      "same_shape": true,
+      "exact": false,
+      "max_absolute_difference": 4.76837158203125e-07
+    },
+    "NORMAL": {
+      "same_shape": true,
+      "exact": false,
+      "max_absolute_difference": 0.004094928503036499
+    },
+    "COLOR_0": {
+      "same_shape": true,
+      "exact": false,
+      "max_absolute_difference": 3.0338764190673828e-05
+    },
+    "indices": {
+      "same_shape": true,
+      "exact": true,
+      "max_absolute_difference": 0.0
+    }
+  },
+  {
+    "mesh": "Attached_small_fan_form",
+    "POSITION": {
+      "same_shape": true,
+      "exact": false,
+      "max_absolute_difference": 4.76837158203125e-07
+    },
+    "NORMAL": {
+      "same_shape": true,
+      "exact": false,
+      "max_absolute_difference": 0.039410874247550964
+    },
+    "COLOR_0": {
+      "same_shape": true,
+      "exact": false,
+      "max_absolute_difference": 2.682209014892578e-05
+    },
+    "indices": {
+      "same_shape": true,
+      "exact": true,
+      "max_absolute_difference": 0.0
+    }
+  }
+]

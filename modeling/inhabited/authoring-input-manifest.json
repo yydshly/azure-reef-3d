@@ -1,0 +1,62 @@
+{
+  "LOCAL_ITERATION_LOG.md": {
+    "bytes": 2434,
+    "sha256": "d6bfe2438e3d374cb1c4156256c683dc5762c2dc0c9339cfe2aae523b7f554cb"
+  },
+  "README.md": {
+    "bytes": 3996,
+    "sha256": "f50330ebc3ea90c81113e7975171445c1dd53ba3d23acc65f4ef1c305a65186e"
+  },
+  "assets/limestone-encrusting-albedo-v1.png": {
+    "bytes": 4674092,
+    "sha256": "88a006059e9d30d7599c6c81bacda0f6b01d8b9f4edbfb1b8ff1e050e61db31d"
+  },
+  "build_pilot_v3.py": {
+    "bytes": 14734,
+    "sha256": "20d4d009bc6912b8bfb4b5ac3da8001bca6432adecd34f4938c69fbbebb63020"
+  },
+  "editable-reexport-proof.json": {
+    "bytes": 428,
+    "sha256": "ae8b00d8684f1599ee12b59b5eded7c905c21a5c445dc0c3df0ce5e6205e961f"
+  },
+  "editable.blend": {
+    "bytes": 17491536,
+    "sha256": "a6fc97852fafffc26053daadbd8b44153788b94e8971d216687853226fa1a817"
+  },
+  "export_frozen_editable.py": {
+    "bytes": 614,
+    "sha256": "5109ea6f8b9132bc773b07b4cd491f07ef901f074bc5b75feada83b3dc8e3331"
+  },
+  "fan-network.json": {
+    "bytes": 528403,
+    "sha256": "d82b2756bd12d2b02a5b3fb2d5791f980b7be1ede6f8926b04e9b165a4d73a94"
+  },
+  "generated-material-prompt.json": {
+    "bytes": 1373,
+    "sha256": "1af5361edf37a540e748c09d3d0eaf39dc15f34607ff4e7cab7ee7810128934e"
+  },
+  "make_fan_network.py": {
+    "bytes": 961,
+    "sha256": "ded680fe0c1ab611a136bebf399e351e7969293883da2a78e7b5bebee90dc273"
+  },
+  "near-placement-study.json": {
+    "bytes": 15734,
+    "sha256": "b5bd2bcb5a9cec411cf67a6dca39c29bc901b383602b882a124d6d7725a15608"
+  },
+  "numeric-rebuild-proof.json": {
+    "bytes": 1925,
+    "sha256": "a31d18b71146778e801c00aad7d83e34eb1d28301563ddf89920b0c2680ff516"
+  },
+  "right-placement-study.json": {
+    "bytes": 15741,
+    "sha256": "5bcd369dc642b0b7cad995167a0c0c87dd50aa625e0d176fe36062507e058dcc"
+  },
+  "rigid-placement-grid.json": {
+    "bytes": 16489,
+    "sha256": "88be0949c343f742057da7002f346f376cd704571d5a1d2855306179f6799812"
+  },
+  "source-provenance.json": {
+    "bytes": 1222,
+    "sha256": "b050b59e7055befea64a7ecaa5c04b08d6636fa126fe2eb79a2f9377f278f690"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "tool": "Blender4.3.2",
+  "frozen_glb_sha256": "d6377e6bcfc5145ef6da7c139de26772b6065b30fbe24c2d3180bcba9ae48cdf",
+  "reexport_glb_sha256": "d6377e6bcfc5145ef6da7c139de26772b6065b30fbe24c2d3180bcba9ae48cdf",
+  "bytes": 12701472,
+  "exact": true,
+  "method": "Open packed editable, clear source image paths, normalize image labels to frozen labels, export GLB. No original filesystem paths or external textures are needed."
+}

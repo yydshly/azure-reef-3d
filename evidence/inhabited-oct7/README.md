@@ -1,0 +1,13 @@
+# Inhabited reef stage: finite acceptance
+
+Static source a62df54 / QA9ab34f96, run37590596619: both original production1e1a055 and candidate rendered the same departure/middle/look-back cameras with identical fixed fish phase and no reported runtime errors. Owner and independent pixel review accepted the structural/composition increment. The overall run subsequently failed at a Playwright tour-button locator timeout; that failure is retained and not relabeled as a full pass.
+
+Targeted route run37592002958 invoked the actual button by a native mouse click at its DOM center. Tour state changed, but16.8254s only advanced progress from.0006 to.0036. Then13 explicitly labeled test-driven poses from the actual samplePassage function were rendered. Five full screenshots plus chronological raw-video frames were reviewed: no obvious new solid intersection, floating skirt or abrupt surface patch appeared; the sand path and depth relationships remained readable. The final forward section is still mostly bare sand. This is sampled spatial review, not a smooth realtime tour or complete native-input test. Full raw video remains in the immutable QA evidence branch.
+
+Same-runner native comparison37593200908: default quality, same start, first image completed before observing, native center-click and about15s without intermediate screenshots. Baseline:15.6155s,5 RAF,.3201947 callbacks/s; candidate:17.5007s,5 RAF,.2857029/s. Both moved only.003 of the route. Candidate rate was10.8% lower in this single pair. This neither passes realtime performance nor establishes statistical equivalence or user-device FPS. Source frustum estimates also show +10.6%/+55.6%/+8.2% visible triangles across the three views. Shading, shadows and CPU/GPU timings are not measured by those counts.
+
+Accepted scope: one visible whole-route structure/composition increment, with exact scientific/material limitations on the page. Not accepted: overall realism, physical GPU performance, smooth realtime tour, all possible camera positions or full biological accuracy. Repeated source shape, rounded construction, local material repetition and empty later terrain remain.
+
+After the frozen render, only reference-gallery/verification prose and the model-context camera-tool description were updated. Renderer, layout, geometry, materials, water, fish and camera control behavior remain the rendered a62df54 bytes. Source QA output paths were moved into this stage so historical life evidence remains intact.
+
+Source master is in modeling/inhabited: packed editable re-export is exact; fresh procedural rebuilding is not byte-identical because of small floating-point/UV/bake differences. No paid/restricted third-party mesh or reference photograph was inserted into production.

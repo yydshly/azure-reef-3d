@@ -1,0 +1,32 @@
+{
+  "source": "Original procedural/interpreted geometry; no third-party mesh or image",
+  "references": [
+    "https://www.nps.gov/drto/learn/nature/corals.htm",
+    "https://floridakeys.noaa.gov/corals/coralreefs.html"
+  ],
+  "units": "uncalibrated scene units",
+  "forms": "top-open cleft skeleton, continuous encrusting relief/color, hierarchically supported fan forms; unaccepted massive cap excluded",
+  "meshes": {
+    "Shoulder_closed_irregular_skeleton": {
+      "vertices": 14859,
+      "polygons": 20692
+    },
+    "Attached_reticulate_fan_form": {
+      "vertices": 50583,
+      "polygons": 37948
+    },
+    "Attached_small_fan_form": {
+      "vertices": 50583,
+      "polygons": 37948
+    }
+  },
+  "glb_sha256": "d6377e6bcfc5145ef6da7c139de26772b6065b30fbe24c2d3180bcba9ae48cdf",
+  "glb_bytes": 12701472,
+  "active_generated_albedo": {
+    "path": "assets/limestone-encrusting-albedo-v1.png",
+    "sha256": "88a006059e9d30d7599c6c81bacda0f6b01d8b9f4edbfb1b8ff1e050e61db31d",
+    "status": "inferred original image-generation material, not scan or measured anatomy"
+  },
+  "roughness": "Authored procedural .70-.94 matte range baked to UV; not measured",
+  "massive_form": "Excluded after failed shape review"
+}
