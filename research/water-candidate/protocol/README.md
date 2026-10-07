@@ -42,3 +42,7 @@ Run tests using the bundled Three module without external installation:
 ## First actual-WebGL result and correction
 
 Run37573369857: baseline rendered successfully, but candidate GPU shader compilation failed because the injected shared function ended immediately before `#define STANDARD` without a newline. Candidate screenshots from that run are invalid as visual evidence. Fixed only the shader-prefix separator and added an explicit preprocessor-line regression assertion. Both arms did confirm identical fixed-time fish positions. Actual rerender is required before visual acceptance.
+
+## Actual visual review and one bounded correction
+
+Run37573741470: both arms passed actual WebGL with three equal poses and identical fixed-time fish. The first candidate was NOT accepted visually: near branches remain readable, but caustics became nearly invisible and the substrate looked flatter; distant silhouettes did not fade enough. Corrective candidate increases camera-path coefficients to (.085,.055,.045), restores direct-light focus strength from .55 to1.2 with slower focus-distance decay .028→.016, and lifts hemisphere intensity2.2→2.7. Geometry, exposure, direct sun and shadow coefficient remain fixed. Goal: preserve local light variation while distant relief loses contrast, rather than a simple cyan wash. A second actual same-pose comparison is required; the first successful compilation is not visual acceptance.

@@ -22,15 +22,15 @@ vec3 reefWorldNormal = inverseTransformDirection(normal, viewMatrix);
 float upwardLight = max(reefWorldNormal.y,0.0);
 float waterDepth = max(8.0-vReefWorld.y,0.0);
 float reefDistance = length(cameraPosition-vReefWorld);
-float focusVisibility = exp(-waterDepth*.055) * exp(-reefDistance*.028);
+float focusVisibility = exp(-waterDepth*.055) * exp(-reefDistance*.016);
 float waterFocus = lightA*.6 + lightB*.4;
 vec3 downTransmission = exp(-vec3(.020,.008,.004)*waterDepth);
-reflectedLight.directDiffuse *= downTransmission * (1.0 + waterFocus*.55*upwardLight*focusVisibility);
+reflectedLight.directDiffuse *= downTransmission * (1.0 + waterFocus*1.2*upwardLight*focusVisibility);
 reflectedLight.directSpecular *= downTransmission;`);
   // Beer-law form before tone mapping/output conversion; no second RGB fog pass.
   shader.fragmentShader=shader.fragmentShader.replace('#include <opaque_fragment>',`
 vec3 reefView = vReefWorld-cameraPosition;
-vec3 transmission = exp(-vec3(.065,.035,.025)*length(reefView));
+vec3 transmission = exp(-vec3(.085,.055,.045)*length(reefView));
 outgoingLight = outgoingLight*transmission + reefWaterRadiance(normalize(reefView))*(vec3(1.0)-transmission);
 #include <opaque_fragment>`).replace('#include <fog_fragment>','');
   compiledShaders.push(shader);
