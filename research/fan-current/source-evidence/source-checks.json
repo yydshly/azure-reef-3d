@@ -1,0 +1,350 @@
+{
+  "status": "SOURCE_CHECKS_PASS_RUNTIME_WEBGL_PENDING",
+  "sourceCommit": "2372e912e23cfef9cf9eaf2ce862289c5a923008",
+  "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+  "localMatrix": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "worldMatrix": [
+    0.9800665778412416,
+    0,
+    0.19866933079506122,
+    0,
+    0,
+    1,
+    0,
+    0,
+    -0.19866933079506122,
+    0,
+    0.9800665778412416,
+    0,
+    -4.8,
+    -0.06576677229367059,
+    -26,
+    1
+  ],
+  "originalLocalBounds": {
+    "min": [
+      -1.4672132730484009,
+      1.2748521566390991,
+      -0.039760153740644455
+    ],
+    "max": [
+      -0.05518733337521553,
+      2.6220932006835938,
+      0.32852834463119507
+    ]
+  },
+  "originalWorldBounds": {
+    "min": [
+      -6.235102898628167,
+      1.2090853843454286,
+      -26.322564846251005
+    ],
+    "max": [
+      -4.911704124330242,
+      2.556326428389923,
+      -25.705548634719168
+    ]
+  },
+  "expandedLocalBounds": {
+    "min": [
+      -1.4672132730484009,
+      1.2748521566390991,
+      -0.07976015374064446
+    ],
+    "max": [
+      -0.05518733337521553,
+      2.6220932006835938,
+      0.36852834463119505
+    ]
+  },
+  "expandedWorldBounds": {
+    "min": [
+      -6.311181971086684,
+      1.2090853843454286,
+      -26.36966054001484
+    ],
+    "max": [
+      -4.838241364593466,
+      2.556326428389923,
+      -25.649781717029825
+    ]
+  },
+  "parameters": {
+    "node": "Inhabited_Middle_Attached_reticulate_fan_form",
+    "fixedThroughY": 1.84,
+    "tipY": 2.6220932006835938,
+    "maxDisplacement": 0.04,
+    "periodSeconds": 8
+  },
+  "anchoredVertexCount": 11780,
+  "fixedTriangles": 17358,
+  "movingTriangles": 58568,
+  "movingTriangleMinY": 1.726083794570343,
+  "maxSampledAbsoluteDisplacement": 0.04,
+  "phaseSamples": 129,
+  "vertexSamples": 6525207,
+  "maxNormalOrthogonalityError": 1.1102230246251565e-16,
+  "maxNormalFiniteDifferenceError": 1.5731499436455465e-11,
+  "terrain": [
+    {
+      "node": "Sand_Horizon_80m",
+      "overlappingXZTriangles": 2,
+      "maxY": -0.2199999988079071,
+      "movingTriangleVerticalClearance": 1.9460837933782502
+    },
+    {
+      "node": "Spatial_Continuous_Weathered_Limestone",
+      "overlappingXZTriangles": 86,
+      "maxY": 0.44147270917892456,
+      "movingTriangleVerticalClearance": 1.2846110853914186
+    },
+    {
+      "node": "Inhabited_Middle_Shoulder_closed_irregular_skeleton",
+      "overlappingXZTriangles": 4206,
+      "maxY": 1.516950288749115,
+      "movingTriangleVerticalClearance": 0.20913350582122803
+    }
+  ],
+  "fish": [
+    {
+      "node": "fish_01",
+      "allArticulationRadius": 0.4416004243737562,
+      "centerEnvelope": {
+        "min": [
+          -4.150001057687242,
+          0.8797747353179107,
+          0.4499987915144575
+        ],
+        "max": [
+          0.15000099999999994,
+          1.4901272030533876,
+          3.7500009046325693
+        ]
+      },
+      "bodyEnvelope": {
+        "min": [
+          -4.591601482060998,
+          0.43817431094415454,
+          0.008398367140701302
+        ],
+        "max": [
+          0.5916014243737562,
+          1.9317276274271438,
+          4.191601329006326
+        ]
+      },
+      "minimumBoxSeparation": 25.659365472734912
+    },
+    {
+      "node": "fish_02",
+      "allArticulationRadius": 0.39384441391297664,
+      "centerEnvelope": {
+        "min": [
+          -0.2300389470060439,
+          1.0405923641475823,
+          -1.250029286974875
+        ],
+        "max": [
+          4.230037678976236,
+          1.6488170940806635,
+          2.050029298895803
+        ]
+      },
+      "bodyEnvelope": {
+        "min": [
+          -0.6238833609190205,
+          0.6467479502346056,
+          -1.6438737008878517
+        ],
+        "max": [
+          4.623882092889213,
+          2.04266150799364,
+          2.44387371280878
+        ]
+      },
+      "minimumBoxSeparation": 24.37302675218251
+    },
+    {
+      "node": "fish_03",
+      "allArticulationRadius": 0.3604149575226951,
+      "centerEnvelope": {
+        "min": [
+          -2.8823204831211378,
+          1.118963168084363,
+          -27.782229006348697
+        ],
+        "max": [
+          3.1703129487770227,
+          1.5629131920791153,
+          -22.792032622566676
+        ]
+      },
+      "bodyEnvelope": {
+        "min": [
+          -3.2427354406438327,
+          0.7585482105616679,
+          -28.142643963871393
+        ],
+        "max": [
+          3.5307279062997177,
+          1.9233281496018104,
+          -22.43161766504398
+        ]
+      },
+      "minimumBoxSeparation": 1.595505923949633
+    },
+    {
+      "node": "fish_04",
+      "allArticulationRadius": 0.36996623077706126,
+      "centerEnvelope": {
+        "min": [
+          -6.8753003456803,
+          1.2690559406366644,
+          -34.43999467568121
+        ],
+        "max": [
+          -0.4501151816467961,
+          1.421911684858246,
+          -28.752434155588972
+        ]
+      },
+      "bodyEnvelope": {
+        "min": [
+          -7.245266576457361,
+          0.8990897098596031,
+          -34.80996090645827
+        ],
+        "max": [
+          -0.08014895086973484,
+          1.7918779156353073,
+          -28.382467924811912
+        ]
+      },
+      "minimumBoxSeparation": 2.012807384797071
+    },
+    {
+      "node": "fish_05",
+      "allArticulationRadius": 0.33868591049610647,
+      "centerEnvelope": {
+        "min": [
+          -3.3562134388651246,
+          1.2158373863710445,
+          -28.276962227613247
+        ],
+        "max": [
+          3.677006364473904,
+          1.5495402874423734,
+          -22.351028351251557
+        ]
+      },
+      "bodyEnvelope": {
+        "min": [
+          -3.694899349361231,
+          0.8771514758749381,
+          -28.615648138109353
+        ],
+        "max": [
+          4.015692274970011,
+          1.8882261979384798,
+          -22.01234244075545
+        ]
+      },
+      "minimumBoxSeparation": 1.1433420152322347
+    },
+    {
+      "node": "fish_06",
+      "allArticulationRadius": 0.33157028308381387,
+      "centerEnvelope": {
+        "min": [
+          -6.488075207212482,
+          1.366641383712658,
+          -34.01737030176831
+        ],
+        "max": [
+          -0.8861348577835824,
+          1.5277285923661492,
+          -29.188366897156282
+        ]
+      },
+      "bodyEnvelope": {
+        "min": [
+          -6.8196454902962955,
+          1.0350711006288442,
+          -34.34894058485212
+        ],
+        "max": [
+          -0.5545645746997685,
+          1.859298875449963,
+          -28.85679661407247
+        ]
+      },
+      "minimumBoxSeparation": 2.487136074057627
+    }
+  ],
+  "oldBudget": {
+    "meshes": 99,
+    "triangles": 1478169,
+    "unculledMainPassDraws": 99,
+    "geometryObjects": 67,
+    "uniqueAttributeBuffers": 275,
+    "attributeBytes": 25328194,
+    "surfaceMaterials": 23,
+    "textureObjects": 11
+  },
+  "newBudget": {
+    "meshes": 99,
+    "triangles": 1478169,
+    "unculledMainPassDraws": 99,
+    "geometryObjects": 68,
+    "uniqueAttributeBuffers": 275,
+    "attributeBytes": 25328194,
+    "surfaceMaterials": 24,
+    "textureObjects": 11
+  },
+  "extraCustomShadowMaterials": 2,
+  "extraGpuAttributeBytes": 0,
+  "extraTextures": 0,
+  "expectedDrawDelta": 0,
+  "inspection": {
+    "certificateHash": "955219ed5e75aa6bac5825ce2f46a89cd313ca28e1769b45ad9770d90e870a32",
+    "existingMinimumCertifiedLowerBound": 0.46001887679589254,
+    "minimumFanSeparationFromWholeCameraDomain": 18.09451735095115,
+    "unchanged": true
+  },
+  "timing": {
+    "finiteChecks": true,
+    "hiddenResumeZeroJump": true,
+    "reducedMotionHolds": true,
+    "explicitTourUsesExistingClock": true
+  },
+  "shaderAssembly": {
+    "colorDepthDistanceMatch": true,
+    "normalCorrection": true,
+    "waterAndSubstrateComposition": true,
+    "runtimeCompilation": false
+  },
+  "limits": [
+    "Surrounding corals remain static; existing morphology and macro scene realism are unchanged.",
+    "Analytic illustrative motion; not hydrodynamic or biological calibration.",
+    "No actual GPU/WebGL compilation, pixels, realtime performance or native input verification in this test.",
+    "CPU raycasting remains undeformed; the fan is not an interaction target and fish routes remain precomputed.",
+    "Free global camera has no global collision guarantee; existing specimen inspection certificate is unchanged."
+  ]
+}

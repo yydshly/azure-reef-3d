@@ -1,0 +1,40 @@
+{
+  "scope": "Isolated original pilot component, same camera and neutral offline lighting; CPU-deformed geometry illustration, NOT runtime GLSL, app pixels, biological validation, or full-scene composition evidence.",
+  "phases": [
+    {
+      "name": "rest",
+      "seconds": 0,
+      "amplitude": 0.0
+    },
+    {
+      "name": "positive",
+      "seconds": 2,
+      "amplitude": 0.04
+    },
+    {
+      "name": "negative",
+      "seconds": 6,
+      "amplitude": -0.04
+    }
+  ],
+  "cameraThreeLocal": [
+    -2.7,
+    2.6,
+    2.65
+  ],
+  "targetThreeLocal": [
+    -0.76,
+    1.95,
+    0.14
+  ],
+  "size": [
+    1000,
+    760
+  ],
+  "lensMM": 58,
+  "cyclesSamples": 20,
+  "onlyMeshChanged": "Attached_reticulate_fan_form",
+  "originalVertices": 50583,
+  "maxDisplacement": 0.04,
+  "fixedThroughY": 1.84
+}

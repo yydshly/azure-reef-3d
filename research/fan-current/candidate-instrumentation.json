@@ -1,0 +1,5 @@
+{
+  "originalAppSha256": "016f6287f6151b22f2160828688904c2fc6e3cf6be699fbfa670709f08ed39e6",
+  "testAppSha256": "2d8cd60e723e14c41e5772eff3d1e00da22daf6a3a8e31ea902c2045a2c75330",
+  "change": "Only QA copy exposes existing renderer reference before existing reef3d API; production source unchanged."
+}

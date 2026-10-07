@@ -1,0 +1,57 @@
+{
+  "status": "FROZEN_SOURCE_CANDIDATE_RUNTIME_VERIFICATION_PENDING",
+  "baselineSourceCommit": "2372e912e23cfef9cf9eaf2ce862289c5a923008",
+  "baselinePublicCommit": "a95871f",
+  "candidatePath": "/workspace/scratch/56bf13a306b9/reef-fan-current-oct7",
+  "runtimeFiles": [
+    "dist/app.js",
+    "dist/sea-fan-current.js"
+  ],
+  "files": [
+    {
+      "path": "dist/app.js",
+      "kind": "modified",
+      "bytes": 21069,
+      "sha256": "016f6287f6151b22f2160828688904c2fc6e3cf6be699fbfa670709f08ed39e6",
+      "baselineSha256": "0eae33a3dfa811b1b99dc59a714ba3ba6f0189d26337623fe8c8e865e31f7532"
+    },
+    {
+      "path": "dist/sea-fan-current.js",
+      "kind": "new",
+      "bytes": 5864,
+      "sha256": "164b539f7ff669c18a94ef35e633b9572a17a298b301277a0d45a9f0e1348803",
+      "baselineSha256": null
+    },
+    {
+      "path": "qa-guide-integration.mjs",
+      "kind": "modified",
+      "bytes": 13547,
+      "sha256": "9b6685e33d6a3bf15a98b26e97b72b29b981ee7ddd77cc31cf07ae0737339251",
+      "baselineSha256": "7dea3b4ab80eb7bdabe0c0c34df44bfe572587ac878e5d465e600149908badfb"
+    },
+    {
+      "path": "qa-sea-fan-current.mjs",
+      "kind": "new",
+      "bytes": 16086,
+      "sha256": "e884f6e8b732f0c9e12b4a971636c0a71e1bf3294440bad371d7d99148dcfab3",
+      "baselineSha256": null
+    },
+    {
+      "path": "evidence/sea-fan-current-oct7/README.md",
+      "kind": "new",
+      "bytes": 8685,
+      "sha256": "87122f3e3db0569323178d82484c6f4c8bffe789043997fd6b88b37e1946d78e",
+      "baselineSha256": null
+    },
+    {
+      "path": "evidence/sea-fan-current-oct7/source-checks.json",
+      "kind": "new",
+      "bytes": 8396,
+      "sha256": "1c57af839a8372f23ef026cf3841c020a76ea349d31991199de94acdc5ded425",
+      "baselineSha256": null
+    }
+  ],
+  "allOtherTrackedFilesByteIdentical": true,
+  "externalWrites": false,
+  "optionalOfflineEvidenceOutsideFrozenRuntimeDelta": true
+}
