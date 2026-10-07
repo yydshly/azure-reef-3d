@@ -1,0 +1,2 @@
+Reef QA CJK
+/home/runner/.local/share/fonts/reef-qa/ReefQACJK-Regular.otf
