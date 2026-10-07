@@ -1,0 +1,40 @@
+{
+  "scope": "Actual GLTF decoding, transform and water shader assembly; not actual WebGL pixels",
+  "hash": "fe5fc88fe1bb4ae6d3203de52ee8946db1263db9503459d365c9f60dcf8fec71",
+  "triangles": 25000,
+  "meshes": 1,
+  "scale": [
+    1,
+    1,
+    1
+  ],
+  "bounds": {
+    "min": [
+      -0.5395678531870042,
+      -0.13964418596029282,
+      -6.6000941967966344
+    ],
+    "max": [
+      -0.26163200132652054,
+      0.06333138519525527,
+      -6.389132733106395
+    ]
+  },
+  "maps": [
+    {
+      "slot": "map",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "slot": "normalMap",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "slot": "aoMap",
+      "width": 2048,
+      "height": 2048
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "run": 37645150947,
+  "scope": "Native tour clock comparison, not FPS or smoothness acceptance",
+  "arms": {
+    "baseline": {
+      "wallSeconds": 18.508099999999978,
+      "progressDelta": 0.0029999999999999996,
+      "simulationDelta": 18.282600000000006,
+      "rafCount": 5,
+      "interrupted": false,
+      "pausedState": {
+        "ready": true,
+        "low": false,
+        "tour": false,
+        "passageProgress": 0.0042,
+        "guide": {
+          "active": false,
+          "index": 0,
+          "playing": false,
+          "paused": true
+        },
+        "fish": 6,
+        "simulationTime": 25.632299999999987,
+        "camera": [
+          1.4911310656392767,
+          2.102032143595954,
+          4.71313489695525
+        ],
+        "target": [
+          -0.00574053984034531,
+          0.7431710523429079,
+          -9.266956181562543
+        ]
+      },
+      "passed": true
+    },
+    "candidate": {
+      "wallSeconds": 17.759400000000024,
+      "progressDelta": 0.176659000000002,
+      "simulationDelta": 17.665900000000008,
+      "rafCount": 5,
+      "interrupted": false,
+      "pausedState": {
+        "ready": true,
+        "low": false,
+        "tour": false,
+        "passageProgress": 0.21282400000000412,
+        "guide": {
+          "active": false,
+          "index": 0,
+          "playing": false,
+          "paused": true
+        },
+        "fish": 6,
+        "simulationTime": 24.815699999999996,
+        "tourTiming": {
+          "lastStep": 0,
+          "interrupted": false
+        },
+        "camera": [
+          0.26225411745390087,
+          2.3758410098675102,
+          -7.07723237683496
+        ],
+        "target": [
+          0.13079329584007082,
+          0.7000000000000016,
+          -21.41457097033042
+        ]
+      },
+      "passed": true
+    }
+  },
+  "limits": "End measurement is saved before native pause; slow input delivery means final screenshot is a later paused state. Both arms have only5 observed RAF callbacks. No hidden-tab/long-stall browser test in this run."
+}

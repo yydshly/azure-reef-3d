@@ -13,7 +13,8 @@
     "test:inhabited": "node qa-inhabited.mjs",
     "test:route-rebalance": "node qa-route-rebalance.mjs",
     "test:fish-surface": "node qa-fish-surface.mjs",
-    "test:tour-clock": "node qa-tour-clock.mjs && node qa-tour-controls.mjs"
+    "test:tour-clock": "node qa-tour-clock.mjs && node qa-tour-controls.mjs",
+    "test:specimen": "node qa-specimen-asset.mjs && node qa-specimen-focus.mjs && node qa-specimen-projection.mjs"
   },
   "devDependencies": {
     "@napi-rs/canvas": "0.1.100",

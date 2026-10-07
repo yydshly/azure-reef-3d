@@ -1,0 +1,20 @@
+{
+  "officialPage": "https://3d.si.edu/object/3d/acropora-cervicornis:dd875177-c986-48e2-9468-8e58f01099d3",
+  "catalog": "USNM 74016",
+  "publishedName": "Acropora cervicornis (Lamarck, 1816)",
+  "preparation": "Dry",
+  "collectionDate": "1984",
+  "collector": "Dr. Vassil A. Zlatarski",
+  "place": "Finduvet Bajo, Quintana Roo, Mexico, North Atlantic Ocean",
+  "recordedCollectionDepth": "1\u20132.5 m",
+  "metadataLicense": "CC0",
+  "mediaLicense": "CC0",
+  "unitsEvidence": "Official download menu explicitly says scale in m",
+  "sourceFilename": "usnm_74016-100k-2048_std.glb",
+  "sourceSHA256": "ef169ce0b8768f2991f0f9411e964472129a1c873d1f7e6b0eabc38a2db5ccc7",
+  "sourceBytes": 5828640,
+  "downloadMethod": "Visible official standard low-resolution GLB link through supported cloud browser",
+  "inspection": "No artificial display stand visible; irregular skeletal basal growth/fragment retained. Not a living color scan.",
+  "unmodifiedAsset": true,
+  "notIntegrated": true
+}

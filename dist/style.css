@@ -11,3 +11,7 @@
 @media(max-width:700px){.focus-marker span{max-width:155px}.focus-marker-above span{bottom:14px}}
 
 .legacy-version{position:absolute;left:38px;bottom:30px;z-index:2;font-size:12px;text-decoration:none;color:#bdd9d8;line-height:1.6}.legacy-version small{display:block;font-size:10px;color:#96b7be}.legacy-version:hover{color:#fff}@media(max-width:900px){.legacy-version{left:18px;top:86px;bottom:auto;font-size:11px}.legacy-version small{font-size:9px}.view-label{top:144px}}
+
+.specimen-actions button{width:100%;margin:10px 0 0;padding:10px 12px;border:1px solid #b9e1dc66;border-radius:10px;background:#286a7133;color:#e6f3ed;cursor:pointer;font:inherit}.specimen-actions button:focus-visible{outline:2px solid #d2eee1;outline-offset:3px}.specimen-actions button[hidden]{display:none}
+
+@media(max-width:700px){body.specimen-inspection .guide-card{max-height:44vh;max-height:44dvh;overflow:auto}}

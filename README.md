@@ -216,3 +216,10 @@ Only fish_03 receives continuous procedural pigment and closed thin fins. It rem
 ### Native tour timing
 
 The100-second along-reef route advances by visible elapsed time independently of rendering frequency. Hidden/manual-paused time is excluded; a foreground gap over8s pauses travel. It does not improve FPS. Actual limited native evidence and unresolved slow-rendering limits are in evidence/tour-clock-oct7/DECISION.md. Checks: node --import ./qa-register.mjs qa-tour-clock.mjs and qa-tour-controls.mjs, plus the existing guide integration test.
+
+
+## 2026-10-07 — Local dry skeleton inspection candidate
+
+One Smithsonian CC0 dry specimen,25k triangles, original maps, unchanged scale. Third guide stop adds constrained inspection and return. See modeling/specimen/README.md and evidence/skeletal-patch-oct7/STATUS.md for provenance, measured bounds and pending actual-browser gate. Not published or accepted as whole-scene realism.
+
+Desktop software-WebGL QA37657885741 passed and five actual images were reviewed. Limited near-look detail accepted; see evidence/skeletal-patch-oct7/ACCEPTANCE.md. Production publication remains pending. Cache URL updates are local preparation only.

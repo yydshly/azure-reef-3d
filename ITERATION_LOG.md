@@ -211,3 +211,10 @@ Native pause takes additional wall time in this software renderer. The candidate
 At .3Hz the full-route source check has up to about1.95 scene units between shown frames. Correct wall-time progression cannot create missing frames; extremely slow rendering remains jerky. A gap exceeding8s explicitly pauses native travel rather than catching up; restart clears elapsed debt. The original five-stop guide timing remains unchanged. Fish/water, geometry, textures, camera path and quality settings remain unchanged.
 
 Release changes after captured runtime are import/app cache-query versioning and documentation only. The implementation remains the tested algorithm. This stage does not close the larger believable-underwater-world goal; separate structural studies remain under visual review.
+
+
+## 2026-10-07 — Local dry skeleton inspection candidate
+
+One Smithsonian CC0 dry specimen,25k triangles, original maps, unchanged scale. Third guide stop adds constrained inspection and return. See modeling/specimen/README.md and evidence/skeletal-patch-oct7/STATUS.md for provenance, measured bounds and pending actual-browser gate. Not published or accepted as whole-scene realism.
+
+Desktop software-WebGL QA37657885741 passed and five actual images were reviewed. Limited near-look detail accepted; see evidence/skeletal-patch-oct7/ACCEPTANCE.md. Production publication remains pending. Cache URL updates are local preparation only.

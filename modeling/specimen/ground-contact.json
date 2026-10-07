@@ -1,0 +1,158 @@
+{
+  "original": {
+    "maximumBurial": 0.005997613072395325,
+    "buriedVertexCount": 321,
+    "buriedHeightRangeThreeY": [
+      -0.13970132172107697,
+      -0.1303413212299347
+    ],
+    "topHeightThreeY": 0.06315666437149048,
+    "nearContactVertexCount": 808,
+    "nearContactFootprintThreeXZ": [
+      [
+        -0.4700799584388733,
+        -6.536365985870361
+      ],
+      [
+        -0.45817792415618896,
+        -6.494853973388672
+      ],
+      [
+        -0.45701831579208374,
+        -6.4926438331604
+      ],
+      [
+        -0.4553093910217285,
+        -6.4905619621276855
+      ],
+      [
+        -0.44643256068229675,
+        -6.481257915496826
+      ],
+      [
+        -0.41079503297805786,
+        -6.490889072418213
+      ],
+      [
+        -0.39822250604629517,
+        -6.5280680656433105
+      ],
+      [
+        -0.3982069790363312,
+        -6.5298638343811035
+      ],
+      [
+        -0.39848169684410095,
+        -6.538180828094482
+      ],
+      [
+        -0.4002809524536133,
+        -6.5386271476745605
+      ],
+      [
+        -0.401719331741333,
+        -6.538740158081055
+      ],
+      [
+        -0.41597720980644226,
+        -6.539203643798828
+      ],
+      [
+        -0.4621080458164215,
+        -6.539936542510986
+      ],
+      [
+        -0.4635879397392273,
+        -6.539693355560303
+      ],
+      [
+        -0.4672076106071472,
+        -6.538582801818848
+      ],
+      [
+        -0.46886664628982544,
+        -6.537528991699219
+      ]
+    ],
+    "surfaceAreaCentroidThree": [
+      -0.4206087291240692,
+      -0.056684672832489014,
+      -6.493712425231934
+    ],
+    "surfaceAreaCentroidInsideNearContactHull": true,
+    "underlyingHighestMeshes": [
+      "Sand_Rippled_32m"
+    ],
+    "interpretation": "All buried samples belong to the bottom basal foot; branches remain above sand. Area centroid is only a geometric plausibility proxy, not a measured centre of mass or stability simulation."
+  },
+  "reduced": {
+    "maximumBurial": 0.005790993571281433,
+    "buriedVertexCount": 138,
+    "buriedHeightRangeThreeY": [
+      -0.13964419066905975,
+      -0.130814328789711
+    ],
+    "topHeightThreeY": 0.06333138048648834,
+    "nearContactVertexCount": 312,
+    "nearContactFootprintThreeXZ": [
+      [
+        -0.4700799584388733,
+        -6.536365985870361
+      ],
+      [
+        -0.456994891166687,
+        -6.494560718536377
+      ],
+      [
+        -0.4556950032711029,
+        -6.491724967956543
+      ],
+      [
+        -0.44514375925064087,
+        -6.481695652008057
+      ],
+      [
+        -0.4171191453933716,
+        -6.489774703979492
+      ],
+      [
+        -0.39858922362327576,
+        -6.528005599975586
+      ],
+      [
+        -0.39809688925743103,
+        -6.530144691467285
+      ],
+      [
+        -0.4003537595272064,
+        -6.538578987121582
+      ],
+      [
+        -0.46210455894470215,
+        -6.540031433105469
+      ],
+      [
+        -0.4671992063522339,
+        -6.538523197174072
+      ],
+      [
+        -0.46964994072914124,
+        -6.537009239196777
+      ],
+      [
+        -0.4700682461261749,
+        -6.536444664001465
+      ]
+    ],
+    "surfaceAreaCentroidThree": [
+      -0.4205321669578552,
+      -0.05709394812583923,
+      -6.493838310241699
+    ],
+    "surfaceAreaCentroidInsideNearContactHull": true,
+    "underlyingHighestMeshes": [
+      "Sand_Rippled_32m"
+    ],
+    "interpretation": "All buried samples belong to the bottom basal foot; branches remain above sand. Area centroid is only a geometric plausibility proxy, not a measured centre of mass or stability simulation."
+  }
+}
