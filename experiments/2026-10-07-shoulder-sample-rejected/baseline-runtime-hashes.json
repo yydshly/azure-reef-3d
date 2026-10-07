@@ -1,0 +1,21 @@
+{
+  "root": "/workspace/scratch/56bf13a306b9/coral-3d",
+  "files": {
+    "source-model.glb": "c12624b2f1da3add8f801421b161daaa5ef9177f7f6edf8ce1a3d1ae7caf66dd",
+    "dist/model-version.js": "9bb2544b7d26ec235dd5d068e832711d391174005cb6c1077760cde324a2f975",
+    "dist/app.js": "1b5181c33f454e51736c9b8812cedd3140eea01cafa16f4592034f79c5772fa3",
+    "dist/guide-data.js": "78898d8774a92189c56109737556f06786a4696b277c910690c0414c16dde8b0",
+    "dist/fish-motion.js": "cb8f54469b659c261d77150293cc7a51164518cf26bed10a993651d2b56d4170",
+    "dist/water-light.js": "4c5f2235bdcbcbcbc29616f8d89b89a743e9f265bb94af47108e32e5ebc67621",
+    "dist/references.html": "77ebfccd1008d48f0fa2567219e2247ef9dc470dca53b583be38dc384262711b",
+    "dist/style.css": "531538b6693ecc38d3fa287274ea0adfccef14c758eb930a9020b7b46847817e",
+    "dist/index.html": "6455a06f7e7c7197203245476292f8d73ce5e02fe0ecd82880e6db352a8c575e",
+    "dist/passage.js": "eca17ce6d88abb101936c55b952cfdfb632c6dc5ce8e7e9456e4bd0656f7761d",
+    "dist/vendor/three.core.js": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6",
+    "dist/vendor/OrbitControls.js": "3d79d07ecb686b4e5d93232eedab255331c1beef711e13164eaa1f68655a5f2b",
+    "dist/vendor/GLTFLoader.js": "131c0f78c01d19368ae495caa65b3adaa10487810a36a05bb5901b769a35ac16",
+    "dist/vendor/three.module.js": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea",
+    "dist/utils/SkeletonUtils.js": "b1632a703206c3d830de9fcbe515696770d04b71a15ee6b50afa6d2c3298c86f",
+    "dist/utils/BufferGeometryUtils.js": "9fb63427ce6641fa14fd0baff9cc4d1b5f9c3d85fd084bf2e90e803c44ec1797"
+  }
+}

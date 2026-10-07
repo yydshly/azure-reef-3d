@@ -10,7 +10,7 @@
 
 快速运行：在仓库根目录执行 `python3 -m http.server 8000 --directory dist`，然后打开 http://localhost:8000 。运行网页无需安装 npm、登录或填写 API 密钥。模型、纹理与 Three.js 已随项目提供。
 
-这是参考资料引导的程序化场景，不是实测珊瑚礁扫描，也不构成科学验证。鱼类为未识别的泛化模型。NOAA 来源与制作边界见界面来源页、下文及 THIRD_PARTY_NOTICES.md。离线模型和逻辑验证已完成；真实浏览器 WebGL、CSS 与真实设备输入未宣称完成验证。
+这是参考资料引导的程序化场景，不是实测珊瑚礁扫描，也不构成科学验证。鱼类为未识别的泛化模型。NOAA 来源与制作边界见界面来源页、下文及 THIRD_PARTY_NOTICES.md。离线模型和逻辑检查通过；已取得 Chromium/SwiftShader 的真实 WebGL 三视图及海床导览定向复验。用户设备 GPU 性能、完整原生输入流程与整体自然度仍未验收。
 
 A static, genuine-3D reef scene with a five-stop Chinese beginner guide. The guide connects camera positions and visible labels to explanations of reef context, sand/hardbottom, coral animals, generic fish, and light/water. Sources and modeling limits are available in the interface.
 
@@ -26,7 +26,7 @@ python3 -m http.server 8000 --directory dist
 
 Open http://localhost:8000 in a browser with WebGL2. Do not open index.html directly through `file://`: module loading and model requests need HTTP. Any static host can serve `dist/`; keep its directory structure and all `.gltf`, `.bin`, texture and module files. The host must permit the 22.68 MB `reef.bin` file.
 
-The browser uses its locally bundled Three.js; it does not load a CDN dependency. Existing links to the earlier private 2.5D Site are optional reference links and may not be accessible to another account. The guide itself is self-contained apart from optional public NOAA source links.
+The browser uses its locally bundled Three.js; it does not load a CDN dependency. Existing links to the earlier private 2.5D Site are separate presentation links and may not be accessible to another account. The guide itself is self-contained apart from optional public NOAA source links.
 
 ## Controls
 

@@ -1,0 +1,185 @@
+{
+  "model_sha256": "1d0b54fb008b205a102a88c682636cad827114aeb2d0234f2752d57158b31b22",
+  "curve": "Actual dist/passage.js THREE.CatmullRomCurve3 centripetal getPoint",
+  "samples": 4001,
+  "static_mesh_objects": 60,
+  "minimum_sampled_clearance": {
+    "distance": 1.0204858779907227,
+    "sample": 1402,
+    "progress": 0.3505,
+    "camera_three": [
+      0.1235674290725942,
+      2.512344820040256,
+      -12.135321296490243
+    ],
+    "object": "Depth_Staghorn_Linked_01_0",
+    "nearest_three": [
+      0.34642016887664795,
+      1.5167334079742432,
+      -12.157366752624512
+    ]
+  },
+  "maximum_sample_spacing_m": 0.013146518000055401,
+  "conservative_path_clearance_m": 1.0039126189906948,
+  "camera_sphere_radius_m": 0.45,
+  "camera_sphere_has_clearance": true,
+  "added_colony_support_checks": [
+    {
+      "object": "Spatial_Staghorn_Linked_00",
+      "basal_vertices_checked": 167,
+      "maximum_root_above_rock_m": -0.01676476001739502,
+      "minimum_root_above_rock_m": -0.07182431221008301
+    },
+    {
+      "object": "Spatial_Staghorn_Linked_01",
+      "basal_vertices_checked": 272,
+      "maximum_root_above_rock_m": -0.022868752479553223,
+      "minimum_root_above_rock_m": -0.07583701610565186
+    },
+    {
+      "object": "Spatial_Staghorn_Linked_02",
+      "basal_vertices_checked": 173,
+      "maximum_root_above_rock_m": -0.014978408813476562,
+      "minimum_root_above_rock_m": -0.0756765604019165
+    },
+    {
+      "object": "Spatial_Staghorn_Linked_03",
+      "basal_vertices_checked": 141,
+      "maximum_root_above_rock_m": -0.019971787929534912,
+      "minimum_root_above_rock_m": -0.07091698050498962
+    }
+  ],
+  "exclusions": [
+    "Animated fish: checked by runtime route QA, not treated as terrain obstacles"
+  ],
+  "coordinate_mapping": "glTF [x,y,z] to Blender [x,-z,y]",
+  "method": "Blender BVHTree nearest mesh-face distance; 4,001 actual runtime getPoint spline samples; half-spacing subtraction plus 1 cm curvature allowance. Sampled static-camera check, not all runtime trajectories.",
+  "original_colony_root_overlap_checks": [
+    {
+      "object": "Depth_Staghorn_Linked_01_0",
+      "basal_vertices_checked": 141,
+      "maximum_new_terrain_above_original_root_m": -0.9550574421882629
+    },
+    {
+      "object": "Depth_Staghorn_Linked_01_1",
+      "basal_vertices_checked": 258,
+      "maximum_new_terrain_above_original_root_m": -0.9518187046051025
+    },
+    {
+      "object": "Depth_Staghorn_Linked_03_0",
+      "basal_vertices_checked": 161,
+      "maximum_new_terrain_above_original_root_m": -0.9489678740501404
+    },
+    {
+      "object": "Depth_Staghorn_Linked_03_1",
+      "basal_vertices_checked": 237,
+      "maximum_new_terrain_above_original_root_m": -0.9637612700462341
+    },
+    {
+      "object": "Depth_Staghorn_Linked_04_0",
+      "basal_vertices_checked": 228,
+      "maximum_new_terrain_above_original_root_m": -0.8667870759963989
+    },
+    {
+      "object": "Corridor_Distant_Linked_00",
+      "basal_vertices_checked": 155,
+      "maximum_new_terrain_above_original_root_m": -0.1999998837709427
+    },
+    {
+      "object": "Corridor_Distant_Linked_01",
+      "basal_vertices_checked": 204,
+      "maximum_new_terrain_above_original_root_m": -0.12999989092350006
+    },
+    {
+      "object": "Corridor_Distant_Linked_02",
+      "basal_vertices_checked": 196,
+      "maximum_new_terrain_above_original_root_m": -0.12933135032653809
+    },
+    {
+      "object": "Corridor_Distant_Linked_03",
+      "basal_vertices_checked": 258,
+      "maximum_new_terrain_above_original_root_m": -0.12999989092350006
+    }
+  ],
+  "baseline_basal_contact_comparison": [
+    {
+      "object": "Depth_Staghorn_Linked_01_0",
+      "basal_vertices": 141,
+      "maximum_support_height_change_m": 0.0,
+      "maximum_underlying_terrain_height_change_m": 0.0
+    },
+    {
+      "object": "Depth_Staghorn_Linked_01_1",
+      "basal_vertices": 258,
+      "maximum_support_height_change_m": 0.0,
+      "maximum_underlying_terrain_height_change_m": 0.0
+    },
+    {
+      "object": "Depth_Staghorn_Linked_03_0",
+      "basal_vertices": 161,
+      "maximum_support_height_change_m": 0.0,
+      "maximum_underlying_terrain_height_change_m": 0.0
+    },
+    {
+      "object": "Depth_Staghorn_Linked_03_1",
+      "basal_vertices": 237,
+      "maximum_support_height_change_m": 0.0,
+      "maximum_underlying_terrain_height_change_m": 0.0
+    },
+    {
+      "object": "Depth_Staghorn_Linked_04_0",
+      "basal_vertices": 228,
+      "maximum_support_height_change_m": 0.0,
+      "maximum_underlying_terrain_height_change_m": 0.0
+    },
+    {
+      "object": "Corridor_Distant_Linked_00",
+      "basal_vertices": 155,
+      "maximum_support_height_change_m": 0.0,
+      "maximum_underlying_terrain_height_change_m": 0.0
+    },
+    {
+      "object": "Corridor_Distant_Linked_01",
+      "basal_vertices": 204,
+      "maximum_support_height_change_m": 0.0,
+      "maximum_underlying_terrain_height_change_m": 0.0
+    },
+    {
+      "object": "Corridor_Distant_Linked_02",
+      "basal_vertices": 196,
+      "maximum_support_height_change_m": 0.0,
+      "maximum_underlying_terrain_height_change_m": 0.0015439987182617188
+    },
+    {
+      "object": "Corridor_Distant_Linked_03",
+      "basal_vertices": 258,
+      "maximum_support_height_change_m": 0.0,
+      "maximum_underlying_terrain_height_change_m": 0.0
+    },
+    {
+      "object": "Spatial_Staghorn_Linked_00",
+      "basal_vertices": 167,
+      "maximum_support_height_change_m": 0.0,
+      "maximum_underlying_terrain_height_change_m": 0.0
+    },
+    {
+      "object": "Spatial_Staghorn_Linked_01",
+      "basal_vertices": 272,
+      "maximum_support_height_change_m": 0.0,
+      "maximum_underlying_terrain_height_change_m": 0.0
+    },
+    {
+      "object": "Spatial_Staghorn_Linked_02",
+      "basal_vertices": 173,
+      "maximum_support_height_change_m": 0.0,
+      "maximum_underlying_terrain_height_change_m": 0.0
+    },
+    {
+      "object": "Spatial_Staghorn_Linked_03",
+      "basal_vertices": 141,
+      "maximum_support_height_change_m": 0.0,
+      "maximum_underlying_terrain_height_change_m": 0.0
+    }
+  ],
+  "maximum_sampled_midpoint_chord_deviation_m": 4.810796431995788e-07
+}

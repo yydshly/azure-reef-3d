@@ -1,0 +1,39 @@
+{
+  "input_sha256": "1d0b54fb008b205a102a88c682636cad827114aeb2d0234f2752d57158b31b22",
+  "fixture_sha256": "f4ca30b9338ef08eeda09af95d94cee39508aa2eceb4eeaf9dd074bef58af55d",
+  "views": [
+    {
+      "name": "mid",
+      "position": [
+        0,
+        2.7,
+        -18
+      ],
+      "target": [
+        -1.5,
+        1,
+        -31
+      ]
+    },
+    {
+      "name": "local",
+      "position": [
+        -0.6,
+        2.6,
+        -19.5
+      ],
+      "target": [
+        -8,
+        0.35,
+        -24.8
+      ]
+    }
+  ],
+  "samples": 24,
+  "resolution": [
+    1120,
+    700
+  ],
+  "diagnostic": false,
+  "disclosure": "Offline Cycles reimport, same old fixture, camera, light and materials in before/after. Static fish. No runtime water, caustics, UI or animations. Terrain diagnostics hide biology and omit depth fog only."
+}

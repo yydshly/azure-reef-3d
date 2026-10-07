@@ -117,3 +117,9 @@ Run 37564502286 passed the opening and corrected seabed-guide checks on source a
 ## 2026-10-07 · 连通硬底结构实验：拒绝集成
 
 [完整实验记录](experiments/2026-10-07-connected-hardbottom-rejected/README.md)。固定已发布空间版与离线灯光，检验不规则连通母体、砂湾和错落立面；几何保留与路径检查通过，但视觉仍像裸露人工台地，因此拒绝上线。此次仅归档配方、证明及离线对照图，不更换生产模型或网页。提交前独立重跑配方得到候选 SHA256 `75a181a1fea752a05792a055cc2fad2a42c0d0516f42ed9ae64a3d8300f64265`；这不是实际浏览器或实时焦散验收。
+
+## 2026-10-07 · 局部礁肩与材质输入：拒绝集成
+
+[礁肩实验](experiments/2026-10-07-shoulder-sample-rejected/README.md)保留一次设计和一次修正的离线图与复现配方；仍有人工板层与平滑倒角感，视觉拒绝。独立重生成匹配候选SHA256 `1d0b54fb008b205a102a88c682636cad827114aeb2d0234f2752d57158b31b22`。
+
+[材质输入审查](experiments/2026-10-07-substrate-input-rejected/README.md)：Coral Ground 02 实图含草叶与陆地碎屑，未应用于水下场景；仅归档出处和原文件哈希，不含114MB地图。生产网页与模型保持不变。另澄清当前软件WebGL验证范围、独立2.5D展示入口和公开重建输入提交。

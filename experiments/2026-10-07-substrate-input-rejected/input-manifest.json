@@ -1,0 +1,32 @@
+{
+  "asset": "Coral Ground 02",
+  "author": "Rob Tuytel",
+  "license": "CC0",
+  "license_url": "https://polyhaven.com/fa/license",
+  "asset_url": "https://polyhaven.com/fa/a/coral_ground_02",
+  "declared_width_m": 2,
+  "width_independently_verified": false,
+  "download_urls": [
+    "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/coral_ground_02/coral_ground_02_diff_4k.jpg",
+    "https://dl.polyhaven.org/file/ph-assets/Textures/png/4k/coral_ground_02/coral_ground_02_nor_gl_4k.png",
+    "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/4k/coral_ground_02/coral_ground_02_rough_4k.jpg"
+  ],
+  "files": [
+    {
+      "file": "coral_ground_02_diff_4k.jpg",
+      "bytes": 9219183,
+      "sha256": "9162fae5f149011c48fb0a0d46d770fb1cfe58e6cfb271853c4555dbba6de1c4"
+    },
+    {
+      "file": "coral_ground_02_nor_gl_4k.png",
+      "bytes": 102174814,
+      "sha256": "f5b1e87bcb223343b00b5f8597a1552c48a3598a5f68c0145369f257a55fcc41"
+    },
+    {
+      "file": "coral_ground_02_rough_4k.jpg",
+      "bytes": 7209959,
+      "sha256": "0c64ff5b94f3fed306f2eae7daa67ce52dd8486abc8e44fcf2f93b04a1d4df3f"
+    }
+  ],
+  "applied_to_scene": false
+}

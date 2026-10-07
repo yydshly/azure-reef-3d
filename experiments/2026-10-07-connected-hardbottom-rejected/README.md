@@ -8,7 +8,7 @@ The experiment improves local rock continuity and face occlusion, but the final 
 
 - Candidate: `connected-hardbottom.glb`, 30,515,244 bytes (29.10 MiB)
 - SHA-256: `75a181a1fea752a05792a055cc2fad2a42c0d0516f42ed9ae64a3d8300f64265`
-- Required input: published spatial release `117079e`, `source-model.glb`
+- Required input: public GitHub release `ea1fd274a2e5e4f373c818303c959710b1a1558f` (corresponding Site source `117079e`), `source-model.glb`
 - Input SHA-256: `c12624b2f1da3add8f801421b161daaa5ef9177f7f6edf8ce1a3d1ae7caf66dd`
 - Fixed offline fixture SHA-256: `f4ca30b9338ef08eeda09af95d94cee39508aa2eceb4eeaf9dd074bef58af55d`
 - All work is isolated in this directory. No source checkout, Site, runtime, publisher directory, remote, or deployed artifact was changed by this task
@@ -93,7 +93,7 @@ The optional `--runtime-snapshot baseline-runtime-hashes.json` argument to `veri
 
 ## Qualitative reference inputs
 
-The owner and reference reviewer inspected these actual NOAA photographs and supplied the structure criteria: connected irregular parent masses, changing neck width, overlapping faces and sand gaps. No photo or scan was copied into the asset, and no image is redistributed here. Species composition was not inferred or copied. This is not a Looe Key reconstruction.
+Visual review of the linked NOAA photographs informed these structure criteria: connected irregular parent masses, changing neck width, overlapping faces and sand gaps. No photo or scan was copied into the asset, and no image is redistributed here. Species composition was not inferred or copied. This is not a Looe Key reconstruction.
 
 - [NOAA Looe Key photograph](https://sanctuaries.noaa.gov/media/mag/5/fknms-looekey-shawnverne-1200.jpg)
 - [NOAA Florida Keys reef photograph](https://floridakeys.noaa.gov/media/img/20231222-florida-keys-coral-reef-vessels-1000.jpg)

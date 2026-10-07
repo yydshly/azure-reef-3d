@@ -1,0 +1,7 @@
+{
+  "model_sha256": "1d0b54fb008b205a102a88c682636cad827114aeb2d0234f2752d57158b31b22",
+  "nonadjacent_triangle_intersections": 0,
+  "intersecting_pairs": [],
+  "method": "Blender BVH self-overlap on reimported terrain; pairs sharing a vertex excluded as intentional neighbors",
+  "guide_anchors": "The guide anchors are in unchanged foreground meshes; byte preservation of guide-data.js is checked separately."
+}
