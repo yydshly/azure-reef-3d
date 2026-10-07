@@ -1,0 +1,144 @@
+{
+  "scope": "Source geometry budget and LOD state test, not visual or GPU performance acceptance",
+  "originalMeshObjectsPreserved": 7,
+  "maxWorldMatrixDifference": 8.881784197001252e-16,
+  "detailGroups": 4,
+  "optionalSmallGroups": 2,
+  "hysteresisSequence": [
+    1,
+    1,
+    0,
+    0,
+    1
+  ],
+  "views": [
+    {
+      "view": "departure",
+      "lod": [
+        {
+          "name": "Inhabited_NearLeft_Attached_reticulate_fan_form_Detail",
+          "level": 1
+        },
+        {
+          "name": "Inhabited_NearRight_Attached_small_fan_form_Detail",
+          "level": 1
+        },
+        {
+          "name": "Inhabited_Middle_Attached_reticulate_fan_form_Detail",
+          "level": 1
+        },
+        {
+          "name": "Inhabited_Middle_Attached_small_fan_form_Detail",
+          "level": 1
+        }
+      ],
+      "baseline": {
+        "visibleTriangles": 1082005,
+        "visibleMeshes": 75,
+        "totalTriangles": 1452189
+      },
+      "candidate": {
+        "visibleTriangles": 842005,
+        "visibleMeshes": 75,
+        "totalTriangles": 1212189
+      },
+      "ratio": 0.7781895647432313
+    },
+    {
+      "view": "midway",
+      "lod": [
+        {
+          "name": "Inhabited_NearLeft_Attached_reticulate_fan_form_Detail",
+          "level": 1
+        },
+        {
+          "name": "Inhabited_NearRight_Attached_small_fan_form_Detail",
+          "level": 1
+        },
+        {
+          "name": "Inhabited_Middle_Attached_reticulate_fan_form_Detail",
+          "level": 1
+        },
+        {
+          "name": "Inhabited_Middle_Attached_small_fan_form_Detail",
+          "level": 1
+        }
+      ],
+      "baseline": {
+        "visibleTriangles": 508223,
+        "visibleMeshes": 47,
+        "totalTriangles": 1452189
+      },
+      "candidate": {
+        "visibleTriangles": 388223,
+        "visibleMeshes": 47,
+        "totalTriangles": 1212189
+      },
+      "ratio": 0.7638831772666723
+    },
+    {
+      "view": "look-back",
+      "lod": [
+        {
+          "name": "Inhabited_NearLeft_Attached_reticulate_fan_form_Detail",
+          "level": 1
+        },
+        {
+          "name": "Inhabited_NearRight_Attached_small_fan_form_Detail",
+          "level": 1
+        },
+        {
+          "name": "Inhabited_Middle_Attached_reticulate_fan_form_Detail",
+          "level": 1
+        },
+        {
+          "name": "Inhabited_Middle_Attached_small_fan_form_Detail",
+          "level": 1
+        }
+      ],
+      "baseline": {
+        "visibleTriangles": 1368941,
+        "visibleMeshes": 78,
+        "totalTriangles": 1452189
+      },
+      "candidate": {
+        "visibleTriangles": 1128941,
+        "visibleMeshes": 78,
+        "totalTriangles": 1212189
+      },
+      "ratio": 0.8246819987128736
+    },
+    {
+      "view": "close-fan",
+      "lod": [
+        {
+          "name": "Inhabited_NearLeft_Attached_reticulate_fan_form_Detail",
+          "level": 1
+        },
+        {
+          "name": "Inhabited_NearRight_Attached_small_fan_form_Detail",
+          "level": 1
+        },
+        {
+          "name": "Inhabited_Middle_Attached_reticulate_fan_form_Detail",
+          "level": 0
+        },
+        {
+          "name": "Inhabited_Middle_Attached_small_fan_form_Detail",
+          "level": 1
+        }
+      ],
+      "baseline": {
+        "visibleTriangles": 403629,
+        "visibleMeshes": 28,
+        "totalTriangles": 1452189
+      },
+      "candidate": {
+        "visibleTriangles": 343629,
+        "visibleMeshes": 28,
+        "totalTriangles": 1272189
+      },
+      "ratio": 0.8513486394684228
+    }
+  ]
+}

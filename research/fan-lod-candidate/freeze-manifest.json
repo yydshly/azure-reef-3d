@@ -1,0 +1,263 @@
+{
+  "baselineSite": "527ef99c39da30570583f78299ddf8ce853a1a9a",
+  "baselineGithub": "6f9dd123598e43bd5a61eaa225ab0c159e567c27",
+  "scope": "Distant original 3D fan detail candidate, visual/performance acceptance pending",
+  "files": {
+    "dist/app.js": {
+      "bytes": 18047,
+      "sha256": "5e873515cc253c2993260266f9306ba126c58e4b523db980566fcc20084dbd42"
+    },
+    "dist/assets/back.webp": {
+      "bytes": 43366,
+      "sha256": "941a1464d92d4443108ae9c4027e1045cbc79f6e378e1049642b44527f46bcaf"
+    },
+    "dist/assets/before-front.webp": {
+      "bytes": 162782,
+      "sha256": "a1b57810b28ae832c472b41ccf131e44a1a54fc8b088c4c044a53331ed3149f5"
+    },
+    "dist/assets/before-sand-edge.webp": {
+      "bytes": 43586,
+      "sha256": "32d83fda27010e18cbbe6bb1ab4b240e34b4908fd36f854c8ab1060ea21e6eb8"
+    },
+    "dist/assets/corridor-front.webp": {
+      "bytes": 130106,
+      "sha256": "b6542340e8a575abcce8fd074bdd8199636a738d92cf6692aecfaa1b4f908d71"
+    },
+    "dist/assets/evidence/inhabited-20261007-r1/baseline-1-departure.png": {
+      "bytes": 712092,
+      "sha256": "3251a99fa2965c4642c8741cd2c6085cafd81e2e131cd2131cd011640d817fb9"
+    },
+    "dist/assets/evidence/inhabited-20261007-r1/baseline-2-midway.png": {
+      "bytes": 399680,
+      "sha256": "02caaabd680778e469bcfec6a7adabd1d5178982b91a3c63467e8521e0d0034a"
+    },
+    "dist/assets/evidence/inhabited-20261007-r1/baseline-3-look-back.png": {
+      "bytes": 427746,
+      "sha256": "b835b59fa42c4654dfc5550f9a45df9f3968332037516422f27648bb4131ecda"
+    },
+    "dist/assets/evidence/inhabited-20261007-r1/candidate-1-departure.png": {
+      "bytes": 686255,
+      "sha256": "9bbda32808913c4d22e539309ffa1ddbdcc8eb1df07b20ebcef4a2570c9a90c1"
+    },
+    "dist/assets/evidence/inhabited-20261007-r1/candidate-2-midway.png": {
+      "bytes": 528472,
+      "sha256": "96c4c11b9e8f6a9278458232ed6df55fe40f49f504f99b35a6b684a3f5ba4e24"
+    },
+    "dist/assets/evidence/inhabited-20261007-r1/candidate-3-look-back.png": {
+      "bytes": 559440,
+      "sha256": "4ee2ccc76e82ecb4c176c049efb60821af6709d77c0ee94d573e6cc9b0bdc536"
+    },
+    "dist/assets/fan-lod/d11ef2d64a9258b1/low-fans.glb": {
+      "bytes": 859492,
+      "sha256": "d11ef2d64a9258b12ae95a89bc1f7cdb74a96edfa18424f960846230083460e0"
+    },
+    "dist/assets/front.webp": {
+      "bytes": 102146,
+      "sha256": "89710c882cd287c94f1bd04e971ea1f8e841846e7b91420966be77ff07e2cd7a"
+    },
+    "dist/assets/inhabited/bf93ec504f8f2fc3/pilot.glb": {
+      "bytes": 12701472,
+      "sha256": "d6377e6bcfc5145ef6da7c139de26772b6065b30fbe24c2d3180bcba9ae48cdf"
+    },
+    "dist/assets/inhabited/bf93ec504f8f2fc3/substrate-original.png": {
+      "bytes": 4674092,
+      "sha256": "88a006059e9d30d7599c6c81bacda0f6b01d8b9f4edbfb1b8ff1e050e61db31d"
+    },
+    "dist/assets/models/2b510fa621081745/reef-texture-0.png": {
+      "bytes": 1991333,
+      "sha256": "ed024e8a9ba831094f4accf291e3cb22f6c04d8e738e8e79244dc2d3c28e1057"
+    },
+    "dist/assets/models/2b510fa621081745/reef-texture-1.png": {
+      "bytes": 769775,
+      "sha256": "364108445912e2f661ac97d01b3db6e00cf9b785e40f20440d693e97675aeb0e"
+    },
+    "dist/assets/models/2b510fa621081745/reef-texture-2.png": {
+      "bytes": 1442190,
+      "sha256": "8dd71f6be567f68002fc7b48fa4bd7c6da8e9f9799fe0a3bfb78b58592244cbe"
+    },
+    "dist/assets/models/2b510fa621081745/reef-texture-3.png": {
+      "bytes": 294537,
+      "sha256": "8f8527dd249041ed14665a96d38561c09641c6c5bf60569a35fa5caa8a98dc5b"
+    },
+    "dist/assets/models/2b510fa621081745/reef-texture-4.png": {
+      "bytes": 1434820,
+      "sha256": "e4dae628a8db581e328d9db24439b75758b1078be76d3c3c7723e22b715e6e10"
+    },
+    "dist/assets/models/2b510fa621081745/reef-texture-5.png": {
+      "bytes": 437729,
+      "sha256": "b0ccab29dac297bd2b2195da8e4b3a5fc952f57c4725d8bba9c0d3ab7c4af882"
+    },
+    "dist/assets/models/2b510fa621081745/reef.bin": {
+      "bytes": 22531288,
+      "sha256": "f39b2442cd1fbe49c29ba9e570eb87ba5e32fad0acdc32e69190b2d83a7712de"
+    },
+    "dist/assets/models/2b510fa621081745/reef.gltf": {
+      "bytes": 60036,
+      "sha256": "6fe33772a606c6ef8f0b31fdf3ab08be8f35c249305613cdcc550c5502d1d6cc"
+    },
+    "dist/assets/models/68e02c88ba14a2c2/reef-texture-0.png": {
+      "bytes": 1991333,
+      "sha256": "ed024e8a9ba831094f4accf291e3cb22f6c04d8e738e8e79244dc2d3c28e1057"
+    },
+    "dist/assets/models/68e02c88ba14a2c2/reef-texture-1.png": {
+      "bytes": 769775,
+      "sha256": "364108445912e2f661ac97d01b3db6e00cf9b785e40f20440d693e97675aeb0e"
+    },
+    "dist/assets/models/68e02c88ba14a2c2/reef-texture-2.png": {
+      "bytes": 1442190,
+      "sha256": "8dd71f6be567f68002fc7b48fa4bd7c6da8e9f9799fe0a3bfb78b58592244cbe"
+    },
+    "dist/assets/models/68e02c88ba14a2c2/reef-texture-3.png": {
+      "bytes": 294537,
+      "sha256": "8f8527dd249041ed14665a96d38561c09641c6c5bf60569a35fa5caa8a98dc5b"
+    },
+    "dist/assets/models/68e02c88ba14a2c2/reef-texture-4.png": {
+      "bytes": 1434820,
+      "sha256": "e4dae628a8db581e328d9db24439b75758b1078be76d3c3c7723e22b715e6e10"
+    },
+    "dist/assets/models/68e02c88ba14a2c2/reef-texture-5.png": {
+      "bytes": 437729,
+      "sha256": "b0ccab29dac297bd2b2195da8e4b3a5fc952f57c4725d8bba9c0d3ab7c4af882"
+    },
+    "dist/assets/models/68e02c88ba14a2c2/reef.bin": {
+      "bytes": 23101904,
+      "sha256": "93c386b37d181ea9dac7f23a7411dee81c13d9e6572f64935d83e9520be1c293"
+    },
+    "dist/assets/models/68e02c88ba14a2c2/reef.gltf": {
+      "bytes": 61835,
+      "sha256": "c10958b9d052e73caf38b808f548e216df4d52e3bd282fa9b1e2be56d4d1f8ad"
+    },
+    "dist/assets/reef-texture-0.png": {
+      "bytes": 1991333,
+      "sha256": "ed024e8a9ba831094f4accf291e3cb22f6c04d8e738e8e79244dc2d3c28e1057"
+    },
+    "dist/assets/reef-texture-1.png": {
+      "bytes": 769775,
+      "sha256": "364108445912e2f661ac97d01b3db6e00cf9b785e40f20440d693e97675aeb0e"
+    },
+    "dist/assets/reef-texture-2.png": {
+      "bytes": 1442190,
+      "sha256": "8dd71f6be567f68002fc7b48fa4bd7c6da8e9f9799fe0a3bfb78b58592244cbe"
+    },
+    "dist/assets/reef-texture-3.png": {
+      "bytes": 294537,
+      "sha256": "8f8527dd249041ed14665a96d38561c09641c6c5bf60569a35fa5caa8a98dc5b"
+    },
+    "dist/assets/reef-texture-4.png": {
+      "bytes": 1434820,
+      "sha256": "e4dae628a8db581e328d9db24439b75758b1078be76d3c3c7723e22b715e6e10"
+    },
+    "dist/assets/reef-texture-5.png": {
+      "bytes": 437729,
+      "sha256": "b0ccab29dac297bd2b2195da8e4b3a5fc952f57c4725d8bba9c0d3ab7c4af882"
+    },
+    "dist/assets/reef.bin": {
+      "bytes": 24041060,
+      "sha256": "f523f2d132f10ff9ae8515fcb83baccd4c3c09941cb74f1d4931075f90684cc4"
+    },
+    "dist/assets/reef.gltf": {
+      "bytes": 60044,
+      "sha256": "b0e6672cc6c1b5cd4e1345793174defeae9a43c04629216ed682968018c11ea8"
+    },
+    "dist/assets/sand-edge.webp": {
+      "bytes": 38670,
+      "sha256": "f93629e798f6d8702480012ed29f57cb0a67a7aee8128d5139b8d08df57c30d7"
+    },
+    "dist/assets/spatial-mid.webp": {
+      "bytes": 32560,
+      "sha256": "298adb46ee0f3a7809f3b149adf7d1dc357ba9fc831f5fa31618324dc7600bde"
+    },
+    "dist/assets/swim-routes.json": {
+      "bytes": 116041,
+      "sha256": "e3191c37dcebef900a785625324cc1d5bd987c8f0df2e9d1d6cc93594eb23fac"
+    },
+    "dist/assets/water-before-mid.webp": {
+      "bytes": 53792,
+      "sha256": "f18acf2ea142117cd60a74d1a5b839b8c1b2f7ad1b4d4f63024948d527ce1d3b"
+    },
+    "dist/assets/water-caustics.png": {
+      "bytes": 64858,
+      "sha256": "bd60ac0e3c29ca5ec1cf0d53440fae4e1a97fe0763cdd4314244c46cd7c09c6d"
+    },
+    "dist/assets/water-mid.webp": {
+      "bytes": 42618,
+      "sha256": "147ce5b84c895b63abd23e435da46b9631fb0b1ed6043cd282625c4d3dbaa6eb"
+    },
+    "dist/favicon.svg": {
+      "bytes": 276,
+      "sha256": "105dda21f2c6b9c1515d7e67686a240c5dd2cd3840aae30b8ef3211a3856d435"
+    },
+    "dist/fish-motion.js": {
+      "bytes": 2707,
+      "sha256": "2204242b56792e1f187db0e9d7577cf4e5039b8249271649d78778edbcecc740"
+    },
+    "dist/fish-population.js": {
+      "bytes": 590,
+      "sha256": "74de23658f735fadcba6ea37857d54b8ff4d168ba7005fdd263121ef30bcb943"
+    },
+    "dist/guide-data.js": {
+      "bytes": 4966,
+      "sha256": "72a61b1c7187d930b36205ef8003b1505386609287d52f8b33f52dec79dc2fed"
+    },
+    "dist/index.html": {
+      "bytes": 4517,
+      "sha256": "cb9ca0654e1aa0130576cbec07803819391c87d04f4b6e235fef314e42eaf899"
+    },
+    "dist/inhabited-reef.js": {
+      "bytes": 4135,
+      "sha256": "d734b69b4f53fc3384b4ff07f4ed5b8cec4c1896d56ff9ba9215c83b6c01e394"
+    },
+    "dist/inhabited-version.js": {
+      "bytes": 303,
+      "sha256": "1b433d23f0964bfbd6c75cb57bac3256108d834f7766e42ae0a147083fd73842"
+    },
+    "dist/model-version.js": {
+      "bytes": 71,
+      "sha256": "9bb2544b7d26ec235dd5d068e832711d391174005cb6c1077760cde324a2f975"
+    },
+    "dist/passage.js": {
+      "bytes": 1830,
+      "sha256": "eca17ce6d88abb101936c55b952cfdfb632c6dc5ce8e7e9456e4bd0656f7761d"
+    },
+    "dist/references.html": {
+      "bytes": 20070,
+      "sha256": "cdc59d6909056c7e62b6c471333d799f4e33cbd79e78499a7e866c882b06c2a5"
+    },
+    "dist/style.css": {
+      "bytes": 9879,
+      "sha256": "531538b6693ecc38d3fa287274ea0adfccef14c758eb930a9020b7b46847817e"
+    },
+    "dist/utils/BufferGeometryUtils.js": {
+      "bytes": 37712,
+      "sha256": "9fb63427ce6641fa14fd0baff9cc4d1b5f9c3d85fd084bf2e90e803c44ec1797"
+    },
+    "dist/utils/SkeletonUtils.js": {
+      "bytes": 11535,
+      "sha256": "b1632a703206c3d830de9fcbe515696770d04b71a15ee6b50afa6d2c3298c86f"
+    },
+    "dist/vendor/GLTFLoader.js": {
+      "bytes": 117570,
+      "sha256": "131c0f78c01d19368ae495caa65b3adaa10487810a36a05bb5901b769a35ac16"
+    },
+    "dist/vendor/OrbitControls.js": {
+      "bytes": 40755,
+      "sha256": "3d79d07ecb686b4e5d93232eedab255331c1beef711e13164eaa1f68655a5f2b"
+    },
+    "dist/vendor/THREE-LICENSE.txt": {
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    "dist/vendor/three.core.js": {
+      "bytes": 1458113,
+      "sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    "dist/vendor/three.module.js": {
+      "bytes": 662772,
+      "sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    "dist/water-light.js": {
+      "bytes": 3270,
+      "sha256": "cb262c5f91e98d8ecab1cfd66054233971e170c829e35b316aef48837e799963"
+    }
+  }
+}
