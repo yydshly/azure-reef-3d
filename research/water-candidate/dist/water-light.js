@@ -12,7 +12,7 @@ export function applyWaterLight(material,pattern,compiledShaders){
   shader.uniforms.reefTime={value:0};shader.uniforms.reefCaustics={value:pattern};
   shader.vertexShader='varying vec3 vReefWorld;\n'+shader.vertexShader;
   shader.vertexShader=shader.vertexShader.replace('#include <project_vertex>','vReefWorld = (modelMatrix * vec4(transformed, 1.0)).xyz;\n#include <project_vertex>');
-  shader.fragmentShader='uniform float reefTime;\nuniform sampler2D reefCaustics;\nvarying vec3 vReefWorld;\n'+waterField+shader.fragmentShader;
+  shader.fragmentShader='uniform float reefTime;\nuniform sampler2D reefCaustics;\nvarying vec3 vReefWorld;\n'+waterField+'\n'+shader.fragmentShader;
   // Modulate direct diffuse illumination, not albedo: shaded surfaces do not glow.
   shader.fragmentShader=shader.fragmentShader.replace('#include <lights_fragment_end>',`#include <lights_fragment_end>
 vec2 waterUV = vReefWorld.xz * .15;

@@ -38,3 +38,7 @@ Run tests using the bundled Three module without external installation:
 `node --import ./qa-register.mjs qa-guide.mjs`
 `node --import ./qa-register.mjs qa-guide-integration.mjs`
 `REEF_REDUCED_MOTION=1 node --import ./qa-register.mjs qa-guide-integration.mjs`
+
+## First actual-WebGL result and correction
+
+Run37573369857: baseline rendered successfully, but candidate GPU shader compilation failed because the injected shared function ended immediately before `#define STANDARD` without a newline. Candidate screenshots from that run are invalid as visual evidence. Fixed only the shader-prefix separator and added an explicit preprocessor-line regression assertion. Both arms did confirm identical fixed-time fish positions. Actual rerender is required before visual acceptance.
