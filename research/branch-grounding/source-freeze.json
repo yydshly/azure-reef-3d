@@ -1,0 +1,134 @@
+{
+  "baseline": "2372e912e23cfef9cf9eaf2ce862289c5a923008",
+  "runtimeFiles": [
+    "dist/app.js",
+    "dist/branch-grounding.js"
+  ],
+  "files": [
+    {
+      "path": "dist/app.js",
+      "sha256": "966af8e0076955073087810fc1c1e6101e4315f03c504de1c4458697a05b1c14",
+      "bytes": 20856
+    },
+    {
+      "path": "dist/branch-grounding.js",
+      "sha256": "fdcb69b2e2fe89267cdd74958111c94e34f3864acdcf3a54eac49fab7f5204ae",
+      "bytes": 921
+    },
+    {
+      "path": "evidence/branch-grounding-oct7/STATUS.md",
+      "sha256": "4f2516ac3222feed638ad5e2236642587c4d8cbe68c9255c18f1e5bf00b76a34",
+      "bytes": 2130
+    },
+    {
+      "path": "evidence/branch-grounding-oct7/fish-roof-monotonicity.json",
+      "sha256": "c40468470d6f69bf5cc9ae10e5d0ba5e32ce01bcbe365db37fce4e2861b0f226",
+      "bytes": 3481
+    },
+    {
+      "path": "evidence/branch-grounding-oct7/measurement/README.md",
+      "sha256": "0c5c5cd88d21a8f0f72f8834deaacab4933aed6f4a139db438234f7ec6fa79dc",
+      "bytes": 7692
+    },
+    {
+      "path": "evidence/branch-grounding-oct7/measurement/all-21-basal-caps.csv",
+      "sha256": "119a45c9f79de909383a5b3f28fb863f722684b13405037e63e98657c8e5e4c7",
+      "bytes": 4094
+    },
+    {
+      "path": "evidence/branch-grounding-oct7/measurement/analyze_grounding.py",
+      "sha256": "a049d759db9d2284245052be0cd306763abce2ff8ff382dba6f7452af87c87c3",
+      "bytes": 9771
+    },
+    {
+      "path": "evidence/branch-grounding-oct7/measurement/basal-rings.json",
+      "sha256": "712d75ad150f5a7d3db2bb63f230295b831b274271f902514e54a36c6d997a74",
+      "bytes": 347630
+    },
+    {
+      "path": "evidence/branch-grounding-oct7/measurement/baseline-front-ends-annotated.png",
+      "sha256": "b86c43ef89603fe539671e1610789dd0ec860b65f4d559dc81c0356c07c53e59",
+      "bytes": 655538
+    },
+    {
+      "path": "evidence/branch-grounding-oct7/measurement/extract_geometry.py",
+      "sha256": "70a601551818070dfe8dad4bec64cae8cd2b0e1599390210902c4993ee0e307d",
+      "bytes": 4617
+    },
+    {
+      "path": "evidence/branch-grounding-oct7/measurement/grounding-proof.json",
+      "sha256": "d1576f3beaa0a56e17f2ce0241bb7b279196825d45141f10ca55e02e539de53e",
+      "bytes": 141953
+    },
+    {
+      "path": "evidence/branch-grounding-oct7/measurement/project_roots.py",
+      "sha256": "540aed5ab625bb7690181af4683a4ec0fba6b180ed07ce84ae9b24041d6190fa",
+      "bytes": 3024
+    },
+    {
+      "path": "evidence/branch-grounding-oct7/measurement/root-screen-map.json",
+      "sha256": "37b941fa20da004ff3e34aacb907a833f25974e9ccd002cf7c2ecfc7f837a6e3",
+      "bytes": 49430
+    },
+    {
+      "path": "evidence/branch-grounding-oct7/offline-before-close-gray.png",
+      "sha256": "614069651a71d1e86e8ff4d6c56d37769db7c29c68380eecaf8c4fdc26ad87d0",
+      "bytes": 1080378
+    },
+    {
+      "path": "evidence/branch-grounding-oct7/offline-before-close-textured.png",
+      "sha256": "34eb4d7557a47a47f86023f63d774352cef3efd60b40615f3e6872ada6a71c75",
+      "bytes": 1221919
+    },
+    {
+      "path": "evidence/branch-grounding-oct7/offline-pose-artifacts.json",
+      "sha256": "e354cd000bb46e1627da8d97f6134afacd74cc5eb2e6cf0f2fff8eeb93e0959d",
+      "bytes": 1579
+    },
+    {
+      "path": "evidence/branch-grounding-oct7/offline-pose-compare-gray.png",
+      "sha256": "4d5fdc36a9fb4382bd14a800312ae84378a3a059b7144de014c26f784bb96586",
+      "bytes": 1598898
+    },
+    {
+      "path": "evidence/branch-grounding-oct7/offline-pose-compare-textured.png",
+      "sha256": "f95da446b7b40dda65d9ce6c18087303088d681ddd60293a14d2090594f93f55",
+      "bytes": 1740275
+    },
+    {
+      "path": "evidence/branch-grounding-oct7/offline-pose-manifest.json",
+      "sha256": "9ce90cb34f172cb5f5298c87fe7d4ea7fe7f5a1f745fd9bf13a03ca54bec1a0f",
+      "bytes": 1095
+    },
+    {
+      "path": "evidence/branch-grounding-oct7/offline-pose-preview-close-gray.png",
+      "sha256": "a42371c38ff33d66a36428259aff697e7bf9623bfc0786ef7e8961d2d4be38ea",
+      "bytes": 1076719
+    },
+    {
+      "path": "evidence/branch-grounding-oct7/offline-pose-preview-close-textured.png",
+      "sha256": "a5e2fd982ad418c27272dfcb36a398a7015b1973cfa5d25ffdc0209af6e9f79c",
+      "bytes": 1219557
+    },
+    {
+      "path": "evidence/branch-grounding-oct7/package_offline_pose.py",
+      "sha256": "773ada3de90729e7f41243d5fe01c0dff8e9e4157b939353bc10f7f59c2911f2",
+      "bytes": 3677
+    },
+    {
+      "path": "evidence/branch-grounding-oct7/render_offline_pose.py",
+      "sha256": "dac11b4c635629aba4fdbfc1e56f44f3c510d3320c681d6147b2de92f394b87a",
+      "bytes": 5215
+    },
+    {
+      "path": "qa-branch-grounding.mjs",
+      "sha256": "cfb65285b18f1510ba6009def5b73b1dfb9a4c277c4a9f9612b007bf4254e02d",
+      "bytes": 2358
+    },
+    {
+      "path": "qa-guide-integration.mjs",
+      "sha256": "dc62adf223c152f84ae15e5c25e656688225e9d9ecb6b4b358234a62c85f3886",
+      "bytes": 13019
+    }
+  ]
+}

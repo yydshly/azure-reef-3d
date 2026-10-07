@@ -1,0 +1,29 @@
+{
+  "source_sha256": "c12624b2f1da3add8f801421b161daaa5ef9177f7f6edf8ce1a3d1ae7caf66dd",
+  "changed_object": "Corridor_Distant_Linked_03",
+  "world_y_downshift_scene_units": 0.12711730762552115,
+  "coordinate_note": "glTF world Y is Blender world Z",
+  "geometry_materials_textures": "Original source and shared data untouched; pose-only change to the one object in this offline scene",
+  "camera": {
+    "position": [
+      4.7,
+      1.25,
+      -21.7
+    ],
+    "target": [
+      1.8,
+      0,
+      -25.45
+    ],
+    "vertical_fov_degrees": 47
+  },
+  "resolution": [
+    1120,
+    700
+  ],
+  "samples": 20,
+  "seed": 178,
+  "renderer": "Blender 4.3.2 Cycles CPU",
+  "disclosure": "Offline pose preview only. Original high-detail limestone and source GLB maps, pigment, fixed lighting, current supplemental rigid colonies. Production world-space substrate shader, water/fog/caustics, browser output, dynamic fish and performance are not reproduced. No source GLB, production module or transform file was edited.",
+  "distance_units": "Uncalibrated scene units; no surveyed physical scale."
+}

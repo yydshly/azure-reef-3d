@@ -1,0 +1,1721 @@
+{
+  "camera": [
+    4.699999999999999,
+    1.2499999999999993,
+    -21.699999999999996
+  ],
+  "target": [
+    1.7999999999999998,
+    0.0,
+    -25.449999999999996
+  ],
+  "vertical_fov_degrees": 47,
+  "image_size": [
+    1120,
+    700
+  ],
+  "source_runtime_capture": "/workspace/scratch/56bf13a306b9/reef-support03-ci-37673506367/support03-37673506367/baseline/diagnostic-close.png",
+  "roots": [
+    {
+      "root": 1,
+      "segment": 0,
+      "center_world": [
+        1.7549909672929995,
+        -0.13157610794901847,
+        -26.0936059890815
+      ],
+      "pixel_center": [
+        612.8442984307409,
+        348.5827428736188
+      ],
+      "pixel_ring": [
+        [
+          611.6784067784876,
+          349.92199185218595
+        ],
+        [
+          614.5133956365434,
+          351.56808648201786
+        ],
+        [
+          616.6983272692179,
+          352.0647180527827
+        ],
+        [
+          617.3982929779701,
+          351.2298566797831
+        ],
+        [
+          616.3620238459496,
+          349.39472505468973
+        ],
+        [
+          613.9955640621348,
+          347.260295150853
+        ],
+        [
+          611.1932225632974,
+          345.62963206505134
+        ],
+        [
+          609.0092643872455,
+          345.11792867733817
+        ],
+        [
+          608.2772546357983,
+          345.92804376805776
+        ],
+        [
+          609.2927445354848,
+          347.7629520782894
+        ]
+      ],
+      "arms": {
+        "baseline": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.428072929382324,
+          "nearest_ground_ray_distance_scene_units": 5.755057334899902,
+          "cap_center_ray_distance_scene_units": 5.466772752920523,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": 0.04941417947307514,
+          "maximum_vertical_gap_scene_units": 0.09919154229625349,
+          "state": "fully_floating",
+          "first_branch_hit_root": 1,
+          "cap_center_hidden_by_own_stem_surface": true
+        },
+        "candidate": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.428072929382324,
+          "nearest_ground_ray_distance_scene_units": 5.768986225128174,
+          "cap_center_ray_distance_scene_units": 5.466772752920523,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": 0.049923705717642264,
+          "maximum_vertical_gap_scene_units": 0.09919154229625349,
+          "state": "fully_floating",
+          "first_branch_hit_root": 1,
+          "cap_center_hidden_by_own_stem_surface": true
+        }
+      }
+    },
+    {
+      "root": 2,
+      "segment": 7,
+      "center_world": [
+        2.019792368145592,
+        -0.13270149898529052,
+        -25.93787171957674
+      ],
+      "pixel_center": [
+        633.4027293513137,
+        359.9767795437358
+      ],
+      "pixel_ring": [
+        [
+          630.017582448377,
+          360.63788045658794
+        ],
+        [
+          631.7318257673654,
+          362.7182061816384
+        ],
+        [
+          634.0856352225957,
+          363.7480523209201
+        ],
+        [
+          636.1722228035715,
+          363.3333918090309
+        ],
+        [
+          637.1939179664918,
+          361.63992422421666
+        ],
+        [
+          636.7678546026922,
+          359.3195884944114
+        ],
+        [
+          635.0619073751645,
+          357.25459060996235
+        ],
+        [
+          632.7235436952552,
+          356.22605168600427
+        ],
+        [
+          630.6382061057094,
+          356.6261915434889
+        ],
+        [
+          629.6018378092575,
+          358.30937805462327
+        ]
+      ],
+      "arms": {
+        "baseline": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.16341495513916,
+          "nearest_ground_ray_distance_scene_units": 5.4965057373046875,
+          "cap_center_ray_distance_scene_units": 5.201435676496936,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": 0.043850792836549246,
+          "maximum_vertical_gap_scene_units": 0.08180522327685935,
+          "state": "fully_floating",
+          "first_branch_hit_root": 2,
+          "cap_center_hidden_by_own_stem_surface": true
+        },
+        "candidate": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.16341495513916,
+          "nearest_ground_ray_distance_scene_units": 5.4965057373046875,
+          "cap_center_ray_distance_scene_units": 5.201435676496936,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": 0.04238499371712834,
+          "maximum_vertical_gap_scene_units": 0.08669466950903981,
+          "state": "fully_floating",
+          "first_branch_hit_root": 2,
+          "cap_center_hidden_by_own_stem_surface": true
+        }
+      }
+    },
+    {
+      "root": 3,
+      "segment": 15,
+      "center_world": [
+        1.2464134185598834,
+        -0.10570200219750403,
+        -26.47630186638471
+      ],
+      "pixel_center": [
+        585.3023063354087,
+        324.53569032959325
+      ],
+      "pixel_ring": [
+        [
+          590.015769557581,
+          324.22995595898414
+        ],
+        [
+          588.3758458727654,
+          325.4426522302059
+        ],
+        [
+          585.575373632288,
+          326.3059147084573
+        ],
+        [
+          582.6716755305888,
+          326.4960702385512
+        ],
+        [
+          580.7596450849054,
+          325.9396039830358
+        ],
+        [
+          580.5733623745189,
+          324.84242884379796
+        ],
+        [
+          582.2004212513447,
+          323.6203640235111
+        ],
+        [
+          585.0260599600393,
+          322.7448568103783
+        ],
+        [
+          587.9581752800163,
+          322.5565026342715
+        ],
+        [
+          589.8626023560123,
+          323.12632663416997
+        ]
+      ],
+      "arms": {
+        "baseline": {
+          "cap_center_unoccluded_within_0_0002_scene_units": true,
+          "nearest_branch_ray_distance_scene_units": 6.047994613647461,
+          "nearest_ground_ray_distance_scene_units": 6.4601359367370605,
+          "cap_center_ray_distance_scene_units": 6.0479953466496355,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": 0.03752057304083323,
+          "maximum_vertical_gap_scene_units": 0.09204696717411309,
+          "state": "fully_floating",
+          "first_branch_hit_root": 3,
+          "cap_center_hidden_by_own_stem_surface": false
+        },
+        "candidate": {
+          "cap_center_unoccluded_within_0_0002_scene_units": true,
+          "nearest_branch_ray_distance_scene_units": 6.047994613647461,
+          "nearest_ground_ray_distance_scene_units": 6.458250522613525,
+          "cap_center_ray_distance_scene_units": 6.0479953466496355,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": 0.044001136345082514,
+          "maximum_vertical_gap_scene_units": 0.09444720590241218,
+          "state": "fully_floating",
+          "first_branch_hit_root": 3,
+          "cap_center_hidden_by_own_stem_surface": false
+        }
+      }
+    },
+    {
+      "root": 4,
+      "segment": 22,
+      "center_world": [
+        2.046924301311777,
+        -0.18426024428755045,
+        -25.93100823960531
+      ],
+      "pixel_center": [
+        636.2056693366196,
+        368.62674932477347
+      ],
+      "pixel_ring": [
+        [
+          632.7503796655803,
+          369.3243340339199
+        ],
+        [
+          634.6064370716605,
+          371.3341618363781
+        ],
+        [
+          637.0754871478103,
+          372.3068373780893
+        ],
+        [
+          639.205650394658,
+          371.86959178129877
+        ],
+        [
+          640.1821885108343,
+          370.1968676098479
+        ],
+        [
+          639.6402045132029,
+          367.93335465403084
+        ],
+        [
+          637.7927987917282,
+          365.93982629893384
+        ],
+        [
+          635.341285539419,
+          364.9696518192512
+        ],
+        [
+          633.2133086446905,
+          365.39214406952937
+        ],
+        [
+          632.2205852409035,
+          367.0532493006844
+        ]
+      ],
+      "arms": {
+        "baseline": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.157337665557861,
+          "nearest_ground_ray_distance_scene_units": 5.227104187011719,
+          "cap_center_ray_distance_scene_units": 5.195896826816505,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": -0.012285908841505933,
+          "maximum_vertical_gap_scene_units": 0.03256326364454776,
+          "state": "intersects_substrate",
+          "first_branch_hit_root": 4,
+          "cap_center_hidden_by_own_stem_surface": true
+        },
+        "candidate": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.157337665557861,
+          "nearest_ground_ray_distance_scene_units": 5.2284836769104,
+          "cap_center_ray_distance_scene_units": 5.195896826816505,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": -0.009774934197983143,
+          "maximum_vertical_gap_scene_units": 0.03094360623724768,
+          "state": "intersects_substrate",
+          "first_branch_hit_root": 4,
+          "cap_center_hidden_by_own_stem_surface": true
+        }
+      }
+    },
+    {
+      "root": 5,
+      "segment": 29,
+      "center_world": [
+        1.1562432240265201,
+        -0.1008488903939724,
+        -26.161314335159535
+      ],
+      "pixel_center": [
+        549.809409149908,
+        329.8716217823277
+      ],
+      "pixel_ring": [
+        [
+          553.6317944614101,
+          329.1392248185826
+        ],
+        [
+          551.3967986330592,
+          330.4741458461184
+        ],
+        [
+          548.5627720210526,
+          331.5778558582792
+        ],
+        [
+          546.1960838231994,
+          332.03480101263517
+        ],
+        [
+          545.1959441424838,
+          331.6679020988885
+        ],
+        [
+          545.9576571111415,
+          330.60964562566005
+        ],
+        [
+          548.203424250237,
+          329.262039472248
+        ],
+        [
+          551.0700753988366,
+          328.146186479194
+        ],
+        [
+          553.4461538283887,
+          327.69442215508377
+        ],
+        [
+          554.4194737437306,
+          328.0766654372311
+        ]
+      ],
+      "arms": {
+        "baseline": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 4.723268508911133,
+          "nearest_ground_ray_distance_scene_units": 6.25743293762207,
+          "cap_center_ray_distance_scene_units": 5.855453048999418,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": 0.04676112382172981,
+          "maximum_vertical_gap_scene_units": 0.12211730762552114,
+          "state": "fully_floating",
+          "first_branch_hit_root": 6,
+          "cap_center_hidden_by_own_stem_surface": false
+        },
+        "candidate": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 4.723268508911133,
+          "nearest_ground_ray_distance_scene_units": 6.258762359619141,
+          "cap_center_ray_distance_scene_units": 5.855453048999418,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": 0.04833881797844697,
+          "maximum_vertical_gap_scene_units": 0.12343416472741575,
+          "state": "fully_floating",
+          "first_branch_hit_root": 6,
+          "cap_center_hidden_by_own_stem_surface": false
+        }
+      }
+    },
+    {
+      "root": 6,
+      "segment": 37,
+      "center_world": [
+        1.7240977560131605,
+        -0.16604517531394958,
+        -25.594688445803932
+      ],
+      "pixel_center": [
+        564.4931012929186,
+        368.8648573680157
+      ],
+      "pixel_ring": [
+        [
+          559.6529825274699,
+          368.4179511528523
+        ],
+        [
+          559.8733426598375,
+          371.0215435518519
+        ],
+        [
+          561.8636278457889,
+          372.8108265183816
+        ],
+        [
+          564.8686602768937,
+          373.093330917598
+        ],
+        [
+          567.732750382835,
+          371.7553624766025
+        ],
+        [
+          569.3520112671166,
+          369.31349838286513
+        ],
+        [
+          569.1097934235196,
+          366.7096028143819
+        ],
+        [
+          567.1095929875116,
+          364.9383695957962
+        ],
+        [
+          564.1202903470543,
+          364.667324447973
+        ],
+        [
+          561.2758373343537,
+          365.99432496221056
+        ]
+      ],
+      "arms": {
+        "baseline": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.050689220428467,
+          "nearest_ground_ray_distance_scene_units": 5.2021026611328125,
+          "cap_center_ray_distance_scene_units": 5.101938474165922,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": -0.0010007036788213242,
+          "maximum_vertical_gap_scene_units": 0.0627684290565842,
+          "state": "intersects_substrate",
+          "first_branch_hit_root": 6,
+          "cap_center_hidden_by_own_stem_surface": true
+        },
+        "candidate": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.050689220428467,
+          "nearest_ground_ray_distance_scene_units": 5.217691898345947,
+          "cap_center_ray_distance_scene_units": 5.101938474165922,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": -0.0008901444877125186,
+          "maximum_vertical_gap_scene_units": 0.0627684290565842,
+          "state": "intersects_substrate",
+          "first_branch_hit_root": 6,
+          "cap_center_hidden_by_own_stem_surface": true
+        }
+      }
+    },
+    {
+      "root": 7,
+      "segment": 45,
+      "center_world": [
+        1.945085531772002,
+        -0.13455027920007706,
+        -26.412392438218443
+      ],
+      "pixel_center": [
+        661.3549798933175,
+        344.0389913387117
+      ],
+      "pixel_ring": [
+        [
+          662.5652528087818,
+          344.98444333318446
+        ],
+        [
+          663.6809153746724,
+          346.4257440645244
+        ],
+        [
+          663.9030828550858,
+          346.9487921833299
+        ],
+        [
+          663.1534536047336,
+          346.3606032050853
+        ],
+        [
+          661.7233798381536,
+          344.8923496580387
+        ],
+        [
+          660.1556998595433,
+          343.10212661706436
+        ],
+        [
+          659.0420428985542,
+          341.6655767277846
+        ],
+        [
+          658.806732349193,
+          341.1290257641847
+        ],
+        [
+          659.5462328640682,
+          341.70411824100626
+        ],
+        [
+          660.983190077032,
+          343.17778049065885
+        ]
+      ],
+      "arms": {
+        "baseline": {
+          "cap_center_unoccluded_within_0_0002_scene_units": true,
+          "nearest_branch_ray_distance_scene_units": 5.63144063949585,
+          "nearest_ground_ray_distance_scene_units": 5.779319763183594,
+          "cap_center_ray_distance_scene_units": 5.631445258072155,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": 0.0433323059018349,
+          "maximum_vertical_gap_scene_units": 0.10501913592219836,
+          "state": "fully_floating",
+          "first_branch_hit_root": 7,
+          "cap_center_hidden_by_own_stem_surface": false
+        },
+        "candidate": {
+          "cap_center_unoccluded_within_0_0002_scene_units": true,
+          "nearest_branch_ray_distance_scene_units": 5.63144063949585,
+          "nearest_ground_ray_distance_scene_units": 5.759282112121582,
+          "cap_center_ray_distance_scene_units": 5.631445258072155,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": 0.0433323059018349,
+          "maximum_vertical_gap_scene_units": 0.10501913592219836,
+          "state": "fully_floating",
+          "first_branch_hit_root": 7,
+          "cap_center_hidden_by_own_stem_surface": false
+        }
+      }
+    },
+    {
+      "root": 8,
+      "segment": 52,
+      "center_world": [
+        1.4681658678509857,
+        -0.2201650468334555,
+        -26.022466206799653
+      ],
+      "pixel_center": [
+        572.6230384367624,
+        356.57253458111876
+      ],
+      "pixel_ring": [
+        [
+          575.8353233876003,
+          355.51984049471173
+        ],
+        [
+          573.2683960201381,
+          357.00154793909877
+        ],
+        [
+          570.4579667279098,
+          358.3193368328248
+        ],
+        [
+          568.4615482162599,
+          358.9766703698052
+        ],
+        [
+          568.0431563346282,
+          358.71892441502894
+        ],
+        [
+          569.3795466115009,
+          357.6354554955014
+        ],
+        [
+          571.9694124646381,
+          356.138024568357
+        ],
+        [
+          574.8119058907844,
+          354.80653373618753
+        ],
+        [
+          576.8052025958829,
+          354.15645530504133
+        ],
+        [
+          577.1896017220463,
+          354.4323866026965
+        ]
+      ],
+      "arms": {
+        "baseline": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.5937323570251465,
+          "nearest_ground_ray_distance_scene_units": 5.538219451904297,
+          "cap_center_ray_distance_scene_units": 5.593733210618754,
+          "first_occluder": "ground",
+          "minimum_vertical_gap_scene_units": -0.036086706335990204,
+          "maximum_vertical_gap_scene_units": 0.0054740274217888185,
+          "state": "intersects_substrate",
+          "first_branch_hit_root": 8,
+          "cap_center_hidden_by_own_stem_surface": false
+        },
+        "candidate": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.5937323570251465,
+          "nearest_ground_ray_distance_scene_units": 5.538219451904297,
+          "cap_center_ray_distance_scene_units": 5.593733210618754,
+          "first_occluder": "ground",
+          "minimum_vertical_gap_scene_units": -0.03694597200566374,
+          "maximum_vertical_gap_scene_units": 0.0054740274217888185,
+          "state": "intersects_substrate",
+          "first_branch_hit_root": 8,
+          "cap_center_hidden_by_own_stem_surface": false
+        }
+      }
+    },
+    {
+      "root": 9,
+      "segment": 59,
+      "center_world": [
+        1.6108011163009492,
+        -0.15384969666600226,
+        -26.757699764077337
+      ],
+      "pixel_center": [
+        646.467060520784,
+        330.78686571097916
+      ],
+      "pixel_ring": [
+        [
+          649.3739823757696,
+          331.3842628279112
+        ],
+        [
+          649.7522943004046,
+          332.45584138501493
+        ],
+        [
+          648.876315307456,
+          332.8857605553152
+        ],
+        [
+          647.0876882227991,
+          332.51512660641487
+        ],
+        [
+          645.067130431752,
+          331.4880491560814
+        ],
+        [
+          643.578020144446,
+          330.1931433896982
+        ],
+        [
+          643.1862686947414,
+          329.1201466533563
+        ],
+        [
+          644.0481949702037,
+          328.6795981603075
+        ],
+        [
+          645.8415763035958,
+          329.0450808860868
+        ],
+        [
+          647.8791256200088,
+          330.079604199322
+        ]
+      ],
+      "arms": {
+        "baseline": {
+          "cap_center_unoccluded_within_0_0002_scene_units": true,
+          "nearest_branch_ray_distance_scene_units": 6.090506553649902,
+          "nearest_ground_ray_distance_scene_units": 6.286921501159668,
+          "cap_center_ray_distance_scene_units": 6.090506597765466,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": 0.008627530280314488,
+          "maximum_vertical_gap_scene_units": 0.04867641876560924,
+          "state": "fully_floating",
+          "first_branch_hit_root": 9,
+          "cap_center_hidden_by_own_stem_surface": false
+        },
+        "candidate": {
+          "cap_center_unoccluded_within_0_0002_scene_units": true,
+          "nearest_branch_ray_distance_scene_units": 6.090506553649902,
+          "nearest_ground_ray_distance_scene_units": 6.287456512451172,
+          "cap_center_ray_distance_scene_units": 6.090506597765466,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": 0.0030340235913044467,
+          "maximum_vertical_gap_scene_units": 0.043980096581368144,
+          "state": "fully_floating",
+          "first_branch_hit_root": 9,
+          "cap_center_hidden_by_own_stem_surface": false
+        }
+      }
+    },
+    {
+      "root": 10,
+      "segment": 66,
+      "center_world": [
+        1.5957918703761202,
+        -0.1708500402569771,
+        -26.541292807767427
+      ],
+      "pixel_center": [
+        629.0226946926805,
+        338.16707168397437
+      ],
+      "pixel_ring": [
+        [
+          633.0915176593792,
+          338.6970877325057
+        ],
+        [
+          633.0176560675203,
+          340.06925398451665
+        ],
+        [
+          631.4231192693375,
+          340.7091792408614
+        ],
+        [
+          628.9232491804909,
+          340.37992390457913
+        ],
+        [
+          626.464697627661,
+          339.2097750328788
+        ],
+        [
+          624.9752788879799,
+          337.6398443055871
+        ],
+        [
+          625.0249706965525,
+          336.2635740898319
+        ],
+        [
+          626.606873203301,
+          335.6086582486378
+        ],
+        [
+          629.1231049051884,
+          335.9327529562537
+        ],
+        [
+          631.6044029902098,
+          337.11470315971684
+        ]
+      ],
+      "arms": {
+        "baseline": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 4.914755821228027,
+          "nearest_ground_ray_distance_scene_units": 5.9485979080200195,
+          "cap_center_ray_distance_scene_units": 5.9239377950364975,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": -0.016481255826995778,
+          "maximum_vertical_gap_scene_units": 0.049850943613009235,
+          "state": "intersects_substrate",
+          "first_branch_hit_root": 17,
+          "cap_center_hidden_by_own_stem_surface": false
+        },
+        "candidate": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 4.914755821228027,
+          "nearest_ground_ray_distance_scene_units": 5.951313018798828,
+          "cap_center_ray_distance_scene_units": 5.9239377950364975,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": -0.015059604559546358,
+          "maximum_vertical_gap_scene_units": 0.049850943613009235,
+          "state": "intersects_substrate",
+          "first_branch_hit_root": 17,
+          "cap_center_hidden_by_own_stem_surface": false
+        }
+      }
+    },
+    {
+      "root": 11,
+      "segment": 75,
+      "center_world": [
+        1.387720685353329,
+        -0.13397564339637755,
+        -25.391268327545102
+      ],
+      "pixel_center": [
+        503.25143902287823,
+        362.0824046651431
+      ],
+      "pixel_ring": [
+        [
+          500.70283981111027,
+          360.9125469797282
+        ],
+        [
+          499.18459540451573,
+          363.3827072782586
+        ],
+        [
+          499.2117738106003,
+          365.3688470901666
+        ],
+        [
+          500.7869271185434,
+          366.108590517183
+        ],
+        [
+          503.3166930676172,
+          365.30643574085593
+        ],
+        [
+          505.82689930915154,
+          363.2645923776154
+        ],
+        [
+          507.34545589947953,
+          360.77341413802424
+        ],
+        [
+          507.2922796847836,
+          358.7950055635923
+        ],
+        [
+          505.7007457091993,
+          358.0810586374048
+        ],
+        [
+          503.1868539461194,
+          358.8914255616447
+        ]
+      ],
+      "arms": {
+        "baseline": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.112170219421387,
+          "nearest_ground_ray_distance_scene_units": 5.327317237854004,
+          "cap_center_ray_distance_scene_units": 5.14898482282559,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": 0.016599147110738954,
+          "maximum_vertical_gap_scene_units": 0.06704522015023429,
+          "state": "fully_floating",
+          "first_branch_hit_root": 11,
+          "cap_center_hidden_by_own_stem_surface": true
+        },
+        "candidate": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.112170219421387,
+          "nearest_ground_ray_distance_scene_units": 5.328668117523193,
+          "cap_center_ray_distance_scene_units": 5.14898482282559,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": 0.01713094887007749,
+          "maximum_vertical_gap_scene_units": 0.06064052290641797,
+          "state": "fully_floating",
+          "first_branch_hit_root": 11,
+          "cap_center_hidden_by_own_stem_surface": true
+        }
+      }
+    },
+    {
+      "root": 12,
+      "segment": 83,
+      "center_world": [
+        1.5586020991431255,
+        -0.11424606278538704,
+        -25.962432163287843
+      ],
+      "pixel_center": [
+        578.0414341428132,
+        345.50336179528756
+      ],
+      "pixel_ring": [
+        [
+          577.1010036927111,
+          344.5651677081754
+        ],
+        [
+          575.3853002026653,
+          345.98123153037136
+        ],
+        [
+          574.6771968776311,
+          347.2197597229838
+        ],
+        [
+          575.2525555482164,
+          347.8080082638938
+        ],
+        [
+          576.9001330723179,
+          347.51552021695335
+        ],
+        [
+          578.9904357359088,
+          346.45010664303845
+        ],
+        [
+          580.7163234177198,
+          345.022117754896
+        ],
+        [
+          581.4134593080397,
+          343.7829905641517
+        ],
+        [
+          580.8211384212699,
+          343.2062967091535
+        ],
+        [
+          579.1740446872437,
+          343.50652511094546
+        ]
+      ],
+      "arms": {
+        "baseline": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.144245147705078,
+          "nearest_ground_ray_distance_scene_units": 5.70580530166626,
+          "cap_center_ray_distance_scene_units": 5.467895028067394,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": 0.05775033381333827,
+          "maximum_vertical_gap_scene_units": 0.08015326734735798,
+          "state": "fully_floating",
+          "first_branch_hit_root": 14,
+          "cap_center_hidden_by_own_stem_surface": false
+        },
+        "candidate": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.144245147705078,
+          "nearest_ground_ray_distance_scene_units": 5.7279438972473145,
+          "cap_center_ray_distance_scene_units": 5.467895028067394,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": 0.05453610670547704,
+          "maximum_vertical_gap_scene_units": 0.07162017132384335,
+          "state": "fully_floating",
+          "first_branch_hit_root": 14,
+          "cap_center_hidden_by_own_stem_surface": false
+        }
+      }
+    },
+    {
+      "root": 13,
+      "segment": 93,
+      "center_world": [
+        1.8935532617043997,
+        -0.21229546361789103,
+        -26.570708941615287
+      ],
+      "pixel_center": [
+        666.1778324685401,
+        349.1376172274958
+      ],
+      "pixel_ring": [
+        [
+          667.863989945558,
+          350.04255482789404
+        ],
+        [
+          669.3249480927769,
+          350.5935516782035
+        ],
+        [
+          669.577434688112,
+          350.5860914043025
+        ],
+        [
+          668.5340267117006,
+          350.02708990702604
+        ],
+        [
+          666.5989100155797,
+          349.13215995632714
+        ],
+        [
+          664.5059890237019,
+          348.2403617126582
+        ],
+        [
+          663.0455991914845,
+          347.6885677378607
+        ],
+        [
+          662.7753201634883,
+          347.687903160553
+        ],
+        [
+          663.8071632070274,
+          348.2426801859233
+        ],
+        [
+          665.7529251222511,
+          349.1431241484942
+        ]
+      ],
+      "arms": {
+        "baseline": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.782188415527344,
+          "nearest_ground_ray_distance_scene_units": 5.691688060760498,
+          "cap_center_ray_distance_scene_units": 5.808464247263524,
+          "first_occluder": "ground",
+          "minimum_vertical_gap_scene_units": -0.06563584391407185,
+          "maximum_vertical_gap_scene_units": -0.034979251984430526,
+          "state": "fully_below_substrate",
+          "first_branch_hit_root": 13,
+          "cap_center_hidden_by_own_stem_surface": true
+        },
+        "candidate": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.782188415527344,
+          "nearest_ground_ray_distance_scene_units": 5.688839435577393,
+          "cap_center_ray_distance_scene_units": 5.808464247263524,
+          "first_occluder": "ground",
+          "minimum_vertical_gap_scene_units": -0.06185894562061023,
+          "maximum_vertical_gap_scene_units": -0.04282857974207133,
+          "state": "fully_below_substrate",
+          "first_branch_hit_root": 13,
+          "cap_center_hidden_by_own_stem_surface": true
+        }
+      }
+    },
+    {
+      "root": 14,
+      "segment": 103,
+      "center_world": [
+        1.7190247403982681,
+        -0.14131049543619156,
+        -25.80885714986394
+      ],
+      "pixel_center": [
+        583.788044543512,
+        357.89960493057396
+      ],
+      "pixel_ring": [
+        [
+          579.3791027015575,
+          357.0232849124021
+        ],
+        [
+          578.6630653628855,
+          359.5242350646004
+        ],
+        [
+          579.9040319266034,
+          361.4181375614424
+        ],
+        [
+          582.64203868114,
+          361.9729906687275
+        ],
+        [
+          585.8290966003324,
+          360.96573843863973
+        ],
+        [
+          588.2323680132679,
+          358.7829573909573
+        ],
+        [
+          588.9266192552834,
+          356.27066498204726
+        ],
+        [
+          587.6576885427472,
+          354.39408885117723
+        ],
+        [
+          584.9241844623383,
+          353.86128689586974
+        ],
+        [
+          581.7678743437364,
+          354.86484081427943
+        ]
+      ],
+      "arms": {
+        "baseline": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.217906951904297,
+          "nearest_ground_ray_distance_scene_units": 5.40598201751709,
+          "cap_center_ray_distance_scene_units": 5.263522154513701,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": 0.05675429015406053,
+          "maximum_vertical_gap_scene_units": 0.09830643191933675,
+          "state": "fully_floating",
+          "first_branch_hit_root": 14,
+          "cap_center_hidden_by_own_stem_surface": true
+        },
+        "candidate": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.217906951904297,
+          "nearest_ground_ray_distance_scene_units": 5.410555362701416,
+          "cap_center_ray_distance_scene_units": 5.263522154513701,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": 0.05675429015406053,
+          "maximum_vertical_gap_scene_units": 0.09830643191933675,
+          "state": "fully_floating",
+          "first_branch_hit_root": 14,
+          "cap_center_hidden_by_own_stem_surface": true
+        }
+      }
+    },
+    {
+      "root": 15,
+      "segment": 110,
+      "center_world": [
+        1.488372851499362,
+        -0.22346039776504037,
+        -25.933954921916676
+      ],
+      "pixel_center": [
+        567.2325782571328,
+        360.19782710084706
+      ],
+      "pixel_ring": [
+        [
+          567.842110838272,
+          359.07745927280513
+        ],
+        [
+          565.4726111905982,
+          360.1850284686638
+        ],
+        [
+          563.7680937014494,
+          361.3000051833727
+        ],
+        [
+          563.3785064978013,
+          361.9996255356028
+        ],
+        [
+          564.4635883418496,
+          362.0130090266339
+        ],
+        [
+          566.6168433640813,
+          361.3295953167009
+        ],
+        [
+          569.0096611697353,
+          360.2107502620289
+        ],
+        [
+          570.7162933115326,
+          359.0895310084327
+        ],
+        [
+          571.0838703136251,
+          358.3973281004548
+        ],
+        [
+          569.9830699976623,
+          358.3947715175234
+        ]
+      ],
+      "arms": {
+        "baseline": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.485974311828613,
+          "nearest_ground_ray_distance_scene_units": 5.5017409324646,
+          "cap_center_ray_distance_scene_units": 5.514708402589455,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": -0.014859308749437083,
+          "maximum_vertical_gap_scene_units": 0.00774124947591881,
+          "state": "intersects_substrate",
+          "first_branch_hit_root": 15,
+          "cap_center_hidden_by_own_stem_surface": true
+        },
+        "candidate": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.485974311828613,
+          "nearest_ground_ray_distance_scene_units": 5.5017409324646,
+          "cap_center_ray_distance_scene_units": 5.514708402589455,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": -0.014859308749437083,
+          "maximum_vertical_gap_scene_units": 0.007741249475918699,
+          "state": "intersects_substrate",
+          "first_branch_hit_root": 15,
+          "cap_center_hidden_by_own_stem_surface": true
+        }
+      }
+    },
+    {
+      "root": 16,
+      "segment": 117,
+      "center_world": [
+        1.7479717101472665,
+        -0.1922806741334498,
+        -25.906171062557245
+      ],
+      "pixel_center": [
+        595.9200641965098,
+        362.9550399220348
+      ],
+      "pixel_ring": [
+        [
+          590.8522758280936,
+          362.83750927171366
+        ],
+        [
+          591.6764418901464,
+          364.6835948627866
+        ],
+        [
+          594.1333080217456,
+          365.87590067696755
+        ],
+        [
+          597.2820019264531,
+          365.94988350192415
+        ],
+        [
+          599.904786209729,
+          364.87597152410876
+        ],
+        [
+          600.9931476440506,
+          363.0726934057024
+        ],
+        [
+          600.1422549544037,
+          361.23521464849694
+        ],
+        [
+          597.6903928034208,
+          360.06103380664626
+        ],
+        [
+          594.5715188809304,
+          359.98964572809945
+        ],
+        [
+          591.9621596327171,
+          361.0470362727121
+        ]
+      ],
+      "arms": {
+        "baseline": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.2970380783081055,
+          "nearest_ground_ray_distance_scene_units": 5.321755886077881,
+          "cap_center_ray_distance_scene_units": 5.337276419163961,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": -0.01976614362310869,
+          "maximum_vertical_gap_scene_units": 0.010770998646546515,
+          "state": "intersects_substrate",
+          "first_branch_hit_root": 16,
+          "cap_center_hidden_by_own_stem_surface": true
+        },
+        "candidate": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.2970380783081055,
+          "nearest_ground_ray_distance_scene_units": 5.318255424499512,
+          "cap_center_ray_distance_scene_units": 5.337276419163961,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": -0.019282932775258388,
+          "maximum_vertical_gap_scene_units": 0.012999672978663668,
+          "state": "intersects_substrate",
+          "first_branch_hit_root": 16,
+          "cap_center_hidden_by_own_stem_surface": true
+        }
+      }
+    },
+    {
+      "root": 17,
+      "segment": 127,
+      "center_world": [
+        2.031824531979983,
+        -0.21164404889568686,
+        -25.79747683378934
+      ],
+      "pixel_center": [
+        622.6765366862767,
+        377.02438432139
+      ],
+      "pixel_ring": [
+        [
+          617.3946895377238,
+          377.3573633026911
+        ],
+        [
+          619.2487658083503,
+          379.1033423606743
+        ],
+        [
+          622.4279470774392,
+          380.0583036495809
+        ],
+        [
+          625.7040666387113,
+          379.8491596735515
+        ],
+        [
+          627.809465091676,
+          378.5594548626253
+        ],
+        [
+          627.9437240727397,
+          376.69232952295704
+        ],
+        [
+          626.0741282527773,
+          374.96373024712767
+        ],
+        [
+          622.9222766506836,
+          374.0252435031472
+        ],
+        [
+          619.6785664892755,
+          374.22718901574075
+        ],
+        [
+          617.565868240061,
+          375.49597099942724
+        ]
+      ],
+      "arms": {
+        "baseline": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.059885025024414,
+          "nearest_ground_ray_distance_scene_units": 5.077199935913086,
+          "cap_center_ray_distance_scene_units": 5.103418467777883,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": -0.034861387852504144,
+          "maximum_vertical_gap_scene_units": -0.007608015847454297,
+          "state": "fully_below_substrate",
+          "first_branch_hit_root": 17,
+          "cap_center_hidden_by_own_stem_surface": true
+        },
+        "candidate": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.059885025024414,
+          "nearest_ground_ray_distance_scene_units": 5.077199935913086,
+          "cap_center_ray_distance_scene_units": 5.103418467777883,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": -0.03169383204071785,
+          "maximum_vertical_gap_scene_units": -0.007608015847454297,
+          "state": "fully_below_substrate",
+          "first_branch_hit_root": 17,
+          "cap_center_hidden_by_own_stem_surface": true
+        }
+      }
+    },
+    {
+      "root": 18,
+      "segment": 138,
+      "center_world": [
+        1.978641914565705,
+        -0.20930212145857507,
+        -26.709134009000273
+      ],
+      "pixel_center": [
+        686.2225203927884,
+        346.7167879889787
+      ],
+      "pixel_ring": [
+        [
+          688.3716564298054,
+          347.6896293140997
+        ],
+        [
+          689.881487180994,
+          348.222242891264
+        ],
+        [
+          689.9866827367654,
+          348.17737652838196
+        ],
+        [
+          688.6585615056295,
+          347.57686473251823
+        ],
+        [
+          686.4103684860154,
+          346.6521017239222
+        ],
+        [
+          684.0932101654672,
+          345.7529210798204
+        ],
+        [
+          682.5813333980312,
+          345.21864846628273
+        ],
+        [
+          682.4531361884845,
+          345.2541732527132
+        ],
+        [
+          683.7690871628976,
+          345.8505707417341
+        ],
+        [
+          686.0327607479699,
+          346.7821325190502
+        ]
+      ],
+      "arms": {
+        "baseline": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.8547282218933105,
+          "nearest_ground_ray_distance_scene_units": 5.838277339935303,
+          "cap_center_ray_distance_scene_units": 5.884452058686118,
+          "first_occluder": "ground",
+          "minimum_vertical_gap_scene_units": -0.04823775395072616,
+          "maximum_vertical_gap_scene_units": 0.005946979001770103,
+          "state": "intersects_substrate",
+          "first_branch_hit_root": 18,
+          "cap_center_hidden_by_own_stem_surface": true
+        },
+        "candidate": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.8547282218933105,
+          "nearest_ground_ray_distance_scene_units": 5.838277339935303,
+          "cap_center_ray_distance_scene_units": 5.884452058686118,
+          "first_occluder": "ground",
+          "minimum_vertical_gap_scene_units": -0.04412354030665,
+          "maximum_vertical_gap_scene_units": 0.005946979001770103,
+          "state": "intersects_substrate",
+          "first_branch_hit_root": 18,
+          "cap_center_hidden_by_own_stem_surface": true
+        }
+      }
+    },
+    {
+      "root": 19,
+      "segment": 149,
+      "center_world": [
+        1.7154050960565879,
+        -0.15108779984712598,
+        -25.556104695940704
+      ],
+      "pixel_center": [
+        559.6810619664493,
+        367.69428889248604
+      ],
+      "pixel_ring": [
+        [
+          556.0502915106143,
+          366.9057232786759
+        ],
+        [
+          555.4491985900271,
+          369.18919901855713
+        ],
+        [
+          556.4637311336952,
+          370.9116434538504
+        ],
+        [
+          558.716093716169,
+          371.4091916334373
+        ],
+        [
+          561.3453623092561,
+          370.48327122433824
+        ],
+        [
+          563.3369068181403,
+          368.4883006691265
+        ],
+        [
+          563.9245173592693,
+          366.195284138679
+        ],
+        [
+          562.8904999905151,
+          364.4848268029049
+        ],
+        [
+          560.6395771936012,
+          364.0042283913872
+        ],
+        [
+          558.0306837964666,
+          364.928637163894
+        ]
+      ],
+      "arms": {
+        "baseline": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.032073020935059,
+          "nearest_ground_ray_distance_scene_units": 5.224926471710205,
+          "cap_center_ray_distance_scene_units": 5.073499501289167,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": 0.041683953806781915,
+          "maximum_vertical_gap_scene_units": 0.08376496943602518,
+          "state": "fully_floating",
+          "first_branch_hit_root": 19,
+          "cap_center_hidden_by_own_stem_surface": true
+        },
+        "candidate": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.032073020935059,
+          "nearest_ground_ray_distance_scene_units": 5.219656467437744,
+          "cap_center_ray_distance_scene_units": 5.073499501289167,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": 0.041683953806781915,
+          "maximum_vertical_gap_scene_units": 0.08376496943602518,
+          "state": "fully_floating",
+          "first_branch_hit_root": 19,
+          "cap_center_hidden_by_own_stem_surface": true
+        }
+      }
+    },
+    {
+      "root": 20,
+      "segment": 157,
+      "center_world": [
+        1.1309066060185757,
+        -0.14966239914298057,
+        -25.673942547266687
+      ],
+      "pixel_center": [
+        502.6678831024809,
+        349.29628945771356
+      ],
+      "pixel_ring": [
+        [
+          504.293791639084,
+          348.3899072402727
+        ],
+        [
+          502.3297583365803,
+          349.6322577546628
+        ],
+        [
+          500.4924300562579,
+          350.747958441122
+        ],
+        [
+          499.4780877424148,
+          351.31405018632586
+        ],
+        [
+          499.6792875197488,
+          351.1108230533441
+        ],
+        [
+          501.0279216377257,
+          350.2105056485259
+        ],
+        [
+          503.00919647393556,
+          348.9571528912803
+        ],
+        [
+          504.857699879899,
+          347.83503562801417
+        ],
+        [
+          505.86170692945973,
+          347.27598045204417
+        ],
+        [
+          505.642945022175,
+          347.4899728608621
+        ]
+      ],
+      "arms": {
+        "baseline": {
+          "cap_center_unoccluded_within_0_0002_scene_units": true,
+          "nearest_branch_ray_distance_scene_units": 5.521754264831543,
+          "nearest_ground_ray_distance_scene_units": 5.717499732971191,
+          "cap_center_ray_distance_scene_units": 5.521748079685726,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": 0.046439894631575385,
+          "maximum_vertical_gap_scene_units": 0.07813865994126301,
+          "state": "fully_floating",
+          "first_branch_hit_root": 20,
+          "cap_center_hidden_by_own_stem_surface": false
+        },
+        "candidate": {
+          "cap_center_unoccluded_within_0_0002_scene_units": true,
+          "nearest_branch_ray_distance_scene_units": 5.521754264831543,
+          "nearest_ground_ray_distance_scene_units": 5.710801601409912,
+          "cap_center_ray_distance_scene_units": 5.521748079685726,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": 0.046439894631575385,
+          "maximum_vertical_gap_scene_units": 0.07813865589248081,
+          "state": "fully_floating",
+          "first_branch_hit_root": 20,
+          "cap_center_hidden_by_own_stem_surface": false
+        }
+      }
+    },
+    {
+      "root": 21,
+      "segment": 164,
+      "center_world": [
+        1.5636715536515455,
+        -0.19299683317542074,
+        -26.222535253978368
+      ],
+      "pixel_center": [
+        600.463223057262,
+        349.1416370274953
+      ],
+      "pixel_ring": [
+        [
+          604.3135333883531,
+          349.54578872644186
+        ],
+        [
+          604.1476248481505,
+          350.6558549724125
+        ],
+        [
+          602.580037548132,
+          351.18363663106504
+        ],
+        [
+          600.2132667173572,
+          350.9330678517696
+        ],
+        [
+          597.9430531199259,
+          350.00110757453444
+        ],
+        [
+          596.627579078463,
+          348.73902479697733
+        ],
+        [
+          596.7721076387801,
+          347.62465991135946
+        ],
+        [
+          598.3320459300223,
+          347.0857824083343
+        ],
+        [
+          600.7154696318548,
+          347.33379214860844
+        ],
+        [
+          603.0036242679529,
+          348.2752668728861
+        ]
+      ],
+      "arms": {
+        "baseline": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.238802909851074,
+          "nearest_ground_ray_distance_scene_units": 5.718303203582764,
+          "cap_center_ray_distance_scene_units": 5.6896503501890185,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": -0.008579785092230452,
+          "maximum_vertical_gap_scene_units": 0.045868088677529784,
+          "state": "intersects_substrate",
+          "first_branch_hit_root": 16,
+          "cap_center_hidden_by_own_stem_surface": false
+        },
+        "candidate": {
+          "cap_center_unoccluded_within_0_0002_scene_units": false,
+          "nearest_branch_ray_distance_scene_units": 5.238802909851074,
+          "nearest_ground_ray_distance_scene_units": 5.718303203582764,
+          "cap_center_ray_distance_scene_units": 5.6896503501890185,
+          "first_occluder": "branch",
+          "minimum_vertical_gap_scene_units": -0.008579785092273085,
+          "maximum_vertical_gap_scene_units": 0.045868088677529784,
+          "state": "intersects_substrate",
+          "first_branch_hit_root": 16,
+          "cap_center_hidden_by_own_stem_surface": false
+        }
+      }
+    }
+  ]
+}
