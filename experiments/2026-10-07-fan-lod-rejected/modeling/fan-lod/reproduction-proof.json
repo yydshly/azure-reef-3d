@@ -1,0 +1,10 @@
+{
+  "blender": "4.3.2",
+  "threads": 2,
+  "frozen_glb_sha256": "d11ef2d64a9258b12ae95a89bc1f7cdb74a96edfa18424f960846230083460e0",
+  "fresh_recipe_sha256": "d11ef2d64a9258b12ae95a89bc1f7cdb74a96edfa18424f960846230083460e0",
+  "packed_reexport_sha256": "d11ef2d64a9258b12ae95a89bc1f7cdb74a96edfa18424f960846230083460e0",
+  "bytes": 859492,
+  "both_exact": true,
+  "editable_bytes": 1958372
+}

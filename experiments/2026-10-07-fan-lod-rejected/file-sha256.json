@@ -1,0 +1,20 @@
+{
+  "README.md": "22da6de030c6e15400bd5047474fd8c0179f52794cb050a38b7a61dde5e78c0f",
+  "LOD_DECISION.md": "5b708f8382d0360b1398fa02db53eb56a576b0efcb8bd3afe825cfce96d22c3f",
+  "checks/lod-check.json": "339ffb917a66fb76181f4dfe9f8afd93bec6ff76b5a7b83a7289ab059ff0deb9",
+  "checks/geometry-motion-check.json": "de4c1a8aac3065c6cd08f2849a9bd838f0e0dd1f8d93edaf88bad3499e7ec9fa",
+  "checks/inhabited-check.json": "da180a89765a00f66ac9711e6562a847ac5c649c53db03da254670c3d264a826",
+  "assets/low-fans.glb": "d11ef2d64a9258b12ae95a89bc1f7cdb74a96edfa18424f960846230083460e0",
+  "source/qa-fan-lod.mjs": "93998cc0d0fb50b1a12aa918ee9277a001dab0d689c3615f681a0402020474e5",
+  "source/inhabited-reef.js": "d734b69b4f53fc3384b4ff07f4ed5b8cec4c1896d56ff9ba9215c83b6c01e394",
+  "source/freeze-manifest.json": "d66d63a8762b15dae80310608bf896c6028923794f544c71378b2e88629cfa1b",
+  "source/inhabited-version.js": "1b433d23f0964bfbd6c75cb57bac3256108d834f7766e42ae0a147083fd73842",
+  "modeling/fan-lod/finite-attribute-proof.json": "1f23308b5e7d694cdbdfdd41d9c6a102168a778acec5561fa04ba8db90a3fe41",
+  "modeling/fan-lod/source-provenance.json": "24a4ede5871ea6c86f0f0be7cf1564c1bf1b2f670d4a9a903587019647d5ab93",
+  "modeling/fan-lod/make_network_low.py": "6a1419fc618091d04b173d733811864daa25a49781cc9ff04816c333160cc6a7",
+  "modeling/fan-lod/README.md": "78468655df0427797b8da2e34227fd9d731e9f1bf4842fb8fce2705cbabb0d2d",
+  "modeling/fan-lod/reproduction-proof.json": "74c28b073b7cf741fc084420882e80b6273576e8739d1b6a8fecbc1a3a7b9193",
+  "modeling/fan-lod/build_low_fans.py": "96f902c4b6f21d86c7b3d9da272e09b85cc0db6632f2eaf158508225924f114d",
+  "modeling/fan-lod/editable.blend": "e4b6f8c43461d571e084143b73faa5b9f3b5307909c904bf66eb21e5c6f0ee2c",
+  "modeling/fan-lod/fan-network-low.json": "46eed3580b8d7b404522450e01e096bd2394c70765c96f8e82890c3c22b08f09"
+}

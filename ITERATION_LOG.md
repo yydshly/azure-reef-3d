@@ -145,3 +145,7 @@ Dense paired rows of identical branch forms obscured the route while broad smoot
 Offline v1/v2 shapes and the browser v4 stretched skirt were rejected. Original v3 shape was retained; a bounded rigid-placement search and actual37588768850 local review passed. Full a62df54 static comparison37590596619 and targeted route37592002958 support only the visible structural increment. The locator timeout, software native-tour slowness and test-driven nature of13 full-route poses remain recorded. Independent review accepted static composition and sampled spatial continuity, not overall naturalness.
 
 Same-runner37593200908 observed5 RAF in15.6155s baseline versus17.5007s candidate:10.8% lower candidate rate in this single pair. Neither is smooth, equivalent-performance evidence or a physical-GPU benchmark. The next optimization must address geometry/fine-net cost without adding more scenery or hiding this observation. Current repeated/rounded shape and bare forward end also keep the whole-world goal open. Evidence, limits and exact source reproduction are under evidence/inhabited-oct7 and modeling/inhabited.
+
+## 2026-10-07 · Fan LOD rejected
+
+[Experiment and actual evidence](experiments/2026-10-07-fan-lod-rejected/README.md). The distant3D fan retained close geometry and passed selection/hysteresis tests, but coarse cells and density jumps fail visual review. Two small software timing intervals showed5–7% higher RAF rate, not robust performance acceptance. Production assets remain unchanged; no threshold/density sweep follows this candidate.

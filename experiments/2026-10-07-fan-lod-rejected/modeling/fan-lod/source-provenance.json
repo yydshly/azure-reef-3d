@@ -1,0 +1,17 @@
+{
+  "source": "Original master fan profile and primary veins; 480-site reticulate appearance network instead of2200, thicker small tubes to approximate distant coverage. Artist LOD, not biological simplification or scan.",
+  "master_sha256": "a6fc97852fafffc26053daadbd8b44153788b94e8971d216687853226fa1a817",
+  "network_sha256": "46eed3580b8d7b404522450e01e096bd2394c70765c96f8e82890c3c22b08f09",
+  "meshes": {
+    "LOW_Attached_reticulate_fan_form": {
+      "vertices": 10583,
+      "polygons": 7948
+    },
+    "LOW_Attached_small_fan_form": {
+      "vertices": 10583,
+      "polygons": 7948
+    }
+  },
+  "glb_sha256": "d11ef2d64a9258b12ae95a89bc1f7cdb74a96edfa18424f960846230083460e0",
+  "glb_bytes": 859492
+}
