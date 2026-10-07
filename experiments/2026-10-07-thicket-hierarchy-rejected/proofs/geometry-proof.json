@@ -1,0 +1,215 @@
+{
+  "source_sha256": "c12624b2f1da3add8f801421b161daaa5ef9177f7f6edf8ce1a3d1ae7caf66dd",
+  "target_node": "Corridor_Distant_Linked_03",
+  "target_node_index": 78,
+  "source_mesh_index": 47,
+  "source_mesh_name": "Coral_Staghorn_Thicket_11",
+  "source_shared_nodes": [
+    "Coral_Staghorn_Thicket_11",
+    "Corridor_Distant_Linked_03",
+    "Depth_Staghorn_Linked_01_1"
+  ],
+  "triangle_budget_before": 22168,
+  "triangle_budget_after": 22168,
+  "roots_before_after": [
+    21,
+    21
+  ],
+  "segments_before_after": [
+    171,
+    171
+  ],
+  "tips_before_after": [
+    103,
+    103
+  ],
+  "height_scale": 1.0,
+  "analytical_envelope_deformation_fraction": 1,
+  "bbox_before_local_blender": [
+    [
+      2.292651653289795,
+      0.5468685030937195,
+      -0.028464343398809433
+    ],
+    [
+      5.284125804901123,
+      3.185032606124878,
+      1.281713843345642
+    ]
+  ],
+  "bbox_after_local_blender": [
+    [
+      2.5060133934020996,
+      0.5468685030937195,
+      -0.028464343398809433
+    ],
+    [
+      5.137991905212402,
+      3.1626381874084473,
+      1.1911768913269043
+    ]
+  ],
+  "basal_rings_byte_equal": true,
+  "intrinsic_boundary_edges": 0,
+  "intrinsic_nonmanifold_edges": 0,
+  "signed_volume": 0.04777529267354223,
+  "authored_group_specs": [
+    [
+      0.6,
+      0.76,
+      0.86,
+      0.3,
+      -0.08
+    ],
+    [
+      0.67,
+      0.86,
+      0.86,
+      0.17,
+      -0.04
+    ],
+    [
+      0.98,
+      0.83,
+      0.86,
+      -0.17,
+      -0.07
+    ],
+    [
+      0.53,
+      0.8,
+      0.92,
+      0.2,
+      0.05
+    ],
+    [
+      0.88,
+      0.99,
+      0.92,
+      -0.06,
+      -0.07
+    ],
+    [
+      0.77,
+      0.85,
+      0.68,
+      -0.27,
+      0.17
+    ],
+    [
+      0.76,
+      1.01,
+      0.88,
+      0.0,
+      -0.04
+    ],
+    [
+      0.89,
+      0.8,
+      0.96,
+      -0.26,
+      0.07
+    ],
+    [
+      0.95,
+      0.69,
+      0.72,
+      -0.22,
+      -0.09
+    ],
+    [
+      0.78,
+      0.82,
+      0.84,
+      -0.15,
+      0.04
+    ],
+    [
+      0.76,
+      0.88,
+      0.76,
+      -0.25,
+      0.12
+    ],
+    [
+      0.98,
+      0.81,
+      0.95,
+      -0.22,
+      0.04
+    ],
+    [
+      0.62,
+      0.93,
+      0.78,
+      0.21,
+      -0.05
+    ],
+    [
+      0.63,
+      0.81,
+      0.75,
+      -0.37,
+      0.12
+    ],
+    [
+      0.85,
+      0.77,
+      0.94,
+      -0.22,
+      -0.03
+    ],
+    [
+      0.72,
+      0.82,
+      0.83,
+      -0.33,
+      0.06
+    ],
+    [
+      0.68,
+      0.77,
+      0.88,
+      0.27,
+      -0.06
+    ],
+    [
+      0.88,
+      0.9,
+      0.83,
+      0.05,
+      -0.08
+    ],
+    [
+      0.51,
+      0.92,
+      0.85,
+      -0.35,
+      0.09
+    ],
+    [
+      1.0,
+      1.04,
+      0.84,
+      -0.04,
+      0.1
+    ],
+    [
+      0.9,
+      0.73,
+      0.79,
+      -0.17,
+      0.09
+    ]
+  ],
+  "accepted_continuation_repair_reapplied": 68,
+  "unchanged_color_samples": true,
+  "source_replay_exact": true,
+  "constraint_correction": "The entire root #1 subtree (segments 7 through 14) stays exact original geometry and radii; all other authored specs unchanged.",
+  "frozen_subtree_vertices_equal": true,
+  "caveats": [
+    "Interpretive morphology sample, not a scanned specimen, ecological validation, exact density or named-site reconstruction",
+    "Independent source roots and intersecting lateral components retained; no invented common basal root network or global union",
+    "Offline static clearance only; owner must test full fish animation before integration"
+  ]
+}

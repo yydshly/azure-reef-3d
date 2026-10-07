@@ -189,3 +189,7 @@ Owner and independent pixel reviews inspected all six frames. Accepted: removal 
 One fish only. +980 fin triangles; body attribute/index bytes unchanged. Closed fins remain contained in original geometry under the existing affine fin motion. No new textures; original procedural shaders only. Reference images were privately viewed and not redistributed. See reference-audit.json.
 
 Release-only changes after captured candidate: app/module query versioning, evidence/source page and documentation. Runtime algorithm and geometry remain the captured bytes apart from the module import query. No new camera path or other-fish refinement adopted.
+
+## 2026-10-07 · Single-thicket hierarchy rejected
+
+[Archived recipe, proof and eight offline images](experiments/2026-10-07-thicket-hierarchy-rejected/ARCHIVE.md). One selected branch mesh retained 21 basal shoots, 103 tips and 22,168 triangles. A single constraint correction held the boundary subtree unchanged; hard gates passed, but normal and thumbnail views formed an empty basket with parallel curved rods. Owner and independent review rejected it. Offline images omit runtime landmarks and are not a whole-production A/B. No geometry integration, browser CI or deployment; production remains db1f921.

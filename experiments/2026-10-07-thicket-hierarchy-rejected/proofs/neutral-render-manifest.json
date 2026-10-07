@@ -1,0 +1,59 @@
+{
+  "disclosure": "Offline Blender/Cycles geometry diagnostic. Both versions use exactly the same gray material, lights, world, camera, resolution, exposure and 24 samples. No runtime caustics, animation, browser appearance, or underwater realism claim. Existing full scene geometry remains present in both normal-midpoint images. Runtime-generated new landmarks are absent, so this is not a complete production A/B.",
+  "source_sha256": "c12624b2f1da3add8f801421b161daaa5ef9177f7f6edf8ce1a3d1ae7caf66dd",
+  "replacement_sha256": "7012c9c0a502ff8fcbbca43b219d2c205bcfe11f20c8a61bbcf121312392964b",
+  "view_fov_vertical_degrees": 47,
+  "aspect": 1.6,
+  "views": [
+    [
+      "normal-midpoint",
+      [
+        0,
+        18,
+        2.7
+      ],
+      [
+        -1.5,
+        31,
+        1
+      ]
+    ],
+    [
+      "front",
+      [
+        1.8,
+        21.7,
+        2.15
+      ],
+      [
+        1.8,
+        26,
+        0.52
+      ]
+    ],
+    [
+      "reverse",
+      [
+        1.8,
+        30.3,
+        2.15
+      ],
+      [
+        1.8,
+        26,
+        0.52
+      ]
+    ]
+  ],
+  "single_user_preview_target": "Corridor_Distant_Linked_03",
+  "output": [
+    "images/before/normal-midpoint.png",
+    "images/before/normal-midpoint-thumbnail.png",
+    "images/candidate/normal-midpoint.png",
+    "images/candidate/normal-midpoint-thumbnail.png",
+    "images/before/front.png",
+    "images/candidate/front.png",
+    "images/before/reverse.png",
+    "images/candidate/reverse.png"
+  ]
+}

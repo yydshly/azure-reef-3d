@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "source_sha256": "c12624b2f1da3add8f801421b161daaa5ef9177f7f6edf8ce1a3d1ae7caf66dd",
+  "blender_version": "4.3.2",
+  "archived_script_rebuild_performed": true,
+  "replacement_glb_sha256": "7012c9c0a502ff8fcbbca43b219d2c205bcfe11f20c8a61bbcf121312392964b",
+  "replacement_glb_byte_identical": true,
+  "hard_gate_recheck": "All exported checks passed for the archive-script rebuild",
+  "render_recheck": "The archived renderer differs from the executed renderer only in explicit input/output arguments and its disclosure text; no camera, light, material, sample or geometry setting changed. No second render series was needed.",
+  "non_geometry_packaging_change_after_rebuild": "Disabled import bytecode cache writing in both archive builders so reproduction leaves the archive files unchanged; this does not alter any geometry operation."
+}

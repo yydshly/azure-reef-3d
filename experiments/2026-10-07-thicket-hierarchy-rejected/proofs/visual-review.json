@@ -1,0 +1,24 @@
+{
+  "status": "REJECTED_VISUAL_GATE",
+  "no_further_geometry_changes": true,
+  "no_full_scene_glb_patch": true,
+  "owner_review": "Owner independently inspected normal full images and 280-pixel thumbnails and agreed rejection.",
+  "images_inspected": [
+    "images/before/normal-midpoint.png",
+    "images/before/normal-midpoint-thumbnail.png",
+    "images/before/front.png",
+    "images/before/reverse.png",
+    "images/candidate/normal-midpoint.png",
+    "images/candidate/normal-midpoint-thumbnail.png",
+    "images/candidate/front.png",
+    "images/candidate/reverse.png"
+  ],
+  "finding": "The candidate changes the macro silhouette but the lower right branches form a sparse bent framework and the central negative space reads as an empty basket. The left cluster does not establish the reference image\u2019s interwoven density hierarchy. Taper and asymmetric lowering do not satisfy the desired thick multi-basal thicket.",
+  "hard_gates": "Source replay exact; triangle budget unchanged; all basal rings unchanged; entire root #1 subtree unchanged; exported positions inside original bounds; zero boundary/nonmanifold/orientation/degenerate-triangle errors.",
+  "initial_failure": "Global envelope limiter collapsed to zero because terminal segment13 tip extended 0.015116095542907715m beyond source local -Y. Other170 segments were within the box.",
+  "one_authorized_correction": "Freeze complete root #1 subtree in original accepted geometry and radius. All other20 subtree specifications unchanged. No parameter scan.",
+  "next_action": "Archive the failed one-candidate experiment. Do not integrate, publish, propagate, recolor to disguise the failure, or revise geometry under this task.",
+  "scope_caveat": "Matched offline neutral geometry renders of source GLB only. Runtime-generated new landmarks, water, caustics and fish animation are absent. Not a complete production A/B.",
+  "biological_caveat": "Qualitative interpretation from observed NOAA reference morphology, not a species-validated reconstruction, scan, size/coverage measurement or named-site model.",
+  "independent_review": "Independent reviewer agreed with the owner rejection after inspecting the normal image and 280px thumbnail: central empty opening and a few parallel curved long rods with fork tips read as a basket framework. This is not a water-material issue."
+}

@@ -1,0 +1,63 @@
+{
+  "source_sha256": "c12624b2f1da3add8f801421b161daaa5ef9177f7f6edf8ce1a3d1ae7caf66dd",
+  "source_head": "480d20f7e097e2bfd4719e3e700154f04d1cd025",
+  "target_node_index": 78,
+  "target_node": {
+    "name": "Corridor_Distant_Linked_03",
+    "mesh": 47,
+    "translation": [
+      2.7100923643611026,
+      -0.20698136165738104,
+      -21.1866118337738
+    ],
+    "rotation": [
+      0,
+      0.6051864057360395,
+      0,
+      0.7960837985490559
+    ],
+    "scale": [
+      1.16,
+      1.16,
+      1.16
+    ]
+  },
+  "source_mesh_index": 47,
+  "shared_usages": [
+    {
+      "index": 51,
+      "name": "Coral_Staghorn_Thicket_11"
+    },
+    {
+      "index": 66,
+      "name": "Depth_Staghorn_Linked_01_1"
+    },
+    {
+      "index": 78,
+      "name": "Corridor_Distant_Linked_03"
+    }
+  ],
+  "rendered_triangle_budget": 22168,
+  "exported_vertex_count": 19082,
+  "source_scene_node_count": 96,
+  "source_mesh_count": 61,
+  "normal_midpoint_camera": {
+    "position": [
+      0,
+      2.7,
+      -18
+    ],
+    "target": [
+      -1.5,
+      1,
+      -31
+    ],
+    "fov_degrees": 47,
+    "aspect": 1.6
+  },
+  "target_center_projection_pixels_1120x700": [
+    833.6,
+    467.8
+  ],
+  "source_scene_unchanged": true
+}

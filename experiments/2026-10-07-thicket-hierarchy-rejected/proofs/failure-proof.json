@@ -1,0 +1,360 @@
+{
+  "status": "REJECTED_BEFORE_EXPORT",
+  "source_replay_exact": true,
+  "source_unique_used_vertices": 11290,
+  "source_unused_replay_vertices": 680,
+  "target_node": "Corridor_Distant_Linked_03",
+  "node_index": 78,
+  "source_mesh_index": 47,
+  "triangle_budget": 22168,
+  "source_shared_nodes": [
+    "Coral_Staghorn_Thicket_11",
+    "Depth_Staghorn_Linked_01_1",
+    "Corridor_Distant_Linked_03"
+  ],
+  "analytical_deformation_fraction": 0,
+  "source_envelope_local_blender_xyz": [
+    [
+      2.292651653289795,
+      0.5468685030937195,
+      -0.028464343398809433
+    ],
+    [
+      5.284125804901123,
+      3.185032606124878,
+      1.281713843345642
+    ]
+  ],
+  "violating_vertex_coordinate_count": 15,
+  "lowest_limits": [
+    {
+      "vertex": 972,
+      "tube": 13,
+      "root_segment": 7,
+      "root_index": 1,
+      "axis": "Y",
+      "source": [
+        4.024913311004639,
+        0.5468685030937195,
+        0.7873290777206421
+      ],
+      "proposed": [
+        4.018930912017822,
+        0.5317524075508118,
+        0.5481668710708618
+      ],
+      "min_allowed": 0.5468685030937195,
+      "max_allowed": 3.185032606124878,
+      "analytical_deformation_limit": -0.0
+    },
+    {
+      "vertex": 973,
+      "tube": 13,
+      "root_segment": 7,
+      "root_index": 1,
+      "axis": "Y",
+      "source": [
+        4.027604579925537,
+        0.5469844341278076,
+        0.7873290777206421
+      ],
+      "proposed": [
+        4.021021366119385,
+        0.5318424701690674,
+        0.5481668710708618
+      ],
+      "min_allowed": 0.5468685030937195,
+      "max_allowed": 3.185032606124878,
+      "analytical_deformation_limit": 0.007656274602424815
+    },
+    {
+      "vertex": 971,
+      "tube": 13,
+      "root_segment": 7,
+      "root_index": 1,
+      "axis": "Y",
+      "source": [
+        4.022716522216797,
+        0.5472285151481628,
+        0.788845956325531
+      ],
+      "proposed": [
+        4.017227649688721,
+        0.5319586992263794,
+        0.5493646264076233
+      ],
+      "min_allowed": 0.5468685030937195,
+      "max_allowed": 3.185032606124878,
+      "analytical_deformation_limit": 0.02357671214161641
+    },
+    {
+      "vertex": 974,
+      "tube": 13,
+      "root_segment": 7,
+      "root_index": 1,
+      "axis": "Y",
+      "source": [
+        4.0297627449035645,
+        0.5475320816040039,
+        0.788845956325531
+      ],
+      "proposed": [
+        4.022700786590576,
+        0.5321944952011108,
+        0.5493646264076233
+      ],
+      "min_allowed": 0.5468685030937195,
+      "max_allowed": 3.185032606124878,
+      "analytical_deformation_limit": 0.04326485881502553
+    },
+    {
+      "vertex": 970,
+      "tube": 13,
+      "root_segment": 7,
+      "root_index": 1,
+      "axis": "Y",
+      "source": [
+        4.021853446960449,
+        0.5479269027709961,
+        0.7913002371788025
+      ],
+      "proposed": [
+        4.016562461853027,
+        0.5323825478553772,
+        0.5513024926185608
+      ],
+      "min_allowed": 0.5468685030937195,
+      "max_allowed": 3.185032606124878,
+      "analytical_deformation_limit": 0.06808900613901553
+    },
+    {
+      "vertex": 975,
+      "tube": 13,
+      "root_segment": 7,
+      "root_index": 1,
+      "axis": "Y",
+      "source": [
+        4.030562400817871,
+        0.548302173614502,
+        0.7913002371788025
+      ],
+      "proposed": [
+        4.023326873779297,
+        0.5326740145683289,
+        0.5513024926185608
+      ],
+      "min_allowed": 0.5468685030937195,
+      "max_allowed": 3.185032606124878,
+      "analytical_deformation_limit": 0.09173636616742373
+    },
+    {
+      "vertex": 979,
+      "tube": 13,
+      "root_segment": 7,
+      "root_index": 1,
+      "axis": "Y",
+      "source": [
+        4.022653102874756,
+        0.5486969947814941,
+        0.793754518032074
+      ],
+      "proposed": [
+        4.017188549041748,
+        0.5328620672225952,
+        0.5532403588294983
+      ],
+      "min_allowed": 0.5468685030937195,
+      "max_allowed": 3.185032606124878,
+      "analytical_deformation_limit": 0.1154720589010261
+    },
+    {
+      "vertex": 976,
+      "tube": 13,
+      "root_segment": 7,
+      "root_index": 1,
+      "axis": "Y",
+      "source": [
+        4.029699325561523,
+        0.5490005612373352,
+        0.793754518032074
+      ],
+      "proposed": [
+        4.0226616859436035,
+        0.5330978631973267,
+        0.5532403588294983
+      ],
+      "min_allowed": 0.5468685030937195,
+      "max_allowed": 3.185032606124878,
+      "analytical_deformation_limit": 0.1340689572456082
+    },
+    {
+      "vertex": 978,
+      "tube": 13,
+      "root_segment": 7,
+      "root_index": 1,
+      "axis": "Y",
+      "source": [
+        4.024811267852783,
+        0.5492446422576904,
+        0.7952713966369629
+      ],
+      "proposed": [
+        4.0188679695129395,
+        0.5332140922546387,
+        0.5544381141662598
+      ],
+      "min_allowed": 0.5468685030937195,
+      "max_allowed": 3.185032606124878,
+      "analytical_deformation_limit": 0.14822567931347325
+    },
+    {
+      "vertex": 977,
+      "tube": 13,
+      "root_segment": 7,
+      "root_index": 1,
+      "axis": "Y",
+      "source": [
+        4.027502536773682,
+        0.5493605732917786,
+        0.7952713966369629
+      ],
+      "proposed": [
+        4.020958423614502,
+        0.5333041548728943,
+        0.5544381141662598
+      ],
+      "min_allowed": 0.5468685030937195,
+      "max_allowed": 3.185032606124878,
+      "analytical_deformation_limit": 0.15520710366691168
+    },
+    {
+      "vertex": 962,
+      "tube": 13,
+      "root_segment": 7,
+      "root_index": 1,
+      "axis": "Y",
+      "source": [
+        4.025142192840576,
+        0.5610489249229431,
+        0.7781863212585449
+      ],
+      "proposed": [
+        4.019271373748779,
+        0.5444216728210449,
+        0.5411880612373352
+      ],
+      "min_allowed": 0.5468685030937195,
+      "max_allowed": 3.185032606124878,
+      "analytical_deformation_limit": 0.8528421739395395
+    },
+    {
+      "vertex": 963,
+      "tube": 13,
+      "root_segment": 7,
+      "root_index": 1,
+      "axis": "Y",
+      "source": [
+        4.032295227050781,
+        0.5613571405410767,
+        0.7781863212585449
+      ],
+      "proposed": [
+        4.024871349334717,
+        0.5446629524230957,
+        0.5411880612373352
+      ],
+      "min_allowed": 0.5468685030937195,
+      "max_allowed": 3.185032606124878,
+      "analytical_deformation_limit": 0.8678851193579024
+    },
+    {
+      "vertex": 961,
+      "tube": 13,
+      "root_segment": 7,
+      "root_index": 1,
+      "axis": "Y",
+      "source": [
+        4.019302845001221,
+        0.5620056986808777,
+        0.7822179794311523
+      ],
+      "proposed": [
+        4.014708518981934,
+        0.5449742674827576,
+        0.5443965792655945
+      ],
+      "min_allowed": 0.5468685030937195,
+      "max_allowed": 3.185032606124878,
+      "analytical_deformation_limit": 0.8887800097991181
+    },
+    {
+      "vertex": 964,
+      "tube": 13,
+      "root_segment": 7,
+      "root_index": 1,
+      "axis": "Y",
+      "source": [
+        4.038030624389648,
+        0.5628126263618469,
+        0.7822179794311523
+      ],
+      "proposed": [
+        4.029369831085205,
+        0.5456059575080872,
+        0.5443965792655945
+      ],
+      "min_allowed": 0.5468685030937195,
+      "max_allowed": 3.185032606124878,
+      "analytical_deformation_limit": 0.9266246362754608
+    },
+    {
+      "vertex": 960,
+      "tube": 13,
+      "root_segment": 7,
+      "root_index": 1,
+      "axis": "Y",
+      "source": [
+        4.017008304595947,
+        0.5638620257377625,
+        0.7887412309646606
+      ],
+      "proposed": [
+        4.01292610168457,
+        0.546109676361084,
+        0.5495879650115967
+      ],
+      "min_allowed": 0.5468685030937195,
+      "max_allowed": 3.185032606124878,
+      "analytical_deformation_limit": 0.957254855876576
+    }
+  ],
+  "violating_segment_indices": [
+    13
+  ],
+  "in_envelope_segment_count": 170,
+  "in_envelope_entire_root_subtree_count": 20,
+  "max_local_protrusion": 0.015116095542907715,
+  "limiting_segment_source_graph": {
+    "start": [
+      4.009522438049316,
+      0.9353768229484558,
+      0.6752271056175232
+    ],
+    "end": [
+      4.02620792388916,
+      0.548114538192749,
+      0.7913002371788025
+    ],
+    "r0": 0.014337826727708204,
+    "r1": 0.011470261382166565,
+    "tip": true,
+    "first_vertex": 910,
+    "first_face": 806,
+    "parent": 12,
+    "depth": 0
+  },
+  "reason": "At least one exact original outer-boundary vertex moves outward; the common deformation limiter allows zero movement. Recipe rejected without export, parameter search or patch.",
+  "candidate_written": false,
+  "additional_mesh_bytes": 0,
+  "runtime_geometry_memory_change_bytes": 0
+}

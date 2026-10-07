@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "checks": {
+    "triangle_budget_identical": true,
+    "inside_original_local_envelope": true,
+    "zero_boundary_edges": true,
+    "zero_nonmanifold_edges": true,
+    "consistent_edge_orientation": true,
+    "zero_degenerate_index_triangles": true,
+    "zero_area_triangles": true
+  },
+  "triangles": 22168,
+  "exported_vertices": 19360,
+  "exact_unique_positions": 11290,
+  "closed_connected_components": 103,
+  "replacement_sha256": "7012c9c0a502ff8fcbbca43b219d2c205bcfe11f20c8a61bbcf121312392964b",
+  "source_sha256": "c12624b2f1da3add8f801421b161daaa5ef9177f7f6edf8ce1a3d1ae7caf66dd",
+  "attributes": {
+    "POSITION": {
+      "shape": [
+        19360,
+        3
+      ],
+      "bytes": 232320
+    },
+    "NORMAL": {
+      "shape": [
+        19360,
+        3
+      ],
+      "bytes": 232320
+    },
+    "TEXCOORD_0": {
+      "shape": [
+        19360,
+        2
+      ],
+      "bytes": 154880
+    },
+    "COLOR_0": {
+      "shape": [
+        19360,
+        3
+      ],
+      "bytes": 232320
+    },
+    "indices": {
+      "shape": [
+        66504,
+        1
+      ],
+      "bytes": 133008
+    }
+  },
+  "additional_geometry_buffer_bytes_if_single_user_mesh_appended": 984848,
+  "additional_runtime_attribute_and_index_bytes_if_integrated": 984848,
+  "runtime_memory_note": "Typed geometry buffers only; driver allocation, CPU object overhead, duplicated cache and renderer-specific costs are not measured. Textures and material are to be reused."
+}

@@ -1,0 +1,125 @@
+{
+  "title": "One-thicket hierarchy rejected geometry experiment",
+  "status": "REJECTED_VISUAL_GATE_NO_PRODUCTION_CHANGE",
+  "payload_files": [
+    {
+      "path": "README.md",
+      "bytes": 7007,
+      "sha256": "698d2b892dcefc5bf863f7e0a5e7baff016fd58a404e6f025d0de0cba02420ce"
+    },
+    {
+      "path": "WHITELIST.txt",
+      "bytes": 681,
+      "sha256": "0f7810c2d0b3d31bc7ce4e871398ea13f393ea0115f639b47158f492da01f127"
+    },
+    {
+      "path": "build_candidate.py",
+      "bytes": 11789,
+      "sha256": "0d25cd4f535ad05c028d41ee1edb8ef1039c19bb5a2c9d21c136821a8fd261cc"
+    },
+    {
+      "path": "images/before/front.png",
+      "bytes": 779314,
+      "sha256": "7f9241137700aa9dd86c58267ed5a91b4e676f1b2710903545af078f2ea84b2f"
+    },
+    {
+      "path": "images/before/normal-midpoint-thumbnail.png",
+      "bytes": 43975,
+      "sha256": "81f354be4871fbbee9dc6da6972bc8ff5306d08f7899e0f580a93ba6ea0bad1d"
+    },
+    {
+      "path": "images/before/normal-midpoint.png",
+      "bytes": 648838,
+      "sha256": "3d464d2183062fe944ab2a39f76f4866690894696747defea0eeb24f33cfa596"
+    },
+    {
+      "path": "images/before/reverse.png",
+      "bytes": 826290,
+      "sha256": "6cbcda7654b41d791d4a7fbb9e6c12656d899e16c5df3f802221fdb3fca519de"
+    },
+    {
+      "path": "images/candidate/front.png",
+      "bytes": 760351,
+      "sha256": "fd5fa724c935418c135d3530cf9eaae45e4f5274897a5a1ecaf472417613760a"
+    },
+    {
+      "path": "images/candidate/normal-midpoint-thumbnail.png",
+      "bytes": 43506,
+      "sha256": "e916e8b2fe040eb7d23a522aa00a62a1346102b01e58c2b7c1bd11ed9050b860"
+    },
+    {
+      "path": "images/candidate/normal-midpoint.png",
+      "bytes": 640923,
+      "sha256": "d912d3e6b703526071f89ef400f9050ea48a4bdb611ddfd7882264914ffb6237"
+    },
+    {
+      "path": "images/candidate/reverse.png",
+      "bytes": 809627,
+      "sha256": "2245697fd527d70896691f355395e19f017d0628c4e9cbb9c91a22c1c6ba909e"
+    },
+    {
+      "path": "initial_failed_recipe.py",
+      "bytes": 11200,
+      "sha256": "2ac49573c0172a0a77b18bbe03565aae7ed617fe4b60c48f00d435177f8c5b1a"
+    },
+    {
+      "path": "inputs/original_geometry_recipe.py",
+      "bytes": 2882,
+      "sha256": "10d4025f620087d16c7546e3802a8ab3ba94673cec2ebad2c81bc8cbe850ce50"
+    },
+    {
+      "path": "inputs/replay_thickets.py",
+      "bytes": 5380,
+      "sha256": "8996e8c41699ab433a2b7512562fd7d68ec3bc35e1154bdc6620faa7928149c0"
+    },
+    {
+      "path": "proofs/exported-topology-proof.json",
+      "bytes": 1472,
+      "sha256": "220f82c596c3f869a1d4a7fda9aa508091fe52f1433836ff74ac25b5963b11e6"
+    },
+    {
+      "path": "proofs/failure-proof.json",
+      "bytes": 8750,
+      "sha256": "2568106310d2c824600a59273aee81490ab39be478c5b9749d8678b1569fc35d"
+    },
+    {
+      "path": "proofs/geometry-proof.json",
+      "bytes": 3479,
+      "sha256": "507f1ade0870711a2b1329d809d31ad422450328640fa01052c4a24f86907f86"
+    },
+    {
+      "path": "proofs/identification-proof.json",
+      "bytes": 1215,
+      "sha256": "5ddc241baae088f7bdc34433276ab0d143a609fd7c8a21e8b35bc69392dadc61"
+    },
+    {
+      "path": "proofs/neutral-render-manifest.json",
+      "bytes": 1493,
+      "sha256": "7591737485c009375d70d1b9c422f3f47307a7cbce2a603e9b27175f15129c61"
+    },
+    {
+      "path": "proofs/portable-rebuild-proof.json",
+      "bytes": 863,
+      "sha256": "616a39f28f4072b474b265c4411337462505bb8322dd5ef77d3a85237c5f9a97"
+    },
+    {
+      "path": "proofs/visual-review.json",
+      "bytes": 2357,
+      "sha256": "4265be1bed44b7b5833a46ab1a8675bbd680059f32f9e58a7e69ea69624efef9"
+    },
+    {
+      "path": "render_neutral.py",
+      "bytes": 4010,
+      "sha256": "7f7f9cfae86edfd4d65d777696fac273927b337cd5ab0850c1e121da21dfb609"
+    },
+    {
+      "path": "verify_replacement.py",
+      "bytes": 3311,
+      "sha256": "703856ced778f935174677caa3d219aac49e5809d7b908577062c5c5be7432b8"
+    }
+  ],
+  "payload_file_count": 23,
+  "payload_total_bytes": 4618713,
+  "self_hash_policy": "manifest.json and SHA256SUMS are excluded from manifest payload hashes to avoid recursion. SHA256SUMS covers manifest.json; its own final hash is reported separately.",
+  "whitelist": "WHITELIST.txt"
+}
