@@ -30,10 +30,11 @@
     ]
   },
   "font": "Verified licensed Reef QA CJK fixture, product CSS unchanged",
-  "visualDecision": "Pending review",
+  "visualDecision": "Owner reviewed four images: no obvious additional simplification degradation; final decision pending. Both arms reveal a pre-existing apparent branch-base gap under separate geometric investigation.",
   "limits": [
     "Only2 fixed cameras4 images; no native performance measurement",
     "Single instance saves33290 source triangles; actual renderer difference includes passes",
-    "Original shared mesh remains allocated;432556-byte separate asset added"
+    "Original shared mesh remains allocated;432556-byte separate asset added",
+    "API-set diagnostic camera does not update the existing departure heading; images do not validate native preset navigation."
   ]
 }
