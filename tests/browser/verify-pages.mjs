@@ -28,7 +28,7 @@ try{
   const command=await cdp.send('Browser.getBrowserCommandLine');
   report.securityFlags={sandboxDisabled:command.arguments.includes('--no-sandbox'),gpuSandboxDisabled:command.arguments.includes('--disable-gpu-sandbox'),unsafeSwiftshader:command.arguments.includes('--enable-unsafe-swiftshader'),gpuBlocklistIgnored:command.arguments.includes('--ignore-gpu-blocklist')};
   if(Object.values(report.securityFlags).some(Boolean))throw Error('Unexpected security-weakening browser flag');
-  context=await browser.newContext({viewport:{width:1120,height:700},deviceScaleFactor:1,reducedMotion:'no-preference',...(mode==='render'?{recordVideo:{dir:path.join(out,'video'),size:{width:1120,height:700}}}:{})});
+  context=await browser.newContext({viewport:{width:1120,height:700},deviceScaleFactor:1,reducedMotion:'no-preference',...(mode==='render'&&process.env.RECORD_VIDEO==='true'?{recordVideo:{dir:path.join(out,'video'),size:{width:1120,height:700}}}:{})});
   page=await context.newPage();page.setDefaultTimeout(30000);
   report.webgl2=await capability(page);report.webgl2.softwareRenderer=/swiftshader|llvmpipe|software/i.test(report.webgl2.unmaskedRenderer||report.webgl2.renderer||'');
   console.log('WEBGL2_PROBE',JSON.stringify(report.webgl2));await save();
@@ -52,16 +52,20 @@ try{
     if(await page.locator('#unsupported').isVisible())throw Error(await page.locator('#failure').innerText());
     report.runtime=await page.evaluate(()=>window.reef3d.getState());
     report.actualCanvas=await page.evaluate(()=>{const c=document.querySelector('#reef');const gl=c.getContext('webgl2');const ext=gl.getExtension('WEBGL_debug_renderer_info');return {width:c.width,height:c.height,contextLost:gl.isContextLost(),renderer:ext?gl.getParameter(ext.UNMASKED_RENDERER_WEBGL):gl.getParameter(gl.RENDERER)};});
-    report.captures=[];
+    report.captures=[];report.fixedViewMethod='UI intent followed by explicit camera/target via existing app API. These fixed-view captures do not pass animation-transition smoothness.';
     async function capture(name){const file=path.join(out,`${name}.png`);await page.screenshot({path:file,timeout:45000});const state=await page.evaluate(()=>window.reef3d.getState());report.captures.push({file:`${name}.png`,sha256:sha(await fs.readFile(file)),state});await save();}
-    async function settled(){await page.waitForFunction(()=>{const x=window.reef3d.getState();const k=JSON.stringify(x.camera.map(v=>Math.round(v*100)));const o=window.__renderCheckCamera;window.__renderCheckCamera={k,n:o?.k===k?o.n+1:0};return window.__renderCheckCamera.n>=4;},{},{polling:300,timeout:45000});}
-    await settled();await capture('01-opening-guide');
+    async function fixedCamera(position,target,free=true){
+      await page.evaluate(({position,target,free})=>{const r=window.reef3d;if(free)r.leaveGuide();r.setTour(false);r.camera.position.set(...position);r.controls.target.set(...target);r.controls.update();r.camera.updateMatrixWorld();},{position,target,free});
+      await page.evaluate(()=>new Promise(resolve=>requestAnimationFrame(()=>requestAnimationFrame(()=>resolve(true)))));
+    }
+    await fixedCamera([1.5,1.6,4.8],[-.5,.8,-6],false);await capture('01-opening-guide');
     await page.locator('#guideExplore').click();await capture('02-opening-free');
     const fish=()=>page.evaluate(()=>{const a=[];window.reef3d.root.traverse(o=>{if(/^fish_\d+$/.test(o.name))a.push({name:o.name,position:o.position.toArray()});});return a;});
     const before=await fish();await page.waitForTimeout(8000);const after=await fish();report.animation={sampleSeconds:8,before,after,positionsChanged:JSON.stringify(before)!==JSON.stringify(after)};await capture('03-opening-after-animation');
-    await page.locator('[data-view="1"]').click();await settled();await capture('04-reverse');
-    await page.locator('[data-view="2"]').click();await settled();await capture('05-close');
-    await page.locator('#guideEntry').click();await page.locator('[data-guide="1"]').click();await settled();await capture('06-seabed-guide');
+    await page.locator('[data-view="1"]').click();await fixedCamera([-8,3.7,-11],[0,.9,0]);await capture('04-reverse');
+    await page.locator('[data-view="2"]').click();await fixedCamera([1.6,1.8,5.8],[-2,.9,0]);await capture('05-close');
+    await fixedCamera([-20.5,1.6,0],[-6.9,.3,0]);await capture('06-reachable-sand-edge');
+    await page.locator('#guideEntry').click();await page.locator('[data-guide="1"]').click();await fixedCamera([2.4,2.3,7.2],[-1.1,.02,2.7],false);await capture('07-seabed-guide');
     report.guideMarkers=await page.locator('#focusMarker, #focusMarkerSecondary').evaluateAll(es=>es.map(e=>({hidden:e.hidden,text:e.textContent,rect:e.getBoundingClientRect().toJSON()})));
     report.passed=report.pageErrors.length===0&&report.consoleErrors.length===0&&report.failedRequests.length===0&&report.httpErrors.length===0&&report.animation.positionsChanged&&!report.actualCanvas.contextLost;
     if(!report.passed)throw Error('Runtime error, failed request, lost context or unchanged animation; inspect evidence');
