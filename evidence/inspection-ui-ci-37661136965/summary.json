@@ -1,0 +1,21 @@
+{
+  "run": 37661136965,
+  "sourceCandidate": "f4bc0577cb27482c9000cf8314876065200f27cd",
+  "technicalPassed": true,
+  "viewports": [
+    [
+      1120,
+      700
+    ],
+    [
+      390,
+      844
+    ]
+  ],
+  "visualDecision": "Pending owner review",
+  "limits": [
+    "Software desktop browser at narrow viewport, not mobile hardware/touch performance",
+    "Early scrollTop query returned0 before rendering caught up; later source-scrolled PNG visibly shows the actual scrolled source/return controls. Do not claim a numeric scroll assertion passed.",
+    "No geometry/performance/whole-scene repeat"
+  ]
+}
