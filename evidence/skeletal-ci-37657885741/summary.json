@@ -12,7 +12,7 @@
     "fish": 6,
     "stops": 5
   },
-  "visualReview": "Pending owner/independent review; floating marker overlaps some branches.",
+  "visualReview": "Owner reviewed all five images and accepted this limited close-inspection teaching increment: front/back branch form, material and grounding legible; right card does not obscure the body; normal-distance specimen remains small; return restores the prior view. Floating label obscures a few branch tips and expanded source card requires scrolling. Desktop-only, not whole-world realism or performance acceptance.",
   "limitations": [
     "Software renderer, not user GPU performance",
     "Desktop only; no mobile layout claim",
