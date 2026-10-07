@@ -1,0 +1,20 @@
+{
+  "baseline": {
+    "passed": true,
+    "wallSeconds": 15.6155,
+    "progressDelta": 0.0029999999999999996,
+    "simulationDelta": 15.582699999999996,
+    "rafCountDelta": 5,
+    "rafPerSecond": 0.32019467836444554,
+    "consoleErrors": []
+  },
+  "candidate": {
+    "passed": true,
+    "wallSeconds": 17.50070000000007,
+    "progressDelta": 0.0029999999999999996,
+    "simulationDelta": 17.282600000000006,
+    "rafCountDelta": 5,
+    "rafPerSecond": 0.2857028575999806,
+    "consoleErrors": []
+  }
+}

@@ -11,3 +11,9 @@ Run37592002958 / QAb49c0bb uses the identical frozen application and succeeds. A
 The subsequent13 camera poses come from the actual samplePassage function and are explicitly labelled on the recording as test-driven samples, NOT native real-time autoplay. They cover route continuity with exact requested/actual camera checks. Actual scene counts are3 new structure instances,5 retained near branch groups,5 guide stops and6 fish. No console/page/HTTP errors were reported. Source simulated guide/quality/clock checks remain distinct from this actual rendering test.
 
 Both raw recordings and original reports are retained, including the first locator timeout. Visual realism and physical-device performance remain separate acceptance questions.
+
+## Bounded native-tour baseline comparison
+
+Same-runner run37593200908 technically passes both arms with the same start/quality/first-frame condition and a native click. No screenshot was taken inside the timed interval. Baseline:15.6155 wall seconds, progress+.003,5 observed RAF callbacks (.3201947/s). Candidate:17.5007 seconds, progress+.003,5 callbacks (.2857029/s), about10.8% lower observed callback rate in this single small sample. Simulation intervals15.5827/17.2826seconds. No console errors.
+
+Both are extremely slow software rendering; this sample does not establish performance equivalence, user GPU FPS or a full real-time route. Geometry estimates are not substituted for measured timing. This result is retained for the release decision; production remains unchanged at this evidence stage.
