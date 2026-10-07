@@ -125,7 +125,7 @@
     "credentials",
     "private notes"
   ],
-  "latestSourceCommit": "6750ba68bb139c85c4ed5ca77d8d109200358a53",
+  "latestSourceCommit": "480d20f7e097e2bfd4719e3e700154f04d1cd025",
   "waterIteration": "Actual fixed-time A/B run37574417037 accepted as bounded visual increment; model unchanged",
   "lifeIteration": "Six runtime instances from four original fish assemblies; targeted actual motion and midpoint correction accepted; source model unchanged",
   "inhabitedIteration": "Bounded structural composition accepted; native software comparison10.8% lower observed RAF rate, performance not accepted; packed editable exact reexport proof included",

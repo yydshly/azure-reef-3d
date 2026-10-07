@@ -1,0 +1,15 @@
+{
+  "scope": "Source central-ray visibility at frozen route phase0; actual raster/fin transparency still requires browser review",
+  "result": [
+    {
+      "view": "fish-flank-a",
+      "firstHit": "fish_03_body",
+      "distance": 3.6018443043824395
+    },
+    {
+      "view": "fish-flank-b",
+      "firstHit": "fish_03_body",
+      "distance": 3.602795290773257
+    }
+  ]
+}

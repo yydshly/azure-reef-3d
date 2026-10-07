@@ -11,7 +11,8 @@
     "build:routes": "node build-life-routes.mjs",
     "test:life": "node qa-life.mjs",
     "test:inhabited": "node qa-inhabited.mjs",
-    "test:route-rebalance": "node qa-route-rebalance.mjs"
+    "test:route-rebalance": "node qa-route-rebalance.mjs",
+    "test:fish-surface": "node qa-fish-surface.mjs"
   },
   "devDependencies": {
     "@napi-rs/canvas": "0.1.100",

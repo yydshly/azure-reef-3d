@@ -1,0 +1,208 @@
+{
+  "sourceSHA256": "c12624b2f1da3add8f801421b161daaa5ef9177f7f6edf8ce1a3d1ae7caf66dd",
+  "scope": "Offline source/geometry/shader assembly; not a browser compile/render or biological validation",
+  "changedMeshes": [
+    "fish_03_body",
+    "fish_03_dorsal",
+    "fish_03_pectoral_-1",
+    "fish_03_pectoral_1",
+    "fish_03_tail",
+    "fish_03_ventral"
+  ],
+  "fishCount": 6,
+  "originalResourcesUnchanged": true,
+  "allOtherObjectIdentitiesUnchanged": true,
+  "companion05Unchanged": true,
+  "bodyEveryAttributeAndIndexByteExact": true,
+  "transformsNamesHierarchyCountsUnchanged": true,
+  "localBoundsBefore": {
+    "min": [
+      -0.9100000262260428,
+      -0.4300000071525556,
+      -0.37200000882148654
+    ],
+    "max": [
+      0.5699897408485421,
+      0.5099999904632586,
+      0.3720000088214883
+    ]
+  },
+  "localBoundsAfter": {
+    "min": [
+      -0.9100000262260428,
+      -0.4300000071525556,
+      -0.37200000882148654
+    ],
+    "max": [
+      0.5699897408485421,
+      0.5099999904632586,
+      0.3720000088214883
+    ]
+  },
+  "worldBoundsBefore": {
+    "min": [
+      -0.7195659482475167,
+      2.6658399601316454,
+      -3.085769947627641
+    ],
+    "max": [
+      -0.3606981765191947,
+      2.95911993742466,
+      -2.779971618780723
+    ]
+  },
+  "worldBoundsAfter": {
+    "min": [
+      -0.7195659482475167,
+      2.6658399601316454,
+      -3.085769947627641
+    ],
+    "max": [
+      -0.3606981765191947,
+      2.95911993742466,
+      -2.779971618780723
+    ]
+  },
+  "configuredWaterMaterials": 6,
+  "waterShaderAssemblyPassed": true,
+  "tailPivotCoordinatesStable": true,
+  "target": "fish_03",
+  "palette": [
+    {
+      "center": [
+        0.442236825844836,
+        0.3577780879656774,
+        0.3007167956613522
+      ],
+      "slope": [
+        0.057406696616827686,
+        0.04639074896726941,
+        0.03866049410300363
+      ]
+    },
+    {
+      "center": [
+        0.13270026750449837,
+        0.10740377427789945,
+        0.09039650162767203
+      ],
+      "slope": [
+        0.018210492394258215,
+        0.01433230983389706,
+        0.01231831235186738
+      ]
+    }
+  ],
+  "fins": [
+    {
+      "name": "fish_03_dorsal",
+      "held": [],
+      "originalVertices": 6,
+      "vertices": 90,
+      "triangles": 176
+    },
+    {
+      "name": "fish_03_ventral",
+      "held": [],
+      "originalVertices": 6,
+      "vertices": 90,
+      "triangles": 176
+    },
+    {
+      "name": "fish_03_pectoral_-1",
+      "held": [
+        1
+      ],
+      "originalVertices": 6,
+      "vertices": 90,
+      "triangles": 176
+    },
+    {
+      "name": "fish_03_pectoral_1",
+      "held": [
+        4
+      ],
+      "originalVertices": 6,
+      "vertices": 90,
+      "triangles": 176
+    },
+    {
+      "name": "fish_03_tail",
+      "held": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "originalVertices": 8,
+      "vertices": 162,
+      "triangles": 320
+    }
+  ],
+  "localBounds": {
+    "min": [
+      -0.9100000262260428,
+      -0.4300000071525556,
+      -0.37200000882148654
+    ],
+    "max": [
+      0.5699897408485421,
+      0.5099999904632586,
+      0.3720000088214883
+    ]
+  },
+  "worldBounds": {
+    "min": [
+      -0.7195659482475167,
+      2.6658399601316454,
+      -3.085769947627641
+    ],
+    "max": [
+      -0.3606981765191947,
+      2.95911993742466,
+      -2.779971618780723
+    ]
+  },
+  "topology": [
+    {
+      "name": "fish_03_dorsal",
+      "vertices": 90,
+      "triangles": 176,
+      "closedManifold": true,
+      "outwardSignedVolume": 0.0004744449597055172,
+      "smallestTriangleArea": 0.0000564924640108068
+    },
+    {
+      "name": "fish_03_ventral",
+      "vertices": 90,
+      "triangles": 176,
+      "closedManifold": true,
+      "outwardSignedVolume": 0.0003035811834973676,
+      "smallestTriangleArea": 0.00004327493545045539
+    },
+    {
+      "name": "fish_03_pectoral_-1",
+      "vertices": 90,
+      "triangles": 176,
+      "closedManifold": true,
+      "outwardSignedVolume": 0.0000037386232819503427,
+      "smallestTriangleArea": 0.0000029714290115807532
+    },
+    {
+      "name": "fish_03_pectoral_1",
+      "vertices": 90,
+      "triangles": 176,
+      "closedManifold": true,
+      "outwardSignedVolume": 0.000003738623281950388,
+      "smallestTriangleArea": 0.0000029714290115807532
+    },
+    {
+      "name": "fish_03_tail",
+      "vertices": 162,
+      "triangles": 320,
+      "closedManifold": true,
+      "outwardSignedVolume": 0.0005211499779113506,
+      "smallestTriangleArea": 0.00006632840307743286
+    }
+  ]
+}

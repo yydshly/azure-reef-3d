@@ -1,0 +1,26 @@
+{
+  "scope": "One existing generic illustrative fish (fish_03), not species identification or full anatomy/reef validation.",
+  "references": [
+    {
+      "page": "https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/sergeant-major/",
+      "image": "https://www.floridamuseum.ufl.edu/wp-content/uploads/sites/66/2017/05/Abudefduf-saxatilis-01.jpg",
+      "credit": "George Ryschkewitsch, via Florida Museum of Natural History",
+      "observed": "Continuous pigmentation following the body surface; slender fin membranes with directional supporting rays. Photo is a named real fish, not evidence of the generic model identity.",
+      "use": "Privately viewed as reference; no photo pixels copied into shaders, textures or public artifacts."
+    },
+    {
+      "page": "https://www.floridamuseum.ufl.edu/discover-fish/fish/anatomy/spines-rays-caudal-fins/",
+      "image": "https://www.floridamuseum.ufl.edu/wp-content/uploads/sites/66/2017/05/fish-anatomy-spines-rays.jpg",
+      "credit": "Florida Museum of Natural History anatomy teaching diagram",
+      "observed": "Distinction between spines and simple/branched fin rays. Supports general structure vocabulary, not fin counts or a calibrated species reconstruction.",
+      "use": "Viewed only; not copied into the model or public files."
+    }
+  ],
+  "non_evidence": "The distant NOAA-courtesy reef photo Abudefduf-saxatilis-04.jpg was viewed but is too coarse for detailed fin anatomy.",
+  "implementation_intent": "Retain existing pigment phase and subdued palette, evaluate a continuous local-coordinate pigment field and closed thinner fins. Keep fish_05 and all other fish unchanged; apply only after companion cloning.",
+  "boundaries": [
+    "No claims of identified species, observed co-occurrence, actual density, measured size or photoreal completion.",
+    "Underlying generic body shape, routes and animation interfaces remain unchanged.",
+    "Actual same-phase browser comparisons are required; offline specimen preview is not runtime proof."
+  ]
+}

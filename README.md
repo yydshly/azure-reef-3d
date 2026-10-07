@@ -206,3 +206,8 @@ Actual software-WebGL run37577405341 established three-view population and real 
 The existing near-right shoulder moves rigidly to the late right bank. Total geometry, textures, three structures/four fan meshes, water, six fish, route and teaching flow are preserved. Material influence follows its position. Actual run37602816684 compares four matched t0 views and six labeled test-driven late-route poses; owner and independent review accepted only this limited composition/space increment. Departure remains framed and late travel gains a landmark. Isolated-rock appearance, broad texture patches and empty banks remain. This does not accept full realism, native tour smoothness or physical GPU performance.
 
 The preceding coarse fan LOD was rejected for visible polygonal cells and density changes despite small software-frame gains. Shadow/resolution cost separation is diagnostic only; neither low-resolution nor shadow-disabled settings were adopted. See ROUTE_REBALANCE.md and evidence/route-rebalance-oct7. The original packed modeling/inhabited/editable.blend and exact asset export are unchanged.
+
+
+### Single-fish surface repair
+
+Only fish_03 receives continuous procedural pigment and closed thin fins. It remains unidentified and illustrative. Source checks: `node --import ./qa-register.mjs qa-fish-surface.mjs`, `node --import ./qa-register.mjs qa-life.mjs`, `node --import ./qa-register.mjs qa-guide-integration.mjs`; see `evidence/fish-surface-oct7/DECISION.md` for actual six-frame software WebGL evidence, reference provenance and limitations. No fresh editable mesh is needed: the module derives fins from the unchanged original GLB after companion cloning.
