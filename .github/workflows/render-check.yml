@@ -41,7 +41,7 @@ jobs:
       - name: Probe real WebGL2 without security overrides
         id: probe
         timeout-minutes: 2
-        run: node tests/browser/verify-inhabited.mjs probe
+        run: node tests/browser/verify-native-tour.mjs probe
       - name: Preserve capability evidence immediately
         if: always()
         uses: actions/upload-artifact@v4
@@ -56,7 +56,8 @@ jobs:
           REEF_TARGET: ${{ inputs.target_source == 'branch-preview' && 'http://127.0.0.1:4173/' || 'https://yydshly.github.io/azure-reef-3d/' }}
           REEF_VIEW_SET: ${{ inputs.view_set }}
         run: |
-          REEF_ARM=route REEF_ROUTE=true RECORD_VIDEO=true REEF_SOURCE_DIR=research/inhabited-candidate/dist REEF_TARGET=http://127.0.0.1:4173/research/inhabited-candidate/dist/ node tests/browser/verify-inhabited.mjs render
+          REEF_ARM=baseline REEF_ROUTE=true REEF_NATIVE_ONLY=true REEF_SOURCE_DIR=dist REEF_TARGET=http://127.0.0.1:4173/dist/ node tests/browser/verify-native-tour.mjs render
+          REEF_ARM=candidate REEF_ROUTE=true REEF_NATIVE_ONLY=true REEF_SOURCE_DIR=research/inhabited-candidate/dist REEF_TARGET=http://127.0.0.1:4173/research/inhabited-candidate/dist/ node tests/browser/verify-native-tour.mjs render
       - name: Preserve screenshots, short video and runtime report
         if: always()
         uses: actions/upload-artifact@v4
