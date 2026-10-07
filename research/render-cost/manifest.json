@@ -1,0 +1,7 @@
+{
+  "production_source": "527ef99c39da30570583f78299ddf8ce853a1a9a",
+  "public_baseline": "6f9dd123598e43bd5a61eaa225ab0c159e567c27",
+  "baseline_app_sha256": "36db185b1d0dda7cdea62ca5d1d231e9ae46b166338e9c8b6706c238a0b13d4c",
+  "probe_app_sha256": "d76c0412f1e8d2f8069c81f21f4816a0c62131d323e455d2872c27f746272380",
+  "only_change": "Append QA-only renderer shadow/pixel controls and passive renderer counters. All scene bytes remain unchanged. Not for deployment."
+}

@@ -72,3 +72,21 @@ if(document.modelContext?.registerTool){try{Promise.resolve(document.modelContex
 if(document.modelContext?.registerTool){try{Promise.resolve(document.modelContext.registerTool({name:'navigate_reef_guide',description:'切换浅海入门导览站点，播放、暂停或返回自由探索；不改变模型或资料',inputSchema:{type:'object',properties:{action:{type:'string',enum:['go','play','pause','explore','resume']},stop:{type:'integer',minimum:0,maximum:4}},required:['action'],additionalProperties:false},annotations:{readOnlyHint:false,untrustedContentHint:false},execute:async input=>{if(!ready)throw Error('3D scene unavailable');if(!input||!['go','play','pause','explore','resume'].includes(input.action)||Object.keys(input).some(k=>!['action','stop'].includes(k))||(input.action==='go'&&(!Number.isInteger(input.stop)||input.stop<0||input.stop>4))||(input.action!=='go'&&'stop'in input))throw Error('Invalid guide action');if(input.action==='go'){guide.playing=false;goGuide(input.stop)}if(input.action==='play'){goGuide(guide.index);guide.playing=true;guide.paused=false;renderGuide()}if(input.action==='pause'){guide.pause();renderGuide()}if(input.action==='explore')leaveGuide();if(input.action==='resume'){guide.resume();goGuide(guide.index)}return {active:guide.active,stop:guide.index,playing:guide.playing,paused:guide.paused}}})).catch(()=>{})}catch{}}
 
 start();
+
+// QA-only renderer cost probe. This module is not a production candidate.
+window.reefCostProbe = {
+  setMode(mode) {
+    if (!ready || !renderer || !['default','no-shadow','half-resolution'].includes(mode)) throw new Error('Invalid diagnostic state or mode');
+    renderer.shadowMap.enabled = mode !== 'no-shadow';
+    renderer.shadowMap.needsUpdate = true;
+    renderer.setPixelRatio(mode === 'half-resolution' ? .5 : Math.min(devicePixelRatio || 1, 1.65));
+    renderer.setSize(innerWidth, innerHeight);
+    root.traverse(o => { if(o.isMesh) for(const m of Array.isArray(o.material)?o.material:[o.material]) m.needsUpdate=true; });
+    return this.getState();
+  },
+  getState() {
+    if(!renderer) return {ready:false};
+    const size=renderer.getDrawingBufferSize(new THREE.Vector2());
+    return {ready, shadowEnabled:renderer.shadowMap.enabled, pixelRatio:renderer.getPixelRatio(), drawingBuffer:[size.x,size.y], render:{...renderer.info.render},memory:{...renderer.info.memory}, programCount:renderer.info.programs?.length, camera:camera.position.toArray(), target:controls.target.toArray(), simulationTime:time};
+  }
+};

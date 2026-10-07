@@ -1,0 +1,18 @@
+
+// QA-only renderer cost probe. This module is not a production candidate.
+window.reefCostProbe = {
+  setMode(mode) {
+    if (!ready || !renderer || !['default','no-shadow','half-resolution'].includes(mode)) throw new Error('Invalid diagnostic state or mode');
+    renderer.shadowMap.enabled = mode !== 'no-shadow';
+    renderer.shadowMap.needsUpdate = true;
+    renderer.setPixelRatio(mode === 'half-resolution' ? .5 : Math.min(devicePixelRatio || 1, 1.65));
+    renderer.setSize(innerWidth, innerHeight);
+    root.traverse(o => { if(o.isMesh) for(const m of Array.isArray(o.material)?o.material:[o.material]) m.needsUpdate=true; });
+    return this.getState();
+  },
+  getState() {
+    if(!renderer) return {ready:false};
+    const size=renderer.getDrawingBufferSize(new THREE.Vector2());
+    return {ready, shadowEnabled:renderer.shadowMap.enabled, pixelRatio:renderer.getPixelRatio(), drawingBuffer:[size.x,size.y], render:{...renderer.info.render},memory:{...renderer.info.memory}, programCount:renderer.info.programs?.length, camera:camera.position.toArray(), target:controls.target.toArray(), simulationTime:time};
+  }
+};
