@@ -1,0 +1,62 @@
+{
+  "scope": "One lower eye-height comparison. Same scene, x/z position, target, FOV, lighting, water and frozen fish phase; camera y intentionally differs. Not a production candidate or a claim of scientific accuracy.",
+  "production_source": "6750ba68bb139c85c4ed5ca77d8d109200358a53",
+  "public_release": "a18e1f71455e76dd7a3bd8a1980a891228928a85",
+  "views": [
+    {
+      "id": "midway",
+      "baseline": {
+        "p": [
+          0,
+          2.7,
+          -18
+        ],
+        "t": [
+          -1.5,
+          1,
+          -31
+        ]
+      },
+      "candidate": {
+        "p": [
+          0,
+          1.7,
+          -18
+        ],
+        "t": [
+          -1.5,
+          1,
+          -31
+        ]
+      }
+    },
+    {
+      "id": "route75",
+      "baseline": {
+        "p": [
+          -2.208167284183959,
+          3.259500550508243,
+          -30.006196517022275
+        ],
+        "t": [
+          -3.835229074543919,
+          0.7,
+          -42.26543655798051
+        ]
+      },
+      "candidate": {
+        "p": [
+          -2.208167284183959,
+          1.7,
+          -30.006196517022275
+        ],
+        "t": [
+          -3.835229074543919,
+          0.7,
+          -42.26543655798051
+        ]
+      }
+    }
+  ],
+  "supersedes": "y1.45 input cancelled before acceptance: midway polar angle exceeded existing .485*pi maximum; this is a reachability correction, not a visual parameter sweep."
+}

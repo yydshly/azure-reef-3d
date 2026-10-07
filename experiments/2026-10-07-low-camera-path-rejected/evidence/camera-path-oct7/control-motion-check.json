@@ -1,0 +1,15 @@
+{
+  "scope": "Source preflight, not native input or GPU evidence. All sampled fish phases compared to all route camera positions, with .08 padding around posed assembly boxes. Static geometry checked separately.",
+  "maximumXZChange": 0,
+  "maximumTargetChange": 0,
+  "maxControlError": 1.7523244772509425e-14,
+  "maxStepPerTenthSimulationSecond": 0.05842887518347127,
+  "minimumAnimatedFishBoxClearance": {
+    "distance": 0,
+    "fish": "fish_06",
+    "fishTime": 58.5,
+    "progress": 0.73,
+    "direction": 1
+  },
+  "sphereRadius": 0.45
+}

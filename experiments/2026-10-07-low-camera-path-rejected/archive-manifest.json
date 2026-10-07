@@ -1,0 +1,80 @@
+{
+  "status": "rejected full route; static study retained",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 3933,
+      "sha256": "fff7c81a335c92dc1786a028a2ce94ad23ab9a0aaeee746ff90e1b4b38a038ff"
+    },
+    {
+      "path": "camera-clearance.json",
+      "bytes": 1490,
+      "sha256": "2b0cb476b3aeac2f974275cabfd81336e72799b24ab3821536ad937a5bca436f"
+    },
+    {
+      "path": "camera-pairs.json",
+      "bytes": 1421,
+      "sha256": "747cdc29af52dd93bcd4c48ac4dd2c93107d1f1adbad67e959824806b19c82bc"
+    },
+    {
+      "path": "candidate-passage.js",
+      "bytes": 2547,
+      "sha256": "727e494350fa64ce76aad0e864ad480a5fc939e0acce8691c148b0dced625109"
+    },
+    {
+      "path": "control-reachability.json",
+      "bytes": 1708,
+      "sha256": "eb35fe9cc57cb07ba3e90e245b708390e6fa5e5218dbfb80eeecc2cf456f9fa9"
+    },
+    {
+      "path": "evidence/camera-path-oct7/accepted-passage.js",
+      "bytes": 1830,
+      "sha256": "eca17ce6d88abb101936c55b952cfdfb632c6dc5ce8e7e9456e4bd0656f7761d"
+    },
+    {
+      "path": "evidence/camera-path-oct7/control-motion-check.json",
+      "bytes": 542,
+      "sha256": "16392f72d56dff8106f59a55c0989d745ae65c7bb13c4f528952ee4da0fb0cbf"
+    },
+    {
+      "path": "evidence/camera-path-oct7/early-descent-clearance-failed.json",
+      "bytes": 136069,
+      "sha256": "294006a9330e33308a5587c845dcfdb581bf520006996079b03cf8be94856414"
+    },
+    {
+      "path": "evidence/camera-path-oct7/early-descent-passage.js",
+      "bytes": 2366,
+      "sha256": "9889924da463da85bafc600f7439f3aaed4fd7e0cc8f197f9f89a78804cd6248"
+    },
+    {
+      "path": "evidence/camera-path-oct7/fish-triangle-contact.json",
+      "bytes": 7437,
+      "sha256": "8b2f33bc475deffe4fc09d4cd9c58ae68435689c2d3fbd05eb3602a534f39a85"
+    },
+    {
+      "path": "evidence/camera-path-oct7/geometry-motion-check.json",
+      "bytes": 14902,
+      "sha256": "8d9f9a2095eb74070da3bc98b96126f0b904bdfe202787070a435041393b2d1b"
+    },
+    {
+      "path": "evidence/camera-path-oct7/static-clearance.json",
+      "bytes": 137053,
+      "sha256": "904c9a210606d3f509de5d82711486811d0cd6c46a3b116c3ac0b2ec2d4b4c62"
+    },
+    {
+      "path": "qa-camera-clearance.mjs",
+      "bytes": 2806,
+      "sha256": "e9188580e2b19c67404122d2d68c9f64cc2ab380c02d56a2d27b143755301559"
+    },
+    {
+      "path": "qa-camera-fish-contact.mjs",
+      "bytes": 4172,
+      "sha256": "0af8a4d665782348b191b2881166f07b53428f3f2716e4bc8e20cd7cf6b92e82"
+    },
+    {
+      "path": "qa-camera-path.mjs",
+      "bytes": 4436,
+      "sha256": "a38ad7820e9c75699a9339356353ce4ae595a005c72dc90a8672b027d77a34c4"
+    }
+  ]
+}

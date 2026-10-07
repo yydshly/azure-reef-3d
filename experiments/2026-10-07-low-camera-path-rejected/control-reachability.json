@@ -1,0 +1,77 @@
+{
+  "scope": "Real production OrbitControls module updates without DOM/GPU; not native interaction verification.",
+  "results": [
+    {
+      "view": "midway",
+      "arm": "baseline",
+      "position": [
+        8.881784197001252e-16,
+        2.6999999999999975,
+        -18
+      ],
+      "target": [
+        -1.5,
+        1,
+        -31
+      ],
+      "error": 2.808666774861361e-15,
+      "targetError": 0,
+      "polarAngle": 1.441612461221176,
+      "maxPolarAngle": 1.5236724369910497
+    },
+    {
+      "view": "midway",
+      "arm": "candidate",
+      "position": [
+        8.881784197001252e-16,
+        1.7000000000000015,
+        -18
+      ],
+      "target": [
+        -1.5,
+        1,
+        -31
+      ],
+      "error": 1.790180836524724e-15,
+      "targetError": 0,
+      "polarAngle": 1.5173560074114905,
+      "maxPolarAngle": 1.5236724369910497
+    },
+    {
+      "view": "route75",
+      "arm": "baseline",
+      "position": [
+        -2.2081672841839617,
+        3.2595005505082435,
+        -30.006196517022275
+      ],
+      "target": [
+        -3.835229074543919,
+        0.7,
+        -42.26543655798051
+      ],
+      "error": 2.7012892057857038e-15,
+      "targetError": 0,
+      "polarAngle": 1.3667113226187728,
+      "maxPolarAngle": 1.5236724369910497
+    },
+    {
+      "view": "route75",
+      "arm": "candidate",
+      "position": [
+        -2.2081672841839612,
+        1.700000000000002,
+        -30.006196517022275
+      ],
+      "target": [
+        -3.835229074543919,
+        0.7,
+        -42.26543655798051
+      ],
+      "error": 2.9873046363423827e-15,
+      "targetError": 0,
+      "polarAngle": 1.4901098378990953,
+      "maxPolarAngle": 1.5236724369910497
+    }
+  ]
+}

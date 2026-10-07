@@ -169,3 +169,7 @@ Source6750ba68 / measured candidate73f334e / run37602816684. Original four-view 
 ## 2026-10-07 · Bounded source-asset research
 
 [Two source-chain findings](docs/asset-research-20261007/SOURCE_ASSET_CHECKS.md): the inspected Bremen archive exposes orthomosaic TIFFs rather than3D geometry; the NAUTILUS portal and18 relevant linked-map entries did not establish a reusable current-Caribbean mesh. The portal was readable; temporary cancelled/502 reads are not generalized access prohibitions. These findings close only those leads, not all asset sources or all design approaches. No downloaded scene asset, production change, or new rendering follows this record. The folded-ledge archive also includes its final22-item source whitelist.
+
+## 2026-10-07 · Low observation route rejected
+
+[Static study and rejected continuous-path record](experiments/2026-10-07-low-camera-path-rejected/README.md). Four real images support a limited midway benefit; the late view is neutral to slightly improved. The initial descent failed branch clearance (.2841); one constraint repair reached 1.020598 static clearance but fish_06 posed triangles approach the camera to .1605277, below the unchanged .45 observation buffer. This is not proof of center penetration or inevitable clipping: the closest case is outside the frustum, with neighboring visible cases. The phase-independent buffer check remains failed. No fish tuning, height sweep, new route CI, or deployment followed.

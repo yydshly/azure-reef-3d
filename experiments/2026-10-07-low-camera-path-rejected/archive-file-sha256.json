@@ -1,0 +1,18 @@
+{
+  "README.md": "5d4104bf700df202ff6a2f002d8fc7e46ac36aa19d63932114bc97de606229f0",
+  "archive-manifest.json": "2934113d28f3b5c0e5e6fbdcd01d478614f61b603161fccd87322120fae43a64",
+  "camera-clearance.json": "2b0cb476b3aeac2f974275cabfd81336e72799b24ab3821536ad937a5bca436f",
+  "camera-pairs.json": "747cdc29af52dd93bcd4c48ac4dd2c93107d1f1adbad67e959824806b19c82bc",
+  "candidate-passage.js": "727e494350fa64ce76aad0e864ad480a5fc939e0acce8691c148b0dced625109",
+  "control-reachability.json": "eb35fe9cc57cb07ba3e90e245b708390e6fa5e5218dbfb80eeecc2cf456f9fa9",
+  "evidence/camera-path-oct7/accepted-passage.js": "eca17ce6d88abb101936c55b952cfdfb632c6dc5ce8e7e9456e4bd0656f7761d",
+  "evidence/camera-path-oct7/control-motion-check.json": "16392f72d56dff8106f59a55c0989d745ae65c7bb13c4f528952ee4da0fb0cbf",
+  "evidence/camera-path-oct7/early-descent-clearance-failed.json": "294006a9330e33308a5587c845dcfdb581bf520006996079b03cf8be94856414",
+  "evidence/camera-path-oct7/early-descent-passage.js": "9889924da463da85bafc600f7439f3aaed4fd7e0cc8f197f9f89a78804cd6248",
+  "evidence/camera-path-oct7/fish-triangle-contact.json": "8b2f33bc475deffe4fc09d4cd9c58ae68435689c2d3fbd05eb3602a534f39a85",
+  "evidence/camera-path-oct7/geometry-motion-check.json": "8d9f9a2095eb74070da3bc98b96126f0b904bdfe202787070a435041393b2d1b",
+  "evidence/camera-path-oct7/static-clearance.json": "904c9a210606d3f509de5d82711486811d0cd6c46a3b116c3ac0b2ec2d4b4c62",
+  "qa-camera-clearance.mjs": "a7300bb4fdbe5ed68b23da646175ca6f4b3a41995e39a962194eab34f9d4779a",
+  "qa-camera-fish-contact.mjs": "2dc3a49f93c027343a0d5d9fa7a4fc7096f6a480d06a52ea6b0712b435f5d363",
+  "qa-camera-path.mjs": "49251b010419d72dae5e4bcf0cb222719761a3bd3655896fc795c7899f956794"
+}
