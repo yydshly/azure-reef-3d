@@ -1,0 +1,70 @@
+{
+  "scope": "Selected poses against actual accepted static triangles only; excludes animated fish and does not validate a revised travel path.",
+  "sphereRadius": 0.45,
+  "report": [
+    {
+      "view": "midway",
+      "arm": "baseline",
+      "position": [
+        0,
+        2.7,
+        -18
+      ],
+      "target": [
+        -1.5,
+        1,
+        -31
+      ],
+      "minimumStaticTriangleDistance": 2.9199999988079073,
+      "nearestMesh": "Sand_Horizon_80m"
+    },
+    {
+      "view": "midway",
+      "arm": "candidate",
+      "position": [
+        0,
+        1.45,
+        -18
+      ],
+      "target": [
+        -1.5,
+        1,
+        -31
+      ],
+      "minimumStaticTriangleDistance": 1.669999998807907,
+      "nearestMesh": "Sand_Horizon_80m"
+    },
+    {
+      "view": "route75",
+      "arm": "baseline",
+      "position": [
+        -2.208167284183959,
+        3.259500550508243,
+        -30.006196517022275
+      ],
+      "target": [
+        -3.835229074543919,
+        0.7,
+        -42.26543655798051
+      ],
+      "minimumStaticTriangleDistance": 3.47950054931615,
+      "nearestMesh": "Sand_Horizon_80m"
+    },
+    {
+      "view": "route75",
+      "arm": "candidate",
+      "position": [
+        -2.208167284183959,
+        1.45,
+        -30.006196517022275
+      ],
+      "target": [
+        -3.835229074543919,
+        0.7,
+        -42.26543655798051
+      ],
+      "minimumStaticTriangleDistance": 1.669999998807907,
+      "nearestMesh": "Sand_Horizon_80m"
+    }
+  ]
+}
