@@ -1,0 +1,12 @@
+{
+  "run": 37616743352,
+  "testedCommit": "1b3e167ef0daf66cb88655882fef161f44057d3e",
+  "candidateSource": "3c853a6ba5f3d3ab6740f669a808de36945e4943",
+  "production": "a18e1f71455e76dd7a3bd8a1980a891228928a85",
+  "technicalPassed": true,
+  "pairedCameraTolerance": 0.001,
+  "pairedFOVFishTransformAndTimeMatched": true,
+  "captures": 6,
+  "scope": "Single fish_03 appearance; normal midway and two diagnostic 20-degree close views, not product presets. No route/performance test.",
+  "visualDecision": "Pending image review"
+}
