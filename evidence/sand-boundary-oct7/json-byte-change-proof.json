@@ -1,0 +1,6 @@
+{
+  "all_json_bytes_outside_main_sand_position_accessor_unchanged": true,
+  "source_accessor_json": "{\"bufferView\":0,\"componentType\":5126,\"count\":13456,\"max\":[16,-0.09801679104566574,16],\"min\":[-16,-0.18198320269584656,-16],\"type\":\"VEC3\"}",
+  "candidate_accessor_json": "{\"bufferView\":0,\"componentType\":5126,\"count\":13456,\"max\":[16.0,-0.09801679104566574,16.0],\"min\":[-16.0,-0.2199999988079071,-16.0],\"type\":\"VEC3\"}",
+  "json_padding_excluded": true
+}

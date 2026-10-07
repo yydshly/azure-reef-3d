@@ -8,7 +8,7 @@ if(!['probe','render'].includes(mode))throw Error('Expected probe or render');
 const out=path.resolve('render-evidence');await fs.mkdir(out,{recursive:true});
 const target=process.env.REEF_TARGET||'https://yydshly.github.io/azure-reef-3d/';
 if(!['https://yydshly.github.io/azure-reef-3d/','http://127.0.0.1:4173/'].includes(target))throw Error('Unapproved test target');
-const viewSet=process.env.REEF_VIEW_SET||'legacy';
+const viewSet=process.env.REEF_VIEW_SET||'passage';
 const sha=b=>createHash('sha256').update(b).digest('hex');
 const report={mode,target,viewSet,checkedAt:new Date().toISOString(),checkoutCommit:process.env.GITHUB_SHA||null,
   sandbox:true,unsafeGraphicsFlags:false,limitations:['Hosted runner rendering is not user-device performance or physical GPU acceptance.','Screenshots require human visual review; successful rendering alone is not realism acceptance.']};

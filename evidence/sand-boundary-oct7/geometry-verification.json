@@ -1,0 +1,643 @@
+{
+  "source_sha256": "ce6a7bc4d005ecd794d378c792d5d05d79f4683b10a2d3446333e6053ead4d21",
+  "candidate_sha256": "a5d9412ede847ba165f1198967b487dd3787e3f71e5e25ed30831f40a7ac5a0b",
+  "mesh_count": 60,
+  "node_count": 91,
+  "sand_vertex_count": 13456,
+  "sand_triangle_count": 26450,
+  "exactly_unchanged_core_vertices": 10000,
+  "core_guarantee": "All position and normal bytes with abs(x)<=14 and abs(z)<=14 are unchanged. All hardbottom geometry and every node transform are unchanged.",
+  "boundary_vertices": 460,
+  "before_boundary_gap_range_m": [
+    0.03838473558425903,
+    0.12161526829004288
+  ],
+  "after_boundary_max_gap_m": 0.0,
+  "before_boundary_max_normal_angle_deg": 8.017900232535618,
+  "after_boundary_max_normal_angle_deg": 0.0,
+  "maximum_band_triangle_slope_degrees": 11.22077560630638,
+  "maximum_edge_triangle_slope_degrees": 0.5783883222645877,
+  "no_surface_below_far_floor": true,
+  "no_xz_or_topology_change": true,
+  "all_triangles_positive_upward_area": true,
+  "ring_profiles": [
+    {
+      "distance_to_edge_m": 0.0,
+      "vertices": 460,
+      "before_y_range_m": [
+        -0.18161526322364807,
+        -0.09838473051786423
+      ],
+      "after_y_range_m": [
+        -0.2199999988079071,
+        -0.2199999988079071
+      ]
+    },
+    {
+      "distance_to_edge_m": 0.2782611846923828,
+      "vertices": 452,
+      "before_y_range_m": [
+        -0.1819639503955841,
+        -0.09803605079650879
+      ],
+      "after_y_range_m": [
+        -0.21997924149036407,
+        -0.21736262738704681
+      ]
+    },
+    {
+      "distance_to_edge_m": 0.5565214157104492,
+      "vertices": 444,
+      "before_y_range_m": [
+        -0.1818784475326538,
+        -0.09812155365943909
+      ],
+      "after_y_range_m": [
+        -0.21881608664989471,
+        -0.20348118245601654
+      ]
+    },
+    {
+      "distance_to_edge_m": 0.834782600402832,
+      "vertices": 436,
+      "before_y_range_m": [
+        -0.18189622461795807,
+        -0.09810376912355423
+      ],
+      "after_y_range_m": [
+        -0.21428453922271729,
+        -0.17759177088737488
+      ]
+    },
+    {
+      "distance_to_edge_m": 1.1130437850952148,
+      "vertices": 428,
+      "before_y_range_m": [
+        -0.18197576701641083,
+        -0.09802423417568207
+      ],
+      "after_y_range_m": [
+        -0.19764509797096252,
+        -0.14619500935077667
+      ]
+    },
+    {
+      "distance_to_edge_m": 1.3913040161132812,
+      "vertices": 420,
+      "before_y_range_m": [
+        -0.1813727766275406,
+        -0.09862722456455231
+      ],
+      "after_y_range_m": [
+        -0.18789613246917725,
+        -0.119124636054039
+      ]
+    },
+    {
+      "distance_to_edge_m": 1.669565200805664,
+      "vertices": 412,
+      "before_y_range_m": [
+        -0.18108676373958588,
+        -0.09891323000192642
+      ],
+      "after_y_range_m": [
+        -0.1824355274438858,
+        -0.10311021655797958
+      ]
+    },
+    {
+      "distance_to_edge_m": 1.9478263854980469,
+      "vertices": 404,
+      "before_y_range_m": [
+        -0.18193824589252472,
+        -0.09806174784898758
+      ],
+      "after_y_range_m": [
+        -0.18194474279880524,
+        -0.09808255732059479
+      ]
+    },
+    {
+      "distance_to_edge_m": 2.2260866165161133,
+      "vertices": 396,
+      "before_y_range_m": [
+        -0.18159103393554688,
+        -0.09840896725654602
+      ],
+      "after_y_range_m": [
+        -0.18159103393554688,
+        -0.09840896725654602
+      ]
+    }
+  ],
+  "support_outer_edges": [
+    {
+      "name": "Distant_Limestone_Support_00",
+      "outer_boundary_vertices": 620,
+      "minimum_outer_edge_below_far_floor_m": 0.297536827325821,
+      "maximum_outer_edge_below_far_floor_m": 0.32728181004524237,
+      "geometry_transform_unchanged": true
+    },
+    {
+      "name": "Distant_Limestone_Support_01",
+      "outer_boundary_vertices": 620,
+      "minimum_outer_edge_below_far_floor_m": 0.36753682732582094,
+      "maximum_outer_edge_below_far_floor_m": 0.3972818100452423,
+      "geometry_transform_unchanged": true
+    },
+    {
+      "name": "Distant_Limestone_Support_02",
+      "outer_boundary_vertices": 620,
+      "minimum_outer_edge_below_far_floor_m": 0.36753682732582094,
+      "maximum_outer_edge_below_far_floor_m": 0.3972818100452423,
+      "geometry_transform_unchanged": true
+    },
+    {
+      "name": "Distant_Limestone_Support_03",
+      "outer_boundary_vertices": 620,
+      "minimum_outer_edge_below_far_floor_m": 0.36753682732582094,
+      "maximum_outer_edge_below_far_floor_m": 0.3972818100452423,
+      "geometry_transform_unchanged": true
+    },
+    {
+      "name": "Distant_Limestone_Support_04",
+      "outer_boundary_vertices": 620,
+      "minimum_outer_edge_below_far_floor_m": 0.297536827325821,
+      "maximum_outer_edge_below_far_floor_m": 0.32728181004524237,
+      "geometry_transform_unchanged": true
+    },
+    {
+      "name": "Distant_Limestone_Support_05",
+      "outer_boundary_vertices": 620,
+      "minimum_outer_edge_below_far_floor_m": 0.36753682732582094,
+      "maximum_outer_edge_below_far_floor_m": 0.3972818100452423,
+      "geometry_transform_unchanged": true
+    },
+    {
+      "name": "Distant_Limestone_Support_06",
+      "outer_boundary_vertices": 620,
+      "minimum_outer_edge_below_far_floor_m": 0.36753682732582094,
+      "maximum_outer_edge_below_far_floor_m": 0.3972818100452423,
+      "geometry_transform_unchanged": true
+    },
+    {
+      "name": "Distant_Limestone_Support_07",
+      "outer_boundary_vertices": 620,
+      "minimum_outer_edge_below_far_floor_m": 0.36753682732582094,
+      "maximum_outer_edge_below_far_floor_m": 0.3972818100452423,
+      "geometry_transform_unchanged": true
+    }
+  ],
+  "exact_guide_anchor_preservation": [
+    {
+      "name": "sand",
+      "anchor": [
+        -1.0108096,
+        -0.1403618,
+        2.8146734
+      ],
+      "camera": [
+        2.4,
+        2.3,
+        7.2
+      ],
+      "entire_guide_ray_in_exactly_unchanged_core": true
+    },
+    {
+      "name": "hardbottom",
+      "anchor": [
+        -0.3038789,
+        -0.00275017,
+        3.6140898
+      ],
+      "camera": [
+        2.4,
+        2.3,
+        7.2
+      ],
+      "entire_guide_ray_in_exactly_unchanged_core": true
+    }
+  ],
+  "mesh_geometry_and_shading_hashes": [
+    {
+      "mesh": 0,
+      "name": "Sand_Rippled_32m",
+      "before_sha256": "9a1b93ed11c3982f8f59a94b36ba94ca9abe6eee2dd2bb9a1015e6a05541a41b",
+      "after_sha256": "22aea2936eb518019d703ba6427eccc45bf5b8e92a38053649a508689389b5c7",
+      "unchanged": false
+    },
+    {
+      "mesh": 1,
+      "name": "fish_01_body",
+      "before_sha256": "f6733228b585cd4db8ee22f60cc9bf4b0676edc2fbf6b16d9a7531412e9b1828",
+      "after_sha256": "f6733228b585cd4db8ee22f60cc9bf4b0676edc2fbf6b16d9a7531412e9b1828",
+      "unchanged": true
+    },
+    {
+      "mesh": 2,
+      "name": "fish_01_dorsal",
+      "before_sha256": "cbff0e82a2c18a36387e5fe27c1f757fec254fa3bd835e00d1185672bc7626f9",
+      "after_sha256": "cbff0e82a2c18a36387e5fe27c1f757fec254fa3bd835e00d1185672bc7626f9",
+      "unchanged": true
+    },
+    {
+      "mesh": 3,
+      "name": "fish_01_eye_-1",
+      "before_sha256": "ac9878438960b2957b731a7d4e6e65a9afa3e5ce90bea4d775317de01b3bf519",
+      "after_sha256": "ac9878438960b2957b731a7d4e6e65a9afa3e5ce90bea4d775317de01b3bf519",
+      "unchanged": true
+    },
+    {
+      "mesh": 4,
+      "name": "fish_01_eye_1",
+      "before_sha256": "9b264c3345e224dd1f13ad5d928276dbfb4ad27362cf3fcc931e726622bc74cd",
+      "after_sha256": "9b264c3345e224dd1f13ad5d928276dbfb4ad27362cf3fcc931e726622bc74cd",
+      "unchanged": true
+    },
+    {
+      "mesh": 5,
+      "name": "fish_01_pectoral_-1",
+      "before_sha256": "9aa5a5895d827ce87c261da0a7ee8b0f04716170ddc991995b080c4c59d7b814",
+      "after_sha256": "9aa5a5895d827ce87c261da0a7ee8b0f04716170ddc991995b080c4c59d7b814",
+      "unchanged": true
+    },
+    {
+      "mesh": 6,
+      "name": "fish_01_pectoral_1",
+      "before_sha256": "da8e91d4d95a0fb71cd8ce4f50e56752d144a9d0c5c9108631796d25cfcfb29a",
+      "after_sha256": "da8e91d4d95a0fb71cd8ce4f50e56752d144a9d0c5c9108631796d25cfcfb29a",
+      "unchanged": true
+    },
+    {
+      "mesh": 7,
+      "name": "fish_01_tail",
+      "before_sha256": "4884ae2a77ac1700f9a87eb9a4889a462da8f8300104a770eedf769f88775816",
+      "after_sha256": "4884ae2a77ac1700f9a87eb9a4889a462da8f8300104a770eedf769f88775816",
+      "unchanged": true
+    },
+    {
+      "mesh": 8,
+      "name": "fish_01_ventral",
+      "before_sha256": "b140835473847ccb4e913d9bdd3a978f4f352442c2bc09dedbce5f0628330c18",
+      "after_sha256": "b140835473847ccb4e913d9bdd3a978f4f352442c2bc09dedbce5f0628330c18",
+      "unchanged": true
+    },
+    {
+      "mesh": 9,
+      "name": "fish_02_body",
+      "before_sha256": "cb215f71e70ca8227715a1bd502181aedcb8e2ea959266c2881aec0900cae73c",
+      "after_sha256": "cb215f71e70ca8227715a1bd502181aedcb8e2ea959266c2881aec0900cae73c",
+      "unchanged": true
+    },
+    {
+      "mesh": 10,
+      "name": "fish_02_dorsal",
+      "before_sha256": "2c88b6ee6f03f695b0fe851f2f0eb8e06c58a7befc587057bc80774fba1886eb",
+      "after_sha256": "2c88b6ee6f03f695b0fe851f2f0eb8e06c58a7befc587057bc80774fba1886eb",
+      "unchanged": true
+    },
+    {
+      "mesh": 11,
+      "name": "fish_02_eye_-1",
+      "before_sha256": "ac9878438960b2957b731a7d4e6e65a9afa3e5ce90bea4d775317de01b3bf519",
+      "after_sha256": "ac9878438960b2957b731a7d4e6e65a9afa3e5ce90bea4d775317de01b3bf519",
+      "unchanged": true
+    },
+    {
+      "mesh": 12,
+      "name": "fish_02_eye_1",
+      "before_sha256": "9b264c3345e224dd1f13ad5d928276dbfb4ad27362cf3fcc931e726622bc74cd",
+      "after_sha256": "9b264c3345e224dd1f13ad5d928276dbfb4ad27362cf3fcc931e726622bc74cd",
+      "unchanged": true
+    },
+    {
+      "mesh": 13,
+      "name": "fish_02_pectoral_-1",
+      "before_sha256": "3d79fb17871aa4c93565e4cf91ba3d3cd3ebd2fb51d3bdac8e83d1ad9d738408",
+      "after_sha256": "3d79fb17871aa4c93565e4cf91ba3d3cd3ebd2fb51d3bdac8e83d1ad9d738408",
+      "unchanged": true
+    },
+    {
+      "mesh": 14,
+      "name": "fish_02_pectoral_1",
+      "before_sha256": "41d3ddcbbbb24becee924ddafd89148e8d0995f9b259505ab3eb732ed4f39ab0",
+      "after_sha256": "41d3ddcbbbb24becee924ddafd89148e8d0995f9b259505ab3eb732ed4f39ab0",
+      "unchanged": true
+    },
+    {
+      "mesh": 15,
+      "name": "fish_02_tail",
+      "before_sha256": "84fa5930415197be803ebbd9bca4bbaa15608638d23dafdfb13554383ce56edc",
+      "after_sha256": "84fa5930415197be803ebbd9bca4bbaa15608638d23dafdfb13554383ce56edc",
+      "unchanged": true
+    },
+    {
+      "mesh": 16,
+      "name": "fish_02_ventral",
+      "before_sha256": "fabcac1c0fcfbe13b20e6f91c1f5a6273b88fa247708b6bb3bc0f31f044c4973",
+      "after_sha256": "fabcac1c0fcfbe13b20e6f91c1f5a6273b88fa247708b6bb3bc0f31f044c4973",
+      "unchanged": true
+    },
+    {
+      "mesh": 17,
+      "name": "fish_03_body",
+      "before_sha256": "50da115b2a16b230fad2efdfb9aef5168127fdff0ca960efbe2913672ec2c56b",
+      "after_sha256": "50da115b2a16b230fad2efdfb9aef5168127fdff0ca960efbe2913672ec2c56b",
+      "unchanged": true
+    },
+    {
+      "mesh": 18,
+      "name": "fish_03_dorsal",
+      "before_sha256": "06c3ea16d342468373f4e19b074f3cbc19e3d43ad7e505ca8b0b4ff4fc57d6b7",
+      "after_sha256": "06c3ea16d342468373f4e19b074f3cbc19e3d43ad7e505ca8b0b4ff4fc57d6b7",
+      "unchanged": true
+    },
+    {
+      "mesh": 19,
+      "name": "fish_03_eye_-1",
+      "before_sha256": "ac9878438960b2957b731a7d4e6e65a9afa3e5ce90bea4d775317de01b3bf519",
+      "after_sha256": "ac9878438960b2957b731a7d4e6e65a9afa3e5ce90bea4d775317de01b3bf519",
+      "unchanged": true
+    },
+    {
+      "mesh": 20,
+      "name": "fish_03_eye_1",
+      "before_sha256": "9b264c3345e224dd1f13ad5d928276dbfb4ad27362cf3fcc931e726622bc74cd",
+      "after_sha256": "9b264c3345e224dd1f13ad5d928276dbfb4ad27362cf3fcc931e726622bc74cd",
+      "unchanged": true
+    },
+    {
+      "mesh": 21,
+      "name": "fish_03_pectoral_-1",
+      "before_sha256": "5d23aab9718f4d04538ba7969cf5a2adc90064123de516e1f787e2be8965d08b",
+      "after_sha256": "5d23aab9718f4d04538ba7969cf5a2adc90064123de516e1f787e2be8965d08b",
+      "unchanged": true
+    },
+    {
+      "mesh": 22,
+      "name": "fish_03_pectoral_1",
+      "before_sha256": "194df21b84a08ba2a7a34ade12834cb61d6c7e9b96355487632b0f3d9bd47ced",
+      "after_sha256": "194df21b84a08ba2a7a34ade12834cb61d6c7e9b96355487632b0f3d9bd47ced",
+      "unchanged": true
+    },
+    {
+      "mesh": 23,
+      "name": "fish_03_tail",
+      "before_sha256": "1db8cdb4110a5379872f0e1b35d3a98ca50225e2b6b224598bbbc99e99bd283d",
+      "after_sha256": "1db8cdb4110a5379872f0e1b35d3a98ca50225e2b6b224598bbbc99e99bd283d",
+      "unchanged": true
+    },
+    {
+      "mesh": 24,
+      "name": "fish_03_ventral",
+      "before_sha256": "ccc60858db8cccb947b3378620b7c685461995d983a33ad486d6d69c2ecd5ca1",
+      "after_sha256": "ccc60858db8cccb947b3378620b7c685461995d983a33ad486d6d69c2ecd5ca1",
+      "unchanged": true
+    },
+    {
+      "mesh": 25,
+      "name": "fish_04_body",
+      "before_sha256": "944c7320eb810ea512aa4ae47c0cb7eddc8e08493dd26b94a1da3d7c49d793f9",
+      "after_sha256": "944c7320eb810ea512aa4ae47c0cb7eddc8e08493dd26b94a1da3d7c49d793f9",
+      "unchanged": true
+    },
+    {
+      "mesh": 26,
+      "name": "fish_04_dorsal",
+      "before_sha256": "13d8167595d044efd1450e9fd537dac44aee95ccbf24b5173f8098aaecac7a49",
+      "after_sha256": "13d8167595d044efd1450e9fd537dac44aee95ccbf24b5173f8098aaecac7a49",
+      "unchanged": true
+    },
+    {
+      "mesh": 27,
+      "name": "fish_04_eye_-1",
+      "before_sha256": "ac9878438960b2957b731a7d4e6e65a9afa3e5ce90bea4d775317de01b3bf519",
+      "after_sha256": "ac9878438960b2957b731a7d4e6e65a9afa3e5ce90bea4d775317de01b3bf519",
+      "unchanged": true
+    },
+    {
+      "mesh": 28,
+      "name": "fish_04_eye_1",
+      "before_sha256": "9b264c3345e224dd1f13ad5d928276dbfb4ad27362cf3fcc931e726622bc74cd",
+      "after_sha256": "9b264c3345e224dd1f13ad5d928276dbfb4ad27362cf3fcc931e726622bc74cd",
+      "unchanged": true
+    },
+    {
+      "mesh": 29,
+      "name": "fish_04_pectoral_-1",
+      "before_sha256": "ba7712ecb0abe6312f34f0741fa1d24545bc732017004914a0749e1104b0c78d",
+      "after_sha256": "ba7712ecb0abe6312f34f0741fa1d24545bc732017004914a0749e1104b0c78d",
+      "unchanged": true
+    },
+    {
+      "mesh": 30,
+      "name": "fish_04_pectoral_1",
+      "before_sha256": "94625dd8bb7b4949d347de0abe846eaeeafe0bd17cffc87ecb9cb758fb37f14e",
+      "after_sha256": "94625dd8bb7b4949d347de0abe846eaeeafe0bd17cffc87ecb9cb758fb37f14e",
+      "unchanged": true
+    },
+    {
+      "mesh": 31,
+      "name": "fish_04_tail",
+      "before_sha256": "e414c1c1b5583de64d8a96fa24163f8f4b3b8804ce6668efb7af0dd7d040c8af",
+      "after_sha256": "e414c1c1b5583de64d8a96fa24163f8f4b3b8804ce6668efb7af0dd7d040c8af",
+      "unchanged": true
+    },
+    {
+      "mesh": 32,
+      "name": "fish_04_ventral",
+      "before_sha256": "11bdf0bda9a52645c64b4ea8a60dd7a364e3951bb42208bac52a696d8d6372a0",
+      "after_sha256": "11bdf0bda9a52645c64b4ea8a60dd7a364e3951bb42208bac52a696d8d6372a0",
+      "unchanged": true
+    },
+    {
+      "mesh": 33,
+      "name": "Sand_Horizon_80m",
+      "before_sha256": "7d9118aa7abbf628324425301090faa14ef88ccb4e0d273f79e65300b4d1ad85",
+      "after_sha256": "7d9118aa7abbf628324425301090faa14ef88ccb4e0d273f79e65300b4d1ad85",
+      "unchanged": true
+    },
+    {
+      "mesh": 34,
+      "name": "Hardbottom_Low_Irregular_Limestone",
+      "before_sha256": "e130bc0058be91da38e740a3751891f84f4ac26f4cfa979c7970e59bfd831e4b",
+      "after_sha256": "e130bc0058be91da38e740a3751891f84f4ac26f4cfa979c7970e59bfd831e4b",
+      "unchanged": true
+    },
+    {
+      "mesh": 35,
+      "name": "Coral_Low_Irregular_Encrusting_Mounds",
+      "before_sha256": "89e28a57a8e2ed622a000423ea51abb138abdc0ed4d069d89869a07236a7044b",
+      "after_sha256": "89e28a57a8e2ed622a000423ea51abb138abdc0ed4d069d89869a07236a7044b",
+      "unchanged": true
+    },
+    {
+      "mesh": 36,
+      "name": "Coral_Staghorn_Thicket_00",
+      "before_sha256": "2c22682c40cb60308ca7790ab90b9b0652be9fdfa9f59a0fabfc23b98054f136",
+      "after_sha256": "2c22682c40cb60308ca7790ab90b9b0652be9fdfa9f59a0fabfc23b98054f136",
+      "unchanged": true
+    },
+    {
+      "mesh": 37,
+      "name": "Coral_Staghorn_Thicket_01",
+      "before_sha256": "4451b2307470518c27300da38f088196380f8bac2a0eff5dc3d8edc7dcb948f2",
+      "after_sha256": "4451b2307470518c27300da38f088196380f8bac2a0eff5dc3d8edc7dcb948f2",
+      "unchanged": true
+    },
+    {
+      "mesh": 38,
+      "name": "Coral_Staghorn_Thicket_02",
+      "before_sha256": "454d28cf0c4b92aec15a63dc6e9de3b66f5de40c8379fbad060c9b45a612e86b",
+      "after_sha256": "454d28cf0c4b92aec15a63dc6e9de3b66f5de40c8379fbad060c9b45a612e86b",
+      "unchanged": true
+    },
+    {
+      "mesh": 39,
+      "name": "Coral_Staghorn_Thicket_03",
+      "before_sha256": "2181a9ca1d9ae9c9a1f20f97c35f13c7104b602e2bd6415ab724f8d10c7d498b",
+      "after_sha256": "2181a9ca1d9ae9c9a1f20f97c35f13c7104b602e2bd6415ab724f8d10c7d498b",
+      "unchanged": true
+    },
+    {
+      "mesh": 40,
+      "name": "Coral_Staghorn_Thicket_04",
+      "before_sha256": "b225f8ace9a7601807bb68b08c37912e17b92fd460a2af2313aa351286311e5e",
+      "after_sha256": "b225f8ace9a7601807bb68b08c37912e17b92fd460a2af2313aa351286311e5e",
+      "unchanged": true
+    },
+    {
+      "mesh": 41,
+      "name": "Coral_Staghorn_Thicket_05",
+      "before_sha256": "101122a923a5975ef616e8bf53c5f5bd5e3ed62d18081c2d8a84db000dbf47cd",
+      "after_sha256": "101122a923a5975ef616e8bf53c5f5bd5e3ed62d18081c2d8a84db000dbf47cd",
+      "unchanged": true
+    },
+    {
+      "mesh": 42,
+      "name": "Coral_Staghorn_Thicket_06",
+      "before_sha256": "89f0e6381cd265bae6a6f998ab3f3d7435de0352b25280d85fc57949e6c2690c",
+      "after_sha256": "89f0e6381cd265bae6a6f998ab3f3d7435de0352b25280d85fc57949e6c2690c",
+      "unchanged": true
+    },
+    {
+      "mesh": 43,
+      "name": "Coral_Staghorn_Thicket_07",
+      "before_sha256": "1c3e8d11de86118346cf33b6e8fd14abc0fa27bb63433d95c0ffefe28a9a164f",
+      "after_sha256": "1c3e8d11de86118346cf33b6e8fd14abc0fa27bb63433d95c0ffefe28a9a164f",
+      "unchanged": true
+    },
+    {
+      "mesh": 44,
+      "name": "Coral_Staghorn_Thicket_08",
+      "before_sha256": "20e380500ee3f89792d744dae4922aa1d07b9fa72e9415ab2fef8e2229186a79",
+      "after_sha256": "20e380500ee3f89792d744dae4922aa1d07b9fa72e9415ab2fef8e2229186a79",
+      "unchanged": true
+    },
+    {
+      "mesh": 45,
+      "name": "Coral_Staghorn_Thicket_09",
+      "before_sha256": "e772381fe91b85306f062522ea38f69a875178691f7d1753575682c0221cfa23",
+      "after_sha256": "e772381fe91b85306f062522ea38f69a875178691f7d1753575682c0221cfa23",
+      "unchanged": true
+    },
+    {
+      "mesh": 46,
+      "name": "Coral_Staghorn_Thicket_10",
+      "before_sha256": "4407836ff5aa2810066bedb682536fc7ef768bbddce84db8dac7b8d6c98279f3",
+      "after_sha256": "4407836ff5aa2810066bedb682536fc7ef768bbddce84db8dac7b8d6c98279f3",
+      "unchanged": true
+    },
+    {
+      "mesh": 47,
+      "name": "Coral_Staghorn_Thicket_11",
+      "before_sha256": "f36dfa35a8b3aec0568ef8aad95bb20107913f58908f0416100addd6dbce4d9d",
+      "after_sha256": "f36dfa35a8b3aec0568ef8aad95bb20107913f58908f0416100addd6dbce4d9d",
+      "unchanged": true
+    },
+    {
+      "mesh": 48,
+      "name": "Coral_Staghorn_Thicket_12",
+      "before_sha256": "7a5f2c22ed3bf62c66bda68e2140f3b5e5bab102870bd14f01725a27fe60db61",
+      "after_sha256": "7a5f2c22ed3bf62c66bda68e2140f3b5e5bab102870bd14f01725a27fe60db61",
+      "unchanged": true
+    },
+    {
+      "mesh": 49,
+      "name": "Coral_Staghorn_Thicket_13",
+      "before_sha256": "40085dd01c0e37828034b7a4018e9ecb8b9386d721b62bc7bbe553e64d2480a0",
+      "after_sha256": "40085dd01c0e37828034b7a4018e9ecb8b9386d721b62bc7bbe553e64d2480a0",
+      "unchanged": true
+    },
+    {
+      "mesh": 50,
+      "name": "Coral_Staghorn_Thicket_14",
+      "before_sha256": "63afac590bbde8348795e09458a93ccdf6049a56497de640229dc2f0315d0e68",
+      "after_sha256": "63afac590bbde8348795e09458a93ccdf6049a56497de640229dc2f0315d0e68",
+      "unchanged": true
+    },
+    {
+      "mesh": 51,
+      "name": "Coral_Staghorn_Thicket_15",
+      "before_sha256": "539fd2bfdb6d27f9b177b25f603e3618a1b909f07aacd75a3ed805b876b06e1f",
+      "after_sha256": "539fd2bfdb6d27f9b177b25f603e3618a1b909f07aacd75a3ed805b876b06e1f",
+      "unchanged": true
+    },
+    {
+      "mesh": 52,
+      "name": "Coral_Staghorn_Thicket_16",
+      "before_sha256": "d9768cbc8e2656c83692b1c850d72564919e4cdbec94e61fe2bbfd4c0ce6d7fb",
+      "after_sha256": "d9768cbc8e2656c83692b1c850d72564919e4cdbec94e61fe2bbfd4c0ce6d7fb",
+      "unchanged": true
+    },
+    {
+      "mesh": 53,
+      "name": "Coral_Staghorn_Thicket_17",
+      "before_sha256": "846145cc7d7862713806958226eacf7ed1bde1c0159a51acec73ab47079f90f1",
+      "after_sha256": "846145cc7d7862713806958226eacf7ed1bde1c0159a51acec73ab47079f90f1",
+      "unchanged": true
+    },
+    {
+      "mesh": 54,
+      "name": "Coral_Staghorn_Thicket_18",
+      "before_sha256": "50a0d333c747c4994abf135f6c500b05f2f9b2ac627680c86c71d7232eb8da0a",
+      "after_sha256": "50a0d333c747c4994abf135f6c500b05f2f9b2ac627680c86c71d7232eb8da0a",
+      "unchanged": true
+    },
+    {
+      "mesh": 55,
+      "name": "Coral_Staghorn_Thicket_19",
+      "before_sha256": "cb19c48f976de62569021687197fae3faa8c51654a1988bdd20f9488b849c92d",
+      "after_sha256": "cb19c48f976de62569021687197fae3faa8c51654a1988bdd20f9488b849c92d",
+      "unchanged": true
+    },
+    {
+      "mesh": 56,
+      "name": "Coral_Staghorn_Thicket_20",
+      "before_sha256": "126ff06c9cf8ba3df6d5f8d0dd9591c44bb004389e48c53074b64e569800ff3e",
+      "after_sha256": "126ff06c9cf8ba3df6d5f8d0dd9591c44bb004389e48c53074b64e569800ff3e",
+      "unchanged": true
+    },
+    {
+      "mesh": 57,
+      "name": "Coral_Staghorn_Thicket_21",
+      "before_sha256": "a60779d1e0072c1946a696cceff5455fbc29853512eccc18011e166b22a3dbbb",
+      "after_sha256": "a60779d1e0072c1946a696cceff5455fbc29853512eccc18011e166b22a3dbbb",
+      "unchanged": true
+    },
+    {
+      "mesh": 58,
+      "name": "Depth_Hardbottom_Closed_Irregular_Rises",
+      "before_sha256": "d37ef526cf323ce5a3b62c1d66d796a64892834c1515e51b9254f77195f6afa2",
+      "after_sha256": "d37ef526cf323ce5a3b62c1d66d796a64892834c1515e51b9254f77195f6afa2",
+      "unchanged": true
+    },
+    {
+      "mesh": 59,
+      "name": "Original_Limestone_Shared_Distant_Support",
+      "before_sha256": "a537deea3e028812524e2c87350f6b6dda1eb576aead086dca757eb1d67dc8a2",
+      "after_sha256": "a537deea3e028812524e2c87350f6b6dda1eb576aead086dca757eb1d67dc8a2",
+      "unchanged": true
+    }
+  ]
+}

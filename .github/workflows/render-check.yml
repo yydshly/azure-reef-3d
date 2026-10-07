@@ -10,8 +10,8 @@ on:
       view_set:
         description: Explicit fixed camera set
         type: choice
-        options: [legacy, passage]
-        default: legacy
+        options: [passage, legacy]
+        default: passage
 permissions:
   contents: read
 concurrency:

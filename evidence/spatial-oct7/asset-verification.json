@@ -1,0 +1,30 @@
+{
+  "baseline_sha256": "a5d9412ede847ba165f1198967b487dd3787e3f71e5e25ed30831f40a7ac5a0b",
+  "candidate_sha256": "c12624b2f1da3add8f801421b161daaa5ef9177f7f6edf8ce1a3d1ae7caf66dd",
+  "preserved_original": {
+    "accessors": true,
+    "bufferViews": true,
+    "nodes": true,
+    "meshes": true,
+    "materials": true,
+    "images": true,
+    "textures": true,
+    "binary_prefix": true
+  },
+  "candidate_bytes": 29534488,
+  "source_under_30MB": true,
+  "added_nodes": 5,
+  "added_meshes": 1,
+  "new_materials_or_images": false,
+  "terrain_vertices": 10190,
+  "terrain_triangles": 20376,
+  "nonmanifold_edges": 0,
+  "inconsistent_edge_orientations": 0,
+  "outward_signed_volume_m3": 1982.3421630859375,
+  "minimum_triangle_area_m2": 0.11500000208616257,
+  "maximum_normal_length_error": 1.7881393432617188e-07,
+  "outer_perimeter_top_y": -0.4000000059604645,
+  "existing_far_floor_y": -0.2199999988079071,
+  "all_appended_vertices_finite": true,
+  "guide_preservation": "All original geometry, transforms and binary bytes are unchanged, including the original five-stop anchors and sand correction."
+}

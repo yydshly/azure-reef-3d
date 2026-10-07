@@ -1,0 +1,41 @@
+{
+  "source_sha256": "ce6a7bc4d005ecd794d378c792d5d05d79f4683b10a2d3446333e6053ead4d21",
+  "source_bytes": 28962072,
+  "unique_mesh_triangle_count": 581780,
+  "instanced_scene_triangle_count": 1244986,
+  "target_triangle_count": 20088,
+  "target_mesh": 37,
+  "source_material": 3,
+  "variants": {
+    "fine": {
+      "path": "fine.glb",
+      "sha256": "0c1088e52375d59e2c08d115655f43cf645c2b94940b9ccb8afe33280df93685",
+      "bytes": 30137252,
+      "added_bytes": 1175180,
+      "target_material_index": 4,
+      "target_material_name": "Staghorn01 | fine surface test",
+      "original_binary_prefix_identical": true,
+      "all_accessor_hashes_identical": true,
+      "all_nodes_scenes_accessors_identical": true,
+      "all_original_materials_identical": true,
+      "only_target_material_assignment_changed": true,
+      "geometry_uv_normals_colors_indices_unchanged": true,
+      "normal_scale": 0.47999998927116394
+    },
+    "soft": {
+      "path": "soft.glb",
+      "sha256": "18c2036220dfa1743b31ed41e1ee78f9fd670c386c931145dde9fa2b32e3a358",
+      "bytes": 30281664,
+      "added_bytes": 1319592,
+      "target_material_index": 4,
+      "target_material_name": "Staghorn01 | soft surface test",
+      "original_binary_prefix_identical": true,
+      "all_accessor_hashes_identical": true,
+      "all_nodes_scenes_accessors_identical": true,
+      "all_original_materials_identical": true,
+      "only_target_material_assignment_changed": true,
+      "geometry_uv_normals_colors_indices_unchanged": true,
+      "normal_scale": 0.47999998927116394
+    }
+  }
+}

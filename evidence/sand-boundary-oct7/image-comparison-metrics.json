@@ -1,0 +1,35 @@
+{
+  "opening": {
+    "dimensions": [
+      1120,
+      700
+    ],
+    "mean_absolute_rgb_delta_8bit": 0.0075939625850340135,
+    "fraction_pixels_any_channel_delta_over_3": 0.001,
+    "fraction_pixels_any_channel_delta_over_10": 0.00010714285714285714,
+    "before_sha256": "99d5c06164d5deac89574c9c53f94ab7190b25096024ca28d738da0cda45f52d",
+    "after_sha256": "df82867c7e9346df26b68358fc8d88e240b31bbb033671c62494773d30130219"
+  },
+  "reverse": {
+    "dimensions": [
+      1120,
+      700
+    ],
+    "mean_absolute_rgb_delta_8bit": 0.01482610544217687,
+    "fraction_pixels_any_channel_delta_over_3": 0.0024744897959183675,
+    "fraction_pixels_any_channel_delta_over_10": 0.0002576530612244898,
+    "before_sha256": "b6988d1a3fa38181f15923944c286f3af8b919d1116cf1f4e8b44ca370e586f1",
+    "after_sha256": "d05c36427606202f9966e450916dadf8185ea14d43aab32e3a2db3f20f2643e1"
+  },
+  "edge": {
+    "dimensions": [
+      1120,
+      700
+    ],
+    "mean_absolute_rgb_delta_8bit": 1.7952937925170067,
+    "fraction_pixels_any_channel_delta_over_3": 0.04551658163265306,
+    "fraction_pixels_any_channel_delta_over_10": 0.015141581632653061,
+    "before_sha256": "1bb3a62d84f071adfc249c0cbc500e8bbb50a06c480c483c70ab374aba85e9da",
+    "after_sha256": "b68c1af04ba3c930c08b091e160a2a6bfc22245f1aebb6c522fbab652420ff0c"
+  }
+}

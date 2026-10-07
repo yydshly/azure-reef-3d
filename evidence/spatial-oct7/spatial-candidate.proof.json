@@ -1,0 +1,299 @@
+{
+  "input_sha256": "a5d9412ede847ba165f1198967b487dd3787e3f71e5e25ed30831f40a7ac5a0b",
+  "output_sha256": "c12624b2f1da3add8f801421b161daaa5ef9177f7f6edf8ce1a3d1ae7caf66dd",
+  "bytes": 29534488,
+  "original_binary_prefix_unchanged": true,
+  "original_nodes_unchanged": true,
+  "original_meshes_unchanged": true,
+  "original_materials_images_textures_unchanged": true,
+  "new_vertices": 10190,
+  "new_triangles": 20376,
+  "closed_manifold_edge_incidence": {
+    "min": 2,
+    "max": 2
+  },
+  "terrain_bounds": [
+    [
+      -24.0,
+      -0.8600000143051147,
+      -61.0
+    ],
+    [
+      24.0,
+      2.0399999618530273,
+      -11.0
+    ]
+  ],
+  "terrain_top_triangles": 19200,
+  "terrain_top_vertices": 9797,
+  "perimeter_top_y_min_max": [
+    -0.4000000059604645,
+    -0.4000000059604645
+  ],
+  "lobes": [
+    [
+      -11.4,
+      -20.5,
+      4.9,
+      8.0,
+      0.82,
+      0.18
+    ],
+    [
+      -10.5,
+      -32.0,
+      5.3,
+      8.8,
+      1.72,
+      -0.32
+    ],
+    [
+      -17.0,
+      -42.5,
+      4.5,
+      8.1,
+      1.28,
+      -0.52
+    ],
+    [
+      10.1,
+      -27.5,
+      6.0,
+      8.0,
+      1.12,
+      0.42
+    ],
+    [
+      12.6,
+      -43.0,
+      5.7,
+      10.0,
+      2.32,
+      -0.27
+    ],
+    [
+      -1.1,
+      -53.5,
+      10.2,
+      4.8,
+      1.33,
+      0.22
+    ],
+    [
+      -18.1,
+      -29.0,
+      3.1,
+      6.0,
+      0.47,
+      0.73
+    ],
+    [
+      20.0,
+      -33.5,
+      2.4,
+      5.0,
+      0.56,
+      -0.32
+    ]
+  ],
+  "colonies": [
+    {
+      "node": {
+        "name": "Spatial_Staghorn_Linked_00",
+        "mesh": 36,
+        "translation": [
+          -6.329135921253752,
+          1.335,
+          -31.82973653518211
+        ],
+        "rotation": [
+          0,
+          0.14943813247359922,
+          0,
+          0.9887710779360422
+        ],
+        "scale": [
+          0.91,
+          0.91,
+          0.91
+        ]
+      },
+      "source": "Coral_Staghorn_Thicket_00",
+      "center": [
+        -10.0,
+        1.39,
+        -29.8
+      ],
+      "support": "Integrated flat center radius 1.55 m blending over 1.05 m into continuous limestone; branch bases embedded .055 m"
+    },
+    {
+      "node": {
+        "name": "Spatial_Staghorn_Linked_01",
+        "mesh": 42,
+        "translation": [
+          12.562602821830682,
+          0.6449999999999999,
+          -33.297938389440695
+        ],
+        "rotation": [
+          0,
+          0.644217687237691,
+          0,
+          0.7648421872844885
+        ],
+        "scale": [
+          0.72,
+          0.72,
+          0.72
+        ]
+      },
+      "source": "Coral_Staghorn_Thicket_06",
+      "center": [
+        11.0,
+        0.7,
+        -30.0
+      ],
+      "support": "Integrated flat center radius 1.55 m blending over 1.05 m into continuous limestone; branch bases embedded .055 m"
+    },
+    {
+      "node": {
+        "name": "Spatial_Staghorn_Linked_02",
+        "mesh": 53,
+        "translation": [
+          10.059570628050858,
+          1.985,
+          -38.61963092142342
+        ],
+        "rotation": [
+          0,
+          -0.479425538604203,
+          0,
+          0.8775825618903728
+        ],
+        "scale": [
+          0.89,
+          0.89,
+          0.89
+        ]
+      },
+      "source": "Coral_Staghorn_Thicket_17",
+      "center": [
+        12.0,
+        2.04,
+        -44.0
+      ],
+      "support": "Integrated flat center radius 1.55 m blending over 1.05 m into continuous limestone; branch bases embedded .055 m"
+    },
+    {
+      "node": {
+        "name": "Spatial_Staghorn_Linked_03",
+        "mesh": 44,
+        "translation": [
+          -7.3490466921835615,
+          0.49500000000000005,
+          -54.65017314783009
+        ],
+        "rotation": [
+          0,
+          0.912763940260521,
+          0,
+          0.4084874408841574
+        ],
+        "scale": [
+          0.78,
+          0.78,
+          0.78
+        ]
+      },
+      "source": "Coral_Staghorn_Thicket_08",
+      "center": [
+        -7.0,
+        0.55,
+        -53.0
+      ],
+      "support": "Integrated flat center radius 1.55 m blending over 1.05 m into continuous limestone; branch bases embedded .055 m"
+    }
+  ],
+  "route": [
+    {
+      "id": "start",
+      "position": [
+        1.5,
+        2.1,
+        4.8
+      ],
+      "target": [
+        -0.5,
+        0.8,
+        -6
+      ]
+    },
+    {
+      "id": "mid",
+      "position": [
+        0,
+        2.7,
+        -18
+      ],
+      "target": [
+        -1.5,
+        1,
+        -31
+      ]
+    },
+    {
+      "id": "open",
+      "position": [
+        -3.8,
+        3.6,
+        -36
+      ],
+      "target": [
+        0,
+        1.2,
+        -50
+      ]
+    },
+    {
+      "id": "look-back",
+      "position": [
+        -3.8,
+        3.6,
+        -36
+      ],
+      "target": [
+        0,
+        0.9,
+        -8
+      ]
+    }
+  ],
+  "waypoints": [
+    [
+      1.5,
+      2.1,
+      4.8
+    ],
+    [
+      0.2,
+      2.4,
+      -8
+    ],
+    [
+      0,
+      2.7,
+      -18
+    ],
+    [
+      -1.5,
+      3.1,
+      -27
+    ],
+    [
+      -3.8,
+      3.6,
+      -36
+    ]
+  ],
+  "provenance": "Original deterministic inferred limestone composition and four shared original procedural staghorn meshes. No paid assets, scans, species additions, or measured-habitat claims."
+}

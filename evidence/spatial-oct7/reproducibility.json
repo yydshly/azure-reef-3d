@@ -1,0 +1,7 @@
+{
+  "baseline_commit": "f4f910d",
+  "baseline_sha256": "a5d9412ede847ba165f1198967b487dd3787e3f71e5e25ed30831f40a7ac5a0b",
+  "candidate_sha256": "c12624b2f1da3add8f801421b161daaa5ef9177f7f6edf8ce1a3d1ae7caf66dd",
+  "rebuilt_sha256": "c12624b2f1da3add8f801421b161daaa5ef9177f7f6edf8ce1a3d1ae7caf66dd",
+  "byte_identical": true
+}

@@ -1,0 +1,26 @@
+{
+  "camera_three_xyz": [
+    -20.5,
+    1.6,
+    0
+  ],
+  "target_three_xyz": [
+    -6.9,
+    0.3,
+    0
+  ],
+  "target_radius": 6.906518659932804,
+  "target_xz_radius": 6.9,
+  "camera_target_distance_m": 13.661991070118585,
+  "polar_angle_degrees": 84.53978740785165,
+  "runtime_limits": {
+    "target_radius_max": 7,
+    "target_abs_xz_max": 8,
+    "camera_distance_range": [
+      3.2,
+      22
+    ],
+    "max_polar_degrees": 87.3
+  },
+  "reachable": true
+}

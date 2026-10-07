@@ -1,5 +1,5 @@
 {
-  "source_commit": "084c82e9a2f5a9df2582ecfcfb025ec83833dc2e",
+  "source_commit": "117079e416ec2f7bf8438074fc2bda772590afe4",
   "previous_export_preserved": "a9dfa703a53077f3a5f82f233cafb9ea65d37dd9",
   "dist_byte_identical": true,
   "published_checkout_modified": false,
@@ -91,6 +91,10 @@
     },
     {
       "change": "Add explicitly requested separate 2.5D display link with owner-only ChatGPT login notice; no model, shader, source-reference or audience changes."
+    },
+    {
+      "source": "117079e416ec2f7bf8438074fc2bda772590afe4",
+      "change": "Accepted bounded spatial passage, sand continuity prerequisite, unchanged-biology terrain extension, real software-WebGL review and corrected guide-height/return-state regressions. Persisted stage evidence, not final realism acceptance."
     }
   ],
   "added_inputs": [

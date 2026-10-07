@@ -1,0 +1,308 @@
+{
+  "mode": "render",
+  "target": "http://127.0.0.1:4173/",
+  "viewSet": "passage",
+  "checkedAt": "2026-10-07T02:47:44.997Z",
+  "checkoutCommit": "f4b602bdd913514d3e18036c1432705cbc884fdf",
+  "sandbox": true,
+  "unsafeGraphicsFlags": false,
+  "limitations": [
+    "Hosted runner rendering is not user-device performance or physical GPU acceptance.",
+    "Screenshots require human visual review; successful rendering alone is not realism acceptance."
+  ],
+  "browserVersion": "153.0.8010.12",
+  "securityFlags": {
+    "sandboxDisabled": false,
+    "gpuSandboxDisabled": false,
+    "unsafeSwiftshader": false,
+    "gpuBlocklistIgnored": false
+  },
+  "webgl2": {
+    "available": true,
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "shadingLanguage": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+    "vendor": "WebKit",
+    "renderer": "WebKit WebGL",
+    "unmaskedVendor": "Google Inc. (Google)",
+    "unmaskedRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "pixel": [
+      51,
+      102,
+      153,
+      255
+    ],
+    "error": 0,
+    "softwareRenderer": true
+  },
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "httpErrors": [],
+  "sourceMatch": {
+    "app.js": {
+      "status": 200,
+      "served": "0089d09b6efcf5414e69d878c3c06e3fba14f13740d6ee8a228324906ff5ac07",
+      "checkout": "0089d09b6efcf5414e69d878c3c06e3fba14f13740d6ee8a228324906ff5ac07"
+    },
+    "model-version.js": {
+      "status": 200,
+      "served": "9bb2544b7d26ec235dd5d068e832711d391174005cb6c1077760cde324a2f975",
+      "checkout": "9bb2544b7d26ec235dd5d068e832711d391174005cb6c1077760cde324a2f975"
+    }
+  },
+  "runtime": {
+    "ready": true,
+    "low": false,
+    "tour": false,
+    "passageProgress": 0,
+    "guide": {
+      "active": true,
+      "index": 0,
+      "playing": false,
+      "paused": false
+    },
+    "fish": 4,
+    "camera": [
+      1.5000000000000004,
+      2.099999999999999,
+      4.800000000000003
+    ],
+    "target": [
+      -0.4999999999999999,
+      0.7999999999999996,
+      -5.999999999999997
+    ]
+  },
+  "actualCanvas": {
+    "width": 1120,
+    "height": 700,
+    "contextLost": false,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+  },
+  "captures": [
+    {
+      "file": "1-departure.png",
+      "sha256": "664677292be5b366b03c71d4d22c5af5ea29ee862522b303ef5e45e552846fe6",
+      "state": {
+        "ready": true,
+        "low": false,
+        "tour": false,
+        "passageProgress": 0,
+        "guide": {
+          "active": false,
+          "index": 0,
+          "playing": false,
+          "paused": true
+        },
+        "fish": 4,
+        "camera": [
+          1.5000000000000004,
+          2.099999999999999,
+          4.800000000000003
+        ],
+        "target": [
+          -0.4999999999999999,
+          0.7999999999999996,
+          -5.999999999999997
+        ]
+      }
+    },
+    {
+      "file": "2-midway.png",
+      "sha256": "b8334f24d2392f562a49ff83cdb063a29a178e37e75121f6fd8eae15417829f3",
+      "state": {
+        "ready": true,
+        "low": false,
+        "tour": false,
+        "passageProgress": 0,
+        "guide": {
+          "active": false,
+          "index": 0,
+          "playing": false,
+          "paused": true
+        },
+        "fish": 4,
+        "camera": [
+          8.881784197001252e-16,
+          2.700000000000001,
+          -18
+        ],
+        "target": [
+          -1.5,
+          1,
+          -31
+        ]
+      }
+    },
+    {
+      "file": "3-look-back.png",
+      "sha256": "f80ae26ba305ea9b3a260baffd1faa26b63dd85a6027ad209968a22a6841e8e7",
+      "state": {
+        "ready": true,
+        "low": false,
+        "tour": false,
+        "passageProgress": 0,
+        "guide": {
+          "active": false,
+          "index": 0,
+          "playing": false,
+          "paused": true
+        },
+        "fish": 4,
+        "camera": [
+          -3.7999999999999954,
+          3.599999999999998,
+          -36
+        ],
+        "target": [
+          0,
+          0.9,
+          -8
+        ]
+      }
+    },
+    {
+      "file": "4-after-animation.png",
+      "sha256": "47219d841dd057ecd147cd65b2af8052d747cc3b4471971524b78e8cbffdfcf7",
+      "state": {
+        "ready": true,
+        "low": false,
+        "tour": false,
+        "passageProgress": 0,
+        "guide": {
+          "active": false,
+          "index": 0,
+          "playing": false,
+          "paused": true
+        },
+        "fish": 4,
+        "camera": [
+          1.5000000000000004,
+          2.099999999999999,
+          4.800000000000003
+        ],
+        "target": [
+          -0.4999999999999999,
+          0.7999999999999996,
+          -5.999999999999997
+        ]
+      }
+    }
+  ],
+  "fixedViewMethod": "Explicit camera/target and guide state through the existing app API; not an assertion that native input or transition smoothness passed.",
+  "plannedViews": [
+    {
+      "name": "departure",
+      "p": [
+        1.5,
+        2.1,
+        4.8
+      ],
+      "t": [
+        -0.5,
+        0.8,
+        -6
+      ]
+    },
+    {
+      "name": "midway",
+      "p": [
+        0,
+        2.7,
+        -18
+      ],
+      "t": [
+        -1.5,
+        1,
+        -31
+      ]
+    },
+    {
+      "name": "look-back",
+      "p": [
+        -3.8,
+        3.6,
+        -36
+      ],
+      "t": [
+        0,
+        0.9,
+        -8
+      ]
+    }
+  ],
+  "animation": {
+    "sampleSeconds": 8,
+    "before": [
+      {
+        "name": "fish_01",
+        "position": [
+          -1.0845383380725822,
+          0.86,
+          3.5929514773110256
+        ]
+      },
+      {
+        "name": "fish_02",
+        "position": [
+          2.9285953889765217,
+          1.4632477988301735,
+          -1.1001416296306814
+        ]
+      },
+      {
+        "name": "fish_03",
+        "position": [
+          -2.7930332753350924,
+          1.2062999751753243,
+          -3.0996151254636968
+        ]
+      },
+      {
+        "name": "fish_04",
+        "position": [
+          5.432585540230773,
+          1.4283198839621594,
+          -1.153355993354586
+        ]
+      }
+    ],
+    "after": [
+      {
+        "name": "fish_01",
+        "position": [
+          -1.0235974297771893,
+          0.86,
+          3.5700342882090044
+        ]
+      },
+      {
+        "name": "fish_02",
+        "position": [
+          2.8725431979835294,
+          1.4559010425928922,
+          -1.1184517415719941
+        ]
+      },
+      {
+        "name": "fish_03",
+        "position": [
+          -2.800950882057994,
+          1.2150520819833026,
+          -3.0459052577042267
+        ]
+      },
+      {
+        "name": "fish_04",
+        "position": [
+          5.479489659176215,
+          1.4226994817363394,
+          -1.1657791773867374
+        ]
+      }
+    ],
+    "positionsChanged": true
+  },
+  "error": "Error: Application constrained the requested camera; not the claimed fixed viewpoint\n    at fixedCamera (file:///home/runner/work/azure-reef-3d/azure-reef-3d/tests/browser/verify-pages.mjs:62:127)\n    at async file:///home/runner/work/azure-reef-3d/azure-reef-3d/tests/browser/verify-pages.mjs:72:55",
+  "passed": false
+}

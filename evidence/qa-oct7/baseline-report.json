@@ -1,0 +1,234 @@
+{
+  "mode": "render",
+  "target": "https://yydshly.github.io/azure-reef-3d/",
+  "checkedAt": "2026-10-07T02:23:40.385Z",
+  "checkoutCommit": "bf8ba59a4badc5f0be604d4edcc905a90f557ae2",
+  "sandbox": true,
+  "unsafeGraphicsFlags": false,
+  "limitations": [
+    "Hosted runner rendering is not user-device performance or physical GPU acceptance.",
+    "Screenshots require human visual review; successful rendering alone is not realism acceptance."
+  ],
+  "browserVersion": "153.0.8010.12",
+  "securityFlags": {
+    "sandboxDisabled": false,
+    "gpuSandboxDisabled": false,
+    "unsafeSwiftshader": false,
+    "gpuBlocklistIgnored": false
+  },
+  "webgl2": {
+    "available": true,
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "shadingLanguage": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+    "vendor": "WebKit",
+    "renderer": "WebKit WebGL",
+    "unmaskedVendor": "Google Inc. (Google)",
+    "unmaskedRenderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+    "pixel": [
+      51,
+      102,
+      153,
+      255
+    ],
+    "error": 0,
+    "softwareRenderer": true
+  },
+  "consoleErrors": [],
+  "pageErrors": [],
+  "failedRequests": [],
+  "httpErrors": [],
+  "sourceMatch": {
+    "app.js": {
+      "status": 200,
+      "served": "ef7a98e60c987005a5f70519b407557297b66e4cb8d1bdb23d70a8f4e0d55c2d",
+      "checkout": "ef7a98e60c987005a5f70519b407557297b66e4cb8d1bdb23d70a8f4e0d55c2d"
+    },
+    "model-version.js": {
+      "status": 200,
+      "served": "86f33db063f8c57b2e35c79d7617ecd7368c9897c4c39bcbc4d211a65697f3fb",
+      "checkout": "86f33db063f8c57b2e35c79d7617ecd7368c9897c4c39bcbc4d211a65697f3fb"
+    }
+  },
+  "runtime": {
+    "ready": true,
+    "low": false,
+    "tour": false,
+    "guide": {
+      "active": true,
+      "index": 0,
+      "playing": false,
+      "paused": false
+    },
+    "fish": 4,
+    "camera": [
+      1.4999999999999996,
+      1.5999999999999994,
+      4.7999999999999945
+    ],
+    "target": [
+      -0.4999999999999999,
+      0.7999999999999996,
+      -5.999999999999997
+    ]
+  },
+  "actualCanvas": {
+    "width": 1120,
+    "height": 700,
+    "contextLost": false,
+    "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)"
+  },
+  "captures": [
+    {
+      "file": "01-opening-guide.png",
+      "sha256": "e6368d6dc691e921fcc5f0f9e49f4fa71312aefcdf11237b00ae6d3ad0593c3d",
+      "state": {
+        "ready": true,
+        "low": false,
+        "tour": false,
+        "guide": {
+          "active": true,
+          "index": 0,
+          "playing": false,
+          "paused": false
+        },
+        "fish": 4,
+        "camera": [
+          1.4999999999999996,
+          1.5999999999999994,
+          4.7999999999999945
+        ],
+        "target": [
+          -0.4999999999999999,
+          0.7999999999999996,
+          -5.999999999999997
+        ]
+      }
+    },
+    {
+      "file": "02-opening-free.png",
+      "sha256": "ce3fd518f040d49e6029a89fd2b85ef33444d9168e3f952ba89897fa6b09f049",
+      "state": {
+        "ready": true,
+        "low": false,
+        "tour": false,
+        "guide": {
+          "active": false,
+          "index": 0,
+          "playing": false,
+          "paused": true
+        },
+        "fish": 4,
+        "camera": [
+          1.4999999999999996,
+          1.5999999999999994,
+          4.7999999999999945
+        ],
+        "target": [
+          -0.4999999999999999,
+          0.7999999999999996,
+          -5.999999999999997
+        ]
+      }
+    },
+    {
+      "file": "03-opening-after-animation.png",
+      "sha256": "1e90e480e299a68a47bc951e8ee321447d24921c717c675efee5d9dd29c03ef4",
+      "state": {
+        "ready": true,
+        "low": false,
+        "tour": false,
+        "guide": {
+          "active": false,
+          "index": 0,
+          "playing": false,
+          "paused": true
+        },
+        "fish": 4,
+        "camera": [
+          1.4999999999999996,
+          1.5999999999999994,
+          4.7999999999999945
+        ],
+        "target": [
+          -0.4999999999999999,
+          0.7999999999999996,
+          -5.999999999999997
+        ]
+      }
+    }
+  ],
+  "animation": {
+    "sampleSeconds": 8,
+    "before": [
+      {
+        "name": "fish_01",
+        "position": [
+          -1.1460700562712218,
+          0.86,
+          3.6142744953506307
+        ]
+      },
+      {
+        "name": "fish_02",
+        "position": [
+          2.9842262248544733,
+          1.4706320464611478,
+          -1.0805970343141682
+        ]
+      },
+      {
+        "name": "fish_03",
+        "position": [
+          -2.7826986467090666,
+          1.1975778480942156,
+          -3.152928475515623
+        ]
+      },
+      {
+        "name": "fish_04",
+        "position": [
+          5.385490571072592,
+          1.4339193079239672,
+          -1.1416587078441092
+        ]
+      }
+    ],
+    "after": [
+      {
+        "name": "fish_01",
+        "position": [
+          -1.0641643543984414,
+          0.86,
+          3.5854929045830386
+        ]
+      },
+      {
+        "name": "fish_02",
+        "position": [
+          2.909961048619648,
+          1.460795494699286,
+          -1.1063800960863854
+        ]
+      },
+      {
+        "name": "fish_03",
+        "position": [
+          -2.7959424082265576,
+          1.2092137036029964,
+          -3.0817551536679395
+        ]
+      },
+      {
+        "name": "fish_04",
+        "position": [
+          5.4482539503763086,
+          1.4264473538765754,
+          -1.1574193135527062
+        ]
+      }
+    ],
+    "positionsChanged": true
+  },
+  "error": "page.waitForFunction: Timeout 45000ms exceeded.\n    at settled (/home/runner/work/azure-reef-3d/azure-reef-3d/tests/browser/verify-pages.mjs:57:41)\n    at /home/runner/work/azure-reef-3d/azure-reef-3d/tests/browser/verify-pages.mjs:62:57",
+  "passed": false
+}

@@ -22,7 +22,7 @@ diffuseColor.rgb *= mix(vec3(.84,.98,1.0),vec3(1.0),clamp(vReefWorld.y/7.0,0.0,1
  material.customProgramCacheKey=()=> 'reefWaterLightV3';
 }
 export function createWaterEnvelope(){
- const material=new THREE.ShaderMaterial({side:THREE.BackSide,depthWrite:false,fog:false,toneMapped:false,uniforms:{deepColor:{value:new THREE.Color('#064358')},upperColor:{value:new THREE.Color('#167f96')}},vertexShader:'varying vec3 waterDirection; void main(){waterDirection=normalize(position);gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.0);}',fragmentShader:`uniform vec3 deepColor;uniform vec3 upperColor;varying vec3 waterDirection;
+ const material=new THREE.ShaderMaterial({side:THREE.BackSide,depthWrite:false,fog:false,toneMapped:false,uniforms:{deepColor:{value:new THREE.Color('#06364f')},upperColor:{value:new THREE.Color('#247b9d')}},vertexShader:'varying vec3 waterDirection; void main(){waterDirection=normalize(position);gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.0);}',fragmentShader:`uniform vec3 deepColor;uniform vec3 upperColor;varying vec3 waterDirection;
 void main(){float overhead=smoothstep(-.08,.8,normalize(waterDirection).y);gl_FragColor=vec4(mix(deepColor,upperColor,overhead),1.0);
 #include <colorspace_fragment>
 }`});

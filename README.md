@@ -14,7 +14,7 @@
 
 A static, genuine-3D reef scene with a five-stop Chinese beginner guide. The guide connects camera positions and visible labels to explanations of reef context, sand/hardbottom, coral animals, generic fish, and light/water. Sources and modeling limits are available in the interface.
 
-This export includes source commit `084c82e9a2f5a9df2582ecfcfb025ec83833dc2e`. The scene/model baseline is recorded in `docs/source-baseline-sha256.json`; later GitHub interface and verification-tool changes are recorded separately in `docs/export-changes.json`.
+This export includes source commit `117079e416ec2f7bf8438074fc2bda772590afe4`. The scene/model baseline is recorded in `docs/source-baseline-sha256.json`; GitHub interface and verification-tool changes are recorded in `docs/export-changes.json`.
 
 ## Run the exact snapshot
 
@@ -161,10 +161,26 @@ Offline evidence contains lighting, fog and authored PBR shading, but no project
 
 Model packages now have immutable content/version URLs. Pages responses were observed with a 600-second cache lifetime, so glTF and all of its binary/texture dependencies move together; the previous fixed URLs remain valid. Old versioned directories must not be overwritten while cached clients may still reference them. The version identity includes the source GLB and packing implementation.
 
-## Current exact model reproduction
+## Historical junction model reproduction
 
 Use `modeling/junction-repair/README.md` for the accepted correction and verified deterministic rebuild, then run `compact_source_model.py` as documented to remove only unused source storage. The preceding GLB is in this repository’s history; earlier pipelines and inputs remain preserved. `dist/model-version.js` selects one immutable model directory containing all glTF dependencies. Legacy fixed paths are retained for cached clients.
 
 ## Separate 2.5D display
 
 页面新增“图片动画展示（2.5D）”入口，打开既有私有展示站 https://azure-coral-garden.yydshly.chatgpt.site/ 。该站仍需要 ChatGPT 登录且仅项目所有者可见。它仅用于独立效果呈现，不作为科学资料或三维建模参考；访问权限及托管位置均未改变。
+
+## Sand-boundary continuity correction
+
+A reachable low orbit view exposed a dark rectangular gap: the outer edge of the 32 m sand grid sat 3.84–12.16 cm above the far floor. The accepted patch smoothly blends only a 2 m perimeter band onto that same floor and matches boundary normals. Core sand, guide anchors, biology, rocks, material maps and camera/light settings remain unchanged. Matched offline views show the cut disappear; the opening and main reef composition are essentially unchanged. This is a local continuity correction, not overall realism acceptance. The separate surface-map experiments were rejected and are not included in the runtime model.
+
+## Separate image-animation presentation
+
+[图片动画展示（2.5D）](https://azure-coral-garden.yydshly.chatgpt.site/) remains a separate private Site, requiring ChatGPT login and visible only to its owner. The public 3D page links to it as a separate presentation only; it is not a modeling or scientific reference; linking does not make the earlier Site public or migrate its assets.
+
+## Spatial iteration (October 7)
+
+This iteration extends the existing reef into a composed sand passage with low irregular limestone margins, three spatial viewpoints, and a pausable outward/return camera route. The five-stop Chinese beginner guide remains available. Geometry source and reproducible checks are in modeling/spatial-oct7 and evidence/spatial-oct7; the sand correction is a prerequisite. Actual Chromium/SwiftShader CI captured departure, midway and look-back; a subsequent bounded opening/seabed-guide recheck passed after fixing the target-height conflict. See evidence/spatial-oct7/browser for exact sources, failed and passed reports, and screenshots. Overall natural realism and user-device performance remain unaccepted. Offline evidence uses historical lighting and contains no runtime caustics.
+
+## Current model reconstruction and stage record
+
+Use the portable sand-boundary prerequisite and spatial extension described in `modeling/sand-boundary-oct7/README.md` and `modeling/spatial-oct7/README.md`. Prior accepted input models remain available in repository history; earlier pipelines/fixtures are preserved. `evidence/qa-oct7/README.md` records the separate QA commits, unmodified browser screenshots, failures, targeted fix and retest. Real software WebGL rendering is confirmed for those recorded versions; user-device FPS and whole-scene natural realism remain unaccepted.

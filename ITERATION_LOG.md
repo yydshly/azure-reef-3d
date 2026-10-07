@@ -73,3 +73,43 @@ The earlier offline comparison did not contain projected caustics. Actual assign
 Release integrity: observed Pages cache headers were max-age=600 on independently cached model resources. The runtime now selects one immutable versioned glTF package with all dependencies under the same directory; previous fixed URLs are preserved for cached clients. Deployment pruning reduces active binary data to 22,531,288 bytes without changing any live attribute/index byte or world transform. Final full-period routes, anchor rays, five-stop app wiring, reduced motion, low mode, explicit WebGL failure and structural water-light checks pass; no live browser GPU claim is added.
 
 The first source push was rejected with `artifacts_git_receive_pack_object_too_large` because the archival 47 MB model retained old unreferenced geometry. No failed build was deployed. A deterministic compaction step reduced the distributed GLB to 28,962,072 bytes, SHA-256 `ce6a7bc4d005ecd794d378c792d5d05d79f4683b10a2d3446333e6053ead4d21`; loaded active geometry/index bytes and world transforms remain identical. The unpublished local commit was amended, and the immutable model directory was regenerated from this accepted-size source. Prior released baselines and the archival candidate hash are preserved.
+
+## 2026-10-07 · Surface experiment and current review access
+
+The existing cloud-browser tab was reloaded through the supported browser controls. It still reports that a WebGL2 context cannot be created. No blocked local browser launch, flag change or security workaround was retried. Real-time water, animation and device performance remain unverified.
+
+Two original coral normal/roughness variants were compared on one thicket, with geometry, UVs, vertex colors, base color, cameras and lighting fixed. The actual assigned material was inspected, and target normal strength was held at the runtime-equivalent 0.36. Close, reverse, opening and normal-disabled controls showed no convincing visible gain. Both variants were rejected; neither is in the published model. This prevents a numerical-only or imperceptible change being presented as visual progress.
+
+The new NOAA status-review reference describes tip-directed, bract-like radial corallites; the current planar UVs do not reproduce that orientation. Its 0.25–1.5 cm branch-diameter range also differs from the current NOAA species page's 1–3 inches. The reference page now exposes that disagreement and stops treating the model dimensions as calibrated. No arbitrary rescaling was applied.
+
+### Accepted sand continuity test
+
+The 32 m ripple grid's perimeter was 3.84–12.16 cm above the existing far floor. Fixed corridor views barely exposed it, so they were used as preservation checks. A reachable low orbit view, camera [-20.5,1.6,0] toward [-6.9,.3,0], visibly showed a dark cut across the foreground. Blending only the outer 2 m band removes that cut without a new trench or halo. All 460 boundary vertices now meet the far-floor height/normals exactly; 10,000 core sand vertices and all 59 other meshes retain their original data. Existing support perimeters remain buried. Owner and asset review both inspected the actual matched images.
+
+The final candidate is 28,962,080 bytes, SHA-256 a5d9412ede847ba165f1198967b487dd3787e3f71e5e25ed30831f40a7ac5a0b. Guide anchor visibility, full fish routes, active-scene externalization, five-stop wiring, reduced motion and explicit WebGL failure checks pass. These checks do not claim a live browser-render pass. Publication is held while the coordinated GitHub/desktop baseline review establishes the exact version under test.
+
+The beginner guide now describes larval settlement on hard surfaces, rather than implying every adult coral must be firmly attached. The current NOAA page and status review remain linked; the latter explicitly allows staghorn colonies that are not firmly attached.
+
+### First real runtime evidence (baseline only)
+
+GitHub Actions run 37561682524 created a WebGL2 context with Chromium 153 and ANGLE/Vulkan SwiftShader while retaining browser and GPU sandboxes. The public baseline model loaded, four fish changed positions across the eight-second sample, and recorded console/page/request errors were zero. Three opening screenshots were obtained; a later camera-settle timeout does not invalidate those captures. This establishes actual software-rendered browser/shader evidence, not user-device GPU performance. The source owner inspected the free opening screenshot: overly dark, hard-edged shadows, repetitive branch silhouettes, a simple water horizon and coarse fish remain visible limitations. Sand caustics are visible in the still; their natural motion is not established by that image. The sand candidate has not yet been tested by this route.
+
+## 2026-10-07 · Spatial composition candidate following actual browser review
+
+The first real browser image established that the current composition still reads as a small, dense foreground exhibit. The user explicitly rejected that scale and asked for an expansive, quiet, deep-blue experience. The sand-edge correction is retained inside this candidate rather than released as a standalone answer to that request.
+
+The new composed route moves from the original reef edge through an open sand ribbon toward distant, irregular low limestone relief, then turns back toward the original coral. It preserves the original biological meshes and five teaching stops. The route is about forty scene units long, not a surveyed transect or certified dive route. NOAA's Florida Keys coral-reef description supports alternating reef relief and sediment channels; the exact geometry and placement remain original interpretation, not a Looe Key reconstruction. No additional species or new biome is claimed.
+
+Runtime changes add a controllable forward/return passage, three spatial viewpoints and a larger free-camera target area. The last part rotates the view at a safe nonzero look distance instead of passing the target through the camera. Direct light is reduced and diffuse fill increased to address the black shadow blanket in the actual baseline; the shadow map follows the camera so distant terrain does not abruptly lose shadows. Slightly cooler water and lower artistic fog density are candidates for distant-layer readability, not calibrated underwater optics.
+
+Acceptance gates: inspect actual WebGL departure, midway and look-back views; demonstrate continuous terrain and distinct near/mid/far silhouettes; retain a clear camera corridor without new floating joints; preserve biological geometry, complete fish routes, five-stop guide, pause/return and reduced-motion behavior. Source tests and offline images alone cannot accept the visual result. Whole-scene realism remains open until those images are reviewed.
+
+A separate user-requested link presents the earlier private image-animation Site. It is labeled “图片动画展示（2.5D）” with a login/owner-only hint. It is not a scientific or modeling reference, and its audience and assets are unchanged.
+
+### Actual candidate browser result and control fixes
+
+Run 37563565356 captured departure, midway and look-back using the exact requested cameras in Chromium/SwiftShader. The source owner inspected all three. The route and larger terrain provide real spatial depth, but the middle is visually sparse and repeated rounded relief/branch forms still resemble a staged scene. This is accepted as an incremental spatial improvement, not completion of the overall experience. The full run failed at a later guide-camera assertion: the existing target-height clamp contradicted the seabed guide’s y=.02 target. Lowering the allowed target minimum to0 resolves that concrete conflict. Source regression now invokes the actual change handler and checks the intended target. Return-trip pause/resume also preserves travel direction. Both normal and reduced-motion source tests pass. A final bounded browser recheck remains pending before publication.
+
+### Confirmed bounded release
+
+Run 37564502286 passed the opening and corrected seabed-guide checks on source a19d100. Actual target.y was0.019999999999999997; both labels and the guide card were visible, and all recorded runtime/request error lists were empty. The owner reviewed the screenshot. This closes the known guide-coordinate defect, not the whole visual goal. The next evidence-based weakness is disconnected, mound-like hardbottom: two inspected NOAA aerial views show connected irregular reef masses separated by winding sediment channels. Future terrain work must improve that structural relationship before adding more colonies. No new geometry was introduced after this browser confirmation.

@@ -1,0 +1,57 @@
+{
+  "model_sha256": "c12624b2f1da3add8f801421b161daaa5ef9177f7f6edf8ce1a3d1ae7caf66dd",
+  "curve": "THREE.CatmullRomCurve3 centripetal getPointAt",
+  "samples": 1001,
+  "static_mesh_objects": 60,
+  "minimum_sampled_clearance": {
+    "distance": 1.020679235458374,
+    "sample": 412,
+    "progress": 0.412,
+    "camera_three": [
+      0.12369313591501019,
+      2.5127969228601534,
+      -12.151343953434182
+    ],
+    "object": "Depth_Staghorn_Linked_01_0",
+    "nearest_three": [
+      0.34642016887664795,
+      1.5167334079742432,
+      -12.157366752624512
+    ]
+  },
+  "maximum_sample_spacing_m": 0.041401374033193765,
+  "conservative_path_clearance_m": 0.9899785484417771,
+  "camera_sphere_radius_m": 0.45,
+  "camera_sphere_has_clearance": true,
+  "added_colony_support_checks": [
+    {
+      "object": "Spatial_Staghorn_Linked_00",
+      "basal_vertices_checked": 167,
+      "maximum_root_above_rock_m": -0.01676476001739502,
+      "minimum_root_above_rock_m": -0.07182431221008301
+    },
+    {
+      "object": "Spatial_Staghorn_Linked_01",
+      "basal_vertices_checked": 272,
+      "maximum_root_above_rock_m": -0.022868752479553223,
+      "minimum_root_above_rock_m": -0.07583701610565186
+    },
+    {
+      "object": "Spatial_Staghorn_Linked_02",
+      "basal_vertices_checked": 173,
+      "maximum_root_above_rock_m": -0.014978408813476562,
+      "minimum_root_above_rock_m": -0.0756765604019165
+    },
+    {
+      "object": "Spatial_Staghorn_Linked_03",
+      "basal_vertices_checked": 141,
+      "maximum_root_above_rock_m": -0.019971787929534912,
+      "minimum_root_above_rock_m": -0.07091698050498962
+    }
+  ],
+  "exclusions": [
+    "Animated fish: checked by runtime route QA, not treated as terrain obstacles"
+  ],
+  "coordinate_mapping": "glTF [x,y,z] to Blender [x,-z,y]",
+  "method": "Blender BVHTree exact nearest mesh-face distance; dense arc-length Three.js centripetal CatmullRom samples; conservative spacing and curvature allowance."
+}

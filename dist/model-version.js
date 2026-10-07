@@ -1,1 +1,1 @@
-export const MODEL_URL = './assets/models/2b510fa621081745/reef.gltf';
+export const MODEL_URL = './assets/models/68e02c88ba14a2c2/reef.gltf';
