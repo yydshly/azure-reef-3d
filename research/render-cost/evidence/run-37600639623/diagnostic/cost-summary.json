@@ -1,0 +1,110 @@
+[
+  {
+    "mode": "default",
+    "buffer": [
+      1120,
+      700
+    ],
+    "shadow": true,
+    "render": {
+      "frame": 24,
+      "calls": 128,
+      "triangles": 2053361,
+      "points": 180,
+      "lines": 0
+    },
+    "segments": [
+      {
+        "seconds": 18.464699999999997,
+        "raf": 5,
+        "Hz": 0.2707869610662508
+      },
+      {
+        "seconds": 18.402600000000007,
+        "raf": 5,
+        "Hz": 0.27170073793920413
+      }
+    ]
+  },
+  {
+    "mode": "no-shadow",
+    "buffer": [
+      1120,
+      700
+    ],
+    "shadow": false,
+    "render": {
+      "frame": 46,
+      "calls": 77,
+      "triangles": 1083477,
+      "points": 180,
+      "lines": 0
+    },
+    "segments": [
+      {
+        "seconds": 15.485700000000012,
+        "raf": 5,
+        "Hz": 0.322878526640707
+      },
+      {
+        "seconds": 15.473899999999993,
+        "raf": 5,
+        "Hz": 0.323124745539263
+      }
+    ]
+  },
+  {
+    "mode": "half-resolution",
+    "buffer": [
+      560,
+      350
+    ],
+    "shadow": true,
+    "render": {
+      "frame": 70,
+      "calls": 128,
+      "triangles": 2053361,
+      "points": 180,
+      "lines": 0
+    },
+    "segments": [
+      {
+        "seconds": 15.166599999999976,
+        "raf": 6,
+        "Hz": 0.39560613453246013
+      },
+      {
+        "seconds": 15.160400000000024,
+        "raf": 6,
+        "Hz": 0.39576792169071995
+      }
+    ]
+  },
+  {
+    "mode": "default",
+    "buffer": [
+      1120,
+      700
+    ],
+    "shadow": true,
+    "render": {
+      "frame": 92,
+      "calls": 128,
+      "triangles": 2053361,
+      "points": 180,
+      "lines": 0
+    },
+    "segments": [
+      {
+        "seconds": 18.532800000000048,
+        "raf": 5,
+        "Hz": 0.26979193645860244
+      },
+      {
+        "seconds": 18.448699999999953,
+        "raf": 5,
+        "Hz": 0.2710218064145448
+      }
+    ]
+  }
+]
