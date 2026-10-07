@@ -1,0 +1,52 @@
+[
+  {
+    "path": "DECISION.md",
+    "sha256": "c58385596dc2c908578f54a91ba2487ff4a721b2de844f6c4d13bc39d5cff915",
+    "bytes": 2049
+  },
+  {
+    "path": "dist/app.js",
+    "sha256": "016f6287f6151b22f2160828688904c2fc6e3cf6be699fbfa670709f08ed39e6",
+    "bytes": 21069
+  },
+  {
+    "path": "dist/sea-fan-current.js",
+    "sha256": "164b539f7ff669c18a94ef35e633b9572a17a298b301277a0d45a9f0e1348803",
+    "bytes": 5864
+  },
+  {
+    "path": "evidence/sea-fan-current-oct7/README.md",
+    "sha256": "87122f3e3db0569323178d82484c6f4c8bffe789043997fd6b88b37e1946d78e",
+    "bytes": 8685
+  },
+  {
+    "path": "evidence/sea-fan-current-oct7/candidate.patch",
+    "sha256": "d357acc95d715642b6d4dac2befc689bc51f4360fcd814e0134f8aa044166d04",
+    "bytes": 50195
+  },
+  {
+    "path": "evidence/sea-fan-current-oct7/frozen-delta.json",
+    "sha256": "906b2261e2deb163017e0a13584eeb08b5c1f877b5c253e8ddb4e13420a456e6",
+    "bytes": 1897
+  },
+  {
+    "path": "evidence/sea-fan-current-oct7/source-checks.json",
+    "sha256": "1c57af839a8372f23ef026cf3841c020a76ea349d31991199de94acdc5ded425",
+    "bytes": 8396
+  },
+  {
+    "path": "qa-guide-integration.mjs",
+    "sha256": "9b6685e33d6a3bf15a98b26e97b72b29b981ee7ddd77cc31cf07ae0737339251",
+    "bytes": 13547
+  },
+  {
+    "path": "qa-sea-fan-current.mjs",
+    "sha256": "e884f6e8b732f0c9e12b4a971636c0a71e1bf3294440bad371d7d99148dcfab3",
+    "bytes": 16086
+  },
+  {
+    "path": "review/pixel-difference.json",
+    "sha256": "59974d5977ceb97ad66834a6433594b1a51ae162d8a5566c2e0d33e84ddcebfd",
+    "bytes": 391
+  }
+]

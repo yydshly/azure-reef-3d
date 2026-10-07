@@ -231,3 +231,7 @@ Hide redundant floating marker only during skeleton inspection; ordinary guide m
 ## 2026-10-07 · Two live-colony leads remain outside production
 
 [Source verification](docs/asset-research-20261007/live-colony-leads.md): the separate Smithsonian live-model destination, rights and scale remain unverified; a St Andrews CC BY/2026 dataset offers a285MB PLY package beyond this50MB acquisition scope, with units and appearance still unverified. Tool fetch failures are not generalized origin-access restrictions. No model was downloaded or inserted, and non-Caribbean provenance is not mixed into the current scene.
+
+## 2026-10-07 · Single-fan current rejected
+
+[Rejected bounded motion study](experiments/2026-10-07-fan-current-rejected/README.md): fixed0/±.04 phases compiled and roots stayed attached, but actual whole-view/native frames remained nearly static. Owner and independent review reject perceptible-life improvement. Actual fixed-view calls/triangles were unchanged, with one additional geometry and two programs; source scene counts are distinct from renderer counts. The24.84-second/10-RAF record is not performance acceptance. Apt cancellation and missing-CJK-font limitation are preserved. No deployment or amplitude sweep.

@@ -1,0 +1,14 @@
+{
+  "qa-sea-fan-current.mjs": "276f6726cdc3c1141258c687098d98060dbe38f56fe4ae6375ae6d62dba42d39",
+  "qa-guide-integration.mjs": "9b6685e33d6a3bf15a98b26e97b72b29b981ee7ddd77cc31cf07ae0737339251",
+  "archive-manifest.json": "89002ef8dfd4181b71727bdb83e3f1bbf50b246430308374886b940cd7ec4eea",
+  "README.md": "d9d53350b130b6c216a61264c873a6a14e7723371a20a8afe323589ae6345629",
+  "DECISION.md": "c58385596dc2c908578f54a91ba2487ff4a721b2de844f6c4d13bc39d5cff915",
+  "review/pixel-difference.json": "59974d5977ceb97ad66834a6433594b1a51ae162d8a5566c2e0d33e84ddcebfd",
+  "dist/sea-fan-current.js": "164b539f7ff669c18a94ef35e633b9572a17a298b301277a0d45a9f0e1348803",
+  "dist/app.js": "016f6287f6151b22f2160828688904c2fc6e3cf6be699fbfa670709f08ed39e6",
+  "evidence/sea-fan-current-oct7/source-checks.json": "1c57af839a8372f23ef026cf3841c020a76ea349d31991199de94acdc5ded425",
+  "evidence/sea-fan-current-oct7/README.md": "87122f3e3db0569323178d82484c6f4c8bffe789043997fd6b88b37e1946d78e",
+  "evidence/sea-fan-current-oct7/candidate.patch": "d357acc95d715642b6d4dac2befc689bc51f4360fcd814e0134f8aa044166d04",
+  "evidence/sea-fan-current-oct7/frozen-delta.json": "906b2261e2deb163017e0a13584eeb08b5c1f877b5c253e8ddb4e13420a456e6"
+}

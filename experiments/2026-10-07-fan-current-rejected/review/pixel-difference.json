@@ -1,0 +1,27 @@
+{
+  "phase-0": {
+    "pixelsOver3": 0,
+    "maxChannelDifference": 0,
+    "bboxOver3": null
+  },
+  "phase-2": {
+    "pixelsOver3": 38311,
+    "maxChannelDifference": 135,
+    "bboxOver3": [
+      378,
+      179,
+      709,
+      478
+    ]
+  },
+  "phase-6": {
+    "pixelsOver3": 38264,
+    "maxChannelDifference": 136,
+    "bboxOver3": [
+      378,
+      179,
+      708,
+      474
+    ]
+  }
+}
