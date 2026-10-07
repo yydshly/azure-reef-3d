@@ -1,0 +1,754 @@
+{
+  "scope": "Sampled geometry/kinematic checks, not continuous collision proof or biological validation",
+  "durationSeconds": 164,
+  "stepSeconds": 0.1,
+  "fish": [
+    {
+      "name": "fish_01",
+      "behavior": {
+        "group": "near-reef",
+        "period": 37,
+        "phase": 0,
+        "slowStrength": 0.65,
+        "slowPhase": 0.1
+      },
+      "index": 0,
+      "bodyHeight": 0.36998398686981204,
+      "minClearance": 0.40499482184077873,
+      "maxSpeed": 0.5425662493178692,
+      "minSpeed": 0.11509017815690605,
+      "maxTurn": 0.6268314315443171
+    },
+    {
+      "name": "fish_02",
+      "behavior": {
+        "group": "near-reef",
+        "period": 41.5,
+        "phase": 0.217,
+        "slowStrength": 0.45,
+        "slowPhase": 0.2
+      },
+      "index": 1,
+      "bodyHeight": 0.32486400760269163,
+      "minClearance": 0.41374001849681774,
+      "maxSpeed": 0.4352816590124575,
+      "minSpeed": 0.16510587468474727,
+      "maxTurn": 0.9045277600141403
+    },
+    {
+      "name": "fish_03",
+      "behavior": {
+        "group": "middle-ledge",
+        "period": 66,
+        "phase": 0.1,
+        "slowStrength": 0.8,
+        "slowPhase": 0.08
+      },
+      "index": 2,
+      "bodyHeight": 0.2932799772930146,
+      "minClearance": 0.42562038606205976,
+      "maxSpeed": 0.4783951537166926,
+      "minSpeed": 0.05318183709626995,
+      "maxTurn": 1.595695004718232
+    },
+    {
+      "name": "fish_04",
+      "behavior": {
+        "group": "far-reef",
+        "period": 82,
+        "phase": 0.47,
+        "slowStrength": 0.68,
+        "slowPhase": 0.43
+      },
+      "index": 3,
+      "bodyHeight": 0.30230398995494845,
+      "minClearance": 0.7538037811503365,
+      "maxSpeed": 0.3945671203355989,
+      "minSpeed": 0.07515630028183397,
+      "maxTurn": 0.34131952265370896
+    },
+    {
+      "name": "fish_05",
+      "behavior": {
+        "group": "middle-ledge",
+        "period": 66,
+        "phase": 0.1,
+        "slowStrength": 0.8,
+        "slowPhase": 0.08
+      },
+      "index": 4,
+      "bodyHeight": 0.2727503788825034,
+      "minClearance": 0.5611214762643718,
+      "maxSpeed": 0.5608582429801299,
+      "minSpeed": 0.062331747974980936,
+      "maxTurn": 0.8694838203022573
+    },
+    {
+      "name": "fish_06",
+      "behavior": {
+        "group": "far-reef",
+        "period": 82,
+        "phase": 0.47,
+        "slowStrength": 0.68,
+        "slowPhase": 0.43
+      },
+      "index": 5,
+      "bodyHeight": 0.2660275111603547,
+      "minClearance": 1.0600230185540267,
+      "maxSpeed": 0.34010925501120454,
+      "minSpeed": 0.06478399264916157,
+      "maxTurn": 0.5792404341185483
+    }
+  ],
+  "minimumPairCenterDistance": 0.5644650550190713,
+  "boundingBoxOverlaps": 0,
+  "middleControlOverlaps": 0,
+  "pairMin": {
+    "fish_01/fish_02": 1.195943122402599,
+    "fish_01/fish_03": 23.274643091226302,
+    "fish_01/fish_04": 29.533168214006377,
+    "fish_01/fish_05": 22.884329883381753,
+    "fish_01/fish_06": 30.098131302444564,
+    "fish_02/fish_03": 21.989113685085456,
+    "fish_02/fish_04": 28.57307289044362,
+    "fish_02/fish_05": 21.473856951818306,
+    "fish_02/fish_06": 29.37530314582611,
+    "fish_03/fish_04": 2.592982444305335,
+    "fish_03/fish_05": 0.5644650550190713,
+    "fish_03/fish_06": 3.3992103027317784,
+    "fish_04/fish_05": 1.9247002010857768,
+    "fish_04/fish_06": 0.7098084272438513,
+    "fish_05/fish_06": 2.743979400203214
+  },
+  "maxStepPer01Second": 0.056085824298012996,
+  "visibility": [
+    {
+      "view": "departure",
+      "samples": [
+        {
+          "time": 0,
+          "visible": 3,
+          "occluded": 0
+        },
+        {
+          "time": 3,
+          "visible": 3,
+          "occluded": 0
+        },
+        {
+          "time": 6,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 9,
+          "visible": 3,
+          "occluded": 0
+        },
+        {
+          "time": 12,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 15,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 18,
+          "visible": 1,
+          "occluded": 0
+        },
+        {
+          "time": 21,
+          "visible": 1,
+          "occluded": 0
+        },
+        {
+          "time": 24,
+          "visible": 1,
+          "occluded": 0
+        },
+        {
+          "time": 27,
+          "visible": 1,
+          "occluded": 0
+        },
+        {
+          "time": 30,
+          "visible": 1,
+          "occluded": 0
+        },
+        {
+          "time": 33,
+          "visible": 0,
+          "occluded": 0
+        },
+        {
+          "time": 36,
+          "visible": 0,
+          "occluded": 0
+        },
+        {
+          "time": 39,
+          "visible": 0,
+          "occluded": 0
+        },
+        {
+          "time": 42,
+          "visible": 1,
+          "occluded": 0
+        },
+        {
+          "time": 45,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 48,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 51,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 54,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 57,
+          "visible": 1,
+          "occluded": 0
+        },
+        {
+          "time": 60,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 63,
+          "visible": 3,
+          "occluded": 0
+        },
+        {
+          "time": 66,
+          "visible": 3,
+          "occluded": 0
+        },
+        {
+          "time": 69,
+          "visible": 3,
+          "occluded": 0
+        },
+        {
+          "time": 72,
+          "visible": 3,
+          "occluded": 0
+        },
+        {
+          "time": 75,
+          "visible": 1,
+          "occluded": 0
+        },
+        {
+          "time": 78,
+          "visible": 0,
+          "occluded": 0
+        },
+        {
+          "time": 81,
+          "visible": 1,
+          "occluded": 0
+        },
+        {
+          "time": 84,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 87,
+          "visible": 2,
+          "occluded": 0
+        }
+      ],
+      "framesWithVisibleFish": 26,
+      "occludedSamples": 0
+    },
+    {
+      "view": "midway",
+      "samples": [
+        {
+          "time": 0,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 3,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 6,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 9,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 12,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 15,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 18,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 21,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 24,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 27,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 30,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 33,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 36,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 39,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 42,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 45,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 48,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 51,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 54,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 57,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 60,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 63,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 66,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 69,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 72,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 75,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 78,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 81,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 84,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 87,
+          "visible": 4,
+          "occluded": 0
+        }
+      ],
+      "framesWithVisibleFish": 30,
+      "occludedSamples": 0
+    },
+    {
+      "view": "look-back",
+      "samples": [
+        {
+          "time": 0,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 3,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 6,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 9,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 12,
+          "visible": 3,
+          "occluded": 0
+        },
+        {
+          "time": 15,
+          "visible": 3,
+          "occluded": 0
+        },
+        {
+          "time": 18,
+          "visible": 3,
+          "occluded": 0
+        },
+        {
+          "time": 21,
+          "visible": 3,
+          "occluded": 0
+        },
+        {
+          "time": 24,
+          "visible": 3,
+          "occluded": 0
+        },
+        {
+          "time": 27,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 30,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 33,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 36,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 39,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 42,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 45,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 48,
+          "visible": 5,
+          "occluded": 0
+        },
+        {
+          "time": 51,
+          "visible": 5,
+          "occluded": 0
+        },
+        {
+          "time": 54,
+          "visible": 5,
+          "occluded": 0
+        },
+        {
+          "time": 57,
+          "visible": 5,
+          "occluded": 0
+        },
+        {
+          "time": 60,
+          "visible": 5,
+          "occluded": 0
+        },
+        {
+          "time": 63,
+          "visible": 5,
+          "occluded": 0
+        },
+        {
+          "time": 66,
+          "visible": 5,
+          "occluded": 0
+        },
+        {
+          "time": 69,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 72,
+          "visible": 4,
+          "occluded": 0
+        },
+        {
+          "time": 75,
+          "visible": 3,
+          "occluded": 0
+        },
+        {
+          "time": 78,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 81,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 84,
+          "visible": 3,
+          "occluded": 0
+        },
+        {
+          "time": 87,
+          "visible": 3,
+          "occluded": 0
+        }
+      ],
+      "framesWithVisibleFish": 30,
+      "occludedSamples": 0
+    },
+    {
+      "view": "low-free-orbit",
+      "samples": [
+        {
+          "time": 0,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 3,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 6,
+          "visible": 1,
+          "occluded": 1
+        },
+        {
+          "time": 9,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 12,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 15,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 18,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 21,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 24,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 27,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 30,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 33,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 36,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 39,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 42,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 45,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 48,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 51,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 54,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 57,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 60,
+          "visible": 3,
+          "occluded": 1
+        },
+        {
+          "time": 63,
+          "visible": 3,
+          "occluded": 0
+        },
+        {
+          "time": 66,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 69,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 72,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 75,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 78,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 81,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 84,
+          "visible": 2,
+          "occluded": 0
+        },
+        {
+          "time": 87,
+          "visible": 1,
+          "occluded": 1
+        }
+      ],
+      "framesWithVisibleFish": 30,
+      "occludedSamples": 3
+    }
+  ]
+}

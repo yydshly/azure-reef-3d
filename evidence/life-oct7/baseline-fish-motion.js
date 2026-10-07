@@ -18,23 +18,10 @@ export function buildSwimRoute(base,index,terrain){
  const curve=new THREE.CatmullRomCurve3(raised,true,'centripetal');curve.arcLengthDivisions=280;curve.updateArcLengths();return curve;
 }
 const up=new THREE.Vector3(0,1,0),side=new THREE.Vector3(),vertical=new THREE.Vector3(),basis=new THREE.Matrix4();
-export function sampleSwimRoute(curve,time,index,behavior={}){
- const period=behavior.period??(37+index*4.5),phase=behavior.phase??(index*.217);
- const strength=behavior.slowStrength??0,slowPhase=behavior.slowPhase??0;
- const cycle=time/period+phase,angle=(cycle-slowPhase)*Math.PI*2;
- // Smooth non-uniform travel: local lingering and cruising, with no phase jump.
- const travel=cycle+strength*Math.sin(angle)/(Math.PI*2),u=((travel%1)+1)%1;
- const speed=curve.getLength()*(1+strength*Math.cos(angle))/period;
- const directionAt=v=>curve.getPointAt((v+.01)%1).sub(curve.getPointAt((v+.99)%1)).normalize();
- const position=curve.getPointAt(u),direction=directionAt(u);
+export function sampleSwimRoute(curve,time,index){
+ const period=37+index*4.5,u=((time/period+index*.217)%1+1)%1;
+ const position=curve.getPointAt(u),direction=curve.getTangentAt(u).normalize();
  side.crossVectors(direction,up).normalize();vertical.crossVectors(side,direction).normalize();basis.makeBasis(direction,vertical,side);
  const quaternion=new THREE.Quaternion().setFromRotationMatrix(basis);
- const before=directionAt((u+.988)%1),after=directionAt((u+.012)%1);
- const turn=Math.atan2(new THREE.Vector3().crossVectors(before,after).y,before.dot(after));
- const bank=THREE.MathUtils.clamp(-turn*.8,-.10,.10)*Math.min(speed/.3,1);
- quaternion.multiply(new THREE.Quaternion().setFromAxisAngle(new THREE.Vector3(1,0,0),bank));
- return {position,quaternion,speed,group:behavior.group??'near-reef',
-  beat:time*1.9+curve.getLength()*travel*7+index*1.7,
-  tailAmplitude:.065+.16*THREE.MathUtils.clamp(speed/.45,0,1),
-  finAmplitude:.06+.065*(1-THREE.MathUtils.clamp(speed/.35,0,1))};
+ return {position,quaternion,beat:time*(4.7+index*.22)+index*1.7};
 }

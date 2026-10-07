@@ -2,7 +2,7 @@
 
 ## 项目简介与在线体验
 
-一个可自由旋转、缩放的真实三维浅海珊瑚礁场景，包含五站中文初学者导览、四条泛化鱼类的三维运动路线，以及新增的中远景起伏与珊瑚层次。支持手动推进、自动讲解、暂停与自由探索。
+一个可自由旋转、缩放的真实三维浅海珊瑚礁场景，包含五站中文初学者导览、由四个原始鱼组件创建的六个泛化鱼类实例及三维运动路线，以及新增的中远景起伏与珊瑚层次。支持手动推进、自动讲解、暂停与自由探索。
 
 在线体验：[GitHub Pages · 浅蓝三维珊瑚礁](https://yydshly.github.io/azure-reef-3d/)（公开网页）。本仓库及完整建模源码现已按项目所有者授权公开。`main` 上的 `dist/` 或部署工作流变更会通过 GitHub Actions 更新 Pages；工作流仅发布 `dist/`，不把 Blender 工程或开发依赖作为网页发布。
 
@@ -14,7 +14,7 @@
 
 A static, genuine-3D reef scene with a five-stop Chinese beginner guide. The guide connects camera positions and visible labels to explanations of reef context, sand/hardbottom, coral animals, generic fish, and light/water. Sources and modeling limits are available in the interface.
 
-This export includes source commit `82f5c24d5a12fcda9f93cd48503c453eae0a886c`. The scene/model baseline is recorded in `docs/source-baseline-sha256.json`; GitHub interface and verification-tool changes are recorded in `docs/export-changes.json`.
+This export includes source commit `8c8d763d02d2afcd59c2b510cafd577eee9d11ce`. The scene/model baseline is recorded in `docs/source-baseline-sha256.json`; GitHub interface and verification-tool changes are recorded in `docs/export-changes.json`.
 
 ## Run the exact snapshot
 
@@ -42,7 +42,7 @@ The guide starts in manual-next mode. Use previous/next, optional automatic adva
 - `rebuild_reference_reef.py`, `blend_boundary.py`, `build_depth.py`: reference → edge → depth pipeline
 - `generate_textures.py`: optional deterministic texture generation
 - `export-static-model.py`: lossless GLB → external glTF/binary/PNG conversion
-- `build-routes.mjs`: geometry-aware fish-route generation
+- `build-life-routes.mjs`: current six-instance geometry-aware route generation; `build-routes.mjs` is historical four-route provenance
 - `qa-*.mjs`: checks; see limitations below
 - `docs/`: baseline hashes, export changes, packed-image validation and historical build notes
 
@@ -188,3 +188,9 @@ Use the portable sand-boundary prerequisite and spatial extension described in `
 ## 2026-10-07 水体层次阶段
 
 [同机位真实浏览器对照与失败记录](evidence/water-oct7/README.md)。有限接受了更清晰的水体距离层次与较弱的远处规则光纹；模型/贴图/鱼路线保持不变。实际GPU编译错误与一次过平候选均留档。这是示意参数的视觉增量，不是实测光学或整体真实感验收。
+
+## Route-wide activity, 2026-10-07
+
+The current browser population has six instances; the editable GLB/Blender assets intentionally retain the four original fish assemblies. dist/fish-population.js creates two shared-mesh companions and dist/assets/swim-routes.json supplies all six paths. Rebuild current routes with `node --import ./qa-register.mjs build-life-routes.mjs`. The older build-routes.mjs is retained only as historical four-route provenance; running it alone does not regenerate the current six-fish application.
+
+Actual software-WebGL run37577405341 established three-view population and real elapsed motion, then found a midpoint camera/controls composition defect. Source895d2b6 moved only the nearest middle route segment; run37578356621 confirmed the corrected midpoint and normal motion. Wall/scene times were56.1103/56.0977s, with changed positions, headings and fins and no reported runtime/request errors. The source owner reviewed actual screenshots and chronological video frames. Near/far fixed views are evidence from the first pass, not recaptured after the local route correction. Source tests cover conservative sampled clearances, body boxes, guide/quality and hidden/reduced-motion clocks; they are not continuous collision or biological validation.

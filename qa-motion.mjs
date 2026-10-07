@@ -1,3 +1,4 @@
+import {addCompanionFish} from './dist/fish-population.js';
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 import {GLTFLoader} from './dist/vendor/GLTFLoader.js';
@@ -10,8 +11,8 @@ globalThis.self=globalThis;
 globalThis.createImageBitmap=async blob=>loadImage(Buffer.from(await blob.arrayBuffer()));
 const b=fs.readFileSync(process.env.REEF_MODEL_PATH||'source-model.glb');
 const {scene:s}=await new Promise((r,j)=>new GLTFLoader().parse(b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength),'',r,j));
-const fish=[],terrain=[];
-s.traverse(o=>{if(/^fish_\d+$/.test(o.name))fish.push(o);if(o.isMesh&&!/^fish_/.test(o.name))terrain.push(o)});
+addCompanionFish(s);const fish=[],terrain=[];
+s.traverse(o=>{if(/^fish_\d+$/.test(o.name))fish.push(o);if(o.isMesh&&!/^fish_/.test(o.name)){o.geometry.computeBoundingBox();terrain.push(o)}});
 s.updateMatrixWorld(true);
 const savedRoutes=JSON.parse(fs.readFileSync('dist/assets/swim-routes.json','utf8'));
 // Three user-facing presets plus an attainable low lateral orbit view.
@@ -20,11 +21,11 @@ const results=[];
 for(let i=0;i<fish.length;i++){
  const saved=savedRoutes.find(r=>r.name===fish[i].name);
  const curve=new T.CatmullRomCurve3(saved.points.map(p=>new T.Vector3(...p)),true,'centripetal');
- curve.arcLengthDivisions=280;curve.updateArcLengths();
+ curve.arcLengthDivisions=640;curve.updateArcLengths();
  let min=Infinity,maxStep=0,last=null,hidden=0;
  // Cover each complete period. This is sampled geometry QA, not continuous collision detection.
- for(let t=0;t<37+i*4.5;t+=.5){
-  const pose=sampleSwimRoute(curve,t,i);
+ for(let t=0;t<(saved.behavior?.period??(37+i*4.5));t+=.5){
+  const pose=sampleSwimRoute(curve,t,i,saved.behavior);
   const ray=new T.Raycaster(new T.Vector3(pose.position.x,9,pose.position.z),new T.Vector3(0,-1,0),0,11);
   const hit=ray.intersectObjects(terrain,false)[0];
   if(hit)min=Math.min(min,pose.position.y-hit.point.y);
