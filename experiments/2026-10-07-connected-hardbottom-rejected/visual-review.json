@@ -1,0 +1,27 @@
+{
+  "status": "结构实验，视觉未接受",
+  "production_integration": false,
+  "final_candidate_sha256": "75a181a1fea752a05792a055cc2fad2a42c0d0516f42ed9ae64a3d8300f64265",
+  "iterations": 2,
+  "stopping_reason": "Owner rejected final mid/look-back after one bounded silhouette correction; no further geometry changes.",
+  "local_improvements": [
+    "Connected noncircular margins",
+    "Variable sand reentrants and low necks",
+    "Actual local terrain face occlusion"
+  ],
+  "visual_failures": [
+    "Bare terraced quarry/canyon reading",
+    "Long shelf faces dominate",
+    "Original sparse biological patch distribution remains recognizable"
+  ],
+  "final_images": [
+    "before/mid.png",
+    "after/mid.png",
+    "before/look-back.png",
+    "after/look-back.png",
+    "diagnostic/terrain-front.png",
+    "diagnostic/terrain-back.png",
+    "diagnostic/terrain-overhead.png"
+  ],
+  "next_evidence_needed": "Verify actual terrain data and provenance before choosing another structural approach. No dataset suitability is claimed."
+}

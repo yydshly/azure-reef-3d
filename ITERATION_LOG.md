@@ -113,3 +113,7 @@ Run 37563565356 captured departure, midway and look-back using the exact request
 ### Confirmed bounded release
 
 Run 37564502286 passed the opening and corrected seabed-guide checks on source a19d100. Actual target.y was0.019999999999999997; both labels and the guide card were visible, and all recorded runtime/request error lists were empty. The owner reviewed the screenshot. This closes the known guide-coordinate defect, not the whole visual goal. The next evidence-based weakness is disconnected, mound-like hardbottom: two inspected NOAA aerial views show connected irregular reef masses separated by winding sediment channels. Future terrain work must improve that structural relationship before adding more colonies. No new geometry was introduced after this browser confirmation.
+
+## 2026-10-07 · 连通硬底结构实验：拒绝集成
+
+[完整实验记录](experiments/2026-10-07-connected-hardbottom-rejected/README.md)。固定已发布空间版与离线灯光，检验不规则连通母体、砂湾和错落立面；几何保留与路径检查通过，但视觉仍像裸露人工台地，因此拒绝上线。此次仅归档配方、证明及离线对照图，不更换生产模型或网页。提交前独立重跑配方得到候选 SHA256 `75a181a1fea752a05792a055cc2fad2a42c0d0516f42ed9ae64a3d8300f64265`；这不是实际浏览器或实时焦散验收。
