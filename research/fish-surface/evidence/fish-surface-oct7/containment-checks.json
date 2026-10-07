@@ -1,0 +1,58 @@
+{
+  "scope": "Original finite prism containment plus sampled articulation support; no route or ecological inference",
+  "continuousEnvelopeArgument": "Each new vertex stays in an original cap-triangle prism. The cap and rim triangles stay in the same finite prism union, with shared x/y tessellation and positive depth. A rigid fin rotation about the unchanged app pivot, followed by the same whole-fish affine transform, preserves containment. Therefore the original conservative convex envelope cannot expand at any animation phase.",
+  "coordinateTolerance": 4e-08,
+  "fins": [
+    {
+      "name": "fish_03_dorsal",
+      "originalVolume": 0.002351999868810179,
+      "candidateVolume": 0.0004744449597055171,
+      "remainingVolumeFraction": 0.20171980704468642,
+      "maxOriginalHullPlaneViolation": 1.49940042049046e-08,
+      "everyVertexInsideOriginalConcavePrism": true,
+      "maxSampledArticulatedSupportViolation": 0.0,
+      "samples": 625
+    },
+    {
+      "name": "fish_03_pectoral_-1",
+      "originalVolume": 1.6800040000682662e-05,
+      "candidateVolume": 3.7386232819500154e-06,
+      "remainingVolumeFraction": 0.22253657025805285,
+      "maxOriginalHullPlaneViolation": 5.268352119142117e-09,
+      "everyVertexInsideOriginalConcavePrism": true,
+      "maxSampledArticulatedSupportViolation": 0.0,
+      "samples": 625
+    },
+    {
+      "name": "fish_03_pectoral_1",
+      "originalVolume": 1.6800040000683204e-05,
+      "candidateVolume": 3.7386232819500878e-06,
+      "remainingVolumeFraction": 0.22253657025804996,
+      "maxOriginalHullPlaneViolation": 5.268352119142117e-09,
+      "everyVertexInsideOriginalConcavePrism": true,
+      "maxSampledArticulatedSupportViolation": 0.0,
+      "samples": 625
+    },
+    {
+      "name": "fish_03_tail",
+      "originalVolume": 0.002150399979782104,
+      "candidateVolume": 0.0005211499779113507,
+      "remainingVolumeFraction": 0.24235025242334585,
+      "maxOriginalHullPlaneViolation": 1.4464934694480291e-08,
+      "everyVertexInsideOriginalConcavePrism": true,
+      "maxSampledArticulatedSupportViolation": 0.0,
+      "samples": 625
+    },
+    {
+      "name": "fish_03_ventral",
+      "originalVolume": 0.00152040007980615,
+      "candidateVolume": 0.0003035811834973679,
+      "remainingVolumeFraction": 0.1996719071049209,
+      "maxOriginalHullPlaneViolation": 1.1367791319383258e-08,
+      "everyVertexInsideOriginalConcavePrism": true,
+      "maxSampledArticulatedSupportViolation": 0.0,
+      "samples": 625
+    }
+  ],
+  "maxSampledArticulatedSupportViolation": 0.0
+}

@@ -1,0 +1,9 @@
+{
+  "baseline_source": "6750ba68",
+  "changed_dist_files": [
+    "dist/app.js",
+    "dist/fish-surface.js"
+  ],
+  "all_model_texture_route_camera_guide_water_files": "byte-identical",
+  "newFishSurfaceSHA256": "b207dc99943f0d530fa3b4a2bd6bfaee8b88c5c67cfbf05a7be2bf96d593ff95"
+}

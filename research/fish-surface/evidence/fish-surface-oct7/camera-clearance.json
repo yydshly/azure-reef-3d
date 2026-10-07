@@ -1,0 +1,102 @@
+{
+  "scope": "Selected poses against actual accepted static triangles only; excludes animated fish and does not validate a revised travel path.",
+  "sphereRadius": 0.45,
+  "report": [
+    {
+      "view": "midway",
+      "arm": "baseline",
+      "position": [
+        0,
+        2.7,
+        -18
+      ],
+      "target": [
+        -1.5,
+        1,
+        -31
+      ],
+      "minimumStaticTriangleDistance": 2.9199999988079073,
+      "nearestMesh": "Sand_Horizon_80m"
+    },
+    {
+      "view": "midway",
+      "arm": "candidate",
+      "position": [
+        0,
+        2.7,
+        -18
+      ],
+      "target": [
+        -1.5,
+        1,
+        -31
+      ],
+      "minimumStaticTriangleDistance": 2.9199999988079073,
+      "nearestMesh": "Sand_Horizon_80m"
+    },
+    {
+      "view": "fish-flank-a",
+      "arm": "baseline",
+      "position": [
+        0.5632225393602086,
+        1.8190398862736799,
+        -19.921643554517374
+      ],
+      "target": [
+        -0.3699438778173921,
+        1.2190398862736798,
+        -23.39859630626019
+      ],
+      "minimumStaticTriangleDistance": 2.039039885081587,
+      "nearestMesh": "Sand_Horizon_80m"
+    },
+    {
+      "view": "fish-flank-a",
+      "arm": "candidate",
+      "position": [
+        0.5632225393602086,
+        1.8190398862736799,
+        -19.921643554517374
+      ],
+      "target": [
+        -0.3699438778173921,
+        1.2190398862736798,
+        -23.39859630626019
+      ],
+      "minimumStaticTriangleDistance": 2.039039885081587,
+      "nearestMesh": "Sand_Horizon_80m"
+    },
+    {
+      "view": "fish-flank-b",
+      "arm": "baseline",
+      "position": [
+        -1.3031102949949929,
+        1.8190398862736799,
+        -26.875549058003003
+      ],
+      "target": [
+        -0.3699438778173921,
+        1.2190398862736798,
+        -23.39859630626019
+      ],
+      "minimumStaticTriangleDistance": 1.6292093093622555,
+      "nearestMesh": "Inhabited_Middle_Shoulder_closed_irregular_skeleton"
+    },
+    {
+      "view": "fish-flank-b",
+      "arm": "candidate",
+      "position": [
+        -1.3031102949949929,
+        1.8190398862736799,
+        -26.875549058003003
+      ],
+      "target": [
+        -0.3699438778173921,
+        1.2190398862736798,
+        -23.39859630626019
+      ],
+      "minimumStaticTriangleDistance": 1.6292093093622555,
+      "nearestMesh": "Inhabited_Middle_Shoulder_closed_irregular_skeleton"
+    }
+  ]
+}
