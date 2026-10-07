@@ -21,7 +21,7 @@ async function capability(p){return p.evaluate(()=>{
   gl.getExtension('WEBGL_lose_context')?.loseContext();return result;
 });}
 try{
-  browser=await chromium.launch({channel:'chromium',headless:true,chromiumSandbox:true,timeout:45000,
+  browser=await chromium.launch({channel:'chromium',headless:true,chromiumSandbox:true,timeout:45000,args:['--enable-automation'],
     ignoreDefaultArgs:['--enable-unsafe-swiftshader','--disable-gpu-sandbox','--ignore-gpu-blocklist']});
   report.browserVersion=browser.version();
   const cdp=await browser.newBrowserCDPSession();

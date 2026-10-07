@@ -1,6 +1,6 @@
 {
   ".github/workflows/pages.yml": "6084fb57bee443ab3100964d990659f581007242cfab94d70454b005f36d7bea",
-  ".github/workflows/render-check.yml": "4864385a124d8f04a5887802e3630a7ac1bf341472d3ec4d8c3deac377323ebb",
+  ".github/workflows/render-check.yml": "2eeb2c3662b186b319206bf0dd21d4b7d01b955486506d8b06d8efe87135fef0",
   ".gitignore": "08a47475a2c7ca64e6268652e1e4deaac7cc637cd114810609a799b825be343e",
   "ITERATION_LOG.md": "3ef6f7c45217c2d09b85566353196051861b99ef80b7fb3b9b5b1a89c67b89dd",
   "README.md": "7834ee945c1e619928ac7fcfb8bf97be1ef9e3335ded6238f2a0e3fc96323e98",
@@ -147,6 +147,6 @@
   "tests/browser/README.md": "82edaaf47fb76955c6461ee373c42972a8fa603b65577d246ae60f69c36ef9ef",
   "tests/browser/package-lock.json": "ed862f6968bdcdccd62f1a5517d1f50e5943fde0d2fbf6359088e02e38cd3584",
   "tests/browser/package.json": "5c8f0ec76ab16b508bf8d74ea224c6047869ea7fd9a811cd99d6d1b2fbf3f401",
-  "tests/browser/verify-pages.mjs": "5add8c01dd64e2d863c447d9e165de386bb40e2c1f2400aec4109deca202cc69",
+  "tests/browser/verify-pages.mjs": "38f8c3540a699f8ad5766b6944f9c87433883e6a8dba330334c7f743467e7e14",
   "texture-provenance.json": "b68f94ecc043f023f6b7cc07b8291c60829285f252923da0f390030991ad0076"
 }
