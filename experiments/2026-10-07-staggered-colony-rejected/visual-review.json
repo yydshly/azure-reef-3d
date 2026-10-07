@@ -1,0 +1,30 @@
+{
+  "status": "REJECTED",
+  "one_authored_construction": true,
+  "extra_shape_iterations_after_first_render": 0,
+  "reviewed_images": [
+    "before/normal-midpoint.png",
+    "candidate/normal-midpoint.png",
+    "before/normal-midpoint-thumbnail.png",
+    "candidate/normal-midpoint-thumbnail.png",
+    "before/normal-reverse.png",
+    "candidate/normal-reverse.png",
+    "before/normal-reverse-thumbnail.png",
+    "candidate/normal-reverse-thumbnail.png",
+    "candidate/front.png",
+    "candidate/reverse.png",
+    "candidate/normal-midpoint-silhouette.png",
+    "candidate/normal-reverse-silhouette.png"
+  ],
+  "improvement": "Intercrossing in the middle reduces the large central basket opening and introduces staggered lateral junctions rather than repetitive end Y forks.",
+  "failure_reasons": [
+    "At actual whole-frame and 280px thumbnail distance, the thin needle-like side branches largely disappear. The surviving thick axes read as a sparse pointed shrub/framework, not a dense live staghorn thicket.",
+    "The closer front/reverse views also show long needle tips and weak cylindrical branch mass; the NOAA photograph has stronger blunt-ended branch readability.",
+    "Reverse view retains conspicuous lower gaps between independent bases; more authored tips did not yield more convincing visual density.",
+    "The local X extent drops from 2.991474 to 2.409682 scene units (19.45 percent smaller); Y extent drops from 2.638164 to 2.424750 (8.09 percent smaller). Overall mass/readability regresses despite being contained in the allowed envelope.",
+    "Independent exported triangle validation finds 16 edges with four incident triangles and inconsistent edge orientations. Polygon-stage manifold checks alone were insufficient. No export repair was attempted after the visual rejection."
+  ],
+  "parent_review": "Parent independently inspected normal/reverse whole images and 280px thumbnails, agreeing with rejection.",
+  "stop_decision": "Freeze and archive this sample. No radius tuning, new materials, browser integration, publication or further geometry changes.",
+  "fish_clearance": "Not established. The old AABB and all original basal rings are preserved, but denser internal branches could occupy an existing internal fish path. Full motion clearance was not run after rejection."
+}

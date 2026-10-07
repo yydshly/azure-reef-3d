@@ -1,0 +1,83 @@
+{
+  "disclosure": "Offline Blender/Cycles geometry diagnostic. Both versions use exactly the same gray material, lights, world, camera, resolution, exposure and 24 samples. No runtime caustics, animation, browser appearance, or underwater realism claim. All source GLB geometry remains present in both normal-midpoint images. Runtime-generated new landmarks are absent, so these are not complete production A/B images.",
+  "source_sha256": "c12624b2f1da3add8f801421b161daaa5ef9177f7f6edf8ce1a3d1ae7caf66dd",
+  "replacement_sha256": "4a6f291b0ffad79a6b9d9fba581c9944ba3009f035f38b8642d09f766b579b28",
+  "view_fov_vertical_degrees": 47,
+  "aspect": 1.6,
+  "views": [
+    [
+      "normal-midpoint",
+      [
+        0,
+        18,
+        2.7
+      ],
+      [
+        -1.5,
+        31,
+        1
+      ]
+    ],
+    [
+      "normal-reverse",
+      [
+        3.6,
+        34,
+        2.7
+      ],
+      [
+        5.1,
+        21,
+        1
+      ]
+    ],
+    [
+      "front",
+      [
+        1.8,
+        21.7,
+        2.15
+      ],
+      [
+        1.8,
+        26,
+        0.52
+      ]
+    ],
+    [
+      "reverse",
+      [
+        1.8,
+        30.3,
+        2.15
+      ],
+      [
+        1.8,
+        26,
+        0.52
+      ]
+    ]
+  ],
+  "single_user_preview_target": "Corridor_Distant_Linked_03",
+  "output": [
+    "before/normal-midpoint.png",
+    "before/normal-midpoint-thumbnail.png",
+    "candidate/normal-midpoint.png",
+    "candidate/normal-midpoint-thumbnail.png",
+    "before/normal-reverse.png",
+    "before/normal-reverse-thumbnail.png",
+    "candidate/normal-reverse.png",
+    "candidate/normal-reverse-thumbnail.png",
+    "before/front.png",
+    "candidate/front.png",
+    "before/reverse.png",
+    "before/reverse-thumbnail.png",
+    "candidate/reverse.png",
+    "candidate/reverse-thumbnail.png",
+    "before/normal-midpoint-silhouette.png",
+    "candidate/normal-midpoint-silhouette.png",
+    "before/normal-reverse-silhouette.png",
+    "candidate/normal-reverse-silhouette.png"
+  ],
+  "normal_reverse_method": "Reflect normal camera and aim in horizontal XY around the same fixed local scene reference (1.8,26); same elevation, distance, FOV, aspect, and lights. Additional closer front/reverse cameras match the previous rejected-study fixture."
+}

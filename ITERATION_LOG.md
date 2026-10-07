@@ -223,3 +223,7 @@ Desktop software-WebGL QA37657885741 passed and five actual images were reviewed
 ## 2026-10-07 — Inspection label and narrow viewport
 
 Hide redundant floating marker only during skeleton inspection; ordinary guide markers retained. Actual desktop and390x844 software-WebGL checks37661136965 passed; source and return reachable by scrolling. Mobile hardware/gesture/performance remain untested. No geometry, placement or scene changes.
+
+## 2026-10-07 · Staggered new-topology colony rejected
+
+[Exact failed artifact and offline evidence](experiments/2026-10-07-staggered-colony-rejected/ARCHIVE.md). Central basket opening is reduced, but thin laterals disappear at280px and the silhouette becomes a narrow pointed shrub. Local width falls2.99→2.41. Export also has16 nonmanifold edges with four incident triangles despite polygon-stage hard checks. Owner, author and independent review reject the result. No geometry integration, new rendering, runtime clearance claim, or deployment follows. The21 original outward root directions remain useful diagnostic evidence, not proof of a biological mechanism.

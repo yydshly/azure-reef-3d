@@ -1,0 +1,108 @@
+{
+  "status": "REJECTED_VISUAL_AND_EXPORTED_TOPOLOGY_GATES",
+  "source_sha256": "c12624b2f1da3add8f801421b161daaa5ef9177f7f6edf8ce1a3d1ae7caf66dd",
+  "replacement_sha256": "4a6f291b0ffad79a6b9d9fba581c9944ba3009f035f38b8642d09f766b579b28",
+  "target_node_index": 78,
+  "target_node_name": "Corridor_Distant_Linked_03",
+  "shared_source_mesh_index": 47,
+  "shared_source_nodes_unchanged": [
+    51,
+    66
+  ],
+  "construction_count": 1,
+  "parameter_sweeps": 0,
+  "original_graph_transformed": false,
+  "museum_mesh_used": false,
+  "units": "uncalibrated scene units",
+  "triangles_before": 22168,
+  "triangles_after": 21722,
+  "mesh_vertices_before_export": 10901,
+  "basal_shoots": 21,
+  "terminal_tips_before": 103,
+  "terminal_tips_after": 148,
+  "branch_axes_by_order": {
+    "0": 21,
+    "1": 95,
+    "2": 32
+  },
+  "new_branch_graph_axes": 148,
+  "main_axis_lengths": [
+    1.1858687100090641,
+    1.1202339022953227,
+    1.1958566115261795,
+    0.9821406696685147,
+    0.967320433068407,
+    1.2352775489273018,
+    1.0079191045716598,
+    1.3737118145634608,
+    1.0697017849290023,
+    1.274553668304471,
+    0.92004122918192,
+    1.1135021497261186,
+    1.1539266790308735,
+    1.2002049752200454,
+    0.8267627855559478,
+    1.103575781308529,
+    0.8093224809718539,
+    1.0738593220166197,
+    0.7597389348070052,
+    0.9821768604856846,
+    1.1664559454851555
+  ],
+  "boundary_edges": 0,
+  "nonmanifold_edges": 0,
+  "signed_volume": 0.033762284530952175,
+  "original_basal_rings_exact": true,
+  "original_first_two_basal_rings_preserved_in_authoring": true,
+  "original_local_envelope": [
+    [
+      2.292651653289795,
+      0.5468685030937195,
+      -0.028464343398809433
+    ],
+    [
+      5.284125804901123,
+      3.185032606124878,
+      1.281713843345642
+    ]
+  ],
+  "candidate_local_envelope": [
+    [
+      2.584296226501465,
+      0.5752319097518921,
+      -0.028464343398809433
+    ],
+    [
+      4.993978500366211,
+      2.999981641769409,
+      1.2566231489181519
+    ]
+  ],
+  "envelope_inset_min": [
+    0.2916445732116699,
+    0.028363406658172607,
+    0.0
+  ],
+  "envelope_inset_max": [
+    0.2901473045349121,
+    0.18505096435546875,
+    0.025090694427490234
+  ],
+  "individual_preconstruction_ray_extent_limits": [
+    {
+      "branch": "Root_07_Lateral_04",
+      "requested": 0.33432,
+      "authored": 0.2480998852787617
+    }
+  ],
+  "boolean_junction_unions": 127,
+  "fish_route_compatibility": "All final vertices remain inside the existing target local AABB; all basal ring vertices exact. No fish route edits. Dense interior can reduce void clearance, so full animation mesh-distance clearance remains unverified and must precede integration.",
+  "caveats": [
+    "New interpretive topology, not a live scan or calibrated reconstruction",
+    "21 independent basal shoots retained; branch connections within each shoot use exact boolean unions",
+    "Incidental crossings between independent basal shoots remain overlapping surfaces",
+    "Source scene read only; no patched world asset produced",
+    "Neutral material only; no texture or living color claims"
+  ],
+  "polygon_stage_boundary_and_nonmanifold_counts_are_not_export_validation": true
+}

@@ -1,0 +1,182 @@
+{
+  "title": "Rejected new staggered-branch colony construction",
+  "status": "REJECTED_VISUAL_AND_EXPORTED_TOPOLOGY_GATES",
+  "source_sha256": "c12624b2f1da3add8f801421b161daaa5ef9177f7f6edf8ce1a3d1ae7caf66dd",
+  "replacement_sha256": "4a6f291b0ffad79a6b9d9fba581c9944ba3009f035f38b8642d09f766b579b28",
+  "payload_files": [
+    {
+      "path": "README.md",
+      "bytes": 7545,
+      "sha256": "5597bf4721b59b5554d32b2ec19b00071f132126f19c540b2fd65168d96ec41f"
+    },
+    {
+      "path": "build_candidate.py",
+      "bytes": 11549,
+      "sha256": "1538713edab48d17f1bc3d9352aba515f16985cda7a9657e6338c4800415629a"
+    },
+    {
+      "path": "render_neutral.py",
+      "bytes": 5231,
+      "sha256": "4856c8bbeb92e478908aeee34126d6543e4f16222acbe2e6c0782f79f4f2e222"
+    },
+    {
+      "path": "verify_replacement.py",
+      "bytes": 3664,
+      "sha256": "ff39fbae78b9b0cc1cb2113c66cec688647c7089bc203ed6433a4ca9470d54e1"
+    },
+    {
+      "path": "inputs/replay_thickets.py",
+      "bytes": 5380,
+      "sha256": "8996e8c41699ab433a2b7512562fd7d68ec3bc35e1154bdc6620faa7928149c0"
+    },
+    {
+      "path": "inputs/original_geometry_recipe.py",
+      "bytes": 2882,
+      "sha256": "10d4025f620087d16c7546e3802a8ab3ba94673cec2ebad2c81bc8cbe850ce50"
+    },
+    {
+      "path": "replacement.glb",
+      "bytes": 393140,
+      "sha256": "4a6f291b0ffad79a6b9d9fba581c9944ba3009f035f38b8642d09f766b579b28"
+    },
+    {
+      "path": "branch-graph.json",
+      "bytes": 106703,
+      "sha256": "c6ade72e1a341fef5be49962e22df83746c42b1bd2094e96ea6036e271a80805"
+    },
+    {
+      "path": "geometry-proof.json",
+      "bytes": 3190,
+      "sha256": "b66e01749c99b89d0cd2a3d831354d3a6d6b4fbc2faa914f0f1b1f6f816c4b8a"
+    },
+    {
+      "path": "exported-topology-proof.json",
+      "bytes": 6876,
+      "sha256": "a5035d7b8032d6aef32648cc1fa0f4246cd561d1d4887794aa3b82c9b28dd54d"
+    },
+    {
+      "path": "visual-review.json",
+      "bytes": 2313,
+      "sha256": "ad6461aece8d4cc39801fce5c32fd48d8272f180aba01a0debc5d14d47e83d86"
+    },
+    {
+      "path": "neutral-render-manifest.json",
+      "bytes": 2263,
+      "sha256": "6ee2d02ff623afd2d5116f65e35dc4b448f6020ed73c8d2d21c87a142b611286"
+    },
+    {
+      "path": "source-root-direction-diagnostic.json",
+      "bytes": 7245,
+      "sha256": "253361cb344ecb1e6c639cbdb5f8a19d1967465d726e77ff9d9fd71323522e6e"
+    },
+    {
+      "path": "source-root-directions.svg",
+      "bytes": 9212,
+      "sha256": "6ee522ec154d1a8cfc50260e83eb2a74935047fc0aee8ae431d2ba7df7ebde91"
+    },
+    {
+      "path": "provenance.json",
+      "bytes": 2047,
+      "sha256": "9afff71bc31eb16a56d860b50253ec5a9b06338adf7d48728c2f67ec85032a9d"
+    },
+    {
+      "path": "before/normal-midpoint.png",
+      "bytes": 648838,
+      "sha256": "083c4f1f9fe7a4492cde46ae9935beb27a6d500842dd85bf42a9d9905ef4540d"
+    },
+    {
+      "path": "before/normal-midpoint-thumbnail.png",
+      "bytes": 43975,
+      "sha256": "88a83156d9e1f172e660c11242b78f787cfaa3ac8c51f0b3f2d551dc547eb9ff"
+    },
+    {
+      "path": "before/normal-reverse.png",
+      "bytes": 634397,
+      "sha256": "e5f244a4ec984768267386b1635b0ca37914896243814238133d6892eea82a6d"
+    },
+    {
+      "path": "before/normal-reverse-thumbnail.png",
+      "bytes": 43029,
+      "sha256": "ab92144b421b51fb644cea98de2304592153300345e0b25939e320fc24d6444c"
+    },
+    {
+      "path": "before/front.png",
+      "bytes": 779314,
+      "sha256": "6afa8df42acf7c744ce831d7ff03d92dea807b65fd2d51b299dd62864caba1d0"
+    },
+    {
+      "path": "before/reverse.png",
+      "bytes": 826290,
+      "sha256": "9c78717ff186a40e8df6b8a3a700d592b55f58556ffc99507ce7d9d17471c892"
+    },
+    {
+      "path": "before/reverse-thumbnail.png",
+      "bytes": 55925,
+      "sha256": "4bbae8f34c1065944221ea16e475f02e8cc796a513c76895d79034bdf4b1a234"
+    },
+    {
+      "path": "before/normal-midpoint-silhouette.png",
+      "bytes": 49721,
+      "sha256": "eed184b172f97c4ea491c1314f02339702df7a21607e75d99347f3912d83387b"
+    },
+    {
+      "path": "before/normal-reverse-silhouette.png",
+      "bytes": 50523,
+      "sha256": "6ecb82fa76b5e0486eeb8b8aa318f4e1c435a0a1f3bf3a220fed50bfc090c4c3"
+    },
+    {
+      "path": "candidate/normal-midpoint.png",
+      "bytes": 638240,
+      "sha256": "9dfbe8d5d2b4263adaad5ec62e496a679cf76343fab3e66c41ca9a4582b2db80"
+    },
+    {
+      "path": "candidate/normal-midpoint-thumbnail.png",
+      "bytes": 43250,
+      "sha256": "5cf3da243cdf0b91c91465814a443074de6c1e7380b3ee163381d2425ddb845d"
+    },
+    {
+      "path": "candidate/normal-reverse.png",
+      "bytes": 624138,
+      "sha256": "d72790a07068a7566ffd455975f0f64825ce7924fe0f9390d7c41a7e2045222e"
+    },
+    {
+      "path": "candidate/normal-reverse-thumbnail.png",
+      "bytes": 42230,
+      "sha256": "e6023b1f7f9f081b28b5a7fb7e538c8dfe27136511f86508341f6451d4c627b1"
+    },
+    {
+      "path": "candidate/front.png",
+      "bytes": 752044,
+      "sha256": "69b4b2d4048ad20322a3a19677c81017a8d79a5e4e2902566ea0fc97aa6320cf"
+    },
+    {
+      "path": "candidate/reverse.png",
+      "bytes": 797219,
+      "sha256": "c28e931c088c7db51f08536181742e04eba4993352d49a64a5993b4f92ccbc24"
+    },
+    {
+      "path": "candidate/reverse-thumbnail.png",
+      "bytes": 54027,
+      "sha256": "67a72f5b831a1470760e05fdfbd65f9e584c03fa04b9cefe8b75fd2805b4e9d8"
+    },
+    {
+      "path": "candidate/normal-midpoint-silhouette.png",
+      "bytes": 46938,
+      "sha256": "a0df860319dca17c45baa31eec000b3277067b526cd8c84238daae7e77866b4c"
+    },
+    {
+      "path": "candidate/normal-reverse-silhouette.png",
+      "bytes": 46186,
+      "sha256": "4226d54a1d94d3a184b75ebcc92e6e32331a5014255ee7f2323950a33f8dc436"
+    },
+    {
+      "path": "WHITELIST.txt",
+      "bytes": 940,
+      "sha256": "1f4656dd3a1e1e3b96cd684b7083c54a2b5942b921725f4883aec280f5f56e8c"
+    }
+  ],
+  "payload_file_count": 34,
+  "payload_total_bytes": 6746464,
+  "self_hash_policy": "manifest.json and SHA256SUMS excluded from payload hashes; SHA256SUMS covers manifest.json and every other file except itself",
+  "whitelist": "WHITELIST.txt"
+}

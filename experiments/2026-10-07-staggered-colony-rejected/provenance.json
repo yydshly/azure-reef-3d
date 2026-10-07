@@ -1,0 +1,34 @@
+{
+  "source_scene_sha256": "c12624b2f1da3add8f801421b161daaa5ef9177f7f6edf8ce1a3d1ae7caf66dd",
+  "source_scene_sha256_at_freeze": "c12624b2f1da3add8f801421b161daaa5ef9177f7f6edf8ce1a3d1ae7caf66dd",
+  "source_scene_unchanged": true,
+  "scene_units": "uncalibrated; no species-accurate dimensions claimed",
+  "references_actually_inspected": [
+    {
+      "title": "NOAA live staghorn photograph",
+      "input_filename": "noaa-staghorn-reference.jpg",
+      "sha256": "93bff9b92b2f58726f7f8f4911e615884ec1fbbf183c05f8b114c9500ca40b39",
+      "official_page": "https://www.fisheries.noaa.gov/species/staghorn-coral"
+    },
+    {
+      "title": "Smithsonian dry USNM 74016 original close front",
+      "input_filename": "original-close-front.png",
+      "sha256": "a25d5cfc01eba1ced2068ea7a14f60ff72425b1bf049804e15d99b4a6d11c39a",
+      "official_page": "https://3d.si.edu/object/3d/acropora-cervicornis:dd875177-c986-48e2-9468-8e58f01099d3"
+    },
+    {
+      "title": "Smithsonian dry USNM 74016 original close reverse",
+      "input_filename": "original-close-reverse.png",
+      "sha256": "3915ac25572b73539852f076c40153314a190d617c5d08dc684b83a90a7b5afc",
+      "official_page": "https://3d.si.edu/object/3d/acropora-cervicornis:dd875177-c986-48e2-9468-8e58f01099d3"
+    }
+  ],
+  "reference_use": "Qualitative observation of staggered side branching, unequal main axes and multi-basal overlapping centre only. No texture copying, statistical calibration, museum mesh copying/scaling, or implied live-color/community evidence.",
+  "smithsonian_license": "CC0 for USNM 74016 metadata and media, per the already acquired official provenance; dry specimen, not living tissue",
+  "noaa_photo_license": "No reuse license asserted; not redistributed in the archive",
+  "generated_assets": "New authored branch topology with neutral material; does not copy either reference mesh or photograph",
+  "production_files_changed": false,
+  "site_or_github_changed": false,
+  "full_scene_replacement_created": false,
+  "browser_integration_attempted": false
+}

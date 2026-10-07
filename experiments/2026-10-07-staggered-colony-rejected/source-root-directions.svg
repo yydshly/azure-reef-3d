@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="540" viewBox="0 0 1000 540">
+<rect width="1000" height="540" fill="white"/>
+<style>text{font:14px sans-serif;fill:#222} .title{font-size:18px;font-weight:600}</style>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="context-stroke"/></marker></defs>
+<text x="35" y="30" class="title">Basal direction diagnostic, local XY plan view</text>
+<text x="35" y="55">Evidence of radial source bases; not an ecological measurement or acceptance metric</text>
+<text x="25" y="95">Source: all 21 first axes point outward</text>
+<circle cx="245" cy="295" r="70" fill="none" stroke="#ddd" stroke-dasharray="4 4"/>
+<line x1="252.807" y1="305.511" x2="283.808" y2="346.090" stroke="#316a9a" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="252.807" cy="305.511" r="3" fill="#316a9a"/>
+<line x1="243.245" y1="341.333" x2="240.510" y2="410.334" stroke="#316a9a" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="243.245" cy="341.333" r="3" fill="#316a9a"/>
+<line x1="280.892" y1="234.012" x2="298.303" y2="188.126" stroke="#316a9a" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="280.892" cy="234.012" r="3" fill="#316a9a"/>
+<line x1="243.323" y1="344.709" x2="240.791" y2="403.724" stroke="#316a9a" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="243.323" cy="344.709" r="3" fill="#316a9a"/>
+<line x1="241.351" y1="233.696" x2="238.896" y2="190.066" stroke="#316a9a" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="241.351" cy="233.696" r="3" fill="#316a9a"/>
+<line x1="193.790" y1="318.025" x2="145.612" y2="351.516" stroke="#316a9a" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="193.790" cy="318.025" r="3" fill="#316a9a"/>
+<line x1="296.016" y1="317.325" x2="359.221" y2="347.756" stroke="#316a9a" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="296.016" cy="317.325" r="3" fill="#316a9a"/>
+<line x1="235.274" y1="274.452" x2="223.338" y2="226.481" stroke="#316a9a" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="235.274" cy="274.452" r="3" fill="#316a9a"/>
+<line x1="325.380" y1="267.303" x2="378.619" y2="258.943" stroke="#316a9a" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="325.380" cy="267.303" r="3" fill="#316a9a"/>
+<line x1="299.729" y1="272.544" x2="361.362" y2="245.488" stroke="#316a9a" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="299.729" cy="272.544" r="3" fill="#316a9a"/>
+<line x1="159.274" y1="285.475" x2="103.316" y2="282.020" stroke="#316a9a" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="159.274" cy="285.475" r="3" fill="#316a9a"/>
+<line x1="231.212" y1="286.907" x2="187.669" y2="267.614" stroke="#316a9a" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="231.212" cy="286.907" r="3" fill="#316a9a"/>
+<line x1="312.763" y1="306.221" x2="349.905" y2="318.077" stroke="#316a9a" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="312.763" cy="306.221" r="3" fill="#316a9a"/>
+<line x1="218.532" y1="310.521" x2="166.535" y2="325.141" stroke="#316a9a" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="218.532" cy="310.521" r="3" fill="#316a9a"/>
+<line x1="225.633" y1="279.660" x2="196.142" y2="249.620" stroke="#316a9a" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="225.633" cy="279.660" r="3" fill="#316a9a"/>
+<line x1="230.783" y1="310.746" x2="205.159" y2="339.519" stroke="#316a9a" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="230.783" cy="310.746" r="3" fill="#316a9a"/>
+<line x1="227.307" y1="347.264" x2="218.305" y2="366.934" stroke="#316a9a" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="227.307" cy="347.264" r="3" fill="#316a9a"/>
+<line x1="331.608" y1="311.648" x2="370.411" y2="321.916" stroke="#316a9a" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="331.608" cy="311.648" r="3" fill="#316a9a"/>
+<line x1="189.022" y1="318.260" x2="139.411" y2="331.612" stroke="#316a9a" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="189.022" cy="318.260" r="3" fill="#316a9a"/>
+<line x1="183.855" y1="246.484" x2="159.040" y2="206.886" stroke="#316a9a" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="183.855" cy="246.484" r="3" fill="#316a9a"/>
+<line x1="261.624" y1="279.100" x2="321.637" y2="243.946" stroke="#316a9a" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="261.624" cy="279.100" r="3" fill="#316a9a"/>
+<text x="233" y="300">+</text>
+<text x="525" y="95">New endpoints: varied bearings, one rejected sample</text>
+<circle cx="745" cy="295" r="70" fill="none" stroke="#ddd" stroke-dasharray="4 4"/>
+<line x1="752.807" y1="305.511" x2="724.000" y2="309.000" stroke="#34764f" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="752.807" cy="305.511" r="3" fill="#34764f"/>
+<line x1="743.245" y1="341.333" x2="710.000" y2="463.000" stroke="#34764f" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="743.245" cy="341.333" r="3" fill="#34764f"/>
+<line x1="780.892" y1="234.012" x2="820.600" y2="204.000" stroke="#34764f" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="780.892" cy="234.012" r="3" fill="#34764f"/>
+<line x1="743.323" y1="344.709" x2="796.800" y2="393.000" stroke="#34764f" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="743.323" cy="344.709" r="3" fill="#34764f"/>
+<line x1="741.351" y1="233.696" x2="710.000" y2="188.600" stroke="#34764f" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="741.351" cy="233.696" r="3" fill="#34764f"/>
+<line x1="693.790" y1="318.025" x2="661.000" y2="268.400" stroke="#34764f" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="693.790" cy="318.025" r="3" fill="#34764f"/>
+<line x1="796.016" y1="317.325" x2="890.600" y2="358.000" stroke="#34764f" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="796.016" cy="317.325" r="3" fill="#34764f"/>
+<line x1="735.274" y1="274.452" x2="789.800" y2="232.000" stroke="#34764f" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="735.274" cy="274.452" r="3" fill="#34764f"/>
+<line x1="825.380" y1="267.303" x2="892.000" y2="239.000" stroke="#34764f" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="825.380" cy="267.303" r="3" fill="#34764f"/>
+<line x1="799.730" y1="272.544" x2="780.000" y2="323.000" stroke="#34764f" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="799.730" cy="272.544" r="3" fill="#34764f"/>
+<line x1="659.274" y1="285.475" x2="579.800" y2="323.000" stroke="#34764f" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="659.274" cy="285.475" r="3" fill="#34764f"/>
+<line x1="731.212" y1="286.907" x2="703.000" y2="345.400" stroke="#34764f" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="731.212" cy="286.907" r="3" fill="#34764f"/>
+<line x1="812.763" y1="306.221" x2="752.000" y2="253.000" stroke="#34764f" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="812.763" cy="306.221" r="3" fill="#34764f"/>
+<line x1="718.532" y1="310.521" x2="619.000" y2="369.200" stroke="#34764f" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="718.532" cy="310.521" r="3" fill="#34764f"/>
+<line x1="725.633" y1="279.660" x2="736.600" y2="293.600" stroke="#34764f" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="725.633" cy="279.660" r="3" fill="#34764f"/>
+<line x1="730.783" y1="310.746" x2="787.000" y2="339.800" stroke="#34764f" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="730.783" cy="310.746" r="3" fill="#34764f"/>
+<line x1="727.307" y1="347.264" x2="703.000" y2="421.000" stroke="#34764f" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="727.307" cy="347.264" r="3" fill="#34764f"/>
+<line x1="831.608" y1="311.648" x2="876.600" y2="296.400" stroke="#34764f" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="831.608" cy="311.648" r="3" fill="#34764f"/>
+<line x1="689.022" y1="318.260" x2="647.000" y2="292.200" stroke="#34764f" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="689.022" cy="318.260" r="3" fill="#34764f"/>
+<line x1="683.855" y1="246.484" x2="628.800" y2="181.600" stroke="#34764f" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="683.855" cy="246.484" r="3" fill="#34764f"/>
+<line x1="761.624" y1="279.100" x2="829.000" y2="194.200" stroke="#34764f" stroke-width="1.8" opacity=".85" marker-end="url(#arrow)"/>
+<circle cx="761.624" cy="279.100" r="3" fill="#34764f"/>
+<text x="733" y="300">+</text>
+<text x="35" y="515">All basal positions are shared between panes. Source arrows show first segments; new arrows show full-axis chords.</text></svg>
