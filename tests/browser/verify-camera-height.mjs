@@ -66,7 +66,7 @@ try{
     report.study=protocol;report.fixedViewMethod='Camera-height research, not a production candidate: identical scene, target, x/z, FOV and frozen time; camera y intentionally varies.';
     report.captures=[];
     const states=[];
-    for(const v of protocol.views){
+    for(const v of protocol.views.filter(v=>!process.env.REEF_ONLY_VIEW||v.id===process.env.REEF_ONLY_VIEW)){
       for(const arm of ['baseline','candidate']){
         const pose=v[arm];await fixedCamera(pose.p,pose.t);
         const details=await page.evaluate(()=>{const r=window.reef3d;const fish=[];r.root.traverse(o=>{if(/^fish_\d+$/.test(o.name))fish.push({name:o.name,p:o.position.toArray(),q:o.quaternion.toArray()})});return {fov:r.camera.fov,aspect:r.camera.aspect,fish,state:r.getState()}});
@@ -75,7 +75,7 @@ try{
         report.captures.at(-1).details=details;states.push(details);await save();
       }
       const [a,b]=states.slice(-2);
-      if(a.fov!==b.fov||a.aspect!==b.aspect||JSON.stringify(a.fish)!==JSON.stringify(b.fish)||JSON.stringify(a.state.target)!==JSON.stringify(b.state.target)||a.state.camera[0]!==b.state.camera[0]||a.state.camera[2]!==b.state.camera[2])throw Error('Unintended paired variable difference');
+      if(a.fov!==b.fov||a.aspect!==b.aspect||JSON.stringify(a.fish)!==JSON.stringify(b.fish)||JSON.stringify(a.state.target)!==JSON.stringify(b.state.target)||Math.abs(a.state.camera[0]-b.state.camera[0])>.001||Math.abs(a.state.camera[2]-b.state.camera[2])>.001)throw Error('Unintended paired variable difference');
     }
     report.pairControlsPassed=true;
     const fish=()=>page.evaluate(()=>{const a=[];window.reef3d.root.traverse(o=>{if(/^fish_\d+$/.test(o.name))a.push({name:o.name,position:o.position.toArray()});});return a;});

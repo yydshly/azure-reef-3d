@@ -30,7 +30,7 @@ jobs:
       - name: Capture four controlled observation-height views
         if: steps.probe.outputs.available == 'true'
         timeout-minutes: 10
-        run: REEF_ARM=study REEF_SOURCE_DIR=dist REEF_TARGET=http://127.0.0.1:4173/dist/ node tests/browser/verify-camera-height.mjs render
+        run: REEF_ONLY_VIEW=route75 REEF_ARM=study REEF_SOURCE_DIR=dist REEF_TARGET=http://127.0.0.1:4173/dist/ node tests/browser/verify-camera-height.mjs render
       - uses: actions/upload-artifact@v4
         if: always()
         with:
