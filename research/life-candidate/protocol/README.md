@@ -40,3 +40,9 @@ Rebuild routes with `node --import ./qa-register.mjs build-life-routes.mjs`; inp
 ## Finite acceptance gate
 
 Actual software-WebGL three-view baseline/candidate t0 frames must make intermediate/distant activity legible while keeping original near-guide fish. Then a normal-motion midpoint capture over~36 real seconds must demonstrate positional change, changing heading/fin pose and nonconstant travel, with recorded wall-clock versus simulation time. No hidden-tab/reduced-motion catch-up jump. Keep runtime errors zero and model hashes unchanged. Do not claim physical GPU frame rate, ecological accuracy or completion of the whole world. If motion is visibly jerky or pairs intersect, correct that concrete failure before publication.
+
+## First actual browser result and targeted composition correction
+
+Run37577405341 passed static pairs and actual motion:51.2862 wall seconds versus51.3146 scene seconds (ratio1.00055), changed positions/orientations/fins, no reported runtime/request errors. Owner inspected all three fixed views, four motion captures and twelve chronological video frames. Mid/far activity is visible, but the middle pair enters too close to its preset camera and is clipped behind the control bar in the initial view and during part of its circuit. Not yet released.
+
+The correction changes only the middle pair control points, moving its nearest extent fromz≈-19.7 toz≈-22.7 while retaining the same population, speed profile, geometry and clock. Recomputed conservative terrain/OBB checks pass. Added a fixed-midpoint camera test against the actual1120×700 control rectangle across two66-second cycles. Full raw first-run evidence is retained on the QA branch; screenshots are valid evidence of the flaw rather than a reason to conceal it. A targeted actual recheck follows.
