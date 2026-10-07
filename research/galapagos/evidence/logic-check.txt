@@ -1,0 +1,1 @@
+PASS: real GLB import; shared source/surface positions and colors; unlit surface; exclusive mode controls, camera presets/keyboard, source positions unchanged, context-loss and no-WebGL states. Simulated DOM/renderer only; not browser pixel acceptance.

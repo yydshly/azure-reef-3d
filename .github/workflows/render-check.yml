@@ -1,4 +1,4 @@
-name: Verify public Pages WebGL rendering
+name: Verify isolated Galapagos research WebGL
 on:
   workflow_dispatch:
     inputs:
@@ -36,12 +36,12 @@ jobs:
         if: inputs.target_source == 'branch-preview'
         run: |
           mkdir -p render-evidence
-          python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > render-evidence/preview-server.log 2>&1 &
+          python3 -m http.server 4173 --bind 127.0.0.1 --directory research/galapagos/dist > render-evidence/preview-server.log 2>&1 &
           echo $! > render-evidence/preview-server.pid
       - name: Probe real WebGL2 without security overrides
         id: probe
         timeout-minutes: 2
-        run: node tests/browser/verify-pages.mjs probe
+        run: node tests/browser/verify-research.mjs probe
       - name: Preserve capability evidence immediately
         if: always()
         uses: actions/upload-artifact@v4
@@ -55,7 +55,7 @@ jobs:
         env:
           REEF_TARGET: ${{ inputs.target_source == 'branch-preview' && 'http://127.0.0.1:4173/' || 'https://yydshly.github.io/azure-reef-3d/' }}
           REEF_VIEW_SET: ${{ inputs.view_set }}
-        run: node tests/browser/verify-pages.mjs render
+        run: node tests/browser/verify-research.mjs render
       - name: Preserve screenshots, short video and runtime report
         if: always()
         uses: actions/upload-artifact@v4

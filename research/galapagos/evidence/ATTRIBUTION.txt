@@ -1,0 +1,21 @@
+Galapagos_3D (Española point-cloud sample), version 1.
+Creators: Matan Yuval; Inti Keith; Franklin Terán; William Bensted-Smith; Wilson Iñiguez.
+Institutional research provenance: Charles Darwin Research Station, Charles Darwin Foundation, Galápagos, Ecuador.
+Dataset publication metadata: February 23, 2025. Zenodo record created May 22, 2025.
+Source: https://doi.org/10.5281/zenodo.14914807
+License: Creative Commons Attribution 4.0 International (CC BY 4.0).
+License deed: https://creativecommons.org/licenses/by/4.0/
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Associated publication:
+Yuval, Matan; Terán, Franklin; Iñiguez, Wilson; Bensted-Smith, William; Keith, Inti. (2025). Spatial Variation in Coral Diversity and Reef Complexity in the Galápagos: Insights from Underwater Photogrammetry and New Data Extraction Methods. Remote Sensing 17(11), 1831. https://doi.org/10.3390/rs17111831
+
+Derivative modifications (2026-10-07): selected actual point crop X [1,4], Y [-2,1], retaining all Z; one local PCA normal-field correction; ball-pivoted inferred triangles with short-edge, source-distance and normal constraints. Source XYZ and RGB8 retained exactly, with no resampling or position smoothing. Original normals retained in source crop; derived PLY normals explicitly re-estimated. GLB uses shared source-point and surface accessors, original sRGB interpreted and converted to linear vertex colors (exact RGB8 round trip), unlit single-sided material, a -90-degree X root rotation and centering translation. Offline matched inspection images use actual points and triangles, not invented terrain. No hole filling, caps, hidden bottoms, fauna, additional scene or color correction. The triangle connectivity and PCA normal field are derived estimates. This is an incomplete research sample, not a watertight or complete surveyed object. No endorsement by creators or institutions is implied.
+
+Location: Española, Galápagos, eastern Pacific. Not Caribbean habitat.
+Scale: Published methods document 10×10 m plots, known-distance scale bars, and 1 cm point-cloud sampling. The point cloud spans approximately 10×10×1.057 native coordinate units, consistent with meters, but the PLY has no units declaration and absolute target distances were not independently remeasured.
+
+Original file: EspanolaFinalExperimentChunk.ply
+Bytes: 37,255,166
+CRC32 from ZIP central directory and verified extraction: 8ea24bdd
+SHA-256: f303f233dacb476de048555938ffe1feb0dfe8dc98cf35caacdf5c80eed05547

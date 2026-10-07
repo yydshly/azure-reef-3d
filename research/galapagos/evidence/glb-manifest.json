@@ -1,0 +1,15 @@
+{
+  "path": "espanola-measured-points-and-derived-surface.glb",
+  "bytes": 5881608,
+  "sha256": "ca165e9372276274a625efa6f5b3b0fac0852ecf245fe4b9a525da3a1afcde99",
+  "point_vertices": 128856,
+  "triangle_count": 232180,
+  "shared_position_accessor": 0,
+  "shared_color_accessor": 1,
+  "color_roundtrip_rgb8_max_error": 0,
+  "nodes": [
+    "Source_points",
+    "Reconstructed_surface"
+  ],
+  "default_both_nodes_present": true
+}

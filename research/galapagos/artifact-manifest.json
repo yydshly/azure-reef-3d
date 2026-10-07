@@ -1,0 +1,10 @@
+{
+  "status": "isolated-research-candidate-not-production",
+  "model": "dist/assets/espanola-ca165e9372276274.glb",
+  "sha256": "ca165e9372276274a625efa6f5b3b0fac0852ecf245fe4b9a525da3a1afcde99",
+  "bytes": 5881608,
+  "source_record": "https://zenodo.org/records/14914807",
+  "license": "CC BY 4.0",
+  "original_source_sha256": "f303f233dacb476de048555938ffe1feb0dfe8dc98cf35caacdf5c80eed05547",
+  "original_source_bytes": 37255166
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "name": "angle-a",
+    "direction_from_target_to_camera": [
+      1,
+      -1,
+      0.85
+    ],
+    "orthographic_pixels_per_native_unit": 292.71955990952154,
+    "target_native": [
+      2.500015676021576,
+      -0.49999526143074036,
+      -0.1230892688035965
+    ],
+    "panel_resolution": [
+      1400,
+      1000
+    ],
+    "point_splat_pixels": [
+      2,
+      2
+    ],
+    "rendering": "CPU barycentric triangle rasterization, orthographic Z-buffer, front-face only, no lights, source sRGB converted to linear for interpolation then sRGB display"
+  },
+  {
+    "name": "angle-b",
+    "direction_from_target_to_camera": [
+      -1,
+      0.25,
+      0.48
+    ],
+    "orthographic_pixels_per_native_unit": 341.4053496050495,
+    "target_native": [
+      2.500015676021576,
+      -0.49999526143074036,
+      -0.1230892688035965
+    ],
+    "panel_resolution": [
+      1400,
+      1000
+    ],
+    "point_splat_pixels": [
+      2,
+      2
+    ],
+    "rendering": "CPU barycentric triangle rasterization, orthographic Z-buffer, front-face only, no lights, source sRGB converted to linear for interpolation then sRGB display"
+  }
+]
