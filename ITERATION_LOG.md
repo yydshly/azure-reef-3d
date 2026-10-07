@@ -123,3 +123,9 @@ Run 37564502286 passed the opening and corrected seabed-guide checks on source a
 [礁肩实验](experiments/2026-10-07-shoulder-sample-rejected/README.md)保留一次设计和一次修正的离线图与复现配方；仍有人工板层与平滑倒角感，视觉拒绝。独立重生成匹配候选SHA256 `1d0b54fb008b205a102a88c682636cad827114aeb2d0234f2752d57158b31b22`。
 
 [材质输入审查](experiments/2026-10-07-substrate-input-rejected/README.md)：Coral Ground 02 实图含草叶与陆地碎屑，未应用于水下场景；仅归档出处和原文件哈希，不含114MB地图。生产网页与模型保持不变。另澄清当前软件WebGL验证范围、独立2.5D展示入口和公开重建输入提交。
+
+## 2026-10-07 · Bounded water-depth and light transport increment
+
+Source5596e8b introduced linear-radiance distance/depth attenuation and direct-light-only caustics. Actual run37573369857 caught a missing newline before a GLSL preprocessor directive; sourcef4334d2 fixed it and added a regression assertion. Run37573741470 then passed technically, but its effect was visually rejected: removing too much local light pattern made the seabed flatter. One correction96bcb513 restored local light variation, increased distant attenuation, and lifted ambient shadow readability.
+
+Actual same-runner baseline/candidate run37574417037 passed all three equal cameras with identical fixed-time fish and zero reported runtime/request errors. Owner pixel review accepts the limited improvement to underwater distance layers, not the overall realism goal. Geometry, textures, fish routes, guide and exposure are unchanged. Numerical optical coefficients, assumed water height and scattering color remain illustrative rather than measured. NOAA absorption guidance and PBR transmittance principles are linked from the reference page. Test history and original screenshots are in evidence/water-oct7. Query-versioned app/water imports prevent stale fixed-name module caches. No new scientific species or co-occurrence claim.

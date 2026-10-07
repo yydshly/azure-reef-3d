@@ -14,7 +14,7 @@
 
 A static, genuine-3D reef scene with a five-stop Chinese beginner guide. The guide connects camera positions and visible labels to explanations of reef context, sand/hardbottom, coral animals, generic fish, and light/water. Sources and modeling limits are available in the interface.
 
-This export includes source commit `117079e416ec2f7bf8438074fc2bda772590afe4`. The scene/model baseline is recorded in `docs/source-baseline-sha256.json`; GitHub interface and verification-tool changes are recorded in `docs/export-changes.json`.
+This export includes source commit `82f5c24d5a12fcda9f93cd48503c453eae0a886c`. The scene/model baseline is recorded in `docs/source-baseline-sha256.json`; GitHub interface and verification-tool changes are recorded in `docs/export-changes.json`.
 
 ## Run the exact snapshot
 
@@ -184,3 +184,7 @@ This iteration extends the existing reef into a composed sand passage with low i
 ## Current model reconstruction and stage record
 
 Use the portable sand-boundary prerequisite and spatial extension described in `modeling/sand-boundary-oct7/README.md` and `modeling/spatial-oct7/README.md`. Prior accepted input models remain available in repository history; earlier pipelines/fixtures are preserved. `evidence/qa-oct7/README.md` records the separate QA commits, unmodified browser screenshots, failures, targeted fix and retest. Real software WebGL rendering is confirmed for those recorded versions; user-device FPS and whole-scene natural realism remain unaccepted.
+
+## 2026-10-07 水体层次阶段
+
+[同机位真实浏览器对照与失败记录](evidence/water-oct7/README.md)。有限接受了更清晰的水体距离层次与较弱的远处规则光纹；模型/贴图/鱼路线保持不变。实际GPU编译错误与一次过平候选均留档。这是示意参数的视觉增量，不是实测光学或整体真实感验收。

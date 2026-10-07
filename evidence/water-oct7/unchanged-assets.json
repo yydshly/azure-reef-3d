@@ -1,0 +1,50 @@
+{
+  "source-model.glb": {
+    "bytes": 29534488,
+    "sha256": "c12624b2f1da3add8f801421b161daaa5ef9177f7f6edf8ce1a3d1ae7caf66dd"
+  },
+  "dist/model-version.js": {
+    "bytes": 71,
+    "sha256": "9bb2544b7d26ec235dd5d068e832711d391174005cb6c1077760cde324a2f975"
+  },
+  "dist/assets/swim-routes.json": {
+    "bytes": 72612,
+    "sha256": "4f24395a091b439cca8ae4e3ba74abd71e993da5e7f360685d981555a93f4933"
+  },
+  "dist/passage.js": {
+    "bytes": 1830,
+    "sha256": "eca17ce6d88abb101936c55b952cfdfb632c6dc5ce8e7e9456e4bd0656f7761d"
+  },
+  "dist/assets/models/68e02c88ba14a2c2/reef-texture-5.png": {
+    "bytes": 437729,
+    "sha256": "b0ccab29dac297bd2b2195da8e4b3a5fc952f57c4725d8bba9c0d3ab7c4af882"
+  },
+  "dist/assets/models/68e02c88ba14a2c2/reef-texture-0.png": {
+    "bytes": 1991333,
+    "sha256": "ed024e8a9ba831094f4accf291e3cb22f6c04d8e738e8e79244dc2d3c28e1057"
+  },
+  "dist/assets/models/68e02c88ba14a2c2/reef.bin": {
+    "bytes": 23101904,
+    "sha256": "93c386b37d181ea9dac7f23a7411dee81c13d9e6572f64935d83e9520be1c293"
+  },
+  "dist/assets/models/68e02c88ba14a2c2/reef.gltf": {
+    "bytes": 61835,
+    "sha256": "c10958b9d052e73caf38b808f548e216df4d52e3bd282fa9b1e2be56d4d1f8ad"
+  },
+  "dist/assets/models/68e02c88ba14a2c2/reef-texture-4.png": {
+    "bytes": 1434820,
+    "sha256": "e4dae628a8db581e328d9db24439b75758b1078be76d3c3c7723e22b715e6e10"
+  },
+  "dist/assets/models/68e02c88ba14a2c2/reef-texture-1.png": {
+    "bytes": 769775,
+    "sha256": "364108445912e2f661ac97d01b3db6e00cf9b785e40f20440d693e97675aeb0e"
+  },
+  "dist/assets/models/68e02c88ba14a2c2/reef-texture-3.png": {
+    "bytes": 294537,
+    "sha256": "8f8527dd249041ed14665a96d38561c09641c6c5bf60569a35fa5caa8a98dc5b"
+  },
+  "dist/assets/models/68e02c88ba14a2c2/reef-texture-2.png": {
+    "bytes": 1442190,
+    "sha256": "8dd71f6be567f68002fc7b48fa4bd7c6da8e9f9799fe0a3bfb78b58592244cbe"
+  }
+}
