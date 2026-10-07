@@ -1,0 +1,5 @@
+{
+  "originalAppSha256": "0eae33a3dfa811b1b99dc59a714ba3ba6f0189d26337623fe8c8e865e31f7532",
+  "testAppSha256": "903600b59d622727ea3d7121ce12efb12596e0bd5a62392755d130f709640429",
+  "change": "QA-only existing renderer reference for counters"
+}

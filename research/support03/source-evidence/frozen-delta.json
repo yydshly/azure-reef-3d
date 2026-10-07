@@ -1,0 +1,36 @@
+{
+  "baseline": "2372e912e23cfef9cf9eaf2ce862289c5a923008",
+  "status": "Runtimevisualverificationpending",
+  "files": [
+    {
+      "path": "dist/app.js",
+      "sha256": "ce00e8a6ff480ee6c87b5bbb27aa1a1a54b4dbcbca1aaa3f848ad23cd240afd5",
+      "bytes": 20860
+    },
+    {
+      "path": "dist/support-geometry.js",
+      "sha256": "2ab4b8bc18d27cab92a24b81e7039cd098b9790c8513ab7c65377b48db9fff37",
+      "bytes": 1076
+    },
+    {
+      "path": "dist/assets/geometry/db694e926309b798/support03.glb",
+      "sha256": "db694e926309b79863b06db6b023e194921e69541107729170d2f7abd8f7f417",
+      "bytes": 432556
+    },
+    {
+      "path": "qa-support-geometry.mjs",
+      "sha256": "846554807b24c80d020018833c123975ca840fba3548acbeaca383f037caa072",
+      "bytes": 2013
+    },
+    {
+      "path": "qa-guide-integration.mjs",
+      "sha256": "a09f09f508877ac9c7d42500b3f7aff7fedef2e6067e997c075bf8393dd340d5",
+      "bytes": 13017
+    },
+    {
+      "path": "evidence/support03-oct7/STATUS.md",
+      "sha256": "eefdd6c4292ee38b4360869565b2cb9b08ddd75d56af662b61414acabd3307e0",
+      "bytes": 1583
+    }
+  ]
+}
