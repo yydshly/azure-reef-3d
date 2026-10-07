@@ -1,4 +1,4 @@
-name: Verify public Pages WebGL rendering
+name: Compare fixed-time whole-route inhabited reef candidate
 on:
   workflow_dispatch:
     inputs:
@@ -20,7 +20,7 @@ concurrency:
 jobs:
   render:
     runs-on: ubuntu-22.04
-    timeout-minutes: 12
+    timeout-minutes: 18
     steps:
       - uses: actions/checkout@v6
         with:
@@ -33,29 +33,31 @@ jobs:
       - name: Install official Chromium and OS dependencies
         run: tests/browser/node_modules/.bin/playwright install --with-deps chromium
       - name: Start isolated branch preview when requested
-        if: inputs.target_source == 'branch-preview'
+        if: always()
         run: |
           mkdir -p render-evidence
-          python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > render-evidence/preview-server.log 2>&1 &
+          python3 -m http.server 4173 --bind 127.0.0.1 --directory . > render-evidence/preview-server.log 2>&1 &
           echo $! > render-evidence/preview-server.pid
       - name: Probe real WebGL2 without security overrides
         id: probe
         timeout-minutes: 2
-        run: node tests/browser/verify-pages.mjs probe
+        run: node tests/browser/verify-tour-clock.mjs probe
       - name: Preserve capability evidence immediately
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: webgl2-capability-${{ github.run_id }}
-          path: render-evidence/probe.json
+          path: render-evidence/probe/probe.json
           retention-days: 7
       - name: Render actual public Pages and exercise fixed views
         if: steps.probe.outputs.available == 'true'
-        timeout-minutes: 6
+        timeout-minutes: 13
         env:
           REEF_TARGET: ${{ inputs.target_source == 'branch-preview' && 'http://127.0.0.1:4173/' || 'https://yydshly.github.io/azure-reef-3d/' }}
           REEF_VIEW_SET: ${{ inputs.view_set }}
-        run: node tests/browser/verify-pages.mjs render
+        run: |
+          REEF_ARM=baseline REEF_ROUTE=true REEF_NATIVE_ONLY=true REEF_SOURCE_DIR=dist REEF_TARGET=http://127.0.0.1:4173/dist/ node tests/browser/verify-tour-clock.mjs render
+          REEF_ARM=candidate REEF_ROUTE=true REEF_NATIVE_ONLY=true REEF_SOURCE_DIR=research/tour-clock/dist REEF_TARGET=http://127.0.0.1:4173/research/tour-clock/dist/ node tests/browser/verify-tour-clock.mjs render
       - name: Preserve screenshots, short video and runtime report
         if: always()
         uses: actions/upload-artifact@v4
