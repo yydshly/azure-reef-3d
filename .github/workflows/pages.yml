@@ -32,13 +32,13 @@ jobs:
       - name: Checkout verified independent exhibit archives
         uses: actions/checkout@v6
         with:
-          ref: e5ece7533dc92edbe86c7b223d3a3fd8c3642749
+          ref: 42ad20d858f648c0e8bd06f8caaa486bd7a1a044
           path: .verified-preview-source
           persist-credentials: false
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /azure-reef-reefs4d-candidate-delta.zip
-            /apron-fix-full-delta.zip
+            /color-binding-full-delta.zip
       - name: Add verified preview while preserving root-site bytes
         run: |
           python3 - <<'PYCODE'
@@ -53,9 +53,9 @@ jobs:
           assert not any(p.is_symlink() for p in root.rglob('*'))
           preview=root/'preview'/'independent-scan'
           shutil.copytree(root, pathlib.Path('.preview-stage'))
-          old=source/'azure-reef-reefs4d-candidate-delta.zip'; new=source/'apron-fix-full-delta.zip'
+          old=source/'azure-reef-reefs4d-candidate-delta.zip'; new=source/'color-binding-full-delta.zip'
           assert sha(old.read_bytes())=='6621e03fe42110a070eeb49be69403b29a6d5d0e9be6031865e1491764a83463'
-          assert sha(new.read_bytes())=='a7a67358248cc96d6ade8f73309e6ba5b2a5c59b2f2979f982439a05b01c515d'
+          assert sha(new.read_bytes())=='dc5da43ca0528ed3dfacd5969c49f872b007eca6471267e22a2f21bffdeaa9fd'
           stage=pathlib.Path('.preview-stage')
           capture_tools={'capture-current-scene.mjs','current-scene-gallery.mjs','qa-current-fallback.mjs','qa-hud.mjs','qa-c4-browser.mjs'}
           tool_dir=pathlib.Path('.preview-tools'); tool_dir.mkdir()
@@ -77,7 +77,7 @@ jobs:
                   elif name in capture_tools:
                       (tool_dir/name).write_bytes(data)
           assert {p.name for p in tool_dir.iterdir()}==capture_tools
-          assert sha((stage/'app.js').read_bytes())=='4454c66d27dc7d684e7804d5864ed377f318a646f581841e6d470a0f1e287dbd', 'Unexpected preview app version'
+          assert sha((stage/'app.js').read_bytes())=='f35b2a18ec858a6f16fa3445f36a2f46bccd5ab84fe94d947ae153a027fdd008', 'Unexpected preview app version'
           assert manifest.get('compatibilityRetain') == ['assets/models/68e02c88ba14a2c2']
           assert sha((stage/'model-version.js').read_bytes()) == '38a7f00b14980327891803364ec1bff9739b9a953f1b7d4a22cde330c302b163'
           assert all(sha((stage/name).read_bytes()) == digest for name,digest in before.items() if name.startswith('assets/models/68e02c88ba14a2c2/')), 'Cached-client model changed'
@@ -108,8 +108,8 @@ jobs:
         timeout-minutes: 8
         env:
           REEF_PREVIEW_DIR: dist/preview/independent-scan
-          REEF_CANDIDATE_SOURCE_COMMIT: e5ece7533dc92edbe86c7b223d3a3fd8c3642749
-          REEF_CANDIDATE_ARCHIVE_SHA256: a7a67358248cc96d6ade8f73309e6ba5b2a5c59b2f2979f982439a05b01c515d
+          REEF_CANDIDATE_SOURCE_COMMIT: 42ad20d858f648c0e8bd06f8caaa486bd7a1a044
+          REEF_CANDIDATE_ARCHIVE_SHA256: dc5da43ca0528ed3dfacd5969c49f872b007eca6471267e22a2f21bffdeaa9fd
         run: |
           python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-preview-server.log 2>&1 &
           server_pid=$!
