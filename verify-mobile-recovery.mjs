@@ -77,16 +77,38 @@ try {
       const state = () => page.evaluate(() => window.reef3d?.getState());
       const checkpoint = async (name, detail = {}) => { c.checkpoints.push({ name, elapsedMs: Date.now() - started, ...detail }); console.log('MOBILE_RECOVERY_CHECKPOINT ' + JSON.stringify({ motion, ...c.checkpoints.at(-1) })); await save(); };
       const settle = selector => page.evaluate(selector => new Promise(resolve => {
-        const started = performance.now(); let lastChange = started, previous = null, stable = 0;
-        const sample = () => {
-          const e = document.querySelector(selector), card = document.querySelector('#guideCard');
-          if (!e) return resolve({ settled: false, reason: 'target-missing' });
-          const r = e.getBoundingClientRect(), current = [r.left, r.top, r.right, r.bottom, card?.scrollTop ?? 0].join(',');
-          if (current === previous) stable++; else { previous = current; stable = 0; lastChange = performance.now(); }
-          if (stable >= 3 && performance.now() - lastChange >= 300) return resolve({ settled: true, durationMs: performance.now() - started, stableFrames: stable, sample: current });
-          if (performance.now() - started >= 2500) return resolve({ settled: false, reason: 'scroll-or-layout-not-settled', sample: current });
-          requestAnimationFrame(sample);
-        }; requestAnimationFrame(sample);
+        const started = performance.now(), quietMs = 300, maxMs = 12000;
+        const target = document.querySelector(selector), card = target?.closest('#guideCard');
+        const trace = [], samples = []; let quietTimer, capTimer, callbacks = 0, lastActivity = started, finished = false;
+        const sample = reason => {
+          const e = document.querySelector(selector), r = e?.getBoundingClientRect();
+          const value = r ? { left: r.left, top: r.top, right: r.right, bottom: r.bottom, scrollTop: card?.scrollTop ?? 0 } : null;
+          samples.push({ reason, atMs: performance.now() - started, value }); return value;
+        };
+        let baseline = sample('after-native-wheel');
+        const finish = (settled, reason) => {
+          if (finished) return; finished = true;
+          clearTimeout(quietTimer); clearTimeout(capTimer);
+          card?.removeEventListener('scroll', onScroll); card?.removeEventListener('scrollend', onScroll);
+          resolve({ settled, reason, durationMs: performance.now() - started, quietMs, maxMs, callbacks, trace, samples });
+        };
+        const quietCheck = () => {
+          callbacks++; const now = performance.now();
+          trace.push({ kind: 'quiet-timer', atMs: now - started, quietForMs: now - lastActivity, callbackDelayMs: now - lastActivity - quietMs });
+          const final = sample('quiet-end');
+          if (now - started > maxMs) return finish(false, 'observation-window-exhausted');
+          if (!baseline || !final) return finish(false, 'target-missing');
+          finish(JSON.stringify(baseline) === JSON.stringify(final), JSON.stringify(baseline) === JSON.stringify(final) ? 'quiet-scroll-and-rect' : 'rect-or-scroll-changed-without-settlement');
+        };
+        const onScroll = e => {
+          callbacks++; lastActivity = performance.now();
+          trace.push({ kind: e.type, atMs: lastActivity - started, trusted: e.isTrusted });
+          baseline = sample(e.type); clearTimeout(quietTimer); quietTimer = setTimeout(quietCheck, quietMs);
+        };
+        if (!target || !card) return finish(false, 'wheel-target-not-in-guide-card');
+        card.addEventListener('scroll', onScroll, { passive: true }); card.addEventListener('scrollend', onScroll, { passive: true });
+        quietTimer = setTimeout(quietCheck, quietMs);
+        capTimer = setTimeout(() => { callbacks++; trace.push({ kind: 'cap-timer', atMs: performance.now() - started }); sample('window-end'); finish(false, 'observation-window-exhausted'); }, maxMs);
       }), selector);
       const click = async (selector, wheel = false) => {
         action = motion + ':' + c.interactions.length + ':' + selector;
@@ -100,11 +122,12 @@ try {
             item.wheelDelta = delta;
             await page.mouse.wheel(0, delta);
           }
-          item.settlement = await settle(selector);
+          item.settlement = wheel ? await settle(selector) : { settled: true, applicable: false, reason: 'no-native-wheel; ordinary-locator-actionability' };
           item.pre = await page.evaluate(observation, selector);
           assert(item.settlement.settled, 'Unsettled target: ' + selector);
           assert(item.pre.exists && !item.pre.disabled && !item.pre.hidden && item.pre.display !== 'none' && item.pre.visibility === 'visible' && Number(item.pre.opacity) > 0 && item.pre.hitMatches, 'Target obstructed or unavailable: ' + selector);
-          await page.locator(selector).click({ timeout: 6000 });
+          if (wheel) assert(c.events.some(e => e.action === action && e.type === 'wheel' && e.trusted), 'Missing trusted native wheel: ' + selector);
+          await page.locator(selector).click({ timeout: 12000 });
           try { item.post = await page.evaluate(() => ({ url: location.href, main: window.reef3d?.getState(), exhibit: window.reefExhibit?.getState(), restored: window.reefExhibitReturn })); } catch { item.post = { navigationInProgress: true }; }
           const input = c.events.filter(e => e.action === action && ['pointerdown', 'pointerup', 'click'].includes(e.type));
           assert(['pointerdown', 'pointerup', 'click'].every(type => input.some(e => e.type === type && e.trusted)), 'Incomplete trusted pointer sequence: ' + selector);
