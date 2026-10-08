@@ -28,9 +28,9 @@ jobs:
       - name: Verify isolated underwater area candidate
         if: inputs.target_source == 'branch-preview'
         run: |
-          echo '82777fd498587986ceae750afc74ebebe12ee2e9247f52efcab17affc1e9c9fb  extract-recovery.py' | sha256sum --check
+          echo '60783a426e7bfb92515cb452fb881410ad2679c472eb61d9ec28643db04ff95f  extract-recovery.py' | sha256sum --check
           python3 extract-recovery.py
-          echo 'a546f9f8abd760e0181a550437d765835923966d542261c0d02fff5aff469402  verify-recovery.mjs' | sha256sum --check
+          echo '336275e6aaec2e19c22d156213810dc5eaedff74d452f9ad6eecc59d048b1a03  verify-recovery.mjs' | sha256sum --check
           cp verify-recovery.mjs tests/browser/verify-recovery.mjs
       - uses: actions/setup-node@v6
         with:
