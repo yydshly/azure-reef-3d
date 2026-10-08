@@ -31,13 +31,13 @@ jobs:
       - name: Checkout verified independent exhibit archives
         uses: actions/checkout@v6
         with:
-          ref: 8918caa9e2f8868be309c9b7eb2721840df7539f
+          ref: 920d1a312e6cb450363438e8be30434457b7a1c3
           path: .verified-preview-source
           persist-credentials: false
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /azure-reef-reefs4d-candidate-delta.zip
-            /exploration-continuity-delta.zip
+            /runtime-budget-delta.zip
       - name: Add verified preview while preserving root-site bytes
         run: |
           python3 - <<'PYCODE'
@@ -51,18 +51,18 @@ jobs:
           assert not any(p.is_symlink() for p in root.rglob('*'))
           preview=root/'preview'/'independent-scan'
           shutil.copytree(root, pathlib.Path('.preview-stage'))
-          old=source/'azure-reef-reefs4d-candidate-delta.zip'; new=source/'exploration-continuity-delta.zip'
+          old=source/'azure-reef-reefs4d-candidate-delta.zip'; new=source/'runtime-budget-delta.zip'
           assert sha(old.read_bytes())=='6621e03fe42110a070eeb49be69403b29a6d5d0e9be6031865e1491764a83463'
-          assert sha(new.read_bytes())=='f2c31016e7413c4ea1bb1576133c8aae9b3b4f07ec8bd217cb643ce3f861be61'
+          assert sha(new.read_bytes())=='cba55e4b32e9d44e0427aa02ffa3482312d00725ca8aa522d343fe4ac769cda1'
           stage=pathlib.Path('.preview-stage')
           with zipfile.ZipFile(old) as z:
               data=z.read('dist/assets/reefs4d/C12019-web.glb')
               assert sha(data)=='975228622829cb715ba9b48c0c5cc45c92e8b79d6689102cf188479318362502'
               p=stage/'assets/reefs4d/C12019-web.glb'; p.parent.mkdir(parents=True,exist_ok=True); p.write_bytes(data)
           with zipfile.ZipFile(new) as z:
-              names=z.namelist(); assert len(names)==len(set(names))==49
+              names=z.namelist(); assert len(names)==len(set(names))==67
               manifest=json.loads(z.read('WORLD-MANIFEST.json')); assert manifest['base']==base
-              files=manifest['files']; assert len(files)==48
+              files=manifest['files']; assert len(files)==66
               assert set(names)=={f['path'] for f in files}|{'WORLD-MANIFEST.json'}
               for f in files:
                   name=f['path']; rel=pathlib.PurePosixPath(name)
@@ -71,6 +71,9 @@ jobs:
                   if name.startswith('dist/'):
                       p=stage/pathlib.PurePosixPath(name).relative_to('dist'); p.parent.mkdir(parents=True,exist_ok=True); p.write_bytes(data)
           assert sha((stage/'app.js').read_bytes())=='62159b707ee15deccff4722aa9641f95b063d3457b9f5f301859e38f24314681', 'Unexpected preview app version'
+          assert manifest.get('compatibilityRetain') == ['assets/models/68e02c88ba14a2c2']
+          assert sha((stage/'model-version.js').read_bytes()) == '38a7f00b14980327891803364ec1bff9739b9a953f1b7d4a22cde330c302b163'
+          assert all(sha((stage/name).read_bytes()) == digest for name,digest in before.items() if name.startswith('assets/models/68e02c88ba14a2c2/')), 'Cached-client model changed'
           preview.parent.mkdir(parents=True);shutil.move(str(stage),str(preview))
           after={str(p.relative_to(root)):sha(p.read_bytes()) for p in root.rglob('*') if p.is_file() and not p.is_relative_to(root/'preview')}
           assert after==before, 'Existing root-site bytes changed'
