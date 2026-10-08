@@ -32,6 +32,38 @@ jobs:
           python3 extract-independent-exhibit.py
           echo '3cbe20b7414d091656fcd8cbe305e44e5b2f6c20ef792254d0822c92f5eefe42  verify-independent-exhibit.mjs' | sha256sum --check
           cp verify-independent-exhibit.mjs tests/browser/verify-independent-exhibit.mjs
+      - name: Verify three-value lighting candidate for one A/B
+        if: inputs.target_source == 'branch-preview'
+        run: |
+          python3 - <<'PYCODE'
+          import hashlib, json, pathlib, zipfile
+          sha = lambda data: hashlib.sha256(data).hexdigest()
+          archive = pathlib.Path('directional-light-r1-delta.zip')
+          expected = 'd55e9460622e5a0ff8855d837911badfe430105bf78a0a52f79950d098e5b1f7'
+          assert sha(archive.read_bytes()) == expected
+          before = pathlib.Path('dist/app.js').read_bytes()
+          assert sha(before) == '4127a29d4d9aed14a55d0f8a9a8ac8058fd8d6fc524683fa5dc48f8e8744a027'
+          with zipfile.ZipFile(archive) as z:
+              names = z.namelist()
+              assert len(names) == len(set(names)) == 7
+              manifest_path = 'evidence/directional-light-r1/manifest.json'
+              files = json.loads(z.read(manifest_path))
+              assert set(names) == set(files) | {manifest_path}
+              for name, digest in files.items():
+                  p = pathlib.PurePosixPath(name)
+                  assert not p.is_absolute() and '..' not in p.parts and '\\' not in name
+                  assert sha(z.read(name)) == digest
+              candidate = z.read('dist/app.js')
+              expected_app = before.replace(b"'#244e67',2.7", b"'#244e67',1.35").replace(b"'#e9f3dc',3.0", b"'#e9f3dc',4.0").replace(b'sun.shadow.intensity=.45;', b'sun.shadow.intensity=.8;')
+              assert candidate == expected_app
+              assert sha(candidate) == '8123c1d1d11c991b8bcdbcd1758c31991b17961622ed2a28eda77499548932ad'
+              for name in names:
+                  p = pathlib.Path(name)
+                  p.parent.mkdir(parents=True, exist_ok=True)
+                  p.write_bytes(z.read(name))
+          pathlib.Path('render-evidence/lighting-archive-verification.json').write_text(json.dumps({'archive_sha256':expected,'files':files,'exact_three_value_change':True,'independent_exhibit_unchanged':True},indent=2))
+          print('Verified exactly three light values; independent exhibit unchanged.')
+          PYCODE
       - uses: actions/setup-node@v6
         with:
           node-version: '22'
@@ -62,7 +94,7 @@ jobs:
         env:
           REEF_TARGET: ${{ inputs.target_source == 'branch-preview' && 'http://127.0.0.1:4173/' || 'https://yydshly.github.io/azure-reef-3d/' }}
           REEF_VIEW_SET: ${{ inputs.view_set }}
-        run: node tests/browser/verify-independent-exhibit.mjs
+        run: node tests/browser/verify-lighting.mjs
       - name: Preserve screenshots, short video and runtime report
         if: always()
         uses: actions/upload-artifact@v4
