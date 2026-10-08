@@ -32,13 +32,13 @@ jobs:
         if: github.event_name == 'workflow_dispatch'
         uses: actions/checkout@v6
         with:
-          ref: bb114028673ff58262808b80f72b15032b52ea10
+          ref: 082bee7a49dbd4c0c65e0647c2bc2d4724200442
           path: .verified-preview-source
           persist-credentials: false
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /azure-reef-reefs4d-candidate-delta.zip
-            /reef-independent-exhibit-delta.zip
+            /reef-underwater-area-delta.zip
       - name: Add verified preview while preserving root-site bytes
         if: github.event_name == 'workflow_dispatch'
         run: |
@@ -53,19 +53,19 @@ jobs:
           assert not any(p.is_symlink() for p in root.rglob('*'))
           preview=root/'preview'/'independent-scan'
           shutil.copytree(root, pathlib.Path('.preview-stage'))
-          old=source/'azure-reef-reefs4d-candidate-delta.zip'; new=source/'reef-independent-exhibit-delta.zip'
+          old=source/'azure-reef-reefs4d-candidate-delta.zip'; new=source/'reef-underwater-area-delta.zip'
           assert sha(old.read_bytes())=='6621e03fe42110a070eeb49be69403b29a6d5d0e9be6031865e1491764a83463'
-          assert sha(new.read_bytes())=='19911638d004b53e958340a24ece0a9cb8e92ef6678d2fe08c8248050486425d'
+          assert sha(new.read_bytes())=='f1f2237dad198dce6bb5dfadc404f0e28c95b2ef3461a78dbb6be158672f9531'
           stage=pathlib.Path('.preview-stage')
           with zipfile.ZipFile(old) as z:
               data=z.read('dist/assets/reefs4d/C12019-web.glb')
               assert sha(data)=='975228622829cb715ba9b48c0c5cc45c92e8b79d6689102cf188479318362502'
               p=stage/'assets/reefs4d/C12019-web.glb'; p.parent.mkdir(parents=True,exist_ok=True); p.write_bytes(data)
           with zipfile.ZipFile(new) as z:
-              names=z.namelist(); assert len(names)==len(set(names))==23
-              manifest=json.loads(z.read('EXHIBIT-MANIFEST.json')); assert manifest['base']==base
-              files=manifest['files']; assert len(files)==22
-              assert set(names)=={f['path'] for f in files}|{'EXHIBIT-MANIFEST.json'}
+              names=z.namelist(); assert len(names)==len(set(names))==27
+              manifest=json.loads(z.read('UNDERWATER-MANIFEST.json')); assert manifest['base']==base
+              files=manifest['files']; assert len(files)==26
+              assert set(names)=={f['path'] for f in files}|{'UNDERWATER-MANIFEST.json'}
               for f in files:
                   name=f['path']; rel=pathlib.PurePosixPath(name)
                   assert not rel.is_absolute() and '..' not in rel.parts and '\\' not in name
