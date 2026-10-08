@@ -30,7 +30,7 @@ jobs:
         run: |
           echo '6ee65bfcbf42865d0bb3b734627d583cbabcbdc5297c9ee79e90dbece7c1da37  extract-runtime-budget.py' | sha256sum --check
           python3 extract-runtime-budget.py
-          echo 'f005966ee456c62fe963efd76ed21471a5a64c164b076b424c206b63ade9a69a  verify-runtime-budget.mjs' | sha256sum --check
+          echo '375b2e7971d2a0f49acb0a7fe8f907bc37fab71f057ba36608216c01bd1d6f4f  verify-runtime-budget.mjs' | sha256sum --check
           cp verify-runtime-budget.mjs tests/browser/verify-runtime-budget.mjs
       - uses: actions/setup-node@v6
         with:
