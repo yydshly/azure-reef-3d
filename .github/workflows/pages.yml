@@ -26,6 +26,62 @@ jobs:
     steps:
       - name: Checkout source
         uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+      - name: Checkout verified independent exhibit archives
+        if: github.event_name == 'workflow_dispatch'
+        uses: actions/checkout@v6
+        with:
+          ref: bb114028673ff58262808b80f72b15032b52ea10
+          path: .verified-preview-source
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /azure-reef-reefs4d-candidate-delta.zip
+            /reef-independent-exhibit-delta.zip
+      - name: Add verified preview while preserving root-site bytes
+        if: github.event_name == 'workflow_dispatch'
+        run: |
+          python3 - <<'PYCODE'
+          import hashlib,json,pathlib,shutil,subprocess,zipfile
+          root=pathlib.Path('dist'); source=pathlib.Path('.verified-preview-source'); base='498cc09acda8b7d4609ee2dc863e01e6712c790c'
+          sha=lambda b:hashlib.sha256(b).hexdigest()
+          subprocess.run(['git','diff','--exit-code',base,'--','dist'],check=True)
+          before={str(p.relative_to(root)):sha(p.read_bytes()) for p in root.rglob('*') if p.is_file()}
+          assert before and not (root/'preview').exists(), 'Unexpected existing preview path'
+          assert before['app.js']=='4127a29d4d9aed14a55d0f8a9a8ac8058fd8d6fc524683fa5dc48f8e8744a027'
+          assert not any(p.is_symlink() for p in root.rglob('*'))
+          preview=root/'preview'/'independent-scan'
+          shutil.copytree(root, pathlib.Path('.preview-stage'))
+          old=source/'azure-reef-reefs4d-candidate-delta.zip'; new=source/'reef-independent-exhibit-delta.zip'
+          assert sha(old.read_bytes())=='6621e03fe42110a070eeb49be69403b29a6d5d0e9be6031865e1491764a83463'
+          assert sha(new.read_bytes())=='19911638d004b53e958340a24ece0a9cb8e92ef6678d2fe08c8248050486425d'
+          stage=pathlib.Path('.preview-stage')
+          with zipfile.ZipFile(old) as z:
+              data=z.read('dist/assets/reefs4d/C12019-web.glb')
+              assert sha(data)=='975228622829cb715ba9b48c0c5cc45c92e8b79d6689102cf188479318362502'
+              p=stage/'assets/reefs4d/C12019-web.glb'; p.parent.mkdir(parents=True,exist_ok=True); p.write_bytes(data)
+          with zipfile.ZipFile(new) as z:
+              names=z.namelist(); assert len(names)==len(set(names))==23
+              manifest=json.loads(z.read('EXHIBIT-MANIFEST.json')); assert manifest['base']==base
+              files=manifest['files']; assert len(files)==22
+              assert set(names)=={f['path'] for f in files}|{'EXHIBIT-MANIFEST.json'}
+              for f in files:
+                  name=f['path']; rel=pathlib.PurePosixPath(name)
+                  assert not rel.is_absolute() and '..' not in rel.parts and '\\' not in name
+                  data=z.read(name); assert len(data)==f['bytes'] and sha(data)==f['sha256']
+                  if name.startswith('dist/'):
+                      p=stage/pathlib.PurePosixPath(name).relative_to('dist'); p.parent.mkdir(parents=True,exist_ok=True); p.write_bytes(data)
+          assert sha((stage/'app.js').read_bytes())==before['app.js'], 'Main lighting changed'
+          preview.parent.mkdir(parents=True);shutil.move(str(stage),str(preview))
+          after={str(p.relative_to(root)):sha(p.read_bytes()) for p in root.rglob('*') if p.is_file() and not p.is_relative_to(root/'preview')}
+          assert after==before, 'Existing root-site bytes changed'
+          for f in ['index.html','exhibit-entry.js','scan-exhibit.html','scan-exhibit.js','scan-exhibit.css','vendor/three.module.js','vendor/GLTFLoader.js','assets/reefs4d/C12019-web.glb']:
+              assert (preview/f).is_file(), f
+          assert './index.html?return=scan-exhibit' in (preview/'scan-exhibit.html').read_text()
+          assert 'scan-exhibit.html' in (preview/'index.html').read_text()
+          print('PREVIEW_PACKAGE_VERIFIED',json.dumps({'root_files_unchanged':len(before),'base':base,'preview':'preview/independent-scan/','app_sha256':before['app.js'],'exhibit_archive_sha256':sha(new.read_bytes()),'preview_files':sum(p.is_file() for p in preview.rglob('*'))}))
+          PYCODE
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload static website only
