@@ -32,7 +32,7 @@ jobs:
           echo '0e2ae212a0c02d86a0ce44f798b4b0bb2fdb9d4f7bb6b0dd6eb04c635f71c38c  seagrass-runtime-hashes.json' | sha256sum --check
           python3 extract-mobile-recovery.py
           cp seagrass-runtime-hashes.json tests/browser/seagrass-runtime-hashes.json
-          echo 'afbb93f8a9bf718ace0f315a14cc4db03397d38f2c973c8e96cf265433029093  verify-mobile-recovery.mjs' | sha256sum --check
+          echo 'a2ad25fe113be8e25152c4922659864af506bdf79d82595a5136c8da84e39977  verify-mobile-recovery.mjs' | sha256sum --check
           cp verify-mobile-recovery.mjs tests/browser/verify-mobile-recovery.mjs
       - uses: actions/setup-node@v6
         with:
