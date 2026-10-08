@@ -1,0 +1,59 @@
+import {chromium} from 'playwright';import fs from 'node:fs/promises';import path from 'node:path';import {createHash} from 'node:crypto';
+const target=process.env.REEF_TARGET;if(target!=='http://127.0.0.1:4173/')throw Error('Isolated branch preview only');
+const out=path.resolve('render-evidence');await fs.mkdir(out,{recursive:true});const started=Date.now(),limitMs=320000,hash=b=>createHash('sha256').update(b).digest('hex');
+const expected={
+  "app.js": "c31e0723d4a03264115d9f6f788e02b8e1a037fac5b9ec0f9ffc21c5168e0621",
+  "guide-data.js": "72a61b1c7187d930b36205ef8003b1505386609287d52f8b33f52dec79dc2fed",
+  "index.html": "c2a8787a384112a2007ebb1584db41c66edaf9b35ad4455fc593cfd6f3184f6a",
+  "style.css": "e55685bc51ecf56d1eb83ad4dde2fad026650195d38099e7637da443ac68e7d7",
+  "exhibit-entry.js": "7a6fed07738dee22947494148b3eff9b0fe0382d0f6d53caad5c63ee872b1707",
+  "scan-exhibit.html": "c43fad7cf0fecef9dae9227dd23a8105f95155927c451de12e335a2b20d4081c",
+  "scan-exhibit.css": "7304118c3da1d487bdfd8caf4426c7fcc9d23833c35898a65ea03a9bbf6a3309",
+  "scan-exhibit.js": "7eab5b6114eeaae1aa6759a8c5ed7e1ce681a0e8c7a26488e12ace3d329459e1",
+  "scan-ocean.js": "bc9fff4201516489e9cb7d552fb2881b580e825c7cca0ebcae647330b499ed09",
+  "assets/water-caustics.png": "bd60ac0e3c29ca5ec1cf0d53440fae4e1a97fe0763cdd4314244c46cd7c09c6d",
+  "assets/reefs4d/C12019-web.glb": "975228622829cb715ba9b48c0c5cc45c92e8b79d6689102cf188479318362502",
+  "scan-route.js": "319bb8dd2bdd5b900a67abffdc6860bad70308bcaf6bb4ae43acf288353eb42f",
+  "scan-life.js": "e4445ff318afb5caa57ac0a013d6c3304141cd01a6d273e2e20443af91805ebe",
+  "fish-motion.js": "2204242b56792e1f187db0e9d7577cf4e5039b8249271649d78778edbcecc740",
+  "assets/scan-fish.gltf": "d3fb04ded015684f89b8a3c5d549408684e091cea9f0b60cc9df2833aa22bb9f",
+  "assets/scan-fish.bin": "d15a8ffacde8529c1ede6d30f3260189d729aafa84c9d4ddf13072ffd7c79457",
+  "scan-world.js": "ecded2c574372637c6ed031205e04a6fe91b7523dfdb403cb8dc259ff215a807",
+  "assets/scan-world-corals.gltf": "d778d3bf92eb2ddba0f38b7920272c536c75c00cd46ef2f6aa4567871be0474e",
+  "assets/scan-world-corals.bin": "92109f208cfe03d4137c17219bd55a5530d67634323565e9a1a6bb155a06de41",
+  "artificial-regions.js": "8ec8fbe51226ca9b95f7f2018b38b4c7f35b6ce8da6c55b8b061e98df2d07485",
+  "passage.js": "5d7a08b199d78c6aec1f40b3d88bb21b0731997ad60a90aff8a537d054094f9a"
+};
+const report={mode:'connected-worlds-artificial-continuation',priorScanQA:'37768451006',coverage:'Only remaining artificial three native presets plus guide/scan return; prior scan controls are not rerun or re-claimed',checkoutCommit:process.env.GITHUB_SHA||null,startedAt:new Date().toISOString(),passed:false,checks:[],captures:[],errors:[],limitations:['Actual browser evidence on a hosted renderer, not user-device/GPU/performance acceptance.','Three spatial frames first: near, wide and mobile. Visual underwater readability requires human review; successful rendering alone is not acceptance.','Reduced motion and device scale factor 1. Water, seabed, light, rocks and particles are uncalibrated synthetic illustration, not collection-site reconstruction or true-color restoration.']};
+const save=async()=>{report.elapsedMs=Date.now()-started;await fs.writeFile(path.join(out,'underwater.json'),JSON.stringify(report,null,2)+'\n');};const assert=(x,m)=>{if(!x)throw Error(m)};const equal=(a,b)=>['camera','target'].every(k=>a[k].every((v,i)=>Math.abs(v-b[k][i])<1e-5));let browser,context,page;
+const watchdog=setTimeout(async()=>{report.errors.push('320-second continuation budget reached; remaining checks unknown');await save();process.exit(2)},limitMs);
+try{
+ await save();browser=await chromium.launch({channel:'chromium',headless:true,chromiumSandbox:true,timeout:30000,args:['--enable-automation'],ignoreDefaultArgs:['--enable-unsafe-swiftshader','--disable-gpu-sandbox','--ignore-gpu-blocklist']});const cdp=await browser.newBrowserCDPSession();const cmd=await cdp.send('Browser.getBrowserCommandLine');report.forbiddenFlags=cmd.arguments.filter(x=>['--no-sandbox','--disable-gpu-sandbox','--enable-unsafe-swiftshader','--ignore-gpu-blocklist'].includes(x));assert(!report.forbiddenFlags.length,'Unexpected unsafe graphics/security flag');
+ context=await browser.newContext({viewport:{width:1120,height:700},deviceScaleFactor:1,hasTouch:true,reducedMotion:'reduce'});report.sourceHashes={};for(const [file,h]of Object.entries(expected)){assert(hash(await fs.readFile(path.join('dist',file)))===h,'Checkout mismatch: '+file);const r=await context.request.get(new URL(file,target).href,{timeout:10000});assert(r.ok(),'Source request failed: '+file);const served=hash(await r.body());assert(served===h,'Served hash mismatch: '+file);report.sourceHashes[file]=served;}await save();
+ page=await context.newPage();page.setDefaultTimeout(10000);page.on('pageerror',e=>report.errors.push(String(e)));page.on('console',m=>{if(m.type()==='error')report.errors.push(m.text())});page.on('requestfailed',r=>report.errors.push('Request failed: '+r.url()));page.on('response',r=>{if(r.status()>=400)report.errors.push('HTTP '+r.status()+': '+r.url())});
+ const checkpoint=async(name,data={})=>{report.checks.push({name,elapsedMs:Date.now()-started,...data});await save();};const state=()=>page.evaluate(()=>window.reefExhibit?.getState());
+ const inspect=async id=>page.evaluate(id=>{const e=document.querySelector(id);if(!e)return {exists:false,id};e.scrollIntoView({block:'nearest',inline:'nearest',behavior:'instant'});const r=e.getBoundingClientRect(),c=getComputedStyle(e),x=(Math.max(0,r.left)+Math.min(innerWidth,r.right))/2,y=(Math.max(0,r.top)+Math.min(innerHeight,r.bottom))/2,hit=document.elementFromPoint(x,y);return {id,exists:true,disabled:!!e.disabled,hidden:e.hidden,visibility:c.visibility,opacity:c.opacity,x,y,rect:{x:r.x,y:r.y,width:r.width,height:r.height,right:r.right,bottom:r.bottom},hit:hit?.id,hitMatches:hit===e||e.contains(hit),inViewport:r.right>0&&r.left<innerWidth&&r.bottom>0&&r.top<innerHeight}},id);
+ report.clickEvidence=[];const click=async id=>{const c=await inspect(id);report.clickEvidence.push(c);await save();assert(c.exists&&!c.hidden&&!c.disabled&&c.visibility==='visible'&&Number(c.opacity)>0&&c.inViewport&&c.hitMatches,'Native control not actionable: '+id);await page.mouse.click(c.x,c.y);};
+ const waitExhibit=async()=>{await page.waitForFunction(()=>{const e=document.querySelector('#scanError');return window.reefExhibit?.getState().ready||(e&&!e.hidden)},null,{timeout:45000,polling:500});assert(await state(),'Exhibit failed to initialize');};
+ const capture=async(file,fullPage=false)=>{await save();await page.screenshot({path:path.join(out,file),fullPage,timeout:25000,animations:'disabled'});report.captures.push({file,sha256:hash(await fs.readFile(path.join(out,file))),state:await state()});await save();};
+ // Targeted continuation: scan-world native checks already passed in the recorded prior run.
+ await page.goto(new URL('index.html',target).href,{waitUntil:'domcontentloaded',timeout:20000});await page.waitForFunction(()=>window.reef3d?.getState().ready,null,{timeout:80000,polling:500});await page.setViewportSize({width:1120,height:700});const main=await page.evaluate(()=>window.reef3d.getState());assert(main.fish===6,'Main six-fish scene missing');assert(await page.evaluate(()=>!window.reef3d.scene.getObjectByName('Reefs4D_C12019')),'Scan still mixed into main scene');await checkpoint('main-scene-preserved',{state:main});
+ // Three native original-scene region presets, separately from original six animated fish.
+ // The app starts in its guide, whose CSS intentionally hides the preset footer.
+ await checkpoint('preset-precondition-observed',{state:await page.evaluate(()=>reef3d.getState()),preset:await inspect('[data-view="0"]'),ancestors:await page.evaluate(()=>{const list=[];for(let e=document.querySelector('[data-view="0"]');e;e=e.parentElement){const s=getComputedStyle(e);list.push({tag:e.tagName,id:e.id,className:e.className,hidden:e.hidden,display:s.display,visibility:s.visibility})}return list;})});
+ if((await page.evaluate(()=>window.reef3d.getState())).guide.active)await click('#guideEntry');
+ assert(await page.evaluate(()=>!reef3d.getState().guide.active&&!document.body.classList.contains('guided')&&getComputedStyle(document.querySelector('footer')).display!=='none'),'Native guide exit did not expose exploration presets');
+ await checkpoint('native-guide-exit-before-artificial-presets',{state:await page.evaluate(()=>reef3d.getState())});
+ for(const [i,label]of ['terrace','canyon','basin'].entries()){
+  await click('[data-view="'+i+'"]');await page.waitForTimeout(120);
+  const region=await page.evaluate(()=>({state:reef3d.getState(),added:reef3d.artificialRegions.stats,renderer:reef3d.getRenderStats()}));
+  const expectedPose=[{camera:[1.5,2.1,4.8],target:[-.5,.8,-6]},{camera:[0,2.7,-18],target:[-1.5,1,-31]},{camera:[-1,3.6,-52],target:[0,1.1,-36]}][i];assert(!region.state.guide.active&&['camera','target'].every(k=>region.state[k].every((v,j)=>Math.abs(v-expectedPose[k][j])<.001)),'Native preset did not reach its fixed source pose: '+label);
+  assert(region.state.fish===6,'Original six fish missing');assert(region.added.triangles<=110000&&region.added.drawCalls<=28,'Artificial expansion budget exceeded');
+  await capture('artificial-'+label+'.png');await checkpoint('artificial-region-'+label,region);
+ }
+
+ // Save and restore a real user-adjusted guided camera through native page links.
+ if(!(await page.evaluate(()=>window.reef3d.getState())).guide.active)await click('#guideEntry');await click('[data-guide="1"]');assert((await page.evaluate(()=>window.reef3d.getState())).guide.active,'Guide did not activate');await click('#reef');await page.keyboard.press('ArrowRight');const before=await page.evaluate(()=>window.reef3d.getState());assert(before.guide.active&&before.guide.index===1&&before.guide.paused,'Native guided pose was not selected and paused');await click('#enterScanExhibit');await page.waitForURL('**/scan-exhibit.html',{timeout:20000});await waitExhibit();await checkpoint('native-main-to-exhibit-entry',{before});await click('#returnWorld');await page.waitForFunction(()=>window.reefExhibitReturn?.restored,null,{timeout:85000,polling:500});const after=await page.evaluate(()=>window.reef3d.getState());assert(equal(before,after),'Return failed exact camera/target restoration');assert(after.guide.active===before.guide.active&&after.guide.index===before.guide.index&&!after.tour&&after.guide.paused,'Return guide context/pause mismatch');assert(after.fish===6,'Main fish lost on return');await checkpoint('native-return-context-restored',{before,after});
+ report.visualAcceptance='pending human review of both worlds; earlier scan-native evidence is separate run37768451006';report.passed=report.errors.length===0;await save();if(!report.passed)process.exitCode=1;
+}catch(e){report.errors.push(String(e?.stack||e));report.passed=false;process.exitCode=1;await save();}
+finally{await save();const returned=report.checks.find(c=>c.name==='native-return-context-restored');console.log('UNDERWATER_SUMMARY '+JSON.stringify({passed:report.passed,priorScanQA:report.priorScanQA,coverage:report.coverage,precondition:report.checks.find(c=>c.name==='preset-precondition-observed'),errors:report.errors,clickEvidence:report.passed?undefined:report.clickEvidence,sourceHashes:report.sourceHashes,captures:report.captures.map(c=>({file:c.file,sha256:c.sha256})),checks:report.checks.map(c=>c.name),worldStats:report.checks.filter(c=>/world-render-budget|artificial-region/.test(c.name)),lifeState:report.checks.find(c=>c.name==='actual-fish-motion-pause-resume-reduced-hidden-raw')||null,returnState:returned?{before:returned.before,after:returned.after}:null}));await context?.close().catch(()=>{});await browser?.close().catch(()=>{});clearTimeout(watchdog);}
