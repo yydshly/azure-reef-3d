@@ -30,7 +30,7 @@ jobs:
         run: |
           echo '82777fd498587986ceae750afc74ebebe12ee2e9247f52efcab17affc1e9c9fb  extract-recovery.py' | sha256sum --check
           python3 extract-recovery.py
-          echo 'c8726511dfea945923f22651a661234b26e69a4045265f358ef7b019f2a3b020  verify-recovery.mjs' | sha256sum --check
+          echo 'a546f9f8abd760e0181a550437d765835923966d542261c0d02fff5aff469402  verify-recovery.mjs' | sha256sum --check
           cp verify-recovery.mjs tests/browser/verify-recovery.mjs
       - uses: actions/setup-node@v6
         with:
