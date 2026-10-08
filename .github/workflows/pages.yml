@@ -32,13 +32,13 @@ jobs:
         if: github.event_name == 'workflow_dispatch'
         uses: actions/checkout@v6
         with:
-          ref: 6cb68cd98e29f5078602c0fb2b48bb37b0f78aa2
+          ref: 78f117d22527c8587847d7b897784269aaf8a172
           path: .verified-preview-source
           persist-credentials: false
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /azure-reef-reefs4d-candidate-delta.zip
-            /scene-life-delta.zip
+            /connected-world-delta.zip
       - name: Add verified preview while preserving root-site bytes
         if: github.event_name == 'workflow_dispatch'
         run: |
@@ -53,26 +53,26 @@ jobs:
           assert not any(p.is_symlink() for p in root.rglob('*'))
           preview=root/'preview'/'independent-scan'
           shutil.copytree(root, pathlib.Path('.preview-stage'))
-          old=source/'azure-reef-reefs4d-candidate-delta.zip'; new=source/'scene-life-delta.zip'
+          old=source/'azure-reef-reefs4d-candidate-delta.zip'; new=source/'connected-world-delta.zip'
           assert sha(old.read_bytes())=='6621e03fe42110a070eeb49be69403b29a6d5d0e9be6031865e1491764a83463'
-          assert sha(new.read_bytes())=='8dbb4264df0c5dc28330b41281ea68ffa796334ad245e04ab1a84b6aac9cbeac'
+          assert sha(new.read_bytes())=='bd00adf6abdb7310d3b39d4fb4a4ef173d17fcb7f45128de08b029e52d8cd101'
           stage=pathlib.Path('.preview-stage')
           with zipfile.ZipFile(old) as z:
               data=z.read('dist/assets/reefs4d/C12019-web.glb')
               assert sha(data)=='975228622829cb715ba9b48c0c5cc45c92e8b79d6689102cf188479318362502'
               p=stage/'assets/reefs4d/C12019-web.glb'; p.parent.mkdir(parents=True,exist_ok=True); p.write_bytes(data)
           with zipfile.ZipFile(new) as z:
-              names=z.namelist(); assert len(names)==len(set(names))==38
-              manifest=json.loads(z.read('LIFE-MANIFEST.json')); assert manifest['base']==base
-              files=manifest['files']; assert len(files)==37
-              assert set(names)=={f['path'] for f in files}|{'LIFE-MANIFEST.json'}
+              names=z.namelist(); assert len(names)==len(set(names))==49
+              manifest=json.loads(z.read('WORLD-MANIFEST.json')); assert manifest['base']==base
+              files=manifest['files']; assert len(files)==48
+              assert set(names)=={f['path'] for f in files}|{'WORLD-MANIFEST.json'}
               for f in files:
                   name=f['path']; rel=pathlib.PurePosixPath(name)
                   assert not rel.is_absolute() and '..' not in rel.parts and '\\' not in name
                   data=z.read(name); assert len(data)==f['bytes'] and sha(data)==f['sha256']
                   if name.startswith('dist/'):
                       p=stage/pathlib.PurePosixPath(name).relative_to('dist'); p.parent.mkdir(parents=True,exist_ok=True); p.write_bytes(data)
-          assert sha((stage/'app.js').read_bytes())==before['app.js'], 'Main lighting changed'
+          assert sha((stage/'app.js').read_bytes())=='c31e0723d4a03264115d9f6f788e02b8e1a037fac5b9ec0f9ffc21c5168e0621', 'Unexpected preview app version'
           preview.parent.mkdir(parents=True);shutil.move(str(stage),str(preview))
           after={str(p.relative_to(root)):sha(p.read_bytes()) for p in root.rglob('*') if p.is_file() and not p.is_relative_to(root/'preview')}
           assert after==before, 'Existing root-site bytes changed'
