@@ -28,10 +28,10 @@ jobs:
       - name: Verify isolated underwater area candidate
         if: inputs.target_source == 'branch-preview'
         run: |
-          echo '006d7f7ef35d4d937ff2ee3276c43f07b24874433e0abcc5881561b975aa00b0  extract-underwater-area.py' | sha256sum --check
-          python3 extract-underwater-area.py
-          echo '14597fa63356474e93c21e52b5723e6cd34b87e271e8b008894226c47fdf14e5  verify-underwater-area.mjs' | sha256sum --check
-          cp verify-underwater-area.mjs tests/browser/verify-underwater-area.mjs
+          echo '687437c628eaf82940e2e3cfe09d7070a30f88684c5cf83e2c4f9ee4e78a48cd  extract-swim-route.py' | sha256sum --check
+          python3 extract-swim-route.py
+          echo 'f71a47d67da453f86c0db6168e88e3affac1b8396ae01747af7f9fcc350d816d  verify-swim-route.mjs' | sha256sum --check
+          cp verify-swim-route.mjs tests/browser/verify-swim-route.mjs
       - uses: actions/setup-node@v6
         with:
           node-version: '22'
@@ -62,7 +62,7 @@ jobs:
         env:
           REEF_TARGET: ${{ inputs.target_source == 'branch-preview' && 'http://127.0.0.1:4173/' || 'https://yydshly.github.io/azure-reef-3d/' }}
           REEF_VIEW_SET: ${{ inputs.view_set }}
-        run: node tests/browser/verify-underwater-area.mjs
+        run: node tests/browser/verify-swim-route.mjs
       - name: Preserve screenshots, short video and runtime report
         if: always()
         uses: actions/upload-artifact@v4
