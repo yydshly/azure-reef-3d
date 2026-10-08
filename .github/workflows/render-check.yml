@@ -30,8 +30,8 @@ jobs:
         run: |
           echo '610a0f498112b826030f85e53b7570bfc24802e1b1b8c23b43d993c16404db57  extract-connected-world.py' | sha256sum --check
           python3 extract-connected-world.py
-          echo 'bed9a1f58119b8abb68140419614d87e80f8a2b6d3440d44aaf8999408d237df  verify-connected-world.mjs' | sha256sum --check
-          cp verify-connected-world.mjs tests/browser/verify-connected-world.mjs
+          echo '2e84a53fa18733aef430072cc2d13025ef28b88c3437b2c0284186db1dcfc3d4  verify-world-continuation.mjs' | sha256sum --check
+          cp verify-world-continuation.mjs tests/browser/verify-world-continuation.mjs
       - uses: actions/setup-node@v6
         with:
           node-version: '22'
@@ -58,11 +58,11 @@ jobs:
           retention-days: 7
       - name: Render actual public Pages and exercise fixed views
         if: steps.probe.outputs.available == 'true'
-        timeout-minutes: 9
+        timeout-minutes: 6
         env:
           REEF_TARGET: ${{ inputs.target_source == 'branch-preview' && 'http://127.0.0.1:4173/' || 'https://yydshly.github.io/azure-reef-3d/' }}
           REEF_VIEW_SET: ${{ inputs.view_set }}
-        run: node tests/browser/verify-connected-world.mjs
+        run: node tests/browser/verify-world-continuation.mjs
       - name: Preserve screenshots, short video and runtime report
         if: always()
         uses: actions/upload-artifact@v4
