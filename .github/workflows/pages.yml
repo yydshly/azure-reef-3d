@@ -29,7 +29,6 @@ jobs:
         with:
           fetch-depth: 0
       - name: Checkout verified independent exhibit archives
-        if: github.event_name == 'workflow_dispatch'
         uses: actions/checkout@v6
         with:
           ref: 8918caa9e2f8868be309c9b7eb2721840df7539f
@@ -40,7 +39,6 @@ jobs:
             /azure-reef-reefs4d-candidate-delta.zip
             /exploration-continuity-delta.zip
       - name: Add verified preview while preserving root-site bytes
-        if: github.event_name == 'workflow_dispatch'
         run: |
           python3 - <<'PYCODE'
           import hashlib,json,pathlib,shutil,subprocess,zipfile
