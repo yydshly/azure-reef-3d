@@ -28,10 +28,10 @@ jobs:
       - name: Verify isolated underwater area candidate
         if: inputs.target_source == 'branch-preview'
         run: |
-          echo '28198552c22e65ea65292eb48a6c2677758933b310cf8fc00af0039ba9ea3b2d  extract-exploration-continuity.py' | sha256sum --check
-          python3 extract-exploration-continuity.py
-          echo '462e398be77a459b652712f38b0ff6e953fb24b77898f2f77093baeea41f0a9d  verify-exploration-continuity.mjs' | sha256sum --check
-          cp verify-exploration-continuity.mjs tests/browser/verify-exploration-continuity.mjs
+          echo '6ee65bfcbf42865d0bb3b734627d583cbabcbdc5297c9ee79e90dbece7c1da37  extract-runtime-budget.py' | sha256sum --check
+          python3 extract-runtime-budget.py
+          echo '02d4d10052e0fc7faf891102dafe99368ca8e75d2e4edac3b2899adba41405fb  verify-runtime-budget.mjs' | sha256sum --check
+          cp verify-runtime-budget.mjs tests/browser/verify-runtime-budget.mjs
       - uses: actions/setup-node@v6
         with:
           node-version: '22'
@@ -62,7 +62,7 @@ jobs:
         env:
           REEF_TARGET: ${{ inputs.target_source == 'branch-preview' && 'http://127.0.0.1:4173/' || 'https://yydshly.github.io/azure-reef-3d/' }}
           REEF_VIEW_SET: ${{ inputs.view_set }}
-        run: node tests/browser/verify-exploration-continuity.mjs
+        run: node tests/browser/verify-runtime-budget.mjs
       - name: Preserve screenshots, short video and runtime report
         if: always()
         uses: actions/upload-artifact@v4
