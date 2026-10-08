@@ -28,10 +28,10 @@ jobs:
       - name: Verify isolated underwater area candidate
         if: inputs.target_source == 'branch-preview'
         run: |
-          echo '0406d6cbcd1d990371e2f7f797ebff1e978db3c5d549afdbd2cf9d367b07f97e  extract-scene-life.py' | sha256sum --check
-          python3 extract-scene-life.py
-          echo '8ad2b16364541741d0639c51fe819dc5d3fd4d23f4d9857d8bf631f9a8c516dc  verify-scene-life.mjs' | sha256sum --check
-          cp verify-scene-life.mjs tests/browser/verify-scene-life.mjs
+          echo '610a0f498112b826030f85e53b7570bfc24802e1b1b8c23b43d993c16404db57  extract-connected-world.py' | sha256sum --check
+          python3 extract-connected-world.py
+          echo 'bed9a1f58119b8abb68140419614d87e80f8a2b6d3440d44aaf8999408d237df  verify-connected-world.mjs' | sha256sum --check
+          cp verify-connected-world.mjs tests/browser/verify-connected-world.mjs
       - uses: actions/setup-node@v6
         with:
           node-version: '22'
@@ -58,11 +58,11 @@ jobs:
           retention-days: 7
       - name: Render actual public Pages and exercise fixed views
         if: steps.probe.outputs.available == 'true'
-        timeout-minutes: 6
+        timeout-minutes: 9
         env:
           REEF_TARGET: ${{ inputs.target_source == 'branch-preview' && 'http://127.0.0.1:4173/' || 'https://yydshly.github.io/azure-reef-3d/' }}
           REEF_VIEW_SET: ${{ inputs.view_set }}
-        run: node tests/browser/verify-scene-life.mjs
+        run: node tests/browser/verify-connected-world.mjs
       - name: Preserve screenshots, short video and runtime report
         if: always()
         uses: actions/upload-artifact@v4
