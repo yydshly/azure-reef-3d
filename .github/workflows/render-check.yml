@@ -56,6 +56,38 @@ jobs:
           (out / 'candidate-archive-verification.json').write_text(json.dumps({'archive_sha256': expected, 'base_commit': manifest['base_commit'], 'files': files, 'note': 'Tests run extracted frozen candidate; repository baseline files remain unchanged. CC BY-NC 2.0 noncommercial QA only.'}, indent=2))
           print('Verified and extracted all 28 frozen candidate files for isolated QA only.')
           PYCODE
+      - name: Verify and apply bounded candidate 2 refinement
+        if: inputs.target_source == 'branch-preview'
+        run: |
+          python3 - <<'PYCODE'
+          import hashlib, json, pathlib, zipfile
+          archive = pathlib.Path('reefs4d-candidate2-small-delta.zip')
+          expected = 'a2e15dcdf6a5a3b040c788ec529dfdd960336671decc07d8bc6c177c649952dc'
+          assert hashlib.sha256(archive.read_bytes()).hexdigest() == expected
+          with zipfile.ZipFile(archive) as z:
+              names = z.namelist()
+              assert len(names) == len(set(names)) == 19
+              for name in names:
+                  p = pathlib.PurePosixPath(name)
+                  assert not p.is_absolute() and '..' not in p.parts and '\\' not in name
+              manifest = json.loads(z.read('CANDIDATE2-MANIFEST.json'))
+              files = manifest['files']
+              assert len(files) == 18
+              assert set(names) == {f['path'] for f in files} | {'CANDIDATE2-MANIFEST.json'}
+              for f in files:
+                  data = z.read(f['path'])
+                  assert len(data) == f['bytes'] and hashlib.sha256(data).hexdigest() == f['sha256'], f['path']
+              for f in files:
+                  p = pathlib.Path(f['path'])
+                  p.parent.mkdir(parents=True, exist_ok=True)
+                  p.write_bytes(z.read(f['path']))
+          assert hashlib.sha256(pathlib.Path('dist/assets/reefs4d/C12019-web.glb').read_bytes()).hexdigest() == '975228622829cb715ba9b48c0c5cc45c92e8b79d6689102cf188479318362502'
+          harness = pathlib.Path('verify-scan-refinement.mjs').read_bytes()
+          assert hashlib.sha256(harness).hexdigest() == '9e634a00727d7d1a820dee5339a31fa0cf81172aadc0b10b8fe8470ba0a1eab9'
+          pathlib.Path('tests/browser/verify-scan-refinement.mjs').write_bytes(harness)
+          pathlib.Path('render-evidence/candidate2-verification.json').write_text(json.dumps({'archive_sha256': expected, 'files': files, 'model_unchanged': True}, indent=2))
+          print('Verified candidate 2 delta and unchanged model; isolated QA only.')
+          PYCODE
       - uses: actions/setup-node@v6
         with:
           node-version: '22'
@@ -86,7 +118,7 @@ jobs:
         env:
           REEF_TARGET: ${{ inputs.target_source == 'branch-preview' && 'http://127.0.0.1:4173/' || 'https://yydshly.github.io/azure-reef-3d/' }}
           REEF_VIEW_SET: ${{ inputs.view_set }}
-        run: node tests/browser/verify-controls.mjs
+        run: node tests/browser/verify-scan-refinement.mjs
       - name: Preserve screenshots, short video and runtime report
         if: always()
         uses: actions/upload-artifact@v4
