@@ -19,7 +19,8 @@ concurrency:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
+    timeout-minutes: 20
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -31,13 +32,13 @@ jobs:
       - name: Checkout verified independent exhibit archives
         uses: actions/checkout@v6
         with:
-          ref: 2f785a209abdc79120260cbb295ce250d7c36bb2
+          ref: 4b9bc7031853a4624830cdc18b100c7489f92fb1
           path: .verified-preview-source
           persist-credentials: false
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /azure-reef-reefs4d-candidate-delta.zip
-            /recovery-delta.zip
+            /current-fallback-delta.zip
       - name: Add verified preview while preserving root-site bytes
         run: |
           python3 - <<'PYCODE'
@@ -46,23 +47,26 @@ jobs:
           sha=lambda b:hashlib.sha256(b).hexdigest()
           subprocess.run(['git','diff','--exit-code',base,'--','dist'],check=True)
           before={str(p.relative_to(root)):sha(p.read_bytes()) for p in root.rglob('*') if p.is_file()}
+          pathlib.Path('.root-site-hashes.json').write_text(json.dumps(before,sort_keys=True))
           assert before and not (root/'preview').exists(), 'Unexpected existing preview path'
           assert before['app.js']=='4127a29d4d9aed14a55d0f8a9a8ac8058fd8d6fc524683fa5dc48f8e8744a027'
           assert not any(p.is_symlink() for p in root.rglob('*'))
           preview=root/'preview'/'independent-scan'
           shutil.copytree(root, pathlib.Path('.preview-stage'))
-          old=source/'azure-reef-reefs4d-candidate-delta.zip'; new=source/'recovery-delta.zip'
+          old=source/'azure-reef-reefs4d-candidate-delta.zip'; new=source/'current-fallback-delta.zip'
           assert sha(old.read_bytes())=='6621e03fe42110a070eeb49be69403b29a6d5d0e9be6031865e1491764a83463'
-          assert sha(new.read_bytes())=='d88d14e67321a8bf31ae8757a62bdbfb640948533a16d833d64e1b1847cfff77'
+          assert sha(new.read_bytes())=='1bcb7c3904533bb71ee3bfa6e50d7bc269edae1940bce18d32343de69897477d'
           stage=pathlib.Path('.preview-stage')
+          capture_tools={'capture-current-scene.mjs','current-scene-gallery.mjs','qa-current-fallback.mjs'}
+          tool_dir=pathlib.Path('.preview-tools'); tool_dir.mkdir()
           with zipfile.ZipFile(old) as z:
               data=z.read('dist/assets/reefs4d/C12019-web.glb')
               assert sha(data)=='975228622829cb715ba9b48c0c5cc45c92e8b79d6689102cf188479318362502'
               p=stage/'assets/reefs4d/C12019-web.glb'; p.parent.mkdir(parents=True,exist_ok=True); p.write_bytes(data)
           with zipfile.ZipFile(new) as z:
-              names=z.namelist(); assert len(names)==len(set(names))==72
+              names=z.namelist(); assert len(names)==len(set(names))==76
               manifest=json.loads(z.read('WORLD-MANIFEST.json')); assert manifest['base']==base
-              files=manifest['files']; assert len(files)==71
+              files=manifest['files']; assert len(files)==75
               assert set(names)=={f['path'] for f in files}|{'WORLD-MANIFEST.json'}
               for f in files:
                   name=f['path']; rel=pathlib.PurePosixPath(name)
@@ -70,7 +74,10 @@ jobs:
                   data=z.read(name); assert len(data)==f['bytes'] and sha(data)==f['sha256']
                   if name.startswith('dist/'):
                       p=stage/pathlib.PurePosixPath(name).relative_to('dist'); p.parent.mkdir(parents=True,exist_ok=True); p.write_bytes(data)
-          assert sha((stage/'app.js').read_bytes())=='c5367f28ae83722b1e18ca6ae89cc781cafefeeeb43a9c6e7e353706e79751ed', 'Unexpected preview app version'
+                  elif name in capture_tools:
+                      (tool_dir/name).write_bytes(data)
+          assert {p.name for p in tool_dir.iterdir()}==capture_tools
+          assert sha((stage/'app.js').read_bytes())=='3427402d0332b45eb84f4bebb238c7f9c3fe18f5d5a7dece3f647bb6c523a8f1', 'Unexpected preview app version'
           assert manifest.get('compatibilityRetain') == ['assets/models/68e02c88ba14a2c2']
           assert sha((stage/'model-version.js').read_bytes()) == '38a7f00b14980327891803364ec1bff9739b9a953f1b7d4a22cde330c302b163'
           assert all(sha((stage/name).read_bytes()) == digest for name,digest in before.items() if name.startswith('assets/models/68e02c88ba14a2c2/')), 'Cached-client model changed'
@@ -82,6 +89,54 @@ jobs:
           assert './index.html?return=scan-exhibit' in (preview/'scan-exhibit.html').read_text()
           assert 'scan-exhibit.html' in (preview/'index.html').read_text()
           print('PREVIEW_PACKAGE_VERIFIED',json.dumps({'root_files_unchanged':len(before),'base':base,'preview':'preview/independent-scan/','app_sha256':before['app.js'],'exhibit_archive_sha256':sha(new.read_bytes()),'preview_files':sum(p.is_file() for p in preview.rglob('*'))}))
+          PYCODE
+      - name: Set up existing pinned capture dependency
+        uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - name: Install pinned Playwright and official Chromium
+        timeout-minutes: 4
+        run: |
+          npm ci --prefix tests/browser
+          tests/browser/node_modules/.bin/playwright install --with-deps chromium
+      - name: Probe sandboxed WebGL2 before current captures
+        timeout-minutes: 2
+        run: |
+          node tests/browser/verify-pages.mjs probe
+          node -e "const p=require('./render-evidence/probe.json'); if(!p.webgl2.available) process.exit(1)"
+      - name: Generate four version-bound current scene stills
+        timeout-minutes: 6
+        env:
+          REEF_PREVIEW_DIR: dist/preview/independent-scan
+          REEF_CANDIDATE_SOURCE_COMMIT: 4b9bc7031853a4624830cdc18b100c7489f92fb1
+          REEF_CANDIDATE_ARCHIVE_SHA256: 1bcb7c3904533bb71ee3bfa6e50d7bc269edae1940bce18d32343de69897477d
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-preview-server.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          for attempt in 1 2 3 4 5; do
+            if curl --fail --silent http://127.0.0.1:4173/preview/independent-scan/index.html > /dev/null; then break; fi
+            sleep 1
+          done
+          curl --fail --silent http://127.0.0.1:4173/preview/independent-scan/index.html > /dev/null
+          node .preview-tools/capture-current-scene.mjs
+      - name: Verify generated gallery and narrow failure-page flows
+        timeout-minutes: 3
+        env:
+          REEF_QA_ROOT: dist/preview/independent-scan
+          REEF_QA_REQUIRE_CAPTURE: '1'
+        run: |
+          export PLAYWRIGHT_MODULE="file://$GITHUB_WORKSPACE/tests/browser/node_modules/playwright/index.mjs"
+          node .preview-tools/qa-current-fallback.mjs
+      - name: Recheck all formal root bytes after capture
+        run: |
+          python3 - <<'PYCODE'
+          import hashlib,json,pathlib
+          root=pathlib.Path('dist')
+          before=json.loads(pathlib.Path('.root-site-hashes.json').read_text())
+          after={str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest() for p in root.rglob('*') if p.is_file() and not p.is_relative_to(root/'preview')}
+          assert before==after and len(after)==79, 'Formal site changed during capture'
+          print('POST_CAPTURE_ROOT_VERIFIED',len(after))
           PYCODE
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
