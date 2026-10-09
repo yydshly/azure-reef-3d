@@ -32,13 +32,13 @@ jobs:
       - name: Checkout verified independent exhibit archives
         uses: actions/checkout@v6
         with:
-          ref: dcb64a7ff8f2d7912e87baddf8df8719c5986fcd
+          ref: 985be575ae7234af10ab8947efbe8f2a7d858fc5
           path: .verified-preview-source
           persist-credentials: false
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /azure-reef-reefs4d-candidate-delta.zip
-            /seagrass-full-delta.zip
+            /basin-full-delta.zip
       - name: Add verified preview while preserving root-site bytes
         run: |
           python3 - <<'PYCODE'
@@ -53,9 +53,9 @@ jobs:
           assert not any(p.is_symlink() for p in root.rglob('*'))
           preview=root/'preview'/'independent-scan'
           shutil.copytree(root, pathlib.Path('.preview-stage'))
-          old=source/'azure-reef-reefs4d-candidate-delta.zip'; new=source/'seagrass-full-delta.zip'
+          old=source/'azure-reef-reefs4d-candidate-delta.zip'; new=source/'basin-full-delta.zip'
           assert sha(old.read_bytes())=='6621e03fe42110a070eeb49be69403b29a6d5d0e9be6031865e1491764a83463'
-          assert sha(new.read_bytes())=='e4336df53a13c0cc1506edf943567b6087291d3b295d32401f2037564d421037'
+          assert sha(new.read_bytes())=='a9d47f5d8d552e753c403f710afac88c1fe2b380572e8059baeffc5d6d7521f8'
           stage=pathlib.Path('.preview-stage')
           capture_tools={'capture-current-scene.mjs','current-scene-gallery.mjs','qa-current-fallback.mjs','qa-hud.mjs','qa-c4-browser.mjs','qa-seagrass-hosted.mjs'}
           tool_dir=pathlib.Path('.preview-tools'); tool_dir.mkdir()
@@ -64,9 +64,9 @@ jobs:
               assert sha(data)=='975228622829cb715ba9b48c0c5cc45c92e8b79d6689102cf188479318362502'
               p=stage/'assets/reefs4d/C12019-web.glb'; p.parent.mkdir(parents=True,exist_ok=True); p.write_bytes(data)
           with zipfile.ZipFile(new) as z:
-              names=z.namelist(); assert len(names)==len(set(names))==108
+              names=z.namelist(); assert len(names)==len(set(names))==110
               manifest=json.loads(z.read('WORLD-MANIFEST.json')); assert manifest['base']==base
-              files=manifest['files']; assert len(files)==107
+              files=manifest['files']; assert len(files)==109
               assert set(names)=={f['path'] for f in files}|{'WORLD-MANIFEST.json'}
               for f in files:
                   name=f['path']; rel=pathlib.PurePosixPath(name)
@@ -108,8 +108,8 @@ jobs:
         timeout-minutes: 8
         env:
           REEF_PREVIEW_DIR: dist/preview/independent-scan
-          REEF_CANDIDATE_SOURCE_COMMIT: dcb64a7ff8f2d7912e87baddf8df8719c5986fcd
-          REEF_CANDIDATE_ARCHIVE_SHA256: e4336df53a13c0cc1506edf943567b6087291d3b295d32401f2037564d421037
+          REEF_CANDIDATE_SOURCE_COMMIT: 985be575ae7234af10ab8947efbe8f2a7d858fc5
+          REEF_CANDIDATE_ARCHIVE_SHA256: a9d47f5d8d552e753c403f710afac88c1fe2b380572e8059baeffc5d6d7521f8
         run: |
           python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-preview-server.log 2>&1 &
           server_pid=$!
