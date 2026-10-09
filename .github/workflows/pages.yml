@@ -32,13 +32,14 @@ jobs:
       - name: Checkout verified independent exhibit archives
         uses: actions/checkout@v6
         with:
-          ref: 55d52b86de94981d8aa2e91bdae885659acfd114
+          ref: 721647f3ce146172aa7b796d84626f38663d0ec4
           path: .verified-preview-source
           persist-credentials: false
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /azure-reef-reefs4d-candidate-delta.zip
-            /demand-publish-full-delta.zip
+            /demand-fixed-baseline-full-delta.zip
+            /current-gallery-baseline.zip
       - name: Add verified preview while preserving root-site bytes
         run: |
           python3 - <<'PYCODE'
@@ -53,9 +54,9 @@ jobs:
           assert not any(p.is_symlink() for p in root.rglob('*'))
           preview=root/'preview'/'independent-scan'
           shutil.copytree(root, pathlib.Path('.preview-stage'))
-          old=source/'azure-reef-reefs4d-candidate-delta.zip'; new=source/'demand-publish-full-delta.zip'
+          old=source/'azure-reef-reefs4d-candidate-delta.zip'; new=source/'demand-fixed-baseline-full-delta.zip'
           assert sha(old.read_bytes())=='6621e03fe42110a070eeb49be69403b29a6d5d0e9be6031865e1491764a83463'
-          assert sha(new.read_bytes())=='1a40a4e66c3faf17a85b033b7fe04d44176580e992bb1b48bbc497b85b007479'
+          assert sha(new.read_bytes())=='0255a83b94874cb9295fdda91e6c234c47126196d2f86d279b1b05b6944158e2'
           stage=pathlib.Path('.preview-stage')
           capture_tools={'capture-current-scene.mjs','current-scene-gallery.mjs','qa-current-fallback.mjs','qa-hud.mjs','qa-c4-browser.mjs','qa-seagrass-hosted.mjs','compare-current-frames.py','comparison-baseline.json'}
           tool_dir=pathlib.Path('.preview-tools'); tool_dir.mkdir()
@@ -77,6 +78,32 @@ jobs:
                   elif name in capture_tools:
                       (tool_dir/name).write_bytes(data)
           assert {p.name for p in tool_dir.iterdir()}==capture_tools
+          # The source checkout and candidate tools have already passed their existing guards.
+          baseline_zip=source/'current-gallery-baseline.zip'
+          assert sha(baseline_zip.read_bytes())=='0e50050db9f26a54163a0c6179fc652a33e1cce770399bc08ff4aaf1ca8e9df2'
+          baseline_dir=pathlib.Path('.comparison-baseline')
+          assert not baseline_dir.exists(), 'Unexpected pre-existing baseline directory'
+          with zipfile.ZipFile(baseline_zip) as z:
+              names=z.namelist(); assert len(names)==len(set(names))==7
+              pins=json.loads(z.read('comparison-baseline.json'))
+              assert z.read('comparison-baseline.json')==(tool_dir/'comparison-baseline.json').read_bytes()
+              raw=z.read('manifest.original.json')
+              assert len(raw)==123630 and sha(raw)==pins['manifestSha256']=='cc61d5f67184560e1158d15970a64d49ebc397d244313704d41bdfdd15f08b7e'
+              original=json.loads(raw)
+              assert original['checkoutCommit']==pins['baseMain']=='9ae6040cc3bc099576188c9d9ea1a9ed12d1f989'
+              assert original['contentVersion']==pins['contentVersion']=='5b62d2ea3b9224921fedb553b8530787f5ec3ebacfa674f103a28ea17878b9a7'
+              assert len(pins['frames'])==len(original['frames'])==5
+              assert set(names)=={'manifest.original.json','comparison-baseline.json'}|{f['file'] for f in pins['frames']}
+              for f,old_frame in zip(pins['frames'],original['frames']):
+                  assert all(f[k]==old_frame[k] for k in ['id','file','sha256','bytes','width','height'])
+                  data=z.read(f['file']); assert len(data)==f['bytes'] and sha(data)==f['sha256']
+              for info in z.infolist():
+                  rel=pathlib.PurePosixPath(info.filename)
+                  assert len(rel.parts)==1 and not rel.is_absolute() and '..' not in rel.parts and '\\' not in info.filename
+                  assert not info.is_dir() and (info.external_attr>>16)&0o170000!=0o120000
+              baseline_dir.mkdir()
+              for name in names:(baseline_dir/name).write_bytes(z.read(name))
+          print('FIXED_BASELINE_VERIFIED',json.dumps({'files':7,'pngs':5,'manifest_sha256':sha(raw),'directory':str(baseline_dir),'network_required':False}))
           assert sha((stage/'app.js').read_bytes())=='1cb051a104a8cd4ed32101fccf187e63f72b1b68fbfda0d3993a838c70310a05', 'Unexpected preview app version'
           assert manifest.get('compatibilityRetain') == ['assets/models/68e02c88ba14a2c2']
           assert sha((stage/'model-version.js').read_bytes()) == '38a7f00b14980327891803364ec1bff9739b9a953f1b7d4a22cde330c302b163'
@@ -109,8 +136,8 @@ jobs:
         timeout-minutes: 8
         env:
           REEF_PREVIEW_DIR: dist/preview/independent-scan
-          REEF_CANDIDATE_SOURCE_COMMIT: 55d52b86de94981d8aa2e91bdae885659acfd114
-          REEF_CANDIDATE_ARCHIVE_SHA256: 1a40a4e66c3faf17a85b033b7fe04d44176580e992bb1b48bbc497b85b007479
+          REEF_CANDIDATE_SOURCE_COMMIT: 721647f3ce146172aa7b796d84626f38663d0ec4
+          REEF_CANDIDATE_ARCHIVE_SHA256: 0255a83b94874cb9295fdda91e6c234c47126196d2f86d279b1b05b6944158e2
         run: |
           python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-preview-server.log 2>&1 &
           server_pid=$!
