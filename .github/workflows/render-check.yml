@@ -32,13 +32,13 @@ jobs:
       - name: Checkout verified independent exhibit archives
         uses: actions/checkout@v6
         with:
-          ref: 4955cf820f80ac4c92e83f01883ebbe257a62479
+          ref: 65f6c40fa35e0ca1a2267e2aadabb41083377f81
           path: .verified-preview-source
           persist-credentials: false
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /azure-reef-reefs4d-candidate-delta.zip
-            /demand-full-delta.zip
+            /demand-comparison-full-delta.zip
       - name: Add verified preview while preserving root-site bytes
         run: |
           python3 - <<'PYCODE'
@@ -53,20 +53,20 @@ jobs:
           assert not any(p.is_symlink() for p in root.rglob('*'))
           preview=root/'preview'/'independent-scan'
           shutil.copytree(root, pathlib.Path('.preview-stage'))
-          old=source/'azure-reef-reefs4d-candidate-delta.zip'; new=source/'demand-full-delta.zip'
+          old=source/'azure-reef-reefs4d-candidate-delta.zip'; new=source/'demand-comparison-full-delta.zip'
           assert sha(old.read_bytes())=='6621e03fe42110a070eeb49be69403b29a6d5d0e9be6031865e1491764a83463'
-          assert sha(new.read_bytes())=='3d1e33f5a19128789b0cbebdc18a1d0c37a01223886b45a40b23b5af4456872d'
+          assert sha(new.read_bytes())=='b1fc0dbd021698b720e04b6cc1a812b6ddae78392ac0ad5c2903ed748100af5c'
           stage=pathlib.Path('.preview-stage')
-          capture_tools={'capture-current-scene.mjs','current-scene-gallery.mjs','qa-current-fallback.mjs','qa-hud.mjs','qa-c4-browser.mjs','qa-seagrass-hosted.mjs'}
+          capture_tools={'capture-current-scene.mjs','current-scene-gallery.mjs','qa-current-fallback.mjs','qa-hud.mjs','qa-c4-browser.mjs','qa-seagrass-hosted.mjs','compare-current-frames.py','comparison-baseline.json'}
           tool_dir=pathlib.Path('.preview-tools'); tool_dir.mkdir()
           with zipfile.ZipFile(old) as z:
               data=z.read('dist/assets/reefs4d/C12019-web.glb')
               assert sha(data)=='975228622829cb715ba9b48c0c5cc45c92e8b79d6689102cf188479318362502'
               p=stage/'assets/reefs4d/C12019-web.glb'; p.parent.mkdir(parents=True,exist_ok=True); p.write_bytes(data)
           with zipfile.ZipFile(new) as z:
-              names=z.namelist(); assert len(names)==len(set(names))==116
+              names=z.namelist(); assert len(names)==len(set(names))==118
               manifest=json.loads(z.read('WORLD-MANIFEST.json')); assert manifest['base']==base
-              files=manifest['files']; assert len(files)==115
+              files=manifest['files']; assert len(files)==117
               assert set(names)=={f['path'] for f in files}|{'WORLD-MANIFEST.json'}
               for f in files:
                   name=f['path']; rel=pathlib.PurePosixPath(name)
@@ -97,6 +97,7 @@ jobs:
       - name: Install pinned Playwright and official Chromium
         timeout-minutes: 4
         run: |
+          python3 -m pip install --index-url https://pypi.org/simple Pillow==11.3.0
           npm ci --prefix tests/browser
           tests/browser/node_modules/.bin/playwright install --with-deps chromium
       - name: Probe sandboxed WebGL2 before current captures
@@ -108,8 +109,8 @@ jobs:
         timeout-minutes: 8
         env:
           REEF_PREVIEW_DIR: dist/preview/independent-scan
-          REEF_CANDIDATE_SOURCE_COMMIT: 4955cf820f80ac4c92e83f01883ebbe257a62479
-          REEF_CANDIDATE_ARCHIVE_SHA256: 3d1e33f5a19128789b0cbebdc18a1d0c37a01223886b45a40b23b5af4456872d
+          REEF_CANDIDATE_SOURCE_COMMIT: 65f6c40fa35e0ca1a2267e2aadabb41083377f81
+          REEF_CANDIDATE_ARCHIVE_SHA256: b1fc0dbd021698b720e04b6cc1a812b6ddae78392ac0ad5c2903ed748100af5c
         run: |
           python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-preview-server.log 2>&1 &
           server_pid=$!
@@ -120,6 +121,7 @@ jobs:
           done
           curl --fail --silent http://127.0.0.1:4173/preview/independent-scan/index.html > /dev/null
           mkdir -p render-evidence
+          set -o pipefail
           node .preview-tools/capture-current-scene.mjs 2>&1 | tee render-evidence/demand-capture.log
       - name: Verify generated gallery and narrow failure-page flows
         timeout-minutes: 3
@@ -128,6 +130,7 @@ jobs:
           REEF_QA_REQUIRE_CAPTURE: '1'
         run: |
           export PLAYWRIGHT_MODULE="file://$GITHUB_WORKSPACE/tests/browser/node_modules/playwright/index.mjs"
+          python3 .preview-tools/compare-current-frames.py
           node .preview-tools/qa-current-fallback.mjs
       - name: Recheck all formal root bytes after capture
         run: |
