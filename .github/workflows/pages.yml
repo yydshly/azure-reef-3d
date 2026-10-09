@@ -32,13 +32,13 @@ jobs:
       - name: Checkout verified independent exhibit archives
         uses: actions/checkout@v6
         with:
-          ref: 3a6d6d830a462d3b24c72d11f428591f97792752
+          ref: 55d52b86de94981d8aa2e91bdae885659acfd114
           path: .verified-preview-source
           persist-credentials: false
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /azure-reef-reefs4d-candidate-delta.zip
-            /turtle-full-delta.zip
+            /demand-publish-full-delta.zip
       - name: Add verified preview while preserving root-site bytes
         run: |
           python3 - <<'PYCODE'
@@ -53,20 +53,20 @@ jobs:
           assert not any(p.is_symlink() for p in root.rglob('*'))
           preview=root/'preview'/'independent-scan'
           shutil.copytree(root, pathlib.Path('.preview-stage'))
-          old=source/'azure-reef-reefs4d-candidate-delta.zip'; new=source/'turtle-full-delta.zip'
+          old=source/'azure-reef-reefs4d-candidate-delta.zip'; new=source/'demand-publish-full-delta.zip'
           assert sha(old.read_bytes())=='6621e03fe42110a070eeb49be69403b29a6d5d0e9be6031865e1491764a83463'
-          assert sha(new.read_bytes())=='854b0ce5ecb7c6581b26e8d0f4b9e64ec3fe7f3d5732f94a9d13b758b44d3988'
+          assert sha(new.read_bytes())=='1a40a4e66c3faf17a85b033b7fe04d44176580e992bb1b48bbc497b85b007479'
           stage=pathlib.Path('.preview-stage')
-          capture_tools={'capture-current-scene.mjs','current-scene-gallery.mjs','qa-current-fallback.mjs','qa-hud.mjs','qa-c4-browser.mjs','qa-seagrass-hosted.mjs'}
+          capture_tools={'capture-current-scene.mjs','current-scene-gallery.mjs','qa-current-fallback.mjs','qa-hud.mjs','qa-c4-browser.mjs','qa-seagrass-hosted.mjs','compare-current-frames.py','comparison-baseline.json'}
           tool_dir=pathlib.Path('.preview-tools'); tool_dir.mkdir()
           with zipfile.ZipFile(old) as z:
               data=z.read('dist/assets/reefs4d/C12019-web.glb')
               assert sha(data)=='975228622829cb715ba9b48c0c5cc45c92e8b79d6689102cf188479318362502'
               p=stage/'assets/reefs4d/C12019-web.glb'; p.parent.mkdir(parents=True,exist_ok=True); p.write_bytes(data)
           with zipfile.ZipFile(new) as z:
-              names=z.namelist(); assert len(names)==len(set(names))==115
+              names=z.namelist(); assert len(names)==len(set(names))==118
               manifest=json.loads(z.read('WORLD-MANIFEST.json')); assert manifest['base']==base
-              files=manifest['files']; assert len(files)==114
+              files=manifest['files']; assert len(files)==117
               assert set(names)=={f['path'] for f in files}|{'WORLD-MANIFEST.json'}
               for f in files:
                   name=f['path']; rel=pathlib.PurePosixPath(name)
@@ -97,6 +97,7 @@ jobs:
       - name: Install pinned Playwright and official Chromium
         timeout-minutes: 4
         run: |
+          python3 -m pip install --index-url https://pypi.org/simple Pillow==11.3.0
           npm ci --prefix tests/browser
           tests/browser/node_modules/.bin/playwright install --with-deps chromium
       - name: Probe sandboxed WebGL2 before current captures
@@ -108,8 +109,8 @@ jobs:
         timeout-minutes: 8
         env:
           REEF_PREVIEW_DIR: dist/preview/independent-scan
-          REEF_CANDIDATE_SOURCE_COMMIT: 3a6d6d830a462d3b24c72d11f428591f97792752
-          REEF_CANDIDATE_ARCHIVE_SHA256: 854b0ce5ecb7c6581b26e8d0f4b9e64ec3fe7f3d5732f94a9d13b758b44d3988
+          REEF_CANDIDATE_SOURCE_COMMIT: 55d52b86de94981d8aa2e91bdae885659acfd114
+          REEF_CANDIDATE_ARCHIVE_SHA256: 1a40a4e66c3faf17a85b033b7fe04d44176580e992bb1b48bbc497b85b007479
         run: |
           python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-preview-server.log 2>&1 &
           server_pid=$!
@@ -127,6 +128,20 @@ jobs:
           REEF_QA_REQUIRE_CAPTURE: '1'
         run: |
           export PLAYWRIGHT_MODULE="file://$GITHUB_WORKSPACE/tests/browser/node_modules/playwright/index.mjs"
+          python3 .preview-tools/compare-current-frames.py
+          python3 - <<'PYCOMPARE'
+          import json
+          report=json.load(open('render-evidence/png-comparison.json'))
+          assert report['completed'] and len(report['frames'])==5
+          for frame in report['frames']:
+              if frame['id']!='scan-turtle-encounter':
+                  assert frame['whole']['differentPixels']==0, 'Unexpected scene or UI pixel change: '+frame['id']
+              else:
+                  assert frame['outsideHudBoundsSceneRegion']['differentPixels']==0, 'Encounter scene changed'
+                  assert frame['hudBoundsRegion']['differentPixels']<=43, 'Encounter HUD change exceeded accepted scope'
+                  assert max(frame['hudBoundsRegion']['maximumChannelDifferenceRGBA'])<=12, 'Encounter HUD channel change exceeded accepted scope'
+          print('ACCEPTED_PIXEL_SCOPE_VERIFIED',5)
+          PYCOMPARE
           node .preview-tools/qa-current-fallback.mjs
       - name: Recheck all formal root bytes after capture
         run: |
