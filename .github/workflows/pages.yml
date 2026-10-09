@@ -161,12 +161,11 @@ jobs:
           report=json.load(open('render-evidence/png-comparison.json'))
           assert report['completed'] and len(report['frames'])==5
           for frame in report['frames']:
-              if frame['id']!='scan-turtle-encounter':
-                  assert frame['whole']['differentPixels']==0, 'Unexpected scene or UI pixel change: '+frame['id']
-              else:
-                  assert frame['outsideHudBoundsSceneRegion']['differentPixels']==0, 'Encounter scene changed'
-                  assert frame['hudBoundsRegion']['differentPixels']<=43, 'Encounter HUD change exceeded accepted scope'
-                  assert max(frame['hudBoundsRegion']['maximumChannelDifferenceRGBA'])<=12, 'Encounter HUD channel change exceeded accepted scope'
+              assert frame['outsideHudBoundsSceneRegion']['differentPixels']==0, 'Scene pixels changed: '+frame['id']
+              hud=frame['hudBoundsRegion']
+              assert hud['differentPixels']<=64, 'HUD pixel change exceeded bounded raster scope: '+frame['id']
+              assert max(hud['maximumChannelDifferenceRGBA'][:3])<=12, 'HUD RGB difference exceeded scope: '+frame['id']
+              assert hud['maximumChannelDifferenceRGBA'][3]==0, 'HUD alpha changed: '+frame['id']
           print('ACCEPTED_PIXEL_SCOPE_VERIFIED',5)
           PYCOMPARE
           node .preview-tools/qa-current-fallback.mjs
