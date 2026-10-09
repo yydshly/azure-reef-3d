@@ -32,13 +32,13 @@ jobs:
       - name: Checkout verified independent exhibit archives
         uses: actions/checkout@v6
         with:
-          ref: 65f6c40fa35e0ca1a2267e2aadabb41083377f81
+          ref: 004d7805e28bd2d0a6893b740b71d63c15c681d5
           path: .verified-preview-source
           persist-credentials: false
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /azure-reef-reefs4d-candidate-delta.zip
-            /demand-comparison-full-delta.zip
+            /demand-comparison-r2-full-delta.zip
       - name: Add verified preview while preserving root-site bytes
         run: |
           python3 - <<'PYCODE'
@@ -53,9 +53,9 @@ jobs:
           assert not any(p.is_symlink() for p in root.rglob('*'))
           preview=root/'preview'/'independent-scan'
           shutil.copytree(root, pathlib.Path('.preview-stage'))
-          old=source/'azure-reef-reefs4d-candidate-delta.zip'; new=source/'demand-comparison-full-delta.zip'
+          old=source/'azure-reef-reefs4d-candidate-delta.zip'; new=source/'demand-comparison-r2-full-delta.zip'
           assert sha(old.read_bytes())=='6621e03fe42110a070eeb49be69403b29a6d5d0e9be6031865e1491764a83463'
-          assert sha(new.read_bytes())=='b1fc0dbd021698b720e04b6cc1a812b6ddae78392ac0ad5c2903ed748100af5c'
+          assert sha(new.read_bytes())=='54df1b5f0383dc775a839c3e34cd4d4a5675d23dae87913bb4f94475b0281581'
           stage=pathlib.Path('.preview-stage')
           capture_tools={'capture-current-scene.mjs','current-scene-gallery.mjs','qa-current-fallback.mjs','qa-hud.mjs','qa-c4-browser.mjs','qa-seagrass-hosted.mjs','compare-current-frames.py','comparison-baseline.json'}
           tool_dir=pathlib.Path('.preview-tools'); tool_dir.mkdir()
@@ -109,8 +109,8 @@ jobs:
         timeout-minutes: 8
         env:
           REEF_PREVIEW_DIR: dist/preview/independent-scan
-          REEF_CANDIDATE_SOURCE_COMMIT: 65f6c40fa35e0ca1a2267e2aadabb41083377f81
-          REEF_CANDIDATE_ARCHIVE_SHA256: b1fc0dbd021698b720e04b6cc1a812b6ddae78392ac0ad5c2903ed748100af5c
+          REEF_CANDIDATE_SOURCE_COMMIT: 004d7805e28bd2d0a6893b740b71d63c15c681d5
+          REEF_CANDIDATE_ARCHIVE_SHA256: 54df1b5f0383dc775a839c3e34cd4d4a5675d23dae87913bb4f94475b0281581
         run: |
           python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-preview-server.log 2>&1 &
           server_pid=$!
