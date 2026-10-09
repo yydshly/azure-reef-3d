@@ -117,6 +117,33 @@ jobs:
           assert 'scan-exhibit.html' in (preview/'index.html').read_text()
           print('PREVIEW_PACKAGE_VERIFIED',json.dumps({'root_files_unchanged':len(before),'base':base,'preview':'preview/independent-scan/','app_sha256':before['app.js'],'exhibit_archive_sha256':sha(new.read_bytes()),'preview_files':sum(p.is_file() for p in preview.rglob('*'))}))
           PYCODE
+      - name: Checkout isolated natural-rock candidate inputs
+        uses: actions/checkout@v6
+        with:
+          ref: 3a8cc92719492e739b6a075b2a2e79e9d1597132
+          path: .natural-rock-inputs
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /natural-rock-runtime-delta.zip
+            /natural-rock-build-tools.zip
+            /current-preview-gallery-757859b4.zip
+      - name: Assemble candidate while preserving current preview
+        run: |
+          python3 - <<'PYTOOLS'
+          import pathlib,hashlib,json,zipfile
+          p=pathlib.Path('.natural-rock-inputs/natural-rock-build-tools.zip')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()=='2cad7fadc3eaa8fd623af1881d3257f272313edb5eab87912176891410c5d853'
+          with zipfile.ZipFile(p) as z:
+              names=z.namelist();assert len(names)==len(set(names))
+              m=json.loads(z.read('TOOLS-MANIFEST.json'));assert set(names)==set(m)|{'TOOLS-MANIFEST.json'}
+              for n,f in m.items():
+                  assert pathlib.PurePosixPath(n).name==n and n not in ('.','..') and '\\' not in n
+                  b=z.read(n);assert len(b)==f['bytes'] and hashlib.sha256(b).hexdigest()==f['sha256']
+                  pathlib.Path('.preview-tools',n).write_bytes(b)
+          PYTOOLS
+          python3 .preview-tools/assemble-candidate.py --dist dist --gallery .natural-rock-inputs/current-preview-gallery-757859b4.zip --receipt .preview-tools/current-gallery-receipt.json --output .protected-preview-hashes.json
+          python3 .preview-tools/apply-rock-delta.py
       - name: Set up existing pinned capture dependency
         uses: actions/setup-node@v6
         with:
@@ -135,23 +162,24 @@ jobs:
       - name: Generate five version-bound current scene stills
         timeout-minutes: 8
         env:
-          REEF_PREVIEW_DIR: dist/preview/independent-scan
-          REEF_CANDIDATE_SOURCE_COMMIT: 721647f3ce146172aa7b796d84626f38663d0ec4
-          REEF_CANDIDATE_ARCHIVE_SHA256: 0255a83b94874cb9295fdda91e6c234c47126196d2f86d279b1b05b6944158e2
+          REEF_PREVIEW_DIR: dist/preview/natural-rock-candidate
+          REEF_CAPTURE_PATH: /preview/natural-rock-candidate/
+          REEF_CANDIDATE_SOURCE_COMMIT: 3a8cc92719492e739b6a075b2a2e79e9d1597132
+          REEF_CANDIDATE_ARCHIVE_SHA256: fbb797b59fe4e74ad4bb50db1547d9171e1eeba0cdd6abfa1ccd34fc099753a2
         run: |
           python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-preview-server.log 2>&1 &
           server_pid=$!
           trap 'kill "$server_pid"' EXIT
           for attempt in 1 2 3 4 5; do
-            if curl --fail --silent http://127.0.0.1:4173/preview/independent-scan/index.html > /dev/null; then break; fi
+            if curl --fail --silent http://127.0.0.1:4173/preview/natural-rock-candidate/index.html > /dev/null; then break; fi
             sleep 1
           done
-          curl --fail --silent http://127.0.0.1:4173/preview/independent-scan/index.html > /dev/null
+          curl --fail --silent http://127.0.0.1:4173/preview/natural-rock-candidate/index.html > /dev/null
           node .preview-tools/capture-current-scene.mjs
       - name: Verify generated gallery and narrow failure-page flows
         timeout-minutes: 3
         env:
-          REEF_QA_ROOT: dist/preview/independent-scan
+          REEF_QA_ROOT: dist/preview/natural-rock-candidate
           REEF_QA_REQUIRE_CAPTURE: '1'
         run: |
           export PLAYWRIGHT_MODULE="file://$GITHUB_WORKSPACE/tests/browser/node_modules/playwright/index.mjs"
@@ -161,7 +189,7 @@ jobs:
           report=json.load(open('render-evidence/png-comparison.json'))
           assert report['completed'] and len(report['frames'])==5
           for frame in report['frames']:
-              assert frame['outsideHudBoundsSceneRegion']['differentPixels']==0, 'Scene pixels changed: '+frame['id']
+              assert frame['unaffectedSceneRegion']['differentPixels']==0, 'Scene pixels changed: '+frame['id']
               hud=frame['hudBoundsRegion']
               assert hud['differentPixels']<=64, 'HUD pixel change exceeded bounded raster scope: '+frame['id']
               assert max(hud['maximumChannelDifferenceRGBA'][:3])<=12, 'HUD RGB difference exceeded scope: '+frame['id']
@@ -179,6 +207,8 @@ jobs:
           assert before==after and len(after)==79, 'Formal site changed during capture'
           print('POST_CAPTURE_ROOT_VERIFIED',len(after))
           PYCODE
+      - name: Verify original preview remains byte-identical
+        run: python3 .preview-tools/verify-protected.py --dist dist --snapshot .protected-preview-hashes.json
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload static website only
