@@ -171,6 +171,33 @@ jobs:
                   pathlib.Path('.preview-tools',n).write_bytes(b)
           PYTOOLS
           python3 .preview-tools/stage-layered.py
+      - name: Read pinned coral midground candidate inputs
+        uses: actions/checkout@v6
+        with:
+          ref: 2d6f29a1f4722342bae281e24a02bff8f351d152
+          path: .coral-inputs
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /coral-midground-runtime-delta.zip
+            /coral-build-tools.zip
+            /layered-gallery-beddb9e6.zip
+      - name: Assemble fourth candidate and preserve all existing previews
+        run: |
+          python3 - <<'PYTOOLS'
+          import pathlib,hashlib,json,zipfile
+          p=pathlib.Path('.coral-inputs/coral-build-tools.zip')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()=='a1826e3aaa2eacd26a9746289613fc8f5a44e4873417ed0529f04f9454c90a31'
+          with zipfile.ZipFile(p) as z:
+              m=json.loads(z.read('TOOLS-MANIFEST.json'))
+              assert len(z.namelist())==len(set(z.namelist()))==len(m)+1
+              assert set(z.namelist())==set(m)|{'TOOLS-MANIFEST.json'}
+              for n,f in m.items():
+                  assert pathlib.PurePosixPath(n).name==n and n not in ('.','..') and '\\' not in n
+                  b=z.read(n);assert len(b)==f['bytes'] and hashlib.sha256(b).hexdigest()==f['sha256']
+                  pathlib.Path('.preview-tools',n).write_bytes(b)
+          PYTOOLS
+          python3 .preview-tools/stage-coral.py
       - name: Set up existing pinned capture dependency
         uses: actions/setup-node@v6
         with:
@@ -189,24 +216,24 @@ jobs:
       - name: Generate five version-bound current scene stills
         timeout-minutes: 8
         env:
-          REEF_PREVIEW_DIR: dist/preview/layered-reef-candidate
-          REEF_CAPTURE_PATH: /preview/layered-reef-candidate/
-          REEF_CANDIDATE_SOURCE_COMMIT: 20a39f6811862b14340fea3246e2211b4c68f0ef
-          REEF_CANDIDATE_ARCHIVE_SHA256: b41034fef3416ef6b6607e4562c436b288fc3ddab23a7c8f64ce6adb1018c748
+          REEF_PREVIEW_DIR: dist/preview/coral-midground-candidate
+          REEF_CAPTURE_PATH: /preview/coral-midground-candidate/
+          REEF_CANDIDATE_SOURCE_COMMIT: 2d6f29a1f4722342bae281e24a02bff8f351d152
+          REEF_CANDIDATE_ARCHIVE_SHA256: 62c68e6c1fbe07d2845b86f234fc2e27c5747cc6394b85010d534feb13873d50
         run: |
           python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-preview-server.log 2>&1 &
           server_pid=$!
           trap 'kill "$server_pid"' EXIT
           for attempt in 1 2 3 4 5; do
-            if curl --fail --silent http://127.0.0.1:4173/preview/layered-reef-candidate/index.html > /dev/null; then break; fi
+            if curl --fail --silent http://127.0.0.1:4173/preview/coral-midground-candidate/index.html > /dev/null; then break; fi
             sleep 1
           done
-          curl --fail --silent http://127.0.0.1:4173/preview/layered-reef-candidate/index.html > /dev/null
+          curl --fail --silent http://127.0.0.1:4173/preview/coral-midground-candidate/index.html > /dev/null
           node .preview-tools/capture-current-scene.mjs
       - name: Verify generated gallery and narrow failure-page flows
         timeout-minutes: 3
         env:
-          REEF_QA_ROOT: dist/preview/layered-reef-candidate
+          REEF_QA_ROOT: dist/preview/coral-midground-candidate
           REEF_QA_REQUIRE_CAPTURE: '1'
         run: |
           export PLAYWRIGHT_MODULE="file://$GITHUB_WORKSPACE/tests/browser/node_modules/playwright/index.mjs"
@@ -216,13 +243,12 @@ jobs:
           report=json.load(open('render-evidence/png-comparison.json'))
           assert report['completed'] and len(report['frames'])==5
           for frame in report['frames']:
-              if frame['id']!='artificial-opening':continue
               assert frame['unaffectedSceneRegion']['differentPixels']==0, 'Scene pixels changed: '+frame['id']
               hud=frame['hudBoundsRegion']
               assert hud['differentPixels']<=64, 'HUD pixel change exceeded bounded raster scope: '+frame['id']
               assert max(hud['maximumChannelDifferenceRGBA'][:3])<=12, 'HUD RGB difference exceeded scope: '+frame['id']
               assert hud['maximumChannelDifferenceRGBA'][3]==0, 'HUD alpha changed: '+frame['id']
-          print('UNCHANGED_ARTIFICIAL_PIXEL_SCOPE_VERIFIED',1,'SCAN_VIEWS_REQUIRE_VISUAL_REVIEW',4)
+          print('CORAL_FROZEN_PIXEL_SCOPE_VERIFIED',5,'CHANGED_REGION_VISUAL_REVIEW_PENDING')
           PYCOMPARE
           node .preview-tools/qa-current-fallback.mjs
       - name: Recheck all formal root bytes after capture
