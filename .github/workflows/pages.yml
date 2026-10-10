@@ -387,6 +387,33 @@ jobs:
                   pathlib.Path('.preview-tools',n).write_bytes(b)
           PYTOOLS
           python3 .preview-tools/stage-turn.py
+      - name: Read pinned rear habitat inputs
+        uses: actions/checkout@v6
+        with:
+          ref: 7a6501729d29eb60a40a75773d626042f2197337
+          path: .rear-inputs
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /rear-habitat-code.zip
+            /full-turn-gallery-2d668de.zip
+            /rear-build-tools.zip
+      - name: Preserve prior pages and stage rear habitat candidate
+        run: |
+          python3 - <<'PYTOOLS'
+          import pathlib,hashlib,json,zipfile
+          p=pathlib.Path('.rear-inputs/rear-build-tools.zip')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()=='3fe24868fd0150604e8f2293817f3bcb86d41340d097eeac253318d1dc5b4f98'
+          with zipfile.ZipFile(p) as z:
+              m=json.loads(z.read('TOOLS-MANIFEST.json'))
+              assert len(z.namelist())==len(set(z.namelist()))==len(m)+1
+              assert set(z.namelist())==set(m)|{'TOOLS-MANIFEST.json'}
+              for n,f in m.items():
+                  assert pathlib.PurePosixPath(n).name==n and n not in ('.','..') and '\\' not in n
+                  b=z.read(n);assert len(b)==f['bytes'] and hashlib.sha256(b).hexdigest()==f['sha256']
+                  pathlib.Path('.preview-tools',n).write_bytes(b)
+          PYTOOLS
+          python3 .preview-tools/stage-rear.py
       - name: Set up existing pinned capture dependency
         uses: actions/setup-node@v6
         with:
@@ -402,24 +429,24 @@ jobs:
         run: |
           node tests/browser/verify-pages.mjs probe
           node -e "const p=require('./render-evidence/probe.json'); if(!p.webgl2.available) process.exit(1)"
-      - name: Verify native full turn and four forward rear views
+      - name: Verify rear habitat and four forward rear views
         timeout-minutes: 8
         env:
-          TURN_URL: http://127.0.0.1:4173/preview/full-turn-candidate/scan-exhibit.html
-          TURN_SOURCE_COMMIT: 0e1936ccf2deaf980141ec230a0c46f30eea4d61
+          REAR_URL: http://127.0.0.1:4173/preview/rear-habitat-candidate/scan-exhibit.html
+          REAR_SOURCE_COMMIT: 7a6501729d29eb60a40a75773d626042f2197337
         run: |
           python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-visible-server.log 2>&1 &
           server_pid=$!
           trap 'kill "$server_pid"' EXIT
           for attempt in 1 2 3 4 5; do
-            if curl --fail --silent "$TURN_URL" > /dev/null; then break; fi
+            if curl --fail --silent "$REAR_URL" > /dev/null; then break; fi
             sleep 1
           done
-          curl --fail --silent "$TURN_URL" > /dev/null
-          export TURN_OUTPUT="$(python3 -c "import json; m=json.load(open('.turn-build.json')); print(m['root']+'/assets/current-scene/'+m['contentVersion'])")"
-          node .preview-tools/browser-check-turn.mjs
-          python3 .preview-tools/finalize-turn.py
-          python3 .preview-tools/verify-turn-preserved.py
+          curl --fail --silent "$REAR_URL" > /dev/null
+          export REAR_OUTPUT="$(python3 -c "import json; m=json.load(open('.rear-build.json')); print(m['root']+'/assets/current-scene/'+m['contentVersion'])")"
+          node .preview-tools/browser-check-rear.mjs
+          python3 .preview-tools/finalize-rear.py
+          python3 .preview-tools/verify-rear-preserved.py
       - name: Recheck all formal root bytes after capture
         run: |
           python3 - <<'PYCODE'
