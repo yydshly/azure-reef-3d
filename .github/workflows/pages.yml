@@ -390,20 +390,20 @@ jobs:
       - name: Read pinned rear habitat inputs
         uses: actions/checkout@v6
         with:
-          ref: 7a6501729d29eb60a40a75773d626042f2197337
+          ref: 729dff689f377554f62af302ef7f758ccf24de2e
           path: .rear-inputs
           persist-credentials: false
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /rear-habitat-code.zip
             /full-turn-gallery-2d668de.zip
-            /rear-build-tools.zip
+            /rear-build-tools-r2.zip
       - name: Preserve prior pages and stage rear habitat candidate
         run: |
           python3 - <<'PYTOOLS'
           import pathlib,hashlib,json,zipfile
-          p=pathlib.Path('.rear-inputs/rear-build-tools.zip')
-          assert hashlib.sha256(p.read_bytes()).hexdigest()=='3fe24868fd0150604e8f2293817f3bcb86d41340d097eeac253318d1dc5b4f98'
+          p=pathlib.Path('.rear-inputs/rear-build-tools-r2.zip')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()=='279bb4cde3363215f8505577778f8458d2a2153af679e0c8586c7673556cf6a2'
           with zipfile.ZipFile(p) as z:
               m=json.loads(z.read('TOOLS-MANIFEST.json'))
               assert len(z.namelist())==len(set(z.namelist()))==len(m)+1
@@ -433,7 +433,7 @@ jobs:
         timeout-minutes: 8
         env:
           REAR_URL: http://127.0.0.1:4173/preview/rear-habitat-candidate/scan-exhibit.html
-          REAR_SOURCE_COMMIT: 7a6501729d29eb60a40a75773d626042f2197337
+          REAR_SOURCE_COMMIT: 729dff689f377554f62af302ef7f758ccf24de2e
         run: |
           python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-visible-server.log 2>&1 &
           server_pid=$!
