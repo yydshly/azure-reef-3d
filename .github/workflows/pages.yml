@@ -252,6 +252,33 @@ jobs:
                   pathlib.Path('.preview-tools',n).write_bytes(b)
           PYTOOLS
           python3 .preview-tools/stage-surfel.py
+      - name: Read pinned continuous field candidate inputs
+        uses: actions/checkout@v6
+        with:
+          ref: e9ed47eecb23749e81f47c908133f67241450662
+          path: .field-inputs
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /reef-field-runtime-code-delta.zip
+            /surfel-gallery-c3ca891.zip
+            /field-build-tools.zip
+      - name: Preserve all prior pages and stage opt-in field candidate
+        run: |
+          python3 - <<'PYTOOLS'
+          import pathlib,hashlib,json,zipfile
+          p=pathlib.Path('.field-inputs/field-build-tools.zip')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()=='5b944cf6a52fc297a3c29558a065842b5f15584a4652aa42bd375c320dd3a272'
+          with zipfile.ZipFile(p) as z:
+              m=json.loads(z.read('TOOLS-MANIFEST.json'))
+              assert len(z.namelist())==len(set(z.namelist()))==len(m)+1
+              assert set(z.namelist())==set(m)|{'TOOLS-MANIFEST.json'}
+              for n,f in m.items():
+                  assert pathlib.PurePosixPath(n).name==n and n not in ('.','..') and '\\' not in n
+                  b=z.read(n);assert len(b)==f['bytes'] and hashlib.sha256(b).hexdigest()==f['sha256']
+                  pathlib.Path('.preview-tools',n).write_bytes(b)
+          PYTOOLS
+          python3 .preview-tools/stage-field.py
       - name: Set up existing pinned capture dependency
         uses: actions/setup-node@v6
         with:
@@ -267,24 +294,24 @@ jobs:
         run: |
           node tests/browser/verify-pages.mjs probe
           node -e "const p=require('./render-evidence/probe.json'); if(!p.webgl2.available) process.exit(1)"
-      - name: Verify isolated surfels and capture two fixed views
+      - name: Verify opt-in continuous field and capture matched views
         timeout-minutes: 8
         env:
-          SURFEL_URL: http://127.0.0.1:4173/preview/darwin-surfel-candidate/index.html
-          SURFEL_SOURCE_COMMIT: a4071c6d5ff5ee35f0ee0390ee563db02d1f6386
+          FIELD_URL: http://127.0.0.1:4173/preview/reef-field-candidate/scan-exhibit.html
+          FIELD_SOURCE_COMMIT: e9ed47eecb23749e81f47c908133f67241450662
         run: |
-          python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-surfel-server.log 2>&1 &
+          python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-field-server.log 2>&1 &
           server_pid=$!
           trap 'kill "$server_pid"' EXIT
           for attempt in 1 2 3 4 5; do
-            if curl --fail --silent "$SURFEL_URL" > /dev/null; then break; fi
+            if curl --fail --silent "$FIELD_URL" > /dev/null; then break; fi
             sleep 1
           done
-          curl --fail --silent "$SURFEL_URL" > /dev/null
-          export SURFEL_OUTPUT="$(python3 -c "import json; m=json.load(open('.surfel-build.json')); print(m['root']+'/assets/current-scene/'+m['contentVersion'])")"
-          node .preview-tools/browser-check.mjs
-          python3 .preview-tools/finalize-surfel.py
-          python3 .preview-tools/verify-preserved.py
+          curl --fail --silent "$FIELD_URL" > /dev/null
+          export FIELD_OUTPUT="$(python3 -c "import json; m=json.load(open('.field-build.json')); print(m['root']+'/assets/current-scene/'+m['contentVersion'])")"
+          node .preview-tools/browser-check-field.mjs
+          python3 .preview-tools/finalize-field.py
+          python3 .preview-tools/verify-field-preserved.py
       - name: Recheck all formal root bytes after capture
         run: |
           python3 - <<'PYCODE'
