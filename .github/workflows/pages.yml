@@ -198,6 +198,33 @@ jobs:
                   pathlib.Path('.preview-tools',n).write_bytes(b)
           PYTOOLS
           python3 .preview-tools/stage-coral.py
+      - name: Read pinned animal scale inputs
+        uses: actions/checkout@v6
+        with:
+          ref: b4cea8175f6b4dabad465920085641535c0c18cf
+          path: .animal-inputs
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /animal-scale-cache-delta.zip
+            /animal-build-tools.zip
+            /coral-gallery-20262d13.zip
+      - name: Apply bounded animal scale update to existing coral preview
+        run: |
+          python3 - <<'PYTOOLS'
+          import pathlib,hashlib,json,zipfile
+          p=pathlib.Path('.animal-inputs/animal-build-tools.zip')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()=='ce12af355f6c9eeaefd087121f71ac1f5feee7f2b0ef544a4c90b80b816551f6'
+          with zipfile.ZipFile(p) as z:
+              m=json.loads(z.read('TOOLS-MANIFEST.json'))
+              assert len(z.namelist())==len(set(z.namelist()))==len(m)+1
+              assert set(z.namelist())==set(m)|{'TOOLS-MANIFEST.json'}
+              for n,f in m.items():
+                  assert pathlib.PurePosixPath(n).name==n and n not in ('.','..') and '\\' not in n
+                  b=z.read(n);assert len(b)==f['bytes'] and hashlib.sha256(b).hexdigest()==f['sha256']
+                  pathlib.Path('.preview-tools',n).write_bytes(b)
+          PYTOOLS
+          python3 .preview-tools/stage-animal-scale.py
       - name: Set up existing pinned capture dependency
         uses: actions/setup-node@v6
         with:
@@ -218,8 +245,8 @@ jobs:
         env:
           REEF_PREVIEW_DIR: dist/preview/coral-midground-candidate
           REEF_CAPTURE_PATH: /preview/coral-midground-candidate/
-          REEF_CANDIDATE_SOURCE_COMMIT: 2d6f29a1f4722342bae281e24a02bff8f351d152
-          REEF_CANDIDATE_ARCHIVE_SHA256: 62c68e6c1fbe07d2845b86f234fc2e27c5747cc6394b85010d534feb13873d50
+          REEF_CANDIDATE_SOURCE_COMMIT: b4cea8175f6b4dabad465920085641535c0c18cf
+          REEF_CANDIDATE_ARCHIVE_SHA256: 4dd98793127062e5b5072c66ba0d01f895296f8991dd44fe9ae3385639953f94
         run: |
           python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-preview-server.log 2>&1 &
           server_pid=$!
@@ -248,7 +275,7 @@ jobs:
               assert hud['differentPixels']<=64, 'HUD pixel change exceeded bounded raster scope: '+frame['id']
               assert max(hud['maximumChannelDifferenceRGBA'][:3])<=12, 'HUD RGB difference exceeded scope: '+frame['id']
               assert hud['maximumChannelDifferenceRGBA'][3]==0, 'HUD alpha changed: '+frame['id']
-          print('CORAL_FROZEN_PIXEL_SCOPE_VERIFIED',5,'CHANGED_REGION_VISUAL_REVIEW_PENDING')
+          print('ANIMAL_SCALE_PIXEL_SCOPE_VERIFIED',5,'CHANGED_REGION_VISUAL_REVIEW_PENDING')
           PYCOMPARE
           node .preview-tools/qa-current-fallback.mjs
       - name: Recheck all formal root bytes after capture
