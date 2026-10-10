@@ -282,20 +282,20 @@ jobs:
       - name: Read pinned habitat enrichment candidate inputs
         uses: actions/checkout@v6
         with:
-          ref: c4804ba222e8341a5439ca904d1d452f3ce8a596
+          ref: 0681fd7508eaa6744434598d34ac310214bd0a66
           path: .habitat-inputs
           persist-credentials: false
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /habitat-code-delta.zip
             /field-gallery-95db4be1.zip
-            /habitat-build-tools.zip
+            /habitat-build-tools-r2.zip
       - name: Preserve all prior pages and stage habitat enrichment candidate
         run: |
           python3 - <<'PYTOOLS'
           import pathlib,hashlib,json,zipfile
-          p=pathlib.Path('.habitat-inputs/habitat-build-tools.zip')
-          assert hashlib.sha256(p.read_bytes()).hexdigest()=='fa3eb7df64c1df2b4596f720098d6f9fbe142e043ab1b9aee4742772b7fab4eb'
+          p=pathlib.Path('.habitat-inputs/habitat-build-tools-r2.zip')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()=='cf9c7398b91107adb0d2ceaa72c712ac1562cc9dd773ea26de7acaae72dce858'
           with zipfile.ZipFile(p) as z:
               m=json.loads(z.read('TOOLS-MANIFEST.json'))
               assert len(z.namelist())==len(set(z.namelist()))==len(m)+1
@@ -325,7 +325,7 @@ jobs:
         timeout-minutes: 8
         env:
           HABITAT_URL: http://127.0.0.1:4173/preview/habitat-enrichment-candidate/scan-exhibit.html
-          HABITAT_SOURCE_COMMIT: c4804ba222e8341a5439ca904d1d452f3ce8a596
+          HABITAT_SOURCE_COMMIT: 0681fd7508eaa6744434598d34ac310214bd0a66
         run: |
           python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-habitat-server.log 2>&1 &
           server_pid=$!
