@@ -333,6 +333,33 @@ jobs:
                   pathlib.Path('.preview-tools',n).write_bytes(b)
           PYTOOLS
           python3 .preview-tools/stage-visible.py
+      - name: Read pinned colony form inputs
+        uses: actions/checkout@v6
+        with:
+          ref: 1abe0f251c4cdd5bdf1319d3686cbf373dfc3645
+          path: .colony-inputs
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /colony-form-code.zip
+            /visible-gallery-b4de65d.zip
+            /colony-build-tools.zip
+      - name: Preserve prior pages and stage colony form candidate
+        run: |
+          python3 - <<'PYTOOLS'
+          import pathlib,hashlib,json,zipfile
+          p=pathlib.Path('.colony-inputs/colony-build-tools.zip')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()=='0e6bc1da18d5ab9f81e26f23dc343ac78da3b1df5469c43ff046722fd9e51a96'
+          with zipfile.ZipFile(p) as z:
+              m=json.loads(z.read('TOOLS-MANIFEST.json'))
+              assert len(z.namelist())==len(set(z.namelist()))==len(m)+1
+              assert set(z.namelist())==set(m)|{'TOOLS-MANIFEST.json'}
+              for n,f in m.items():
+                  assert pathlib.PurePosixPath(n).name==n and n not in ('.','..') and '\\' not in n
+                  b=z.read(n);assert len(b)==f['bytes'] and hashlib.sha256(b).hexdigest()==f['sha256']
+                  pathlib.Path('.preview-tools',n).write_bytes(b)
+          PYTOOLS
+          python3 .preview-tools/stage-colony.py
       - name: Set up existing pinned capture dependency
         uses: actions/setup-node@v6
         with:
@@ -348,24 +375,24 @@ jobs:
         run: |
           node tests/browser/verify-pages.mjs probe
           node -e "const p=require('./render-evidence/probe.json'); if(!p.webgl2.available) process.exit(1)"
-      - name: Verify visible habitat and capture seven fixed views
+      - name: Verify colony forms and capture four fixed views
         timeout-minutes: 8
         env:
-          VISIBLE_URL: http://127.0.0.1:4173/preview/visible-habitat-candidate/scan-exhibit.html
-          VISIBLE_SOURCE_COMMIT: da5799cd6813342467dc1a67210a7e755ec5feaa
+          COLONY_URL: http://127.0.0.1:4173/preview/colony-form-candidate/scan-exhibit.html
+          COLONY_SOURCE_COMMIT: 1abe0f251c4cdd5bdf1319d3686cbf373dfc3645
         run: |
           python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-visible-server.log 2>&1 &
           server_pid=$!
           trap 'kill "$server_pid"' EXIT
           for attempt in 1 2 3 4 5; do
-            if curl --fail --silent "$VISIBLE_URL" > /dev/null; then break; fi
+            if curl --fail --silent "$COLONY_URL" > /dev/null; then break; fi
             sleep 1
           done
-          curl --fail --silent "$VISIBLE_URL" > /dev/null
-          export VISIBLE_OUTPUT="$(python3 -c "import json; m=json.load(open('.visible-build.json')); print(m['root']+'/assets/current-scene/'+m['contentVersion'])")"
-          node .preview-tools/browser-check-visible.mjs
-          python3 .preview-tools/finalize-visible.py
-          python3 .preview-tools/verify-visible-preserved.py
+          curl --fail --silent "$COLONY_URL" > /dev/null
+          export COLONY_OUTPUT="$(python3 -c "import json; m=json.load(open('.colony-build.json')); print(m['root']+'/assets/current-scene/'+m['contentVersion'])")"
+          node .preview-tools/browser-check-colony.mjs
+          python3 .preview-tools/finalize-colony.py
+          python3 .preview-tools/verify-colony-preserved.py
       - name: Recheck all formal root bytes after capture
         run: |
           python3 - <<'PYCODE'
