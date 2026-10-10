@@ -360,6 +360,33 @@ jobs:
                   pathlib.Path('.preview-tools',n).write_bytes(b)
           PYTOOLS
           python3 .preview-tools/stage-colony.py
+      - name: Read pinned full turn inputs
+        uses: actions/checkout@v6
+        with:
+          ref: 0e1936ccf2deaf980141ec230a0c46f30eea4d61
+          path: .turn-inputs
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /full-turn-code.zip
+            /colony-gallery-c0fe77c.zip
+            /turn-build-tools.zip
+      - name: Preserve prior pages and stage full turn candidate
+        run: |
+          python3 - <<'PYTOOLS'
+          import pathlib,hashlib,json,zipfile
+          p=pathlib.Path('.turn-inputs/turn-build-tools.zip')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()=='1efa9e44ef3ebe3fa973d6083c68750403f1d0b5295cf2da5480b20aea252f47'
+          with zipfile.ZipFile(p) as z:
+              m=json.loads(z.read('TOOLS-MANIFEST.json'))
+              assert len(z.namelist())==len(set(z.namelist()))==len(m)+1
+              assert set(z.namelist())==set(m)|{'TOOLS-MANIFEST.json'}
+              for n,f in m.items():
+                  assert pathlib.PurePosixPath(n).name==n and n not in ('.','..') and '\\' not in n
+                  b=z.read(n);assert len(b)==f['bytes'] and hashlib.sha256(b).hexdigest()==f['sha256']
+                  pathlib.Path('.preview-tools',n).write_bytes(b)
+          PYTOOLS
+          python3 .preview-tools/stage-turn.py
       - name: Set up existing pinned capture dependency
         uses: actions/setup-node@v6
         with:
@@ -375,24 +402,24 @@ jobs:
         run: |
           node tests/browser/verify-pages.mjs probe
           node -e "const p=require('./render-evidence/probe.json'); if(!p.webgl2.available) process.exit(1)"
-      - name: Verify colony forms and capture four fixed views
+      - name: Verify native full turn and four forward rear views
         timeout-minutes: 8
         env:
-          COLONY_URL: http://127.0.0.1:4173/preview/colony-form-candidate/scan-exhibit.html
-          COLONY_SOURCE_COMMIT: 1abe0f251c4cdd5bdf1319d3686cbf373dfc3645
+          TURN_URL: http://127.0.0.1:4173/preview/full-turn-candidate/scan-exhibit.html
+          TURN_SOURCE_COMMIT: 0e1936ccf2deaf980141ec230a0c46f30eea4d61
         run: |
           python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-visible-server.log 2>&1 &
           server_pid=$!
           trap 'kill "$server_pid"' EXIT
           for attempt in 1 2 3 4 5; do
-            if curl --fail --silent "$COLONY_URL" > /dev/null; then break; fi
+            if curl --fail --silent "$TURN_URL" > /dev/null; then break; fi
             sleep 1
           done
-          curl --fail --silent "$COLONY_URL" > /dev/null
-          export COLONY_OUTPUT="$(python3 -c "import json; m=json.load(open('.colony-build.json')); print(m['root']+'/assets/current-scene/'+m['contentVersion'])")"
-          node .preview-tools/browser-check-colony.mjs
-          python3 .preview-tools/finalize-colony.py
-          python3 .preview-tools/verify-colony-preserved.py
+          curl --fail --silent "$TURN_URL" > /dev/null
+          export TURN_OUTPUT="$(python3 -c "import json; m=json.load(open('.turn-build.json')); print(m['root']+'/assets/current-scene/'+m['contentVersion'])")"
+          node .preview-tools/browser-check-turn.mjs
+          python3 .preview-tools/finalize-turn.py
+          python3 .preview-tools/verify-turn-preserved.py
       - name: Recheck all formal root bytes after capture
         run: |
           python3 - <<'PYCODE'
