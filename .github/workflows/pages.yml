@@ -598,6 +598,36 @@ jobs:
                   target=target_dir/n; assert not target.exists(); target.write_bytes(b)
           PYTOOLS
           PYTHONPATH=.surface-tools:.enriched-tools:.preview-tools python3 .splats-tools/stage-splats.py
+      - name: Read pinned independent LOD comparison inputs
+        uses: actions/checkout@v6
+        with:
+          ref: 7b7c64070c64cb7ba985590c49b0f59193fe8ce5
+          path: .lod-inputs
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /reef-real-splats-LOD3-STATIC-WEB.zip
+            /real-splats-snapshot-25e3da0d.zip
+            /real-splats-lod-build-tools.zip
+      - name: Restore six published probe products and stage independent LOD comparison
+        run: |
+          python3 - <<'PYTOOLS'
+          import pathlib,hashlib,json,zipfile,stat
+          p=pathlib.Path('.lod-inputs/real-splats-lod-build-tools.zip')
+          assert p.stat().st_size<=25000000 and hashlib.sha256(p.read_bytes()).hexdigest()=='b655bbe40ad1c475b6a1605d3d6ff106ca4f0ede064371f6b83cc98a3aebf393'
+          target_dir=pathlib.Path('.lod-tools'); assert not target_dir.exists(); target_dir.mkdir()
+          with zipfile.ZipFile(p) as z:
+              m=json.loads(z.read('TOOLS-MANIFEST.json'))
+              assert len(z.namelist())==len(set(z.namelist()))==len(m)+1
+              assert set(z.namelist())==set(m)|{'TOOLS-MANIFEST.json'}
+              for n,f in m.items():
+                  assert pathlib.PurePosixPath(n).name==n and n not in ('.','..') and chr(92) not in n
+                  info=z.getinfo(n);mode=info.external_attr>>16
+                  assert not info.is_dir() and not stat.S_ISLNK(mode) and stat.S_IFMT(mode) in (0,stat.S_IFREG)
+                  b=z.read(n);assert len(b)==f['bytes'] and hashlib.sha256(b).hexdigest()==f['sha256']
+                  target=target_dir/n;assert not target.exists();target.write_bytes(b)
+          PYTOOLS
+          PYTHONPATH=.splats-tools:.surface-tools:.enriched-tools:.preview-tools python3 .lod-tools/stage-lod.py
       - name: Set up existing pinned capture dependency
         uses: actions/setup-node@v6
         with:
@@ -608,31 +638,45 @@ jobs:
           python3 -m pip install --index-url https://pypi.org/simple Pillow==11.3.0
           npm ci --prefix tests/browser
           tests/browser/node_modules/.bin/playwright install --with-deps chromium
-      - name: Probe sandboxed WebGL2 before current captures
-        timeout-minutes: 2
-        run: |
-          node tests/browser/verify-pages.mjs probe
-          node -e "const p=require('./render-evidence/probe.json'); if(!p.webgl2.available) process.exit(1)"
-      - name: Verify one bounded independent real Gaussian splat probe
+      - name: Compare eight matched LOD views and bounded native inputs
         timeout-minutes: 8
         env:
-          SPLATS_URL: http://127.0.0.1:4173/preview/real-splats-probe/
-          SPLATS_SOURCE_COMMIT: c20a49ce1b69f1d248aef77d425726516e3a9ff5
-          SPLATS_OUTPUT: splats-qa
+          LOD_URL: http://127.0.0.1:4173/preview/real-splats-lod-compare/
+          LOD_SOURCE_COMMIT: 7b7c64070c64cb7ba985590c49b0f59193fe8ce5
+          LOD_OUTPUT: lod-qa
+          LOD_SEGMENT: A
         run: |
-          python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-splats-server.log 2>&1 &
+          python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-lod-A-server.log 2>&1 &
           server_pid=$!
           trap 'kill "$server_pid"' EXIT
           for attempt in 1 2 3 4 5; do
-            if curl --fail --silent "$SPLATS_URL" > /dev/null; then break; fi
+            if curl --fail --silent "$LOD_URL" > /dev/null; then break; fi
             sleep 1
           done
-          curl --fail --silent "$SPLATS_URL" > /dev/null
-          PYTHONPATH=.surface-tools:.enriched-tools:.preview-tools python3 .splats-tools/verify-splats-preserved.py --source-only
-          node .splats-tools/browser-check-splats.mjs
-          PYTHONPATH=.surface-tools:.enriched-tools:.preview-tools python3 .splats-tools/finalize-splats.py
-          PYTHONPATH=.surface-tools:.enriched-tools:.preview-tools python3 .splats-tools/verify-splats-preserved.py
-      - name: Recheck all formal root bytes after capture
+          curl --fail --silent "$LOD_URL" > /dev/null
+          PYTHONPATH=.splats-tools:.surface-tools:.enriched-tools:.preview-tools python3 .lod-tools/verify-lod-preserved.py --source-only
+          node .lod-tools/browser-check-splat-lods.mjs
+      - name: Verify safe LOD lifecycle on a fresh page and finalize paired evidence
+        timeout-minutes: 8
+        env:
+          LOD_URL: http://127.0.0.1:4173/preview/real-splats-lod-compare/
+          LOD_SOURCE_COMMIT: 7b7c64070c64cb7ba985590c49b0f59193fe8ce5
+          LOD_OUTPUT: lod-qa
+          LOD_SEGMENT: B
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-lod-B-server.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          for attempt in 1 2 3 4 5; do
+            if curl --fail --silent "$LOD_URL" > /dev/null; then break; fi
+            sleep 1
+          done
+          curl --fail --silent "$LOD_URL" > /dev/null
+          node .lod-tools/browser-check-splat-lods.mjs
+          node .lod-tools/browser-check-splat-lods.mjs --combine
+          PYTHONPATH=.splats-tools:.surface-tools:.enriched-tools:.preview-tools python3 .lod-tools/finalize-lod.py
+          PYTHONPATH=.splats-tools:.surface-tools:.enriched-tools:.preview-tools python3 .lod-tools/verify-lod-preserved.py
+      - name: Recheck all formal root bytes and original published preview after capture
         run: |
           python3 - <<'PYCODE'
           import hashlib,json,pathlib
@@ -642,22 +686,17 @@ jobs:
           assert before==after and len(after)==79, 'Formal site changed during capture'
           print('POST_CAPTURE_ROOT_VERIFIED',len(after))
           PYCODE
-      - name: Verify original preview and all 2283 published files remain byte-identical
-        env:
-          SPLATS_SOURCE_COMMIT: c20a49ce1b69f1d248aef77d425726516e3a9ff5
-        run: |
           python3 .preview-tools/verify-protected.py --dist dist --snapshot .protected-preview-hashes.json
-          PYTHONPATH=.surface-tools:.enriched-tools:.preview-tools python3 .splats-tools/verify-splats-preserved.py --deadline-only
-      - name: Preserve current-run splat evidence after success or failure
+      - name: Preserve current-run LOD evidence after success or failure
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: splats-qa-${{ github.run_id }}-${{ github.run_attempt }}
+          name: lod-qa-${{ github.run_id }}-${{ github.run_attempt }}
           retention-days: 7
           if-no-files-found: warn
           path: |
-            splats-qa/**/*.png
-            splats-qa/**/*.json
+            lod-qa/**/*.png
+            lod-qa/**/*.json
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload static website only
