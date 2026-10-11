@@ -568,6 +568,36 @@ jobs:
                   target=target_dir/n; assert not target.exists(); target.write_bytes(b)
           PYTOOLS
           PYTHONPATH=.enriched-tools:.preview-tools python3 .surface-tools/stage-surface.py
+      - name: Read pinned independent Gaussian splat inputs
+        uses: actions/checkout@v6
+        with:
+          ref: c20a49ce1b69f1d248aef77d425726516e3a9ff5
+          path: .splats-inputs
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /reef-real-splats-probe-SOURCE-20261011.zip
+            /surface-grounding-snapshot-ef6a7618.zip
+            /real-splats-build-tools.zip
+      - name: Restore six published surface products and stage independent splat probe
+        run: |
+          python3 - <<'PYTOOLS'
+          import pathlib,hashlib,json,zipfile,stat
+          p=pathlib.Path('.splats-inputs/real-splats-build-tools.zip')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()=='acfca4195ccb167c19f49d4f53b659d8ae6043575b90a1937cc97755ea7aafdd'
+          target_dir=pathlib.Path('.splats-tools'); assert not target_dir.exists(); target_dir.mkdir()
+          with zipfile.ZipFile(p) as z:
+              m=json.loads(z.read('TOOLS-MANIFEST.json'))
+              assert len(z.namelist())==len(set(z.namelist()))==len(m)+1
+              assert set(z.namelist())==set(m)|{'TOOLS-MANIFEST.json'}
+              for n,f in m.items():
+                  assert pathlib.PurePosixPath(n).name==n and n not in ('.','..') and '\\' not in n
+                  info=z.getinfo(n);mode=info.external_attr>>16
+                  assert not info.is_dir() and not stat.S_ISLNK(mode) and stat.S_IFMT(mode) in (0,stat.S_IFREG)
+                  b=z.read(n);assert len(b)==f['bytes'] and hashlib.sha256(b).hexdigest()==f['sha256']
+                  target=target_dir/n; assert not target.exists(); target.write_bytes(b)
+          PYTOOLS
+          PYTHONPATH=.surface-tools:.enriched-tools:.preview-tools python3 .splats-tools/stage-splats.py
       - name: Set up existing pinned capture dependency
         uses: actions/setup-node@v6
         with:
@@ -583,44 +613,25 @@ jobs:
         run: |
           node tests/browser/verify-pages.mjs probe
           node -e "const p=require('./render-evidence/probe.json'); if(!p.webgl2.available) process.exit(1)"
-      - name: Verify surface grounding segment A natural tour
+      - name: Verify one bounded independent real Gaussian splat probe
         timeout-minutes: 8
         env:
-          EXPLORATION_URL: http://127.0.0.1:4173/preview/surface-grounding-candidate/scan-exhibit.html
-          EXPLORATION_SOURCE_COMMIT: b7008dcda978b1e09ceb6cbd7d9650a20b7f9ef0
-          EXPLORATION_OUTPUT: exploration-qa
-          EXPLORATION_QA_MODE: tour
+          SPLATS_URL: http://127.0.0.1:4173/preview/real-splats-probe/
+          SPLATS_SOURCE_COMMIT: c20a49ce1b69f1d248aef77d425726516e3a9ff5
+          SPLATS_OUTPUT: splats-qa
         run: |
-          python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-exploration-server.log 2>&1 &
+          python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-splats-server.log 2>&1 &
           server_pid=$!
           trap 'kill "$server_pid"' EXIT
           for attempt in 1 2 3 4 5; do
-            if curl --fail --silent "$EXPLORATION_URL" > /dev/null; then break; fi
+            if curl --fail --silent "$SPLATS_URL" > /dev/null; then break; fi
             sleep 1
           done
-          curl --fail --silent "$EXPLORATION_URL" > /dev/null
-          PYTHONPATH=.enriched-tools:.preview-tools python3 .surface-tools/verify-surface-preserved.py --source-only
-          node .surface-tools/browser-check-surface.mjs
-      - name: Verify surface grounding segment B free movement and compatibility
-        timeout-minutes: 8
-        env:
-          EXPLORATION_URL: http://127.0.0.1:4173/preview/surface-grounding-candidate/scan-exhibit.html
-          EXPLORATION_SOURCE_COMMIT: b7008dcda978b1e09ceb6cbd7d9650a20b7f9ef0
-          EXPLORATION_OUTPUT: exploration-qa
-          EXPLORATION_QA_MODE: free-compat
-        run: |
-          python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-exploration-server.log 2>&1 &
-          server_pid=$!
-          trap 'kill "$server_pid"' EXIT
-          for attempt in 1 2 3 4 5; do
-            if curl --fail --silent "$EXPLORATION_URL" > /dev/null; then break; fi
-            sleep 1
-          done
-          curl --fail --silent "$EXPLORATION_URL" > /dev/null
-          PYTHONPATH=.enriched-tools:.preview-tools python3 .surface-tools/verify-surface-preserved.py --source-only
-          node .surface-tools/browser-check-surface.mjs
-          PYTHONPATH=.enriched-tools:.preview-tools python3 .surface-tools/finalize-surface.py
-          PYTHONPATH=.enriched-tools:.preview-tools python3 .surface-tools/verify-surface-preserved.py
+          curl --fail --silent "$SPLATS_URL" > /dev/null
+          PYTHONPATH=.surface-tools:.enriched-tools:.preview-tools python3 .splats-tools/verify-splats-preserved.py --source-only
+          node .splats-tools/browser-check-splats.mjs
+          PYTHONPATH=.surface-tools:.enriched-tools:.preview-tools python3 .splats-tools/finalize-splats.py
+          PYTHONPATH=.surface-tools:.enriched-tools:.preview-tools python3 .splats-tools/verify-splats-preserved.py
       - name: Recheck all formal root bytes after capture
         run: |
           python3 - <<'PYCODE'
@@ -631,21 +642,22 @@ jobs:
           assert before==after and len(after)==79, 'Formal site changed during capture'
           print('POST_CAPTURE_ROOT_VERIFIED',len(after))
           PYCODE
-      - name: Verify original preview remains byte-identical
+      - name: Verify original preview and all 2283 published files remain byte-identical
+        env:
+          SPLATS_SOURCE_COMMIT: c20a49ce1b69f1d248aef77d425726516e3a9ff5
         run: |
           python3 .preview-tools/verify-protected.py --dist dist --snapshot .protected-preview-hashes.json
-          PYTHONPATH=.enriched-tools:.preview-tools python3 .surface-tools/verify-surface-preserved.py --deadline-only
-      - name: Preserve current-run QA evidence after success or failure
+          PYTHONPATH=.surface-tools:.enriched-tools:.preview-tools python3 .splats-tools/verify-splats-preserved.py --deadline-only
+      - name: Preserve current-run splat evidence after success or failure
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: exploration-qa-${{ github.run_id }}-${{ github.run_attempt }}
+          name: splats-qa-${{ github.run_id }}-${{ github.run_attempt }}
           retention-days: 7
           if-no-files-found: warn
           path: |
-            exploration-qa/**/*.png
-            exploration-qa/**/*.json
-            exploration-qa/**/*.jsonl
+            splats-qa/**/*.png
+            splats-qa/**/*.json
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload static website only
@@ -655,4 +667,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
