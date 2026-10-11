@@ -480,20 +480,20 @@ jobs:
       - name: Read pinned exploration demo inputs
         uses: actions/checkout@v6
         with:
-          ref: c8ceaabae467dfee19e6742a217029d15dd4996e
+          ref: 343ce12fc67ca4e99ef71f2192bb4083a3ba3d47
           path: .exploration-inputs
           persist-credentials: false
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /exploration-demo-code.zip
             /rear-layout-snapshot-2eac3e4d.zip
-            /exploration-build-tools-r3.zip
+            /exploration-build-tools-r4.zip
       - name: Restore latest published rear layout and stage exploration demo
         run: |
           python3 - <<'PYTOOLS'
           import pathlib,hashlib,json,zipfile,stat
-          p=pathlib.Path('.exploration-inputs/exploration-build-tools-r3.zip')
-          assert hashlib.sha256(p.read_bytes()).hexdigest()=='98dce81e676f070137ef4e5c33ab53475485924426c5d71c9cc2f379d760a862'
+          p=pathlib.Path('.exploration-inputs/exploration-build-tools-r4.zip')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()=='2b3560009f5a6acde8f70a5be5539cc80eea72ff54215779538610d692267566'
           with zipfile.ZipFile(p) as z:
               m=json.loads(z.read('TOOLS-MANIFEST.json'))
               assert len(z.namelist())==len(set(z.namelist()))==len(m)+1
@@ -527,7 +527,7 @@ jobs:
         timeout-minutes: 8
         env:
           EXPLORATION_URL: http://127.0.0.1:4173/preview/exploration-demo-candidate/scan-exhibit.html
-          EXPLORATION_SOURCE_COMMIT: c8ceaabae467dfee19e6742a217029d15dd4996e
+          EXPLORATION_SOURCE_COMMIT: 343ce12fc67ca4e99ef71f2192bb4083a3ba3d47
           EXPLORATION_OUTPUT: exploration-qa
           EXPLORATION_QA_MODE: tour
         run: |
@@ -545,7 +545,7 @@ jobs:
         timeout-minutes: 8
         env:
           EXPLORATION_URL: http://127.0.0.1:4173/preview/exploration-demo-candidate/scan-exhibit.html
-          EXPLORATION_SOURCE_COMMIT: c8ceaabae467dfee19e6742a217029d15dd4996e
+          EXPLORATION_SOURCE_COMMIT: 343ce12fc67ca4e99ef71f2192bb4083a3ba3d47
           EXPLORATION_OUTPUT: exploration-qa
           EXPLORATION_QA_MODE: free-compat
         run: |
