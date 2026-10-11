@@ -508,6 +508,36 @@ jobs:
                   target.write_bytes(b)
           PYTOOLS
           python3 .preview-tools/stage-exploration.py
+      - name: Read pinned enriched exploration inputs
+        uses: actions/checkout@v6
+        with:
+          ref: acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b
+          path: .enriched-inputs
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /exploration-enriched-code.zip
+            /exploration-demo-snapshot-b8c55275.zip
+            /exploration-enriched-build-tools.zip
+      - name: Restore published exploration and stage enriched candidate
+        run: |
+          python3 - <<'PYTOOLS'
+          import pathlib,hashlib,json,zipfile,stat
+          p=pathlib.Path('.enriched-inputs/exploration-enriched-build-tools.zip')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()=='79fabe59279fed96271d21da887050f210a86ac92fedadd32a0c5773d9848808'
+          target_dir=pathlib.Path('.enriched-tools'); assert not target_dir.exists(); target_dir.mkdir()
+          with zipfile.ZipFile(p) as z:
+              m=json.loads(z.read('TOOLS-MANIFEST.json'))
+              assert len(z.namelist())==len(set(z.namelist()))==len(m)+1
+              assert set(z.namelist())==set(m)|{'TOOLS-MANIFEST.json'}
+              for n,f in m.items():
+                  assert pathlib.PurePosixPath(n).name==n and n not in ('.','..') and '\\' not in n
+                  info=z.getinfo(n);mode=info.external_attr>>16
+                  assert not info.is_dir() and not stat.S_ISLNK(mode) and stat.S_IFMT(mode) in (0,stat.S_IFREG)
+                  b=z.read(n);assert len(b)==f['bytes'] and hashlib.sha256(b).hexdigest()==f['sha256']
+                  target=target_dir/n; assert not target.exists(); target.write_bytes(b)
+          PYTOOLS
+          PYTHONPATH=.preview-tools python3 .enriched-tools/stage-enriched.py
       - name: Set up existing pinned capture dependency
         uses: actions/setup-node@v6
         with:
@@ -523,11 +553,11 @@ jobs:
         run: |
           node tests/browser/verify-pages.mjs probe
           node -e "const p=require('./render-evidence/probe.json'); if(!p.webgl2.available) process.exit(1)"
-      - name: Verify exploration segment A natural tour
+      - name: Verify enriched exploration segment A natural tour
         timeout-minutes: 8
         env:
-          EXPLORATION_URL: http://127.0.0.1:4173/preview/exploration-demo-candidate/scan-exhibit.html
-          EXPLORATION_SOURCE_COMMIT: da6d0e2669e2dacfc95e03d03e3ef5ad9228fd23
+          EXPLORATION_URL: http://127.0.0.1:4173/preview/exploration-enriched-candidate/scan-exhibit.html
+          EXPLORATION_SOURCE_COMMIT: acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b
           EXPLORATION_OUTPUT: exploration-qa
           EXPLORATION_QA_MODE: tour
         run: |
@@ -539,13 +569,13 @@ jobs:
             sleep 1
           done
           curl --fail --silent "$EXPLORATION_URL" > /dev/null
-          python3 .preview-tools/verify-exploration-preserved.py --source-only
-          node .preview-tools/browser-check-exploration.mjs
-      - name: Verify exploration segment B free movement and compatibility
+          PYTHONPATH=.preview-tools python3 .enriched-tools/verify-enriched-preserved.py --source-only
+          node .enriched-tools/browser-check-enriched.mjs
+      - name: Verify enriched exploration segment B free movement and compatibility
         timeout-minutes: 8
         env:
-          EXPLORATION_URL: http://127.0.0.1:4173/preview/exploration-demo-candidate/scan-exhibit.html
-          EXPLORATION_SOURCE_COMMIT: da6d0e2669e2dacfc95e03d03e3ef5ad9228fd23
+          EXPLORATION_URL: http://127.0.0.1:4173/preview/exploration-enriched-candidate/scan-exhibit.html
+          EXPLORATION_SOURCE_COMMIT: acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b
           EXPLORATION_OUTPUT: exploration-qa
           EXPLORATION_QA_MODE: free-compat
         run: |
@@ -557,10 +587,10 @@ jobs:
             sleep 1
           done
           curl --fail --silent "$EXPLORATION_URL" > /dev/null
-          python3 .preview-tools/verify-exploration-preserved.py --source-only
-          node .preview-tools/browser-check-exploration.mjs
-          python3 .preview-tools/finalize-exploration.py --update-world
-          python3 .preview-tools/verify-exploration-preserved.py
+          PYTHONPATH=.preview-tools python3 .enriched-tools/verify-enriched-preserved.py --source-only
+          node .enriched-tools/browser-check-enriched.mjs
+          PYTHONPATH=.preview-tools python3 .enriched-tools/finalize-enriched.py --update-world
+          PYTHONPATH=.preview-tools python3 .enriched-tools/verify-enriched-preserved.py
       - name: Recheck all formal root bytes after capture
         run: |
           python3 - <<'PYCODE'
@@ -574,7 +604,7 @@ jobs:
       - name: Verify original preview remains byte-identical
         run: |
           python3 .preview-tools/verify-protected.py --dist dist --snapshot .protected-preview-hashes.json
-          python3 .preview-tools/verify-exploration-preserved.py --deadline-only
+          PYTHONPATH=.preview-tools python3 .enriched-tools/verify-enriched-preserved.py --deadline-only
       - name: Preserve current-run QA evidence after success or failure
         if: always()
         uses: actions/upload-artifact@v4
