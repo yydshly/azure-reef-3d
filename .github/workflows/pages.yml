@@ -427,19 +427,19 @@ jobs:
       - name: Read pinned grounded integration inputs
         uses: actions/checkout@v6
         with:
-          ref: de1e1f0c62fc2d957b11cdfbc1dac34f1281ae08
+          ref: 0573084ec536ae9d32c4a6d6124faa9001adbac0
           path: .grounded-inputs
           persist-credentials: false
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /grounded-code.zip
-            /grounded-build-tools.zip
+            /grounded-build-tools-r2.zip
       - name: Preserve prior pages and stage grounded integration candidate
         run: |
           python3 - <<'PYTOOLS'
           import pathlib,hashlib,json,zipfile
-          p=pathlib.Path('.grounded-inputs/grounded-build-tools.zip')
-          assert hashlib.sha256(p.read_bytes()).hexdigest()=='b99e367844229ddeb6954906e177f7ac67c87510009d12be50ac2d67c47fd947'
+          p=pathlib.Path('.grounded-inputs/grounded-build-tools-r2.zip')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()=='14f40515cc4fe99d12fabcbd55fe220d9c495ef1a77b8b7d369c4b07accfa075'
           with zipfile.ZipFile(p) as z:
               m=json.loads(z.read('TOOLS-MANIFEST.json'))
               assert len(z.namelist())==len(set(z.namelist()))==len(m)+1
@@ -469,7 +469,7 @@ jobs:
         timeout-minutes: 8
         env:
           GROUNDED_URL: http://127.0.0.1:4173/preview/grounded-integration-candidate/scan-exhibit.html
-          GROUNDED_SOURCE_COMMIT: de1e1f0c62fc2d957b11cdfbc1dac34f1281ae08
+          GROUNDED_SOURCE_COMMIT: 0573084ec536ae9d32c4a6d6124faa9001adbac0
           GROUNDED_OUTPUT: grounded-qa
           ENTRY_URL: http://127.0.0.1:4173/preview/world/
         run: |
