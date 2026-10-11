@@ -414,6 +414,42 @@ jobs:
                   pathlib.Path('.preview-tools',n).write_bytes(b)
           PYTOOLS
           python3 .preview-tools/stage-rear.py
+      - name: Read previously saved rear gallery and world entry source
+        uses: actions/checkout@v6
+        with:
+          ref: cf5fb36d21f9a55ae7ec1732f2a128d3c64749dd
+          path: .entry-inputs
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /rear-gallery-0badf15.zip
+            /world-entry-code.zip
+      - name: Read pinned grounded integration inputs
+        uses: actions/checkout@v6
+        with:
+          ref: de1e1f0c62fc2d957b11cdfbc1dac34f1281ae08
+          path: .grounded-inputs
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /grounded-code.zip
+            /grounded-build-tools.zip
+      - name: Preserve prior pages and stage grounded integration candidate
+        run: |
+          python3 - <<'PYTOOLS'
+          import pathlib,hashlib,json,zipfile
+          p=pathlib.Path('.grounded-inputs/grounded-build-tools.zip')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()=='b99e367844229ddeb6954906e177f7ac67c87510009d12be50ac2d67c47fd947'
+          with zipfile.ZipFile(p) as z:
+              m=json.loads(z.read('TOOLS-MANIFEST.json'))
+              assert len(z.namelist())==len(set(z.namelist()))==len(m)+1
+              assert set(z.namelist())==set(m)|{'TOOLS-MANIFEST.json'}
+              for n,f in m.items():
+                  assert pathlib.PurePosixPath(n).name==n and n not in ('.','..') and '\\' not in n
+                  b=z.read(n);assert len(b)==f['bytes'] and hashlib.sha256(b).hexdigest()==f['sha256']
+                  pathlib.Path('.preview-tools',n).write_bytes(b)
+          PYTOOLS
+          python3 .preview-tools/stage-grounded.py
       - name: Set up existing pinned capture dependency
         uses: actions/setup-node@v6
         with:
@@ -429,24 +465,28 @@ jobs:
         run: |
           node tests/browser/verify-pages.mjs probe
           node -e "const p=require('./render-evidence/probe.json'); if(!p.webgl2.available) process.exit(1)"
-      - name: Verify rear habitat and four forward rear views
+      - name: Verify local grounded shoulder and fixed world entry
         timeout-minutes: 8
         env:
-          REAR_URL: http://127.0.0.1:4173/preview/rear-habitat-candidate/scan-exhibit.html
-          REAR_SOURCE_COMMIT: 729dff689f377554f62af302ef7f758ccf24de2e
+          GROUNDED_URL: http://127.0.0.1:4173/preview/grounded-integration-candidate/scan-exhibit.html
+          GROUNDED_SOURCE_COMMIT: de1e1f0c62fc2d957b11cdfbc1dac34f1281ae08
+          GROUNDED_OUTPUT: grounded-qa
+          ENTRY_URL: http://127.0.0.1:4173/preview/world/
         run: |
-          python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-visible-server.log 2>&1 &
+          python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-grounded-server.log 2>&1 &
           server_pid=$!
           trap 'kill "$server_pid"' EXIT
           for attempt in 1 2 3 4 5; do
-            if curl --fail --silent "$REAR_URL" > /dev/null; then break; fi
+            if curl --fail --silent "$GROUNDED_URL" > /dev/null; then break; fi
             sleep 1
           done
-          curl --fail --silent "$REAR_URL" > /dev/null
-          export REAR_OUTPUT="$(python3 -c "import json; m=json.load(open('.rear-build.json')); print(m['root']+'/assets/current-scene/'+m['contentVersion'])")"
-          node .preview-tools/browser-check-rear.mjs
-          python3 .preview-tools/finalize-rear.py
-          python3 .preview-tools/verify-rear-preserved.py
+          curl --fail --silent "$GROUNDED_URL" > /dev/null
+          python3 .preview-tools/verify-grounded-preserved.py --source-only
+          node .preview-tools/browser-check-grounded.mjs
+          python3 .preview-tools/finalize-grounded.py
+          node .preview-tools/browser-check-entry.mjs
+          python3 .preview-tools/finalize-grounded.py --entry-evidence
+          python3 .preview-tools/verify-grounded-preserved.py
       - name: Recheck all formal root bytes after capture
         run: |
           python3 - <<'PYCODE'
