@@ -480,20 +480,20 @@ jobs:
       - name: Read pinned exploration demo inputs
         uses: actions/checkout@v6
         with:
-          ref: 5a7d865b477db916b39169ad24ec1ffd192d5aeb
+          ref: c8ceaabae467dfee19e6742a217029d15dd4996e
           path: .exploration-inputs
           persist-credentials: false
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /exploration-demo-code.zip
             /rear-layout-snapshot-2eac3e4d.zip
-            /exploration-build-tools-r2.zip
+            /exploration-build-tools-r3.zip
       - name: Restore latest published rear layout and stage exploration demo
         run: |
           python3 - <<'PYTOOLS'
           import pathlib,hashlib,json,zipfile,stat
-          p=pathlib.Path('.exploration-inputs/exploration-build-tools-r2.zip')
-          assert hashlib.sha256(p.read_bytes()).hexdigest()=='5cecf9aa9a5a358e312397b0bdfab811e0dfafd0f726b410338a21ceecae2910'
+          p=pathlib.Path('.exploration-inputs/exploration-build-tools-r3.zip')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()=='98dce81e676f070137ef4e5c33ab53475485924426c5d71c9cc2f379d760a862'
           with zipfile.ZipFile(p) as z:
               m=json.loads(z.read('TOOLS-MANIFEST.json'))
               assert len(z.namelist())==len(set(z.namelist()))==len(m)+1
@@ -523,12 +523,31 @@ jobs:
         run: |
           node tests/browser/verify-pages.mjs probe
           node -e "const p=require('./render-evidence/probe.json'); if(!p.webgl2.available) process.exit(1)"
-      - name: Verify one bounded genuine exploration tour
+      - name: Verify exploration segment A natural tour
         timeout-minutes: 8
         env:
           EXPLORATION_URL: http://127.0.0.1:4173/preview/exploration-demo-candidate/scan-exhibit.html
-          EXPLORATION_SOURCE_COMMIT: 5a7d865b477db916b39169ad24ec1ffd192d5aeb
+          EXPLORATION_SOURCE_COMMIT: c8ceaabae467dfee19e6742a217029d15dd4996e
           EXPLORATION_OUTPUT: exploration-qa
+          EXPLORATION_QA_MODE: tour
+        run: |
+          python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-exploration-server.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          for attempt in 1 2 3 4 5; do
+            if curl --fail --silent "$EXPLORATION_URL" > /dev/null; then break; fi
+            sleep 1
+          done
+          curl --fail --silent "$EXPLORATION_URL" > /dev/null
+          python3 .preview-tools/verify-exploration-preserved.py --source-only
+          node .preview-tools/browser-check-exploration.mjs
+      - name: Verify exploration segment B free movement and compatibility
+        timeout-minutes: 8
+        env:
+          EXPLORATION_URL: http://127.0.0.1:4173/preview/exploration-demo-candidate/scan-exhibit.html
+          EXPLORATION_SOURCE_COMMIT: c8ceaabae467dfee19e6742a217029d15dd4996e
+          EXPLORATION_OUTPUT: exploration-qa
+          EXPLORATION_QA_MODE: free-compat
         run: |
           python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-exploration-server.log 2>&1 &
           server_pid=$!
@@ -553,7 +572,9 @@ jobs:
           print('POST_CAPTURE_ROOT_VERIFIED',len(after))
           PYCODE
       - name: Verify original preview remains byte-identical
-        run: python3 .preview-tools/verify-protected.py --dist dist --snapshot .protected-preview-hashes.json
+        run: |
+          python3 .preview-tools/verify-protected.py --dist dist --snapshot .protected-preview-hashes.json
+          python3 .preview-tools/verify-exploration-preserved.py --deadline-only
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload static website only
