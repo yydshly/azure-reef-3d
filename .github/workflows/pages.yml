@@ -477,6 +477,37 @@ jobs:
                   pathlib.Path('.preview-tools',n).write_bytes(b)
           PYTOOLS
           python3 .preview-tools/stage-rear-layout.py
+      - name: Read pinned exploration demo inputs
+        uses: actions/checkout@v6
+        with:
+          ref: 2361ff21011221d4a7817ac17ea87185c76b701a
+          path: .exploration-inputs
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /exploration-demo-code.zip
+            /rear-layout-snapshot-2eac3e4d.zip
+            /exploration-build-tools.zip
+      - name: Restore latest published rear layout and stage exploration demo
+        run: |
+          python3 - <<'PYTOOLS'
+          import pathlib,hashlib,json,zipfile,stat
+          p=pathlib.Path('.exploration-inputs/exploration-build-tools.zip')
+          assert hashlib.sha256(p.read_bytes()).hexdigest()=='16d446e033c7c06a7c19c109cdaf937f8d262f8837980ef285fefd92dcec4ec4'
+          with zipfile.ZipFile(p) as z:
+              m=json.loads(z.read('TOOLS-MANIFEST.json'))
+              assert len(z.namelist())==len(set(z.namelist()))==len(m)+1
+              assert set(z.namelist())==set(m)|{'TOOLS-MANIFEST.json'}
+              for n,f in m.items():
+                  assert pathlib.PurePosixPath(n).name==n and n not in ('.','..') and '\\' not in n
+                  info=z.getinfo(n);mode=info.external_attr>>16
+                  assert not info.is_dir() and not stat.S_ISLNK(mode) and stat.S_IFMT(mode) in (0,stat.S_IFREG)
+                  b=z.read(n);assert len(b)==f['bytes'] and hashlib.sha256(b).hexdigest()==f['sha256']
+                  target=pathlib.Path('.preview-tools',n)
+                  assert not target.exists(), 'New tools must not replace the immutable assembly tools'
+                  target.write_bytes(b)
+          PYTOOLS
+          python3 .preview-tools/stage-exploration.py
       - name: Set up existing pinned capture dependency
         uses: actions/setup-node@v6
         with:
@@ -492,25 +523,25 @@ jobs:
         run: |
           node tests/browser/verify-pages.mjs probe
           node -e "const p=require('./render-evidence/probe.json'); if(!p.webgl2.available) process.exit(1)"
-      - name: Verify rear layout in original and candidate states
+      - name: Verify one bounded genuine exploration tour
         timeout-minutes: 8
         env:
-          REAR_LAYOUT_URL: http://127.0.0.1:4173/preview/rear-layout-candidate/scan-exhibit.html
-          REAR_LAYOUT_SOURCE_COMMIT: 105ac9502c228ea273a35df4f114404156e6315f
-          REAR_LAYOUT_OUTPUT: rear-layout-qa
+          EXPLORATION_URL: http://127.0.0.1:4173/preview/exploration-demo-candidate/scan-exhibit.html
+          EXPLORATION_SOURCE_COMMIT: 2361ff21011221d4a7817ac17ea87185c76b701a
+          EXPLORATION_OUTPUT: exploration-qa
         run: |
-          python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-rear-layout-server.log 2>&1 &
+          python3 -m http.server 4173 --bind 127.0.0.1 --directory dist > /tmp/reef-exploration-server.log 2>&1 &
           server_pid=$!
           trap 'kill "$server_pid"' EXIT
           for attempt in 1 2 3 4 5; do
-            if curl --fail --silent "$REAR_LAYOUT_URL" > /dev/null; then break; fi
+            if curl --fail --silent "$EXPLORATION_URL" > /dev/null; then break; fi
             sleep 1
           done
-          curl --fail --silent "$REAR_LAYOUT_URL" > /dev/null
-          python3 .preview-tools/verify-rear-layout-preserved.py --source-only
-          node .preview-tools/browser-check-rear-layout.mjs
-          python3 .preview-tools/finalize-rear-layout.py
-          python3 .preview-tools/verify-rear-layout-preserved.py
+          curl --fail --silent "$EXPLORATION_URL" > /dev/null
+          python3 .preview-tools/verify-exploration-preserved.py --source-only
+          node .preview-tools/browser-check-exploration.mjs
+          python3 .preview-tools/finalize-exploration.py --update-world
+          python3 .preview-tools/verify-exploration-preserved.py
       - name: Recheck all formal root bytes after capture
         run: |
           python3 - <<'PYCODE'
