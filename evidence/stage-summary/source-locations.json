@@ -1,0 +1,136 @@
+{
+  "checkedMainBeforeDocumentation": "cc416bfc623db3b6d6171c9550c1386930ba0735",
+  "runtimeFiles": [
+    {
+      "path": "dist/preview/reef-garden-v1/app.js",
+      "blob": "d0889e2738723af4865566cb428b99369eb3457e",
+      "sameAsFrozenSource": true
+    },
+    {
+      "path": "dist/preview/reef-garden-v1/index.html",
+      "blob": "addc5e8f4f700922ed4b20d810c95c46069d4367",
+      "sameAsFrozenSource": true
+    },
+    {
+      "path": "dist/preview/reef-garden-v1/navigation.js",
+      "blob": "4206e30fc60a1184f5996c18fe9923181e473b42",
+      "sameAsFrozenSource": true
+    },
+    {
+      "path": "dist/preview/reef-garden-v1/style.css",
+      "blob": "675789d4a4cc2f226cbca7dfac4f448bab9f437c",
+      "sameAsFrozenSource": true
+    },
+    {
+      "path": "dist/preview/reef-garden-v1/world.js",
+      "blob": "d7a4379b867315081b72164ee6f61a8a37923209",
+      "sameAsFrozenSource": true
+    },
+    {
+      "path": "dist/preview/reef-garden-stage-012/app.js",
+      "blob": "d0889e2738723af4865566cb428b99369eb3457e",
+      "sameAsFrozenSource": true
+    },
+    {
+      "path": "dist/preview/reef-garden-stage-012/index.html",
+      "blob": "addc5e8f4f700922ed4b20d810c95c46069d4367",
+      "sameAsFrozenSource": true
+    },
+    {
+      "path": "dist/preview/reef-garden-stage-012/navigation.js",
+      "blob": "4206e30fc60a1184f5996c18fe9923181e473b42",
+      "sameAsFrozenSource": true
+    },
+    {
+      "path": "dist/preview/reef-garden-stage-012/style.css",
+      "blob": "675789d4a4cc2f226cbca7dfac4f448bab9f437c",
+      "sameAsFrozenSource": true
+    },
+    {
+      "path": "dist/preview/reef-garden-stage-012/world.js",
+      "blob": "d7a4379b867315081b72164ee6f61a8a37923209",
+      "sameAsFrozenSource": true
+    },
+    {
+      "path": "dist/preview/reef-garden-v11/app.js",
+      "blob": "d0889e2738723af4865566cb428b99369eb3457e",
+      "sameAsFrozenSource": true
+    },
+    {
+      "path": "dist/preview/reef-garden-v11/index.html",
+      "blob": "eb85a29a92869e15f23b6c395bc6225d139e0c5f",
+      "sameAsFrozenSource": true
+    },
+    {
+      "path": "dist/preview/reef-garden-v11/navigation.js",
+      "blob": "4206e30fc60a1184f5996c18fe9923181e473b42",
+      "sameAsFrozenSource": true
+    },
+    {
+      "path": "dist/preview/reef-garden-v11/style.css",
+      "blob": "675789d4a4cc2f226cbca7dfac4f448bab9f437c",
+      "sameAsFrozenSource": true
+    },
+    {
+      "path": "dist/preview/reef-garden-v11/world.js",
+      "blob": "bbdea4c8965a08a1cdb8cd07978dde7fafe6d730",
+      "sameAsFrozenSource": true
+    },
+    {
+      "path": "dist/preview/reef-garden-v1-first/app.js",
+      "blob": "a1d291c04a64eba9bf50f83f7a96f36eba94eebb",
+      "sameAsFrozenSource": true
+    },
+    {
+      "path": "dist/preview/reef-garden-v1-first/index.html",
+      "blob": "0e30c210f27bbe21ad745233a3379604b8e2426f",
+      "sameAsFrozenSource": true
+    },
+    {
+      "path": "dist/preview/reef-garden-v1-first/navigation.js",
+      "blob": "4206e30fc60a1184f5996c18fe9923181e473b42",
+      "sameAsFrozenSource": true
+    },
+    {
+      "path": "dist/preview/reef-garden-v1-first/style.css",
+      "blob": "dd61744fef6f63f400a93b05a3390e1de5328354",
+      "sameAsFrozenSource": true
+    },
+    {
+      "path": "dist/preview/reef-garden-v1-first/world.js",
+      "blob": "84977021d1d7dddcb87e5079c10dcbae3e382e76",
+      "sameAsFrozenSource": true
+    }
+  ],
+  "candidateCommitAncestry": [
+    {
+      "commit": "a1b2cae7e968ad383798a0ff15c87bfb0934d971",
+      "isAncestorOfCheckedMain": false
+    },
+    {
+      "commit": "b92b8ac734973e2673f3f678f6d5f1241393373c",
+      "isAncestorOfCheckedMain": false
+    },
+    {
+      "commit": "0478d7ab42eae11e65fc53f83b5253e9dcda9822",
+      "isAncestorOfCheckedMain": false
+    },
+    {
+      "commit": "3c00efbec735c7618c842edf3f5a0716e1147323",
+      "isAncestorOfCheckedMain": false
+    },
+    {
+      "commit": "bef0b8506b5e1b6726585722573014038bdc570a",
+      "isAncestorOfCheckedMain": false
+    },
+    {
+      "commit": "7c59a653e2f353df3b024458feadfbbda1ee383e",
+      "isAncestorOfCheckedMain": false
+    }
+  ],
+  "publishedSiteIsNotCompleteMainDistMirror": true,
+  "enrichedFullRuntimeInMain": false,
+  "failedBasinRuntimeInMain": false,
+  "mainArchiveZipFiles": 0,
+  "sourceScope": "Git trees and exact blob identities only; no large packages downloaded, no product rendering rerun."
+}

@@ -1,0 +1,82 @@
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:system-ui,-apple-system,"PingFang SC",sans-serif;background:#14272c;color:#e0ece7}header{height:68px;padding:0 28px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #aec8bc25;background:#102126}a{color:#c2e3d6;text-underline-offset:4px}header a{display:flex;align-items:center;min-height:44px;text-decoration:none;font-size:14px}header span{font-size:12px;color:#a8bfb6}main{display:grid;grid-template-columns:minmax(0,1fr) 340px;min-height:calc(100dvh - 68px)}#scanStage{height:calc(100dvh - 68px);min-height:440px;position:relative;background:#14272c}canvas{width:100%;height:100%;display:block;touch-action:none}.stage-label{position:absolute;left:28px;top:26px;pointer-events:none}.stage-label span{font-size:11px;letter-spacing:.1em;color:#a3bdb5}.stage-label h1{font-size:23px;font-weight:400;letter-spacing:.04em;margin:10px 0}.stage-controls{position:absolute;bottom:20px;left:15px;right:15px;text-align:center;pointer-events:none}.stage-controls button{pointer-events:auto;margin:0 4px}.stage-controls p{font-size:11px;color:#a1b8b2;margin:12px 0 0}button{font:inherit;color:#dcefe4;background:#203b40;border:1px solid #aec8bc55;border-radius:8px;min-height:44px;padding:8px 15px;cursor:pointer}button[aria-pressed=true]{background:#c0e2d2;color:#163932}button:disabled{opacity:.45;cursor:default}button:focus-visible,a:focus-visible,canvas:focus-visible,summary:focus-visible{outline:2px solid #c8f1dc;outline-offset:3px}aside{padding:34px 27px;background:#102126;border-left:1px solid #aec8bc25;overflow-wrap:anywhere}.eyebrow{font-size:11px;letter-spacing:.15em;color:#9ebdaf}h2{font-size:23px;font-weight:450;line-height:1.4;margin:13px 0}.intro{font-size:14px;line-height:1.85;color:#b9d0c7}dl{margin:25px 0}dt{font-size:11px;color:#93afa3;margin:18px 0 5px}dd{font-size:14px;line-height:1.7;margin:0}.source-link{font-size:13px;display:inline-block;padding:9px 0}details{border-top:1px solid #aec8bc25;margin-top:18px;padding-top:15px}summary{font-size:13px;min-height:35px;cursor:pointer}details p{font-size:12px;line-height:1.8;color:#a7c0b4}.notice{position:absolute;inset:45% 20px auto;text-align:center;background:#102126e8;padding:20px;border-radius:10px;font-size:14px}.notice a,.notice button{display:inline-block;margin:8px}.notice[hidden]{display:none!important}@media(max-width:760px){header{height:60px;padding:0 16px}header span{font-size:10px}header a{font-size:13px}main{display:block;min-height:0}#scanStage{height:58dvh;min-height:360px;max-height:620px}.stage-label{left:18px;top:20px}.stage-label h1{font-size:20px}.stage-label span{font-size:10px}.stage-controls{bottom:16px}.stage-controls p{font-size:10px}aside{border-left:0;border-top:1px solid #aec8bc25;padding:25px 22px}h2{font-size:22px}dl{display:grid;grid-template-columns:85px 1fr;gap:14px 10px;margin:22px 0}dt,dd{margin:0}details p{font-size:13px}}@media(max-width:360px){header span{display:none}#scanStage{min-height:350px}.stage-label h1{font-size:18px}}
+
+.view-stops{display:flex;justify-content:center;gap:5px;margin-bottom:8px;flex-wrap:wrap}.view-stops button{font-size:12px;min-height:40px;padding:6px 10px;margin:0}.stage-controls{bottom:14px}.stage-controls>button{min-height:36px;font-size:11px;padding:5px 10px}.stage-controls p{margin-top:8px}@media(max-width:760px){#scanStage{height:64dvh;min-height:430px}.stage-label h1{font-size:19px}.view-stops button{min-height:40px;font-size:11px;padding:6px 9px}.stage-controls>button{min-height:36px}.stage-label span{max-width:300px;display:block;line-height:1.5}}
+
+@media(max-width:760px){.view-stops button,.stage-controls>button{min-height:44px}}
+
+#routePanel[hidden]{display:none}#routePanel{pointer-events:auto;max-width:440px;margin:0 auto 8px;padding:8px;background:#102126ed;border:1px solid #aec8bc55;border-radius:10px}#routePanel button{min-height:44px;font-size:12px;padding:6px 12px}#routePosition{margin:0 0 6px!important;color:#dcefe4;font-size:12px!important}.route-stops{display:flex;justify-content:center;gap:4px}.route-stops button{margin:0}.route-slider{display:flex;align-items:center;gap:10px;font-size:12px;padding:0 5px}.route-slider input{flex:1;min-width:0;min-height:44px;accent-color:#c0e2d2}#routePanel p:last-child{line-height:1.5}.stage-controls:has(#routePanel:not([hidden]))>p{display:none}@media(max-width:760px){#scanStage:has(#routePanel:not([hidden])){min-height:650px;height:82dvh;max-height:none}.stage-label{top:16px}#routePanel{max-width:360px}}
+
+/* Scene-first world preview: provenance stays readable immediately below the dive. */
+main{display:block}#scanStage{width:100%;height:calc(100dvh - 68px)}#scanProvenance{border-left:0;border-top:1px solid #aec8bc25;max-width:1100px;margin:0 auto;padding:30px clamp(22px,5vw,70px)}.stage-label h1{max-width:calc(100vw - 50px);font-size:clamp(18px,2.3vw,26px)}
+@media(max-width:760px){#scanStage{height:calc(100dvh - 60px);min-height:570px;max-height:none}#scanStage:has(#routePanel:not([hidden])){height:calc(100dvh - 60px);min-height:650px}.stage-controls{left:10px;right:10px}.stage-label h1{max-width:330px}}
+
+/* Keep the failed scene message above inactive scene controls on narrow screens. */
+#scanError{inset:110px 16px auto;z-index:5;max-height:calc(100% - 130px);overflow:auto}#scanError .current-stills-link{display:inline-flex;align-items:center;min-height:44px;line-height:1.6;overflow-wrap:anywhere}
+
+/* Compact edge HUD: identical scene dimensions; every action remains native. */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap;border:0}
+.stage-label{z-index:1}.stage-label .hud-credit{margin:7px 0 0;font-size:10px;line-height:1.5;color:#d0e1db;letter-spacing:0}.hud-credit a{pointer-events:auto}
+.stage-controls{left:12px;right:auto;bottom:12px;width:300px;max-width:calc(100% - 24px);padding:4px;background:#102126ee;border:1px solid #aec8bc55;border-radius:10px;text-align:left;pointer-events:auto;z-index:2}
+.stage-controls button,.stage-controls summary{min-height:44px;font-size:11px;padding:6px 8px;margin:0;line-height:1.35}
+#routePanel{max-width:none;margin:0;padding:0;background:none;border:0;border-radius:0}
+.hud-progress{display:flex;align-items:center;gap:8px;height:44px;padding:0 4px}
+#routePosition{flex:0 0 112px;margin:0!important;font-size:11px!important;line-height:1.4;color:#e0eee8}
+.route-slider{flex:1;min-width:0;padding:0;display:flex;align-items:center}.route-slider input{width:100%;margin:0;min-width:0;min-height:44px}
+.hud-movement,.hud-primary{display:flex;gap:4px}.hud-movement{margin-bottom:4px}.hud-movement button{flex:1}.hud-primary>button{flex:1;min-width:0}
+#hudMore{position:static;flex:0 0 88px;border:0;margin:0;padding:0}
+#hudMoreSummary{display:flex;align-items:center;justify-content:center;min-height:44px;border:1px solid #aec8bc55;border-radius:8px;background:#203b40;color:#dcefe4;cursor:pointer;list-style:none;text-align:center}
+#hudMoreSummary::-webkit-details-marker{display:none}#hudMore[open]>summary{background:#c0e2d2;color:#163932}
+#hudMorePanel{position:absolute;left:0;bottom:calc(100% + 8px);width:370px;max-width:calc(100vw - 24px);max-height:calc(100dvh - 250px);overflow:auto;overscroll-behavior:contain;padding:12px;border:1px solid #aec8bc66;border-radius:10px;background:#102126;box-shadow:0 8px 24px #0005}
+.hud-panel-heading{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:10px;font-size:13px}.hud-panel-heading button{min-width:58px}
+#hudMorePanel .view-stops,#hudMorePanel .route-stops,.hud-adjustments{display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-start;margin:0 0 8px}.hud-adjustments button{flex:1}
+#hudMorePanel .hud-help{font-size:12px;line-height:1.65;color:#bfd3c9;margin:10px 0}
+#scanProvenance{padding:14px 0 0;margin-top:16px;max-width:none;border-top:1px solid #aec8bc44}#scanProvenance h2{font-size:18px}#scanProvenance .intro{font-size:13px}#scanProvenance dl{margin:16px 0}#scanProvenance a{display:inline-block;min-height:44px;padding:10px 0}#scanProvenance details{margin-top:10px}#scanProvenance summary{padding-left:0}
+input:focus-visible{outline:2px solid #c8f1dc;outline-offset:2px}
+@media(max-width:760px){.stage-controls{left:8px;bottom:max(8px,env(safe-area-inset-bottom));width:calc(100% - 16px);max-width:none}.stage-label{left:14px;right:14px;top:14px}.stage-label .hud-credit{font-size:9px;max-width:100%;letter-spacing:0}.stage-label h1{margin:7px 0;font-size:18px}.hud-primary>button{font-size:11px}#hudMore{flex-basis:90px}#hudMorePanel{max-width:calc(100vw - 16px);width:100%;max-height:calc(100dvh - 245px)}#scanStage,#scanStage:has(#routePanel:not([hidden])){height:calc(100dvh - 60px);min-height:400px;max-height:none}#scanProvenance dl{grid-template-columns:72px 1fr}}
+@media(max-height:560px){#hudMorePanel{max-height:210px}.stage-label h1{font-size:17px}.stage-label{top:8px}.stage-label .hud-credit{margin-top:3px}}
+/* Route shortcuts keep their former availability: only during active water exploration. */
+.stage-controls:not(:has(#routePanel:not([hidden]))) .route-stops{display:none}
+/* Full-turn route hint stays beside its controls on narrow screens. */
+#routeLookHint{margin:4px 4px 7px;font-size:10px;line-height:1.5;color:#bfd3c9}
+
+/* Exploration slice: primary actions always visible, touch controls stay reachable. */
+.hud-primary{flex-wrap:wrap;justify-content:center;gap:6px}#routePanel{max-width:750px;width:min(750px,100%)}.hud-movement{display:flex;flex-wrap:wrap;justify-content:center;gap:4px}.hud-movement button{margin:0;padding:6px 10px}#navigationTelemetry{font-variant-numeric:tabular-nums;color:#b9d8d3!important}#startTour{background:#bce3d3;color:#123a39;border-color:#dcfff0}#exploreRoute{font-weight:600}#routeProgress:disabled{opacity:.2}.stage-label h1{font-size:clamp(22px,3vw,38px)}
+@media(max-width:760px){#scanStage,#scanStage:has(#routePanel:not([hidden])){height:calc(100dvh - 60px);min-height:620px;max-height:none}#routePanel{max-width:100%}.hud-primary button{font-size:12px;padding:7px 10px}.stage-controls{left:8px;right:8px;bottom:12px}.hud-movement button{font-size:11px!important;min-height:44px!important;padding:5px 8px!important}.hud-help#routeLookHint{font-size:10px!important}.stage-label{left:16px;top:14px}.stage-label h1{margin-top:6px}.hud-progress{display:block}.route-slider input{min-height:26px}.hud-primary{display:flex}#routePanel p{margin:3px 0!important}}
+
+.stage-controls{width:680px;max-width:calc(100% - 24px)}.hud-primary>button{flex:1 0 110px}.hud-movement button{flex:1 0 54px}.hud-progress{height:auto;min-height:36px}#navigationTelemetry{margin:3px 4px 6px}#routePosition{flex-basis:200px}#hudMore{flex:1 0 95px}@media(max-width:760px){.stage-controls{width:calc(100% - 16px);max-width:none}.hud-primary>button{flex:1 0 95px}.hud-movement button{flex:1 0 52px}#scanStage,#scanStage:has(#routePanel:not([hidden])){min-height:460px}.stage-label h1{font-size:24px}#routePosition{min-height:18px}.route-slider{height:26px}}
+@media(max-height:560px){#scanStage,#scanStage:has(#routePanel:not([hidden])){min-height:0;height:calc(100dvh - 68px)}#routeLookHint,#navigationTelemetry{display:none}.stage-controls{bottom:6px}.hud-progress{min-height:28px}.route-slider input{min-height:26px}.stage-label h1{font-size:18px}.hud-primary>button{flex-basis:96px}#hudMore{flex-basis:88px}}
+@media(max-height:560px) and (max-width:760px){#scanStage,#scanStage:has(#routePanel:not([hidden])){height:calc(100dvh - 60px)}}
+
+/* Scene-first compact HUD: one status line and four direct actions. */
+.stage-controls{width:520px;max-width:calc(100% - 24px);padding:6px;background:#102126e8}
+#routePanel{width:100%;max-width:none;margin:0 0 4px;padding:0}
+#routePanel #routePosition{min-height:26px;margin:0!important;padding:4px 4px 2px;font-size:11px!important;line-height:20px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.hud-primary{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.25fr) minmax(0,1fr) minmax(0,1fr);gap:6px;align-items:stretch}
+.hud-primary>button,.hud-primary>#hudMore{min-width:0;margin:0}
+.stage-controls .hud-primary>button,.stage-controls #hudMoreSummary{min-height:44px;padding:6px;font-size:11px;line-height:1.35}
+#hudMoreSummary{height:100%;white-space:nowrap}
+#swimForward{background:#254c52;border-color:#9abdb4;touch-action:none;user-select:none;-webkit-user-select:none}
+#hudMorePanel{width:440px;max-height:calc(100dvh - 180px);scroll-padding-top:56px}
+#hudMorePanel .hud-panel-heading{position:sticky;top:0;z-index:1;background:#102126}
+.hud-secondary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:4px;margin-bottom:12px}
+.hud-route-tools{border-top:1px solid #aec8bc25;border-bottom:1px solid #aec8bc25;padding:8px 0;margin-bottom:12px}
+#hudMorePanel .route-slider{height:auto;gap:10px;padding:0;margin-bottom:8px;font-size:11px}
+#hudMorePanel .route-slider>span{flex:0 0 auto}
+#hudMorePanel .route-slider input{min-height:44px}
+#hudMorePanel .hud-movement{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:4px;margin:0}
+#hudMorePanel .hud-movement button{min-width:0;min-height:44px;padding:6px 4px;touch-action:none;user-select:none;-webkit-user-select:none}
+#hudMorePanel #routeLookHint,#hudMorePanel #navigationTelemetry{display:block;margin:8px 0;font-size:11px;line-height:1.6}
+.stage-controls:not(:has(#routePanel:not([hidden]))) .hud-forward,.stage-controls:not(:has(#routePanel:not([hidden]))) .hud-route-tools{display:none}
+.stage-controls:not(:has(#routePanel:not([hidden]))) .hud-primary{grid-template-columns:minmax(0,1.25fr) minmax(0,1fr) minmax(0,1fr)}
+@media(max-width:760px){
+ .stage-controls{left:max(8px,env(safe-area-inset-left));right:auto;bottom:max(8px,env(safe-area-inset-bottom));width:520px;max-width:calc(100% - max(8px,env(safe-area-inset-left)) - max(8px,env(safe-area-inset-right)));padding:5px}
+ #routePanel #routePosition{font-size:10px!important;min-height:26px}
+ .hud-primary{gap:4px}
+ .stage-controls .hud-primary>button{padding:5px 3px;font-size:11px}
+}
+
+/* Mobile disclosure stays inside the viewport independently of the expanded HUD. */
+@media(max-width:760px){
+ #hudMorePanel{position:fixed;top:max(8px,env(safe-area-inset-top));right:max(8px,env(safe-area-inset-right));bottom:max(8px,env(safe-area-inset-bottom));left:max(8px,env(safe-area-inset-left));width:auto;max-width:none;max-height:none;overflow:auto;z-index:3}
+ #hudMorePanel .hud-panel-heading{position:sticky;top:0;z-index:1;background:#102126}
+}

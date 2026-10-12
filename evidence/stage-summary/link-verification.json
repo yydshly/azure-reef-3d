@@ -1,0 +1,280 @@
+{
+  "checkedAtUtc": "2026-10-12T14:27:29.531810+00:00",
+  "method": "Read-only HTTPS HEAD following redirects; no model/video bodies downloaded",
+  "results": [
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/actions/runs/38220531117",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/blob/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage/complete-demo.webm",
+      "httpStatus": 503,
+      "transportOk": true,
+      "error": null,
+      "fallbackCheck": {
+        "url": "https://raw.githubusercontent.com/yydshly/azure-reef-3d/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage/complete-demo.webm",
+        "httpStatus": 200,
+        "transportOk": true
+      }
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/blob/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage/station-1-front.png",
+      "httpStatus": 503,
+      "transportOk": true,
+      "error": null,
+      "fallbackCheck": {
+        "url": "https://raw.githubusercontent.com/yydshly/azure-reef-3d/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage/station-1-front.png",
+        "httpStatus": 200,
+        "transportOk": true
+      }
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/blob/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage/station-3-return.png",
+      "httpStatus": 503,
+      "transportOk": true,
+      "error": null,
+      "fallbackCheck": {
+        "url": "https://raw.githubusercontent.com/yydshly/azure-reef-3d/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage/station-3-return.png",
+        "httpStatus": 200,
+        "transportOk": true
+      }
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/blob/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage/station-6-front.png",
+      "httpStatus": 503,
+      "transportOk": true,
+      "error": null,
+      "fallbackCheck": {
+        "url": "https://raw.githubusercontent.com/yydshly/azure-reef-3d/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage/station-6-front.png",
+        "httpStatus": 200,
+        "transportOk": true
+      }
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/blob/acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b/ITERATION_LOG.md",
+      "httpStatus": 503,
+      "transportOk": true,
+      "error": null,
+      "fallbackCheck": {
+        "url": "https://raw.githubusercontent.com/yydshly/azure-reef-3d/acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b/ITERATION_LOG.md",
+        "httpStatus": 200,
+        "transportOk": true
+      }
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/blob/bef0b8506b5e1b6726585722573014038bdc570a/evidence/basin-proof/ASSESSMENT.json",
+      "httpStatus": 503,
+      "transportOk": true,
+      "error": null,
+      "fallbackCheck": {
+        "url": "https://raw.githubusercontent.com/yydshly/azure-reef-3d/bef0b8506b5e1b6726585722573014038bdc570a/evidence/basin-proof/ASSESSMENT.json",
+        "httpStatus": 200,
+        "transportOk": true
+      }
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/blob/bef0b8506b5e1b6726585722573014038bdc570a/evidence/basin-proof/final/00-start-front.png",
+      "httpStatus": 503,
+      "transportOk": true,
+      "error": null,
+      "fallbackCheck": {
+        "url": "https://raw.githubusercontent.com/yydshly/azure-reef-3d/bef0b8506b5e1b6726585722573014038bdc570a/evidence/basin-proof/final/00-start-front.png",
+        "httpStatus": 200,
+        "transportOk": true
+      }
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/blob/bef0b8506b5e1b6726585722573014038bdc570a/evidence/basin-proof/final/02-180-return-view.png",
+      "httpStatus": 503,
+      "transportOk": true,
+      "error": null,
+      "fallbackCheck": {
+        "url": "https://raw.githubusercontent.com/yydshly/azure-reef-3d/bef0b8506b5e1b6726585722573014038bdc570a/evidence/basin-proof/final/02-180-return-view.png",
+        "httpStatus": 200,
+        "transportOk": true
+      }
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/blob/bef0b8506b5e1b6726585722573014038bdc570a/evidence/basin-proof/final/06-panorama-quarter-3.png",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/blob/bef0b8506b5e1b6726585722573014038bdc570a/evidence/basin-proof/final/uncut-proof.webm",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/blob/bef0b8506b5e1b6726585722573014038bdc570a/evidence/composition-20261012/VISUAL-VERDICT.json",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/blob/bef0b8506b5e1b6726585722573014038bdc570a/evidence/continuous-20261012/native-tour.webm",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/commit/0478d7ab42eae11e65fc53f83b5253e9dcda9822",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/commit/16d7abd64716da68956eb637fa2732aa984fa56b",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/commit/2442e73221615cff960e981e1504064b4b9e70b7",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/commit/348ead4995f21d5a595640165c3b10cc14b63219",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/commit/3c00efbec735c7618c842edf3f5a0716e1147323",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/commit/a1b2cae7e968ad383798a0ff15c87bfb0934d971",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/commit/b92b8ac734973e2673f3f678f6d5f1241393373c",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/commit/bef0b8506b5e1b6726585722573014038bdc570a",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/commit/c98fdcadd7f4d3d0676628ece4be242f4057938a",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/commit/dd6b671461aa1a9ff2fb2287137ae7bbdea0da50",
+      "httpStatus": 0,
+      "transportOk": false,
+      "error": "curl: (35) schannel: failed to receive handshake, SSL/TLS connection failed\n",
+      "fallbackCheck": {
+        "url": "https://api.github.com/repos/yydshly/azure-reef-3d/git/commits/dd6b671461aa1a9ff2fb2287137ae7bbdea0da50",
+        "httpStatus": 200,
+        "transportOk": true
+      }
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/tree/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/tree/acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/tree/acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b/experiments",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://github.com/yydshly/azure-reef-3d/tree/reef-garden-01.2-stage",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://github.com/yydshly/ocean-world",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://github.com/yydshly/ocean-world/actions/runs/38223039936",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://github.com/yydshly/ocean-world/commit/4749548bfa2216879315fb7b84ad6479cf3a940e",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://yydshly.github.io/azure-reef-3d/",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/real-splats-probe/",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/reef-garden-stage-012/",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/reef-garden-v1-first/",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/reef-garden-v1/",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/reef-garden-v11/",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/world/",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    },
+    {
+      "url": "https://yydshly.github.io/ocean-world/overview/",
+      "httpStatus": 200,
+      "transportOk": true,
+      "error": null
+    }
+  ],
+  "interpretation": "GitHub HTML HEAD had temporary 503/transport failures; raw-file/API checks are recorded separately. Remote refs and exact Git trees also establish fixed source identities."
+}

@@ -1,0 +1,48 @@
+{
+  "title": "原enriched增量",
+  "sourceCommit": "acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b",
+  "status": "历史探索基线保留，整体视觉不足",
+  "sourceFilesCopiedUnchanged": true,
+  "productIntegration": false,
+  "deployment": false,
+  "largeAssetsCopied": false,
+  "dependencyScope": "本次保存既有6个增量模块，不是完整149文件运行包。其余基础模块、模型和纹理由多个既有归档及固定发布字节恢复；完整运行目录/外部大源包未复制入main。完整源位置见总索引。",
+  "files": [
+    {
+      "originalPath": "exploration-world-data.js",
+      "archivePath": "archive/enriched/source/exploration-world-data.js",
+      "bytes": 4927,
+      "sha256": "756f274ecef915a0636c2e77710c7fa7c192276839b2a27065cfbd0f97454796"
+    },
+    {
+      "originalPath": "exploration-world.js",
+      "archivePath": "archive/enriched/source/exploration-world.js",
+      "bytes": 16096,
+      "sha256": "8fccde1750aa53b330f16b94a0391636522ce84eefcbdfdffe5855b14920d82d"
+    },
+    {
+      "originalPath": "scan-exhibit.css",
+      "archivePath": "archive/enriched/source/scan-exhibit.css",
+      "bytes": 14590,
+      "sha256": "11917497e45e90f470815f2ec3b031e21a79dc3de96c9cf1f82685ce0308dbe4"
+    },
+    {
+      "originalPath": "scan-exhibit.html",
+      "archivePath": "archive/enriched/source/scan-exhibit.html",
+      "bytes": 12124,
+      "sha256": "9c57ff93f0348f2f263374f5e88d496aa66c4b5af401dafebb4905b6f7ff4af8"
+    },
+    {
+      "originalPath": "scan-exhibit.js",
+      "archivePath": "archive/enriched/source/scan-exhibit.js",
+      "bytes": 35157,
+      "sha256": "2a20c3f668e706ddfa8e2c966414829aef1b94ee739c825c004c2dbbd755c07d"
+    },
+    {
+      "originalPath": "scan-ocean.js",
+      "archivePath": "archive/enriched/source/scan-ocean.js",
+      "bytes": 8643,
+      "sha256": "86d5570a56ad31dbde1e08eee4168ac2520adf738f6748f886802770d80b83b5"
+    }
+  ]
+}

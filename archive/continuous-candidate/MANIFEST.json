@@ -1,0 +1,30 @@
+{
+  "title": "连续谷地候选",
+  "sourceCommit": "b92b8ac734973e2673f3f678f6d5f1241393373c",
+  "status": "整体视觉失败，未发布，停止",
+  "sourceFilesCopiedUnchanged": true,
+  "productIntegration": false,
+  "deployment": false,
+  "largeAssetsCopied": false,
+  "dependencyScope": "保存两份作者源模块和原生成脚本；依赖原enriched完整149基线及原素材，不复制完整生成目录或大包。源模块与脚本保留原相对路径信息。",
+  "files": [
+    {
+      "originalPath": "candidate-src/continuous-layout.js",
+      "archivePath": "archive/continuous-candidate/source/candidate-src/continuous-layout.js",
+      "bytes": 933,
+      "sha256": "ee36633b389f1f2c9706630cc2a341ecf4115cb87d45d2fdf181a7af1a93ff87"
+    },
+    {
+      "originalPath": "candidate-src/continuous-reef.js",
+      "archivePath": "archive/continuous-candidate/source/candidate-src/continuous-reef.js",
+      "bytes": 13666,
+      "sha256": "d08f3cc01bd957293f2d13c7223509fb9acd59b66a15008f88190fc07c8168d7"
+    },
+    {
+      "originalPath": "build-continuous-candidate.py",
+      "archivePath": "archive/continuous-candidate/source/build-continuous-candidate.py",
+      "bytes": 3875,
+      "sha256": "eb2f95044c0d7527cbd77c5e0e8cf1c760648e3e719e5de8012a41e792783078"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "title": "统一阶段与版本索引",
+  "currentDisplay": "garden012",
+  "authoritativeSummary": "REEF_GARDEN_STAGE.md",
+  "humanSourceMap": "SOURCE_INDEX.md",
+  "checkedMainBeforeDocumentation": "cc416bfc623db3b6d6171c9550c1386930ba0735",
+  "documentationImportedFrom": "7c59a653e2f353df3b024458feadfbbda1ee383e",
+  "productCandidatesMerged": false,
+  "versions": [
+    {
+      "id": "original",
+      "name": "早期原站",
+      "status": "历史参考，非主展示",
+      "experience": "https://yydshly.github.io/azure-reef-3d/",
+      "sourceKind": "main原始模型与运行源码",
+      "sourcePath": "dist/",
+      "limits": "五站教学和局部技术积累，不代表连贯海域视觉达标"
+    },
+    {
+      "id": "enriched",
+      "name": "原 enriched",
+      "status": "历史探索基线，保留",
+      "experience": "https://yydshly.github.io/azure-reef-3d/preview/world/",
+      "sourceKind": "main归档6个增量模块；完整149运行源/资产未全部迁入",
+      "sourceCommit": "a1b2cae7e968ad383798a0ff15c87bfb0934d971",
+      "sourceArchiveCommit": "acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b",
+      "archivePath": "exploration-enriched-code.zip",
+      "limits": "三区/72秒六站可运行；真实感、群落丰富度与连续性不足",
+      "mainArchivePath": "archive/enriched/"
+    },
+    {
+      "id": "material",
+      "name": "材质候选",
+      "status": "停止，未作为主展示",
+      "experience": null,
+      "sourceKind": "早期记录；独立完整源链本次未复核",
+      "sourceArchiveCommit": "acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b",
+      "limits": "局部材质/光色收益不足，未建立目标空间；无独立已复核体验链接"
+    },
+    {
+      "id": "lod4",
+      "name": "LOD4局部扫描",
+      "status": "仅保留探针，不作为完整世界",
+      "experience": "https://yydshly.github.io/azure-reef-3d/preview/real-splats-probe/",
+      "sourceKind": "既有扫描归档；完整独立源码链本次未闭环确认",
+      "limits": "局部细节不能证明整体覆盖和持续探索"
+    },
+    {
+      "id": "lod3",
+      "name": "LOD3 / Gaussian",
+      "status": "证据未闭环、未发布、停止",
+      "experience": null,
+      "sourceKind": "历史诊断提交",
+      "sourceCommit": "dd6b671461aa1a9ff2fb2287137ae7bbdea0da50",
+      "limits": "不能作为产品基线；本次不重启解码"
+    },
+    {
+      "id": "garden01",
+      "name": "海庭首版",
+      "status": "历史已发布，主展示由01.2替代",
+      "experience": "https://yydshly.github.io/azure-reef-3d/preview/reef-garden-v1-first/",
+      "sourceKind": "main完整海庭运行源码",
+      "sourcePath": "dist/preview/reef-garden-v1-first/",
+      "limits": "风格化门廊/群落技术演示，整体质量未达"
+    },
+    {
+      "id": "garden011",
+      "name": "海庭01.1",
+      "status": "历史已发布，主展示由01.2替代",
+      "experience": "https://yydshly.github.io/azure-reef-3d/preview/reef-garden-v11/",
+      "sourceKind": "main完整海庭运行源码",
+      "sourcePath": "dist/preview/reef-garden-v11/",
+      "evidenceCommit": "348ead4995f21d5a595640165c3b10cc14b63219",
+      "limits": "视野/层次及历史入口衔接改善，未达到整体视觉目标"
+    },
+    {
+      "id": "garden012",
+      "name": "海庭01.2",
+      "status": "当前主展示：已发布但整体视觉未达标",
+      "experience": "https://yydshly.github.io/azure-reef-3d/preview/reef-garden-stage-012/",
+      "sourceKind": "main完整海庭运行源码",
+      "sourcePath": "dist/preview/reef-garden-stage-012/",
+      "stableAliasPath": "dist/preview/reef-garden-v1/",
+      "evidenceCommit": "3c00efbec735c7618c842edf3f5a0716e1147323",
+      "tag": "reef-garden-01.2-stage",
+      "limits": "六地段/72秒导览可演示；用户明确否定整体质量，不是待验收"
+    },
+    {
+      "id": "continuous-composition",
+      "name": "连续谷地/构图候选",
+      "status": "视觉失败、未发布、停止",
+      "experience": null,
+      "sourceKind": "main必要源码归档；原分支与固定增量包保留，不接入产品",
+      "branch": "candidate/continuous-reef-20261012",
+      "sourceCommit": "0478d7ab42eae11e65fc53f83b5253e9dcda9822",
+      "sourcePath": "candidate-src/",
+      "deltaPath": "evidence/composition-20261012/composition-preview-delta.zip",
+      "limits": "长直空床/空回望未解决；没有把失败场景合到main",
+      "mainArchivePaths": [
+        "archive/continuous-candidate/",
+        "archive/composition-candidate/"
+      ]
+    },
+    {
+      "id": "basin",
+      "name": "盆地证明段",
+      "status": "三项视觉门槛失败、未发布、停止",
+      "experience": null,
+      "sourceKind": "main保存5份运行源码档案；素材复用，未接入主展示",
+      "branch": "candidate/reef-basin-proof",
+      "sourceCommit": "bef0b8506b5e1b6726585722573014038bdc570a",
+      "sourcePath": "dist/preview/reef-basin-proof/",
+      "limits": "42.36秒原始证明录像；台座感、空回望、持续层次三项仍失败",
+      "mainArchivePath": "archive/basin-proof/"
+    }
+  ],
+  "externalOrLocalOnly": {
+    "enrichedFullSource": "已知完整源包记录190221239字节、SHA256 8d218b937a33cdb2f6c6463e0dd05ff00d7266df108b86f24a3ca0ab6b6cceb0，保存于外部归档，未在main；本轮未重新物化或验包。",
+    "recoveredEnrichedSources": "149份源码已在既有工作环境按固定哈希恢复；完整运行目录未迁入main。",
+    "candidateGeneratedDirectories": "连续/构图完整生成目录及部分源包只在本地或外部归档；Git中保留生成源码、增量包与证据。",
+    "earlyStageIndex": "已有外部阶段索引，未复制大包入main；当前main文档是统一文字入口。"
+  },
+  "mainSourceArchiveDirectory": "archive/",
+  "archiveDoesNotIntegrateCandidates": true
+}

@@ -1,251 +1,42 @@
-# Azure Reef 3D · 海底探索技术原型
+# Azure Reef 3D · 海底项目统一入口
 
-> **整体视觉未达标。** 海庭01.2已被用户否定，盆地证明段仍失败。下面展示已发布技术原型的真实实录，不代表视觉验收通过。当前权威结论见[阶段总结：技术原型与视觉目标差距](https://github.com/yydshly/azure-reef-3d/blob/7c59a653e2f353df3b024458feadfbbda1ee383e/REEF_GARDEN_STAGE.md)。
+**当前主展示：海庭01.2，已发布但整体视觉未达标。** 用户已否定01.2整体质量，盆地证明段也失败；没有最终合格效果或项目目标完成结论。
 
-[![已发布海庭01.2真实截图；点击打开72秒互动导览](https://raw.githubusercontent.com/yydshly/azure-reef-3d/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage/live-entry.png)](https://yydshly.github.io/azure-reef-3d/preview/reef-garden-stage-012/)
+[![已发布海庭01.2真实截图；点击打开当前主展示](https://raw.githubusercontent.com/yydshly/azure-reef-3d/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage/live-entry.png)](https://yydshly.github.io/azure-reef-3d/preview/reef-garden-stage-012/)
 
-**已发布版本真实截图**。点击图片打开固定01.2页面，再点“开始72秒导览”即可实时观看三维场景；图片本身为静态截图。
+[查看当前主展示 / 实时72秒导览](https://yydshly.github.io/azure-reef-3d/preview/reef-garden-stage-012/) · [完整实录：下载后播放](https://raw.githubusercontent.com/yydshly/azure-reef-3d/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage/complete-demo.webm) · [阶段总结](REEF_GARDEN_STAGE.md)
 
-[实时互动 / 开始72秒导览](https://yydshly.github.io/azure-reef-3d/preview/reef-garden-stage-012/) · [完整原始录像（下载后播放）](https://raw.githubusercontent.com/yydshly/azure-reef-3d/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage/complete-demo.webm) · [已发布版本真实截图](https://raw.githubusercontent.com/yydshly/azure-reef-3d/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage/live-entry.png)
+图片为真实静态截图。进入主展示页面后点击“开始72秒导览”实时观看；原实录约126.56秒，含72秒自然导览与操作核验，链接用于下载播放，未宣称README内嵌自动播放。
 
-完整录像约126.56秒，包含72秒自然导览及操作核验。录像链接用于下载后播放；上方互动入口运行实时三维导览。GitHub README不保留原生video播放器，这里不宣称录像内嵌或自动播放。
+## 版本差异与采用状态
 
----
+| 版本/路线 | 做成什么与差异 | 未做成；采用/停止 | 体验 | 源码与证据 |
+| --- | --- | --- | --- | --- |
+| 早期原站 | 原始三维模型、五站教学及局部运动/支撑修正 | 仅历史参考，不是当前主展示 | [原站](https://yydshly.github.io/azure-reef-3d/) | [main原源码](dist/)；[源模型](source-model.glb) |
+| 原enriched | 三区探索、72秒六站、自由移动/碰撞/暂停重播 | 真实感、丰富度和连续性不足；保留旧基线 | [旧world](https://yydshly.github.io/azure-reef-3d/preview/world/) | [基线a1b2cae](https://github.com/yydshly/azure-reef-3d/commit/a1b2cae7e968ad383798a0ff15c87bfb0934d971)；[main增量归档](archive/enriched/)；[完整源位置](SOURCE_INDEX.md) |
+| 材质候选 | 局部材质与光色尝试 | 整体收益不足；停止，未作主展示；独立源链未复核 | 无独立已复核入口 | [历史记录](https://github.com/yydshly/azure-reef-3d/blob/acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b/ITERATION_LOG.md) |
+| LOD4局部扫描 | 局部扫描探针 | 覆盖/完整性不足；不作完整海域，完整源链未确认 | [扫描探针](https://yydshly.github.io/azure-reef-3d/preview/real-splats-probe/) | [局限与未闭环项](REEF_GARDEN_STAGE.md) |
+| LOD3/Gaussian | 诊断实现与记录 | 未闭环、未发布；停止，不作基线 | 无产品入口 | [历史诊断dd6b671](https://github.com/yydshly/azure-reef-3d/commit/dd6b671461aa1a9ff2fb2287137ae7bbdea0da50) |
+| 海庭首版 | 第一份独立风格化演示 | 历史已发布；由01.2替代主展示，整体质量未达 | [固定首版](https://yydshly.github.io/azure-reef-3d/preview/reef-garden-v1-first/) | [main源码](dist/preview/reef-garden-v1-first/) |
+| 海庭01.1 | 调整视野层次、衔接此前探索入口 | 历史已发布；整体视觉未完成 | [固定01.1](https://yydshly.github.io/azure-reef-3d/preview/reef-garden-v11/) | [main源码](dist/preview/reef-garden-v11/)；[348ead4证据](https://github.com/yydshly/azure-reef-3d/commit/348ead4995f21d5a595640165c3b10cc14b63219) |
+| **海庭01.2** | 六地段、72秒导览及操作技术原型 | **当前主展示；用户否定整体质量，不是待验收** | [固定01.2](https://yydshly.github.io/azure-reef-3d/preview/reef-garden-stage-012/) | [main实际源码](dist/preview/reef-garden-stage-012/)；[固定标签](https://github.com/yydshly/azure-reef-3d/tree/reef-garden-01.2-stage)；[全部证据](https://github.com/yydshly/azure-reef-3d/tree/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage) |
+| 连续谷地/构图 | 连续布局尝试、消除局部水面/床面断层 | 空走廊、空回望仍在；视觉失败、未发布、停止 | 无新线上入口 | [main连续归档](archive/continuous-candidate/) / [main构图归档](archive/composition-candidate/)；[失败记录](https://github.com/yydshly/azure-reef-3d/blob/0478d7ab42eae11e65fc53f83b5253e9dcda9822/evidence/composition-20261012/VISUAL-VERDICT.json) |
+| 盆地证明段 | 42.36秒实录，前进/回望/横移/环视/返回，经过一次纠正 | 台座感、空方向、持续层次三项失败；未发布、停止 | [失败实录](https://github.com/yydshly/azure-reef-3d/blob/bef0b8506b5e1b6726585722573014038bdc570a/evidence/basin-proof/final/uncut-proof.webm) | [main源码归档](archive/basin-proof/)；[原判定](https://github.com/yydshly/azure-reef-3d/tree/bef0b8506b5e1b6726585722573014038bdc570a/evidence/basin-proof)；[源码目录](https://github.com/yydshly/azure-reef-3d/tree/bef0b8506b5e1b6726585722573014038bdc570a/dist/preview/reef-basin-proof) |
 
-以下保留原有项目说明；涉及完成或待验收的历史文字，不能覆盖上方当前失败结论。
+## 源码是否都在main
 
-## 项目简介与在线体验
+**当前海庭运行源码在main；已确认候选的必要源文件也已放入main的独立archive目录。** 海庭四个目录及共用模块是实际源码，enriched增量、连续/构图、盆地原源码分别归档，失败代码未接入主展示。完整149基线、大资产/大源包和部分未确认源链没有全部搬入main；线上旧站还依赖发布时恢复的完整快照。
 
-一个可自由旋转、缩放的真实三维浅海珊瑚礁场景，包含五站中文初学者导览、由四个原始鱼组件创建的六个泛化鱼类实例及三维运动路线，以及新增的中远景起伏与珊瑚层次。支持手动推进、自动讲解、暂停与自由探索。
+[main源码归档](archive/) · [源码、源包实际位置](SOURCE_INDEX.md) · [机器可读版本索引](STAGE_INDEX.json) · [树与源码核对记录](evidence/stage-summary/source-locations.json)
 
-在线体验：[GitHub Pages · 浅蓝三维珊瑚礁](https://yydshly.github.io/azure-reef-3d/)（公开网页）。本仓库及完整建模源码现已按项目所有者授权公开。`main` 上的 `dist/` 或部署工作流变更会通过 GitHub Actions 更新 Pages；工作流仅发布 `dist/`，不把 Blender 工程或开发依赖作为网页发布。
+本次把总结、必要记录和已确认候选源文件统一保存到main，没有把失败代码接入主展示，也没有重复复制大源包、全站资产、原始录像或全部截图。原分支、标签、旧入口及原始证据保留。
 
-[原来的独立 Site](https://azure-reef-3d.yydshly.chatgpt.site) 保留原有私有访问设置，它与 GitHub Pages 分别部署。
+## 阶段结论与阅读顺序
 
-快速运行：在仓库根目录执行 `python3 -m http.server 8000 --directory dist`，然后打开 http://localhost:8000 。运行网页无需安装 npm、登录或填写 API 密钥。模型、纹理与 Three.js 已随项目提供。
+1. 看当前展示：使用上方01.2入口；其他体验均为已标明的历史参考。
+2. 看做成/未做成：阅读版本表及[权威阶段总结](REEF_GARDEN_STAGE.md)。技术通过、部署成功与视觉失败分别记录。
+3. 查代码/源包：[源码位置索引](SOURCE_INDEX.md)明确main实际文件、独立分支、只在本地/外部的大包与未确认项。
 
-这是参考资料引导的程序化场景，不是实测珊瑚礁扫描，也不构成科学验证。鱼类为未识别的泛化模型。NOAA 来源与制作边界见界面来源页、下文及 THIRD_PARTY_NOTICES.md。离线模型和逻辑检查通过；已取得 Chromium/SwiftShader 的真实 WebGL 三视图及海床导览定向复验。用户设备 GPU 性能、完整原生输入流程与整体自然度仍未验收。
+本项目仍缺自然连续空间、持续近中远景、可信群落及光水/动作整体质量。免费/现有资源筛选未证实足够突破，付费仅调研未购买；TIDAL核查未完成独立75秒连续验证，不混算成果。后续须有新许可明确、实际质量证明与合理性能依据，停止同路线无效循环；此次没有额外研发或Pages部署。
 
-A static, genuine-3D reef scene with a five-stop Chinese beginner guide. The guide connects camera positions and visible labels to explanations of reef context, sand/hardbottom, coral animals, generic fish, and light/water. Sources and modeling limits are available in the interface.
-
-This export includes source commit `6750ba68bb139c85c4ed5ca77d8d109200358a53`. The scene/model baseline is recorded in `docs/source-baseline-sha256.json`; GitHub interface and verification-tool changes are recorded in `docs/export-changes.json`.
-
-## Run the exact snapshot
-
-No build step, API key, backend, account or npm installation is required to run it.
-
-```sh
-python3 -m http.server 8000 --directory dist
-```
-
-Open http://localhost:8000 in a browser with WebGL2. Do not open index.html directly through `file://`: module loading and model requests need HTTP. Any static host can serve `dist/`; keep its directory structure and all `.gltf`, `.bin`, texture and module files. The host must permit the 22.68 MB `reef.bin` file.
-
-The browser uses its locally bundled Three.js; it does not load a CDN dependency. Existing links to the earlier private 2.5D Site are separate presentation links and may not be accessible to another account. The guide itself is self-contained apart from optional public NOAA source links.
-
-## Controls
-
-The guide starts in manual-next mode. Use previous/next, optional automatic advance, pause, source details, and free exploration/resume. Drag to orbit; wheel/pinch zooms. Right-drag/two-finger drag pans. Arrow keys orbit, +/− zoom. Power-saving mode reduces rendering cost. Reduced-motion preference suppresses ambient animation and makes guide camera jumps immediate.
-
-## What is included
-
-- `dist/`: complete browser app, five-stop guide, evidence/source page, model and assets
-- `source-model.glb`: authoritative final model, retained before its lossless static-host conversion
-- `modeling/editable/reef-garden-final.blend`: final editable Blender scene, with all six image maps packed
-- `modeling/inputs/seed-reef.blend`: the exact earlier seed needed by the reference-led generator
-- `modeling/inputs/textures/`: six original normal/roughness maps
-- `rebuild_reference_reef.py`, `blend_boundary.py`, `build_depth.py`: reference → edge → depth pipeline
-- `generate_textures.py`: optional deterministic texture generation
-- `export-static-model.py`: lossless GLB → external glTF/binary/PNG conversion
-- `build-life-routes.mjs`: current six-instance geometry-aware route generation; `build-routes.mjs` is historical four-route provenance
-- `qa-*.mjs`: checks; see limitations below
-- `docs/`: baseline hashes, export changes, packed-image validation and historical build notes
-
-## Optional JavaScript checks
-
-Use Node 22+ (validated here with Node 24), then:
-
-```sh
-npm ci --ignore-scripts
-npm test
-npm run test:motion
-```
-
-Pinned development dependencies are Three.js 0.186.1 and `@napi-rs/canvas` 0.1.100. The latter uses platform-specific optional native packages, so installation/availability depends on the OS and CPU. It is used only for Node-side embedded-image decoding, not by the website. `qa-occlusion.mjs` is an earlier ellipse-path diagnostic retained as history; it is not part of the current aggregate tests. Current spline checks are in `qa-motion.mjs`.
-
-These tests cover model parsing/material references, guide-state logic, simulated DOM/renderer integration and sampled geometric clearance. They do **not** prove live WebGL shader execution, browser layout, device input or continuously collision-free fish behavior.
-
-## Edit the final model
-
-Open `modeling/editable/reef-garden-final.blend` in Blender 4.3.2. The image maps are packed, so the scene does not depend on the original machine’s filesystem. Source dimensions use meters; Blender Z-up is converted to glTF Y-up. Camera/light presentation in Blender differs from browser rendering.
-
-If exporting a changed model, preserve mesh names and `fish_01`…`fish_04` parent names used by app animation. Export meshes and fish parent empties as glTF binary, including vertex colors, UVs, normals and materials; do not export offline cameras/lights. Replace `source-model.glb`, then run `python3 export-static-model.py` and `npm run build:routes`. Recheck guide focus points after geometry changes.
-
-## Historical reference → edge → depth pipeline
-
-Run all commands from the repository root. Texture regeneration requires Python 3.11 or newer. Install Blender 4.3.2 from its official distribution. The six original maps are supplied; regeneration is optional.
-
-```sh
-# Optional: regenerate the supplied surface maps
-python3 -m venv .venv
-# Activate the environment for your shell, then:
-python3 -m pip install -r requirements-modeling.txt
-python3 generate_textures.py
-
-# Generate into artifacts/, preserving the shipped snapshot
-blender -b --factory-startup --python rebuild_reference_reef.py
-blender -b --factory-startup --python blend_boundary.py
-blender -b --factory-startup --python build_depth.py
-```
-
-This produces the reference stage, the corrected edge stage, and finally `artifacts/depth/reef-garden-spatial-depth.glb`. Inspect that candidate before replacing shipped files. To promote it deliberately:
-
-```sh
-python3 -c "import shutil; shutil.copy2('artifacts/depth/reef-garden-spatial-depth.glb','source-model.glb')"
-python3 export-static-model.py
-npm run build:routes
-npm test
-npm run test:motion
-```
-
-`build_reef.py` and `extend_sand.py` reconstruct an older exploratory model under `artifacts/legacy-base/`; they are provenance, **not** the approved current rebuild route. The supplied seed blend is the authoritative input for the current generator because the historical chain included separately verified normal/material corrections.
-
-## Offline camera evidence (legacy views)
-
-```sh
-blender -b --factory-startup --python render_evidence.py
-```
-
-The script reimports `source-model.glb` and supplied `modeling/inputs/previous-edge.glb` into the final blend’s offline setup and writes matched before/after front/reverse images under `artifacts/comparison/`, using identical distance fog. The earlier simple render_reimport_evidence.py route remains available. It never substitutes a render for the interactive 3D scene. These are offline rendered-model checks, not browser screenshots.
-
-## Reproducibility and accuracy limits
-
-The shipped static app and model are the exact deployable snapshot. Rebuild scripts use fixed seeds and supplied inputs, but bit-identical Blender/glTF output is not promised across versions, export options, floating-point implementations, texture-library versions or OSes. The portable scripts were path-adjusted and checked; a complete from-seed geometry regeneration is not claimed as rerun for this export unless recorded in validation notes. Compare geometry, materials and rendered output after rebuilding.
-
-The scene is a reference-guided Florida/Caribbean staghorn patch-edge interpretation, not a scan of a named reef or a scientifically validated ecosystem. Coral color/growth-form direction is source-grounded, but repeated procedural branching and stylized terrain/water remain. Generic fish are explicitly unidentified. Lighting, visibility, route timing and microscopic textures are artistic/educational approximations. The app source page provides the supported/deviating/unknown audit.
-
-Live browser/WebGL behavior and CSS were not fully verified in the original restricted environment. Guide cameras were checked with actual same-model offline renders; state and interaction wiring were checked in simulation. No blocked browser route was bypassed.
-
-## Sources and licensing
-
-See `THIRD_PARTY_NOTICES.md`. NOAA photographs were inspected for reference and linked, not bundled as scene imagery. The geometry and procedural textures are original project assets. No project-wide open-source license is imposed by this export; the owner can choose one separately.
-
-## Spatial-depth revision
-
-Nine closed low hardbottom rises and twelve linked instances of existing staghorn geometry extend the middle/distance. Core geometry, transforms, fish, maps and guide remain intact. The older generated 2.5D image informed composition only; unseen structure is inferred, not automatically reconstructed or field-measured. The final editable blend packs six maps. The previous edge GLB is supplied for comparison only. The a9dfa703 export remains separate and unchanged.
-
-## Guide anchor correction / 导览标记修正
-
-海床站改为两个经过当前模型射线验证的独立标记：砂底、坚硬礁面。修复圆点中心与投影点的对齐，并检查手机视口的导览卡片避让；模型几何不变。`npm test` 现在包含真实模型表面与标记检查。模拟测试和几何投影检查不等同于真实浏览器截图验证。
-
-Source revision: `515811ecbb536d5e78a5aa4010d9ef789672cfb7`.
-
-## Historical immersive model reproduction
-
-Use the deterministic three-stage chain in `modeling/immersive/README.md` for the preceding immersive model. The historical pipeline above produces the earlier depth revision. The final editable Blender file contains packed geometry/materials; runtime water lighting remains in JavaScript. `modeling/inputs/offline-lighting.blend` preserves the older offline camera/light rig for historical render scripts. Those legacy views do not reproduce the new evidence camera/lighting exactly.
-
-## Immersive view and water-light pass
-
-The opening camera is now inside the reef rather than looking down at a miniature. Ten existing thickets move aside around an uneven sand opening, and eight shared-mesh instances continue the existing form into the middle/distance. Exact source-accessor checks preserve all other core geometry, fish, materials and image maps. The sand/hardbottom guide anchors retain first-hit visibility. Layout and concealed geometry are artistic inference, not a survey or ecological density measurement.
-
-A new original wave-slope caustic texture and restrained runtime light modulation replace the earlier banded analytical effect. The surrounding water field varies with viewing direction; there is no background picture replacing terrain. Runtime shader insertion is structurally tested, but no actual browser GPU compile/render is claimed. The offline before/after images use matching cameras and lighting; their light renderer and static fish poses differ from live runtime.
-
-Fish routes were rebuilt with denser body-footprint sampling after the moved thickets exposed a clearance issue. QA now samples full route periods and four camera positions, including a low lateral orbit view. These checks demonstrate sampled clearance/occlusion, not continuous collision safety or validated biological behavior.
-
-The first-version visual target is still open: the corridor and layered depth are clearer, but regular branch morphology, simple distant transitions, and unverified realtime water appearance prevent claiming photorealistic or completed immersion. See ITERATION_LOG.md for rationale and evidence/immersive for numerical proof.
-
-## Offline evidence clarification and reproduction
-
-The published offline comparison images do **not** show the new projected caustic effect. They show the actual assigned PBR materials, saved lighting and depth compositor. Unassigned Blender material variants contained the caustic texture but were not rendered. The browser shader implementation remains structurally checked, not GPU-verified.
-
-A compact camera/light/material fixture and portable renderer now reproduce those actual offline images. See `modeling/immersive/offline/README.md` and its material-assignment audit. From this repository root:
-
-```sh
-blender -b -t 12 --python modeling/immersive/offline/render_evidence.py -- modeling/immersive/offline/lighting-fixture.blend source-model.glb artifacts/immersive-offline
-```
-
-The separately verified reproduction differs only at 27 opening-view pixels and 56 reverse-view pixels out of 784,000, with sparse numerical differences documented. These remain offline geometry/lighting evidence, not measurements of runtime water animation.
-
-## Original-thicket junction correction
-
-Two rebuilt single-colony prototypes were rejected: they replaced a multi-stem thicket with an unsupported sparse/comb-like structure. The accepted correction instead replays all 22 original seeded thickets exactly, preserves their axes, terminal tips, independent basal shoots, envelopes, node transforms and materials, and repairs only recorded nonterminal continuation joins. Separate roots and incidental crossings are not welded together. This fixes a known generator artifact without claiming a reconstructed ecological growth process.
-
-The deterministic repair first produces an archival GLB with the earlier authoring bytes. compact_source_model.py then removes only unreferenced mesh/accessor storage for the distributed source; prior baselines and checksums retain auditability. Deployment externalization compares every active attribute/index byte and world transform to the authoritative source, and can split output into bounded buffers if needed. No active geometry is simplified or quantized by this step.
-
-Offline evidence contains lighting, fog and authored PBR shading, but no projected caustic modulation: the Blender material remapping selected original non-caustic materials. The browser caustic shader remains a separate implementation that has only structural tests, not actual GPU-render verification. The clean editable model remains separate from the offline lighting fixture.
-
-Model packages now have immutable content/version URLs. Pages responses were observed with a 600-second cache lifetime, so glTF and all of its binary/texture dependencies move together; the previous fixed URLs remain valid. Old versioned directories must not be overwritten while cached clients may still reference them. The version identity includes the source GLB and packing implementation.
-
-## Historical junction model reproduction
-
-Use `modeling/junction-repair/README.md` for the accepted correction and verified deterministic rebuild, then run `compact_source_model.py` as documented to remove only unused source storage. The preceding GLB is in this repository’s history; earlier pipelines and inputs remain preserved. `dist/model-version.js` selects one immutable model directory containing all glTF dependencies. Legacy fixed paths are retained for cached clients.
-
-## Separate 2.5D display
-
-页面新增“图片动画展示（2.5D）”入口，打开既有私有展示站 https://azure-coral-garden.yydshly.chatgpt.site/ 。该站仍需要 ChatGPT 登录且仅项目所有者可见。它仅用于独立效果呈现，不作为科学资料或三维建模参考；访问权限及托管位置均未改变。
-
-## Sand-boundary continuity correction
-
-A reachable low orbit view exposed a dark rectangular gap: the outer edge of the 32 m sand grid sat 3.84–12.16 cm above the far floor. The accepted patch smoothly blends only a 2 m perimeter band onto that same floor and matches boundary normals. Core sand, guide anchors, biology, rocks, material maps and camera/light settings remain unchanged. Matched offline views show the cut disappear; the opening and main reef composition are essentially unchanged. This is a local continuity correction, not overall realism acceptance. The separate surface-map experiments were rejected and are not included in the runtime model.
-
-## Separate image-animation presentation
-
-[图片动画展示（2.5D）](https://azure-coral-garden.yydshly.chatgpt.site/) remains a separate private Site, requiring ChatGPT login and visible only to its owner. The public 3D page links to it as a separate presentation only; it is not a modeling or scientific reference; linking does not make the earlier Site public or migrate its assets.
-
-## Spatial iteration (October 7)
-
-This iteration extends the existing reef into a composed sand passage with low irregular limestone margins, three spatial viewpoints, and a pausable outward/return camera route. The five-stop Chinese beginner guide remains available. Geometry source and reproducible checks are in modeling/spatial-oct7 and evidence/spatial-oct7; the sand correction is a prerequisite. Actual Chromium/SwiftShader CI captured departure, midway and look-back; a subsequent bounded opening/seabed-guide recheck passed after fixing the target-height conflict. See evidence/spatial-oct7/browser for exact sources, failed and passed reports, and screenshots. Overall natural realism and user-device performance remain unaccepted. Offline evidence uses historical lighting and contains no runtime caustics.
-
-## Current model reconstruction and stage record
-
-Use the portable sand-boundary prerequisite and spatial extension described in `modeling/sand-boundary-oct7/README.md` and `modeling/spatial-oct7/README.md`. Prior accepted input models remain available in repository history; earlier pipelines/fixtures are preserved. `evidence/qa-oct7/README.md` records the separate QA commits, unmodified browser screenshots, failures, targeted fix and retest. Real software WebGL rendering is confirmed for those recorded versions; user-device FPS and whole-scene natural realism remain unaccepted.
-
-## 2026-10-07 水体层次阶段
-
-[同机位真实浏览器对照与失败记录](evidence/water-oct7/README.md)。有限接受了更清晰的水体距离层次与较弱的远处规则光纹；模型/贴图/鱼路线保持不变。实际GPU编译错误与一次过平候选均留档。这是示意参数的视觉增量，不是实测光学或整体真实感验收。
-
-## Route-wide activity, 2026-10-07
-
-The current browser population has six instances; the editable GLB/Blender assets intentionally retain the four original fish assemblies. dist/fish-population.js creates two shared-mesh companions and dist/assets/swim-routes.json supplies all six paths. Rebuild current routes with `node --import ./qa-register.mjs build-life-routes.mjs`. The older build-routes.mjs is retained only as historical four-route provenance; running it alone does not regenerate the current six-fish application.
-
-Actual software-WebGL run37577405341 established three-view population and real elapsed motion, then found a midpoint camera/controls composition defect. Source895d2b6 moved only the nearest middle route segment; run37578356621 confirmed the corrected midpoint and normal motion. Wall/scene times were56.1103/56.0977s, with changed positions, headings and fins and no reported runtime/request errors. The source owner reviewed actual screenshots and chronological video frames. Near/far fixed views are evidence from the first pass, not recaptured after the local route correction. Source tests cover conservative sampled clearances, body boxes, guide/quality and hidden/reduced-motion clocks; they are not continuous collision or biological validation.
-
-## 2026-10-07 整条路线的结构增量
-
-三个错落的礁体实例和四个可见海扇，结合原有硬底色纹过渡；近处分枝保留5组，包含原导览目标。主GLB、水光参数、六鱼路线与五站导览保持。新增组件和原始生成材质、完整提示词与[可编辑Blender/复现边界](modeling/inhabited/README.md)随源码提供。固定editable重导出可精确匹配活动GLB；从零重新生成的UV/烘焙不保证逐字节一致。历史离线图不代表当前组合。
-
-[实际浏览器证据](evidence/inhabited-oct7/README.md)包括六张同机位对照、原生点击失败与定向修正、明确标记的13个测试驱动路线姿态。只有限接受结构/构图和采样空间表现。原生软件对照中基线5RAF/15.6155秒，候选5RAF/17.5007秒，单次回调率低10.8%；两者都很慢，性能与完整实时漫游未通过。不得把采样录像称为流畅原生自动游览。
-
-## Late-route landmark rebalancing, 2026-10-07
-
-The existing near-right shoulder moves rigidly to the late right bank. Total geometry, textures, three structures/four fan meshes, water, six fish, route and teaching flow are preserved. Material influence follows its position. Actual run37602816684 compares four matched t0 views and six labeled test-driven late-route poses; owner and independent review accepted only this limited composition/space increment. Departure remains framed and late travel gains a landmark. Isolated-rock appearance, broad texture patches and empty banks remain. This does not accept full realism, native tour smoothness or physical GPU performance.
-
-The preceding coarse fan LOD was rejected for visible polygonal cells and density changes despite small software-frame gains. Shadow/resolution cost separation is diagnostic only; neither low-resolution nor shadow-disabled settings were adopted. See ROUTE_REBALANCE.md and evidence/route-rebalance-oct7. The original packed modeling/inhabited/editable.blend and exact asset export are unchanged.
-
-
-### Single-fish surface repair
-
-Only fish_03 receives continuous procedural pigment and closed thin fins. It remains unidentified and illustrative. Source checks: `node --import ./qa-register.mjs qa-fish-surface.mjs`, `node --import ./qa-register.mjs qa-life.mjs`, `node --import ./qa-register.mjs qa-guide-integration.mjs`; see `evidence/fish-surface-oct7/DECISION.md` for actual six-frame software WebGL evidence, reference provenance and limitations. No fresh editable mesh is needed: the module derives fins from the unchanged original GLB after companion cloning.
-
-
-### Native tour timing
-
-The100-second along-reef route advances by visible elapsed time independently of rendering frequency. Hidden/manual-paused time is excluded; a foreground gap over8s pauses travel. It does not improve FPS. Actual limited native evidence and unresolved slow-rendering limits are in evidence/tour-clock-oct7/DECISION.md. Checks: node --import ./qa-register.mjs qa-tour-clock.mjs and qa-tour-controls.mjs, plus the existing guide integration test.
-
-
-## 2026-10-07 — Local dry skeleton inspection candidate
-
-One Smithsonian CC0 dry specimen,25k triangles, original maps, unchanged scale. Third guide stop adds constrained inspection and return. See modeling/specimen/README.md and evidence/skeletal-patch-oct7/ACCEPTANCE.md for provenance, measured bounds and actual browser evidence. Published as a limited teaching detail, not whole-scene realism acceptance.
-
-Desktop software-WebGL QA37657885741 passed and five actual images were reviewed. Limited near-look detail accepted; see evidence/skeletal-patch-oct7/ACCEPTANCE.md. The skeleton inspection was subsequently published; later narrow-viewport verification is recorded separately.
-
-
-## 2026-10-07 — Repair one existing colony's grounding
-
-The continuous triangle audit found 11 of 21 basal caps entirely above the actual substrate. A single rigid downward translation of 0.12711730762552115 uncalibrated scene units seats all caps with a 0.005 margin. The earliest primary junction retains 0.2400835660 clearance. Original geometry and materials are unchanged; the reduced-support and fan-motion experiments are not included.
-
-Runtime placement must be included when reproducing the scene. Four actual software-WebGL images from run 37677841832 and independent visual review support this limited grounding repair. They do not establish FPS improvement or whole-world realism. See evidence/branch-grounding-oct7 for the method, observations and limits.
-
-
-## 2026-10-07 — Ground the independently measured sibling colony
-
-Node66 receives a rigid .10224513179842109 scene-unit downward placement; the accepted node78 repair, original high geometry/materials, routes, six fish and five guide stops remain. Actual four-frame software-WebGL run37687661092 passed after a test-only variable-shadowing correction. Owner and independent review accept the limited visible grounding/main-branch retention change. See evidence/sibling-grounding-oct7/DECISION.md for failed-run history, measured limits and portable-source boundaries. No performance or whole-world realism claim.
+[统一前的README原文](https://github.com/yydshly/azure-reef-3d/blob/cc416bfc623db3b6d6171c9550c1386930ba0735/README.md)作为历史保留；[原阶段总结提交](https://github.com/yydshly/azure-reef-3d/commit/7c59a653e2f353df3b024458feadfbbda1ee383e)也保留。当前结论以本main入口与阶段总结为准。

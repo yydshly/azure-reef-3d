@@ -1,0 +1,180 @@
+{
+  "productIntegration": false,
+  "largeAssetsCopied": false,
+  "groups": [
+    {
+      "title": "原enriched增量",
+      "sourceCommit": "acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b",
+      "status": "历史探索基线保留，整体视觉不足",
+      "sourceFilesCopiedUnchanged": true,
+      "productIntegration": false,
+      "deployment": false,
+      "largeAssetsCopied": false,
+      "dependencyScope": "本次保存既有6个增量模块，不是完整149文件运行包。其余基础模块、模型和纹理由多个既有归档及固定发布字节恢复；完整运行目录/外部大源包未复制入main。完整源位置见总索引。",
+      "files": [
+        {
+          "originalPath": "exploration-world-data.js",
+          "archivePath": "archive/enriched/source/exploration-world-data.js",
+          "bytes": 4927,
+          "sha256": "756f274ecef915a0636c2e77710c7fa7c192276839b2a27065cfbd0f97454796"
+        },
+        {
+          "originalPath": "exploration-world.js",
+          "archivePath": "archive/enriched/source/exploration-world.js",
+          "bytes": 16096,
+          "sha256": "8fccde1750aa53b330f16b94a0391636522ce84eefcbdfdffe5855b14920d82d"
+        },
+        {
+          "originalPath": "scan-exhibit.css",
+          "archivePath": "archive/enriched/source/scan-exhibit.css",
+          "bytes": 14590,
+          "sha256": "11917497e45e90f470815f2ec3b031e21a79dc3de96c9cf1f82685ce0308dbe4"
+        },
+        {
+          "originalPath": "scan-exhibit.html",
+          "archivePath": "archive/enriched/source/scan-exhibit.html",
+          "bytes": 12124,
+          "sha256": "9c57ff93f0348f2f263374f5e88d496aa66c4b5af401dafebb4905b6f7ff4af8"
+        },
+        {
+          "originalPath": "scan-exhibit.js",
+          "archivePath": "archive/enriched/source/scan-exhibit.js",
+          "bytes": 35157,
+          "sha256": "2a20c3f668e706ddfa8e2c966414829aef1b94ee739c825c004c2dbbd755c07d"
+        },
+        {
+          "originalPath": "scan-ocean.js",
+          "archivePath": "archive/enriched/source/scan-ocean.js",
+          "bytes": 8643,
+          "sha256": "86d5570a56ad31dbde1e08eee4168ac2520adf738f6748f886802770d80b83b5"
+        }
+      ]
+    },
+    {
+      "title": "连续谷地候选",
+      "sourceCommit": "b92b8ac734973e2673f3f678f6d5f1241393373c",
+      "status": "整体视觉失败，未发布，停止",
+      "sourceFilesCopiedUnchanged": true,
+      "productIntegration": false,
+      "deployment": false,
+      "largeAssetsCopied": false,
+      "dependencyScope": "保存两份作者源模块和原生成脚本；依赖原enriched完整149基线及原素材，不复制完整生成目录或大包。源模块与脚本保留原相对路径信息。",
+      "files": [
+        {
+          "originalPath": "candidate-src/continuous-layout.js",
+          "archivePath": "archive/continuous-candidate/source/candidate-src/continuous-layout.js",
+          "bytes": 933,
+          "sha256": "ee36633b389f1f2c9706630cc2a341ecf4115cb87d45d2fdf181a7af1a93ff87"
+        },
+        {
+          "originalPath": "candidate-src/continuous-reef.js",
+          "archivePath": "archive/continuous-candidate/source/candidate-src/continuous-reef.js",
+          "bytes": 13666,
+          "sha256": "d08f3cc01bd957293f2d13c7223509fb9acd59b66a15008f88190fc07c8168d7"
+        },
+        {
+          "originalPath": "build-continuous-candidate.py",
+          "archivePath": "archive/continuous-candidate/source/build-continuous-candidate.py",
+          "bytes": 3875,
+          "sha256": "eb2f95044c0d7527cbd77c5e0e8cf1c760648e3e719e5de8012a41e792783078"
+        }
+      ]
+    },
+    {
+      "title": "限定构图修正",
+      "sourceCommit": "0478d7ab42eae11e65fc53f83b5253e9dcda9822",
+      "status": "实际六视角视觉门槛失败，未发布，停止",
+      "sourceFilesCopiedUnchanged": true,
+      "productIntegration": false,
+      "deployment": false,
+      "largeAssetsCopied": false,
+      "dependencyScope": "保存已持久Git增量包中的6份实际源文件及原组装脚本；原增量包和失败图片继续由固定提交链接索引。依赖原enriched基线，归档不是完整独立站点。",
+      "files": [
+        {
+          "originalPath": "continuous-layout.js",
+          "archivePath": "archive/composition-candidate/source/continuous-layout.js",
+          "bytes": 1225,
+          "sha256": "116cefa606a46a2d53217ca8329707d58e7dcab6e525530c05e0d1f9611daa98"
+        },
+        {
+          "originalPath": "continuous-reef.js",
+          "archivePath": "archive/composition-candidate/source/continuous-reef.js",
+          "bytes": 13666,
+          "sha256": "d08f3cc01bd957293f2d13c7223509fb9acd59b66a15008f88190fc07c8168d7"
+        },
+        {
+          "originalPath": "exploration-world-data.js",
+          "archivePath": "archive/composition-candidate/source/exploration-world-data.js",
+          "bytes": 4973,
+          "sha256": "c4f0b31639c8b80c5ef5a97e7ca606b7c8a2dfacf8c45382b7cb30e202c9d719"
+        },
+        {
+          "originalPath": "exploration-world.js",
+          "archivePath": "archive/composition-candidate/source/exploration-world.js",
+          "bytes": 16275,
+          "sha256": "a04480c7fa05525cc66c551f98b679a9bba4fadb9daef9751c9035ecb35d8bf6"
+        },
+        {
+          "originalPath": "scan-exhibit.js",
+          "archivePath": "archive/composition-candidate/source/scan-exhibit.js",
+          "bytes": 35807,
+          "sha256": "2010858efeccea2b2d87b2b2e5a30042d2c79f2f54f400dc1799b5e372d685ac"
+        },
+        {
+          "originalPath": "scan-ocean.js",
+          "archivePath": "archive/composition-candidate/source/scan-ocean.js",
+          "bytes": 8840,
+          "sha256": "f6678bd36a187db6f3cfd8fd2aca9e1f1e64d6b347b07d44fcdbfc3bd6e4b797"
+        },
+        {
+          "originalPath": "stage-composition-preview.py",
+          "archivePath": "archive/composition-candidate/source/stage-composition-preview.py",
+          "bytes": 2529,
+          "sha256": "d426f639a6a9b05f17bacb205d6c6a9b4b2aac991b0ccaffd47171d9350f0efd"
+        }
+      ]
+    },
+    {
+      "title": "盆地证明段",
+      "sourceCommit": "bef0b8506b5e1b6726585722573014038bdc570a",
+      "status": "台座感、空方向、持续层次三项均失败，未发布，停止",
+      "sourceFilesCopiedUnchanged": true,
+      "productIntegration": false,
+      "deployment": false,
+      "largeAssetsCopied": false,
+      "dependencyScope": "保存最终证明段5份运行源文件。共用Three.js、utils和6份原纹理在main的dist中，按原路径复用，不重复复制；还原原目录后才可运行。首版源、原始录像和全部失败图片仍保留于原bf提交。",
+      "files": [
+        {
+          "originalPath": "dist/preview/reef-basin-proof/app.js",
+          "archivePath": "archive/basin-proof/source/dist/preview/reef-basin-proof/app.js",
+          "bytes": 7564,
+          "sha256": "bf017ba95a9e084e3a04826fcc36fa9c87ff46377ab155854e60c5f07765ddab"
+        },
+        {
+          "originalPath": "dist/preview/reef-basin-proof/index.html",
+          "archivePath": "archive/basin-proof/source/dist/preview/reef-basin-proof/index.html",
+          "bytes": 1631,
+          "sha256": "0eed37ec93f410e3e55fc6aaf4b95459e0aaeba803006629a69a743f7ddab720"
+        },
+        {
+          "originalPath": "dist/preview/reef-basin-proof/navigation.js",
+          "archivePath": "archive/basin-proof/source/dist/preview/reef-basin-proof/navigation.js",
+          "bytes": 4377,
+          "sha256": "13cab5910ade6b1ff8c98cf320bf6607ce576bc8e7dcbf4add4c4446681423da"
+        },
+        {
+          "originalPath": "dist/preview/reef-basin-proof/style.css",
+          "archivePath": "archive/basin-proof/source/dist/preview/reef-basin-proof/style.css",
+          "bytes": 1992,
+          "sha256": "5f5cfd152e2fb6f09701acb3c5dc3577ec4bb079dc69019fa2db23c78b7427df"
+        },
+        {
+          "originalPath": "dist/preview/reef-basin-proof/world.js",
+          "archivePath": "archive/basin-proof/source/dist/preview/reef-basin-proof/world.js",
+          "bytes": 19278,
+          "sha256": "7ccc590d66b538a9e5c149909bc5923c5d8dbc1ab00175e32040e5699138f4aa"
+        }
+      ]
+    }
+  ]
+}

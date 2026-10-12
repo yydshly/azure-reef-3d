@@ -1,0 +1,54 @@
+{
+  "title": "限定构图修正",
+  "sourceCommit": "0478d7ab42eae11e65fc53f83b5253e9dcda9822",
+  "status": "实际六视角视觉门槛失败，未发布，停止",
+  "sourceFilesCopiedUnchanged": true,
+  "productIntegration": false,
+  "deployment": false,
+  "largeAssetsCopied": false,
+  "dependencyScope": "保存已持久Git增量包中的6份实际源文件及原组装脚本；原增量包和失败图片继续由固定提交链接索引。依赖原enriched基线，归档不是完整独立站点。",
+  "files": [
+    {
+      "originalPath": "continuous-layout.js",
+      "archivePath": "archive/composition-candidate/source/continuous-layout.js",
+      "bytes": 1225,
+      "sha256": "116cefa606a46a2d53217ca8329707d58e7dcab6e525530c05e0d1f9611daa98"
+    },
+    {
+      "originalPath": "continuous-reef.js",
+      "archivePath": "archive/composition-candidate/source/continuous-reef.js",
+      "bytes": 13666,
+      "sha256": "d08f3cc01bd957293f2d13c7223509fb9acd59b66a15008f88190fc07c8168d7"
+    },
+    {
+      "originalPath": "exploration-world-data.js",
+      "archivePath": "archive/composition-candidate/source/exploration-world-data.js",
+      "bytes": 4973,
+      "sha256": "c4f0b31639c8b80c5ef5a97e7ca606b7c8a2dfacf8c45382b7cb30e202c9d719"
+    },
+    {
+      "originalPath": "exploration-world.js",
+      "archivePath": "archive/composition-candidate/source/exploration-world.js",
+      "bytes": 16275,
+      "sha256": "a04480c7fa05525cc66c551f98b679a9bba4fadb9daef9751c9035ecb35d8bf6"
+    },
+    {
+      "originalPath": "scan-exhibit.js",
+      "archivePath": "archive/composition-candidate/source/scan-exhibit.js",
+      "bytes": 35807,
+      "sha256": "2010858efeccea2b2d87b2b2e5a30042d2c79f2f54f400dc1799b5e372d685ac"
+    },
+    {
+      "originalPath": "scan-ocean.js",
+      "archivePath": "archive/composition-candidate/source/scan-ocean.js",
+      "bytes": 8840,
+      "sha256": "f6678bd36a187db6f3cfd8fd2aca9e1f1e64d6b347b07d44fcdbfc3bd6e4b797"
+    },
+    {
+      "originalPath": "stage-composition-preview.py",
+      "archivePath": "archive/composition-candidate/source/stage-composition-preview.py",
+      "bytes": 2529,
+      "sha256": "d426f639a6a9b05f17bacb205d6c6a9b4b2aac991b0ccaffd47171d9350f0efd"
+    }
+  ]
+}
