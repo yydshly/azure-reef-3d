@@ -1,0 +1,9 @@
+import assert from 'node:assert/strict';import fs from 'node:fs';import * as T from './dist/vendor/three.module.js';
+import {createGarden,STOPS,SPAWN,floorHeight} from './dist/preview/reef-garden-v1/world.js';
+import {createExplorationNavigation} from './dist/preview/reef-garden-v1/navigation.js';
+const scene=new T.Scene(),world=createGarden(scene);assert.equal(STOPS.length,6);for(const stop of STOPS)assert.deepEqual(world.resolve(stop.position),stop.position,'Waypoint must remain reachable '+stop.label);
+const nav=createExplorationNavigation({stops:STOPS,spawn:SPAWN,resolvePosition:p=>world.resolve(p),movePosition:(p,old)=>world.move(p,old)});nav.startTour();let maxStep=0,old=nav.getState().position;
+for(let i=0;i<1440;i++){nav.tick(.05);const p=nav.getState().position;assert(p.every(Number.isFinite));assert(p[1]>=floorHeight(p[0],p[2])+.55);maxStep=Math.max(maxStep,Math.hypot(...p.map((v,j)=>v-old[j])));assert.deepEqual(world.resolve(p),p);old=p}
+assert.equal(nav.getState().elapsed,72);assert.equal(nav.getState().mode,'completed');assert(maxStep<1.2);nav.reset();assert.deepEqual(nav.getState().position,SPAWN.position);nav.key('KeyW',true);nav.tick(.05);nav.key('KeyW',false);assert(nav.getState().position[2]<SPAWN.position[2]);const frozen=nav.getState().position;nav.tick(1);assert.deepEqual(nav.getState().position,frozen);
+const stats=world.stats;assert(stats.formations>=25&&stats.giantCorals>=10&&stats.plantTufts>100&&stats.scansInThisScene===false);world.dispose();assert(!world.root.parent);
+const report={status:'PASS',cpuOnly:true,stops:6,tourSamples:1440,maxStep,stats,scope:'Scene construction, safe retained journey, free input release and disposal; browser visual/motion checks remain separate'};fs.mkdirSync('artifacts/garden-qa',{recursive:true});fs.writeFileSync('artifacts/garden-qa/cpu.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report));
