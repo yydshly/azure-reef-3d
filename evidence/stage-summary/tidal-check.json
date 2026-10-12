@@ -1,0 +1,33 @@
+{
+  "project": "ocean-world / TIDAL",
+  "scope": "Independent project, not azure-reef成果",
+  "observedCommit": "4749548bfa2216879315fb7b84ad6479cf3a940e",
+  "commitDate": "2026-10-12T08:21:02Z",
+  "deployment": {
+    "id": 38223039936,
+    "name": "Build and deploy ocean world",
+    "head_sha": "4749548bfa2216879315fb7b84ad6479cf3a940e",
+    "status": "completed",
+    "conclusion": "success",
+    "created_at": "2026-10-12T08:21:08Z",
+    "updated_at": "2026-10-12T08:36:29Z",
+    "html_url": "https://github.com/yydshly/ocean-world/actions/runs/38223039936"
+  },
+  "overview": {
+    "url": "https://yydshly.github.io/ocean-world/overview/",
+    "title": "TIDAL 海底世界 · 产品全景",
+    "actualBrowserScreenshot": "tidal-overview.png",
+    "pageErrors": []
+  },
+  "sampleUrl": "https://yydshly.github.io/ocean-world/?demo=shallow-sample&seed=55",
+  "independent75SecondVisualAndMotionReview": "NOT_COMPLETED_STOPPED_ON_USER_DOCUMENT_CLOSEOUT_REQUEST",
+  "liveSampleFramesCaptured": false,
+  "thirdPartyLicenseReview": "PARTIAL_NOT_COMPLETE_AT_ORIGINAL_SOURCES",
+  "reuseConclusion": "NO_VERIFIED_TRANSFERABLE_BREAKTHROUGH_CONCLUSION",
+  "limits": [
+    "Overview contains existing published sample images; these are not independent live sample renders from this check.",
+    "No conclusion that the sample failed visually or that runtime failed.",
+    "No complete forward/back/near-mid-far/performance acceptance.",
+    "No source, asset, settings, account or online-site modifications; no asset integration or publication."
+  ]
+}
