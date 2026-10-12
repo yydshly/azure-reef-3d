@@ -1,0 +1,354 @@
+{
+  "status": "FAIL",
+  "errors": [],
+  "failedRequests": [],
+  "views": [
+    {
+      "name": "entry",
+      "state": {
+        "ready": true,
+        "camera": [
+          0,
+          4.2,
+          24
+        ],
+        "target": [
+          0,
+          4.3738867487935815,
+          14.001511944369089
+        ],
+        "route": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 0,
+          "duration": 72,
+          "progress": 0,
+          "goal": 0,
+          "yaw": 0,
+          "pitch": 0.01738955128933065,
+          "position": [
+            0,
+            4.2,
+            24
+          ],
+          "speed": 0,
+          "region": "珊瑚门廊",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.48330000000000023,
+        "ambientPaused": true,
+        "frames": 25,
+        "stats": {
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 14,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 76,
+          "triangles": 514190
+        },
+        "renderer": {
+          "calls": 84,
+          "triangles": 520822
+        }
+      }
+    },
+    {
+      "name": "entry-reverse",
+      "state": {
+        "ready": true,
+        "camera": [
+          0,
+          4.2,
+          24
+        ],
+        "target": [
+          0.2957386690361643,
+          4.3738867487935815,
+          33.99411336929048
+        ],
+        "route": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 0,
+          "duration": 72,
+          "progress": 0,
+          "goal": 0,
+          "yaw": 3.112009999999996,
+          "pitch": 0.01738955128933065,
+          "position": [
+            0,
+            4.2,
+            24
+          ],
+          "speed": 0,
+          "region": "珊瑚门廊",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.48330000000000023,
+        "ambientPaused": true,
+        "frames": 147,
+        "stats": {
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 14,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 76,
+          "triangles": 514190
+        },
+        "renderer": {
+          "calls": 23,
+          "triangles": 482600
+        }
+      }
+    },
+    {
+      "name": "mid",
+      "state": {
+        "ready": true,
+        "camera": [
+          15,
+          3.4,
+          -65
+        ],
+        "target": [
+          9.21325073643643,
+          3.5578204344608246,
+          -73.15405578047594
+        ],
+        "route": {
+          "active": true,
+          "mode": "tour",
+          "paused": true,
+          "elapsed": 28.8,
+          "duration": 72,
+          "progress": 0.4,
+          "goal": 0.4,
+          "yaw": -0.6171913915403622,
+          "pitch": 0.015782698666066578,
+          "position": [
+            15,
+            3.4,
+            -65
+          ],
+          "speed": 0,
+          "region": "虹色礁庭",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.48330000000000023,
+        "ambientPaused": true,
+        "frames": 165,
+        "stats": {
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 14,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 76,
+          "triangles": 514190
+        },
+        "renderer": {
+          "calls": 72,
+          "triangles": 518230
+        }
+      }
+    },
+    {
+      "name": "mid-reverse",
+      "state": {
+        "ready": true,
+        "camera": [
+          15,
+          3.4,
+          -65
+        ],
+        "target": [
+          20.501651351881485,
+          3.5578204344608246,
+          -56.65093268006496
+        ],
+        "route": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 28.8,
+          "duration": 72,
+          "progress": 0.4,
+          "goal": 0.4,
+          "yaw": 2.558948608459634,
+          "pitch": 0.015782698666066578,
+          "position": [
+            15,
+            3.4,
+            -65
+          ],
+          "speed": 0,
+          "region": "虹色礁庭",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.48330000000000023,
+        "ambientPaused": true,
+        "frames": 271,
+        "stats": {
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 14,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 76,
+          "triangles": 514190
+        },
+        "renderer": {
+          "calls": 32,
+          "triangles": 512786
+        }
+      }
+    },
+    {
+      "name": "deep",
+      "state": {
+        "ready": true,
+        "camera": [
+          -18,
+          5,
+          -199
+        ],
+        "target": [
+          -16.85396803099233,
+          5.191005328167945,
+          -189.06772293526686
+        ],
+        "route": {
+          "active": true,
+          "mode": "tour",
+          "paused": true,
+          "elapsed": 72,
+          "duration": 72,
+          "progress": 1,
+          "goal": 1,
+          "yaw": 3.026716048172894,
+          "pitch": 0.019101694416533168,
+          "position": [
+            -18,
+            5,
+            -199
+          ],
+          "speed": 0,
+          "region": "月弧峡湾",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.48330000000000023,
+        "ambientPaused": true,
+        "frames": 289,
+        "stats": {
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 14,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 76,
+          "triangles": 514190
+        },
+        "renderer": {
+          "calls": 103,
+          "triangles": 523354
+        }
+      }
+    },
+    {
+      "name": "deep-reverse",
+      "state": {
+        "ready": true,
+        "camera": [
+          -18,
+          5,
+          -199
+        ],
+        "target": [
+          -18.94142386424971,
+          5.191005328167945,
+          -208.9537549734978
+        ],
+        "route": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 72,
+          "duration": 72,
+          "progress": 1,
+          "goal": 1,
+          "yaw": -0.09429925900669822,
+          "pitch": 0.019101694416533168,
+          "position": [
+            -18,
+            5,
+            -199
+          ],
+          "speed": 0,
+          "region": "月弧峡湾",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.48330000000000023,
+        "ambientPaused": true,
+        "frames": 403,
+        "stats": {
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 14,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 76,
+          "triangles": 514190
+        },
+        "renderer": {
+          "calls": 40,
+          "triangles": 513110
+        }
+      }
+    }
+  ],
+  "checks": {},
+  "clockInjection": false,
+  "sourceHashes": {
+    "app.js": "c71e2f3c67e9d1ef9406d6adf55879066f8ea50cd1d7b3069dd59c2dfae5169b",
+    "index.html": "aacbec7060a13cefd1ada39e4324f28da85af6e00aa4936222afe6bfb13e4099",
+    "navigation.js": "13cab5910ade6b1ff8c98cf320bf6607ce576bc8e7dcbf4add4c4446681423da",
+    "style.css": "6c1a4415287871d16660db47ab40cd6f05c961edc413cb4c2ab56af4f9f6df02",
+    "world.js": "e4e10d0f6263c808662f040e0191ea33ae2ead02c8bbdb45b765139301346cde"
+  },
+  "firstVersionHashes": {
+    "app.js": "f35ed59bae36eb558501378674254a44458850af4753a30c63307be1dda3dd5b",
+    "index.html": "f429cc9017d6ed16fa62a6147ec97291cbee09c9ef761d8fa4bc1f7e3ccd5c54",
+    "navigation.js": "13cab5910ade6b1ff8c98cf320bf6607ce576bc8e7dcbf4add4c4446681423da",
+    "style.css": "1ebf11cfc86352dabd3a5e9ac0fce4f9960b19a31879b51f65474ce05bc4f7f2",
+    "world.js": "f550a54b6e8a8586db061723b9b37f36abc0375e5e768d9846d1cd6ac20aea37"
+  },
+  "failure": "TimeoutError('Locator.click: Timeout 30000ms exceeded.\\nCall log:\\n  - waiting for locator(\"#previous\")\\n    - locator resolved to <button id=\"previous\" aria-expanded=\"false\" aria-controls=\"previousMenu\">…</button>\\n  - attempting click action\\n    2 × waiting for element to be visible, enabled and stable\\n      - element is visible, enabled and stable\\n      - scrolling into view if needed\\n      - done scrolling\\n      - <canvas id=\"sea\" tabindex=\"0\" width=\"1280\" height=\"820\" data-engine=\"three.js r186\" aria-label=\"风格化海底世界，可拖动转向并使用键盘探索\"></canvas> intercepts pointer events\\n    - retrying click action\\n    - waiting 20ms\\n    2 × waiting for element to be visible, enabled and stable\\n      - element is visible, enabled and stable\\n      - scrolling into view if needed\\n      - done scrolling\\n      - <canvas id=\"sea\" tabindex=\"0\" width=\"1280\" height=\"820\" data-engine=\"three.js r186\" aria-label=\"风格化海底世界，可拖动转向并使用键盘探索\"></canvas> intercepts pointer events\\n    - retrying click action\\n      - waiting 100ms\\n    52 × waiting for element to be visible, enabled and stable\\n       - element is visible, enabled and stable\\n       - scrolling into view if needed\\n       - done scrolling\\n       - <canvas id=\"sea\" tabindex=\"0\" width=\"1280\" height=\"820\" data-engine=\"three.js r186\" aria-label=\"风格化海底世界，可拖动转向并使用键盘探索\"></canvas> intercepts pointer events\\n     - retrying click action\\n       - waiting 500ms\\n')"
+}

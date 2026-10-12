@@ -1,4 +1,4 @@
-name: Deploy isolated Reef Garden while preserving the published site
+name: Update isolated Reef Garden and preserve the original site and first version
 on:
   workflow_dispatch:
     inputs:
@@ -36,6 +36,7 @@ jobs:
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /dist/preview/reef-garden-v1/**
+            /dist/preview/reef-garden-v1-first/**
             /dist/vendor/**
             /dist/utils/**
             /qa-garden.mjs
