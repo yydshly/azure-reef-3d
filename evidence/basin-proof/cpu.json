@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "cpuOnly": true,
+  "stats": {
+    "candidate": "basin-proof-unaccepted",
+    "reefVolumes": 8,
+    "colonies": 798,
+    "fish": 168,
+    "portals": 0,
+    "umbrellaProps": 0,
+    "normalMapsReused": true,
+    "triangles": 512960,
+    "meshInstances": 1282
+  },
+  "scope": "Scene construction, open-water proof points, bounded geometry budget and disposal. Visual quality remains unaccepted."
+}

@@ -1,0 +1,118 @@
+{
+  "status": "VISUAL_GOAL_FAILED_STOPPED_UNPUBLISHED",
+  "sourceBranch": "candidate/reef-basin-proof",
+  "baseCommit": "3c00efbec735c7618c842edf3f5a0716e1147323",
+  "visualCorrectionsUsed": 1,
+  "furtherVisualChangesStopped": true,
+  "publicationPerformed": false,
+  "scope": "One continuous reef-basin proof only; no six-station expansion, new assets, paid service, permissions, credentials or security changes.",
+  "visualGates": [
+    {
+      "gate": "Still a pedestal/display scene?",
+      "result": "FAIL",
+      "evidence": [
+        "final/00-start-front.png",
+        "final/02-180-return-view.png",
+        "final/05-panorama-quarter-2.png"
+      ],
+      "reason": "Grounding improved, but broad smooth elongated reef platforms and attached spherical/paper-like props still dominate."
+    },
+    {
+      "gate": "Does turning expose an empty scene?",
+      "result": "FAIL",
+      "evidence": [
+        "final/06-panorama-quarter-3.png"
+      ],
+      "reason": "The southern direction still exposes a wide sparsely populated sand corridor and uniform empty water."
+    },
+    {
+      "gate": "Do near/mid/far layers persist throughout motion?",
+      "result": "FAIL",
+      "evidence": [
+        "final/01-advance-near-mid-far.png",
+        "final/04-panorama-quarter-1.png",
+        "final/08-return-through-same-world.png"
+      ],
+      "reason": "Some views contain three physical distances, but close broad slopes hide depth in others and remote silhouettes remain flat; meaningful layers do not persist."
+    }
+  ],
+  "technicalStatus": "PASS_WITH_LIMITED_SCOPE",
+  "proofMovementSeconds": 38.337500000000055,
+  "proofWallSeconds": 38.51500000001397,
+  "video": {
+    "path": "final/uncut-proof.webm",
+    "sha256": "a8de4372cf0844ef9512fcb869587ed0db713281bcb0994cacc279b36b6d10c9",
+    "bytes": 5139014,
+    "durationSeconds": 42.36,
+    "fps": 25.0,
+    "frames": 1059.0,
+    "uncut": true,
+    "includesLoading": true
+  },
+  "firstVideo": {
+    "path": "first-pass/uncut-proof.webm",
+    "sha256": "a665fb146313a0d122392dd35f7ed4cbe8327429bc2aeaccaabc937f219033a4"
+  },
+  "pixelReview": {
+    "screenshots": "All ten final actual render images; first actual entrance/return/side images.",
+    "rawVideoSeconds": [
+      19,
+      20,
+      21,
+      37,
+      38,
+      39
+    ],
+    "method": "Native browser recording preserved whole; adjacent frames decoded without enhancement. Not a claim to have watched every encoded frame or audited audio."
+  },
+  "passed": [
+    "Scene construction and bounded geometry budget",
+    "Proof points remain open under existing collision proxies",
+    "61-degree FOV throughout the proof",
+    "Advance, 180-degree look back, lateral travel, 360-degree look around and actual return within 0.7m of the start",
+    "No position injection during proof",
+    "No WebGL/JavaScript/console/request errors",
+    "Old tracked dist files and workflows identical to the base; 01.2 tag and navigation source preserved"
+  ],
+  "notTested": [
+    "Manual pause/resume/replay and free-controls regression outside the recorded proof",
+    "Exact geometric ledge collision and general exploration routes",
+    "Physical mobile and multitouch",
+    "RTX4070 and other GPU/device performance",
+    "Six-station tour and online publication"
+  ],
+  "performance": {
+    "gpu": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A788) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "viewport": [
+      1280,
+      820
+    ],
+    "loadSeconds": 5.141000000061467,
+    "frames": 1587,
+    "medianFrameGapMs": 21.799999952316284,
+    "p95FrameGapMs": 39.10000002384186,
+    "maxFrameGapMs": 75.89999997615814,
+    "over100ms": 0,
+    "scope": "This Intel UHD at 1280x820, including native recording/screenshot overhead."
+  },
+  "remaining": [
+    "The overall visual target is not reached; no publication is proposed.",
+    "Rounded massing, sparse coral attachment, flat fish/manta silhouettes and patterned sand remain visible.",
+    "Collision proxies are simplified and not an acceptance of geometric collision."
+  ],
+  "runtimeSourceHashes": {
+    "app.js": "bf017ba95a9e084e3a04826fcc36fa9c87ff46377ab155854e60c5f07765ddab",
+    "index.html": "0eed37ec93f410e3e55fc6aaf4b95459e0aaeba803006629a69a743f7ddab720",
+    "navigation.js": "13cab5910ade6b1ff8c98cf320bf6607ce576bc8e7dcbf4add4c4446681423da",
+    "style.css": "5f5cfd152e2fb6f09701acb3c5dc3577ec4bb079dc69019fa2db23c78b7427df",
+    "world.js": "7ccc590d66b538a9e5c149909bc5923c5d8dbc1ab00175e32040e5699138f4aa"
+  },
+  "preservation": {
+    "baselineCommit": "3c00efbec735c7618c842edf3f5a0716e1147323",
+    "oldTrackedDistBytesChanged": 0,
+    "workflowsChanged": false,
+    "tagRepointed": false,
+    "onlinePointerChanged": false
+  },
+  "blockers": []
+}

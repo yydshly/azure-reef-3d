@@ -1,0 +1,1448 @@
+{
+  "technicalStatus": "PASS",
+  "visualStatus": "UNACCEPTED_PENDING_PIXEL_REVIEW",
+  "errors": [],
+  "consoleErrors": [],
+  "failedRequests": [],
+  "views": [
+    {
+      "name": "00-start-front",
+      "state": {
+        "ready": true,
+        "frames": 18,
+        "time": 0.6292000000000006,
+        "camera": [
+          28,
+          5,
+          -52
+        ],
+        "target": [
+          22.39690632295789,
+          5,
+          -60.28283413127963
+        ],
+        "navigation": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 0,
+          "duration": 72,
+          "progress": 0,
+          "goal": 0,
+          "yaw": -0.5947592574833536,
+          "pitch": 0,
+          "position": [
+            28,
+            5,
+            -52
+          ],
+          "speed": 0,
+          "region": "",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "guide": null,
+        "history": [],
+        "stats": {
+          "candidate": "basin-proof-unaccepted",
+          "reefVolumes": 8,
+          "colonies": 798,
+          "fish": 168,
+          "portals": 0,
+          "umbrellaProps": 0,
+          "normalMapsReused": true,
+          "triangles": 512960,
+          "meshInstances": 1282
+        },
+        "renderer": {
+          "calls": 23,
+          "triangles": 521792
+        },
+        "fov": 61
+      }
+    },
+    {
+      "name": "01-advance-near-mid-far",
+      "state": {
+        "ready": true,
+        "frames": 204,
+        "time": 5.2961,
+        "camera": [
+          17.895156739075155,
+          5,
+          -66.9375943857149
+        ],
+        "target": [
+          12.292063062033044,
+          5,
+          -75.22042851699453
+        ],
+        "navigation": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 0,
+          "duration": 72,
+          "progress": 0,
+          "goal": 0,
+          "yaw": -0.5947592574833536,
+          "pitch": 0,
+          "position": [
+            17.895156739075155,
+            5,
+            -66.9375943857149
+          ],
+          "speed": 4.00000000000017,
+          "region": "",
+          "reduced": false,
+          "heldKeys": [
+            "KeyW"
+          ]
+        },
+        "guide": {
+          "phase": "advance",
+          "elapsed": 4.533500000000003,
+          "paused": false,
+          "phaseStart": 0,
+          "origin": [
+            28,
+            5,
+            -52
+          ],
+          "turn": 0,
+          "completed": false,
+          "failure": null
+        },
+        "history": [
+          {
+            "phase": "advance",
+            "elapsed": 0,
+            "position": [
+              28,
+              5,
+              -52
+            ],
+            "yaw": -0.5947592574833528
+          }
+        ],
+        "stats": {
+          "candidate": "basin-proof-unaccepted",
+          "reefVolumes": 8,
+          "colonies": 798,
+          "fish": 168,
+          "portals": 0,
+          "umbrellaProps": 0,
+          "normalMapsReused": true,
+          "triangles": 512960,
+          "meshInstances": 1282
+        },
+        "renderer": {
+          "calls": 23,
+          "triangles": 521792
+        },
+        "fov": 61
+      }
+    },
+    {
+      "name": "02-180-return-view",
+      "state": {
+        "ready": true,
+        "frames": 589,
+        "time": 14.354299999999995,
+        "camera": [
+          4.970836739862737,
+          5,
+          -86.04311090628936
+        ],
+        "target": [
+          10.514504293993493,
+          5,
+          -77.72038598897544
+        ],
+        "navigation": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 0,
+          "duration": 72,
+          "progress": 0,
+          "goal": 0,
+          "yaw": 2.553990742516646,
+          "pitch": 0,
+          "position": [
+            4.970836739862737,
+            5,
+            -86.04311090628936
+          ],
+          "speed": 0,
+          "region": "",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "guide": {
+          "phase": "holdBack",
+          "elapsed": 13.591700000000001,
+          "paused": false,
+          "phaseStart": 13.162600000000003,
+          "origin": [
+            4.970836739862737,
+            5,
+            -86.04311090628936
+          ],
+          "turn": 0,
+          "completed": false,
+          "failure": null
+        },
+        "history": [
+          {
+            "phase": "advance",
+            "elapsed": 0,
+            "position": [
+              28,
+              5,
+              -52
+            ],
+            "yaw": -0.5947592574833528
+          },
+          {
+            "phase": "lookBack",
+            "elapsed": 10.300100000000008,
+            "position": [
+              4.970836739862737,
+              5,
+              -86.04311090628936
+            ],
+            "yaw": -0.5947592574833536
+          },
+          {
+            "phase": "holdBack",
+            "elapsed": 13.162600000000003,
+            "position": [
+              4.970836739862737,
+              5,
+              -86.04311090628936
+            ],
+            "yaw": 2.553990742516646
+          }
+        ],
+        "stats": {
+          "candidate": "basin-proof-unaccepted",
+          "reefVolumes": 8,
+          "colonies": 798,
+          "fish": 168,
+          "portals": 0,
+          "umbrellaProps": 0,
+          "normalMapsReused": true,
+          "triangles": 512960,
+          "meshInstances": 1282
+        },
+        "renderer": {
+          "calls": 23,
+          "triangles": 521792
+        },
+        "fov": 61
+      }
+    },
+    {
+      "name": "03-side-basin-width",
+      "state": {
+        "ready": true,
+        "frames": 723,
+        "time": 18.370999999999984,
+        "camera": [
+          -6.694960322237828,
+          5,
+          -78.27266296901541
+        ],
+        "target": [
+          -1.1512927681070728,
+          5,
+          -69.9499380517015
+        ],
+        "navigation": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 0,
+          "duration": 72,
+          "progress": 0,
+          "goal": 0,
+          "yaw": 2.553990742516646,
+          "pitch": 0,
+          "position": [
+            -6.694960322237828,
+            5,
+            -78.27266296901541
+          ],
+          "speed": 4.000000000000014,
+          "region": "",
+          "reduced": false,
+          "heldKeys": [
+            "KeyD"
+          ]
+        },
+        "guide": {
+          "phase": "sideSwim",
+          "elapsed": 17.608399999999993,
+          "paused": false,
+          "phaseStart": 14.070899999999998,
+          "origin": [
+            4.970836739862737,
+            5,
+            -86.04311090628936
+          ],
+          "turn": 0,
+          "completed": false,
+          "failure": null
+        },
+        "history": [
+          {
+            "phase": "advance",
+            "elapsed": 0,
+            "position": [
+              28,
+              5,
+              -52
+            ],
+            "yaw": -0.5947592574833528
+          },
+          {
+            "phase": "lookBack",
+            "elapsed": 10.300100000000008,
+            "position": [
+              4.970836739862737,
+              5,
+              -86.04311090628936
+            ],
+            "yaw": -0.5947592574833536
+          },
+          {
+            "phase": "holdBack",
+            "elapsed": 13.162600000000003,
+            "position": [
+              4.970836739862737,
+              5,
+              -86.04311090628936
+            ],
+            "yaw": 2.553990742516646
+          },
+          {
+            "phase": "sideSwim",
+            "elapsed": 14.070899999999998,
+            "position": [
+              4.970836739862737,
+              5,
+              -86.04311090628936
+            ],
+            "yaw": 2.553990742516646
+          }
+        ],
+        "stats": {
+          "candidate": "basin-proof-unaccepted",
+          "reefVolumes": 8,
+          "colonies": 798,
+          "fish": 168,
+          "portals": 0,
+          "umbrellaProps": 0,
+          "normalMapsReused": true,
+          "triangles": 512960,
+          "meshInstances": 1282
+        },
+        "renderer": {
+          "calls": 22,
+          "triangles": 521432
+        },
+        "fov": 61
+      }
+    },
+    {
+      "name": "04-panorama-quarter-1",
+      "state": {
+        "ready": true,
+        "frames": 862,
+        "time": 22.466799999999964,
+        "camera": [
+          -15.045316686277213,
+          5,
+          -72.71059043860498
+        ],
+        "target": [
+          -24.09386281438958,
+          5,
+          -68.45338325931212
+        ],
+        "navigation": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 0,
+          "duration": 72,
+          "progress": 0,
+          "goal": 0,
+          "yaw": -2.0105545646629395,
+          "pitch": 0,
+          "position": [
+            -15.045316686277213,
+            5,
+            -72.71059043860498
+          ],
+          "speed": 0,
+          "region": "",
+          "reduced": false,
+          "heldKeys": [
+            "ArrowRight"
+          ]
+        },
+        "guide": {
+          "phase": "panorama",
+          "elapsed": 21.70419999999997,
+          "paused": false,
+          "phaseStart": 20.13339999999996,
+          "origin": [
+            -15.045316686277213,
+            5,
+            -72.71059043860498
+          ],
+          "turn": 1.7186400000000024,
+          "completed": false,
+          "failure": null
+        },
+        "history": [
+          {
+            "phase": "advance",
+            "elapsed": 0,
+            "position": [
+              28,
+              5,
+              -52
+            ],
+            "yaw": -0.5947592574833528
+          },
+          {
+            "phase": "lookBack",
+            "elapsed": 10.300100000000008,
+            "position": [
+              4.970836739862737,
+              5,
+              -86.04311090628936
+            ],
+            "yaw": -0.5947592574833536
+          },
+          {
+            "phase": "holdBack",
+            "elapsed": 13.162600000000003,
+            "position": [
+              4.970836739862737,
+              5,
+              -86.04311090628936
+            ],
+            "yaw": 2.553990742516646
+          },
+          {
+            "phase": "sideSwim",
+            "elapsed": 14.070899999999998,
+            "position": [
+              4.970836739862737,
+              5,
+              -86.04311090628936
+            ],
+            "yaw": 2.553990742516646
+          },
+          {
+            "phase": "panorama",
+            "elapsed": 20.13339999999996,
+            "position": [
+              -15.045316686277213,
+              5,
+              -72.71059043860498
+            ],
+            "yaw": 2.553990742516646
+          }
+        ],
+        "stats": {
+          "candidate": "basin-proof-unaccepted",
+          "reefVolumes": 8,
+          "colonies": 798,
+          "fish": 168,
+          "portals": 0,
+          "umbrellaProps": 0,
+          "normalMapsReused": true,
+          "triangles": 512960,
+          "meshInstances": 1282
+        },
+        "renderer": {
+          "calls": 20,
+          "triangles": 515288
+        },
+        "fov": 61
+      }
+    },
+    {
+      "name": "05-panorama-quarter-2",
+      "state": {
+        "ready": true,
+        "frames": 923,
+        "time": 23.766799999999954,
+        "camera": [
+          -15.045316686277213,
+          5,
+          -72.71059043860498
+        ],
+        "target": [
+          -20.530193937531557,
+          5,
+          -81.07217650457791
+        ],
+        "navigation": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 0,
+          "duration": 72,
+          "progress": 0,
+          "goal": 0,
+          "yaw": -0.5805545646629433,
+          "pitch": 0,
+          "position": [
+            -15.045316686277213,
+            5,
+            -72.71059043860498
+          ],
+          "speed": 0,
+          "region": "",
+          "reduced": false,
+          "heldKeys": [
+            "ArrowRight"
+          ]
+        },
+        "guide": {
+          "phase": "panorama",
+          "elapsed": 23.004199999999962,
+          "paused": false,
+          "phaseStart": 20.13339999999996,
+          "origin": [
+            -15.045316686277213,
+            5,
+            -72.71059043860498
+          ],
+          "turn": 3.148639999999993,
+          "completed": false,
+          "failure": null
+        },
+        "history": [
+          {
+            "phase": "advance",
+            "elapsed": 0,
+            "position": [
+              28,
+              5,
+              -52
+            ],
+            "yaw": -0.5947592574833528
+          },
+          {
+            "phase": "lookBack",
+            "elapsed": 10.300100000000008,
+            "position": [
+              4.970836739862737,
+              5,
+              -86.04311090628936
+            ],
+            "yaw": -0.5947592574833536
+          },
+          {
+            "phase": "holdBack",
+            "elapsed": 13.162600000000003,
+            "position": [
+              4.970836739862737,
+              5,
+              -86.04311090628936
+            ],
+            "yaw": 2.553990742516646
+          },
+          {
+            "phase": "sideSwim",
+            "elapsed": 14.070899999999998,
+            "position": [
+              4.970836739862737,
+              5,
+              -86.04311090628936
+            ],
+            "yaw": 2.553990742516646
+          },
+          {
+            "phase": "panorama",
+            "elapsed": 20.13339999999996,
+            "position": [
+              -15.045316686277213,
+              5,
+              -72.71059043860498
+            ],
+            "yaw": 2.553990742516646
+          }
+        ],
+        "stats": {
+          "candidate": "basin-proof-unaccepted",
+          "reefVolumes": 8,
+          "colonies": 798,
+          "fish": 168,
+          "portals": 0,
+          "umbrellaProps": 0,
+          "normalMapsReused": true,
+          "triangles": 512960,
+          "meshInstances": 1282
+        },
+        "renderer": {
+          "calls": 21,
+          "triangles": 518360
+        },
+        "fov": 61
+      }
+    },
+    {
+      "name": "06-panorama-quarter-3",
+      "state": {
+        "ready": true,
+        "frames": 993,
+        "time": 25.229399999999938,
+        "camera": [
+          -15.045316686277213,
+          5,
+          -72.71059043860498
+        ],
+        "target": [
+          -6.481063037320078,
+          5,
+          -77.87329897544147
+        ],
+        "navigation": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 0,
+          "duration": 72,
+          "progress": 0,
+          "goal": 0,
+          "yaw": 1.0283054353370495,
+          "pitch": 0,
+          "position": [
+            -15.045316686277213,
+            5,
+            -72.71059043860498
+          ],
+          "speed": 0,
+          "region": "",
+          "reduced": false,
+          "heldKeys": [
+            "ArrowRight"
+          ]
+        },
+        "guide": {
+          "phase": "panorama",
+          "elapsed": 24.466799999999946,
+          "paused": false,
+          "phaseStart": 20.13339999999996,
+          "origin": [
+            -15.045316686277213,
+            5,
+            -72.71059043860498
+          ],
+          "turn": 4.757499999999986,
+          "completed": false,
+          "failure": null
+        },
+        "history": [
+          {
+            "phase": "advance",
+            "elapsed": 0,
+            "position": [
+              28,
+              5,
+              -52
+            ],
+            "yaw": -0.5947592574833528
+          },
+          {
+            "phase": "lookBack",
+            "elapsed": 10.300100000000008,
+            "position": [
+              4.970836739862737,
+              5,
+              -86.04311090628936
+            ],
+            "yaw": -0.5947592574833536
+          },
+          {
+            "phase": "holdBack",
+            "elapsed": 13.162600000000003,
+            "position": [
+              4.970836739862737,
+              5,
+              -86.04311090628936
+            ],
+            "yaw": 2.553990742516646
+          },
+          {
+            "phase": "sideSwim",
+            "elapsed": 14.070899999999998,
+            "position": [
+              4.970836739862737,
+              5,
+              -86.04311090628936
+            ],
+            "yaw": 2.553990742516646
+          },
+          {
+            "phase": "panorama",
+            "elapsed": 20.13339999999996,
+            "position": [
+              -15.045316686277213,
+              5,
+              -72.71059043860498
+            ],
+            "yaw": 2.553990742516646
+          }
+        ],
+        "stats": {
+          "candidate": "basin-proof-unaccepted",
+          "reefVolumes": 8,
+          "colonies": 798,
+          "fish": 168,
+          "portals": 0,
+          "umbrellaProps": 0,
+          "normalMapsReused": true,
+          "triangles": 512960,
+          "meshInstances": 1282
+        },
+        "renderer": {
+          "calls": 24,
+          "triangles": 523520
+        },
+        "fov": 61
+      }
+    },
+    {
+      "name": "07-panorama-quarter-4",
+      "state": {
+        "ready": true,
+        "frames": 1047,
+        "time": 26.29589999999994,
+        "camera": [
+          -15.045316686277213,
+          5,
+          -72.71059043860498
+        ],
+        "target": [
+          -6.9689264614326945,
+          5,
+          -66.81381836093097
+        ],
+        "navigation": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 0,
+          "duration": 72,
+          "progress": 0,
+          "goal": 0,
+          "yaw": 2.2014554353370457,
+          "pitch": 0,
+          "position": [
+            -15.045316686277213,
+            5,
+            -72.71059043860498
+          ],
+          "speed": 0,
+          "region": "",
+          "reduced": false,
+          "heldKeys": [
+            "ArrowRight"
+          ]
+        },
+        "guide": {
+          "phase": "panorama",
+          "elapsed": 25.533299999999947,
+          "paused": false,
+          "phaseStart": 20.13339999999996,
+          "origin": [
+            -15.045316686277213,
+            5,
+            -72.71059043860498
+          ],
+          "turn": 5.930649999999982,
+          "completed": false,
+          "failure": null
+        },
+        "history": [
+          {
+            "phase": "advance",
+            "elapsed": 0,
+            "position": [
+              28,
+              5,
+              -52
+            ],
+            "yaw": -0.5947592574833528
+          },
+          {
+            "phase": "lookBack",
+            "elapsed": 10.300100000000008,
+            "position": [
+              4.970836739862737,
+              5,
+              -86.04311090628936
+            ],
+            "yaw": -0.5947592574833536
+          },
+          {
+            "phase": "holdBack",
+            "elapsed": 13.162600000000003,
+            "position": [
+              4.970836739862737,
+              5,
+              -86.04311090628936
+            ],
+            "yaw": 2.553990742516646
+          },
+          {
+            "phase": "sideSwim",
+            "elapsed": 14.070899999999998,
+            "position": [
+              4.970836739862737,
+              5,
+              -86.04311090628936
+            ],
+            "yaw": 2.553990742516646
+          },
+          {
+            "phase": "panorama",
+            "elapsed": 20.13339999999996,
+            "position": [
+              -15.045316686277213,
+              5,
+              -72.71059043860498
+            ],
+            "yaw": 2.553990742516646
+          }
+        ],
+        "stats": {
+          "candidate": "basin-proof-unaccepted",
+          "reefVolumes": 8,
+          "colonies": 798,
+          "fish": 168,
+          "portals": 0,
+          "umbrellaProps": 0,
+          "normalMapsReused": true,
+          "triangles": 512960,
+          "meshInstances": 1282
+        },
+        "renderer": {
+          "calls": 22,
+          "triangles": 521432
+        },
+        "fov": 61
+      }
+    },
+    {
+      "name": "08-return-through-same-world",
+      "state": {
+        "ready": true,
+        "frames": 1333,
+        "time": 32.770999999999894,
+        "camera": [
+          4.569265265960376,
+          5,
+          -63.27333675551764
+        ],
+        "target": [
+          13.58050346001625,
+          5,
+          -58.93771843629388
+        ],
+        "navigation": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 0,
+          "duration": 72,
+          "progress": 0,
+          "goal": 0,
+          "yaw": 2.019238018001335,
+          "pitch": 0,
+          "position": [
+            4.569265265960376,
+            5,
+            -63.27333675551764
+          ],
+          "speed": 3.9999999999999676,
+          "region": "",
+          "reduced": false,
+          "heldKeys": [
+            "KeyW"
+          ]
+        },
+        "guide": {
+          "phase": "return",
+          "elapsed": 32.00839999999985,
+          "paused": false,
+          "phaseStart": 26.56669999999994,
+          "origin": [
+            -15.045316686277213,
+            5,
+            -72.71059043860498
+          ],
+          "turn": 1.2434497875801753e-14,
+          "completed": false,
+          "failure": null
+        },
+        "history": [
+          {
+            "phase": "advance",
+            "elapsed": 0,
+            "position": [
+              28,
+              5,
+              -52
+            ],
+            "yaw": -0.5947592574833528
+          },
+          {
+            "phase": "lookBack",
+            "elapsed": 10.300100000000008,
+            "position": [
+              4.970836739862737,
+              5,
+              -86.04311090628936
+            ],
+            "yaw": -0.5947592574833536
+          },
+          {
+            "phase": "holdBack",
+            "elapsed": 13.162600000000003,
+            "position": [
+              4.970836739862737,
+              5,
+              -86.04311090628936
+            ],
+            "yaw": 2.553990742516646
+          },
+          {
+            "phase": "sideSwim",
+            "elapsed": 14.070899999999998,
+            "position": [
+              4.970836739862737,
+              5,
+              -86.04311090628936
+            ],
+            "yaw": 2.553990742516646
+          },
+          {
+            "phase": "panorama",
+            "elapsed": 20.13339999999996,
+            "position": [
+              -15.045316686277213,
+              5,
+              -72.71059043860498
+            ],
+            "yaw": 2.553990742516646
+          },
+          {
+            "phase": "aimReturn",
+            "elapsed": 25.841599999999946,
+            "position": [
+              -15.045316686277213,
+              5,
+              -72.71059043860498
+            ],
+            "yaw": 2.5405854353370465
+          },
+          {
+            "phase": "return",
+            "elapsed": 26.56669999999994,
+            "position": [
+              -15.045316686277213,
+              5,
+              -72.71059043860498
+            ],
+            "yaw": 2.0192380180013227
+          }
+        ],
+        "stats": {
+          "candidate": "basin-proof-unaccepted",
+          "reefVolumes": 8,
+          "colonies": 798,
+          "fish": 168,
+          "portals": 0,
+          "umbrellaProps": 0,
+          "normalMapsReused": true,
+          "triangles": 512960,
+          "meshInstances": 1282
+        },
+        "renderer": {
+          "calls": 22,
+          "triangles": 521432
+        },
+        "fov": 61
+      }
+    },
+    {
+      "name": "09-finish",
+      "state": {
+        "ready": true,
+        "frames": 1666,
+        "time": 39.0835000000001,
+        "camera": [
+          27.382115878032263,
+          5,
+          -52.297285418570766
+        ],
+        "target": [
+          36.39335407208818,
+          5,
+          -47.9616670993471
+        ],
+        "navigation": {
+          "active": true,
+          "mode": "free",
+          "paused": true,
+          "elapsed": 0,
+          "duration": 72,
+          "progress": 0,
+          "goal": 0,
+          "yaw": 2.0192380180013245,
+          "pitch": 0,
+          "position": [
+            27.382115878032263,
+            5,
+            -52.297285418570766
+          ],
+          "speed": 0,
+          "region": "",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "guide": {
+          "phase": "completed",
+          "elapsed": 38.337500000000055,
+          "paused": false,
+          "phaseStart": 38.337500000000055,
+          "origin": [
+            27.382115878032263,
+            5,
+            -52.297285418570766
+          ],
+          "turn": 0,
+          "completed": true,
+          "failure": null
+        },
+        "history": [
+          {
+            "phase": "advance",
+            "elapsed": 0,
+            "position": [
+              28,
+              5,
+              -52
+            ],
+            "yaw": -0.5947592574833528
+          },
+          {
+            "phase": "lookBack",
+            "elapsed": 10.300100000000008,
+            "position": [
+              4.970836739862737,
+              5,
+              -86.04311090628936
+            ],
+            "yaw": -0.5947592574833536
+          },
+          {
+            "phase": "holdBack",
+            "elapsed": 13.162600000000003,
+            "position": [
+              4.970836739862737,
+              5,
+              -86.04311090628936
+            ],
+            "yaw": 2.553990742516646
+          },
+          {
+            "phase": "sideSwim",
+            "elapsed": 14.070899999999998,
+            "position": [
+              4.970836739862737,
+              5,
+              -86.04311090628936
+            ],
+            "yaw": 2.553990742516646
+          },
+          {
+            "phase": "panorama",
+            "elapsed": 20.13339999999996,
+            "position": [
+              -15.045316686277213,
+              5,
+              -72.71059043860498
+            ],
+            "yaw": 2.553990742516646
+          },
+          {
+            "phase": "aimReturn",
+            "elapsed": 25.841599999999946,
+            "position": [
+              -15.045316686277213,
+              5,
+              -72.71059043860498
+            ],
+            "yaw": 2.5405854353370465
+          },
+          {
+            "phase": "return",
+            "elapsed": 26.56669999999994,
+            "position": [
+              -15.045316686277213,
+              5,
+              -72.71059043860498
+            ],
+            "yaw": 2.0192380180013227
+          },
+          {
+            "phase": "completed",
+            "elapsed": 38.337500000000055,
+            "position": [
+              27.382115878032263,
+              5,
+              -52.297285418570766
+            ],
+            "yaw": 2.0192380180013245
+          }
+        ],
+        "stats": {
+          "candidate": "basin-proof-unaccepted",
+          "reefVolumes": 8,
+          "colonies": 798,
+          "fish": 168,
+          "portals": 0,
+          "umbrellaProps": 0,
+          "normalMapsReused": true,
+          "triangles": 512960,
+          "meshInstances": 1282
+        },
+        "renderer": {
+          "calls": 20,
+          "triangles": 515288
+        },
+        "fov": 61
+      }
+    }
+  ],
+  "checks": {
+    "uncutProofReturn": {
+      "passed": true,
+      "wallSeconds": 38.51500000001397,
+      "controllerHistory": [
+        {
+          "phase": "advance",
+          "elapsed": 0,
+          "position": [
+            28,
+            5,
+            -52
+          ],
+          "yaw": -0.5947592574833528
+        },
+        {
+          "phase": "lookBack",
+          "elapsed": 10.300100000000008,
+          "position": [
+            4.970836739862737,
+            5,
+            -86.04311090628936
+          ],
+          "yaw": -0.5947592574833536
+        },
+        {
+          "phase": "holdBack",
+          "elapsed": 13.162600000000003,
+          "position": [
+            4.970836739862737,
+            5,
+            -86.04311090628936
+          ],
+          "yaw": 2.553990742516646
+        },
+        {
+          "phase": "sideSwim",
+          "elapsed": 14.070899999999998,
+          "position": [
+            4.970836739862737,
+            5,
+            -86.04311090628936
+          ],
+          "yaw": 2.553990742516646
+        },
+        {
+          "phase": "panorama",
+          "elapsed": 20.13339999999996,
+          "position": [
+            -15.045316686277213,
+            5,
+            -72.71059043860498
+          ],
+          "yaw": 2.553990742516646
+        },
+        {
+          "phase": "aimReturn",
+          "elapsed": 25.841599999999946,
+          "position": [
+            -15.045316686277213,
+            5,
+            -72.71059043860498
+          ],
+          "yaw": 2.5405854353370465
+        },
+        {
+          "phase": "return",
+          "elapsed": 26.56669999999994,
+          "position": [
+            -15.045316686277213,
+            5,
+            -72.71059043860498
+          ],
+          "yaw": 2.0192380180013227
+        },
+        {
+          "phase": "completed",
+          "elapsed": 38.337500000000055,
+          "position": [
+            27.382115878032263,
+            5,
+            -52.297285418570766
+          ],
+          "yaw": 2.0192380180013245
+        }
+      ],
+      "returnedWithoutSnap": true
+    }
+  },
+  "sourceHashes": {
+    "app.js": "bf017ba95a9e084e3a04826fcc36fa9c87ff46377ab155854e60c5f07765ddab",
+    "index.html": "0eed37ec93f410e3e55fc6aaf4b95459e0aaeba803006629a69a743f7ddab720",
+    "navigation.js": "13cab5910ade6b1ff8c98cf320bf6607ce576bc8e7dcbf4add4c4446681423da",
+    "style.css": "5f5cfd152e2fb6f09701acb3c5dc3577ec4bb079dc69019fa2db23c78b7427df",
+    "world.js": "7ccc590d66b538a9e5c149909bc5923c5d8dbc1ab00175e32040e5699138f4aa"
+  },
+  "recordingUncut": true,
+  "positionInjectionDuringProof": false,
+  "loadSeconds": 5.141000000061467,
+  "initial": {
+    "ready": true,
+    "frames": 5,
+    "time": 0.22920000000000074,
+    "camera": [
+      28,
+      5,
+      -52
+    ],
+    "target": [
+      22.39690632295789,
+      5,
+      -60.28283413127963
+    ],
+    "navigation": {
+      "active": true,
+      "mode": "free",
+      "paused": false,
+      "elapsed": 0,
+      "duration": 72,
+      "progress": 0,
+      "goal": 0,
+      "yaw": -0.5947592574833536,
+      "pitch": 0,
+      "position": [
+        28,
+        5,
+        -52
+      ],
+      "speed": 0,
+      "region": "",
+      "reduced": false,
+      "heldKeys": []
+    },
+    "guide": null,
+    "history": [],
+    "stats": {
+      "candidate": "basin-proof-unaccepted",
+      "reefVolumes": 8,
+      "colonies": 798,
+      "fish": 168,
+      "portals": 0,
+      "umbrellaProps": 0,
+      "normalMapsReused": true,
+      "triangles": 512960,
+      "meshInstances": 1282
+    },
+    "renderer": {
+      "calls": 23,
+      "triangles": 521792
+    },
+    "fov": 61
+  },
+  "gpu": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A788) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "proofWallSeconds": 38.51500000001397,
+  "final": {
+    "ready": true,
+    "frames": 1648,
+    "time": 39.0835000000001,
+    "camera": [
+      27.382115878032263,
+      5,
+      -52.297285418570766
+    ],
+    "target": [
+      36.39335407208818,
+      5,
+      -47.9616670993471
+    ],
+    "navigation": {
+      "active": true,
+      "mode": "free",
+      "paused": true,
+      "elapsed": 0,
+      "duration": 72,
+      "progress": 0,
+      "goal": 0,
+      "yaw": 2.0192380180013245,
+      "pitch": 0,
+      "position": [
+        27.382115878032263,
+        5,
+        -52.297285418570766
+      ],
+      "speed": 0,
+      "region": "",
+      "reduced": false,
+      "heldKeys": []
+    },
+    "guide": {
+      "phase": "completed",
+      "elapsed": 38.337500000000055,
+      "paused": false,
+      "phaseStart": 38.337500000000055,
+      "origin": [
+        27.382115878032263,
+        5,
+        -52.297285418570766
+      ],
+      "turn": 0,
+      "completed": true,
+      "failure": null
+    },
+    "history": [
+      {
+        "phase": "advance",
+        "elapsed": 0,
+        "position": [
+          28,
+          5,
+          -52
+        ],
+        "yaw": -0.5947592574833528
+      },
+      {
+        "phase": "lookBack",
+        "elapsed": 10.300100000000008,
+        "position": [
+          4.970836739862737,
+          5,
+          -86.04311090628936
+        ],
+        "yaw": -0.5947592574833536
+      },
+      {
+        "phase": "holdBack",
+        "elapsed": 13.162600000000003,
+        "position": [
+          4.970836739862737,
+          5,
+          -86.04311090628936
+        ],
+        "yaw": 2.553990742516646
+      },
+      {
+        "phase": "sideSwim",
+        "elapsed": 14.070899999999998,
+        "position": [
+          4.970836739862737,
+          5,
+          -86.04311090628936
+        ],
+        "yaw": 2.553990742516646
+      },
+      {
+        "phase": "panorama",
+        "elapsed": 20.13339999999996,
+        "position": [
+          -15.045316686277213,
+          5,
+          -72.71059043860498
+        ],
+        "yaw": 2.553990742516646
+      },
+      {
+        "phase": "aimReturn",
+        "elapsed": 25.841599999999946,
+        "position": [
+          -15.045316686277213,
+          5,
+          -72.71059043860498
+        ],
+        "yaw": 2.5405854353370465
+      },
+      {
+        "phase": "return",
+        "elapsed": 26.56669999999994,
+        "position": [
+          -15.045316686277213,
+          5,
+          -72.71059043860498
+        ],
+        "yaw": 2.0192380180013227
+      },
+      {
+        "phase": "completed",
+        "elapsed": 38.337500000000055,
+        "position": [
+          27.382115878032263,
+          5,
+          -52.297285418570766
+        ],
+        "yaw": 2.0192380180013245
+      }
+    ],
+    "stats": {
+      "candidate": "basin-proof-unaccepted",
+      "reefVolumes": 8,
+      "colonies": 798,
+      "fish": 168,
+      "portals": 0,
+      "umbrellaProps": 0,
+      "normalMapsReused": true,
+      "triangles": 512960,
+      "meshInstances": 1282
+    },
+    "renderer": {
+      "calls": 20,
+      "triangles": 515288
+    },
+    "fov": 61
+  },
+  "recordedPerformance": {
+    "frames": 1587,
+    "medianFrameGapMs": 21.799999952316284,
+    "p95FrameGapMs": 39.10000002384186,
+    "maxFrameGapMs": 75.89999997615814,
+    "over100ms": 0,
+    "scope": "This Intel UHD at 1280x820, including native recording/screenshot overhead."
+  }
+}
