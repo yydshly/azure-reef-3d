@@ -1,0 +1,1412 @@
+{
+  "status": "FAIL",
+  "errors": [],
+  "failedRequests": [],
+  "views": [
+    {
+      "name": "station-1-front",
+      "state": {
+        "ready": true,
+        "camera": [
+          0,
+          4.2,
+          24
+        ],
+        "target": [
+          0,
+          4.3738867487935815,
+          14.001511944369089
+        ],
+        "route": {
+          "active": true,
+          "mode": "tour",
+          "paused": true,
+          "elapsed": 0,
+          "duration": 72,
+          "progress": 0,
+          "goal": 0,
+          "yaw": 0,
+          "pitch": 0.01738955128933065,
+          "position": [
+            0,
+            4.2,
+            24
+          ],
+          "speed": 0,
+          "region": "珊瑚门廊",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.5291000000000003,
+        "ambientPaused": true,
+        "frames": 32,
+        "stats": {
+          "version": "01.2-stage",
+          "habitats": [
+            "shell-portal",
+            "rose-plate-garden",
+            "sea-feather-bay",
+            "blue-canyon",
+            "umbrella-grove",
+            "gold-fan-lookout"
+          ],
+          "reefVariants": 6,
+          "coralInstances": 730,
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 10,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 68,
+          "triangles": 511790
+        },
+        "renderer": {
+          "calls": 81,
+          "triangles": 517422
+        }
+      }
+    },
+    {
+      "name": "station-1-return",
+      "state": {
+        "ready": true,
+        "camera": [
+          0,
+          4.2,
+          24
+        ],
+        "target": [
+          -0.025369600553426637,
+          4.3738867487935815,
+          33.9984558698812
+        ],
+        "route": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 0,
+          "duration": 72,
+          "progress": 0,
+          "goal": 0,
+          "yaw": -3.139055307179575,
+          "pitch": 0.01738955128933065,
+          "position": [
+            0,
+            4.2,
+            24
+          ],
+          "speed": 0,
+          "region": "珊瑚门廊",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.5291000000000003,
+        "ambientPaused": true,
+        "frames": 163,
+        "stats": {
+          "version": "01.2-stage",
+          "habitats": [
+            "shell-portal",
+            "rose-plate-garden",
+            "sea-feather-bay",
+            "blue-canyon",
+            "umbrella-grove",
+            "gold-fan-lookout"
+          ],
+          "reefVariants": 6,
+          "coralInstances": 730,
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 10,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 68,
+          "triangles": 511790
+        },
+        "renderer": {
+          "calls": 17,
+          "triangles": 503392
+        }
+      }
+    },
+    {
+      "name": "station-2-front",
+      "state": {
+        "ready": true,
+        "camera": [
+          -1,
+          4,
+          -22
+        ],
+        "target": [
+          2.865556717425341,
+          3.702649483274974,
+          -31.217866018475817
+        ],
+        "route": {
+          "active": true,
+          "mode": "tour",
+          "paused": true,
+          "elapsed": 14.4,
+          "duration": 72,
+          "progress": 0.2,
+          "goal": 0.2,
+          "yaw": 0.3970794452249823,
+          "pitch": -0.02973943523996876,
+          "position": [
+            -1,
+            4,
+            -22
+          ],
+          "speed": 0,
+          "region": "珊瑚门廊",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.5291000000000003,
+        "ambientPaused": true,
+        "frames": 180,
+        "stats": {
+          "version": "01.2-stage",
+          "habitats": [
+            "shell-portal",
+            "rose-plate-garden",
+            "sea-feather-bay",
+            "blue-canyon",
+            "umbrella-grove",
+            "gold-fan-lookout"
+          ],
+          "reefVariants": 6,
+          "coralInstances": 730,
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 10,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 68,
+          "triangles": 511790
+        },
+        "renderer": {
+          "calls": 76,
+          "triangles": 517954
+        }
+      }
+    },
+    {
+      "name": "station-2-return",
+      "state": {
+        "ready": true,
+        "camera": [
+          -1,
+          4,
+          -22
+        ],
+        "target": [
+          -5.1406516155098805,
+          3.702649483274974,
+          -12.902385649568412
+        ],
+        "route": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 14.4,
+          "duration": 72,
+          "progress": 0.2,
+          "goal": 0.2,
+          "yaw": -2.7144758619546003,
+          "pitch": -0.02973943523996876,
+          "position": [
+            -1,
+            4,
+            -22
+          ],
+          "speed": 0,
+          "region": "珊瑚门廊",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.5291000000000003,
+        "ambientPaused": true,
+        "frames": 294,
+        "stats": {
+          "version": "01.2-stage",
+          "habitats": [
+            "shell-portal",
+            "rose-plate-garden",
+            "sea-feather-bay",
+            "blue-canyon",
+            "umbrella-grove",
+            "gold-fan-lookout"
+          ],
+          "reefVariants": 6,
+          "coralInstances": 730,
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 10,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 68,
+          "triangles": 511790
+        },
+        "renderer": {
+          "calls": 20,
+          "triangles": 506560
+        }
+      }
+    },
+    {
+      "name": "station-3-front",
+      "state": {
+        "ready": true,
+        "camera": [
+          15,
+          3.4,
+          -65
+        ],
+        "target": [
+          9.21325073643643,
+          3.5578204344608246,
+          -73.15405578047594
+        ],
+        "route": {
+          "active": true,
+          "mode": "tour",
+          "paused": true,
+          "elapsed": 28.8,
+          "duration": 72,
+          "progress": 0.4,
+          "goal": 0.4,
+          "yaw": -0.6171913915403622,
+          "pitch": 0.015782698666066578,
+          "position": [
+            15,
+            3.4,
+            -65
+          ],
+          "speed": 0,
+          "region": "虹色礁庭",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.5291000000000003,
+        "ambientPaused": true,
+        "frames": 311,
+        "stats": {
+          "version": "01.2-stage",
+          "habitats": [
+            "shell-portal",
+            "rose-plate-garden",
+            "sea-feather-bay",
+            "blue-canyon",
+            "umbrella-grove",
+            "gold-fan-lookout"
+          ],
+          "reefVariants": 6,
+          "coralInstances": 730,
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 10,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 68,
+          "triangles": 511790
+        },
+        "renderer": {
+          "calls": 66,
+          "triangles": 514612
+        }
+      }
+    },
+    {
+      "name": "station-3-return",
+      "state": {
+        "ready": true,
+        "camera": [
+          15,
+          3.4,
+          -65
+        ],
+        "target": [
+          21.2776887135509,
+          3.5578204344608246,
+          -57.21760209663999
+        ],
+        "route": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 28.8,
+          "duration": 72,
+          "progress": 0.4,
+          "goal": 0.4,
+          "yaw": 2.4628086084596212,
+          "pitch": 0.015782698666066578,
+          "position": [
+            15,
+            3.4,
+            -65
+          ],
+          "speed": 0,
+          "region": "虹色礁庭",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.5291000000000003,
+        "ambientPaused": true,
+        "frames": 409,
+        "stats": {
+          "version": "01.2-stage",
+          "habitats": [
+            "shell-portal",
+            "rose-plate-garden",
+            "sea-feather-bay",
+            "blue-canyon",
+            "umbrella-grove",
+            "gold-fan-lookout"
+          ],
+          "reefVariants": 6,
+          "coralInstances": 730,
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 10,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 68,
+          "triangles": 511790
+        },
+        "renderer": {
+          "calls": 23,
+          "triangles": 508422
+        }
+      }
+    },
+    {
+      "name": "station-4-front",
+      "state": {
+        "ready": true,
+        "camera": [
+          0,
+          3.2,
+          -108
+        ],
+        "target": [
+          -5.128558974806908,
+          3.9977758405255193,
+          -116.54759829134484
+        ],
+        "route": {
+          "active": true,
+          "mode": "tour",
+          "paused": true,
+          "elapsed": 43.199999999999996,
+          "duration": 72,
+          "progress": 0.6,
+          "goal": 0.6,
+          "yaw": -0.5404195002705842,
+          "pitch": 0.07986245091656326,
+          "position": [
+            0,
+            3.2,
+            -108
+          ],
+          "speed": 0,
+          "region": "虹色礁庭",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.5291000000000003,
+        "ambientPaused": true,
+        "frames": 424,
+        "stats": {
+          "version": "01.2-stage",
+          "habitats": [
+            "shell-portal",
+            "rose-plate-garden",
+            "sea-feather-bay",
+            "blue-canyon",
+            "umbrella-grove",
+            "gold-fan-lookout"
+          ],
+          "reefVariants": 6,
+          "coralInstances": 730,
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 10,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 68,
+          "triangles": 511790
+        },
+        "renderer": {
+          "calls": 76,
+          "triangles": 515008
+        }
+      }
+    },
+    {
+      "name": "station-4-return",
+      "state": {
+        "ready": true,
+        "camera": [
+          0,
+          3.2,
+          -108
+        ],
+        "target": [
+          4.947791691654992,
+          3.9977758405255193,
+          -99.34650873437411
+        ],
+        "route": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 43.199999999999996,
+          "duration": 72,
+          "progress": 0.6,
+          "goal": 0.6,
+          "yaw": 2.622190499729415,
+          "pitch": 0.07986245091656326,
+          "position": [
+            0,
+            3.2,
+            -108
+          ],
+          "speed": 0,
+          "region": "虹色礁庭",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.5291000000000003,
+        "ambientPaused": true,
+        "frames": 548,
+        "stats": {
+          "version": "01.2-stage",
+          "habitats": [
+            "shell-portal",
+            "rose-plate-garden",
+            "sea-feather-bay",
+            "blue-canyon",
+            "umbrella-grove",
+            "gold-fan-lookout"
+          ],
+          "reefVariants": 6,
+          "coralInstances": 730,
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 10,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 68,
+          "triangles": 511790
+        },
+        "renderer": {
+          "calls": 51,
+          "triangles": 512374
+        }
+      }
+    },
+    {
+      "name": "station-5-front",
+      "state": {
+        "ready": true,
+        "camera": [
+          -22,
+          2.3,
+          -144
+        ],
+        "target": [
+          -19.533916253487412,
+          5.197648402152291,
+          -153.2478140494222
+        ],
+        "route": {
+          "active": true,
+          "mode": "tour",
+          "paused": true,
+          "elapsed": 57.6,
+          "duration": 72,
+          "progress": 0.8,
+          "goal": 0.8,
+          "yaw": 0.260602391747341,
+          "pitch": 0.2939811277323144,
+          "position": [
+            -22,
+            2.3,
+            -144
+          ],
+          "speed": 0,
+          "region": "月弧峡湾",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.5291000000000003,
+        "ambientPaused": true,
+        "frames": 564,
+        "stats": {
+          "version": "01.2-stage",
+          "habitats": [
+            "shell-portal",
+            "rose-plate-garden",
+            "sea-feather-bay",
+            "blue-canyon",
+            "umbrella-grove",
+            "gold-fan-lookout"
+          ],
+          "reefVariants": 6,
+          "coralInstances": 730,
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 10,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 68,
+          "triangles": 511790
+        },
+        "renderer": {
+          "calls": 73,
+          "triangles": 511906
+        }
+      }
+    },
+    {
+      "name": "station-5-return",
+      "state": {
+        "ready": true,
+        "camera": [
+          -22,
+          2.3,
+          -144
+        ],
+        "target": [
+          -24.571782787223597,
+          5.197648402152291,
+          -134.78102136715543
+        ],
+        "route": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 57.6,
+          "duration": 72,
+          "progress": 0.8,
+          "goal": 0.8,
+          "yaw": -2.869542915432251,
+          "pitch": 0.2939811277323144,
+          "position": [
+            -22,
+            2.3,
+            -144
+          ],
+          "speed": 0,
+          "region": "月弧峡湾",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.5291000000000003,
+        "ambientPaused": true,
+        "frames": 680,
+        "stats": {
+          "version": "01.2-stage",
+          "habitats": [
+            "shell-portal",
+            "rose-plate-garden",
+            "sea-feather-bay",
+            "blue-canyon",
+            "umbrella-grove",
+            "gold-fan-lookout"
+          ],
+          "reefVariants": 6,
+          "coralInstances": 730,
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 10,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 68,
+          "triangles": 511790
+        },
+        "renderer": {
+          "calls": 72,
+          "triangles": 515308
+        }
+      }
+    },
+    {
+      "name": "station-6-front",
+      "state": {
+        "ready": true,
+        "camera": [
+          -18,
+          5,
+          -199
+        ],
+        "target": [
+          -16.85396803099233,
+          5.191005328167945,
+          -189.06772293526686
+        ],
+        "route": {
+          "active": true,
+          "mode": "tour",
+          "paused": true,
+          "elapsed": 72,
+          "duration": 72,
+          "progress": 1,
+          "goal": 1,
+          "yaw": 3.026716048172894,
+          "pitch": 0.019101694416533168,
+          "position": [
+            -18,
+            5,
+            -199
+          ],
+          "speed": 0,
+          "region": "月弧峡湾",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.5291000000000003,
+        "ambientPaused": true,
+        "frames": 698,
+        "stats": {
+          "version": "01.2-stage",
+          "habitats": [
+            "shell-portal",
+            "rose-plate-garden",
+            "sea-feather-bay",
+            "blue-canyon",
+            "umbrella-grove",
+            "gold-fan-lookout"
+          ],
+          "reefVariants": 6,
+          "coralInstances": 730,
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 10,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 68,
+          "triangles": 511790
+        },
+        "renderer": {
+          "calls": 83,
+          "triangles": 516268
+        }
+      }
+    },
+    {
+      "name": "station-6-return",
+      "state": {
+        "ready": true,
+        "camera": [
+          -18,
+          5,
+          -199
+        ],
+        "target": [
+          -18.620180959468737,
+          5.191005328167945,
+          -208.97892241387436
+        ],
+        "route": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 72,
+          "duration": 72,
+          "progress": 1,
+          "goal": 1,
+          "yaw": -0.062069259006694466,
+          "pitch": 0.019101694416533168,
+          "position": [
+            -18,
+            5,
+            -199
+          ],
+          "speed": 0,
+          "region": "月弧峡湾",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.5291000000000003,
+        "ambientPaused": true,
+        "frames": 825,
+        "stats": {
+          "version": "01.2-stage",
+          "habitats": [
+            "shell-portal",
+            "rose-plate-garden",
+            "sea-feather-bay",
+            "blue-canyon",
+            "umbrella-grove",
+            "gold-fan-lookout"
+          ],
+          "reefVariants": 6,
+          "coralInstances": 730,
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 10,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 68,
+          "triangles": 511790
+        },
+        "renderer": {
+          "calls": 23,
+          "triangles": 502932
+        }
+      }
+    },
+    {
+      "name": "natural-motion-1",
+      "state": {
+        "ready": true,
+        "camera": [
+          -0.9706695195893554,
+          4.005866096082129,
+          -20.65079790111035
+        ],
+        "target": [
+          2.75265060913585,
+          3.7263803410697958,
+          -29.927584787299715
+        ],
+        "route": {
+          "active": true,
+          "mode": "tour",
+          "paused": false,
+          "elapsed": 12.924899999999997,
+          "duration": 72,
+          "progress": 0.17951249999999996,
+          "goal": 0.17951249999999996,
+          "yaw": 0.38167721437003493,
+          "pitch": -0.02795221532605941,
+          "position": [
+            -0.9706695195893554,
+            4.005866096082129,
+            -20.65079790111035
+          ],
+          "speed": 1.7868711170149292,
+          "region": "珊瑚门廊",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 13.629099999999996,
+        "ambientPaused": false,
+        "frames": 1169,
+        "stats": {
+          "version": "01.2-stage",
+          "habitats": [
+            "shell-portal",
+            "rose-plate-garden",
+            "sea-feather-bay",
+            "blue-canyon",
+            "umbrella-grove",
+            "gold-fan-lookout"
+          ],
+          "reefVariants": 6,
+          "coralInstances": 730,
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 10,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 68,
+          "triangles": 511790
+        },
+        "renderer": {
+          "calls": 77,
+          "triangles": 518122
+        }
+      }
+    },
+    {
+      "name": "natural-motion-2",
+      "state": {
+        "ready": true,
+        "camera": [
+          14.398099671057047,
+          3.4225712623353606,
+          -63.38239286596581
+        ],
+        "target": [
+          8.848582262034867,
+          3.5674068822643243,
+          -71.69995736347104
+        ],
+        "route": {
+          "active": true,
+          "mode": "tour",
+          "paused": false,
+          "elapsed": 27.120900000000063,
+          "duration": 72,
+          "progress": 0.37667916666666756,
+          "goal": 0.37667916666666756,
+          "yaw": -0.5883749360837539,
+          "pitch": 0.014484068418782928,
+          "position": [
+            14.398099671057047,
+            3.4225712623353606,
+            -63.38239286596581
+          ],
+          "speed": 1.9884894359185756,
+          "region": "虹色礁庭",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 27.82510000000006,
+        "ambientPaused": false,
+        "frames": 1493,
+        "stats": {
+          "version": "01.2-stage",
+          "habitats": [
+            "shell-portal",
+            "rose-plate-garden",
+            "sea-feather-bay",
+            "blue-canyon",
+            "umbrella-grove",
+            "gold-fan-lookout"
+          ],
+          "reefVariants": 6,
+          "coralInstances": 730,
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 10,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 68,
+          "triangles": 511790
+        },
+        "renderer": {
+          "calls": 66,
+          "triangles": 514612
+        }
+      }
+    },
+    {
+      "name": "natural-motion-3",
+      "state": {
+        "ready": true,
+        "camera": [
+          1.2181559736255014,
+          3.21624207964834,
+          -104.50795287560689
+        ],
+        "target": [
+          -3.9699778651209714,
+          3.958395716617458,
+          -113.02455285742988
+        ],
+        "route": {
+          "active": true,
+          "mode": "tour",
+          "paused": false,
+          "elapsed": 40.679099999999984,
+          "duration": 72,
+          "progress": 0.5649874999999998,
+          "goal": 0.5649874999999998,
+          "yaw": -0.5471414405738438,
+          "pitch": 0.07428366183091968,
+          "position": [
+            1.2181559736255014,
+            3.21624207964834,
+            -104.50795287560689
+          ],
+          "speed": 2.7546092918143494,
+          "region": "虹色礁庭",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 41.38329999999996,
+        "ambientPaused": false,
+        "frames": 1829,
+        "stats": {
+          "version": "01.2-stage",
+          "habitats": [
+            "shell-portal",
+            "rose-plate-garden",
+            "sea-feather-bay",
+            "blue-canyon",
+            "umbrella-grove",
+            "gold-fan-lookout"
+          ],
+          "reefVariants": 6,
+          "coralInstances": 730,
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 10,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 68,
+          "triangles": 511790
+        },
+        "renderer": {
+          "calls": 76,
+          "triangles": 515140
+        }
+      }
+    },
+    {
+      "name": "natural-motion-4",
+      "state": {
+        "ready": true,
+        "camera": [
+          -20.027474992412074,
+          2.3806942048558697,
+          -140.77223180576522
+        ],
+        "target": [
+          -18.84054634495321,
+          5.0324487799078845,
+          -150.34089932321675
+        ],
+        "route": {
+          "active": true,
+          "mode": "tour",
+          "paused": false,
+          "elapsed": 54.9415999999999,
+          "duration": 72,
+          "progress": 0.7630777777777764,
+          "goal": 0.7630777777777764,
+          "yaw": 0.12341285624691783,
+          "pitch": 0.2683858898411672,
+          "position": [
+            -20.027474992412074,
+            2.3806942048558697,
+            -140.77223180576522
+          ],
+          "speed": 2.6675457769246806,
+          "region": "月弧峡湾",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 53.75819999999988,
+        "ambientPaused": false,
+        "frames": 2122,
+        "stats": {
+          "version": "01.2-stage",
+          "habitats": [
+            "shell-portal",
+            "rose-plate-garden",
+            "sea-feather-bay",
+            "blue-canyon",
+            "umbrella-grove",
+            "gold-fan-lookout"
+          ],
+          "reefVariants": 6,
+          "coralInstances": 730,
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 10,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 68,
+          "triangles": 511790
+        },
+        "renderer": {
+          "calls": 78,
+          "triangles": 513832
+        }
+      }
+    },
+    {
+      "name": "natural-motion-5",
+      "state": {
+        "ready": true,
+        "camera": [
+          -19.159352955340747,
+          4.217436755144995,
+          -183.0588968640647
+        ],
+        "target": [
+          -17.521475840026326,
+          4.843661176970825,
+          -173.21383711164887
+        ],
+        "route": {
+          "active": true,
+          "mode": "tour",
+          "paused": false,
+          "elapsed": 66.87499999999983,
+          "duration": 72,
+          "progress": 0.9288194444444421,
+          "goal": 0.9288194444444421,
+          "yaw": 2.9767371334352126,
+          "pitch": 0.06266344429844328,
+          "position": [
+            -19.159352955340747,
+            4.217436755144995,
+            -183.0588968640647
+          ],
+          "speed": 5.285900095865037,
+          "region": "月弧峡湾",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 65.69159999999977,
+        "ambientPaused": false,
+        "frames": 2446,
+        "stats": {
+          "version": "01.2-stage",
+          "habitats": [
+            "shell-portal",
+            "rose-plate-garden",
+            "sea-feather-bay",
+            "blue-canyon",
+            "umbrella-grove",
+            "gold-fan-lookout"
+          ],
+          "reefVariants": 6,
+          "coralInstances": 730,
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 10,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 68,
+          "triangles": 511790
+        },
+        "renderer": {
+          "calls": 88,
+          "triangles": 516976
+        }
+      }
+    },
+    {
+      "name": "natural-end",
+      "state": {
+        "ready": true,
+        "camera": [
+          -18,
+          5,
+          -199
+        ],
+        "target": [
+          -16.85396803099233,
+          5.191005328167945,
+          -189.06772293526686
+        ],
+        "route": {
+          "active": true,
+          "mode": "completed",
+          "paused": true,
+          "elapsed": 72,
+          "duration": 72,
+          "progress": 1,
+          "goal": 1,
+          "yaw": 3.026716048172894,
+          "pitch": 0.019101694416533168,
+          "position": [
+            -18,
+            5,
+            -199
+          ],
+          "speed": 0,
+          "region": "月弧峡湾",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 71.83729999999963,
+        "ambientPaused": false,
+        "frames": 2589,
+        "stats": {
+          "version": "01.2-stage",
+          "habitats": [
+            "shell-portal",
+            "rose-plate-garden",
+            "sea-feather-bay",
+            "blue-canyon",
+            "umbrella-grove",
+            "gold-fan-lookout"
+          ],
+          "reefVariants": 6,
+          "coralInstances": 730,
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 10,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 68,
+          "triangles": 511790
+        },
+        "renderer": {
+          "calls": 83,
+          "triangles": 516268
+        }
+      }
+    },
+    {
+      "name": "free-through-portal",
+      "state": {
+        "ready": true,
+        "camera": [
+          0,
+          5.2725689394555495,
+          -37.67271401869451
+        ],
+        "target": [
+          0,
+          5.446455688249131,
+          -47.67120207432542
+        ],
+        "route": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 0,
+          "duration": 72,
+          "progress": 0,
+          "goal": 0,
+          "yaw": 0,
+          "pitch": 0.01738955128933065,
+          "position": [
+            0,
+            5.2725689394555495,
+            -37.67271401869451
+          ],
+          "speed": 0,
+          "region": "珊瑚门廊",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 80.93299999999944,
+        "ambientPaused": false,
+        "frames": 2769,
+        "stats": {
+          "version": "01.2-stage",
+          "habitats": [
+            "shell-portal",
+            "rose-plate-garden",
+            "sea-feather-bay",
+            "blue-canyon",
+            "umbrella-grove",
+            "gold-fan-lookout"
+          ],
+          "reefVariants": 6,
+          "coralInstances": 730,
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 10,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 68,
+          "triangles": 511790
+        },
+        "renderer": {
+          "calls": 73,
+          "triangles": 517498
+        }
+      }
+    }
+  ],
+  "checks": {
+    "sixStationsAndReturn": {
+      "passed": true,
+      "frames": 12
+    },
+    "naturalTour": {
+      "passed": true,
+      "wallSeconds": 72.53200000000652,
+      "elapsed": 72,
+      "final": {
+        "ready": true,
+        "camera": [
+          -18,
+          5,
+          -199
+        ],
+        "target": [
+          -16.85396803099233,
+          5.191005328167945,
+          -189.06772293526686
+        ],
+        "route": {
+          "active": true,
+          "mode": "completed",
+          "paused": true,
+          "elapsed": 72,
+          "duration": 72,
+          "progress": 1,
+          "goal": 1,
+          "yaw": 3.026716048172894,
+          "pitch": 0.019101694416533168,
+          "position": [
+            -18,
+            5,
+            -199
+          ],
+          "speed": 0,
+          "region": "月弧峡湾",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 71.29559999999965,
+        "ambientPaused": false,
+        "frames": 2577,
+        "stats": {
+          "version": "01.2-stage",
+          "habitats": [
+            "shell-portal",
+            "rose-plate-garden",
+            "sea-feather-bay",
+            "blue-canyon",
+            "umbrella-grove",
+            "gold-fan-lookout"
+          ],
+          "reefVariants": 6,
+          "coralInstances": 730,
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 42,
+          "seaFans": 9,
+          "giantCorals": 10,
+          "fish": 288,
+          "plantTufts": 512,
+          "obstacles": 68,
+          "triangles": 511790
+        },
+        "renderer": {
+          "calls": 83,
+          "triangles": 516268
+        }
+      }
+    },
+    "replayPauseResume": {
+      "passed": true
+    },
+    "freeForwardReverse": {
+      "passed": true
+    }
+  },
+  "clockInjection": false,
+  "device": {
+    "cpu": {
+      "Name": "13th Gen Intel(R) Core(TM) i9-13980HX",
+      "NumberOfCores": 24,
+      "NumberOfLogicalProcessors": 32
+    },
+    "gpu": [
+      {
+        "Name": "Intel(R) UHD Graphics",
+        "DriverVersion": "32.0.101.6790",
+        "AdapterRAM": 2147479552
+      },
+      {
+        "Name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+        "DriverVersion": "32.0.15.7628",
+        "AdapterRAM": 4293918720
+      }
+    ],
+    "os": {
+      "Caption": "Microsoft Windows 11 家庭版 中文版",
+      "Version": "10.0.26200",
+      "TotalVisibleMemorySize": 16386680
+    }
+  },
+  "sourceHashes": {
+    "app.js": "c71e2f3c67e9d1ef9406d6adf55879066f8ea50cd1d7b3069dd59c2dfae5169b",
+    "index.html": "58e6182c3057bfb9cb6f6a734d7c6f1c4d01e972d87ae0876cd1ca9dc4af5bf9",
+    "navigation.js": "13cab5910ade6b1ff8c98cf320bf6607ce576bc8e7dcbf4add4c4446681423da",
+    "style.css": "6bc87ddd73d9edf9f9db8a3cd772b76af35de04acb0b825e913ea413a3665ba1",
+    "world.js": "7842941d4222dbd25d8c4849ccf092a442ee7f98790403c8ed8c9ad82107eee3"
+  },
+  "v11Hashes": {
+    "app.js": "c71e2f3c67e9d1ef9406d6adf55879066f8ea50cd1d7b3069dd59c2dfae5169b",
+    "index.html": "aacbec7060a13cefd1ada39e4324f28da85af6e00aa4936222afe6bfb13e4099",
+    "navigation.js": "13cab5910ade6b1ff8c98cf320bf6607ce576bc8e7dcbf4add4c4446681423da",
+    "style.css": "6bc87ddd73d9edf9f9db8a3cd772b76af35de04acb0b825e913ea413a3665ba1",
+    "world.js": "e4e10d0f6263c808662f040e0191ea33ae2ead02c8bbdb45b765139301346cde"
+  },
+  "browser": {
+    "protocolVersion": "1.3",
+    "product": "Edg/155.0.4283.45",
+    "revision": "@50f24ef2aa5369a074b8888b7db82d9c0652d642",
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+    "jsVersion": "15.5.9.4"
+  },
+  "loadToReadySeconds": 2.687999999965541,
+  "webgl": {
+    "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A788) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "vendor": "Google Inc. (Intel)",
+    "hardwareConcurrency": 32,
+    "deviceMemory": 16,
+    "viewport": [
+      1280,
+      820
+    ],
+    "pixelRatio": 1
+  },
+  "performance": {
+    "sampleFrames": 1688,
+    "medianFrameGapMs": 40.60000002384186,
+    "p95FrameGapMs": 59.299999952316284,
+    "maxFrameGapMs": 1042.5,
+    "over100ms": 4,
+    "over250ms": 2,
+    "recordingActive": true,
+    "scope": "This Windows machine, 1280x820, Edge headless, actual ANGLE GPU above; includes screenshot/recording overhead. Not a physical phone or other-device performance claim."
+  },
+  "failure": "AssertionError('Portal pillar collision')",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\yun68\\Documents\\Codex\\2026-10-12\\task-2\\azure-reef-3d\\verify-garden-stage.py\", line 38, in <module>\n    page.keyboard.press('Home');page.keyboard.down('w');page.wait_for_timeout(7200);page.keyboard.up('w');page.keyboard.down('d');page.wait_for_timeout(3500);page.keyboard.up('d');a=state();page.keyboard.down('d');page.wait_for_timeout(1000);page.keyboard.up('d');b=state();assert abs(a['camera'][0]-b['camera'][0])<.5,'Portal pillar collision';page.keyboard.down('a');page.wait_for_timeout(700);page.keyboard.up('a');c=state();assert c['camera'][0]<b['camera'][0]-1;shot('collision-escape');page.keyboard.press('Home');assert state()['camera']==[0,4.2,24];report['checks']['collisionEscapeAndHome']={'passed':True,'blocked':b['camera'],'escaped':c['camera']}\nAssertionError: Portal pillar collision\n",
+  "scopeNote": "First draft visual/recorded tour evidence; visual framing needs one correction and fixed-time collision assertion failed. Not published or accepted as final."
+}
