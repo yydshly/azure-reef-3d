@@ -1,0 +1,69 @@
+name: Deploy isolated Reef Garden while preserving the published site
+on:
+  workflow_dispatch:
+    inputs:
+      snapshot_url:
+        description: Short-lived authorized download of the existing published artifact
+        required: true
+        type: string
+      snapshot_digest:
+        description: Existing artifact SHA256
+        required: true
+        type: string
+      protected_hashes:
+        description: Exact current public root and world entry hashes
+        required: true
+        type: string
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 15
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout only the new original preview and its checks
+        uses: actions/checkout@v6
+        with:
+          filter: blob:none
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /dist/preview/reef-garden-v1/**
+            /dist/vendor/**
+            /dist/utils/**
+            /qa-garden.mjs
+            /qa-register.mjs
+            /qa-three-loader.mjs
+            /restore-published-preview.py
+      - name: Restore existing published bytes and append only the new preview
+        run: python3 restore-published-preview.py
+      - name: Set up the existing Node runtime
+        uses: actions/setup-node@v6
+        with:
+          node-version: '22'
+      - name: Check the original scene and safe six-stop journey
+        run: |
+          node --import ./qa-register.mjs qa-garden.mjs
+          node --check dist/preview/reef-garden-v1/app.js
+      - name: Preserve publication receipt
+        uses: actions/upload-artifact@v4
+        with:
+          name: reef-garden-publication-receipt
+          path: publication-receipt.json
+          retention-days: 7
+      - name: Configure existing Pages
+        uses: actions/configure-pages@v5
+      - name: Upload complete preserved site plus the independent preview
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: .published-site
+      - name: Deploy existing Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,78 @@
+{
+  "collision-touch-retest.json": {
+    "bytes": 672,
+    "sha256": "02c8870c9f1bc7c94a4b2249832bd0a70a5c4740ae3e5a06ff340eb42e2c53c6"
+  },
+  "cpu.json": {
+    "bytes": 508,
+    "sha256": "6f502a7f4bed96a7a534438165651f60d63a02c1699c8808083b03e1b45c70ff"
+  },
+  "deep-reverse.png": {
+    "bytes": 182795,
+    "sha256": "c26b5d0a7a2a8ef78afc22911a6086ec8d90f3e60673f2fcf2fa897eae56000e"
+  },
+  "deep.png": {
+    "bytes": 244882,
+    "sha256": "1062cf1afaf236a2331a2c8e69b8d16e588c6d0cd8a46e5b3224a480d433da01"
+  },
+  "entry-reverse.png": {
+    "bytes": 214255,
+    "sha256": "c04f4c73680702d32c22afb32ced8b2994735d9d4e7fca66e9a9eefc43266fa6"
+  },
+  "entry.png": {
+    "bytes": 308015,
+    "sha256": "398dcd535e503f4d3dc20513d36bf2374fc02ee99fa87d7d1955a5c17675b91e"
+  },
+  "first-run-preserved.json": {
+    "bytes": 4626,
+    "sha256": "f8c020b128f03ea1e9b67de26f2bd9f37b30a732429e8b63d34d1ce897ad36d8"
+  },
+  "free-through-portal.png": {
+    "bytes": 304388,
+    "sha256": "361bf4bdc8043871209c2fd6cf6092fa949f1d4df060964701cea2df7525cf9e"
+  },
+  "mid-reverse.png": {
+    "bytes": 223937,
+    "sha256": "3fc52b3a071c8836c7532c96965e38157e7fd2dcdf5e86eba9087226feec2a94"
+  },
+  "mid.png": {
+    "bytes": 284992,
+    "sha256": "8a216fc9a9a3a4804790a40a0673f05db81c68e82923f4a01275e39ace1c5bd8"
+  },
+  "mobile-390.png": {
+    "bytes": 95781,
+    "sha256": "cc4631ec7924671deeb245ff2443a68f2fdd1d299c855b4b516314f60f107f7e"
+  },
+  "natural-tour.webm": {
+    "bytes": 12279408,
+    "sha256": "883a68e482af985169a6248b101f686c2ff7438440a9310ada436cfb023f2c62"
+  },
+  "portal-collision.png": {
+    "bytes": 280599,
+    "sha256": "afaed5f1e557c45b7fa005da4d15143ca49e522728f877bc42b5d99ddd02adc3"
+  },
+  "tour-completed.png": {
+    "bytes": 247711,
+    "sha256": "061df1b435950a99c087d7a84ba219c60c93ca84a79ffedcbae6fea2be44b323"
+  },
+  "tour-meadow.png": {
+    "bytes": 266153,
+    "sha256": "d35bb7511f4db63943489a33d417baeac253a60d82bbd0d0ef1ade602dbdf9ca"
+  },
+  "tour-moon-arc.png": {
+    "bytes": 224611,
+    "sha256": "1ddb1f12fb1f6ba4153f7acf4da14a732f3c2c96964062d9c14fa9f511036c28"
+  },
+  "tour-portal.png": {
+    "bytes": 238921,
+    "sha256": "b3a96650d93ca08058469accb7e772b7871a4ec7fe4b007943a0af874d6542df"
+  },
+  "verification.json": {
+    "bytes": 3091,
+    "sha256": "6dbbf23f954de3181727fe274c2883d6055d2026f8f2155d16a6649c1e909b9e"
+  },
+  "views.json": {
+    "bytes": 8770,
+    "sha256": "ed943bec432c183acd221ef60dd08c048fe5fcd1a504fea97bce37b2aa272456"
+  }
+}

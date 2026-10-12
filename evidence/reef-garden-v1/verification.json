@@ -1,0 +1,112 @@
+{
+  "status": "PASS",
+  "sourceHashes": {
+    "app.js": "f35ed59bae36eb558501378674254a44458850af4753a30c63307be1dda3dd5b",
+    "index.html": "f429cc9017d6ed16fa62a6147ec97291cbee09c9ef761d8fa4bc1f7e3ccd5c54",
+    "navigation.js": "13cab5910ade6b1ff8c98cf320bf6607ce576bc8e7dcbf4add4c4446681423da",
+    "style.css": "1ebf11cfc86352dabd3a5e9ac0fce4f9960b19a31879b51f65474ce05bc4f7f2",
+    "world.js": "f550a54b6e8a8586db061723b9b37f36abc0375e5e768d9846d1cd6ac20aea37"
+  },
+  "nativeTourSeconds": 72.07799999997951,
+  "checks": {
+    "naturalTour": {
+      "passed": true,
+      "wallSeconds": 72.07799999997951,
+      "elapsed": 72,
+      "final": {
+        "ready": true,
+        "camera": [
+          -18,
+          5,
+          -199
+        ],
+        "target": [
+          -16.85396803099233,
+          5.191005328167945,
+          -189.06772293526686
+        ],
+        "route": {
+          "active": true,
+          "mode": "completed",
+          "paused": true,
+          "elapsed": 72,
+          "duration": 72,
+          "progress": 1,
+          "goal": 1,
+          "yaw": 3.026716048172894,
+          "pitch": 0.019101694416533168,
+          "position": [
+            -18,
+            5,
+            -199
+          ],
+          "speed": 0,
+          "region": "月弧峡湾",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 72.33730000000018,
+        "ambientPaused": false,
+        "frames": 3047,
+        "stats": {
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 29,
+          "giantCorals": 14,
+          "fish": 216,
+          "plantTufts": 506,
+          "obstacles": 63,
+          "triangles": 406634
+        },
+        "renderer": {
+          "calls": 102,
+          "triangles": 413796
+        }
+      }
+    },
+    "pauseResumeReplay": {
+      "passed": true
+    },
+    "turnInPlace": {
+      "passed": true
+    },
+    "freePortalForwardReverse": {
+      "passed": true,
+      "forward": [
+        0,
+        5.342701986299483,
+        -41.70536421222022
+      ],
+      "reverse": [
+        0,
+        5.2336523895285625,
+        -35.43501239789237
+      ]
+    },
+    "portalCollisionEscape": {
+      "passed": true,
+      "blocked": [
+        7.933100000000021,
+        5.074368649898669,
+        -26.276197369173353
+      ],
+      "escaped": [
+        2.887500000000004,
+        5.074368649898669,
+        -26.276197369173353
+      ]
+    },
+    "returnHome": {
+      "passed": true
+    },
+    "mobileReducedTouch": {
+      "passed": true,
+      "physicalPhoneTested": false
+    }
+  },
+  "video": "artifacts\\garden-qa\\video\\page@3b15f49136d51a7239cf27017728bc33.webm",
+  "scope": "Real desktop tour and input; one bounded collision target correction; 390x740 touch/reduced-motion emulation. Physical phone performance remains untested.",
+  "clockInjection": false,
+  "firstFailurePreserved": "native-tour-first.json"
+}

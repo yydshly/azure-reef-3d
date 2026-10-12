@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "checks": {
+    "portalCollisionEscape": {
+      "passed": true,
+      "blocked": [
+        7.933100000000021,
+        5.074368649898669,
+        -26.276197369173353
+      ],
+      "escaped": [
+        2.887500000000004,
+        5.074368649898669,
+        -26.276197369173353
+      ]
+    },
+    "returnHome": {
+      "passed": true
+    },
+    "mobileReducedTouch": {
+      "passed": true,
+      "physicalPhoneTested": false
+    }
+  },
+  "reasonForRetest": "The first collision assertion selected a low reef while the swimmer was above its top. Runtime is unchanged; target the actual tall portal pillar."
+}
