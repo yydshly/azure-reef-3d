@@ -1,0 +1,77 @@
+{
+  "id": 38220531117,
+  "url": "https://github.com/yydshly/azure-reef-3d/actions/runs/38220531117",
+  "status": "completed",
+  "conclusion": "success",
+  "sha": "2442e73221615cff960e981e1504064b4b9e70b7",
+  "jobs": [
+    {
+      "id": 114715417479,
+      "name": "deploy",
+      "status": "completed",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Checkout only the new original preview and its checks",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Restore existing published bytes and append only the new preview",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Set up the existing Node runtime",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Check the original scene and safe six-stop journey",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Preserve publication receipt",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Configure existing Pages",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Upload complete preserved site plus the independent preview",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Deploy existing Pages",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Set up the existing Node runtime",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Checkout only the new original preview and its checks",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ]
+}

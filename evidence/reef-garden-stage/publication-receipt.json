@@ -1,0 +1,53 @@
+{
+  "status": "ORIGINAL_SITE_AND_FIRST_PRESERVED_01_1_FROZEN_STAGE_01_2_PUBLISHED",
+  "previousSiteFileCount": 2314,
+  "oldFileCount": 2304,
+  "oldFilesChanged": 0,
+  "preservedExistingFiles": 2309,
+  "oldPublishedHashAggregate": "01aad68d56b0aeab32c523df6110b002adfc399782722fd75976b105dfeb7461",
+  "protectedPublicHashes": {
+    "index.html": "d5316957d3a1c9f1482cffcd66e81668a21999488061975d451b880547a84c82",
+    "app.js": "4127a29d4d9aed14a55d0f8a9a8ac8058fd8d6fc524683fa5dc48f8e8744a027",
+    "preview/world/index.html": "1ba6c6a2c5affe3cbee5b8115aec603ad32b4b40c8c7d6a367a6105abab76886",
+    "preview/world/current-world.json": "450754b013096a6325a6bc9f2f27a61dfd98eaf9edb7d432f1f1962b5333f497",
+    "vendor/three.module.js": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea",
+    "vendor/three.core.js": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+  },
+  "newFiles": {
+    "preview/reef-garden-v1/app.js": "c71e2f3c67e9d1ef9406d6adf55879066f8ea50cd1d7b3069dd59c2dfae5169b",
+    "preview/reef-garden-v1/navigation.js": "13cab5910ade6b1ff8c98cf320bf6607ce576bc8e7dcbf4add4c4446681423da",
+    "preview/reef-garden-v1/world.js": "1fa85a881d4dac1df12ab3dc358191ebdf6e9042d799a82ee2c6c12e366270a7",
+    "preview/reef-garden-v1/index.html": "58e6182c3057bfb9cb6f6a734d7c6f1c4d01e972d87ae0876cd1ca9dc4af5bf9",
+    "preview/reef-garden-v1/style.css": "6bc87ddd73d9edf9f9db8a3cd772b76af35de04acb0b825e913ea413a3665ba1"
+  },
+  "frozenV11Files": {
+    "preview/reef-garden-v11/app.js": "c71e2f3c67e9d1ef9406d6adf55879066f8ea50cd1d7b3069dd59c2dfae5169b",
+    "preview/reef-garden-v11/navigation.js": "13cab5910ade6b1ff8c98cf320bf6607ce576bc8e7dcbf4add4c4446681423da",
+    "preview/reef-garden-v11/world.js": "e4e10d0f6263c808662f040e0191ea33ae2ead02c8bbdb45b765139301346cde",
+    "preview/reef-garden-v11/index.html": "aacbec7060a13cefd1ada39e4324f28da85af6e00aa4936222afe6bfb13e4099",
+    "preview/reef-garden-v11/style.css": "6bc87ddd73d9edf9f9db8a3cd772b76af35de04acb0b825e913ea413a3665ba1"
+  },
+  "frozenStageFiles": {
+    "preview/reef-garden-stage-012/app.js": "c71e2f3c67e9d1ef9406d6adf55879066f8ea50cd1d7b3069dd59c2dfae5169b",
+    "preview/reef-garden-stage-012/navigation.js": "13cab5910ade6b1ff8c98cf320bf6607ce576bc8e7dcbf4add4c4446681423da",
+    "preview/reef-garden-stage-012/world.js": "1fa85a881d4dac1df12ab3dc358191ebdf6e9042d799a82ee2c6c12e366270a7",
+    "preview/reef-garden-stage-012/index.html": "58e6182c3057bfb9cb6f6a734d7c6f1c4d01e972d87ae0876cd1ca9dc4af5bf9",
+    "preview/reef-garden-stage-012/style.css": "6bc87ddd73d9edf9f9db8a3cd772b76af35de04acb0b825e913ea413a3665ba1"
+  },
+  "firstVersionFiles": {
+    "preview/reef-garden-v1-first/app.js": "f35ed59bae36eb558501378674254a44458850af4753a30c63307be1dda3dd5b",
+    "preview/reef-garden-v1-first/navigation.js": "13cab5910ade6b1ff8c98cf320bf6607ce576bc8e7dcbf4add4c4446681423da",
+    "preview/reef-garden-v1-first/world.js": "f550a54b6e8a8586db061723b9b37f36abc0375e5e768d9846d1cd6ac20aea37",
+    "preview/reef-garden-v1-first/index.html": "f429cc9017d6ed16fa62a6147ec97291cbee09c9ef761d8fa4bc1f7e3ccd5c54",
+    "preview/reef-garden-v1-first/style.css": "1ebf11cfc86352dabd3a5e9ac0fce4f9960b19a31879b51f65474ce05bc4f7f2"
+  },
+  "firstVersionBytesPreserved": true,
+  "v11BytesPreserved": true,
+  "stageSnapshotMatchesCurrent": true,
+  "entry": "preview/reef-garden-v1/",
+  "frozenStageEntry": "preview/reef-garden-stage-012/",
+  "artifactDigest": "487845b313a45a808eb73c891aa1f3ed52b0e59fe9b3c6457cd6e5a47a708ffb",
+  "oldSnapshotBytes": 2243403155,
+  "noScanDecoding": true,
+  "worldPointerChanged": false
+}

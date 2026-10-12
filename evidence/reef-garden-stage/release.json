@@ -1,0 +1,41 @@
+{
+  "status": "DISPATCHED",
+  "oldMain": "16d7abd64716da68956eb637fa2732aa984fa56b",
+  "mainCommit": "2442e73221615cff960e981e1504064b4b9e70b7",
+  "oldSuccessfulRun": 38215829050,
+  "oldArtifactId": 11732092992,
+  "oldArtifactDigest": "sha256:487845b313a45a808eb73c891aa1f3ed52b0e59fe9b3c6457cd6e5a47a708ffb",
+  "oldArtifactBytes": 2243403155,
+  "protectedPublicHashes": {
+    "index.html": "d5316957d3a1c9f1482cffcd66e81668a21999488061975d451b880547a84c82",
+    "app.js": "4127a29d4d9aed14a55d0f8a9a8ac8058fd8d6fc524683fa5dc48f8e8744a027",
+    "preview/world/index.html": "1ba6c6a2c5affe3cbee5b8115aec603ad32b4b40c8c7d6a367a6105abab76886",
+    "preview/world/current-world.json": "450754b013096a6325a6bc9f2f27a61dfd98eaf9edb7d432f1f1962b5333f497",
+    "vendor/three.module.js": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea",
+    "vendor/three.core.js": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+  },
+  "newEntry": "https://yydshly.github.io/azure-reef-3d/preview/reef-garden-v1/",
+  "newSourceFiles": [
+    "dist/preview/reef-garden-v1/app.js",
+    "dist/preview/reef-garden-v1/index.html",
+    "dist/preview/reef-garden-v1/navigation.js",
+    "dist/preview/reef-garden-v1/style.css",
+    "dist/preview/reef-garden-v1/world.js",
+    "dist/preview/reef-garden-v11/app.js",
+    "dist/preview/reef-garden-v11/index.html",
+    "dist/preview/reef-garden-v11/navigation.js",
+    "dist/preview/reef-garden-v11/style.css",
+    "dist/preview/reef-garden-v11/world.js",
+    "dist/preview/reef-garden-stage-012/app.js",
+    "dist/preview/reef-garden-stage-012/index.html",
+    "dist/preview/reef-garden-stage-012/navigation.js",
+    "dist/preview/reef-garden-stage-012/style.css",
+    "dist/preview/reef-garden-stage-012/world.js",
+    ".github/workflows/pages.yml",
+    "restore-published-preview.py",
+    "qa-garden.mjs",
+    "qa-garden-stage.mjs"
+  ],
+  "tokenPermissionsExpanded": false,
+  "worldEntryChanged": false
+}
