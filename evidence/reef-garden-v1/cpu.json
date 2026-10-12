@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "cpuOnly": true,
+  "stops": 6,
+  "tourSamples": 1440,
+  "maxStep": 0.28755434257877904,
+  "stats": {
+    "artLanguage": "pastel-sculpted-reef-garden",
+    "originalProcedural": true,
+    "scansInThisScene": false,
+    "formations": 29,
+    "giantCorals": 14,
+    "fish": 216,
+    "plantTufts": 506,
+    "obstacles": 63,
+    "triangles": 406634
+  },
+  "scope": "Scene construction, safe retained journey, free input release and disposal; browser visual/motion checks remain separate"
+}

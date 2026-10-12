@@ -1,0 +1,348 @@
+{
+  "errors": [],
+  "failedRequests": [],
+  "frames": [
+    {
+      "name": "entry",
+      "state": {
+        "ready": true,
+        "camera": [
+          0,
+          4.2,
+          24
+        ],
+        "target": [
+          0,
+          4.3738867487935815,
+          14.001511944369089
+        ],
+        "route": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 0,
+          "duration": 72,
+          "progress": 0,
+          "goal": 0,
+          "yaw": 0,
+          "pitch": 0.01738955128933065,
+          "position": [
+            0,
+            4.2,
+            24
+          ],
+          "speed": 0,
+          "region": "珊瑚门廊",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.41250000000000003,
+        "ambientPaused": true,
+        "frames": 37,
+        "stats": {
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 29,
+          "giantCorals": 14,
+          "fish": 216,
+          "plantTufts": 506,
+          "obstacles": 63,
+          "triangles": 406634
+        },
+        "renderer": {
+          "calls": 83,
+          "triangles": 411264
+        }
+      }
+    },
+    {
+      "name": "entry-reverse",
+      "state": {
+        "ready": true,
+        "camera": [
+          0,
+          4.2,
+          24
+        ],
+        "target": [
+          -0.3002828899037777,
+          4.3738867487935815,
+          33.99397786592631
+        ],
+        "route": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 0,
+          "duration": 72,
+          "progress": 0,
+          "goal": 0,
+          "yaw": -3.1115553071795716,
+          "pitch": 0.01738955128933065,
+          "position": [
+            0,
+            4.2,
+            24
+          ],
+          "speed": 0,
+          "region": "珊瑚门廊",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.41250000000000003,
+        "ambientPaused": true,
+        "frames": 220,
+        "stats": {
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 29,
+          "giantCorals": 14,
+          "fish": 216,
+          "plantTufts": 506,
+          "obstacles": 63,
+          "triangles": 406634
+        },
+        "renderer": {
+          "calls": 23,
+          "triangles": 401392
+        }
+      }
+    },
+    {
+      "name": "mid",
+      "state": {
+        "ready": true,
+        "camera": [
+          15,
+          3.4,
+          -65
+        ],
+        "target": [
+          9.21325073643643,
+          3.5578204344608246,
+          -73.15405578047594
+        ],
+        "route": {
+          "active": true,
+          "mode": "tour",
+          "paused": true,
+          "elapsed": 28.8,
+          "duration": 72,
+          "progress": 0.4,
+          "goal": 0.4,
+          "yaw": -0.6171913915403622,
+          "pitch": 0.015782698666066578,
+          "position": [
+            15,
+            3.4,
+            -65
+          ],
+          "speed": 0,
+          "region": "虹色礁庭",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.41250000000000003,
+        "ambientPaused": true,
+        "frames": 244,
+        "stats": {
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 29,
+          "giantCorals": 14,
+          "fish": 216,
+          "plantTufts": 506,
+          "obstacles": 63,
+          "triangles": 406634
+        },
+        "renderer": {
+          "calls": 71,
+          "triangles": 408672
+        }
+      }
+    },
+    {
+      "name": "mid-reverse",
+      "state": {
+        "ready": true,
+        "camera": [
+          15,
+          3.4,
+          -65
+        ],
+        "target": [
+          20.728240139951502,
+          3.5578204344608246,
+          -56.804735659570525
+        ],
+        "route": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 28.8,
+          "duration": 72,
+          "progress": 0.4,
+          "goal": 0.4,
+          "yaw": 2.531558608459635,
+          "pitch": 0.015782698666066578,
+          "position": [
+            15,
+            3.4,
+            -65
+          ],
+          "speed": 0,
+          "region": "虹色礁庭",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.41250000000000003,
+        "ambientPaused": true,
+        "frames": 404,
+        "stats": {
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 29,
+          "giantCorals": 14,
+          "fish": 216,
+          "plantTufts": 506,
+          "obstacles": 63,
+          "triangles": 406634
+        },
+        "renderer": {
+          "calls": 30,
+          "triangles": 402972
+        }
+      }
+    },
+    {
+      "name": "deep",
+      "state": {
+        "ready": true,
+        "camera": [
+          -18,
+          5,
+          -199
+        ],
+        "target": [
+          -16.85396803099233,
+          5.191005328167945,
+          -189.06772293526686
+        ],
+        "route": {
+          "active": true,
+          "mode": "tour",
+          "paused": true,
+          "elapsed": 72,
+          "duration": 72,
+          "progress": 1,
+          "goal": 1,
+          "yaw": 3.026716048172894,
+          "pitch": 0.019101694416533168,
+          "position": [
+            -18,
+            5,
+            -199
+          ],
+          "speed": 0,
+          "region": "月弧峡湾",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.41250000000000003,
+        "ambientPaused": true,
+        "frames": 425,
+        "stats": {
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 29,
+          "giantCorals": 14,
+          "fish": 216,
+          "plantTufts": 506,
+          "obstacles": 63,
+          "triangles": 406634
+        },
+        "renderer": {
+          "calls": 102,
+          "triangles": 413796
+        }
+      }
+    },
+    {
+      "name": "deep-reverse",
+      "state": {
+        "ready": true,
+        "camera": [
+          -18,
+          5,
+          -199
+        ],
+        "target": [
+          -18.84722062220341,
+          5.191005328167945,
+          -208.96221532501303
+        ],
+        "route": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 72,
+          "duration": 72,
+          "progress": 1,
+          "goal": 1,
+          "yaw": -0.0848392590066922,
+          "pitch": 0.019101694416533168,
+          "position": [
+            -18,
+            5,
+            -199
+          ],
+          "speed": 0,
+          "region": "月弧峡湾",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "time": 0.41250000000000003,
+        "ambientPaused": true,
+        "frames": 585,
+        "stats": {
+          "artLanguage": "pastel-sculpted-reef-garden",
+          "originalProcedural": true,
+          "scansInThisScene": false,
+          "formations": 29,
+          "giantCorals": 14,
+          "fish": 216,
+          "plantTufts": 506,
+          "obstacles": 63,
+          "triangles": 406634
+        },
+        "renderer": {
+          "calls": 39,
+          "triangles": 403552
+        }
+      }
+    }
+  ],
+  "sourceHashes": {
+    "app.js": "f35ed59bae36eb558501378674254a44458850af4753a30c63307be1dda3dd5b",
+    "index.html": "f429cc9017d6ed16fa62a6147ec97291cbee09c9ef761d8fa4bc1f7e3ccd5c54",
+    "navigation.js": "13cab5910ade6b1ff8c98cf320bf6607ce576bc8e7dcbf4add4c4446681423da",
+    "style.css": "1ebf11cfc86352dabd3a5e9ac0fce4f9960b19a31879b51f65474ce05bc4f7f2",
+    "world.js": "f550a54b6e8a8586db061723b9b37f36abc0375e5e768d9846d1cd6ac20aea37"
+  },
+  "localBlankBytes": 93,
+  "localAppBytes": 3470,
+  "browserCommandVerified": true,
+  "console": [
+    {
+      "type": "warning",
+      "text": "THREE.WebGLShadowMap: PCFSoftShadowMap has been removed. Using PCFShadowMap instead."
+    }
+  ],
+  "driver": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A788) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "status": "PASS"
+}
