@@ -2,13 +2,13 @@
 
 > **整体视觉未达标。** 海庭01.2已被用户否定，盆地证明段仍失败。下面展示已发布技术原型的真实实录，不代表视觉验收通过。当前权威结论见[阶段总结：技术原型与视觉目标差距](https://github.com/yydshly/azure-reef-3d/blob/7c59a653e2f353df3b024458feadfbbda1ee383e/REEF_GARDEN_STAGE.md)。
 
-[![已发布海庭01.2的8秒真实导览录屏预览；点击打开互动入口](docs/media/reef-garden-012-preview.gif)](https://yydshly.github.io/azure-reef-3d/preview/reef-garden-stage-012/)
+[![已发布海庭01.2真实截图；点击打开72秒互动导览](https://raw.githubusercontent.com/yydshly/azure-reef-3d/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage/live-entry.png)](https://yydshly.github.io/azure-reef-3d/preview/reef-garden-stage-012/)
 
-**8秒实录预览**：取自既有原始录像30–38秒，640×410、4fps压缩GIF，自动循环；预览帧率不代表原运行性能。点击动图打开固定01.2页面，再点“开始72秒导览”即可实时观看三维场景。
+**已发布版本真实截图**。点击图片打开固定01.2页面，再点“开始72秒导览”即可实时观看三维场景；图片本身为静态截图。
 
 [实时互动 / 开始72秒导览](https://yydshly.github.io/azure-reef-3d/preview/reef-garden-stage-012/) · [完整原始录像（下载后播放）](https://raw.githubusercontent.com/yydshly/azure-reef-3d/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage/complete-demo.webm) · [已发布版本真实截图](https://raw.githubusercontent.com/yydshly/azure-reef-3d/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage/live-entry.png)
 
-完整录像约126.56秒，包含72秒自然导览及操作核验。GitHub README不保留原生video播放器，因此这里不宣称录像内嵌或自动播放；GIF预览与下载录像分别标明。
+完整录像约126.56秒，包含72秒自然导览及操作核验。录像链接用于下载后播放；上方互动入口运行实时三维导览。GitHub README不保留原生video播放器，这里不宣称录像内嵌或自动播放。
 
 ---
 
