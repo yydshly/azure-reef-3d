@@ -1,7 +1,7 @@
 {
   "file": "composition-preview-delta.zip",
   "bytes": 31165,
-  "sha256": "937393f85a474c3fa52ea67604c4be05640d2b1ef8638159357577ea2ab2fba0",
+  "sha256": "e70a7b13291baabff27cd4cbd5539f085cf8c7af0eb11ef03250ff5c5856270c",
   "sourceFiles": [
     "continuous-layout.js",
     "continuous-reef.js",
@@ -12,8 +12,13 @@
   ],
   "publicationBase": "a1b2cae7e968ad383798a0ff15c87bfb0934d971",
   "previousCandidate": "b92b8ac734973e2673f3f678f6d5f1241393373c",
-  "status": "BLOCKED_BEFORE_VISUAL_GATE",
+  "status": "VISUAL_GATE_FAILED",
   "candidatePath": "preview/composition-candidate",
   "candidateEntry": "preview/composition-candidate/scan-exhibit.html",
-  "visualVerified": false
+  "visualVerified": true,
+  "visualAccepted": false,
+  "candidateRunnable": true,
+  "navigationPipelineRecovered": true,
+  "evidence": "candidate-six-views.json",
+  "newMotionVideo": false
 }

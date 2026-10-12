@@ -5,6 +5,11 @@ import json,threading,functools,sys,hashlib,urllib.request
 root=Path(__file__).resolve().parent;variant=sys.argv[1] if len(sys.argv)>1 else 'composition-candidate';output=root/'artifacts'/('views-'+variant);output.mkdir(parents=True,exist_ok=True)
 class QuietHandler(SimpleHTTPRequestHandler):
  def log_message(self,*args):pass
+ def do_GET(self):
+  if self.path=='/__reef_probe.html':
+   data=b'<!doctype html><title>Reef navigation ready</title><link rel="icon" href="data:,">'
+   self.send_response(200);self.send_header('Content-Type','text/html');self.send_header('Content-Length',str(len(data)));self.end_headers();self.wfile.write(data)
+  else:super().do_GET()
 server=ThreadingHTTPServer(('127.0.0.1',0),functools.partial(QuietHandler,directory=str(root)));threading.Thread(target=server.serve_forever,daemon=True).start()
 report={'variant':variant,'errors':[],'failedRequests':[],'frames':[],'sourceHashes':{p.name:hashlib.sha256(p.read_bytes()).hexdigest()for p in (root/'artifacts'/variant).glob('*.js')}}
 url='http://127.0.0.1:'+str(server.server_address[1])+'/artifacts/'+variant+'/scan-exhibit.html'
@@ -12,6 +17,8 @@ report['initialDocumentBytes']=len(urllib.request.urlopen(url,timeout=3).read())
 with sync_playwright() as p:
  browser=p.chromium.launch(executable_path=r'C:\Program Files\Google\Chrome\Application\chrome.exe',headless=True,chromium_sandbox=True,ignore_default_args=['--enable-unsafe-swiftshader','--disable-gpu-sandbox','--ignore-gpu-blocklist'])
  page=browser.new_page(viewport={'width':1280,'height':820},device_scale_factor=1);page.on('pageerror',lambda e:report['errors'].append(str(e)));page.on('requestfailed',lambda q:report['failedRequests'].append(q.url))
+ page.goto('http://127.0.0.1:'+str(server.server_address[1])+'/__reef_probe.html',wait_until='domcontentloaded',timeout=10000)
+ warm=page.request.get(url,timeout=3000);report['browserWarmHttp']={'status':warm.status,'bytes':len(warm.body())};warm.dispose()
  page.goto(url,wait_until='commit',timeout=15000)
  page.wait_for_function("() => window.reefExhibit?.getState().ready && ['c4','assemblage','naturalRock','layeredRidges','ray','turtle'].every(k=>window.reefExhibit.getState()[k]?.status==='ready') && window.reefExhibit.coralMidground.getState().status==='ready'",timeout=90000)
  page.locator('#hudMoreSummary').click();page.locator('#pauseAmbient').click();page.locator('#closeHudMore').click()

@@ -1,0 +1,24 @@
+{
+  "status": "VISUAL_GATE_FAILED",
+  "realRenderer": "Chrome / Intel UHD / ANGLE Direct3D11",
+  "actualSixViewsRendered": true,
+  "renderedSourceMatchesDelta": true,
+  "pageErrors": 0,
+  "failedRequests": 0,
+  "navigationPipelineRecovered": true,
+  "passedVisualItems": [
+    "The finite horizontal alpha-water step is gone.",
+    "The bright finite seabed stripe in entry reverse is gone.",
+    "The deep forward view has nearer and receding silhouettes instead of two equally isolated blocks."
+  ],
+  "failedVisualItems": [
+    "The middle bay retains a long straight empty seabed without enough far silhouettes.",
+    "The deep reverse view exposes a broad empty sloping seabed and dark water, so the requested continuous sea is not established."
+  ],
+  "scopeLimit": "No more composition changes, new organisms, fog changes or scanning. Stop this layout after concrete failure pixels.",
+  "affectedNativeRegression": "NOT_RUN_AFTER_VISUAL_GATE_FAILED",
+  "newMotionVideo": "NOT_RECORDED_AFTER_VISUAL_GATE_FAILED",
+  "publication": "NOT_PUBLISHED",
+  "candidateRunnable": true,
+  "preservedBackup": "b92b8ac734973e2673f3f678f6d5f1241393373c"
+}

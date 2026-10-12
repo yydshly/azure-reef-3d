@@ -1,0 +1,2708 @@
+{
+  "startedUtc": "2026-10-12 04:32:15 UTC",
+  "pythonPid": 31400,
+  "http": [
+    {
+      "wall": 1791779535.7328877,
+      "thread": 60948,
+      "message": "\"GET /blank.html HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779535.882048,
+      "thread": 62820,
+      "message": "\"GET /artifacts/continuous-candidate/scan-exhibit.html HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779535.8857157,
+      "thread": 19964,
+      "message": "\"GET /artifacts/composition-candidate/scan-exhibit.html HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779539.7780285,
+      "thread": 21484,
+      "message": "\"GET /blank.html HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779539.8071346,
+      "thread": 61516,
+      "message": "\"GET /blank.html HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779539.861037,
+      "thread": 12596,
+      "message": "code 404, message File not found"
+    },
+    {
+      "wall": 1791779539.8622072,
+      "thread": 12596,
+      "message": "\"GET /favicon.ico HTTP/1.1\" 404 -"
+    },
+    {
+      "wall": 1791779541.178407,
+      "thread": 55188,
+      "message": "\"GET /artifacts/continuous-candidate/scan-exhibit.html HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.1888216,
+      "thread": 66444,
+      "message": "\"GET /artifacts/continuous-candidate/scan-exhibit.html HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.200515,
+      "thread": 28864,
+      "message": "\"GET /artifacts/continuous-candidate/scan-exhibit.css?v=exploration-demo-compact-hud-v3 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.2021418,
+      "thread": 64572,
+      "message": "\"GET /artifacts/continuous-candidate/scan-exhibit.js?v=layered-habitat-20261011-v1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.2032034,
+      "thread": 60000,
+      "message": "\"GET /artifacts/continuous-candidate/scan-hud.js?v=edge-hud-20261008-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.2624867,
+      "thread": 16264,
+      "message": "\"GET /artifacts/continuous-candidate/continuous-reef.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.263496,
+      "thread": 59692,
+      "message": "\"GET /artifacts/continuous-candidate/field-runtime.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.2654932,
+      "thread": 53704,
+      "message": "\"GET /artifacts/continuous-candidate/coral-midground-runtime.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.2671847,
+      "thread": 36208,
+      "message": "\"GET /artifacts/continuous-candidate/layered-ridges-runtime.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.2682574,
+      "thread": 15224,
+      "message": "\"GET /artifacts/continuous-candidate/natural-rock-runtime.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.2787786,
+      "thread": 46780,
+      "message": "\"GET /artifacts/continuous-candidate/scan-render-demand.js?v=demand-20261009-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.2826352,
+      "thread": 50252,
+      "message": "\"GET /artifacts/continuous-candidate/scan-turtle.js?v=animal-scale-20261010-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.2826352,
+      "thread": 56628,
+      "message": "\"GET /artifacts/continuous-candidate/scan-ray.js?v=ray-20261009-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.2856817,
+      "thread": 35940,
+      "message": "\"GET /artifacts/continuous-candidate/scan-assemblage.js?v=basin-20261009-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.29672,
+      "thread": 69548,
+      "message": "\"GET /artifacts/continuous-candidate/scan-landmark.js?v=c4-20261008-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.299725,
+      "thread": 67408,
+      "message": "\"GET /artifacts/continuous-candidate/scan-surface.js?v=surface-20261008-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.3082743,
+      "thread": 24608,
+      "message": "\"GET /artifacts/continuous-candidate/scan-world.js?v=habitat-20261010-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.3130674,
+      "thread": 9964,
+      "message": "\"GET /artifacts/continuous-candidate/scan-life.js?v=basin-20261009-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.3157449,
+      "thread": 44728,
+      "message": "\"GET /artifacts/continuous-candidate/exploration-navigation.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.3211865,
+      "thread": 44540,
+      "message": "\"GET /artifacts/continuous-candidate/exploration-world.js?v=layered-habitat-20261011-v1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.324786,
+      "thread": 34696,
+      "message": "\"GET /artifacts/continuous-candidate/exploration-world-data.js?v=layered-habitat-20261011-v1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.327104,
+      "thread": 47152,
+      "message": "\"GET /artifacts/continuous-candidate/scan-ocean.js?v=layered-habitat-20261011-v1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.3348672,
+      "thread": 38956,
+      "message": "\"GET /artifacts/continuous-candidate/vendor/three.module.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.3427398,
+      "thread": 15308,
+      "message": "\"GET /artifacts/continuous-candidate/vendor/OrbitControls.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.3432455,
+      "thread": 20044,
+      "message": "\"GET /artifacts/continuous-candidate/vendor/GLTFLoader.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.3468363,
+      "thread": 28388,
+      "message": "\"GET /artifacts/continuous-candidate/utils/BufferGeometryUtils.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.3595371,
+      "thread": 68872,
+      "message": "\"GET /artifacts/continuous-candidate/continuous-layout.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.361543,
+      "thread": 5524,
+      "message": "\"GET /artifacts/continuous-candidate/field-data.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.366055,
+      "thread": 59364,
+      "message": "\"GET /artifacts/continuous-candidate/install-layered-ridges.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.3728373,
+      "thread": 48216,
+      "message": "\"GET /artifacts/continuous-candidate/install-natural-rock.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.3763452,
+      "thread": 9260,
+      "message": "\"GET /artifacts/continuous-candidate/turtle-motion.js?v=turtle-20261009-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.3773496,
+      "thread": 57192,
+      "message": "\"GET /artifacts/continuous-candidate/install-habitat-enrichment.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.3788557,
+      "thread": 37296,
+      "message": "\"GET /artifacts/continuous-candidate/scan-meadow.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.3818612,
+      "thread": 21856,
+      "message": "\"GET /artifacts/continuous-candidate/scan-aprons.js?v=basin-20261009-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.3871222,
+      "thread": 63160,
+      "message": "\"GET /artifacts/continuous-candidate/scan-habitat-mounds.js?v=closed-shells-20261009-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.3946388,
+      "thread": 42048,
+      "message": "\"GET /artifacts/continuous-candidate/fish-motion.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.4021292,
+      "thread": 27768,
+      "message": "\"GET /artifacts/continuous-candidate/grounded-shoulder.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.4021292,
+      "thread": 40520,
+      "message": "\"GET /artifacts/continuous-candidate/rear-connected-data.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.4080904,
+      "thread": 23336,
+      "message": "\"GET /artifacts/continuous-candidate/rear-habitat.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.4120238,
+      "thread": 40092,
+      "message": "\"GET /artifacts/continuous-candidate/visible-habitat.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.4248762,
+      "thread": 58752,
+      "message": "\"GET /artifacts/continuous-candidate/utils/SkeletonUtils.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.4269705,
+      "thread": 41656,
+      "message": "\"GET /artifacts/continuous-candidate/vendor/three.core.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.430186,
+      "thread": 62036,
+      "message": "\"GET /artifacts/continuous-candidate/habitat-placement.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.4437287,
+      "thread": 61112,
+      "message": "\"GET /artifacts/continuous-candidate/seagrass-blades.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.4462366,
+      "thread": 38320,
+      "message": "\"GET /artifacts/continuous-candidate/grounded-shoulder-data.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.4462366,
+      "thread": 32664,
+      "message": "\"GET /artifacts/continuous-candidate/scan-meadow-placement.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.4532769,
+      "thread": 68380,
+      "message": "\"GET /artifacts/continuous-candidate/visible-habitat-placement.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.458703,
+      "thread": 48888,
+      "message": "\"GET /artifacts/continuous-candidate/rear-connected.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.5978663,
+      "thread": 23684,
+      "message": "\"GET /artifacts/continuous-candidate/assets/water-caustics.png HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.6586227,
+      "thread": 28652,
+      "message": "\"GET /artifacts/continuous-candidate/assets/reefs4d/C12019-web.glb HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.663084,
+      "thread": 10392,
+      "message": "\"GET /artifacts/continuous-candidate/favicon.svg HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.953556,
+      "thread": 58540,
+      "message": "\"GET /artifacts/continuous-candidate/assets/scan-world-corals.gltf HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.9623487,
+      "thread": 53220,
+      "message": "\"GET /artifacts/continuous-candidate/assets/scan-world-corals.bin HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.9920025,
+      "thread": 51684,
+      "message": "\"GET /artifacts/continuous-candidate/assets/reef-texture-2.png HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.9940007,
+      "thread": 60172,
+      "message": "\"GET /artifacts/continuous-candidate/assets/reef-texture-4.png HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.9940007,
+      "thread": 11528,
+      "message": "\"GET /artifacts/continuous-candidate/assets/reef-texture-3.png HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779541.9955053,
+      "thread": 65308,
+      "message": "\"GET /artifacts/continuous-candidate/assets/reef-texture-5.png HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779542.151523,
+      "thread": 44388,
+      "message": "\"GET /artifacts/continuous-candidate/assets/scan-fish.gltf HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779542.164804,
+      "thread": 31384,
+      "message": "\"GET /artifacts/continuous-candidate/assets/scan-fish.bin HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779542.3061664,
+      "thread": 4716,
+      "message": "\"GET /artifacts/continuous-candidate/assets/boulder_01_LOD1_1k.glb HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779546.6596131,
+      "thread": 61276,
+      "message": "\"GET /artifacts/continuous-candidate/assets/synthetic-reef-ray.glb HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779546.6626248,
+      "thread": 65824,
+      "message": "\"GET /artifacts/continuous-candidate/assets/synthetic-reef-turtle.glb HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779548.923021,
+      "thread": 33424,
+      "message": "\"GET /artifacts/continuous-candidate/assets/reefs4d/C42019-web-150k.glb HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779549.7858202,
+      "thread": 11768,
+      "message": "\"GET /artifacts/continuous-candidate/assets/reefs4d/C4-A-rounded-knobby.glb HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.301865,
+      "thread": 41080,
+      "message": "\"GET /artifacts/composition-candidate/scan-exhibit.html HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.323804,
+      "thread": 43256,
+      "message": "\"GET /artifacts/composition-candidate/scan-exhibit.html HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.6167567,
+      "thread": 53884,
+      "message": "\"GET /artifacts/composition-candidate/scan-exhibit.css?v=exploration-demo-compact-hud-v3 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.6200047,
+      "thread": 13880,
+      "message": "\"GET /artifacts/composition-candidate/scan-exhibit.js?v=layered-habitat-20261011-v1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.620577,
+      "thread": 38788,
+      "message": "\"GET /artifacts/composition-candidate/scan-hud.js?v=edge-hud-20261008-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.6487727,
+      "thread": 25256,
+      "message": "\"GET /artifacts/composition-candidate/continuous-reef.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.6529238,
+      "thread": 39044,
+      "message": "\"GET /artifacts/composition-candidate/coral-midground-runtime.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.6529238,
+      "thread": 41812,
+      "message": "\"GET /artifacts/composition-candidate/field-runtime.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.6579244,
+      "thread": 52240,
+      "message": "\"GET /artifacts/composition-candidate/layered-ridges-runtime.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.6645164,
+      "thread": 16416,
+      "message": "\"GET /artifacts/composition-candidate/natural-rock-runtime.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.670163,
+      "thread": 67528,
+      "message": "\"GET /artifacts/composition-candidate/scan-render-demand.js?v=demand-20261009-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.6714642,
+      "thread": 1752,
+      "message": "\"GET /artifacts/composition-candidate/scan-turtle.js?v=animal-scale-20261010-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.6714642,
+      "thread": 10504,
+      "message": "\"GET /artifacts/composition-candidate/scan-ray.js?v=ray-20261009-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.6762369,
+      "thread": 36188,
+      "message": "\"GET /artifacts/composition-candidate/scan-assemblage.js?v=basin-20261009-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.6842947,
+      "thread": 37352,
+      "message": "\"GET /artifacts/composition-candidate/scan-landmark.js?v=c4-20261008-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.6945024,
+      "thread": 54528,
+      "message": "\"GET /artifacts/composition-candidate/scan-surface.js?v=surface-20261008-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.696008,
+      "thread": 60820,
+      "message": "\"GET /artifacts/composition-candidate/scan-world.js?v=habitat-20261010-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.7025273,
+      "thread": 64980,
+      "message": "\"GET /artifacts/composition-candidate/scan-life.js?v=basin-20261009-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.7045279,
+      "thread": 35664,
+      "message": "\"GET /artifacts/composition-candidate/exploration-navigation.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.7179022,
+      "thread": 19280,
+      "message": "\"GET /artifacts/composition-candidate/exploration-world.js?v=layered-habitat-20261011-v1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.7200012,
+      "thread": 20808,
+      "message": "\"GET /artifacts/composition-candidate/exploration-world-data.js?v=layered-habitat-20261011-v1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.7240007,
+      "thread": 8312,
+      "message": "\"GET /artifacts/composition-candidate/scan-ocean.js?v=layered-habitat-20261011-v1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.7402816,
+      "thread": 45104,
+      "message": "\"GET /artifacts/composition-candidate/vendor/three.module.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.7434964,
+      "thread": 62884,
+      "message": "\"GET /artifacts/composition-candidate/vendor/OrbitControls.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.748863,
+      "thread": 34376,
+      "message": "\"GET /artifacts/composition-candidate/vendor/GLTFLoader.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.7615652,
+      "thread": 59804,
+      "message": "\"GET /artifacts/composition-candidate/utils/BufferGeometryUtils.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.768076,
+      "thread": 18704,
+      "message": "\"GET /artifacts/composition-candidate/continuous-layout.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.768076,
+      "thread": 67472,
+      "message": "\"GET /artifacts/composition-candidate/field-data.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.7856193,
+      "thread": 30196,
+      "message": "\"GET /artifacts/composition-candidate/install-layered-ridges.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.7928574,
+      "thread": 33608,
+      "message": "\"GET /artifacts/composition-candidate/install-natural-rock.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.7988772,
+      "thread": 53860,
+      "message": "\"GET /artifacts/composition-candidate/turtle-motion.js?v=turtle-20261009-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.7998903,
+      "thread": 20368,
+      "message": "\"GET /artifacts/composition-candidate/install-habitat-enrichment.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.8094072,
+      "thread": 66160,
+      "message": "\"GET /artifacts/composition-candidate/scan-meadow.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.8159192,
+      "thread": 30980,
+      "message": "\"GET /artifacts/composition-candidate/scan-aprons.js?v=basin-20261009-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.8274727,
+      "thread": 66308,
+      "message": "\"GET /artifacts/composition-candidate/scan-habitat-mounds.js?v=closed-shells-20261009-r1 HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.8335073,
+      "thread": 19948,
+      "message": "\"GET /artifacts/composition-candidate/fish-motion.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.834508,
+      "thread": 64316,
+      "message": "\"GET /artifacts/composition-candidate/rear-connected-data.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.8541737,
+      "thread": 61572,
+      "message": "\"GET /artifacts/composition-candidate/utils/SkeletonUtils.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.8541737,
+      "thread": 25024,
+      "message": "\"GET /artifacts/composition-candidate/vendor/three.core.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.8658545,
+      "thread": 26052,
+      "message": "\"GET /artifacts/composition-candidate/grounded-shoulder.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.8669395,
+      "thread": 55912,
+      "message": "\"GET /artifacts/composition-candidate/rear-habitat.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.8749027,
+      "thread": 28740,
+      "message": "\"GET /artifacts/composition-candidate/visible-habitat.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.892867,
+      "thread": 66772,
+      "message": "\"GET /artifacts/composition-candidate/habitat-placement.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.8938658,
+      "thread": 61264,
+      "message": "\"GET /artifacts/composition-candidate/seagrass-blades.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.9088104,
+      "thread": 30072,
+      "message": "\"GET /artifacts/composition-candidate/scan-meadow-placement.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.924337,
+      "thread": 58052,
+      "message": "\"GET /artifacts/composition-candidate/grounded-shoulder-data.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.93061,
+      "thread": 45648,
+      "message": "\"GET /artifacts/composition-candidate/rear-connected.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779550.9335573,
+      "thread": 14424,
+      "message": "\"GET /artifacts/composition-candidate/visible-habitat-placement.js HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779551.0647094,
+      "thread": 49596,
+      "message": "\"GET /artifacts/composition-candidate/assets/water-caustics.png HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779551.1049788,
+      "thread": 32344,
+      "message": "\"GET /artifacts/composition-candidate/favicon.svg HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779551.1109512,
+      "thread": 52320,
+      "message": "\"GET /artifacts/composition-candidate/assets/reefs4d/C12019-web.glb HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779551.408732,
+      "thread": 54136,
+      "message": "\"GET /artifacts/composition-candidate/assets/scan-world-corals.gltf HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779551.42073,
+      "thread": 4436,
+      "message": "\"GET /artifacts/composition-candidate/assets/scan-world-corals.bin HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779551.449974,
+      "thread": 21112,
+      "message": "\"GET /artifacts/composition-candidate/assets/reef-texture-2.png HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779551.4533355,
+      "thread": 50336,
+      "message": "\"GET /artifacts/composition-candidate/assets/reef-texture-3.png HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779551.4544394,
+      "thread": 68668,
+      "message": "\"GET /artifacts/composition-candidate/assets/reef-texture-4.png HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779551.4585192,
+      "thread": 60200,
+      "message": "\"GET /artifacts/composition-candidate/assets/reef-texture-5.png HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779551.5929039,
+      "thread": 16724,
+      "message": "\"GET /artifacts/composition-candidate/assets/scan-fish.gltf HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779551.6057925,
+      "thread": 37128,
+      "message": "\"GET /artifacts/composition-candidate/assets/scan-fish.bin HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779551.7580354,
+      "thread": 2292,
+      "message": "\"GET /artifacts/composition-candidate/assets/boulder_01_LOD1_1k.glb HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779556.2659473,
+      "thread": 43136,
+      "message": "\"GET /artifacts/composition-candidate/assets/synthetic-reef-ray.glb HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779556.2693875,
+      "thread": 48972,
+      "message": "\"GET /artifacts/composition-candidate/assets/synthetic-reef-turtle.glb HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779559.125577,
+      "thread": 60204,
+      "message": "\"GET /artifacts/composition-candidate/assets/reefs4d/C42019-web-150k.glb HTTP/1.1\" 200 -"
+    },
+    {
+      "wall": 1791779559.8394,
+      "thread": 30056,
+      "message": "\"GET /artifacts/composition-candidate/assets/reefs4d/C4-A-rounded-knobby.glb HTTP/1.1\" 200 -"
+    }
+  ],
+  "browserEvents": [
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/blank.html",
+      "failure": null,
+      "wall": 1791779539.805791
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/blank.html",
+      "status": 200,
+      "wall": 1791779539.8156686
+    },
+    {
+      "type": "console",
+      "level": "error",
+      "text": "Failed to load resource: the server responded with a status of 404 (File not found)",
+      "wall": 1791779539.8678398
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-exhibit.html",
+      "failure": null,
+      "wall": 1791779541.1878214
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-exhibit.html",
+      "status": 200,
+      "wall": 1791779541.192825
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-exhibit.css?v=exploration-demo-compact-hud-v3",
+      "failure": null,
+      "wall": 1791779541.2078474
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-exhibit.js?v=layered-habitat-20261011-v1",
+      "failure": null,
+      "wall": 1791779541.2078474
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-hud.js?v=edge-hud-20261008-r1",
+      "failure": null,
+      "wall": 1791779541.2078474
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-exhibit.css?v=exploration-demo-compact-hud-v3",
+      "status": 200,
+      "wall": 1791779541.2099922
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-hud.js?v=edge-hud-20261008-r1",
+      "status": 200,
+      "wall": 1791779541.2480757
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-exhibit.js?v=layered-habitat-20261011-v1",
+      "status": 200,
+      "wall": 1791779541.2486165
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/continuous-reef.js",
+      "failure": null,
+      "wall": 1791779541.2541919
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/field-runtime.js",
+      "failure": null,
+      "wall": 1791779541.2547193
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/coral-midground-runtime.js",
+      "failure": null,
+      "wall": 1791779541.2547193
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/layered-ridges-runtime.js",
+      "failure": null,
+      "wall": 1791779541.2552469
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/natural-rock-runtime.js",
+      "failure": null,
+      "wall": 1791779541.2557583
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-render-demand.js?v=demand-20261009-r1",
+      "failure": null,
+      "wall": 1791779541.2557583
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-turtle.js?v=animal-scale-20261010-r1",
+      "failure": null,
+      "wall": 1791779541.2563057
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-ray.js?v=ray-20261009-r1",
+      "failure": null,
+      "wall": 1791779541.2563057
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-assemblage.js?v=basin-20261009-r1",
+      "failure": null,
+      "wall": 1791779541.2563057
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-landmark.js?v=c4-20261008-r1",
+      "failure": null,
+      "wall": 1791779541.2563057
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-surface.js?v=surface-20261008-r1",
+      "failure": null,
+      "wall": 1791779541.256684
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-world.js?v=habitat-20261010-r1",
+      "failure": null,
+      "wall": 1791779541.256684
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-life.js?v=basin-20261009-r1",
+      "failure": null,
+      "wall": 1791779541.2572024
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/exploration-navigation.js",
+      "failure": null,
+      "wall": 1791779541.2572024
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/exploration-world.js?v=layered-habitat-20261011-v1",
+      "failure": null,
+      "wall": 1791779541.257733
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/exploration-world-data.js?v=layered-habitat-20261011-v1",
+      "failure": null,
+      "wall": 1791779541.257733
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-ocean.js?v=layered-habitat-20261011-v1",
+      "failure": null,
+      "wall": 1791779541.2582667
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/vendor/three.module.js",
+      "failure": null,
+      "wall": 1791779541.2582667
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/vendor/OrbitControls.js",
+      "failure": null,
+      "wall": 1791779541.2588027
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/vendor/GLTFLoader.js",
+      "failure": null,
+      "wall": 1791779541.2588027
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/continuous-reef.js",
+      "status": 200,
+      "wall": 1791779541.2815127
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/field-runtime.js",
+      "status": 200,
+      "wall": 1791779541.2820573
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/utils/BufferGeometryUtils.js",
+      "failure": null,
+      "wall": 1791779541.2820573
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/continuous-layout.js",
+      "failure": null,
+      "wall": 1791779541.2820573
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/field-data.js",
+      "failure": null,
+      "wall": 1791779541.2820573
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/coral-midground-runtime.js",
+      "status": 200,
+      "wall": 1791779541.2877007
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/layered-ridges-runtime.js",
+      "status": 200,
+      "wall": 1791779541.2926993
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/install-layered-ridges.js",
+      "failure": null,
+      "wall": 1791779541.2926993
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/natural-rock-runtime.js",
+      "status": 200,
+      "wall": 1791779541.2936983
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/install-natural-rock.js",
+      "failure": null,
+      "wall": 1791779541.2942033
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-render-demand.js?v=demand-20261009-r1",
+      "status": 200,
+      "wall": 1791779541.307276
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-turtle.js?v=animal-scale-20261010-r1",
+      "status": 200,
+      "wall": 1791779541.311465
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/turtle-motion.js?v=turtle-20261009-r1",
+      "failure": null,
+      "wall": 1791779541.3135927
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-ray.js?v=ray-20261009-r1",
+      "status": 200,
+      "wall": 1791779541.3141663
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-assemblage.js?v=basin-20261009-r1",
+      "status": 200,
+      "wall": 1791779541.3175032
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-landmark.js?v=c4-20261008-r1",
+      "status": 200,
+      "wall": 1791779541.3306246
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-surface.js?v=surface-20261008-r1",
+      "status": 200,
+      "wall": 1791779541.3316238
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-world.js?v=habitat-20261010-r1",
+      "status": 200,
+      "wall": 1791779541.3373806
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/install-habitat-enrichment.js",
+      "failure": null,
+      "wall": 1791779541.338887
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-meadow.js",
+      "failure": null,
+      "wall": 1791779541.339894
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-aprons.js?v=basin-20261009-r1",
+      "failure": null,
+      "wall": 1791779541.339894
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-habitat-mounds.js?v=closed-shells-20261009-r1",
+      "failure": null,
+      "wall": 1791779541.339894
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-life.js?v=basin-20261009-r1",
+      "status": 200,
+      "wall": 1791779541.341361
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/fish-motion.js",
+      "failure": null,
+      "wall": 1791779541.3424225
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/exploration-navigation.js",
+      "status": 200,
+      "wall": 1791779541.3424225
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/exploration-world.js?v=layered-habitat-20261011-v1",
+      "status": 200,
+      "wall": 1791779541.3507679
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/rear-connected-data.js",
+      "failure": null,
+      "wall": 1791779541.351389
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/exploration-world-data.js?v=layered-habitat-20261011-v1",
+      "status": 200,
+      "wall": 1791779541.358532
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-ocean.js?v=layered-habitat-20261011-v1",
+      "status": 200,
+      "wall": 1791779541.358532
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/continuous-layout.js",
+      "status": 200,
+      "wall": 1791779541.3808627
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/vendor/OrbitControls.js",
+      "status": 200,
+      "wall": 1791779541.3848622
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/field-data.js",
+      "status": 200,
+      "wall": 1791779541.3848622
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/install-layered-ridges.js",
+      "status": 200,
+      "wall": 1791779541.3858616
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/utils/BufferGeometryUtils.js",
+      "status": 200,
+      "wall": 1791779541.3858616
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/grounded-shoulder.js",
+      "failure": null,
+      "wall": 1791779541.3858616
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/rear-habitat.js",
+      "failure": null,
+      "wall": 1791779541.3858616
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/visible-habitat.js",
+      "failure": null,
+      "wall": 1791779541.3858616
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/vendor/GLTFLoader.js",
+      "status": 200,
+      "wall": 1791779541.3858616
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/utils/SkeletonUtils.js",
+      "failure": null,
+      "wall": 1791779541.3871222
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/install-natural-rock.js",
+      "status": 200,
+      "wall": 1791779541.3871222
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/vendor/three.module.js",
+      "status": 200,
+      "wall": 1791779541.3926392
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/vendor/three.core.js",
+      "failure": null,
+      "wall": 1791779541.3926392
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/turtle-motion.js?v=turtle-20261009-r1",
+      "status": 200,
+      "wall": 1791779541.3946388
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/install-habitat-enrichment.js",
+      "status": 200,
+      "wall": 1791779541.4004886
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/habitat-placement.js",
+      "failure": null,
+      "wall": 1791779541.4004886
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-meadow.js",
+      "status": 200,
+      "wall": 1791779541.4114563
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-aprons.js?v=basin-20261009-r1",
+      "status": 200,
+      "wall": 1791779541.4114563
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/seagrass-blades.js",
+      "failure": null,
+      "wall": 1791779541.4120238
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-meadow-placement.js",
+      "failure": null,
+      "wall": 1791779541.4120238
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/grounded-shoulder.js",
+      "status": 200,
+      "wall": 1791779541.4228766
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/fish-motion.js",
+      "status": 200,
+      "wall": 1791779541.4258747
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/grounded-shoulder-data.js",
+      "failure": null,
+      "wall": 1791779541.4258747
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-habitat-mounds.js?v=closed-shells-20261009-r1",
+      "status": 200,
+      "wall": 1791779541.4407322
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/visible-habitat.js",
+      "status": 200,
+      "wall": 1791779541.447245
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/rear-habitat.js",
+      "status": 200,
+      "wall": 1791779541.447245
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/visible-habitat-placement.js",
+      "failure": null,
+      "wall": 1791779541.4487507
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/rear-connected.js",
+      "failure": null,
+      "wall": 1791779541.4487507
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/utils/SkeletonUtils.js",
+      "status": 200,
+      "wall": 1791779541.4597774
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/rear-connected-data.js",
+      "status": 200,
+      "wall": 1791779541.4723914
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/habitat-placement.js",
+      "status": 200,
+      "wall": 1791779541.47859
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/seagrass-blades.js",
+      "status": 200,
+      "wall": 1791779541.4815996
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/rear-connected.js",
+      "status": 200,
+      "wall": 1791779541.4815996
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/visible-habitat-placement.js",
+      "status": 200,
+      "wall": 1791779541.4836001
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-meadow-placement.js",
+      "status": 200,
+      "wall": 1791779541.494634
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/vendor/three.core.js",
+      "status": 200,
+      "wall": 1791779541.5136979
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/grounded-shoulder-data.js",
+      "status": 200,
+      "wall": 1791779541.5516813
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/water-caustics.png",
+      "failure": null,
+      "wall": 1791779541.5947492
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/water-caustics.png",
+      "status": 200,
+      "wall": 1791779541.6180055
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/reefs4d/C12019-web.glb",
+      "failure": null,
+      "wall": 1791779541.6546087
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/favicon.svg",
+      "failure": null,
+      "wall": 1791779541.6586227
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/reefs4d/C12019-web.glb",
+      "status": 200,
+      "wall": 1791779541.6706107
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/favicon.svg",
+      "status": 200,
+      "wall": 1791779541.6771224
+    },
+    {
+      "type": "request",
+      "url": "blob:http://127.0.0.1:64538/ec8ac8fa-3826-4831-a5d9-17c898e88102",
+      "failure": null,
+      "wall": 1791779541.7931452
+    },
+    {
+      "type": "response",
+      "url": "blob:http://127.0.0.1:64538/ec8ac8fa-3826-4831-a5d9-17c898e88102",
+      "status": 200,
+      "wall": 1791779541.7997148
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/scan-world-corals.gltf",
+      "failure": null,
+      "wall": 1791779541.9507618
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/scan-world-corals.gltf",
+      "status": 200,
+      "wall": 1791779541.9565122
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/scan-world-corals.bin",
+      "failure": null,
+      "wall": 1791779541.961141
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/scan-world-corals.bin",
+      "status": 200,
+      "wall": 1791779541.9669442
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/reef-texture-2.png",
+      "failure": null,
+      "wall": 1791779541.987488
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/reef-texture-3.png",
+      "failure": null,
+      "wall": 1791779541.987488
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/reef-texture-4.png",
+      "failure": null,
+      "wall": 1791779541.987488
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/reef-texture-5.png",
+      "failure": null,
+      "wall": 1791779541.987488
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/reef-texture-2.png",
+      "status": 200,
+      "wall": 1791779541.9995801
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/reef-texture-4.png",
+      "status": 200,
+      "wall": 1791779541.9995801
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/reef-texture-3.png",
+      "status": 200,
+      "wall": 1791779542.0353608
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/reef-texture-5.png",
+      "status": 200,
+      "wall": 1791779542.0373514
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/scan-fish.gltf",
+      "failure": null,
+      "wall": 1791779542.1497293
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/scan-fish.gltf",
+      "status": 200,
+      "wall": 1791779542.1595428
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/scan-fish.bin",
+      "failure": null,
+      "wall": 1791779542.1605527
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/scan-fish.bin",
+      "status": 200,
+      "wall": 1791779542.1715312
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/boulder_01_LOD1_1k.glb",
+      "failure": null,
+      "wall": 1791779542.303841
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/boulder_01_LOD1_1k.glb",
+      "status": 200,
+      "wall": 1791779542.314723
+    },
+    {
+      "type": "request",
+      "url": "blob:http://127.0.0.1:64538/4ca505af-fba7-4e29-bfed-3a0f86703670",
+      "failure": null,
+      "wall": 1791779542.3762202
+    },
+    {
+      "type": "request",
+      "url": "blob:http://127.0.0.1:64538/4beb38a6-e1e9-44fd-9e81-0429b036a732",
+      "failure": null,
+      "wall": 1791779542.3762202
+    },
+    {
+      "type": "request",
+      "url": "blob:http://127.0.0.1:64538/955ac914-73f7-4a91-a836-d765b6d72e6a",
+      "failure": null,
+      "wall": 1791779542.3762202
+    },
+    {
+      "type": "response",
+      "url": "blob:http://127.0.0.1:64538/4ca505af-fba7-4e29-bfed-3a0f86703670",
+      "status": 200,
+      "wall": 1791779542.3796678
+    },
+    {
+      "type": "response",
+      "url": "blob:http://127.0.0.1:64538/4beb38a6-e1e9-44fd-9e81-0429b036a732",
+      "status": 200,
+      "wall": 1791779542.3806164
+    },
+    {
+      "type": "response",
+      "url": "blob:http://127.0.0.1:64538/955ac914-73f7-4a91-a836-d765b6d72e6a",
+      "status": 200,
+      "wall": 1791779542.3806164
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/synthetic-reef-ray.glb",
+      "failure": null,
+      "wall": 1791779546.6540842
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/synthetic-reef-turtle.glb",
+      "failure": null,
+      "wall": 1791779546.6566057
+    },
+    {
+      "type": "console",
+      "level": "warning",
+      "text": "THREE.WebGLShadowMap: PCFSoftShadowMap has been removed. Using PCFShadowMap instead.",
+      "wall": 1791779546.6786711
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/synthetic-reef-ray.glb",
+      "status": 200,
+      "wall": 1791779548.9146621
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/synthetic-reef-turtle.glb",
+      "status": 200,
+      "wall": 1791779548.9151914
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/reefs4d/C42019-web-150k.glb",
+      "failure": null,
+      "wall": 1791779548.9224818
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/reefs4d/C42019-web-150k.glb",
+      "status": 200,
+      "wall": 1791779549.1688857
+    },
+    {
+      "type": "request",
+      "url": "blob:http://127.0.0.1:64538/943d2699-2e37-442e-8bfe-8b7d65f29edb",
+      "failure": null,
+      "wall": 1791779549.6145732
+    },
+    {
+      "type": "response",
+      "url": "blob:http://127.0.0.1:64538/943d2699-2e37-442e-8bfe-8b7d65f29edb",
+      "status": 200,
+      "wall": 1791779549.6197932
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/reefs4d/C4-A-rounded-knobby.glb",
+      "failure": null,
+      "wall": 1791779549.7818227
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/reefs4d/C4-A-rounded-knobby.glb",
+      "status": 200,
+      "wall": 1791779550.1906357
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/boulder_01_LOD1_1k.glb",
+      "failure": null,
+      "wall": 1791779550.2616274
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/assets/boulder_01_LOD1_1k.glb",
+      "status": 200,
+      "wall": 1791779550.28283
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-exhibit.html",
+      "failure": null,
+      "wall": 1791779550.3226187
+    },
+    {
+      "type": "request",
+      "url": "blob:http://127.0.0.1:64538/12a49e85-94b1-4dbc-877d-079ea3dd9d12",
+      "failure": null,
+      "wall": 1791779550.326698
+    },
+    {
+      "type": "request",
+      "url": "blob:http://127.0.0.1:64538/beb5eac0-5d28-4629-887e-758f11d9367e",
+      "failure": null,
+      "wall": 1791779550.326698
+    },
+    {
+      "type": "request",
+      "url": "blob:http://127.0.0.1:64538/a913fc33-0714-41f5-8f72-aa01d3fdb87b",
+      "failure": null,
+      "wall": 1791779550.326698
+    },
+    {
+      "type": "response",
+      "url": "blob:http://127.0.0.1:64538/12a49e85-94b1-4dbc-877d-079ea3dd9d12",
+      "status": 200,
+      "wall": 1791779550.326698
+    },
+    {
+      "type": "response",
+      "url": "blob:http://127.0.0.1:64538/beb5eac0-5d28-4629-887e-758f11d9367e",
+      "status": 200,
+      "wall": 1791779550.3273077
+    },
+    {
+      "type": "response",
+      "url": "blob:http://127.0.0.1:64538/a913fc33-0714-41f5-8f72-aa01d3fdb87b",
+      "status": 200,
+      "wall": 1791779550.3273077
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-exhibit.html",
+      "status": 200,
+      "wall": 1791779550.3349373
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-exhibit.css?v=exploration-demo-compact-hud-v3",
+      "failure": null,
+      "wall": 1791779550.6241145
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-exhibit.js?v=layered-habitat-20261011-v1",
+      "failure": null,
+      "wall": 1791779550.6241145
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-hud.js?v=edge-hud-20261008-r1",
+      "failure": null,
+      "wall": 1791779550.6248026
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-exhibit.css?v=exploration-demo-compact-hud-v3",
+      "status": 200,
+      "wall": 1791779550.631865
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-hud.js?v=edge-hud-20261008-r1",
+      "status": 200,
+      "wall": 1791779550.6437092
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-exhibit.js?v=layered-habitat-20261011-v1",
+      "status": 200,
+      "wall": 1791779550.6442447
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/continuous-reef.js",
+      "failure": null,
+      "wall": 1791779550.6449165
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/field-runtime.js",
+      "failure": null,
+      "wall": 1791779550.6449165
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/coral-midground-runtime.js",
+      "failure": null,
+      "wall": 1791779550.6449165
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/layered-ridges-runtime.js",
+      "failure": null,
+      "wall": 1791779550.6455214
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/natural-rock-runtime.js",
+      "failure": null,
+      "wall": 1791779550.6455214
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-render-demand.js?v=demand-20261009-r1",
+      "failure": null,
+      "wall": 1791779550.6455214
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-turtle.js?v=animal-scale-20261010-r1",
+      "failure": null,
+      "wall": 1791779550.6455214
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-ray.js?v=ray-20261009-r1",
+      "failure": null,
+      "wall": 1791779550.6455214
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-assemblage.js?v=basin-20261009-r1",
+      "failure": null,
+      "wall": 1791779550.6460695
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-landmark.js?v=c4-20261008-r1",
+      "failure": null,
+      "wall": 1791779550.6460695
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-surface.js?v=surface-20261008-r1",
+      "failure": null,
+      "wall": 1791779550.6460695
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-world.js?v=habitat-20261010-r1",
+      "failure": null,
+      "wall": 1791779550.646601
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-life.js?v=basin-20261009-r1",
+      "failure": null,
+      "wall": 1791779550.646601
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/exploration-navigation.js",
+      "failure": null,
+      "wall": 1791779550.6471398
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/exploration-world.js?v=layered-habitat-20261011-v1",
+      "failure": null,
+      "wall": 1791779550.6471398
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/exploration-world-data.js?v=layered-habitat-20261011-v1",
+      "failure": null,
+      "wall": 1791779550.6476772
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-ocean.js?v=layered-habitat-20261011-v1",
+      "failure": null,
+      "wall": 1791779550.6476772
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/vendor/three.module.js",
+      "failure": null,
+      "wall": 1791779550.6482244
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/vendor/OrbitControls.js",
+      "failure": null,
+      "wall": 1791779550.6487727
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/vendor/GLTFLoader.js",
+      "failure": null,
+      "wall": 1791779550.6487727
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/continuous-reef.js",
+      "status": 200,
+      "wall": 1791779550.6666706
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/utils/BufferGeometryUtils.js",
+      "failure": null,
+      "wall": 1791779550.670163
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/continuous-layout.js",
+      "failure": null,
+      "wall": 1791779550.670958
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/coral-midground-runtime.js",
+      "status": 200,
+      "wall": 1791779550.670958
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/field-runtime.js",
+      "status": 200,
+      "wall": 1791779550.6751003
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/field-data.js",
+      "failure": null,
+      "wall": 1791779550.675622
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/layered-ridges-runtime.js",
+      "status": 200,
+      "wall": 1791779550.6832943
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/install-layered-ridges.js",
+      "failure": null,
+      "wall": 1791779550.6832943
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/natural-rock-runtime.js",
+      "status": 200,
+      "wall": 1791779550.6868083
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/install-natural-rock.js",
+      "failure": null,
+      "wall": 1791779550.6955037
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-render-demand.js?v=demand-20261009-r1",
+      "status": 200,
+      "wall": 1791779550.696008
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-turtle.js?v=animal-scale-20261010-r1",
+      "status": 200,
+      "wall": 1791779550.696008
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/turtle-motion.js?v=turtle-20261009-r1",
+      "failure": null,
+      "wall": 1791779550.696008
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-ray.js?v=ray-20261009-r1",
+      "status": 200,
+      "wall": 1791779550.70353
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-assemblage.js?v=basin-20261009-r1",
+      "status": 200,
+      "wall": 1791779550.712615
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-landmark.js?v=c4-20261008-r1",
+      "status": 200,
+      "wall": 1791779550.7189965
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-surface.js?v=surface-20261008-r1",
+      "status": 200,
+      "wall": 1791779550.7240007
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-world.js?v=habitat-20261010-r1",
+      "status": 200,
+      "wall": 1791779550.733514
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/install-habitat-enrichment.js",
+      "failure": null,
+      "wall": 1791779550.7360206
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-meadow.js",
+      "failure": null,
+      "wall": 1791779550.7424288
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-aprons.js?v=basin-20261009-r1",
+      "failure": null,
+      "wall": 1791779550.7424288
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-habitat-mounds.js?v=closed-shells-20261009-r1",
+      "failure": null,
+      "wall": 1791779550.7424288
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-life.js?v=basin-20261009-r1",
+      "status": 200,
+      "wall": 1791779550.7429605
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/fish-motion.js",
+      "failure": null,
+      "wall": 1791779550.7429605
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/exploration-navigation.js",
+      "status": 200,
+      "wall": 1791779550.7429605
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/exploration-world.js?v=layered-habitat-20261011-v1",
+      "status": 200,
+      "wall": 1791779550.7534974
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/rear-connected-data.js",
+      "failure": null,
+      "wall": 1791779550.754046
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/exploration-world-data.js?v=layered-habitat-20261011-v1",
+      "status": 200,
+      "wall": 1791779550.7615652
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-ocean.js?v=layered-habitat-20261011-v1",
+      "status": 200,
+      "wall": 1791779550.768076
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/vendor/OrbitControls.js",
+      "status": 200,
+      "wall": 1791779550.7878528
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/vendor/GLTFLoader.js",
+      "status": 200,
+      "wall": 1791779550.791858
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/utils/SkeletonUtils.js",
+      "failure": null,
+      "wall": 1791779550.791858
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/utils/BufferGeometryUtils.js",
+      "status": 200,
+      "wall": 1791779550.7998903
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/vendor/three.module.js",
+      "status": 200,
+      "wall": 1791779550.7998903
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/vendor/three.core.js",
+      "failure": null,
+      "wall": 1791779550.7998903
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/continuous-layout.js",
+      "status": 200,
+      "wall": 1791779550.808903
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/field-data.js",
+      "status": 200,
+      "wall": 1791779550.8144135
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/install-layered-ridges.js",
+      "status": 200,
+      "wall": 1791779550.8229582
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/grounded-shoulder.js",
+      "failure": null,
+      "wall": 1791779550.8229582
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/rear-habitat.js",
+      "failure": null,
+      "wall": 1791779550.8229582
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/visible-habitat.js",
+      "failure": null,
+      "wall": 1791779550.8229582
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/install-natural-rock.js",
+      "status": 200,
+      "wall": 1791779550.8274727
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/turtle-motion.js?v=turtle-20261009-r1",
+      "status": 200,
+      "wall": 1791779550.834508
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/install-habitat-enrichment.js",
+      "status": 200,
+      "wall": 1791779550.8451498
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/habitat-placement.js",
+      "failure": null,
+      "wall": 1791779550.8456545
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-meadow.js",
+      "status": 200,
+      "wall": 1791779550.8486602
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/seagrass-blades.js",
+      "failure": null,
+      "wall": 1791779550.8486602
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-meadow-placement.js",
+      "failure": null,
+      "wall": 1791779550.8486602
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-aprons.js?v=basin-20261009-r1",
+      "status": 200,
+      "wall": 1791779550.873898
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/fish-motion.js",
+      "status": 200,
+      "wall": 1791779550.873898
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-habitat-mounds.js?v=closed-shells-20261009-r1",
+      "status": 200,
+      "wall": 1791779550.8759046
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/utils/SkeletonUtils.js",
+      "status": 200,
+      "wall": 1791779550.8898246
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/grounded-shoulder.js",
+      "status": 200,
+      "wall": 1791779550.9115589
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/grounded-shoulder-data.js",
+      "failure": null,
+      "wall": 1791779550.916498
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/rear-habitat.js",
+      "status": 200,
+      "wall": 1791779550.916498
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/rear-connected.js",
+      "failure": null,
+      "wall": 1791779550.9170468
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/rear-connected-data.js",
+      "status": 200,
+      "wall": 1791779550.9170468
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/visible-habitat.js",
+      "status": 200,
+      "wall": 1791779550.9248946
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/visible-habitat-placement.js",
+      "failure": null,
+      "wall": 1791779550.9254434
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/vendor/three.core.js",
+      "status": 200,
+      "wall": 1791779550.9254434
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/seagrass-blades.js",
+      "status": 200,
+      "wall": 1791779550.933053
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-meadow-placement.js",
+      "status": 200,
+      "wall": 1791779550.9394474
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/rear-connected.js",
+      "status": 200,
+      "wall": 1791779550.9571667
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/habitat-placement.js",
+      "status": 200,
+      "wall": 1791779550.9571667
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/visible-habitat-placement.js",
+      "status": 200,
+      "wall": 1791779550.9606838
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/grounded-shoulder-data.js",
+      "status": 200,
+      "wall": 1791779551.0269854
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/water-caustics.png",
+      "failure": null,
+      "wall": 1791779551.0613396
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/water-caustics.png",
+      "status": 200,
+      "wall": 1791779551.0759208
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/reefs4d/C12019-web.glb",
+      "failure": null,
+      "wall": 1791779551.0988543
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/favicon.svg",
+      "failure": null,
+      "wall": 1791779551.1009774
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/favicon.svg",
+      "status": 200,
+      "wall": 1791779551.1168816
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/reefs4d/C12019-web.glb",
+      "status": 200,
+      "wall": 1791779551.125882
+    },
+    {
+      "type": "request",
+      "url": "blob:http://127.0.0.1:64538/d1d06772-6c54-447e-be50-0017caf63747",
+      "failure": null,
+      "wall": 1791779551.262525
+    },
+    {
+      "type": "response",
+      "url": "blob:http://127.0.0.1:64538/d1d06772-6c54-447e-be50-0017caf63747",
+      "status": 200,
+      "wall": 1791779551.2656212
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/scan-world-corals.gltf",
+      "failure": null,
+      "wall": 1791779551.4072263
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/scan-world-corals.gltf",
+      "status": 200,
+      "wall": 1791779551.4172096
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/scan-world-corals.bin",
+      "failure": null,
+      "wall": 1791779551.41972
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/scan-world-corals.bin",
+      "status": 200,
+      "wall": 1791779551.4291685
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/reef-texture-2.png",
+      "failure": null,
+      "wall": 1791779551.4456336
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/reef-texture-3.png",
+      "failure": null,
+      "wall": 1791779551.4470034
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/reef-texture-4.png",
+      "failure": null,
+      "wall": 1791779551.4470034
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/reef-texture-5.png",
+      "failure": null,
+      "wall": 1791779551.447435
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/reef-texture-2.png",
+      "status": 200,
+      "wall": 1791779551.4585192
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/reef-texture-3.png",
+      "status": 200,
+      "wall": 1791779551.4637058
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/reef-texture-4.png",
+      "status": 200,
+      "wall": 1791779551.4870865
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/reef-texture-5.png",
+      "status": 200,
+      "wall": 1791779551.4885945
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/scan-fish.gltf",
+      "failure": null,
+      "wall": 1791779551.5899734
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/scan-fish.gltf",
+      "status": 200,
+      "wall": 1791779551.600772
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/scan-fish.bin",
+      "failure": null,
+      "wall": 1791779551.6042852
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/scan-fish.bin",
+      "status": 200,
+      "wall": 1791779551.6136672
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/boulder_01_LOD1_1k.glb",
+      "failure": null,
+      "wall": 1791779551.756633
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/boulder_01_LOD1_1k.glb",
+      "status": 200,
+      "wall": 1791779551.7677307
+    },
+    {
+      "type": "request",
+      "url": "blob:http://127.0.0.1:64538/ad619694-f5a0-4928-bdf6-379bcbd73911",
+      "failure": null,
+      "wall": 1791779551.8306913
+    },
+    {
+      "type": "request",
+      "url": "blob:http://127.0.0.1:64538/8287b96e-f8d8-44be-938a-55cb10ac2f70",
+      "failure": null,
+      "wall": 1791779551.8306913
+    },
+    {
+      "type": "request",
+      "url": "blob:http://127.0.0.1:64538/59ac4bb8-4708-425c-bebc-1ea207f0c1cc",
+      "failure": null,
+      "wall": 1791779551.8312874
+    },
+    {
+      "type": "response",
+      "url": "blob:http://127.0.0.1:64538/ad619694-f5a0-4928-bdf6-379bcbd73911",
+      "status": 200,
+      "wall": 1791779551.8312874
+    },
+    {
+      "type": "response",
+      "url": "blob:http://127.0.0.1:64538/8287b96e-f8d8-44be-938a-55cb10ac2f70",
+      "status": 200,
+      "wall": 1791779551.8318584
+    },
+    {
+      "type": "response",
+      "url": "blob:http://127.0.0.1:64538/59ac4bb8-4708-425c-bebc-1ea207f0c1cc",
+      "status": 200,
+      "wall": 1791779551.8318584
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/synthetic-reef-ray.glb",
+      "failure": null,
+      "wall": 1791779556.2609766
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/synthetic-reef-turtle.glb",
+      "failure": null,
+      "wall": 1791779556.2609766
+    },
+    {
+      "type": "console",
+      "level": "warning",
+      "text": "THREE.WebGLShadowMap: PCFSoftShadowMap has been removed. Using PCFShadowMap instead.",
+      "wall": 1791779556.286077
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/synthetic-reef-ray.glb",
+      "status": 200,
+      "wall": 1791779559.1230705
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/synthetic-reef-turtle.glb",
+      "status": 200,
+      "wall": 1791779559.1240711
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/reefs4d/C42019-web-150k.glb",
+      "failure": null,
+      "wall": 1791779559.1240711
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/reefs4d/C42019-web-150k.glb",
+      "status": 200,
+      "wall": 1791779559.266133
+    },
+    {
+      "type": "request",
+      "url": "blob:http://127.0.0.1:64538/759a100d-13a6-47d8-b5f5-5afd7bf6c497",
+      "failure": null,
+      "wall": 1791779559.6401086
+    },
+    {
+      "type": "response",
+      "url": "blob:http://127.0.0.1:64538/759a100d-13a6-47d8-b5f5-5afd7bf6c497",
+      "status": 200,
+      "wall": 1791779559.6480043
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/reefs4d/C4-A-rounded-knobby.glb",
+      "failure": null,
+      "wall": 1791779559.8366473
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/reefs4d/C4-A-rounded-knobby.glb",
+      "status": 200,
+      "wall": 1791779560.2633986
+    },
+    {
+      "type": "request",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/boulder_01_LOD1_1k.glb",
+      "failure": null,
+      "wall": 1791779560.3409784
+    },
+    {
+      "type": "response",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/assets/boulder_01_LOD1_1k.glb",
+      "status": 200,
+      "wall": 1791779560.3691864
+    }
+  ],
+  "cases": [
+    {
+      "name": "blank",
+      "url": "http://127.0.0.1:64538/blank.html",
+      "localHttp": {
+        "status": 200,
+        "bytes": 99,
+        "seconds": 0.0
+      },
+      "browserApiHttp": {
+        "status": 200,
+        "bytes": 99
+      },
+      "navigation": {
+        "status": 200,
+        "actualUrl": "http://127.0.0.1:64538/blank.html",
+        "seconds": 0.062000000034458935
+      },
+      "domTitle": "Reef blank probe"
+    },
+    {
+      "name": "b92",
+      "url": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-exhibit.html",
+      "localHttp": {
+        "status": 200,
+        "bytes": 12124,
+        "seconds": 0.15700000000651926
+      },
+      "browserApiHttp": {
+        "status": 200,
+        "bytes": 12124
+      },
+      "navigation": {
+        "status": 200,
+        "actualUrl": "http://127.0.0.1:64538/artifacts/continuous-candidate/scan-exhibit.html",
+        "seconds": 0.030999999959021807
+      },
+      "ready": true,
+      "state": {
+        "title": "自由海域游览 · 浅蓝",
+        "exhibit": {
+          "continuousField": {
+            "status": "idle",
+            "enabled": false,
+            "disposed": false,
+            "error": null,
+            "progress": 0,
+            "installed": false
+          },
+          "layeredRidges": {
+            "status": "idle",
+            "error": null,
+            "installed": false,
+            "enabled": true,
+            "disposed": false,
+            "budget": null,
+            "synthetic": true,
+            "localStructureCandidate": true
+          },
+          "naturalRock": {
+            "status": "idle",
+            "error": null,
+            "disposed": false,
+            "installed": false,
+            "bytes": 3663288,
+            "syntheticPresentation": true,
+            "terrestrialScan": true
+          },
+          "ready": true,
+          "softened": false,
+          "waterMode": true,
+          "selectedPatch": "C1",
+          "c4": {
+            "status": "idle",
+            "error": null,
+            "bytes": 9232096
+          },
+          "assemblage": {
+            "status": "idle",
+            "error": null,
+            "bytes": 1174872,
+            "instances": 0
+          },
+          "ambient": {
+            "time": 0,
+            "paused": false
+          },
+          "ray": {
+            "status": "loading",
+            "error": null,
+            "bytes": 296520,
+            "installed": false,
+            "disposed": false
+          },
+          "turtle": {
+            "status": "loading",
+            "error": null,
+            "bytes": 184868,
+            "installed": false,
+            "disposed": false
+          },
+          "syntheticFish": 4,
+          "route": {
+            "active": true,
+            "mode": "free",
+            "paused": false,
+            "elapsed": 0,
+            "duration": 72,
+            "progress": 0,
+            "goal": 0,
+            "yaw": 0,
+            "pitch": 0,
+            "position": [
+              4,
+              5,
+              10
+            ],
+            "speed": 0,
+            "region": "原生扫描礁区",
+            "reduced": false,
+            "heldKeys": []
+          },
+          "view": "exploration",
+          "independent": true,
+          "syntheticEnvironment": true,
+          "camera": [
+            4,
+            5,
+            10
+          ],
+          "target": [
+            4,
+            5,
+            0
+          ],
+          "sourceMeshes": 1,
+          "source": "https://zenodo.org/records/14616671"
+        },
+        "error": true
+      }
+    },
+    {
+      "name": "candidate",
+      "url": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-exhibit.html",
+      "localHttp": {
+        "status": 200,
+        "bytes": 12124,
+        "seconds": 0.0
+      },
+      "browserApiHttp": {
+        "status": 200,
+        "bytes": 12124
+      },
+      "navigation": {
+        "status": 200,
+        "actualUrl": "http://127.0.0.1:64538/artifacts/composition-candidate/scan-exhibit.html",
+        "seconds": 0.3119999999180436
+      },
+      "ready": true,
+      "state": {
+        "title": "自由海域游览 · 浅蓝",
+        "exhibit": {
+          "continuousField": {
+            "status": "idle",
+            "enabled": false,
+            "disposed": false,
+            "error": null,
+            "progress": 0,
+            "installed": false
+          },
+          "layeredRidges": {
+            "status": "idle",
+            "error": null,
+            "installed": false,
+            "enabled": true,
+            "disposed": false,
+            "budget": null,
+            "synthetic": true,
+            "localStructureCandidate": true
+          },
+          "naturalRock": {
+            "status": "idle",
+            "error": null,
+            "disposed": false,
+            "installed": false,
+            "bytes": 3663288,
+            "syntheticPresentation": true,
+            "terrestrialScan": true
+          },
+          "ready": true,
+          "softened": false,
+          "waterMode": true,
+          "selectedPatch": "C1",
+          "c4": {
+            "status": "idle",
+            "error": null,
+            "bytes": 9232096
+          },
+          "assemblage": {
+            "status": "idle",
+            "error": null,
+            "bytes": 1174872,
+            "instances": 0
+          },
+          "ambient": {
+            "time": 0,
+            "paused": false
+          },
+          "ray": {
+            "status": "loading",
+            "error": null,
+            "bytes": 296520,
+            "installed": false,
+            "disposed": false
+          },
+          "turtle": {
+            "status": "loading",
+            "error": null,
+            "bytes": 184868,
+            "installed": false,
+            "disposed": false
+          },
+          "syntheticFish": 4,
+          "route": {
+            "active": true,
+            "mode": "free",
+            "paused": false,
+            "elapsed": 0,
+            "duration": 72,
+            "progress": 0,
+            "goal": 0,
+            "yaw": 0,
+            "pitch": 0,
+            "position": [
+              4,
+              5,
+              10
+            ],
+            "speed": 0,
+            "region": "原生扫描礁区",
+            "reduced": false,
+            "heldKeys": []
+          },
+          "view": "exploration",
+          "independent": true,
+          "syntheticEnvironment": true,
+          "camera": [
+            4,
+            5,
+            10
+          ],
+          "target": [
+            4,
+            5,
+            0
+          ],
+          "sourceMeshes": 1,
+          "source": "https://zenodo.org/records/14616671"
+        },
+        "error": true
+      }
+    }
+  ],
+  "scope": "one HTTP server and one browser context; no system settings or user browser touched",
+  "base": "http://127.0.0.1:64538",
+  "launchSeconds": 0.5780000000959262,
+  "processReadError": "",
+  "status": "PASS",
+  "forbiddenBrowserFlagsAbsent": true,
+  "taskChromeProcesses": [
+    {
+      "ProcessId": 38240,
+      "ParentProcessId": 47760
+    },
+    {
+      "ProcessId": 24336,
+      "ParentProcessId": 38240
+    },
+    {
+      "ProcessId": 31984,
+      "ParentProcessId": 38240
+    },
+    {
+      "ProcessId": 64244,
+      "ParentProcessId": 38240
+    },
+    {
+      "ProcessId": 19028,
+      "ParentProcessId": 38240
+    },
+    {
+      "ProcessId": 52324,
+      "ParentProcessId": 38240
+    },
+    {
+      "ProcessId": 64808,
+      "ParentProcessId": 38240
+    },
+    {
+      "ProcessId": 24216,
+      "ParentProcessId": 38240
+    }
+  ]
+}
