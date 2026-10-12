@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "cpuOnly": true,
+  "baselineFiles": 149,
+  "preservedBaselineFiles": 145,
+  "changedFiles": [
+    "continuous-layout.js",
+    "continuous-reef.js",
+    "exploration-world-data.js",
+    "exploration-world.js",
+    "scan-exhibit.js",
+    "scan-ocean.js"
+  ],
+  "sampledTourPoses": 1440,
+  "retainedStops": 6,
+  "collisionProxyChecks": 2,
+  "claims": [
+    "asset bytes preserved",
+    "same navigation controller",
+    "retained six stops reachable",
+    "finite collision-safe sampled tour"
+  ],
+  "notCovered": [
+    "continuous triangle/body collision",
+    "real browser",
+    "visual quality",
+    "hardware phone performance"
+  ]
+}

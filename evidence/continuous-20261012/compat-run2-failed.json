@@ -1,0 +1,111 @@
+{
+  "status": "FAIL",
+  "checks": {},
+  "errors": [],
+  "clockInjection": false,
+  "previousTourRun": "../continuous-motion/verification.json",
+  "previousFailureReason": "The first collision check strafed at z=10, outside the visible near-left reef. The assertion selected an empty location; no runtime change was made for this retest.",
+  "failure": "",
+  "failureState": {
+    "continuousField": {
+      "status": "idle",
+      "enabled": false,
+      "disposed": false,
+      "error": null,
+      "progress": 0,
+      "installed": false
+    },
+    "layeredRidges": {
+      "status": "ready",
+      "error": null,
+      "installed": true,
+      "enabled": true,
+      "disposed": false,
+      "budget": {
+        "triangles": 106356,
+        "drawCalls": 6,
+        "newTextureBytes": 0
+      },
+      "synthetic": true,
+      "localStructureCandidate": true
+    },
+    "naturalRock": {
+      "status": "ready",
+      "error": null,
+      "disposed": false,
+      "installed": true,
+      "bytes": 3663288,
+      "syntheticPresentation": true,
+      "terrestrialScan": true
+    },
+    "ready": true,
+    "softened": false,
+    "waterMode": true,
+    "selectedPatch": "C1",
+    "c4": {
+      "status": "ready",
+      "error": null,
+      "bytes": 9232096
+    },
+    "assemblage": {
+      "status": "ready",
+      "error": null,
+      "bytes": 1174872,
+      "instances": 4
+    },
+    "ambient": {
+      "time": 11.203899999999994,
+      "paused": false
+    },
+    "ray": {
+      "status": "ready",
+      "error": null,
+      "bytes": 296520,
+      "installed": true,
+      "disposed": false
+    },
+    "turtle": {
+      "status": "ready",
+      "error": null,
+      "bytes": 184868,
+      "installed": true,
+      "disposed": false
+    },
+    "syntheticFish": 4,
+    "route": {
+      "active": true,
+      "mode": "free",
+      "paused": false,
+      "elapsed": 0,
+      "duration": 72,
+      "progress": 0,
+      "goal": 0,
+      "yaw": 0,
+      "pitch": 0,
+      "position": [
+        -6.1220000000000265,
+        5,
+        -17.675900000000002
+      ],
+      "speed": 0,
+      "region": "原生扫描礁区",
+      "reduced": false,
+      "heldKeys": []
+    },
+    "view": "exploration",
+    "independent": true,
+    "syntheticEnvironment": true,
+    "camera": [
+      -6.1220000000000265,
+      5,
+      -17.675900000000002
+    ],
+    "target": [
+      -6.1220000000000265,
+      5,
+      -27.675900000000002
+    ],
+    "sourceMeshes": 2,
+    "source": "https://zenodo.org/records/14616671"
+  }
+}

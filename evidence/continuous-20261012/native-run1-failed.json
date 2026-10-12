@@ -1,0 +1,1099 @@
+{
+  "status": "FAIL",
+  "errors": [],
+  "failedRequests": [],
+  "checks": {
+    "native72SecondTour": {
+      "passed": true,
+      "wallSeconds": 72.32799999997951,
+      "finalState": {
+        "continuousField": {
+          "status": "idle",
+          "enabled": false,
+          "disposed": false,
+          "error": null,
+          "progress": 0,
+          "installed": false
+        },
+        "layeredRidges": {
+          "status": "ready",
+          "error": null,
+          "installed": true,
+          "enabled": true,
+          "disposed": false,
+          "budget": {
+            "triangles": 106356,
+            "drawCalls": 6,
+            "newTextureBytes": 0
+          },
+          "synthetic": true,
+          "localStructureCandidate": true
+        },
+        "naturalRock": {
+          "status": "ready",
+          "error": null,
+          "disposed": false,
+          "installed": true,
+          "bytes": 3663288,
+          "syntheticPresentation": true,
+          "terrestrialScan": true
+        },
+        "ready": true,
+        "softened": false,
+        "waterMode": true,
+        "selectedPatch": "C1",
+        "c4": {
+          "status": "ready",
+          "error": null,
+          "bytes": 9232096
+        },
+        "assemblage": {
+          "status": "ready",
+          "error": null,
+          "bytes": 1174872,
+          "instances": 4
+        },
+        "ambient": {
+          "time": 57.29409999999947,
+          "paused": false
+        },
+        "ray": {
+          "status": "ready",
+          "error": null,
+          "bytes": 296520,
+          "installed": true,
+          "disposed": false
+        },
+        "turtle": {
+          "status": "ready",
+          "error": null,
+          "bytes": 184868,
+          "installed": true,
+          "disposed": false
+        },
+        "syntheticFish": 4,
+        "route": {
+          "active": true,
+          "mode": "completed",
+          "paused": true,
+          "elapsed": 72,
+          "duration": 72,
+          "progress": 1,
+          "goal": 1,
+          "yaw": -0.7853981633974483,
+          "pitch": -0.05885750594708122,
+          "position": [
+            8,
+            -10,
+            -393
+          ],
+          "speed": 0,
+          "region": "大陆架与深水边缘",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "view": "exploration",
+        "independent": true,
+        "syntheticEnvironment": true,
+        "camera": [
+          8,
+          -10,
+          -393
+        ],
+        "target": [
+          0.9411764705882355,
+          -10.588235294117647,
+          -400.05882352941177
+        ],
+        "sourceMeshes": 2,
+        "source": "https://zenodo.org/records/14616671"
+      }
+    },
+    "replayAndPause": {
+      "passed": true,
+      "elapsed": 0.7999999999999999
+    },
+    "turnInPlace": {
+      "passed": true,
+      "before": {
+        "continuousField": {
+          "status": "idle",
+          "enabled": false,
+          "disposed": false,
+          "error": null,
+          "progress": 0,
+          "installed": false
+        },
+        "layeredRidges": {
+          "status": "ready",
+          "error": null,
+          "installed": true,
+          "enabled": true,
+          "disposed": false,
+          "budget": {
+            "triangles": 106356,
+            "drawCalls": 6,
+            "newTextureBytes": 0
+          },
+          "synthetic": true,
+          "localStructureCandidate": true
+        },
+        "naturalRock": {
+          "status": "ready",
+          "error": null,
+          "disposed": false,
+          "installed": true,
+          "bytes": 3663288,
+          "syntheticPresentation": true,
+          "terrestrialScan": true
+        },
+        "ready": true,
+        "softened": false,
+        "waterMode": true,
+        "selectedPatch": "C1",
+        "c4": {
+          "status": "ready",
+          "error": null,
+          "bytes": 9232096
+        },
+        "assemblage": {
+          "status": "ready",
+          "error": null,
+          "bytes": 1174872,
+          "instances": 4
+        },
+        "ambient": {
+          "time": 59.643599999999395,
+          "paused": false
+        },
+        "ray": {
+          "status": "ready",
+          "error": null,
+          "bytes": 296520,
+          "installed": true,
+          "disposed": false
+        },
+        "turtle": {
+          "status": "ready",
+          "error": null,
+          "bytes": 184868,
+          "installed": true,
+          "disposed": false
+        },
+        "syntheticFish": 4,
+        "route": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 2.104100000000006,
+          "duration": 72,
+          "progress": 0.029223611111111197,
+          "goal": 0.029223611111111197,
+          "yaw": -0.06189906448248905,
+          "pitch": -0.0923181173287787,
+          "position": [
+            4.115624150864947,
+            3.361873811210926,
+            4.507852833915017
+          ],
+          "speed": 0,
+          "region": "原生扫描礁区",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "view": "exploration",
+        "independent": true,
+        "syntheticEnvironment": true,
+        "camera": [
+          4.115624150864947,
+          3.361873811210926,
+          4.507852833915017
+        ],
+        "target": [
+          3.4996628667270815,
+          2.4400034019040233,
+          -5.43049444543116
+        ],
+        "sourceMeshes": 2,
+        "source": "https://zenodo.org/records/14616671"
+      },
+      "after": {
+        "continuousField": {
+          "status": "idle",
+          "enabled": false,
+          "disposed": false,
+          "error": null,
+          "progress": 0,
+          "installed": false
+        },
+        "layeredRidges": {
+          "status": "ready",
+          "error": null,
+          "installed": true,
+          "enabled": true,
+          "disposed": false,
+          "budget": {
+            "triangles": 106356,
+            "drawCalls": 6,
+            "newTextureBytes": 0
+          },
+          "synthetic": true,
+          "localStructureCandidate": true
+        },
+        "naturalRock": {
+          "status": "ready",
+          "error": null,
+          "disposed": false,
+          "installed": true,
+          "bytes": 3663288,
+          "syntheticPresentation": true,
+          "terrestrialScan": true
+        },
+        "ready": true,
+        "softened": false,
+        "waterMode": true,
+        "selectedPatch": "C1",
+        "c4": {
+          "status": "ready",
+          "error": null,
+          "bytes": 9232096
+        },
+        "assemblage": {
+          "status": "ready",
+          "error": null,
+          "bytes": 1174872,
+          "instances": 4
+        },
+        "ambient": {
+          "time": 62.805999999999365,
+          "paused": false
+        },
+        "ray": {
+          "status": "ready",
+          "error": null,
+          "bytes": 296520,
+          "installed": true,
+          "disposed": false
+        },
+        "turtle": {
+          "status": "ready",
+          "error": null,
+          "bytes": 184868,
+          "installed": true,
+          "disposed": false
+        },
+        "syntheticFish": 4,
+        "route": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 2.104100000000006,
+          "duration": 72,
+          "progress": 0.029223611111111197,
+          "goal": 0.029223611111111197,
+          "yaw": -2.921444371662057,
+          "pitch": -0.0923181173287787,
+          "position": [
+            4.115624150864947,
+            3.361873811210926,
+            4.507852833915017
+          ],
+          "speed": 0,
+          "region": "原生扫描礁区",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "view": "exploration",
+        "independent": true,
+        "syntheticEnvironment": true,
+        "camera": [
+          4.115624150864947,
+          3.361873811210926,
+          4.507852833915017
+        ],
+        "target": [
+          1.9411798805934266,
+          2.4400034019040233,
+          14.224948442373734
+        ],
+        "sourceMeshes": 2,
+        "source": "https://zenodo.org/records/14616671"
+      }
+    },
+    "forwardReverseAndReturn": {
+      "passed": true,
+      "home": [
+        4,
+        5,
+        10
+      ],
+      "forward": [
+        4,
+        5,
+        5.829399999999984
+      ],
+      "reverse": [
+        4,
+        5,
+        9.67939999999998
+      ]
+    }
+  },
+  "screenshots": [
+    {
+      "name": "tour-near-moving",
+      "state": {
+        "continuousField": {
+          "status": "idle",
+          "enabled": false,
+          "disposed": false,
+          "error": null,
+          "progress": 0,
+          "installed": false
+        },
+        "layeredRidges": {
+          "status": "ready",
+          "error": null,
+          "installed": true,
+          "enabled": true,
+          "disposed": false,
+          "budget": {
+            "triangles": 106356,
+            "drawCalls": 6,
+            "newTextureBytes": 0
+          },
+          "synthetic": true,
+          "localStructureCandidate": true
+        },
+        "naturalRock": {
+          "status": "ready",
+          "error": null,
+          "disposed": false,
+          "installed": true,
+          "bytes": 3663288,
+          "syntheticPresentation": true,
+          "terrestrialScan": true
+        },
+        "ready": true,
+        "softened": false,
+        "waterMode": true,
+        "selectedPatch": "C1",
+        "c4": {
+          "status": "ready",
+          "error": null,
+          "bytes": 9232096
+        },
+        "assemblage": {
+          "status": "ready",
+          "error": null,
+          "bytes": 1174872,
+          "instances": 4
+        },
+        "ambient": {
+          "time": 8.283700000000005,
+          "paused": false
+        },
+        "ray": {
+          "status": "ready",
+          "error": null,
+          "bytes": 296520,
+          "installed": true,
+          "disposed": false
+        },
+        "turtle": {
+          "status": "ready",
+          "error": null,
+          "bytes": 184868,
+          "installed": true,
+          "disposed": false
+        },
+        "syntheticFish": 4,
+        "route": {
+          "active": true,
+          "mode": "tour",
+          "paused": false,
+          "elapsed": 17.791599999999992,
+          "duration": 72,
+          "progress": 0.24710555555555544,
+          "goal": 0.24710555555555544,
+          "yaw": -0.3204469369941067,
+          "pitch": -0.13618333060689417,
+          "position": [
+            5.719422039801013,
+            5.57913305970152,
+            -96.08282942785998
+          ],
+          "speed": 5.887336433991736,
+          "region": "原生扫描礁区",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "view": "exploration",
+        "independent": true,
+        "syntheticEnvironment": true,
+        "camera": [
+          5.719422039801013,
+          5.57913305970152,
+          -96.08282942785998
+        ],
+        "target": [
+          2.598678086024816,
+          4.22150525594294,
+          -105.48590360184323
+        ],
+        "sourceMeshes": 2,
+        "source": "https://zenodo.org/records/14616671"
+      }
+    },
+    {
+      "name": "tour-mid-moving",
+      "state": {
+        "continuousField": {
+          "status": "idle",
+          "enabled": false,
+          "disposed": false,
+          "error": null,
+          "progress": 0,
+          "installed": false
+        },
+        "layeredRidges": {
+          "status": "ready",
+          "error": null,
+          "installed": true,
+          "enabled": true,
+          "disposed": false,
+          "budget": {
+            "triangles": 106356,
+            "drawCalls": 6,
+            "newTextureBytes": 0
+          },
+          "synthetic": true,
+          "localStructureCandidate": true
+        },
+        "naturalRock": {
+          "status": "ready",
+          "error": null,
+          "disposed": false,
+          "installed": true,
+          "bytes": 3663288,
+          "syntheticPresentation": true,
+          "terrestrialScan": true
+        },
+        "ready": true,
+        "softened": false,
+        "waterMode": true,
+        "selectedPatch": "C1",
+        "c4": {
+          "status": "ready",
+          "error": null,
+          "bytes": 9232096
+        },
+        "assemblage": {
+          "status": "ready",
+          "error": null,
+          "bytes": 1174872,
+          "instances": 4
+        },
+        "ambient": {
+          "time": 25.065600000000153,
+          "paused": false
+        },
+        "ray": {
+          "status": "ready",
+          "error": null,
+          "bytes": 296520,
+          "installed": true,
+          "disposed": false
+        },
+        "turtle": {
+          "status": "ready",
+          "error": null,
+          "bytes": 184868,
+          "installed": true,
+          "disposed": false
+        },
+        "syntheticFish": 4,
+        "route": {
+          "active": true,
+          "mode": "tour",
+          "paused": false,
+          "elapsed": 36.48760000000003,
+          "duration": 72,
+          "progress": 0.5067722222222226,
+          "goal": 0.5067722222222226,
+          "yaw": -0.02447259068864716,
+          "pitch": -0.11471829840973163,
+          "position": [
+            -1.5071401807017617,
+            3.1101428036140355,
+            -198.6949831384211
+          ],
+          "speed": 6.620938069072862,
+          "region": "开阔海草浅湾",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "view": "exploration",
+        "independent": true,
+        "syntheticEnvironment": true,
+        "camera": [
+          -1.5071401807017617,
+          3.1101428036140355,
+          -198.6949831384211
+        ],
+        "target": [
+          -1.7502332543951842,
+          1.9654743740745098,
+          -208.6262791235349
+        ],
+        "sourceMeshes": 2,
+        "source": "https://zenodo.org/records/14616671"
+      }
+    },
+    {
+      "name": "tour-deep-moving",
+      "state": {
+        "continuousField": {
+          "status": "idle",
+          "enabled": false,
+          "disposed": false,
+          "error": null,
+          "progress": 0,
+          "installed": false
+        },
+        "layeredRidges": {
+          "status": "ready",
+          "error": null,
+          "installed": true,
+          "enabled": true,
+          "disposed": false,
+          "budget": {
+            "triangles": 106356,
+            "drawCalls": 6,
+            "newTextureBytes": 0
+          },
+          "synthetic": true,
+          "localStructureCandidate": true
+        },
+        "naturalRock": {
+          "status": "ready",
+          "error": null,
+          "disposed": false,
+          "installed": true,
+          "bytes": 3663288,
+          "syntheticPresentation": true,
+          "terrestrialScan": true
+        },
+        "ready": true,
+        "softened": false,
+        "waterMode": true,
+        "selectedPatch": "C1",
+        "c4": {
+          "status": "ready",
+          "error": null,
+          "bytes": 9232096
+        },
+        "assemblage": {
+          "status": "ready",
+          "error": null,
+          "bytes": 1174872,
+          "instances": 4
+        },
+        "ambient": {
+          "time": 46.31139999999992,
+          "paused": false
+        },
+        "ray": {
+          "status": "ready",
+          "error": null,
+          "bytes": 296520,
+          "installed": true,
+          "disposed": false
+        },
+        "turtle": {
+          "status": "ready",
+          "error": null,
+          "bytes": 184868,
+          "installed": true,
+          "disposed": false
+        },
+        "syntheticFish": 4,
+        "route": {
+          "active": true,
+          "mode": "tour",
+          "paused": false,
+          "elapsed": 59.933299999999925,
+          "duration": 72,
+          "progress": 0.8324069444444434,
+          "goal": 0.8324069444444434,
+          "yaw": -1.227362545678945,
+          "pitch": -0.04063950777779505,
+          "position": [
+            11.718971084220257,
+            -3.491800602614548,
+            -315.83135000242964
+          ],
+          "speed": 4.652870745225803,
+          "region": "大陆架与深水边缘",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "view": "exploration",
+        "independent": true,
+        "syntheticEnvironment": true,
+        "camera": [
+          11.718971084220257,
+          -3.491800602614548,
+          -315.83135000242964
+        ],
+        "target": [
+          2.3107057550487458,
+          -3.8980838246709455,
+          -319.1957931122748
+        ],
+        "sourceMeshes": 2,
+        "source": "https://zenodo.org/records/14616671"
+      }
+    },
+    {
+      "name": "tour-completed",
+      "state": {
+        "continuousField": {
+          "status": "idle",
+          "enabled": false,
+          "disposed": false,
+          "error": null,
+          "progress": 0,
+          "installed": false
+        },
+        "layeredRidges": {
+          "status": "ready",
+          "error": null,
+          "installed": true,
+          "enabled": true,
+          "disposed": false,
+          "budget": {
+            "triangles": 106356,
+            "drawCalls": 6,
+            "newTextureBytes": 0
+          },
+          "synthetic": true,
+          "localStructureCandidate": true
+        },
+        "naturalRock": {
+          "status": "ready",
+          "error": null,
+          "disposed": false,
+          "installed": true,
+          "bytes": 3663288,
+          "syntheticPresentation": true,
+          "terrestrialScan": true
+        },
+        "ready": true,
+        "softened": false,
+        "waterMode": true,
+        "selectedPatch": "C1",
+        "c4": {
+          "status": "ready",
+          "error": null,
+          "bytes": 9232096
+        },
+        "assemblage": {
+          "status": "ready",
+          "error": null,
+          "bytes": 1174872,
+          "instances": 4
+        },
+        "ambient": {
+          "time": 57.768799999999466,
+          "paused": false
+        },
+        "ray": {
+          "status": "ready",
+          "error": null,
+          "bytes": 296520,
+          "installed": true,
+          "disposed": false
+        },
+        "turtle": {
+          "status": "ready",
+          "error": null,
+          "bytes": 184868,
+          "installed": true,
+          "disposed": false
+        },
+        "syntheticFish": 4,
+        "route": {
+          "active": true,
+          "mode": "completed",
+          "paused": true,
+          "elapsed": 72,
+          "duration": 72,
+          "progress": 1,
+          "goal": 1,
+          "yaw": -0.7853981633974483,
+          "pitch": -0.05885750594708122,
+          "position": [
+            8,
+            -10,
+            -393
+          ],
+          "speed": 0,
+          "region": "大陆架与深水边缘",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "view": "exploration",
+        "independent": true,
+        "syntheticEnvironment": true,
+        "camera": [
+          8,
+          -10,
+          -393
+        ],
+        "target": [
+          0.9411764705882355,
+          -10.588235294117647,
+          -400.05882352941177
+        ],
+        "sourceMeshes": 2,
+        "source": "https://zenodo.org/records/14616671"
+      }
+    },
+    {
+      "name": "turned-back",
+      "state": {
+        "continuousField": {
+          "status": "idle",
+          "enabled": false,
+          "disposed": false,
+          "error": null,
+          "progress": 0,
+          "installed": false
+        },
+        "layeredRidges": {
+          "status": "ready",
+          "error": null,
+          "installed": true,
+          "enabled": true,
+          "disposed": false,
+          "budget": {
+            "triangles": 106356,
+            "drawCalls": 6,
+            "newTextureBytes": 0
+          },
+          "synthetic": true,
+          "localStructureCandidate": true
+        },
+        "naturalRock": {
+          "status": "ready",
+          "error": null,
+          "disposed": false,
+          "installed": true,
+          "bytes": 3663288,
+          "syntheticPresentation": true,
+          "terrestrialScan": true
+        },
+        "ready": true,
+        "softened": false,
+        "waterMode": true,
+        "selectedPatch": "C1",
+        "c4": {
+          "status": "ready",
+          "error": null,
+          "bytes": 9232096
+        },
+        "assemblage": {
+          "status": "ready",
+          "error": null,
+          "bytes": 1174872,
+          "instances": 4
+        },
+        "ambient": {
+          "time": 63.30589999999934,
+          "paused": false
+        },
+        "ray": {
+          "status": "ready",
+          "error": null,
+          "bytes": 296520,
+          "installed": true,
+          "disposed": false
+        },
+        "turtle": {
+          "status": "ready",
+          "error": null,
+          "bytes": 184868,
+          "installed": true,
+          "disposed": false
+        },
+        "syntheticFish": 4,
+        "route": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 2.104100000000006,
+          "duration": 72,
+          "progress": 0.029223611111111197,
+          "goal": 0.029223611111111197,
+          "yaw": -2.921444371662057,
+          "pitch": -0.0923181173287787,
+          "position": [
+            4.115624150864947,
+            3.361873811210926,
+            4.507852833915017
+          ],
+          "speed": 0,
+          "region": "原生扫描礁区",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "view": "exploration",
+        "independent": true,
+        "syntheticEnvironment": true,
+        "camera": [
+          4.115624150864947,
+          3.361873811210926,
+          4.507852833915017
+        ],
+        "target": [
+          1.9411798805934266,
+          2.4400034019040233,
+          14.224948442373734
+        ],
+        "sourceMeshes": 2,
+        "source": "https://zenodo.org/records/14616671"
+      }
+    }
+  ],
+  "clockInjection": false,
+  "navigationMutationByTest": false,
+  "initial": {
+    "state": {
+      "continuousField": {
+        "status": "idle",
+        "enabled": false,
+        "disposed": false,
+        "error": null,
+        "progress": 0,
+        "installed": false
+      },
+      "layeredRidges": {
+        "status": "ready",
+        "error": null,
+        "installed": true,
+        "enabled": true,
+        "disposed": false,
+        "budget": {
+          "triangles": 106356,
+          "drawCalls": 6,
+          "newTextureBytes": 0
+        },
+        "synthetic": true,
+        "localStructureCandidate": true
+      },
+      "naturalRock": {
+        "status": "ready",
+        "error": null,
+        "disposed": false,
+        "installed": true,
+        "bytes": 3663288,
+        "syntheticPresentation": true,
+        "terrestrialScan": true
+      },
+      "ready": true,
+      "softened": false,
+      "waterMode": true,
+      "selectedPatch": "C1",
+      "c4": {
+        "status": "ready",
+        "error": null,
+        "bytes": 9232096
+      },
+      "assemblage": {
+        "status": "ready",
+        "error": null,
+        "bytes": 1174872,
+        "instances": 4
+      },
+      "ambient": {
+        "time": 0.7332000000000009,
+        "paused": false
+      },
+      "ray": {
+        "status": "ready",
+        "error": null,
+        "bytes": 296520,
+        "installed": true,
+        "disposed": false
+      },
+      "turtle": {
+        "status": "ready",
+        "error": null,
+        "bytes": 184868,
+        "installed": true,
+        "disposed": false
+      },
+      "syntheticFish": 4,
+      "route": {
+        "active": true,
+        "mode": "free",
+        "paused": false,
+        "elapsed": 0,
+        "duration": 72,
+        "progress": 0,
+        "goal": 0,
+        "yaw": 0,
+        "pitch": 0,
+        "position": [
+          4,
+          5,
+          10
+        ],
+        "speed": 0,
+        "region": "原生扫描礁区",
+        "reduced": false,
+        "heldKeys": []
+      },
+      "view": "exploration",
+      "independent": true,
+      "syntheticEnvironment": true,
+      "camera": [
+        4,
+        5,
+        10
+      ],
+      "target": [
+        4,
+        5,
+        0
+      ],
+      "sourceMeshes": 2,
+      "source": "https://zenodo.org/records/14616671"
+    },
+    "continuous": {
+      "revision": "continuous-reef-v1",
+      "synthetic": true,
+      "measuredSite": false,
+      "source": "https://polyhaven.com/a/boulder_01",
+      "license": "CC0",
+      "cameraAttached": false,
+      "formations": 17,
+      "fish": 286,
+      "seatedColonies": 805,
+      "newAssetDownloads": 0,
+      "budget": {
+        "draws": 8,
+        "instances": 1142,
+        "triangles": 3085882,
+        "geometryBytes": 2182560
+      },
+      "disposed": false,
+      "lastTime": 0.7332000000000009
+    }
+  },
+  "failure": "Strafe must stop against visible left reef proxy",
+  "failureState": {
+    "continuousField": {
+      "status": "idle",
+      "enabled": false,
+      "disposed": false,
+      "error": null,
+      "progress": 0,
+      "installed": false
+    },
+    "layeredRidges": {
+      "status": "ready",
+      "error": null,
+      "installed": true,
+      "enabled": true,
+      "disposed": false,
+      "budget": {
+        "triangles": 106356,
+        "drawCalls": 6,
+        "newTextureBytes": 0
+      },
+      "synthetic": true,
+      "localStructureCandidate": true
+    },
+    "naturalRock": {
+      "status": "ready",
+      "error": null,
+      "disposed": false,
+      "installed": true,
+      "bytes": 3663288,
+      "syntheticPresentation": true,
+      "terrestrialScan": true
+    },
+    "ready": true,
+    "softened": false,
+    "waterMode": true,
+    "selectedPatch": "C1",
+    "c4": {
+      "status": "ready",
+      "error": null,
+      "bytes": 9232096
+    },
+    "assemblage": {
+      "status": "ready",
+      "error": null,
+      "bytes": 1174872,
+      "instances": 4
+    },
+    "ambient": {
+      "time": 69.13499999999911,
+      "paused": false
+    },
+    "ray": {
+      "status": "ready",
+      "error": null,
+      "bytes": 296520,
+      "installed": true,
+      "disposed": false
+    },
+    "turtle": {
+      "status": "ready",
+      "error": null,
+      "bytes": 184868,
+      "installed": true,
+      "disposed": false
+    },
+    "syntheticFish": 4,
+    "route": {
+      "active": true,
+      "mode": "free",
+      "paused": false,
+      "elapsed": 0,
+      "duration": 72,
+      "progress": 0,
+      "goal": 0,
+      "yaw": 0,
+      "pitch": 0,
+      "position": [
+        -28.46110000000013,
+        5,
+        10
+      ],
+      "speed": 0,
+      "region": "原生扫描礁区",
+      "reduced": false,
+      "heldKeys": []
+    },
+    "view": "exploration",
+    "independent": true,
+    "syntheticEnvironment": true,
+    "camera": [
+      -28.46110000000013,
+      5,
+      10
+    ],
+    "target": [
+      -28.46110000000013,
+      5,
+      0
+    ],
+    "sourceMeshes": 2,
+    "source": "https://zenodo.org/records/14616671"
+  },
+  "video": "artifacts\\continuous-motion\\video\\page@295ab4906f2ba0c28c88afb520a33aad.webm"
+}

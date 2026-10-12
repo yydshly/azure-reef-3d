@@ -1,0 +1,386 @@
+{
+  "variant": "continuous-candidate",
+  "errors": [],
+  "failedRequests": [],
+  "frames": [
+    {
+      "label": "entry",
+      "file": "entry.png",
+      "state": {
+        "continuousField": {
+          "status": "idle",
+          "enabled": false,
+          "disposed": false,
+          "error": null,
+          "progress": 0,
+          "installed": false
+        },
+        "layeredRidges": {
+          "status": "ready",
+          "error": null,
+          "installed": true,
+          "enabled": true,
+          "disposed": false,
+          "budget": {
+            "triangles": 106356,
+            "drawCalls": 6,
+            "newTextureBytes": 0
+          },
+          "synthetic": true,
+          "localStructureCandidate": true
+        },
+        "naturalRock": {
+          "status": "ready",
+          "error": null,
+          "disposed": false,
+          "installed": true,
+          "bytes": 3663288,
+          "syntheticPresentation": true,
+          "terrestrialScan": true
+        },
+        "ready": true,
+        "softened": false,
+        "waterMode": true,
+        "selectedPatch": "C1",
+        "c4": {
+          "status": "ready",
+          "error": null,
+          "bytes": 9232096
+        },
+        "assemblage": {
+          "status": "ready",
+          "error": null,
+          "bytes": 1174872,
+          "instances": 4
+        },
+        "ambient": {
+          "time": 0.9167000000000046,
+          "paused": true
+        },
+        "ray": {
+          "status": "ready",
+          "error": null,
+          "bytes": 296520,
+          "installed": true,
+          "disposed": false
+        },
+        "turtle": {
+          "status": "ready",
+          "error": null,
+          "bytes": 184868,
+          "installed": true,
+          "disposed": false
+        },
+        "syntheticFish": 4,
+        "route": {
+          "active": true,
+          "mode": "free",
+          "paused": false,
+          "elapsed": 0,
+          "duration": 72,
+          "progress": 0,
+          "goal": 0,
+          "yaw": 0,
+          "pitch": 0,
+          "position": [
+            4,
+            5,
+            10
+          ],
+          "speed": 0,
+          "region": "原生扫描礁区",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "view": "exploration",
+        "independent": true,
+        "syntheticEnvironment": true,
+        "camera": [
+          4,
+          5,
+          10
+        ],
+        "target": [
+          4,
+          5,
+          0
+        ],
+        "sourceMeshes": 2,
+        "source": "https://zenodo.org/records/14616671"
+      }
+    },
+    {
+      "label": "mid",
+      "file": "mid.png",
+      "state": {
+        "continuousField": {
+          "status": "idle",
+          "enabled": false,
+          "disposed": false,
+          "error": null,
+          "progress": 0,
+          "installed": false
+        },
+        "layeredRidges": {
+          "status": "ready",
+          "error": null,
+          "installed": true,
+          "enabled": true,
+          "disposed": false,
+          "budget": {
+            "triangles": 106356,
+            "drawCalls": 6,
+            "newTextureBytes": 0
+          },
+          "synthetic": true,
+          "localStructureCandidate": true
+        },
+        "naturalRock": {
+          "status": "ready",
+          "error": null,
+          "disposed": false,
+          "installed": true,
+          "bytes": 3663288,
+          "syntheticPresentation": true,
+          "terrestrialScan": true
+        },
+        "ready": true,
+        "softened": false,
+        "waterMode": true,
+        "selectedPatch": "C1",
+        "c4": {
+          "status": "ready",
+          "error": null,
+          "bytes": 9232096
+        },
+        "assemblage": {
+          "status": "ready",
+          "error": null,
+          "bytes": 1174872,
+          "instances": 4
+        },
+        "ambient": {
+          "time": 0.9167000000000046,
+          "paused": true
+        },
+        "ray": {
+          "status": "ready",
+          "error": null,
+          "bytes": 296520,
+          "installed": true,
+          "disposed": false
+        },
+        "turtle": {
+          "status": "ready",
+          "error": null,
+          "bytes": 184868,
+          "installed": true,
+          "disposed": false
+        },
+        "syntheticFish": 4,
+        "route": {
+          "active": true,
+          "mode": "tour",
+          "paused": true,
+          "elapsed": 36,
+          "duration": 72,
+          "progress": 0.5,
+          "goal": 0.5,
+          "yaw": -0.04995839572194276,
+          "pitch": -0.11271219372734334,
+          "position": [
+            -1,
+            3.1,
+            -195.5
+          ],
+          "speed": 0,
+          "region": "开阔海草浅湾",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "view": "exploration",
+        "independent": true,
+        "syntheticEnvironment": true,
+        "camera": [
+          -1,
+          3.1,
+          -195.5
+        ],
+        "target": [
+          -1.496207479097942,
+          1.9752630473779982,
+          -205.42414958195883
+        ],
+        "sourceMeshes": 2,
+        "source": "https://zenodo.org/records/14616671"
+      }
+    },
+    {
+      "label": "deep",
+      "file": "deep.png",
+      "state": {
+        "continuousField": {
+          "status": "idle",
+          "enabled": false,
+          "disposed": false,
+          "error": null,
+          "progress": 0,
+          "installed": false
+        },
+        "layeredRidges": {
+          "status": "ready",
+          "error": null,
+          "installed": true,
+          "enabled": true,
+          "disposed": false,
+          "budget": {
+            "triangles": 106356,
+            "drawCalls": 6,
+            "newTextureBytes": 0
+          },
+          "synthetic": true,
+          "localStructureCandidate": true
+        },
+        "naturalRock": {
+          "status": "ready",
+          "error": null,
+          "disposed": false,
+          "installed": true,
+          "bytes": 3663288,
+          "syntheticPresentation": true,
+          "terrestrialScan": true
+        },
+        "ready": true,
+        "softened": false,
+        "waterMode": true,
+        "selectedPatch": "C1",
+        "c4": {
+          "status": "ready",
+          "error": null,
+          "bytes": 9232096
+        },
+        "assemblage": {
+          "status": "ready",
+          "error": null,
+          "bytes": 1174872,
+          "instances": 4
+        },
+        "ambient": {
+          "time": 0.9167000000000046,
+          "paused": true
+        },
+        "ray": {
+          "status": "ready",
+          "error": null,
+          "bytes": 296520,
+          "installed": true,
+          "disposed": false
+        },
+        "turtle": {
+          "status": "ready",
+          "error": null,
+          "bytes": 184868,
+          "installed": true,
+          "disposed": false
+        },
+        "syntheticFish": 4,
+        "route": {
+          "active": true,
+          "mode": "tour",
+          "paused": true,
+          "elapsed": 72,
+          "duration": 72,
+          "progress": 1,
+          "goal": 1,
+          "yaw": -0.7853981633974483,
+          "pitch": -0.05885750594708122,
+          "position": [
+            8,
+            -10,
+            -393
+          ],
+          "speed": 0,
+          "region": "大陆架与深水边缘",
+          "reduced": false,
+          "heldKeys": []
+        },
+        "view": "exploration",
+        "independent": true,
+        "syntheticEnvironment": true,
+        "camera": [
+          8,
+          -10,
+          -393
+        ],
+        "target": [
+          0.9411764705882355,
+          -10.588235294117647,
+          -400.05882352941177
+        ],
+        "sourceMeshes": 2,
+        "source": "https://zenodo.org/records/14616671"
+      }
+    }
+  ],
+  "sourceHashes": {
+    "app.js": "1cb051a104a8cd4ed32101fccf187e63f72b1b68fbfda0d3993a838c70310a05",
+    "artificial-regions.js": "e45c685987dccb14884e9bd765cb8eb913ccda006bc2570ba3a9131f34150036",
+    "artificial-seagrass.js": "22b55c6cfb7cec003a1212babbcd513d55b3a96cd393281cd1c8680562e982fb",
+    "branch-grounding.js": "47e8b60b098c109b6bfa01557126ee19860dad9df35737217ff30239623f8bee",
+    "continuous-layout.js": "ee36633b389f1f2c9706630cc2a341ecf4115cb87d45d2fdf181a7af1a93ff87",
+    "continuous-reef.js": "d08f3cc01bd957293f2d13c7223509fb9acd59b66a15008f88190fc07c8168d7",
+    "coral-midground-runtime.js": "bd5f2fa57dbf4752e26b1337891bf48bb6dcc8a9a1de4e9b0902788e184e5f8d",
+    "exhibit-entry.js": "1730b8136f7114f5465b7a1f34c9aa897f1c6487968a66856efa561c9e54f2ec",
+    "exploration-navigation.js": "13cab5910ade6b1ff8c98cf320bf6607ce576bc8e7dcbf4add4c4446681423da",
+    "exploration-world-data.js": "c4f0b31639c8b80c5ef5a97e7ca606b7c8a2dfacf8c45382b7cb30e202c9d719",
+    "exploration-world.js": "b4ae60dbe4cc7b976983d45330820eccf9f8de7ecc16bc94e478879f4dee64fa",
+    "field-data.js": "cedf440e07c76a2aa71d4a9b749ee7688457108ecb5d8219ca00c0aa2e15a250",
+    "field-runtime.js": "e5527d6c456045efcaa7fcf4e5397c6f9c0eec33ecc2c9e783c97c56d7f560dd",
+    "fish-motion.js": "2204242b56792e1f187db0e9d7577cf4e5039b8249271649d78778edbcecc740",
+    "fish-population.js": "74de23658f735fadcba6ea37857d54b8ff4d168ba7005fdd263121ef30bcb943",
+    "fish-surface.js": "b207dc99943f0d530fa3b4a2bd6bfaee8b88c5c67cfbf05a7be2bf96d593ff95",
+    "grounded-shoulder-data.js": "3e477a9c046c8d062b8cfeb26ca2d244b33fc3569cc7d306ac6b8312db0032c7",
+    "grounded-shoulder.js": "45be910b46262a0ba7664e4b108529f325b830ea6ea5885fe99780b7ea052a6d",
+    "guide-data.js": "72a61b1c7187d930b36205ef8003b1505386609287d52f8b33f52dec79dc2fed",
+    "habitat-placement.js": "5923963c52e062f35b1543e13fcef9594d3387db96cefe27b9fbc10b51c23a51",
+    "inhabited-reef.js": "a430aa57f863d52eb1c710986a27ab1a79690a28cb7f3e7bd79210b78e183ca3",
+    "inhabited-version.js": "282fb2504b81a876b0e1e5c611c05f657aaa7d1cf12b86da8e659490eae80c4a",
+    "install-habitat-enrichment.js": "153a863afd14664eb83bc007031de787fcbb9ec07c4ad603ab54f2dd648c16c0",
+    "install-layered-ridges.js": "8f5fa57fb32367c6e34ebfe234935924a94dd0fd3bf75e8d24944009f7bd21a6",
+    "install-natural-rock.js": "63628bb09323e31b53fbbd8849216f85b89325ce512e1fe3c9bd019ed94569ec",
+    "layered-ridges-runtime.js": "bdae2ab3cdecd455991ba5ae13b3bc675b79241091f3fd413587c6697c896fb0",
+    "model-version.js": "38a7f00b14980327891803364ec1bff9739b9a953f1b7d4a22cde330c302b163",
+    "natural-rock-runtime.js": "302c435b7ec2f850861a313f303354c1a4c026acfac595fa90183f7f9a062c6b",
+    "passage.js": "b5e10ede1f41700d358b517b9c708014472ef7a6f33ddc588cdd167f8aadebe5",
+    "rear-connected-data.js": "de46234f7592ffde25957358ab21e9abf11c81f2b3f6917f66d11bd671b31da6",
+    "rear-connected.js": "95e834d03cdb1841e1abd7147af9c3e0537bb7b4858f0dfb675aaa22cc204d58",
+    "rear-habitat.js": "9223cd855b9c09bb0bf15a7d7a008f6476613ec4fc41dcc7aeeb590cc5454f89",
+    "scan-aprons.js": "6d160a93d798a022097c812fbad4d448a85d7672a9baa06118cbdb1f00c77f60",
+    "scan-assemblage.js": "8980971e36aeef0d5cc9562ebcadf9d3b52967703428ec3d64d2cfe325f4b4c7",
+    "scan-exhibit.js": "2010858efeccea2b2d87b2b2e5a30042d2c79f2f54f400dc1799b5e372d685ac",
+    "scan-habitat-mounds.js": "2c67ef8b55e915f4ab34662a9647f60100722d55589f17f4110245f4a1523642",
+    "scan-hud.js": "b96555044b60d796376b46d6de0b282b2f04e98f2be43402733331e047340567",
+    "scan-landmark.js": "c32bc4fee83b5516c2729800758f1ff3898658b1bb517a17902ea0bc00a9140c",
+    "scan-life.js": "7f9fce96ff1308045db51376faf6b19067f413118433e1d12db85df21cec9f4a",
+    "scan-meadow-placement.js": "d71fe2d0d51dd6c493c971081ef93edc96f7f3fcd8fa95144c65500dc4c5e867",
+    "scan-meadow.js": "2cc2d5a3223f98058766e06ebce9e81c75065c7406d8d96755345003bca72c5c",
+    "scan-ocean.js": "66a721741e56abab26909f7066069a587ccd26def383efc12e8ca9a1b14126cc",
+    "scan-ray.js": "7ef777f1acef5cb9efafc94352840875a13d815f2e600ec57c565da06be1fe23",
+    "scan-render-demand.js": "e870e0e5cffb9d0f9ea04754cb430d24f6c481966dc29a5436d1be1ba43c9c71",
+    "scan-route.js": "c91c996ef75b4a9189d9814681de0f671de4c40757bc5cae5336bdc90c30bfaa",
+    "scan-surface.js": "a553ce17e45453c45db98d54f7189f2f68940da79d4498ad4a8ced9430d077ac",
+    "scan-turtle.js": "16972b1b26f43f4943ccfc2715ff3c062912bbb1b23a56d013280bb241cf5a8d",
+    "scan-world.js": "421af6cfab1cee0452abab8546d87fd6085b1326d1f8a132831b1b05467fd2a9",
+    "seagrass-blades.js": "76d5a055cebe03287d6b470d1c104ff24282409295fe3e2f472140953fe0011b",
+    "seagrass-placement.js": "d0cd0b12354eda05c1b29aeda09281260024fd870445753ac606e4ade9ad5112",
+    "seagrass-support.js": "202b7ba29b60f882efb463658c379b89be097e8598f7429ebde2051e9ba5d91b",
+    "specimen-focus.js": "af5555ee5bdb1c931361d1b0a0e504fe03a65fdaf095dd6fee82abcace39c841",
+    "specimen.js": "cf9b85f48bc17cae56ffdf099068480bb07af0356cef9d4d21bee700db5be761",
+    "tour-clock.js": "de3a7fa392e4d6c57b2713fd181122f40fc6dc432fe13b4ecc08615cceec627b",
+    "turtle-motion.js": "5191de1bccc1790ba3a80383be233fdb12456ba35880803729a6445610cb240e",
+    "visible-habitat-placement.js": "6c22c2257b8b452c0aef77be7a5211b96411537103046633aa53b9c2e0207921",
+    "visible-habitat.js": "265e0c36c74961b5dae4f43070526a48ae244f9a73fa42c16e8df231d06a1025",
+    "water-light.js": "cb262c5f91e98d8ecab1cfd66054233971e170c829e35b316aef48837e799963"
+  },
+  "driver": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A788) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+}

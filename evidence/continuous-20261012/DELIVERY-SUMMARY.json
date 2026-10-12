@@ -1,0 +1,28 @@
+{
+  "sourceArchive": "azure-reef-continuous-candidate-20261012-SOURCE.zip",
+  "bytes": 142523871,
+  "sha256": "d26e216a119c3178c312b89ed7febdc305e07b9fd5f7d584a09d712f3df62e88",
+  "runtimeChanges": 6,
+  "baselineAssetsUnchanged": true,
+  "browserStatus": "PASS",
+  "checks": [
+    "native72SecondTour",
+    "replayAndPause",
+    "turnInPlace",
+    "forwardReverseAndReturn",
+    "nearReefCollision",
+    "escapeFromCollision",
+    "emulatedTouchAndReducedMotion"
+  ],
+  "performance": {
+    "nativeRenderedTourFrames": 2640,
+    "medianFrameGapMs": 26.199999928474426,
+    "p95FrameGapMs": 37.09999990463257,
+    "medianRenderCpuMs": 0.8999999761581421,
+    "recordingActive": true,
+    "interpretation": "This one Intel UHD desktop during video capture; not a phone benchmark."
+  },
+  "publicSiteChanged": false,
+  "visualFinalAcceptance": false,
+  "visualDecision": "整体纵深和群落增量可审查；程序化外观与回望原边界仍未达到最终真实感目标，不建议直接覆盖稳定入口。"
+}
