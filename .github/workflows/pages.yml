@@ -601,20 +601,20 @@ jobs:
       - name: Read pinned independent LOD comparison inputs
         uses: actions/checkout@v6
         with:
-          ref: 7b7c64070c64cb7ba985590c49b0f59193fe8ce5
+          ref: f436dd8ce08960e653b8476dbd67c3fc748a2de5
           path: .lod-inputs
           persist-credentials: false
           sparse-checkout-cone-mode: false
           sparse-checkout: |
             /reef-real-splats-LOD3-STATIC-WEB.zip
             /real-splats-snapshot-25e3da0d.zip
-            /real-splats-lod-build-tools.zip
+            /real-splats-lod-build-tools-diagnostic-r2.zip
       - name: Restore six published probe products and stage independent LOD comparison
         run: |
           python3 - <<'PYTOOLS'
           import pathlib,hashlib,json,zipfile,stat
-          p=pathlib.Path('.lod-inputs/real-splats-lod-build-tools.zip')
-          assert p.stat().st_size<=25000000 and hashlib.sha256(p.read_bytes()).hexdigest()=='b655bbe40ad1c475b6a1605d3d6ff106ca4f0ede064371f6b83cc98a3aebf393'
+          p=pathlib.Path('.lod-inputs/real-splats-lod-build-tools-diagnostic-r2.zip')
+          assert p.stat().st_size<=25000000 and hashlib.sha256(p.read_bytes()).hexdigest()=='a6f7aed8ca3bf03eddda79f847f573227607feca2e36ca75503416e6828672af'
           target_dir=pathlib.Path('.lod-tools'); assert not target_dir.exists(); target_dir.mkdir()
           with zipfile.ZipFile(p) as z:
               m=json.loads(z.read('TOOLS-MANIFEST.json'))
@@ -642,7 +642,7 @@ jobs:
         timeout-minutes: 8
         env:
           LOD_URL: http://127.0.0.1:4173/preview/real-splats-lod-compare/
-          LOD_SOURCE_COMMIT: 7b7c64070c64cb7ba985590c49b0f59193fe8ce5
+          LOD_SOURCE_COMMIT: f436dd8ce08960e653b8476dbd67c3fc748a2de5
           LOD_OUTPUT: lod-qa
           LOD_SEGMENT: A
         run: |
@@ -660,7 +660,7 @@ jobs:
         timeout-minutes: 8
         env:
           LOD_URL: http://127.0.0.1:4173/preview/real-splats-lod-compare/
-          LOD_SOURCE_COMMIT: 7b7c64070c64cb7ba985590c49b0f59193fe8ce5
+          LOD_SOURCE_COMMIT: f436dd8ce08960e653b8476dbd67c3fc748a2de5
           LOD_OUTPUT: lod-qa
           LOD_SEGMENT: B
         run: |
