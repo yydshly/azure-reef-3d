@@ -1,0 +1,27 @@
+{
+  "status": "COMPLETED_PUBLISHED",
+  "url": "https://yydshly.github.io/azure-reef-3d/preview/reef-garden-v1/",
+  "publicationCommit": "c98fdcadd7f4d3d0676628ece4be242f4057938a",
+  "runId": 38211492231,
+  "runUrl": "https://github.com/yydshly/azure-reef-3d/actions/runs/38211492231",
+  "runtimeSourceHashes": {
+    "preview/reef-garden-v1/app.js": "f35ed59bae36eb558501378674254a44458850af4753a30c63307be1dda3dd5b",
+    "preview/reef-garden-v1/navigation.js": "13cab5910ade6b1ff8c98cf320bf6607ce576bc8e7dcbf4add4c4446681423da",
+    "preview/reef-garden-v1/world.js": "f550a54b6e8a8586db061723b9b37f36abc0375e5e768d9846d1cd6ac20aea37",
+    "preview/reef-garden-v1/index.html": "f429cc9017d6ed16fa62a6147ec97291cbee09c9ef761d8fa4bc1f7e3ccd5c54",
+    "preview/reef-garden-v1/style.css": "1ebf11cfc86352dabd3a5e9ac0fce4f9960b19a31879b51f65474ce05bc4f7f2"
+  },
+  "runtimeHashAggregate": "e9d0244d2f06e987a0d196f0aa61ad8b87cdb6e6b51e635b220073756ba174a4",
+  "aggregateAlgorithm": "SHA256 of sorted relative-path + NUL + file-SHA256 + LF",
+  "oldPublicFiles": 2304,
+  "oldFilesChanged": 0,
+  "oldPublishedHashAggregate": "01aad68d56b0aeab32c523df6110b002adfc399782722fd75976b105dfeb7461",
+  "worldPointerChanged": false,
+  "publicHostedInteraction": "PASS",
+  "localNaturalTourSeconds": 72.07799999997951,
+  "residual": [
+    "The deep endpoint upper-left umbrella canopy occludes much of that view.",
+    "Some repeated forms and local detail richness remain.",
+    "Physical phone performance and real multitouch are not tested."
+  ]
+}
