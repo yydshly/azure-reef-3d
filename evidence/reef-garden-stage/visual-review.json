@@ -1,0 +1,40 @@
+{
+  "status": "FINITE_STAGE_VISUAL_REVIEW_COMPLETE",
+  "inspected": [
+    "station-1-front.png",
+    "station-1-return.png",
+    "station-2-front.png",
+    "station-2-return.png",
+    "station-3-front.png",
+    "station-3-return.png",
+    "station-4-front.png",
+    "station-4-return.png",
+    "station-5-front.png",
+    "station-5-return.png",
+    "station-6-front.png",
+    "station-6-return.png"
+  ],
+  "sourceHashes": {
+    "app.js": "c71e2f3c67e9d1ef9406d6adf55879066f8ea50cd1d7b3069dd59c2dfae5169b",
+    "index.html": "58e6182c3057bfb9cb6f6a734d7c6f1c4d01e972d87ae0876cd1ca9dc4af5bf9",
+    "navigation.js": "13cab5910ade6b1ff8c98cf320bf6607ce576bc8e7dcbf4add4c4446681423da",
+    "style.css": "6bc87ddd73d9edf9f9db8a3cd772b76af35de04acb0b825e913ea413a3665ba1",
+    "world.js": "1fa85a881d4dac1df12ab3dc358191ebdf6e9042d799a82ee2c6c12e366270a7"
+  },
+  "findings": [
+    "Portal and low warm shell/coral banks anchor the entrance; its return has rebalanced plants and coral banks.",
+    "Rose plate corals frame the second stop; the near portal pillar no longer occupies its center.",
+    "The third stop has the tall sea-feather meadow and overhead manta/shoals.",
+    "The fourth stop shows cool angular reef walls and narrow coral silhouettes.",
+    "The fifth stop is a concentrated umbrella coral grove with the original Moon Arc moved aside.",
+    "The final overlook highlights pale gold fan coral; its return has layered banks and coral foreground."
+  ],
+  "budget": "42 reefs, 9 sea fans, 288 fish, 512 plant tufts retained; giant corals reduced from 14 to 10; 1770 mesh instances versus 1786 in 01.1.",
+  "limitations": [
+    "Open water is intentionally simple and some distant rock shapes remain similar.",
+    "The fifth return retains a close umbrella crown partly framing the top of the view.",
+    "Collision uses simplified proxies.",
+    "Physical phone, other GPU performance and user subjective acceptance remain untested."
+  ],
+  "userAcceptance": "Pending actual experience on the user usual device; no claim of approval."
+}

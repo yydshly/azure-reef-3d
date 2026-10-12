@@ -43,6 +43,9 @@ rep("}batch('Sea_Feather_Meadows',leafG,leafM,plants);", '''}
 rep('const schoolCentres=[[-6,4,6],[12,5,-34],[17,4,-63],[-12,5,-90],[5,5,-114],[-26,5,-137],[-15,7,-174],[20,4,48],[-12,4,-208],[4,8,-82],[-8,9,-121],[-24,8,-179],[3,8,-230]]', 'const schoolCentres=[[-6,4,6],[12,5,-34],[22,5,-63],[-17,6,-87],[5,6,-114],[-26,5,-137],[-15,7,-174],[14,5,48],[-12,5,-212],[4,8,-82],[-8,9,-121],[-24,8,-185],[3,8,-230]]')
 rep("s:[s,s,s],a:0,c:i%4?'#b2cfbc':'#d9bc86',j,phase:", "s:[s,s*(zone(p[2])===1?.7:zone(p[2])===5?1.4:1),s],a:0,c:zone(p[2])===1?'#e3bd93':zone(p[2])===3?'#a7cbd5':zone(p[2])===4?'#d1b6c6':zone(p[2])===5?'#e1ca8f':'#b2cfbc',j,phase:")
 rep("const stats={artLanguage:", "const stats={version:STAGE_VERSION,habitats:STATION_HABITATS,reefVariants:6,coralInstances:branchItems.length+cupItems.length+bulbItems.length,artLanguage:")
+
+for a,b in [('target:[12,3,-53]','target:[22,5,-40]'),('target:[-18,6,-138]','target:[-40,6,-110]'),('target:[-12,6,-147]','target:[-29,5,-179]'),("arch('Moon_Arc',-21,-155,22,11.5","arch('Moon_Arc',-39,-165,18,9.5"),('[-34,-224,1.7,-.6]','[-10,-229,1.7,-.6]'),('[-10,-229,6,3.2,7]','[-10,-229,6,4.2,7]')]:rep(a,b)
+for a,b in [('target:[22,5,-40]','target:[3,4,-44]'),('[29,-38,11,7,14]','[17,-43,9,4.7,12]'),('target:[-29,5,-179]','target:[1,5,-183]'),('[-10,-229,1.7,-.6]','[-34,-224,1.7,-.6]')]:rep(a,b)
 world.write_text(s,encoding='utf-8',newline='\n')
 html=page/'index.html';s=html.read_text(encoding='utf-8');rep('原创风格化海域 · 01.1','海庭阶段版 · 01.2');rep('<title>海庭 · Azure Reef Garden</title>','<title>海庭 01.2 · 阶段演示版</title>');html.write_text(s,encoding='utf-8',newline='\n')
 print('Existing habitat budget redistributed; six reef silhouettes; 01.1 frozen.')

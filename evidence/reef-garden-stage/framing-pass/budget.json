@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "current": {
+    "version": "01.2-stage",
+    "habitats": [
+      "shell-portal",
+      "rose-plate-garden",
+      "sea-feather-bay",
+      "blue-canyon",
+      "umbrella-grove",
+      "gold-fan-lookout"
+    ],
+    "reefVariants": 6,
+    "coralInstances": 730,
+    "artLanguage": "pastel-sculpted-reef-garden",
+    "originalProcedural": true,
+    "scansInThisScene": false,
+    "formations": 42,
+    "seaFans": 9,
+    "giantCorals": 10,
+    "fish": 288,
+    "plantTufts": 512,
+    "obstacles": 68,
+    "triangles": 511790
+  },
+  "baseline": {
+    "artLanguage": "pastel-sculpted-reef-garden",
+    "originalProcedural": true,
+    "scansInThisScene": false,
+    "formations": 42,
+    "seaFans": 9,
+    "giantCorals": 14,
+    "fish": 288,
+    "plantTufts": 512,
+    "obstacles": 76,
+    "triangles": 514190
+  },
+  "currentMeshInstances": 1767,
+  "baselineMeshInstances": 1786,
+  "routePositionsUnchanged": true,
+  "scope": "Explicit six-habitat and retained content-budget constraints; does not substitute for pixel inspection."
+}

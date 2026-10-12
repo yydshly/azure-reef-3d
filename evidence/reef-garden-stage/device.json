@@ -1,0 +1,24 @@
+{
+  "cpu": {
+    "Name": "13th Gen Intel(R) Core(TM) i9-13980HX",
+    "NumberOfCores": 24,
+    "NumberOfLogicalProcessors": 32
+  },
+  "gpu": [
+    {
+      "Name": "Intel(R) UHD Graphics",
+      "DriverVersion": "32.0.101.6790",
+      "AdapterRAM": 2147479552
+    },
+    {
+      "Name": "NVIDIA GeForce RTX 4070 Laptop GPU",
+      "DriverVersion": "32.0.15.7628",
+      "AdapterRAM": 4293918720
+    }
+  ],
+  "os": {
+    "Caption": "Microsoft Windows 11 家庭版 中文版",
+    "Version": "10.0.26200",
+    "TotalVisibleMemorySize": 16386680
+  }
+}

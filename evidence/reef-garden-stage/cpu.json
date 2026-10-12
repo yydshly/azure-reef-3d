@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "cpuOnly": true,
+  "stops": 6,
+  "tourSamples": 1440,
+  "maxStep": 0.28755434257877904,
+  "stats": {
+    "version": "01.2-stage",
+    "habitats": [
+      "shell-portal",
+      "rose-plate-garden",
+      "sea-feather-bay",
+      "blue-canyon",
+      "umbrella-grove",
+      "gold-fan-lookout"
+    ],
+    "reefVariants": 6,
+    "coralInstances": 730,
+    "artLanguage": "pastel-sculpted-reef-garden",
+    "originalProcedural": true,
+    "scansInThisScene": false,
+    "formations": 42,
+    "seaFans": 9,
+    "giantCorals": 10,
+    "fish": 288,
+    "plantTufts": 512,
+    "obstacles": 68,
+    "triangles": 512030
+  },
+  "scope": "Scene construction, safe retained journey, free input release and disposal; browser visual/motion checks remain separate"
+}

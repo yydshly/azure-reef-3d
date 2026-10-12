@@ -1,0 +1,22 @@
+{
+  "status": "MEASURED",
+  "loadToRenderedSeconds": 2.219000000040978,
+  "durationSeconds": 15.297000000020489,
+  "sampleFrames": 839,
+  "medianFrameGapMs": 17.59999990463257,
+  "p95FrameGapMs": 26.899999976158142,
+  "maxFrameGapMs": 36.5,
+  "over100ms": 0,
+  "over250ms": 0,
+  "recordingActive": false,
+  "screenshotsDuringMeasurement": false,
+  "gpu": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A788) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "scope": "15-second moving tour segment on this machine at 1280x820 in sandboxed headless Edge. No claim about physical mobile, other GPUs or user subjective acceptance.",
+  "sourceHashes": {
+    "app.js": "c71e2f3c67e9d1ef9406d6adf55879066f8ea50cd1d7b3069dd59c2dfae5169b",
+    "index.html": "58e6182c3057bfb9cb6f6a734d7c6f1c4d01e972d87ae0876cd1ca9dc4af5bf9",
+    "navigation.js": "13cab5910ade6b1ff8c98cf320bf6607ce576bc8e7dcbf4add4c4446681423da",
+    "style.css": "6bc87ddd73d9edf9f9db8a3cd772b76af35de04acb0b825e913ea413a3665ba1",
+    "world.js": "1fa85a881d4dac1df12ab3dc358191ebdf6e9042d799a82ee2c6c12e366270a7"
+  }
+}

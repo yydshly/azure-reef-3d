@@ -1,4 +1,4 @@
-name: Update isolated Reef Garden and preserve the original site and first version
+name: Publish fixed Reef Garden stage and preserve previous worlds and versions
 on:
   workflow_dispatch:
     inputs:
@@ -37,9 +37,12 @@ jobs:
           sparse-checkout: |
             /dist/preview/reef-garden-v1/**
             /dist/preview/reef-garden-v1-first/**
+            /dist/preview/reef-garden-v11/**
+            /dist/preview/reef-garden-stage-012/**
             /dist/vendor/**
             /dist/utils/**
             /qa-garden.mjs
+            /qa-garden-stage.mjs
             /qa-register.mjs
             /qa-three-loader.mjs
             /restore-published-preview.py
@@ -52,6 +55,7 @@ jobs:
       - name: Check the original scene and safe six-stop journey
         run: |
           node --import ./qa-register.mjs qa-garden.mjs
+          node --import ./qa-register.mjs qa-garden-stage.mjs
           node --check dist/preview/reef-garden-v1/app.js
       - name: Preserve publication receipt
         uses: actions/upload-artifact@v4

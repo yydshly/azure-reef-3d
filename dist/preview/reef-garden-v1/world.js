@@ -2,11 +2,11 @@ import * as T from 'three';
 import {mergeGeometries} from '../../utils/BufferGeometryUtils.js';
 export const STOPS=[
  {label:'珊瑚门廊',position:[0,4.2,24],target:[0,5,-22]},
- {label:'虹色礁庭',position:[-1,4,-22],target:[12,3,-53]},
+ {label:'虹色礁庭',position:[-1,4,-22],target:[3,4,-44]},
  {label:'光羽海草湾',position:[15,3.4,-65],target:[-7,4,-96]},
- {label:'月弧峡湾',position:[0,3.2,-108],target:[-18,6,-138]},
+ {label:'月弧峡湾',position:[0,3.2,-108],target:[-40,6,-110]},
  {label:'星珊瑚穹顶',position:[-22,2.3,-144],target:[-18,7,-159]},
- {label:'归航眺台',position:[-18,5,-199],target:[-12,6,-147]}
+ {label:'归航眺台',position:[-18,5,-199],target:[1,5,-183]}
 ];
 export const STAGE_VERSION='01.2-stage';
 export const STATION_HABITATS=['shell-portal','rose-plate-garden','sea-feather-bay','blue-canyon','umbrella-grove','gold-fan-lookout'];
@@ -32,9 +32,9 @@ export function createGarden(scene){
  for(let j=0;j<rings.length-1;j++)for(let i=0;i<segments;i++){const a=j*segments+i,b=j*segments+(i+1)%segments,c=a+segments,d=b+segments;ri.push(a,c,b,b,c,d)}
  const top=rp.length/3;rp.push(0,1,0);rc.push(...new T.Color('#91b5a2').toArray());for(let i=0;i<segments;i++)ri.push(top,5*segments+(i+1)%segments,5*segments+i);
  const reefG=new T.BufferGeometry();reefG.setAttribute('position',new T.Float32BufferAttribute(rp,3));reefG.setAttribute('color',new T.Float32BufferAttribute(rc,3));reefG.setIndex(ri);reefG.computeVertexNormals();const reefM=mat('#ffffff',{vertexColors:true,flatShading:true});
- const formations=[[-16,10,9,3.4,10],[19,0,12,5,13],[-21,-26,10,6,12],[29,-38,11,7,14],[-20,-53,13,4,13],[-6,-74,8,4.1,9],[38,-75,12,6,17],[-26,-91,13,8,15],[31,-103,14,5,13],[17,-120,12,8,12],[-40,-131,10,7,15],[9,-144,16,5.5,17],[-45,-157,14,9,19],[5,-183,14,8,18],[-38,-196,16,6,15],[-36,-226,13,8,13],[27,-212,18,8,22],[-26,56,11,4.5,12],[23,53,10,6,12],[-48,6,16,6,17],[50,-44,18,9,19],[-52,-101,18,13,20],[48,-152,17,10,19],[-55,-214,17,10,21],[54,33,16,6,17],[-8,91,17,7,16],[44,95,16,10,19],[-30,-247,13,11,16],[15,-251,18,8,19]];
+ const formations=[[-16,10,9,3.4,10],[19,0,12,5,13],[-21,-26,10,6,12],[17,-43,9,4.7,12],[-20,-53,13,4,13],[-6,-74,8,4.1,9],[38,-75,12,6,17],[-26,-91,13,8,15],[31,-103,14,5,13],[17,-120,12,8,12],[-40,-131,10,7,15],[9,-144,16,5.5,17],[-45,-157,14,9,19],[5,-183,14,8,18],[-38,-196,16,6,15],[-36,-226,13,8,13],[27,-212,18,8,22],[-26,56,11,4.5,12],[23,53,10,6,12],[-48,6,16,6,17],[50,-44,18,9,19],[-52,-101,18,13,20],[48,-152,17,10,19],[-55,-214,17,10,21],[54,33,16,6,17],[-8,91,17,7,16],[44,95,16,10,19],[-30,-247,13,11,16],[15,-251,18,8,19]];
  // Smaller asymmetric outcrops punctuate the sand banks without adding gateways.
- formations.push([-7,14,3.1,1.5,3.6],[8,1,3.8,1.8,3.1],[7,-14,2.6,1.4,3.8],[-9,-39,3.7,2.1,4.8],[10,-52,2.8,1.6,3.5],[24,-77,3.4,2.5,4.8],[3,-89,3.1,1.8,3.6],[-10,-119,4.2,2.7,4.4],[-30,-139,3.5,2.2,4.5],[-6,-171,3.2,2.1,4.3],[-9,-209,3.8,2,4.5],[-10,-229,6,3.2,7],[12,-236,13,9,16]);
+ formations.push([-7,14,3.1,1.5,3.6],[8,1,3.8,1.8,3.1],[7,-14,2.6,1.4,3.8],[-9,-39,3.7,2.1,4.8],[10,-52,2.8,1.6,3.5],[24,-77,3.4,2.5,4.8],[3,-89,3.1,1.8,3.6],[-10,-119,4.2,2.7,4.4],[-30,-139,3.5,2.2,4.5],[-6,-171,3.2,2.1,4.3],[-9,-209,3.8,2,4.5],[-10,-229,6,4.2,7],[12,-236,13,9,16]);
  const reefItems=Array.from({length:6},()=>[]),gardens=[];
  for(const [k,r]of formations.entries()){
   const [x,z,rx,h,rz]=r,base=floorHeight(x,z)-h*.25;reefItems[zone(z)].push({p:[x,base,z],s:[rx,h,rz],a:k*.74});obstacles.push({x,z,rx:rx*.75,rz:rz*.75,y0:base,y1:base+h*.9,name:'reef-'+k});
@@ -75,7 +75,7 @@ export function createGarden(scene){
  const fanItems=fanSites.map(([x,z,s,a],i)=>({p:[x,bankHeight(x,z),z],s:[s,s,s*.65],a,c:coralColors[zone(z)][i%2]}));batch('Curved_Sea_Fan_Groves',seaFan(),mat('#ffffff'),fanItems);
  // Keep the original two landmarks; no additional arches are introduced.
  function arch(name,x,z,width,height,c){const curve=new T.CatmullRomCurve3([new T.Vector3(x-width/2,floorHeight(x,z),z),new T.Vector3(x-width/2,height*.68,z),new T.Vector3(x,height,z),new T.Vector3(x+width/2,height*.64,z),new T.Vector3(x+width/2,floorHeight(x,z),z)]);const o=mesh(name,new T.TubeGeometry(curve,44,1.65,8,false),mat(c,{flatShading:true}));o.castShadow=true;for(const side of[-1,1])obstacles.push({x:x+side*width/2,z,rx:2.1,rz:2.1,y0:floorHeight(x,z),y1:height*.72,name});obstacles.push({x,z,rx:width*.26,rz:1.9,y0:height-2,y1:height+2,name:name+'-roof'});for(let j=0;j<8;j++){const p=curve.getPoint(.2+j*.085);const g=cupG;mesh(name+'-bloom-'+j,g,cupM,[p.x,p.y+1.05,p.z],[1.7,.9,1.7]).material=mat(j%2?palette.peach:palette.lilac,{side:T.DoubleSide})}}
- arch('Coral_Portal',0,-27,21,10.5,'#749b95');arch('Moon_Arc',-21,-155,22,11.5,'#8279a8');
+ arch('Coral_Portal',0,-27,21,10.5,'#749b95');arch('Moon_Arc',-39,-165,18,9.5,'#8279a8');
  const giants=[[-31,-130,8.4,4.5],[20,-140,7.2,3.8],[-22,-137,10.8,6.4],[-8,-151,12,6.8],[-34,-164,8.8,5.3],[8,-174,8.2,4.2],[-38,-156,7.2,3.7],[19,-169,9.8,5.3],[-47,-145,8.5,4.9],[38,-159,9,5.3]];
  giants.forEach(([x,z,h,r],i)=>{const y=floorHeight(x,z),stem=mesh('Umbrella_Coral_Stem_'+i,new T.CylinderGeometry(.38,.82,h,9),mat(i%2?'#71899b':'#9a8dac'),[x,y+h/2,z]);stem.castShadow=true;obstacles.push({x,z,rx:1.2,rz:1.2,y0:y,y1:y+h,name:stem.name});for(let k=0;k<3;k++){const shade=[palette.lilac,palette.rose,palette.peach][i%3];const c=mesh('Umbrella_Coral_Canopy_'+i+'_'+k,cupG,mat(shade,{side:T.DoubleSide,emissive:shade,emissiveIntensity:.18}),[x,y+h+k*.45,z],[r-k*.9,1.4,r-k*.9]);c.castShadow=true}obstacles.push({x,z,rx:r*.85,rz:r*.85,y0:y+h-.4,y1:y+h+1.8,name:'canopy-'+i})});
  // Curved low plants cover banks throughout all headings, leaving a meandering lane.
