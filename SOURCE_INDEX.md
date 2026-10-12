@@ -39,3 +39,8 @@
 ## 新增源码归档的精确范围
 
 [archive总目录](archive/)保存原enriched 6增量模块、连续候选2作者模块与生成脚本、构图6实际源与组装脚本、盆地5份运行源码；各MANIFEST列固定来源、原路径和原字节SHA256。大模型/纹理、原始录像和全部截图不重复复制，共用资产去重引用。archive不是已接入的产品目录，未经还原依赖不宣称可直接打开运行。材质、LOD4完整源链及LOD3未闭环证据仍只按已知范围索引，不能称全部完整源已合入main。
+
+
+## 已知材质候选发布来源
+
+补齐[历史体验](https://yydshly.github.io/azure-reef-3d/preview/surface-grounding-candidate/scan-exhibit.html)、[原main发布提交ef6a761](https://github.com/yydshly/azure-reef-3d/commit/ef6a7618ef02bdcf8134aa3f395be5e9d90e2f6f)与[Actions38147691994](https://github.com/yydshly/azure-reef-3d/actions/runs/38147691994)。局部法线/粗糙度略有收益，整体目标未达，未提升主展示。本次没有重新验收画面；已知历史发布来源不等于本轮完整源码和素材已迁入当前main，原完整还原链仍按未迁移范围记录。

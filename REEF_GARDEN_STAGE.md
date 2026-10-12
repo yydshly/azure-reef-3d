@@ -90,3 +90,8 @@ TIDAL 属于独立仓库 [ocean-world](https://github.com/yydshly/ocean-world)�
 ## main必要源码归档补充
 
 用户要求在main统一保存和展示已有阶段内容。已确认的原enriched增量、连续/构图候选、盆地原源文件现按独立[archive目录](archive/)保存，原字节与原来源不变，失败标识保留；原分支、标签和证据不删除。此为源码归档，不将实验接入主展示或部署。共用资产、完整大包、原始录像不重复复制；材质/LOD4完整源链及LOD3证据仍存在未闭环项，不能说所有完整源码和素材都已合入。精确范围见[源码索引](SOURCE_INDEX.md)及各MANIFEST。
+
+
+## 材质候选历史入口补记
+
+材质/表面支撑候选确有[历史发布入口](https://yydshly.github.io/azure-reef-3d/preview/surface-grounding-candidate/scan-exhibit.html)，原发布main提交为[ef6a761](https://github.com/yydshly/azure-reef-3d/commit/ef6a7618ef02bdcf8134aa3f395be5e9d90e2f6f)，发布回执为[38147691994](https://github.com/yydshly/azure-reef-3d/actions/runs/38147691994)。当时局部法线和粗糙度略有收益，但整体目标仍未达，未提升为当前主展示。本轮只补齐既有索引，没有重新做视觉验收，也未将其完整运行源与素材搬入main；不能将此前“独立入口未复核”的范围说明理解为从未发布。

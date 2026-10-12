@@ -31,11 +31,13 @@
     {
       "id": "material",
       "name": "材质候选",
-      "status": "停止，未作为主展示",
-      "experience": null,
-      "sourceKind": "早期记录；独立完整源链本次未复核",
+      "status": "历史已发布，整体未达，未提升主展示；本轮未重新视觉验收",
+      "experience": "https://yydshly.github.io/azure-reef-3d/preview/surface-grounding-candidate/scan-exhibit.html",
+      "sourceKind": "已知历史main发布提交与回执；完整还原源链未在本轮迁入",
       "sourceArchiveCommit": "acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b",
-      "limits": "局部材质/光色收益不足，未建立目标空间；无独立已复核体验链接"
+      "limits": "局部法线/粗糙度略有收益，不能外推整体达标",
+      "publicationCommit": "ef6a7618ef02bdcf8134aa3f395be5e9d90e2f6f",
+      "publicationRun": "38147691994"
     },
     {
       "id": "lod4",

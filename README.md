@@ -14,7 +14,7 @@
 | --- | --- | --- | --- | --- |
 | 早期原站 | 原始三维模型、五站教学及局部运动/支撑修正 | 仅历史参考，不是当前主展示 | [原站](https://yydshly.github.io/azure-reef-3d/) | [main原源码](dist/)；[源模型](source-model.glb) |
 | 原enriched | 三区探索、72秒六站、自由移动/碰撞/暂停重播 | 真实感、丰富度和连续性不足；保留旧基线 | [旧world](https://yydshly.github.io/azure-reef-3d/preview/world/) | [基线a1b2cae](https://github.com/yydshly/azure-reef-3d/commit/a1b2cae7e968ad383798a0ff15c87bfb0934d971)；[main增量归档](archive/enriched/)；[完整源位置](SOURCE_INDEX.md) |
-| 材质候选 | 局部材质与光色尝试 | 整体收益不足；停止，未作主展示；独立源链未复核 | 无独立已复核入口 | [历史记录](https://github.com/yydshly/azure-reef-3d/blob/acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b/ITERATION_LOG.md) |
+| 材质候选 | 局部法线/粗糙度略有收益 | 整体目标未达，未提升为主展示；本轮未重新做视觉验收 | [历史发布入口](https://yydshly.github.io/azure-reef-3d/preview/surface-grounding-candidate/scan-exhibit.html) | [原发布ef6a761](https://github.com/yydshly/azure-reef-3d/commit/ef6a7618ef02bdcf8134aa3f395be5e9d90e2f6f)；[发布回执](https://github.com/yydshly/azure-reef-3d/actions/runs/38147691994)；完整源链未在本轮迁入 |
 | LOD4局部扫描 | 局部扫描探针 | 覆盖/完整性不足；不作完整海域，完整源链未确认 | [扫描探针](https://yydshly.github.io/azure-reef-3d/preview/real-splats-probe/) | [局限与未闭环项](REEF_GARDEN_STAGE.md) |
 | LOD3/Gaussian | 诊断实现与记录 | 未闭环、未发布；停止，不作基线 | 无产品入口 | [历史诊断dd6b671](https://github.com/yydshly/azure-reef-3d/commit/dd6b671461aa1a9ff2fb2287137ae7bbdea0da50) |
 | 海庭首版 | 第一份独立风格化演示 | 历史已发布；由01.2替代主展示，整体质量未达 | [固定首版](https://yydshly.github.io/azure-reef-3d/preview/reef-garden-v1-first/) | [main源码](dist/preview/reef-garden-v1-first/) |
