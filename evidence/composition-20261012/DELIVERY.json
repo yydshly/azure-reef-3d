@@ -1,0 +1,19 @@
+{
+  "file": "composition-preview-delta.zip",
+  "bytes": 31165,
+  "sha256": "937393f85a474c3fa52ea67604c4be05640d2b1ef8638159357577ea2ab2fba0",
+  "sourceFiles": [
+    "continuous-layout.js",
+    "continuous-reef.js",
+    "exploration-world-data.js",
+    "exploration-world.js",
+    "scan-exhibit.js",
+    "scan-ocean.js"
+  ],
+  "publicationBase": "a1b2cae7e968ad383798a0ff15c87bfb0934d971",
+  "previousCandidate": "b92b8ac734973e2673f3f678f6d5f1241393373c",
+  "status": "BLOCKED_BEFORE_VISUAL_GATE",
+  "candidatePath": "preview/composition-candidate",
+  "candidateEntry": "preview/composition-candidate/scan-exhibit.html",
+  "visualVerified": false
+}

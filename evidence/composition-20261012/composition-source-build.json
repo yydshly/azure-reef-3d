@@ -1,0 +1,18 @@
+{
+  "baseSourceHashAggregate": "ca23bc664217879cd231db3a4f048f71ca2bf2bf0a038e9535e3d202b88e7db4",
+  "changes": {
+    "continuous-layout.js": "116cefa606a46a2d53217ca8329707d58e7dcab6e525530c05e0d1f9611daa98",
+    "continuous-reef.js": "d08f3cc01bd957293f2d13c7223509fb9acd59b66a15008f88190fc07c8168d7",
+    "exploration-world-data.js": "c4f0b31639c8b80c5ef5a97e7ca606b7c8a2dfacf8c45382b7cb30e202c9d719",
+    "exploration-world.js": "a04480c7fa05525cc66c551f98b679a9bba4fadb9daef9751c9035ecb35d8bf6",
+    "scan-exhibit.js": "2010858efeccea2b2d87b2b2e5a30042d2c79f2f54f400dc1799b5e372d685ac",
+    "scan-ocean.js": "f6678bd36a187db6f3cfd8fd2aca9e1f1e64d6b347b07d44fcdbfc3bd6e4b797"
+  },
+  "scanAssetsUnchanged": true,
+  "tourAndNavigationUnchanged": true,
+  "compositionRevision": true,
+  "originalFormationCount": 17,
+  "currentFormationCount": 17,
+  "fishCountUnchanged": 286,
+  "waterTransmissionUnchanged": true
+}

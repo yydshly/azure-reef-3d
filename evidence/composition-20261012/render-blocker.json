@@ -1,0 +1,35 @@
+{
+  "status": "BLOCKED_BEFORE_VISUAL_GATE",
+  "implementationComplete": true,
+  "runtimePixelVerification": false,
+  "affectedOperationRegressionRun": false,
+  "newVideoRecorded": false,
+  "firstAttempt": {
+    "waitUntil": "domcontentloaded",
+    "timeoutMs": 30000,
+    "error": "Page.goto: Timeout 30000ms exceeded. http://127.0.0.1:63577/artifacts/composition-candidate/scan-exhibit.html"
+  },
+  "singleShortRetry": {
+    "localDocumentReadBytes": 12124,
+    "localReadTimeoutMs": 3000,
+    "waitUntil": "commit",
+    "timeoutMs": 15000,
+    "error": "Page.goto: Timeout 15000ms exceeded. http://127.0.0.1:56398/artifacts/composition-candidate/scan-exhibit.html"
+  },
+  "processesEnded": true,
+  "furtherRenderRetries": 0,
+  "networkOrSecuritySettingsChanged": false,
+  "lastSuccessfulReadUtc": "2026-10-12 04:14:33",
+  "baselineFilesVerified": 149,
+  "staticTourSamplesPassed": 1440,
+  "formationCountBefore": 17,
+  "formationCountAfter": 17,
+  "fishCountBefore": 286,
+  "fishCountAfter": 286,
+  "waterTransmissionCoefficientsChanged": false,
+  "visualClaims": [
+    "Only the original b92b8ac alpha-plane hide comparison has real pixels; it supports the horizontal-step cause.",
+    "The new staggered formations and rear seabed extension remain visually unverified."
+  ],
+  "publishDecision": "Do not publish or replace the stable entry until the six requested views and affected native movements have actual rendering evidence."
+}
