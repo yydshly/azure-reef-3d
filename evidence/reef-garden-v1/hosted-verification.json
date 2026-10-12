@@ -1,0 +1,162 @@
+{
+  "url": "https://yydshly.github.io/azure-reef-3d/preview/reef-garden-v1/",
+  "browser": "existing Microsoft Edge, task-only temporary profile",
+  "errors": [],
+  "failedRequests": [],
+  "checks": {
+    "actualHostedStartPauseReturn": {
+      "passed": true
+    },
+    "protectedOldPublicBytes": {
+      "passed": true,
+      "files": {
+        "index.html": "d5316957d3a1c9f1482cffcd66e81668a21999488061975d451b880547a84c82",
+        "app.js": "4127a29d4d9aed14a55d0f8a9a8ac8058fd8d6fc524683fa5dc48f8e8744a027",
+        "preview/world/index.html": "1ba6c6a2c5affe3cbee5b8115aec603ad32b4b40c8c7d6a367a6105abab76886",
+        "preview/world/current-world.json": "450754b013096a6325a6bc9f2f27a61dfd98eaf9edb7d432f1f1962b5333f497",
+        "vendor/three.module.js": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea",
+        "vendor/three.core.js": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+      },
+      "worldPointerChanged": false
+    },
+    "servedSourceHashes": {
+      "passed": true,
+      "hashes": {
+        "app.js": "f35ed59bae36eb558501378674254a44458850af4753a30c63307be1dda3dd5b",
+        "index.html": "f429cc9017d6ed16fa62a6147ec97291cbee09c9ef761d8fa4bc1f7e3ccd5c54",
+        "navigation.js": "13cab5910ade6b1ff8c98cf320bf6607ce576bc8e7dcbf4add4c4446681423da",
+        "style.css": "1ebf11cfc86352dabd3a5e9ac0fce4f9960b19a31879b51f65474ce05bc4f7f2",
+        "world.js": "f550a54b6e8a8586db061723b9b37f36abc0375e5e768d9846d1cd6ac20aea37"
+      }
+    }
+  },
+  "initial": {
+    "ready": true,
+    "camera": [
+      0,
+      4.2,
+      24
+    ],
+    "target": [
+      0,
+      4.3738867487935815,
+      14.001511944369089
+    ],
+    "route": {
+      "active": true,
+      "mode": "free",
+      "paused": false,
+      "elapsed": 0,
+      "duration": 72,
+      "progress": 0,
+      "goal": 0,
+      "yaw": 0,
+      "pitch": 0.01738955128933065,
+      "position": [
+        0,
+        4.2,
+        24
+      ],
+      "speed": 0,
+      "region": "珊瑚门廊",
+      "reduced": false,
+      "heldKeys": []
+    },
+    "time": 0.15840000000000007,
+    "ambientPaused": false,
+    "frames": 5,
+    "stats": {
+      "artLanguage": "pastel-sculpted-reef-garden",
+      "originalProcedural": true,
+      "scansInThisScene": false,
+      "formations": 29,
+      "giantCorals": 14,
+      "fish": 216,
+      "plantTufts": 506,
+      "obstacles": 63,
+      "triangles": 406634
+    },
+    "renderer": {
+      "calls": 83,
+      "triangles": 411264
+    }
+  },
+  "status": "PASS",
+  "publication": {
+    "id": 38211492231,
+    "url": "https://github.com/yydshly/azure-reef-3d/actions/runs/38211492231",
+    "status": "completed",
+    "conclusion": "success",
+    "sha": "c98fdcadd7f4d3d0676628ece4be242f4057938a",
+    "jobs": [
+      {
+        "id": 114686450312,
+        "name": "deploy",
+        "status": "completed",
+        "conclusion": "success",
+        "steps": [
+          {
+            "name": "Set up job",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Checkout only the new original preview and its checks",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Restore existing published bytes and append only the new preview",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Set up the existing Node runtime",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Check the original scene and safe six-stop journey",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Preserve publication receipt",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Configure existing Pages",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Upload complete preserved site plus the independent preview",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Deploy existing Pages",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Set up the existing Node runtime",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Checkout only the new original preview and its checks",
+            "status": "completed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Complete job",
+            "status": "completed",
+            "conclusion": "success"
+          }
+        ]
+      }
+    ]
+  }
+}
