@@ -1,4 +1,4 @@
-"""Keep the old site byte-identical; freeze V1 before updating its isolated preview."""
+"""Preserve the original site and first version; freeze 01.1 and the final stage."""
 from pathlib import Path,PurePosixPath
 import json,os,hashlib,time,urllib.request,urllib.parse,zipfile,tarfile,shutil
 workspace=Path(os.environ['GITHUB_WORKSPACE']).resolve()
@@ -35,21 +35,24 @@ with zipfile.ZipFile(archive)as z:
    before[name.as_posix()]=h.hexdigest()
 for name,h in protected.items():assert before[name]==h,'Snapshot does not match the current public entry '+name
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
-newRoot=site/'preview/reef-garden-v1';firstRoot=site/'preview/reef-garden-v1-first'
-source=workspace/'dist/preview/reef-garden-v1';frozen=workspace/'dist/preview/reef-garden-v1-first';assert source.is_dir()and frozen.is_dir()
+newRoot=site/'preview/reef-garden-v1';firstRoot=site/'preview/reef-garden-v1-first';v11Root=site/'preview/reef-garden-v11';stageRoot=site/'preview/reef-garden-stage-012'
+source=workspace/'dist/preview/reef-garden-v1';frozen=workspace/'dist/preview/reef-garden-v11';stageSource=workspace/'dist/preview/reef-garden-stage-012'
 names={'index.html','style.css','app.js','world.js','navigation.js'}
+assert source.is_dir()and frozen.is_dir()and stageSource.is_dir()
 assert {p.name for p in newRoot.iterdir()}==names and {p.name for p in frozen.iterdir()}==names
-assert all(sha(newRoot/name)==sha(frozen/name)for name in names),'Only the exact verified first version may be replaced'
-assert not firstRoot.exists(),'Frozen first version already exists; review before replacing anything'
-shutil.copytree(newRoot,firstRoot)
+assert all(sha(newRoot/name)==sha(frozen/name)for name in names),'Only the exact accepted 01.1 preview may be replaced'
+assert all(sha(source/name)==sha(stageSource/name)for name in names),'Stage snapshot must exactly match the verified final source'
+assert firstRoot.is_dir()and not v11Root.exists()and not stageRoot.exists(),'Do not overwrite preserved versions'
+shutil.copytree(newRoot,v11Root);shutil.copytree(source,stageRoot)
 for name in names:shutil.copyfile(source/name,newRoot/name)
-prefix='preview/reef-garden-v1/'
+prefix='preview/reef-garden-v1/';firstPrefix='preview/reef-garden-v1-first/'
 protectedBefore={name:h for name,h in before.items()if not name.startswith(prefix)}
-assert len(protectedBefore)==2304,'Unexpected original published-site boundary'
-oldAggregate=hashlib.sha256(''.join(k+'\0'+protectedBefore[k]+'\n'for k in sorted(protectedBefore)).encode()).hexdigest()
-assert oldAggregate=='01aad68d56b0aeab32c523df6110b002adfc399782722fd75976b105dfeb7461','Original publication no longer matches its accepted baseline'
-assert all(sha(site/name)==h for name,h in protectedBefore.items()),'An original published file changed'
-assert all(sha(firstRoot/name)==before[prefix+name]for name in names),'Frozen first-version bytes changed'
-new={p.relative_to(site).as_posix():sha(p)for p in newRoot.rglob('*')if p.is_file()}
-receipt={'status':'ORIGINAL_SITE_PRESERVED_FIRST_VERSION_FROZEN_PREVIEW_UPDATED','previousSiteFileCount':len(before),'oldFileCount':len(protectedBefore),'oldFilesChanged':0,'oldPublishedHashAggregate':hashlib.sha256(''.join(k+'\0'+protectedBefore[k]+'\n'for k in sorted(protectedBefore)).encode()).hexdigest(),'protectedPublicHashes':protected,'newFiles':new,'frozenFirstVersionFiles':{p.relative_to(site).as_posix():sha(p)for p in firstRoot.iterdir()},'updatedPreviewFiles':len(new),'frozenFirstVersionMatchesPrevious':True,'entry':'preview/reef-garden-v1/','artifactDigest':expected,'oldSnapshotBytes':received,'noScanDecoding':True,'worldPointerChanged':False}
+originalBefore={name:h for name,h in protectedBefore.items()if not name.startswith(firstPrefix)}
+assert len(protectedBefore)==2309 and len(originalBefore)==2304,'Unexpected existing publication boundary'
+oldAggregate=hashlib.sha256(''.join(k+'\0'+originalBefore[k]+'\n'for k in sorted(originalBefore)).encode()).hexdigest()
+assert oldAggregate=='01aad68d56b0aeab32c523df6110b002adfc399782722fd75976b105dfeb7461','Original site differs from accepted baseline'
+assert all(sha(site/name)==h for name,h in protectedBefore.items()),'An old file or first-version file changed'
+assert all(sha(v11Root/name)==before[prefix+name]for name in names),'01.1 archive changed'
+new={p.relative_to(site).as_posix():sha(p)for p in newRoot.iterdir()}
+receipt={'status':'ORIGINAL_SITE_AND_FIRST_PRESERVED_01_1_FROZEN_STAGE_01_2_PUBLISHED','previousSiteFileCount':len(before),'oldFileCount':len(originalBefore),'oldFilesChanged':0,'preservedExistingFiles':len(protectedBefore),'oldPublishedHashAggregate':oldAggregate,'protectedPublicHashes':protected,'newFiles':new,'frozenV11Files':{p.relative_to(site).as_posix():sha(p)for p in v11Root.iterdir()},'frozenStageFiles':{p.relative_to(site).as_posix():sha(p)for p in stageRoot.iterdir()},'firstVersionFiles':{k:h for k,h in before.items()if k.startswith(firstPrefix)},'firstVersionBytesPreserved':True,'v11BytesPreserved':True,'stageSnapshotMatchesCurrent':True,'entry':'preview/reef-garden-v1/','frozenStageEntry':'preview/reef-garden-stage-012/','artifactDigest':expected,'oldSnapshotBytes':received,'noScanDecoding':True,'worldPointerChanged':False}
 (workspace/'publication-receipt.json').write_text(json.dumps(receipt,indent=2));print(json.dumps(receipt),flush=True)

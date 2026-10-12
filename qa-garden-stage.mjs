@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';import fs from 'node:fs';import * as T from './dist/vendor/three.module.js';
+import {createGarden,STOPS} from './dist/preview/reef-garden-v1/world.js';
+import {createGarden as createOld,STOPS as OLD} from './dist/preview/reef-garden-v11/world.js';
+const current=createGarden(new T.Scene()),previous=createOld(new T.Scene());
+const instances=w=>{let n=0;w.root.traverse(o=>{if(o.isMesh)n+=o.isInstancedMesh?o.count:1});return n};
+assert.equal(current.stats.version,'01.2-stage');assert.equal(new Set(current.stats.habitats).size,6);assert.equal(current.stats.reefVariants,6);
+assert.deepEqual(STOPS.map(s=>s.position),OLD.map(s=>s.position));assert(current.stats.triangles<=previous.stats.triangles);assert(instances(current)<=instances(previous));
+for(const k of ['formations','fish','seaFans','plantTufts'])assert(current.stats[k]<=previous.stats[k],k+' budget must not grow');
+const r={status:'PASS',current:current.stats,baseline:previous.stats,currentMeshInstances:instances(current),baselineMeshInstances:instances(previous),routePositionsUnchanged:true,scope:'Explicit six-habitat and retained content-budget constraints; does not substitute for pixel inspection.'};
+fs.mkdirSync('artifacts/garden-stage',{recursive:true});fs.writeFileSync('artifacts/garden-stage/budget.json',JSON.stringify(r,null,2));current.dispose();previous.dispose();console.log(JSON.stringify(r));
