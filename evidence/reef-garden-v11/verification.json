@@ -338,61 +338,6 @@
       "state": {
         "ready": true,
         "camera": [
-          -18,
-          5,
-          -199
-        ],
-        "target": [
-          -18.892141444745842,
-          5.191005328167945,
-          -208.95829305690378
-        ],
-        "route": {
-          "active": true,
-          "mode": "free",
-          "paused": false,
-          "elapsed": 72,
-          "duration": 72,
-          "progress": 1,
-          "goal": 1,
-          "yaw": -0.08934925900669377,
-          "pitch": 0.019101694416533168,
-          "position": [
-            -18,
-            5,
-            -199
-          ],
-          "speed": 0,
-          "region": "月弧峡湾",
-          "reduced": false,
-          "heldKeys": []
-        },
-        "time": 0.41659999999999997,
-        "ambientPaused": true,
-        "frames": 465,
-        "stats": {
-          "artLanguage": "pastel-sculpted-reef-garden",
-          "originalProcedural": true,
-          "scansInThisScene": false,
-          "formations": 42,
-          "seaFans": 9,
-          "giantCorals": 14,
-          "fish": 288,
-          "plantTufts": 512,
-          "obstacles": 76,
-          "triangles": 514190
-        },
-        "renderer": {
-          "calls": 40,
-          "triangles": 513110
-        }
-      }
-    },
-    {
-      "name": "desktop-menu",
-      "state": {
-        "ready": true,
-        "camera": [
           0,
           4.2,
           24
@@ -826,5 +771,6 @@
     "navigation.js": "13cab5910ade6b1ff8c98cf320bf6607ce576bc8e7dcbf4add4c4446681423da",
     "style.css": "1ebf11cfc86352dabd3a5e9ac0fce4f9960b19a31879b51f65474ce05bc4f7f2",
     "world.js": "f550a54b6e8a8586db061723b9b37f36abc0375e5e768d9846d1cd6ac20aea37"
-  }
+  },
+  "evidenceIndexNote": "Repeated desktop-menu screenshot record deduplicated; last actual screenshot and state retained. First failed run remains separately preserved."
 }

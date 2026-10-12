@@ -1,0 +1,34 @@
+{
+  "scope": "Human-visible pixel inspection of actual browser captures, independent of CPU assertions",
+  "inspected": [
+    "entry.png",
+    "entry-reverse.png",
+    "mid.png",
+    "mid-reverse.png",
+    "deep.png",
+    "deep-reverse.png",
+    "motion-3.png",
+    "tour-end.png",
+    "mobile-menu.png",
+    "desktop-menu.png"
+  ],
+  "visualFindings": {
+    "deep": "The giant near-camera canopy that covered the upper-left view is removed from the endpoint line of sight; open water and fish schools are visible.",
+    "deepReverse": "The near tall reef is moved aside; a central sand passage and smaller coral foreground can be seen.",
+    "mid": "New low coral outcrops, curved fan coral, and higher fish schools occupy different depth and height layers.",
+    "style": "Original palette and sculpted reef language retained; only the existing two arches remain.",
+    "mobileMenu": "Menu occupies upper part of 390x740 view and stays above touch swimming and bottom tour controls."
+  },
+  "limitations": [
+    "Distant reef shapes still repeat.",
+    "Some return headings are relatively sparse.",
+    "Physical phone performance and real multitouch are not tested."
+  ],
+  "productSourceHashes": {
+    "app.js": "c71e2f3c67e9d1ef9406d6adf55879066f8ea50cd1d7b3069dd59c2dfae5169b",
+    "index.html": "aacbec7060a13cefd1ada39e4324f28da85af6e00aa4936222afe6bfb13e4099",
+    "navigation.js": "13cab5910ade6b1ff8c98cf320bf6607ce576bc8e7dcbf4add4c4446681423da",
+    "style.css": "6bc87ddd73d9edf9f9db8a3cd772b76af35de04acb0b825e913ea413a3665ba1",
+    "world.js": "e4e10d0f6263c808662f040e0191ea33ae2ead02c8bbdb45b765139301346cde"
+  }
+}

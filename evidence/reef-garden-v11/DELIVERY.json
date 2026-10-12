@@ -1,0 +1,39 @@
+{
+  "status": "COMPLETED_PUBLISHED",
+  "url": "https://yydshly.github.io/azure-reef-3d/preview/reef-garden-v1/",
+  "firstVersionUrl": "https://yydshly.github.io/azure-reef-3d/preview/reef-garden-v1-first/",
+  "sourceAndLocalEvidenceCommit": "348ead4995f21d5a595640165c3b10cc14b63219",
+  "publicationCommit": "16d7abd64716da68956eb637fa2732aa984fa56b",
+  "runId": 38215829050,
+  "runUrl": "https://github.com/yydshly/azure-reef-3d/actions/runs/38215829050",
+  "runtimeSourceHashes": {
+    "preview/reef-garden-v1/app.js": "c71e2f3c67e9d1ef9406d6adf55879066f8ea50cd1d7b3069dd59c2dfae5169b",
+    "preview/reef-garden-v1/navigation.js": "13cab5910ade6b1ff8c98cf320bf6607ce576bc8e7dcbf4add4c4446681423da",
+    "preview/reef-garden-v1/world.js": "e4e10d0f6263c808662f040e0191ea33ae2ead02c8bbdb45b765139301346cde",
+    "preview/reef-garden-v1/index.html": "aacbec7060a13cefd1ada39e4324f28da85af6e00aa4936222afe6bfb13e4099",
+    "preview/reef-garden-v1/style.css": "6bc87ddd73d9edf9f9db8a3cd772b76af35de04acb0b825e913ea413a3665ba1"
+  },
+  "runtimeHashAggregate": "def0660f535ee8b7c31e7f2fcf54d1de259ebd2cd8a5d6ce1fb139a6242f1700",
+  "aggregateAlgorithm": "SHA256 of sorted relative-path + NUL + file-SHA256 + LF",
+  "oldPublicFiles": 2304,
+  "oldFilesChanged": 0,
+  "oldPublishedHashAggregate": "01aad68d56b0aeab32c523df6110b002adfc399782722fd75976b105dfeb7461",
+  "worldPointerChanged": false,
+  "firstVersionBytesPreserved": true,
+  "firstVersionHashes": {
+    "preview/reef-garden-v1-first/app.js": "f35ed59bae36eb558501378674254a44458850af4753a30c63307be1dda3dd5b",
+    "preview/reef-garden-v1-first/navigation.js": "13cab5910ade6b1ff8c98cf320bf6607ce576bc8e7dcbf4add4c4446681423da",
+    "preview/reef-garden-v1-first/world.js": "f550a54b6e8a8586db061723b9b37f36abc0375e5e768d9846d1cd6ac20aea37",
+    "preview/reef-garden-v1-first/index.html": "f429cc9017d6ed16fa62a6147ec97291cbee09c9ef761d8fa4bc1f7e3ccd5c54",
+    "preview/reef-garden-v1-first/style.css": "1ebf11cfc86352dabd3a5e9ac0fce4f9960b19a31879b51f65474ce05bc4f7f2"
+  },
+  "localNaturalTourSeconds": 72.26600000006147,
+  "localVerification": "PASS",
+  "publicHostedInteractions": "PASS",
+  "oldLinks": "HTTP 200 and native popup/UI checks PASS; old scan GPU completeness is not reaccepted.",
+  "remaining": [
+    "Distant reef shapes still repeat; some return headings remain sparse.",
+    "Physical phone performance and real multitouch are not tested."
+  ],
+  "blockers": []
+}
