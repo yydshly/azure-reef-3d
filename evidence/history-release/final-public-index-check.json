@@ -1,0 +1,205 @@
+{
+  "status": "PASS",
+  "kind": "Public source hashes and HTTP entrypoint existence only; not live render acceptance",
+  "cards": 30,
+  "publishedEntrypoints": 29,
+  "sourceChecks": [
+    {
+      "path": "index.html",
+      "sha256": "b8dcd952bed339e4ff822aea4cf4e747cf1a02074670057a2540214a0946df44"
+    },
+    {
+      "path": "showcase/app.js",
+      "sha256": "acb9c06c7dff15739faafc827e85684615e8b86bd5c41809e0f916975dc5b9ce"
+    },
+    {
+      "path": "showcase/style.css",
+      "sha256": "bef7c4b8d545e61d86b44ce55691713b06d9e1db9bb1b7b941a72620f648b68c"
+    },
+    {
+      "path": "showcase/versions.json",
+      "sha256": "848aa9373fd7148387795cfc513b12554f8deff439d5d31d717271a0f0edfae7"
+    },
+    {
+      "path": "showcase/research.json",
+      "sha256": "4a86ad6f677940ac7a4fbd6cf3463b3ecf4fb874e5ece3dd474b466d1ede6d25"
+    }
+  ],
+  "entries": [
+    {
+      "id": "garden012",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/reef-garden-stage-012/",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "garden011",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/reef-garden-v11/",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "garden01",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/reef-garden-v1-first/",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "enriched",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/world/",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "original",
+      "url": "https://yydshly.github.io/azure-reef-3d/legacy.html",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "material",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/surface-grounding-candidate/scan-exhibit.html",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "lod4",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/real-splats-probe/",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "continuous",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/scan-exhibit.html",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "composition",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/composition-candidate/scan-exhibit.html",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "basin-first",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/reef-basin-first/",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "basin",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/reef-basin-proof/",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "lod3",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/real-splats-lod-compare/",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "colony-form-candidate",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/colony-form-candidate/scan-exhibit.html",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "coral-midground-candidate",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/coral-midground-candidate/scan-exhibit.html",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "darwin-surfel-candidate",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/darwin-surfel-candidate/index.html",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "exploration-demo-candidate",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/exploration-demo-candidate/scan-exhibit.html",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "full-turn-candidate",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/full-turn-candidate/scan-exhibit.html",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "grounded-integration-candidate",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/grounded-integration-candidate/scan-exhibit.html",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "habitat-enrichment-candidate",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/habitat-enrichment-candidate/scan-exhibit.html",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "independent-scan",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/independent-scan/scan-exhibit.html",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "layered-reef-candidate",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/layered-reef-candidate/scan-exhibit.html",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "natural-rock-candidate",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/natural-rock-candidate/scan-exhibit.html",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "rear-habitat-candidate",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/rear-habitat-candidate/scan-exhibit.html",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "rear-layout-candidate",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/rear-layout-candidate/scan-exhibit.html",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "reef-field-candidate",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/reef-field-candidate/scan-exhibit.html",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "visible-habitat-candidate",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/visible-habitat-candidate/scan-exhibit.html",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "fan-current",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/history-fan-current/",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "fan-lod",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/history-fan-lod/",
+      "status": "200",
+      "processExit": 0
+    },
+    {
+      "id": "low-camera",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/history-low-camera/",
+      "status": "200",
+      "processExit": 0
+    }
+  ],
+  "browserRenderLimitations": "current-verification-limitations.json"
+}
