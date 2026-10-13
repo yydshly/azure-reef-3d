@@ -1,0 +1,22 @@
+{
+  "sourceCommit": "5a9c61c64b4734e38d09e6fc6c80d708a5152d16",
+  "runId": 38385076150,
+  "runUrl": "https://github.com/yydshly/azure-reef-3d/actions/runs/38385076150",
+  "runConclusion": "success",
+  "fullPublishedArtifact": {
+    "id": 11805017825,
+    "name": "github-pages",
+    "bytes": 2904694811,
+    "digest": "sha256:2812632b4fb83d41fa39e1b9afb73c46157eda4d80f31ec18d8b63f395aeec1f",
+    "expiresAtUtc": "2026-10-14T10:43:45Z",
+    "downloadedLocally": false,
+    "note": "Complete latest site retained by existing Pages artifact; normal temporary artifact retention, not claimed as permanent archive"
+  },
+  "receiptArtifact": {
+    "id": 11806370156,
+    "digest": "sha256:958c0587854bdf87b1c99909825adbabd9aad0f0b3aa2179d7f1ed4f496284bc"
+  },
+  "executionConnection": "briefly disconnected around 10:43; recovered and actual public browser checks completed",
+  "softwareInstallation": "user declined; none installed",
+  "scopeNote": "4 exact historical rebuilds used existing NumPy/SciPy before installation refusal, alongside 3 archived local GLBs"
+}

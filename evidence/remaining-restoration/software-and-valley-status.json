@@ -16,10 +16,10 @@
     "archiveSha256Verified": false,
     "restored": false
   },
-  "softwareInstallAuthorization": "pending parent/user approval; nothing installed",
+  "softwareInstallAuthorization": "user explicitly declined installation; no software installed; do not ask again",
   "request": {
-    "UbuntuWsl": "official Microsoft wsl --install -d Ubuntu; use Linux filesystem for unchanged Library materializer and identity metadata",
-    "Blender": "official Windows portable ZIP inside workspace .tools/blender, original archived thicket builder only"
+    "UbuntuWsl": "Not authorized: user declined installation",
+    "Blender": "Not authorized: user declined installation"
   },
   "independentRebuilds": "4 original Python recipes rebuilt exact historical SHA256 without software installation"
 }

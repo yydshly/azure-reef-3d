@@ -25,7 +25,7 @@
 
 **地表照片输入仅保留证据。** 原记录明确没有应用到模型或场景，因此不存在可恢复的历史交互场景；不会据此制造一个新场景。
 
-安装请求已交主线程询问用户。审批尚未到达时，独立完成上述七项，不等待安装才交付。Microsoft 的安装说明：[官方 WSL 文档](https://learn.microsoft.com/en-us/windows/wsl/install)。Blender 版本必须与原构建记录一致，使用官方发布包，不修改系统安全设置、关联或凭据。
+用户本轮明确回复“不安装”。Ubuntu WSL、Blender 和替代新软件均不安装，不再重复询问。这两项保持未完成；此前已用现有工具完成的七项独立交付。Microsoft 的安装说明：[官方 WSL 文档](https://learn.microsoft.com/en-us/windows/wsl/install)。Blender 版本必须与原构建记录一致，使用官方发布包，不修改系统安全设置、关联或凭据。
 
 ## 验证证据与范围
 
@@ -34,3 +34,16 @@
 七个样本本地实际绘制、视角变化、原模型根变换保持均通过。原始截图像素已逐项查看，保存在 [证据目录](evidence/remaining-restoration/)。后四个重建输出全部通过历史 SHA256 一致校验；[重建记录](evidence/remaining-restoration/original-script-rebuild-check.json)、[现成模型运行记录](evidence/remaining-restoration/samples-local-check.json)、[重建模型运行记录](evidence/remaining-restoration/rebuilt-samples-local-check.json)区分保存。PNG 是真实 WebGL 画布像素导出，首页 WebP 仅缩放压缩，来源及哈希登记在 `showcase/media/sources.json`。
 
 公开部署后的实际渲染、移动和返回核验另行记录；本地通过不能替代线上通过。完整 72/100 秒历史导览、真实手机和所有历史海域全量渲染不在本次复测范围。恢复与发布不会使海底项目的真实感、生物丰富度、景观连续性自动达标。
+
+
+## 实际发布与公开核验
+
+源码提交 `5a9c61c64b4734e38d09e6fc6c80d708a5152d16`， [Pages 运行 38385076150](https://github.com/yydshly/azure-reef-3d/actions/runs/38385076150) 成功。发布从上一份完整快照恢复，原有 2,927 个文件中的 2,922 个逐字节保留；仅五个自有总览文件允许更新。原有 2,812 个 preview 文件零改动，world 指针与 legacy 原站未变。七个新样本各五个文件。[保全回执](evidence/remaining-restoration/publication-receipt.json)已保存。
+
+指定 Windows Chrome 在公开 GitHub Pages 地址完成三个现成局部 GLB 的真实渲染与视角变化，截图像素已实际查看：[实体肩部](evidence/remaining-restoration/public-solid-shoulder.png)、[交错侧枝](evidence/remaining-restoration/public-staggered-colony.png)、[体积表面](evidence/remaining-restoration/public-volume-shoulder.png)。公开总览中八步连续拖动产生八个不同相机位置，切换第二个样本并返回后 iframe 释放；390×740 模拟尺寸无横向溢出。[连续运动真实像素](evidence/remaining-restoration/continuous-drag-public.png)、[公开运行记录](evidence/remaining-restoration/samples-public-check.json)、[公开入口操作记录](evidence/remaining-restoration/portal-public-check.json)分别保留。
+
+37 项总览、36 个可打开入口的 HTTP 200 和发布回执/保护入口哈希核验通过。[公开 HTTP 与哈希记录](evidence/remaining-restoration/public-http-and-hash-check.json)不等同于 36 个场景全部渲染验收。四个原脚本重建模型已经本地真实渲染通过及字节一致，未追加公开全模型渲染复测；完整历史导览、所有历史海域全量渲染和真实手机未测。
+
+最新完整 Pages 包 artifact `11805017825`，2,904,694,811 字节，SHA256 `2812632b4fb83d41fa39e1b9afb73c46157eda4d80f31ec18d8b63f395aeec1f`。保留现有临时 artifact 到期规则，2026-10-14 10:43:45 UTC 到期，未声称永久备份；已发布完整站点和旧入口继续存在。[快照及部署记录](evidence/remaining-restoration/deployment-and-snapshot.json)。
+
+最终状态：七项原模型样本完成；谷地与疏枝层级因用户本轮不安装且当前工具不支持而未完成；照片输入原未形成场景，仅作证据。没有安装任何新软件，未绕过官方 Library 身份元数据流程。海底项目整体视觉目标仍未达标。

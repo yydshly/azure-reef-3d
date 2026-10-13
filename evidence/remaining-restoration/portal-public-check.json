@@ -1,0 +1,27 @@
+{
+  "base": "https://yydshly.github.io/azure-reef-3d/",
+  "errors": [],
+  "continuousMovement": {
+    "steps": 8,
+    "distinctCameraPositions": 8,
+    "start": [
+      14.034881836799457,
+      5.128573916003328,
+      -39.2806978159868
+    ],
+    "end": [
+      11.08464671966421,
+      9.15265788046944,
+      -54.11736513287286
+    ],
+    "actualPixelCapture": "continuous-drag.png"
+  },
+  "switchAndReturn": true,
+  "smallViewport": {
+    "width": 390,
+    "height": 740,
+    "horizontalOverflow": false,
+    "physicalPhone": false
+  },
+  "status": "PASS"
+}
