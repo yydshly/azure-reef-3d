@@ -1,0 +1,111 @@
+{
+  "status": "HISTORICAL_EXPERIMENTS_APPENDED_ALL_OLD_SCENES_PRESERVED",
+  "sourceCommit": "47252721826b2ce635cd0d9b2ecc55be6b28bc6c",
+  "previousSiteFileCount": 2339,
+  "preservedExistingFiles": 2334,
+  "preservedHashAggregate": "8953b22334f17adaeb18973fe459d8de4c66df7a7f9576108fc64dc570a9ef75",
+  "previewFileCount": 2245,
+  "previewFilesChanged": 0,
+  "worldPointerChanged": false,
+  "legacyRootSha256": "d5316957d3a1c9f1482cffcd66e81668a21999488061975d451b880547a84c82",
+  "allowedChangedFiles": [
+    "index.html",
+    "showcase/app.js",
+    "showcase/media/sources.json",
+    "showcase/style.css",
+    "showcase/versions.json"
+  ],
+  "addedScenes": [
+    {
+      "id": "continuous",
+      "entry": "preview/continuous-candidate/scan-exhibit.html",
+      "sourceCommit": "b92b8ac734973e2673f3f678f6d5f1241393373c",
+      "files": 151
+    },
+    {
+      "id": "composition",
+      "entry": "preview/composition-candidate/scan-exhibit.html",
+      "sourceCommit": "0478d7ab42eae11e65fc53f83b5253e9dcda9822",
+      "files": 151
+    },
+    {
+      "id": "basin-first",
+      "entry": "preview/reef-basin-first/index.html",
+      "sourceCommit": "bef0b8506b5e1b6726585722573014038bdc570a",
+      "files": 5
+    },
+    {
+      "id": "basin",
+      "entry": "preview/reef-basin-proof/index.html",
+      "sourceCommit": "bef0b8506b5e1b6726585722573014038bdc570a",
+      "files": 5
+    },
+    {
+      "id": "lod3",
+      "entry": "preview/real-splats-lod-compare/index.html",
+      "sourceCommit": "f436dd8ce08960e653b8476dbd67c3fc748a2de5",
+      "files": 16
+    }
+  ],
+  "snapshotDigest": "c6eff62373d639838d3984ccf8f5dd547322625c7fe6a677cc3bf3cc3e2b4f79",
+  "snapshotBytes": 2259368058,
+  "previousPreviewEntrypoints": [
+    "preview/colony-form-candidate/index.html",
+    "preview/colony-form-candidate/scan-exhibit.html",
+    "preview/coral-midground-candidate/index.html",
+    "preview/coral-midground-candidate/scan-exhibit.html",
+    "preview/darwin-surfel-candidate/index.html",
+    "preview/exploration-demo-candidate/index.html",
+    "preview/exploration-demo-candidate/scan-exhibit.html",
+    "preview/exploration-enriched-candidate/index.html",
+    "preview/exploration-enriched-candidate/scan-exhibit.html",
+    "preview/full-turn-candidate/index.html",
+    "preview/full-turn-candidate/scan-exhibit.html",
+    "preview/grounded-integration-candidate/index.html",
+    "preview/grounded-integration-candidate/scan-exhibit.html",
+    "preview/habitat-enrichment-candidate/index.html",
+    "preview/habitat-enrichment-candidate/scan-exhibit.html",
+    "preview/independent-scan/index.html",
+    "preview/independent-scan/scan-exhibit.html",
+    "preview/layered-reef-candidate/index.html",
+    "preview/layered-reef-candidate/scan-exhibit.html",
+    "preview/natural-rock-candidate/index.html",
+    "preview/natural-rock-candidate/scan-exhibit.html",
+    "preview/real-splats-probe/index.html",
+    "preview/rear-habitat-candidate/index.html",
+    "preview/rear-habitat-candidate/scan-exhibit.html",
+    "preview/rear-layout-candidate/index.html",
+    "preview/rear-layout-candidate/scan-exhibit.html",
+    "preview/reef-field-candidate/index.html",
+    "preview/reef-field-candidate/scan-exhibit.html",
+    "preview/reef-garden-stage-012/index.html",
+    "preview/reef-garden-v1-first/index.html",
+    "preview/reef-garden-v1/index.html",
+    "preview/reef-garden-v11/index.html",
+    "preview/surface-grounding-candidate/index.html",
+    "preview/surface-grounding-candidate/scan-exhibit.html",
+    "preview/visible-habitat-candidate/index.html",
+    "preview/visible-habitat-candidate/scan-exhibit.html",
+    "preview/world/index.html"
+  ],
+  "newRootSha256": "e9147438360a4ec3a2f897102e1ebeea24fb6d0f402421009643d2bd658f0fd1",
+  "newShowcaseFiles": {
+    "showcase/app.js": "42fdc278c8142a4fee31270e92da1d4278d189a14153a560e7db036801b0cf37",
+    "showcase/versions.json": "770de5c8e1447d6900e9efc726a003fcaea2ddb66baa7ca14a889c63ebfb7a9a",
+    "showcase/style.css": "ef7337f659a9a2fd7942db3a0e893db58ece40030eb68323fcfaaa1f8831e5ba",
+    "showcase/media/lod4.webp": "790f5d3ac55066d58d2e8b1897e5a15189ddc3133d1c14913f9a58b7ceb4dd7b",
+    "showcase/media/composition.webp": "eb346f511b7364ce21e01d6cb16c2b993054daa2e94bf0524ab57195357942f7",
+    "showcase/media/original.webp": "da0badf7477d48967ee2ed812d4836acfda24fb33edd48e97e2996c5099ab52e",
+    "showcase/media/garden01.webp": "7bd0ba0baa6f21da0e4b84d53aa5bf5e1577ddb40ccc0e8168938ff5a36e1b9e",
+    "showcase/media/complete-demo.webm": "2a9206d4b96ffa7e1ea8baa7f48ab3c7eb9839b1333364a51157fd5c71cd16fa",
+    "showcase/media/basin-first.webp": "887d461ec60c38409e494c14ca2470813e6e7bfcefa5c7e8392ed8758b90f560",
+    "showcase/media/enriched.webp": "d2442d1a147bb03192c6bec583d5be144db66b36dd817c43dcc39f355aa39a02",
+    "showcase/media/basin.webp": "436f89297bc1d26d070500a3779efe68b940ea42665633b1bea86efe9dc3229a",
+    "showcase/media/continuous.webp": "cedf6bcfd2af6d6bd345f94763a2d006ea68d5aa84386a7997011dfb0a38d8c5",
+    "showcase/media/garden011.webp": "0613befc466b37c1d406ca1a42616891bad5d6133a07fb5c8cf5647ad8b65b25",
+    "showcase/media/material.webp": "39424ddb3e98378aff3024838f0d218be6bc5fbf628f8e6c0af2f88d4e617b3a",
+    "showcase/media/sources.json": "78c6ad5483ddb2a280acda76295c0ee2271d5383e1b92bff534f43e05992153b",
+    "showcase/media/garden012.webp": "b6c3ecde92027abb583f6b371caa95cdc94e302cc609942e54a4ad269bd9be05",
+    "showcase/media/lod3.webp": "13644e21e251613e4883c268ea61da7d8bba01d8a6b8a07a7c5b9a3c6e09fa23"
+  }
+}

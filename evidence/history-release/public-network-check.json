@@ -1,0 +1,231 @@
+{
+  "home": {
+    "responses": [
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/showcase/app.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/showcase/style.css",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/showcase/media/garden012.webp",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/showcase/versions.json",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/favicon.svg",
+        "status": 200
+      }
+    ],
+    "failed": [],
+    "console": [
+      {
+        "type": "info",
+        "text": "Images loaded lazily and replaced with placeholders. Load events are deferred. See https://go.microsoft.com/fwlink/?linkid=2048113"
+      }
+    ]
+  },
+  "continuous": {
+    "responses": [
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/scan-exhibit.html",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/scan-hud.js?v=edge-hud-20261008-r1",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/scan-exhibit.js?v=layered-habitat-20261011-v1",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/scan-exhibit.css?v=exploration-demo-compact-hud-v3",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/continuous-reef.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/coral-midground-runtime.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/scan-render-demand.js?v=demand-20261009-r1",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/layered-ridges-runtime.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/natural-rock-runtime.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/field-runtime.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/scan-turtle.js?v=animal-scale-20261010-r1",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/scan-world.js?v=habitat-20261010-r1",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/exploration-world-data.js?v=layered-habitat-20261011-v1",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/scan-landmark.js?v=c4-20261008-r1",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/scan-life.js?v=basin-20261009-r1",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/exploration-navigation.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/exploration-world.js?v=layered-habitat-20261011-v1",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/scan-ocean.js?v=layered-habitat-20261011-v1",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/vendor/three.module.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/scan-ray.js?v=ray-20261009-r1",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/scan-surface.js?v=surface-20261008-r1",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/vendor/OrbitControls.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/scan-assemblage.js?v=basin-20261009-r1",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/continuous-layout.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/install-layered-ridges.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/install-natural-rock.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/field-data.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/utils/BufferGeometryUtils.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/turtle-motion.js?v=turtle-20261009-r1",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/fish-motion.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/vendor/GLTFLoader.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/scan-meadow.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/install-habitat-enrichment.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/scan-aprons.js?v=basin-20261009-r1",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/rear-connected-data.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/visible-habitat.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/rear-habitat.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/utils/SkeletonUtils.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/scan-habitat-mounds.js?v=closed-shells-20261009-r1",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/grounded-shoulder.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/vendor/three.core.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/scan-meadow-placement.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/habitat-placement.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/rear-connected.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/seagrass-blades.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/visible-habitat-placement.js",
+        "status": 200
+      },
+      {
+        "url": "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/grounded-shoulder-data.js",
+        "status": 200
+      }
+    ],
+    "failed": [],
+    "console": []
+  }
+}

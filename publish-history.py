@@ -25,8 +25,18 @@ def main():
     assert sha(workspace/'dist/legacy.html')==before['legacy.html'],'Legacy entry must stay unchanged'
     added=[]
     for scene in manifest['scenes']:
-        target=site/scene['path'];assert not target.exists(),'Do not overwrite an existing experiment: '+scene['path']
-        if scene['base']:
+        target=site/scene['path']
+        if target.exists():
+            assert all(before.get(scene['path']+'/'+name)==h for name,h in scene['overlayHashes'].items()),'An existing experiment differs from its frozen source'
+            assert len([p for p in target.rglob('*') if p.is_file()])==scene['sourceFiles']
+            continue
+        if scene['base']=='@original-root':
+            target.mkdir(parents=True)
+            for name in before:
+                if name.startswith(('preview/','showcase/')) or name in ['index.html','legacy.html']:continue
+                dest=target/name;dest.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(site/name,dest)
+            shutil.copyfile(site/'legacy.html',target/'index.html')
+        elif scene['base']:
             baseline=site/scene['base']
             for name,h in manifest['baseHashes'].items():assert before.get(scene['base']+'/'+name)==h,'Pinned enriched source differs: '+name
             target.mkdir(parents=True)

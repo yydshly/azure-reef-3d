@@ -5,3 +5,6 @@ dist/preview/composition-candidate/** -text
 dist/preview/reef-basin-first/** -text
 dist/preview/reef-basin-proof/** -text
 dist/preview/real-splats-lod-compare/** -text
+dist/preview/history-fan-current/** -text
+dist/preview/history-fan-lod/** -text
+dist/preview/history-low-camera/** -text

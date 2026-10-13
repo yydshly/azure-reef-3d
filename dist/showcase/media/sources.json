@@ -120,6 +120,162 @@
       "conversion": "resize only; no generated content",
       "captureDateUtc": "2026-10-13",
       "scanSha256": "85c0f7b5bdae524c47fb91dbafcfefa5365186f0be75fba52c01923f547f9b67"
+    },
+    {
+      "id": "colony-form-candidate",
+      "image": "colony-form-candidate.webp",
+      "kind": "actual-browser-screenshot-from-original-published-evidence",
+      "source": "https://yydshly.github.io/azure-reef-3d/preview/colony-form-candidate/assets/current-scene/5f530b3ec7ad427b20468212e612515ad72da3c2789ea036024117ae8685d187/colony-near-b6eb5e31119d3430.png",
+      "originalScreenshotSha256": "b6eb5e31119d3430ea7efca8ac9d50fadce9bd76521abac7566f3851b2350700",
+      "webpSha256": "f597dc3331e813999bab7400eef10aa958c60ebd4f56c026f6b4c7bb5892d87b",
+      "conversion": "resize only; no generated content"
+    },
+    {
+      "id": "coral-midground-candidate",
+      "image": "coral-midground-candidate.webp",
+      "kind": "actual-browser-screenshot-from-original-published-evidence",
+      "source": "https://yydshly.github.io/azure-reef-3d/preview/coral-midground-candidate/assets/current-scene/0bcab8b691c9169d68964c783f5920df6fc483b7c85974b0f8f71ff48ffb67c3/scan-terrace-7678f2604c80e798.png",
+      "originalScreenshotSha256": "7678f2604c80e7982e40933637d20e05c73ec9197947c980b2ccc994ee534dc1",
+      "webpSha256": "f9b4d895b6252d0ded07831576a74b46d789ca307d06f655099c4edc7ccdf641",
+      "conversion": "resize only; no generated content"
+    },
+    {
+      "id": "darwin-surfel-candidate",
+      "image": "darwin-surfel-candidate.webp",
+      "kind": "actual-browser-screenshot-from-original-published-evidence",
+      "source": "https://yydshly.github.io/azure-reef-3d/preview/darwin-surfel-candidate/assets/current-scene/ad2ca07d3e5e6fc39a0c03e7f4de85dd3e518f66bdc7339305467c93465266d7/normal-2d08fc08682906c1.png",
+      "originalScreenshotSha256": "2d08fc08682906c1122f13718f3bc22e6cb49d2badf0cc6d03c7dfdf5248ab51",
+      "webpSha256": "ce4d5608c56b09b95ee49988934ace134147496fd563a4bbfdc2fc7597c499dc",
+      "conversion": "resize only; no generated content"
+    },
+    {
+      "id": "exploration-demo-candidate",
+      "image": "exploration-demo-candidate.webp",
+      "kind": "actual-browser-screenshot-from-original-published-evidence",
+      "source": "https://yydshly.github.io/azure-reef-3d/preview/exploration-demo-candidate/assets/current-scene/388017a46903168124d3ee721ffd0bb6d67f63ad4ba11bd2706d9097f2a04fd2/tour-initial-ea71f7253b0535bd.png",
+      "originalScreenshotSha256": "ea71f7253b0535bde4ec091b8c0dfaacf30e77e3b650efea70f1889253937356",
+      "webpSha256": "313ebd0cd8fc92839ead7317c4cb2c5a1d4b216c07167306d9c5a5a1fa7f5c22",
+      "conversion": "resize only; no generated content"
+    },
+    {
+      "id": "full-turn-candidate",
+      "image": "full-turn-candidate.webp",
+      "kind": "actual-browser-screenshot-from-original-published-evidence",
+      "source": "https://yydshly.github.io/azure-reef-3d/preview/full-turn-candidate/assets/current-scene/15085b75ee001d35418188f3435d926e3da1713a183a491226ed8ef14754a0ef/turn-near-forward-c6b54047c21b41df.png",
+      "originalScreenshotSha256": "c6b54047c21b41dffaf4df6fa232cfa83d6978a939c8b15286b7869f3d000676",
+      "webpSha256": "ee038c91e77d51b41fd88c9ccb8f0a87256a526f1ab354926a321d71ecdbc415",
+      "conversion": "resize only; no generated content"
+    },
+    {
+      "id": "grounded-integration-candidate",
+      "image": "grounded-integration-candidate.webp",
+      "kind": "actual-browser-screenshot-from-original-published-evidence",
+      "source": "https://yydshly.github.io/azure-reef-3d/preview/grounded-integration-candidate/assets/current-scene/ed947eda671eefcd297112720ee3a03a5dd01a88a54fa19c3622f1f574d96310/grounded-20-front-on-51d55afb27442ee3.png",
+      "originalScreenshotSha256": "51d55afb27442ee38e72c2b83c2a2dc92cd9b9e012454ae72e78389773612edc",
+      "webpSha256": "97d6b03e0f6b28278e6a33f25ec0cfb4676f6db63e4f036d6a901b2f054e0176",
+      "conversion": "resize only; no generated content"
+    },
+    {
+      "id": "habitat-enrichment-candidate",
+      "image": "habitat-enrichment-candidate.webp",
+      "kind": "actual-browser-screenshot-from-original-published-evidence",
+      "source": "https://yydshly.github.io/azure-reef-3d/preview/habitat-enrichment-candidate/assets/current-scene/7593a0aef0493b63ae6639ab127849a841aca38c2dc222474dc1f2f043e9c4d1/habitat-near-3747574de644cf0e.png",
+      "originalScreenshotSha256": "3747574de644cf0e293adf721d4d31608805b68359dcdb3c72a914da57227b6d",
+      "webpSha256": "c6bbae4263de73e8b45a6d5474056078990ac62765170cba825300f0d2baba48",
+      "conversion": "resize only; no generated content"
+    },
+    {
+      "id": "independent-scan",
+      "image": "independent-scan.webp",
+      "kind": "actual-browser-screenshot-from-original-published-evidence",
+      "source": "https://yydshly.github.io/azure-reef-3d/preview/independent-scan/assets/current-scene/5b62d2ea3b9224921fedb553b8530787f5ec3ebacfa674f103a28ea17878b9a7/scan-terrace-d313c7fcda96831f.png",
+      "originalScreenshotSha256": "d313c7fcda96831f2ccad83bb05d6c2c9ac83aba5897f2292ceea8f0cab29a25",
+      "webpSha256": "223772bbc50e44c07e1aaaed6fc6d88f0b62fbbe36ef31cce6ba6fcaaaae8d89",
+      "conversion": "resize only; no generated content"
+    },
+    {
+      "id": "layered-reef-candidate",
+      "image": "layered-reef-candidate.webp",
+      "kind": "actual-browser-screenshot-from-original-published-evidence",
+      "source": "https://yydshly.github.io/azure-reef-3d/preview/layered-reef-candidate/assets/current-scene/e27c0f86eb9c17be58fb09c1b667edd0f79de20897c0a907f9b0ffc175ed63bc/scan-terrace-bb0fb550a416464b.png",
+      "originalScreenshotSha256": "bb0fb550a416464b6942d6cde83e4c83c9d6777d158b8ad40a464ab34e0ff2fb",
+      "webpSha256": "fd5366dc30bb0c6b9326944b91427e5c246c1a4dbec27217747f2af6f15b4872",
+      "conversion": "resize only; no generated content"
+    },
+    {
+      "id": "natural-rock-candidate",
+      "image": "natural-rock-candidate.webp",
+      "kind": "actual-browser-screenshot-from-original-published-evidence",
+      "source": "https://yydshly.github.io/azure-reef-3d/preview/natural-rock-candidate/assets/current-scene/0104614b2b7f44a35bf37829e4c14cca9bf4a2fe2e95dca2728e0d0df05d6546/scan-terrace-dbfb84520b349254.png",
+      "originalScreenshotSha256": "dbfb84520b349254791840ec481729573553dab31e2d63659225daec9e80c6c3",
+      "webpSha256": "63a66b5b67ac479d0185d0e4fb7da3367228ccc3c2efa69a5fc8003bece2cd2c",
+      "conversion": "resize only; no generated content"
+    },
+    {
+      "id": "rear-habitat-candidate",
+      "image": "rear-habitat-candidate.webp",
+      "kind": "actual-browser-screenshot-from-original-published-evidence",
+      "source": "https://yydshly.github.io/azure-reef-3d/preview/rear-habitat-candidate/assets/current-scene/a6b3c2cdd1f2ae5755b89bd7e0df37522633e700c132cccebbc4c5462288ff6f/rear-near-forward-1c734b14ca7ae1c9.png",
+      "originalScreenshotSha256": "1c734b14ca7ae1c90ffdecc5af4a7325695950cc8bcda38432e6e05420f0e6a8",
+      "webpSha256": "de3b50fcdd626514637f1969af10eb35a6a73c8cdc3cb157c2dfb1820da28b72",
+      "conversion": "resize only; no generated content"
+    },
+    {
+      "id": "rear-layout-candidate",
+      "image": "rear-layout-candidate.webp",
+      "kind": "actual-browser-screenshot-from-original-published-evidence",
+      "source": "https://yydshly.github.io/azure-reef-3d/preview/rear-layout-candidate/assets/current-scene/5abe476f2bdf7088baed13d2c3aa9a4bb96fc0b10e8c22a3822bb4f35b5c0c18/rear-layout-20-back-on-fe95c315584b7bdf.png",
+      "originalScreenshotSha256": "fe95c315584b7bdff698b1a6db5ce4de1aa40d3b8ced2747884223fecf758cc9",
+      "webpSha256": "e653da49f62042b88105e11bb657a47bc298c2359c8312174be518b0cd61cca7",
+      "conversion": "resize only; no generated content"
+    },
+    {
+      "id": "reef-field-candidate",
+      "image": "reef-field-candidate.webp",
+      "kind": "actual-browser-screenshot-from-original-published-evidence",
+      "source": "https://yydshly.github.io/azure-reef-3d/preview/reef-field-candidate/assets/current-scene/afaa546019878a496ac9af9f8978b7f565d1e22b47e3bcca44afe41d75393457/field-near-2a854859bb2121bb.png",
+      "originalScreenshotSha256": "2a854859bb2121bb58079a7a5688104ad5705f0396c83279b65744d7d8a6e8d6",
+      "webpSha256": "b0b79f79a16f8c1b252fb4d074864a855647c66c90604260c6b76f1454638735",
+      "conversion": "resize only; no generated content"
+    },
+    {
+      "id": "visible-habitat-candidate",
+      "image": "visible-habitat-candidate.webp",
+      "kind": "actual-browser-screenshot-from-original-published-evidence",
+      "source": "https://yydshly.github.io/azure-reef-3d/preview/visible-habitat-candidate/assets/current-scene/f6a3dc4c87ead510177bf1b441b95c556e150ae6896a05289e3a36a1f71de3cb/visible-opening-39771437269d4fe5.png",
+      "originalScreenshotSha256": "39771437269d4fe5856943f7d116bea5ffc0fac215eff871b36c7173904dda46",
+      "webpSha256": "7f5e0cdd4b5f771d2e5d17883681d226888edd2fd9a208e3ef4120639ad166b0",
+      "conversion": "resize only; no generated content"
+    },
+    {
+      "id": "fan-current",
+      "image": "fan-current.webp",
+      "kind": "original-browser-capture",
+      "source": "https://raw.githubusercontent.com/yydshly/azure-reef-3d/qa/fan-current/evidence/fan-current-ci-37669614354/candidate/phase-2.png",
+      "originalScreenshotSha256": "057441387f8892cee08af2da72d56d0435c13f5f606358b4aadc233a435b91be",
+      "webpSha256": "c4277cf6ec12c6456d1f914bd3130d9d91f750c17a46e30b3ebe32f37482b391",
+      "conversion": "resize only; no generated content",
+      "note": "Historical QA image; not a new live screenshot. Fan-current original QA lacked CJK glyphs."
+    },
+    {
+      "id": "fan-lod",
+      "image": "fan-lod.webp",
+      "kind": "original-browser-capture",
+      "source": "https://raw.githubusercontent.com/yydshly/azure-reef-3d/qa/fan-lod-r1/research/fan-lod-candidate/evidence/run-37598309469/candidate/2-midway.png",
+      "originalScreenshotSha256": "f7d4527a8627f23026316069de1d62771d75af78469ea6df3aa5c5ea8dcf1982",
+      "webpSha256": "901346f3647a118246945048da68738509599701396bfd4cf23abd5c3593f95e",
+      "conversion": "resize only; no generated content",
+      "note": "Historical QA image; not a new live screenshot. Fan-current original QA lacked CJK glyphs."
+    },
+    {
+      "id": "low-camera",
+      "image": "low-camera.webp",
+      "kind": "original-browser-capture",
+      "source": "https://raw.githubusercontent.com/yydshly/azure-reef-3d/febe46bd5fc54b2b1f3d2dabd517de7fc110c197/evidence/camera-height-oct7/37610541045/study/midway-lower.png",
+      "originalScreenshotSha256": "1d5e2716af9bb405d98cbcbaa367fbaf8d1d82f08847c15e06ae55b0b72134fd",
+      "webpSha256": "eb971067a991448fb163e09ee900d195c319d477eaf049d2740d61b1f4dbfdd2",
+      "conversion": "resize only; no generated content",
+      "note": "Historical QA image; not a new live screenshot. Fan-current original QA lacked CJK glyphs."
     }
   ],
   "video": {

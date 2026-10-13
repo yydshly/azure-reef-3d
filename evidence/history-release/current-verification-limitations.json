@@ -1,0 +1,10 @@
+{
+  "liveBrowserRender": "NOT_PASSED: Edge/Chrome new-scene ready waits timed out",
+  "currentScreenshotCapture": "NOT_PASSED: even static homepage capture timed out in both existing browsers",
+  "secureBodyAdapter": "FAILED: some TLS handshake errors; not live verification",
+  "firstFiveLocal": "PASS: actual original rendering and movement",
+  "earlyThreeLocal": "PASS: ready, mesh presence, camera movement",
+  "phone": "size simulation only; new capture not passed",
+  "fullTours": "not rerun",
+  "securitySettingsChanged": false
+}

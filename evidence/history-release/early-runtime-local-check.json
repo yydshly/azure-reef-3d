@@ -1,0 +1,55 @@
+{
+  "scenes": [
+    {
+      "id": "fan-current",
+      "ready": true,
+      "meshCount": 100,
+      "basicCameraMovement": true,
+      "before": [
+        1.5000000000000004,
+        2.099999999999999,
+        4.800000000000003
+      ],
+      "after": [
+        -6.530529898548439,
+        5.625131033216513,
+        1.9171219300326765
+      ]
+    },
+    {
+      "id": "fan-lod",
+      "ready": true,
+      "meshCount": 103,
+      "basicCameraMovement": true,
+      "before": [
+        1.5000000000000004,
+        2.099999999999999,
+        4.800000000000003
+      ],
+      "after": [
+        -6.530529898548439,
+        5.625131033216513,
+        1.9171219300326765
+      ]
+    },
+    {
+      "id": "low-camera",
+      "ready": true,
+      "meshCount": 99,
+      "basicCameraMovement": true,
+      "before": [
+        1.5000000000000004,
+        2.099999999999999,
+        4.800000000000003
+      ],
+      "after": [
+        -6.530529898548439,
+        5.625131033216513,
+        1.9171219300326765
+      ]
+    }
+  ],
+  "errors": [],
+  "captureLimitation": "Current browser screenshot API times out even on static home; no new screenshots claimed",
+  "status": "PASS"
+}

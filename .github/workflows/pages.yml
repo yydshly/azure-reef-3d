@@ -48,6 +48,9 @@ jobs:
             /dist/preview/reef-basin-first/**
             /dist/preview/reef-basin-proof/**
             /dist/preview/real-splats-lod-compare/**
+            /dist/preview/history-fan-current/**
+            /dist/preview/history-fan-lod/**
+            /dist/preview/history-low-camera/**
       - name: Restore pinned published bytes and append independent historical experiments
         run: python3 publish-history.py
       - name: Set up the existing Node runtime
