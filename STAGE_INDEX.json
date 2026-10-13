@@ -11,7 +11,7 @@
       "id": "original",
       "name": "早期原站",
       "status": "历史参考，非主展示",
-      "experience": "https://yydshly.github.io/azure-reef-3d/",
+      "experience": "https://yydshly.github.io/azure-reef-3d/legacy.html",
       "sourceKind": "main原始模型与运行源码",
       "sourcePath": "dist/",
       "limits": "五站教学和局部技术积累，不代表连贯海域视觉达标"
@@ -123,5 +123,7 @@
     "earlyStageIndex": "已有外部阶段索引，未复制大包入main；当前main文档是统一文字入口。"
   },
   "mainSourceArchiveDirectory": "archive/",
-  "archiveDoesNotIntegrateCandidates": true
+  "archiveDoesNotIntegrateCandidates": true,
+  "website": "https://yydshly.github.io/azure-reef-3d/",
+  "websiteSource": "dist/index.html"
 }

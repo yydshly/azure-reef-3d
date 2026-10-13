@@ -1,0 +1,25 @@
+'use strict';
+const grid=document.querySelector('#version-grid'),selection=document.querySelector('#selection'),viewer=document.querySelector('#viewer'),content=document.querySelector('#viewer-content'),switcher=document.querySelector('#version-switch');
+let versions=[],selected='garden012',filter='all',lastTrigger=null;
+const escapeHtml=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const external=(url,label)=>`<a href="${escapeHtml(url)}" target="_blank" rel="noopener">${label} ↗</a>`;
+function choose(id){selected=id;render();grid.querySelector(`[data-select="${id}"]`)?.focus({preventScroll:true});}
+function render(){
+ const current=versions.find(v=>v.id===selected);
+ selection.innerHTML=`<div><h3>已选：${escapeHtml(current.name)}</h3><p>${escapeHtml(current.state)} · ${escapeHtml(current.limit)}</p></div><div class="selected-actions">${current.demo?`<button class="primary" data-open="${current.id}">进入此版本 ↗</button>`:'<span class="unpublished">未发布 · 仅查看证据</span>'}${external(current.evidence,'查看证据')}</div>`;
+ const visible=versions.filter(v=>filter==='all'||(filter==='published'?v.demo:!v.demo));document.querySelector('#filter-count').textContent=`共 ${visible.length} 个版本`;
+ grid.innerHTML=visible.map(v=>`<article class="version-card ${v.id===selected?'selected':''}" data-version="${v.id}"><button class="card-select" data-select="${v.id}" aria-pressed="${v.id===selected}" aria-label="选择${escapeHtml(v.name)}"><div class="card-image">${v.image?`<img src="showcase/media/${v.image}" alt="${escapeHtml(v.alt)}" width="640" height="410" loading="lazy" decoding="async">`:'<div class="no-preview">暂无已核验预览<small>保留诊断记录，不展示推测效果</small></div>'}<span class="badge ${v.demo?'':'failed'}">${escapeHtml(v.badge)}</span></div><div class="card-body"><div class="card-heading"><h3>${escapeHtml(v.name)}</h3><span aria-hidden="true">${v.id===selected?'✓':'↗'}</span></div><p class="card-kicker">${escapeHtml(v.state)}</p><p class="card-desc">${escapeHtml(v.change)}</p><p class="card-status">${escapeHtml(v.limit)}</p></div></button><div class="card-footer">${external(v.evidence,'截图 / 证据')}${v.demo?`<button data-open="${v.id}">打开交互 ↗</button>`:'<span class="unpublished">未发布 · 仅证据</span>'}</div></article>`).join('');
+}
+function release(){const video=content.querySelector('video');if(video){video.pause();video.removeAttribute('src');video.load();}content.replaceChildren();}
+function openVersion(id,mode='scene',trigger=null){
+ const version=versions.find(v=>v.id===id);if(!version||(!version.demo&&mode==='scene'))return;
+ if(!viewer.open){lastTrigger=trigger||document.activeElement;viewer.showModal();document.body.style.overflow='hidden';}
+ release();document.querySelector('#viewer-title').textContent=version.name+(mode==='video'?' · 完整实录':'');document.querySelector('#viewer-state').textContent=mode==='video'?'126.56秒实录，包含72秒自然导览及操作检查':version.state;document.querySelector('#direct-link').href=mode==='video'?'showcase/media/complete-demo.webm':version.demo;
+ switcher.value=id;const loading=document.querySelector('#viewer-loading');loading.hidden=false;loading.textContent=mode==='video'?'点击播放查看真实录像':'正在打开场景，加载后可在场景内开始导览';
+ if(mode==='video'){const video=document.createElement('video');video.controls=true;video.preload='metadata';video.playsInline=true;video.poster='showcase/media/garden012.webp';video.src='showcase/media/complete-demo.webm';video.setAttribute('aria-label','海庭01.2完整真实实录');video.addEventListener('loadedmetadata',()=>loading.hidden=true,{once:true});content.append(video);}
+ else{const frame=document.createElement('iframe');frame.title=version.name+'交互场景';frame.allow='fullscreen';frame.src=version.demo;frame.addEventListener('load',()=>loading.hidden=true,{once:true});content.append(frame);}
+}
+function closeViewer(){release();viewer.close();document.body.style.overflow='';lastTrigger?.focus();}
+document.addEventListener('click',event=>{const button=event.target.closest('[data-select],[data-open],[data-video],[data-filter]');if(!button||!versions.length)return;if(button.dataset.select){choose(button.dataset.select);return;}if(button.dataset.filter){filter=button.dataset.filter;document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));render();return;}openVersion(button.dataset.open||button.dataset.video,button.dataset.video?'video':'scene',button);});
+document.querySelector('#return').addEventListener('click',closeViewer);viewer.addEventListener('cancel',event=>{event.preventDefault();closeViewer();});switcher.addEventListener('change',()=>openVersion(switcher.value));
+fetch('showcase/versions.json').then(response=>{if(!response.ok)throw new Error('版本索引不可用');return response.json();}).then(data=>{versions=data;switcher.replaceChildren(...versions.filter(v=>v.demo).map(v=>{const option=document.createElement('option');option.value=v.id;option.textContent=v.name;return option;}));render();}).catch(()=>{selection.textContent='版本列表暂时无法加载，请刷新或通过下方原站入口查看。';});

@@ -1,8 +1,12 @@
 # Azure Reef 3D · 海底项目统一入口
 
+**统一网页入口：[打开海底项目版本展示](https://yydshly.github.io/azure-reef-3d/)**
+
+各版本有独立真实预览图、完成状态和交互入口；可在网页内返回或切换。页面首次打开只加载图片，进入后只运行一个场景。原站移至 [保留入口](https://yydshly.github.io/azure-reef-3d/legacy.html)，原资源及历史预览继续保留。
+
 **当前主展示：海庭01.2，已发布但整体视觉未达标。** 用户已否定01.2整体质量，盆地证明段也失败；没有最终合格效果或项目目标完成结论。
 
-[![已发布海庭01.2真实截图；点击打开当前主展示](https://raw.githubusercontent.com/yydshly/azure-reef-3d/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage/live-entry.png)](https://yydshly.github.io/azure-reef-3d/preview/reef-garden-stage-012/)
+[![已发布海庭01.2真实截图；点击打开统一展示网页](https://raw.githubusercontent.com/yydshly/azure-reef-3d/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage/live-entry.png)](https://yydshly.github.io/azure-reef-3d/)
 
 [查看当前主展示 / 实时72秒导览](https://yydshly.github.io/azure-reef-3d/preview/reef-garden-stage-012/) · [完整实录：下载后播放](https://raw.githubusercontent.com/yydshly/azure-reef-3d/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage/complete-demo.webm) · [阶段总结](REEF_GARDEN_STAGE.md)
 
@@ -12,7 +16,7 @@
 
 | 版本/路线 | 做成什么与差异 | 未做成；采用/停止 | 体验 | 源码与证据 |
 | --- | --- | --- | --- | --- |
-| 早期原站 | 原始三维模型、五站教学及局部运动/支撑修正 | 仅历史参考，不是当前主展示 | [原站](https://yydshly.github.io/azure-reef-3d/) | [main原源码](dist/)；[源模型](source-model.glb) |
+| 早期原站 | 原始三维模型、五站教学及局部运动/支撑修正 | 仅历史参考，不是当前主展示 | [原站](https://yydshly.github.io/azure-reef-3d/legacy.html) | [main原源码](dist/)；[源模型](source-model.glb) |
 | 原enriched | 三区探索、72秒六站、自由移动/碰撞/暂停重播 | 真实感、丰富度和连续性不足；保留旧基线 | [旧world](https://yydshly.github.io/azure-reef-3d/preview/world/) | [基线a1b2cae](https://github.com/yydshly/azure-reef-3d/commit/a1b2cae7e968ad383798a0ff15c87bfb0934d971)；[main增量归档](archive/enriched/)；[完整源位置](SOURCE_INDEX.md) |
 | 材质候选 | 局部法线/粗糙度略有收益 | 整体目标未达，未提升为主展示；本轮未重新做视觉验收 | [历史发布入口](https://yydshly.github.io/azure-reef-3d/preview/surface-grounding-candidate/scan-exhibit.html) | [原发布ef6a761](https://github.com/yydshly/azure-reef-3d/commit/ef6a7618ef02bdcf8134aa3f395be5e9d90e2f6f)；[发布回执](https://github.com/yydshly/azure-reef-3d/actions/runs/38147691994)；完整源链未在本轮迁入 |
 | LOD4局部扫描 | 局部扫描探针 | 覆盖/完整性不足；不作完整海域，完整源链未确认 | [扫描探针](https://yydshly.github.io/azure-reef-3d/preview/real-splats-probe/) | [局限与未闭环项](REEF_GARDEN_STAGE.md) |

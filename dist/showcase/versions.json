@@ -1,0 +1,122 @@
+[
+  {
+    "id": "garden012",
+    "name": "海庭 01.2",
+    "badge": "当前展示",
+    "state": "已发布技术原型 · 视觉未达标",
+    "change": "三地段、72秒导览与自由探索，增加回望和返回路径。",
+    "limit": "用户已否定整体视觉质量，尚未达到项目目标。",
+    "demo": "preview/reef-garden-stage-012/",
+    "evidence": "https://raw.githubusercontent.com/yydshly/azure-reef-3d/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage/live-entry.png",
+    "image": "garden012.webp",
+    "alt": "海庭01.2实际入口：珊瑚门廊、近处礁台和鱼群"
+  },
+  {
+    "id": "garden011",
+    "name": "海庭 01.1",
+    "badge": "历史已发布",
+    "state": "技术原型 · 视觉未达标",
+    "change": "增加近中远层次、生物与地段衔接的前置尝试。",
+    "limit": "整体真实感和连续性仍不足；展示已由01.2取代。",
+    "demo": "preview/reef-garden-v11/",
+    "evidence": "https://raw.githubusercontent.com/yydshly/azure-reef-3d/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-v11/live-entry.png",
+    "image": "garden011.webp",
+    "alt": "海庭01.1实际入口：较近门廊、枝状珊瑚和浅色台面"
+  },
+  {
+    "id": "garden01",
+    "name": "海庭首版",
+    "badge": "历史已发布",
+    "state": "技术原型 · 视觉未达标",
+    "change": "第一版独立海庭，展示门廊、群落和六站导览。",
+    "limit": "风格化群落可运行，整体海域目标未达到。",
+    "demo": "preview/reef-garden-v1-first/",
+    "evidence": "https://raw.githubusercontent.com/yydshly/azure-reef-3d/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-v1/live-entry.png",
+    "image": "garden01.webp",
+    "alt": "海庭首版实际入口：简化珊瑚门廊与礁台"
+  },
+  {
+    "id": "enriched",
+    "name": "原 enriched",
+    "badge": "保留探索基线",
+    "state": "历史已发布 · 整体目标未达",
+    "change": "三区自由探索、72秒六站导览、碰撞及移动端操作。",
+    "limit": "真实感、生物丰富度和景观连续性不足。",
+    "demo": "preview/world/",
+    "evidence": "showcase/media/enriched.webp",
+    "image": "enriched.webp",
+    "alt": "原enriched实际海域：沙地、分散礁石和鳐鱼"
+  },
+  {
+    "id": "original",
+    "name": "浅蓝原站",
+    "badge": "历史参考",
+    "state": "历史已发布 · 原模型场景",
+    "change": "原始立体珊瑚礁模型，五站浅海导览和局部生物运动。",
+    "limit": "作为历史参考保留，未达到连贯海域视觉目标。",
+    "demo": "legacy.html",
+    "evidence": "showcase/media/original.webp",
+    "image": "original.webp",
+    "alt": "浅蓝原站实际页面：礁缘模型和五站浅海导览"
+  },
+  {
+    "id": "material",
+    "name": "材质候选",
+    "badge": "历史已发布",
+    "state": "未采用为主展示 · 目标未达",
+    "change": "局部法线与粗糙度尝试，让部分表面增加细节。",
+    "limit": "局部收益有限；本次仅核验页面可打开和截图。",
+    "demo": "preview/surface-grounding-candidate/scan-exhibit.html",
+    "evidence": "showcase/media/material.webp",
+    "image": "material.webp",
+    "alt": "材质候选实际海域：珊瑚群、纹理礁石和沙底"
+  },
+  {
+    "id": "lod4",
+    "name": "LOD4 局部扫描",
+    "badge": "独立探针",
+    "state": "已发布数据探针 · 非完整海域",
+    "change": "约9.4×9米的低细节扫描，检查局部真实礁坡。",
+    "limit": "局部扫描不能证明连续探索和整片海域完成。",
+    "demo": "preview/real-splats-probe/",
+    "evidence": "showcase/media/lod4.webp",
+    "image": "lod4.webp",
+    "alt": "LOD4独立探针实际页面：局部扫描礁坡与范围标记"
+  },
+  {
+    "id": "composition",
+    "name": "连续礁岛 / 构图",
+    "badge": "失败 · 未发布",
+    "state": "仅证据 · 已停止",
+    "change": "连续地形组构，尝试近中远分层、水色和生物组合。",
+    "limit": "宽度与空间围合仍失败，未发布为可交互成果。",
+    "demo": null,
+    "evidence": "https://github.com/yydshly/azure-reef-3d/blob/0478d7ab42eae11e65fc53f83b5253e9dcda9822/evidence/composition-20261012/VISUAL-VERDICT.json",
+    "image": "composition.webp",
+    "alt": "未发布构图候选真实截图：礁体、鳐鱼和浅色沙地"
+  },
+  {
+    "id": "basin",
+    "name": "海盆证明段",
+    "badge": "失败 · 未发布",
+    "state": "仅证据 · 三项视觉门槛失败",
+    "change": "42.36秒连续实录，包含前进、转身、侧移和返回。",
+    "limit": "台面感、空泛方向与生物层次均未达标；停止。",
+    "demo": null,
+    "evidence": "https://github.com/yydshly/azure-reef-3d/tree/bef0b8506b5e1b6726585722573014038bdc570a/evidence/basin-proof",
+    "image": "basin.webp",
+    "alt": "未发布海盆证明段真实截图：沙盆和浮在远处的礁体"
+  },
+  {
+    "id": "lod3",
+    "name": "LOD3 / Gaussian",
+    "badge": "诊断 · 未发布",
+    "state": "证据未闭环 · 已停止",
+    "change": "保留历史解码诊断记录，没有已验收的产品版本。",
+    "limit": "不作为产品基线，暂无已核验预览，不继续诊断。",
+    "demo": null,
+    "evidence": "https://github.com/yydshly/azure-reef-3d/commit/dd6b671461aa1a9ff2fb2287137ae7bbdea0da50",
+    "image": null,
+    "alt": ""
+  }
+]

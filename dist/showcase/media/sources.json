@@ -1,0 +1,104 @@
+{
+  "screenshots": [
+    {
+      "id": "garden012",
+      "image": "garden012.webp",
+      "kind": "actual-browser-screenshot",
+      "source": "https://raw.githubusercontent.com/yydshly/azure-reef-3d/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage/live-entry.png",
+      "originalScreenshotSha256": "8899ba2ab4777d1f312dd8b709ec24f02ec5f64197097bf8e5040e0ff3da8bd2",
+      "webpSha256": "b6c3ecde92027abb583f6b371caa95cdc94e302cc609942e54a4ad269bd9be05",
+      "conversion": "resize only; WebP quality 88; no generated or painted content",
+      "captureDateUtc": "2026-10-12"
+    },
+    {
+      "id": "garden011",
+      "image": "garden011.webp",
+      "kind": "actual-browser-screenshot",
+      "source": "https://raw.githubusercontent.com/yydshly/azure-reef-3d/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-v11/live-entry.png",
+      "originalScreenshotSha256": "99b7c44887192013ac117790ac085b65132c20d6c70372748503e9d2c5465d76",
+      "webpSha256": "0613befc466b37c1d406ca1a42616891bad5d6133a07fb5c8cf5647ad8b65b25",
+      "conversion": "resize only; WebP quality 88; no generated or painted content",
+      "captureDateUtc": "2026-10-12"
+    },
+    {
+      "id": "garden01",
+      "image": "garden01.webp",
+      "kind": "actual-browser-screenshot",
+      "source": "https://raw.githubusercontent.com/yydshly/azure-reef-3d/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-v1/live-entry.png",
+      "originalScreenshotSha256": "02a9189057da81c702f482317c0bd1a74fb72d809ff9acf35c64366100f3a164",
+      "webpSha256": "7bd0ba0baa6f21da0e4b84d53aa5bf5e1577ddb40ccc0e8168938ff5a36e1b9e",
+      "conversion": "resize only; WebP quality 88; no generated or painted content",
+      "captureDateUtc": "2026-10-12"
+    },
+    {
+      "id": "enriched",
+      "image": "enriched.webp",
+      "kind": "actual-browser-screenshot",
+      "source": "https://yydshly.github.io/azure-reef-3d/preview/world/",
+      "originalScreenshotSha256": "8a23135ad7973d09caa28c08ebc0220bee32fb7e6b2bcc9fa438327d85d74d8b",
+      "webpSha256": "d2442d1a147bb03192c6bec583d5be144db66b36dd817c43dcc39f355aa39a02",
+      "conversion": "resize only; WebP quality 88; no generated or painted content",
+      "captureDateUtc": "2026-10-13"
+    },
+    {
+      "id": "original",
+      "image": "original.webp",
+      "kind": "actual-browser-screenshot",
+      "source": "https://yydshly.github.io/azure-reef-3d/",
+      "originalScreenshotSha256": "8b38ca28da39698d28a1a0c0fb651b977598938af6c4afc8b26d63b203d8e249",
+      "webpSha256": "da0badf7477d48967ee2ed812d4836acfda24fb33edd48e97e2996c5099ab52e",
+      "conversion": "resize only; WebP quality 88; no generated or painted content",
+      "captureDateUtc": "2026-10-13"
+    },
+    {
+      "id": "material",
+      "image": "material.webp",
+      "kind": "actual-browser-screenshot",
+      "source": "https://yydshly.github.io/azure-reef-3d/preview/surface-grounding-candidate/scan-exhibit.html",
+      "originalScreenshotSha256": "47c54a43f9cae66d1ec6a130374c666bb3ac3ba56fcce3127e0fd39878415cb2",
+      "webpSha256": "39424ddb3e98378aff3024838f0d218be6bc5fbf628f8e6c0af2f88d4e617b3a",
+      "conversion": "resize only; WebP quality 88; no generated or painted content",
+      "captureDateUtc": "2026-10-13"
+    },
+    {
+      "id": "lod4",
+      "image": "lod4.webp",
+      "kind": "actual-browser-screenshot",
+      "source": "https://yydshly.github.io/azure-reef-3d/preview/real-splats-probe/",
+      "originalScreenshotSha256": "ab2e2707592de175f586fc0670fe893cab22f96b5f65e20f29ccd44a05da21ee",
+      "webpSha256": "790f5d3ac55066d58d2e8b1897e5a15189ddc3133d1c14913f9a58b7ceb4dd7b",
+      "conversion": "resize only; WebP quality 88; no generated or painted content",
+      "captureDateUtc": "2026-10-13"
+    },
+    {
+      "id": "composition",
+      "image": "composition.webp",
+      "kind": "actual-browser-screenshot",
+      "source": "https://raw.githubusercontent.com/yydshly/azure-reef-3d/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/composition-20261012/candidate-entry.png",
+      "originalScreenshotSha256": "09857fdbfe819f5142aa688b049dfd3c864906256ddd6a3df44f3073772a957e",
+      "webpSha256": "eb346f511b7364ce21e01d6cb16c2b993054daa2e94bf0524ab57195357942f7",
+      "conversion": "resize only; WebP quality 88; no generated or painted content",
+      "captureDateUtc": "2026-10-12"
+    },
+    {
+      "id": "basin",
+      "image": "basin.webp",
+      "kind": "actual-browser-screenshot",
+      "source": "https://raw.githubusercontent.com/yydshly/azure-reef-3d/bef0b8506b5e1b6726585722573014038bdc570a/evidence/basin-proof/final/00-start-front.png",
+      "originalScreenshotSha256": "9ecdb1d9b4e81070d0f687fb949f251b62a537fb100937b223d3628fc838e72c",
+      "webpSha256": "436f89297bc1d26d070500a3779efe68b940ea42665633b1bea86efe9dc3229a",
+      "conversion": "resize only; WebP quality 88; no generated or painted content",
+      "captureDateUtc": "2026-10-12"
+    }
+  ],
+  "video": {
+    "source": "https://raw.githubusercontent.com/yydshly/azure-reef-3d/3c00efbec735c7618c842edf3f5a0716e1147323/evidence/reef-garden-stage/complete-demo.webm",
+    "seconds": 126.56,
+    "contains": "72 second natural guided tour and operation checks",
+    "sha256": "2a9206d4b96ffa7e1ea8baa7f48ab3c7eb9839b1333364a51157fd5c71cd16fa"
+  },
+  "sceneCredits": [
+    "Enriched/material: Matan Yuval / Tali Treibitz, CC BY-NC 2.0 (full credits retained in scenes).",
+    "LOD4: Soneva Conservation and Sustainability Maldives team / Wildflow, CC BY 4.0 (full credits retained in probe)."
+  ]
+}

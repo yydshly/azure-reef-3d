@@ -1,0 +1,37 @@
+{
+  "status": "LOCAL_VERIFIED_READY_FOR_PUBLICATION",
+  "scope": "Unified homepage only; underwater runtime bytes unchanged",
+  "localBrowser": "Sandboxed headless Edge on Windows, real WebGL render",
+  "viewports": [
+    "1280x820",
+    "390x740"
+  ],
+  "versions": 10,
+  "publishedEntrypoints": 7,
+  "uniqueActualScreenshots": 9,
+  "missingVerifiedPreview": [
+    "lod3"
+  ],
+  "passes": [
+    "No initial iframe/video or preview-resource request",
+    "All/published/evidence filters",
+    "Failed experiments have no interactive buttons",
+    "Keyboard focus after selection",
+    "One scene viewer, switch replaces the old iframe",
+    "Return unloads viewer",
+    "Actual garden 01.1 / 01.2 rendering; natural tour advances to 5 / 72 seconds",
+    "Video duration 126.56s and actual playback advance",
+    "Desktop and mobile no horizontal overflow / no JavaScript page errors",
+    "Preservation overlay and public-hash mismatch guard"
+  ],
+  "notRetested": [
+    "Complete 72-second tour, unchanged scene historical evidence retained",
+    "All historical scene behavior; public route checks follow deployment",
+    "Underwater aesthetic improvement, outside this homepage scope"
+  ],
+  "legacyPolicy": "Old public root HTML is committed and will be byte-identical at legacy.html. Every existing file except root index.html remains byte-identical.",
+  "sourceSnapshotRun": 38220531117,
+  "sourceSnapshotArtifact": 11733044606,
+  "snapshotDigest": "a067f88b31616204fd49f0af5fbbca35abcf3ba91b23d75cbf5f81da7ef5f431",
+  "security": "Existing credentials, environment, Pages permissions and hosting only; no new scan decoding, no payment, no visibility change"
+}
