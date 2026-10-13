@@ -1,6 +1,6 @@
 # Azure Reef 3D · 海底项目统一入口
 
-**统一网页入口：[打开海底项目版本展示](https://yydshly.github.io/azure-reef-3d/)**
+**统一网页入口：[打开海底项目版本展示](https://yydshly.github.io/azure-reef-3d/)** · [本次网页交付与验证](SHOWCASE_DELIVERY.md)
 
 各版本有独立真实预览图、完成状态和交互入口；可在网页内返回或切换。页面首次打开只加载图片，进入后只运行一个场景。原站移至 [保留入口](https://yydshly.github.io/azure-reef-3d/legacy.html)，原资源及历史预览继续保留。
 

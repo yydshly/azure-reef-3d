@@ -1,5 +1,5 @@
 {
-  "status": "LOCAL_VERIFIED_READY_FOR_PUBLICATION",
+  "status": "DEPLOYED_AND_PUBLIC_VERIFIED",
   "scope": "Unified homepage only; underwater runtime bytes unchanged",
   "localBrowser": "Sandboxed headless Edge on Windows, real WebGL render",
   "viewports": [
@@ -22,16 +22,23 @@
     "Actual garden 01.1 / 01.2 rendering; natural tour advances to 5 / 72 seconds",
     "Video duration 126.56s and actual playback advance",
     "Desktop and mobile no horizontal overflow / no JavaScript page errors",
-    "Preservation overlay and public-hash mismatch guard"
+    "Preservation overlay and public-hash mismatch guard",
+    "Public desktop/mobile complete checks and all seven published scene entrypoints; original root ready in bounded 19.61s check"
   ],
   "notRetested": [
     "Complete 72-second tour, unchanged scene historical evidence retained",
-    "All historical scene behavior; public route checks follow deployment",
     "Underwater aesthetic improvement, outside this homepage scope"
   ],
   "legacyPolicy": "Old public root HTML is committed and will be byte-identical at legacy.html. Every existing file except root index.html remains byte-identical.",
   "sourceSnapshotRun": 38220531117,
   "sourceSnapshotArtifact": 11733044606,
   "snapshotDigest": "a067f88b31616204fd49f0af5fbbca35abcf3ba91b23d75cbf5f81da7ef5f431",
-  "security": "Existing credentials, environment, Pages permissions and hosting only; no new scan decoding, no payment, no visibility change"
+  "security": "Existing credentials, environment, Pages permissions and hosting only; no new scan decoding, no payment, no visibility change",
+  "deploymentRun": 38332197977,
+  "deploymentSource": "b95b9430101a643bb712ba42554a8f0c1ea5b5e6",
+  "publicBrowserChecks": 35,
+  "publicPagesOpened": 7,
+  "preservedExistingFiles": 2323,
+  "preservedPreviewFiles": 2245,
+  "oldRootAtLegacyRendered": true
 }

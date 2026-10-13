@@ -1,0 +1,49 @@
+{
+  "status": "UNIFIED_HOMEPAGE_PUBLISHED_ALL_PREVIOUS_ASSETS_AND_PREVIEWS_PRESERVED",
+  "previousSiteFileCount": 2324,
+  "preservedExistingFiles": 2323,
+  "existingFilesChanged": [
+    "index.html"
+  ],
+  "previousRootSha256": "d5316957d3a1c9f1482cffcd66e81668a21999488061975d451b880547a84c82",
+  "legacyRootSha256": "d5316957d3a1c9f1482cffcd66e81668a21999488061975d451b880547a84c82",
+  "newRootSha256": "5a9a1f7d21bbf79f917095f78ae07f4faf78ad4087fd0e9194cedbaf85023250",
+  "preservedHashAggregate": "1690e01708d162ddb6e20932930c66400bd468d22a3a6199b19ddc3c69af6431",
+  "previewFileCount": 2245,
+  "previewFilesChanged": 0,
+  "worldPointerChanged": false,
+  "legacyEntry": "legacy.html",
+  "newEntry": "index.html",
+  "protectedPublicHashes": {
+    "index.html": "d5316957d3a1c9f1482cffcd66e81668a21999488061975d451b880547a84c82",
+    "app.js": "4127a29d4d9aed14a55d0f8a9a8ac8058fd8d6fc524683fa5dc48f8e8744a027",
+    "preview/world/index.html": "1ba6c6a2c5affe3cbee5b8115aec603ad32b4b40c8c7d6a367a6105abab76886",
+    "preview/world/current-world.json": "450754b013096a6325a6bc9f2f27a61dfd98eaf9edb7d432f1f1962b5333f497",
+    "preview/reef-garden-stage-012/index.html": "58e6182c3057bfb9cb6f6a734d7c6f1c4d01e972d87ae0876cd1ca9dc4af5bf9",
+    "preview/reef-garden-v1/index.html": "58e6182c3057bfb9cb6f6a734d7c6f1c4d01e972d87ae0876cd1ca9dc4af5bf9",
+    "preview/reef-garden-v11/index.html": "aacbec7060a13cefd1ada39e4324f28da85af6e00aa4936222afe6bfb13e4099",
+    "preview/reef-garden-v1-first/index.html": "f429cc9017d6ed16fa62a6147ec97291cbee09c9ef761d8fa4bc1f7e3ccd5c54"
+  },
+  "newShowcaseFiles": {
+    "showcase/app.js": "8409d8d415a4cc4785f30f061393e1abea464c4203a8f630ae87cada719cff49",
+    "showcase/versions.json": "7e8a4ae47177035663cc709a6eea4de1cf90086ae049405999e16272ccbda586",
+    "showcase/style.css": "ef7337f659a9a2fd7942db3a0e893db58ece40030eb68323fcfaaa1f8831e5ba",
+    "showcase/media/lod4.webp": "790f5d3ac55066d58d2e8b1897e5a15189ddc3133d1c14913f9a58b7ceb4dd7b",
+    "showcase/media/composition.webp": "eb346f511b7364ce21e01d6cb16c2b993054daa2e94bf0524ab57195357942f7",
+    "showcase/media/original.webp": "da0badf7477d48967ee2ed812d4836acfda24fb33edd48e97e2996c5099ab52e",
+    "showcase/media/garden01.webp": "7bd0ba0baa6f21da0e4b84d53aa5bf5e1577ddb40ccc0e8168938ff5a36e1b9e",
+    "showcase/media/complete-demo.webm": "2a9206d4b96ffa7e1ea8baa7f48ab3c7eb9839b1333364a51157fd5c71cd16fa",
+    "showcase/media/enriched.webp": "d2442d1a147bb03192c6bec583d5be144db66b36dd817c43dcc39f355aa39a02",
+    "showcase/media/basin.webp": "436f89297bc1d26d070500a3779efe68b940ea42665633b1bea86efe9dc3229a",
+    "showcase/media/garden011.webp": "0613befc466b37c1d406ca1a42616891bad5d6133a07fb5c8cf5647ad8b65b25",
+    "showcase/media/material.webp": "39424ddb3e98378aff3024838f0d218be6bc5fbf628f8e6c0af2f88d4e617b3a",
+    "showcase/media/sources.json": "70880394c7f25af56b02c641db998fca778e1cc6217e7ccce59dc3845da55b9d",
+    "showcase/media/garden012.webp": "b6c3ecde92027abb583f6b371caa95cdc94e302cc609942e54a4ad269bd9be05"
+  },
+  "scanDecoding": false,
+  "snapshotArtifactId": 11733044606,
+  "snapshotRun": 38220531117,
+  "snapshotDigest": "a067f88b31616204fd49f0af5fbbca35abcf3ba91b23d75cbf5f81da7ef5f431",
+  "snapshotBytes": 2243418626,
+  "sourceCommit": "b95b9430101a643bb712ba42554a8f0c1ea5b5e6"
+}

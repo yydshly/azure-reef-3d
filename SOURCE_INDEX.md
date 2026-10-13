@@ -1,5 +1,7 @@
 # 源码、源包与主线位置
 
+统一首页实际源码在 [dist/index.html](dist/index.html) 和 [dist/showcase/](dist/showcase/)，原站HTML保存在 [dist/legacy.html](dist/legacy.html)。[网页交付与保全验证](SHOWCASE_DELIVERY.md)。原有场景和归档源码不因本次首页变更而合并。
+
 **海庭首版、01.1、01.2的实际运行源码已经在main；已确认候选必要源文件也已归档main，但所有实验的完整源链与大源包没有全部合入。** 本次把权威总结、版本表、轻量记录和必要源文件统一到main，未将失败代码接入产品。核查基线为 `cc416bfc623db3b6d6171c9550c1386930ba0735`；当前入口以[根README](README.md)为准。
 
 ## main中确实存在什么

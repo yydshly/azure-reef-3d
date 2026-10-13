@@ -1,0 +1,18 @@
+[
+  {
+    "path": "index.html",
+    "sha256": "5a9a1f7d21bbf79f917095f78ae07f4faf78ad4087fd0e9194cedbaf85023250"
+  },
+  {
+    "path": "showcase/app.js",
+    "sha256": "8409d8d415a4cc4785f30f061393e1abea464c4203a8f630ae87cada719cff49"
+  },
+  {
+    "path": "showcase/style.css",
+    "sha256": "ef7337f659a9a2fd7942db3a0e893db58ece40030eb68323fcfaaa1f8831e5ba"
+  },
+  {
+    "path": "showcase/versions.json",
+    "sha256": "7e8a4ae47177035663cc709a6eea4de1cf90086ae049405999e16272ccbda586"
+  }
+]

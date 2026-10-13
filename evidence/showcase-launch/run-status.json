@@ -1,0 +1,75 @@
+{
+  "run": 38332197977,
+  "status": "completed",
+  "conclusion": "success",
+  "headSha": "b95b9430101a643bb712ba42554a8f0c1ea5b5e6",
+  "updatedAt": "2026-10-13T01:31:31Z",
+  "jobs": [
+    {
+      "status": "completed",
+      "conclusion": "success",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Checkout only the showcase and its preservation checks",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Restore pinned published bytes and replace only root HTML",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Set up the existing Node runtime",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Check complete version routes and unique screenshot previews",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Preserve publication receipt",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Configure existing Pages",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Upload complete preserved site plus the unified showcase",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Deploy existing Pages",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Set up the existing Node runtime",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Post Checkout only the showcase and its preservation checks",
+          "status": "completed",
+          "conclusion": "success"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success"
+        }
+      ]
+    }
+  ]
+}

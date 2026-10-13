@@ -1,0 +1,83 @@
+{
+  "checkedAtUtc": "2026-10-13T01:36:07.757563+00:00",
+  "hashChecks": [
+    {
+      "path": "legacy.html",
+      "sha256": "d5316957d3a1c9f1482cffcd66e81668a21999488061975d451b880547a84c82"
+    },
+    {
+      "path": "app.js",
+      "sha256": "4127a29d4d9aed14a55d0f8a9a8ac8058fd8d6fc524683fa5dc48f8e8744a027"
+    },
+    {
+      "path": "preview/world/index.html",
+      "sha256": "1ba6c6a2c5affe3cbee5b8115aec603ad32b4b40c8c7d6a367a6105abab76886"
+    },
+    {
+      "path": "preview/world/current-world.json",
+      "sha256": "450754b013096a6325a6bc9f2f27a61dfd98eaf9edb7d432f1f1962b5333f497"
+    },
+    {
+      "path": "preview/reef-garden-stage-012/index.html",
+      "sha256": "58e6182c3057bfb9cb6f6a734d7c6f1c4d01e972d87ae0876cd1ca9dc4af5bf9"
+    },
+    {
+      "path": "preview/reef-garden-v1/index.html",
+      "sha256": "58e6182c3057bfb9cb6f6a734d7c6f1c4d01e972d87ae0876cd1ca9dc4af5bf9"
+    },
+    {
+      "path": "preview/reef-garden-v11/index.html",
+      "sha256": "aacbec7060a13cefd1ada39e4324f28da85af6e00aa4936222afe6bfb13e4099"
+    },
+    {
+      "path": "preview/reef-garden-v1-first/index.html",
+      "sha256": "f429cc9017d6ed16fa62a6147ec97291cbee09c9ef761d8fa4bc1f7e3ccd5c54"
+    }
+  ],
+  "links": [
+    {
+      "id": "garden012",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/reef-garden-stage-012/",
+      "iframeSrc": "preview/reef-garden-stage-012/",
+      "text": "AZURE / REEF GARDEN\n海庭阶段版 · 01.2\n之前的探索 ↗\nA GARDEN BENEATH THE TIDE\n海庭\n在珊瑚之间，\n慢慢游向光。\n\n穿过门廊、礁庭与月弧峡湾。\n每一次转身，都有另一段风景。\n\n01 / 06\n珊瑚门廊\n自由探索\n01\n02\n03\n04\n05\n06\n开始 72 秒导览\n↗\n自由探索\n暂停\n↶ 返回\n操作说明\n自由探索\n程序化原创世界 · 非实地复原\nThree.js / MIT"
+    },
+    {
+      "id": "garden011",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/reef-garden-v11/",
+      "iframeSrc": "preview/reef-garden-v11/",
+      "text": "AZURE / REEF GARDEN\n原创风格化海域 · 01.1\n之前的探索 ↗\nA GARDEN BENEATH THE TIDE\n海庭\n在珊瑚之间，\n慢慢游向光。\n\n穿过门廊、礁庭与月弧峡湾。\n每一次转身，都有另一段风景。\n\n01 / 06\n珊瑚门廊\n自由探索\n01\n02\n03\n04\n05\n06\n开始 72 秒导览\n↗\n自由探索\n暂停\n↶ 返回\n操作说明\n自由探索\n程序化原创世界 · 非实地复原\nThree.js / MIT"
+    },
+    {
+      "id": "garden01",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/reef-garden-v1-first/",
+      "iframeSrc": "preview/reef-garden-v1-first/",
+      "text": "AZURE / REEF GARDEN\n原创风格化海域 · 01\nA GARDEN BENEATH THE TIDE\n海庭\n在珊瑚之间，\n慢慢游向光。\n\n穿过门廊、礁庭与月弧峡湾。\n每一次转身，都有另一段风景。\n\n01 / 06\n珊瑚门廊\n自由探索\n01\n02\n03\n04\n05\n06\n开始 72 秒导览\n↗\n自由探索\n暂停\n↶ 返回\n操作说明\n自由探索\n程序化原创世界 · 非实地复原\nThree.js / MIT"
+    },
+    {
+      "id": "enriched",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/world/",
+      "iframeSrc": "preview/world/",
+      "text": "← 返回人工礁区\n浅蓝 / 自由海域阶段演示\n合成海底世界 · 真实扫描仅为局部锚点\n向更深处游去\n\n扫描：Matan Yuval / Tali Treibitz · CC BY-NC 2.0\n\n原生扫描礁区 · 自由探索\n\n前进 W\n自动导览 · 72 秒\n暂停游览\n操作 / 来源"
+    },
+    {
+      "id": "original",
+      "url": "https://yydshly.github.io/azure-reef-3d/legacy.html",
+      "iframeSrc": "legacy.html",
+      "text": "◌\n浅蓝\n\n立体珊瑚礁 3D\n\n浅海导览\n场景依据\n?\n图片动画展示（2.5D）\n需 ChatGPT 登录 · 仅本人可见\n\n浅水斑块礁 · 参考指导的 3D 场景\n\n礁缘 · 出发\n礁缘出发\n开阔砂地\n远礁回望\n沿礁漫游\n回到起点\n省电模式\n\n拖动环绕 · 滚轮 / 双指缩放\n\n潜入立体珊瑚礁\n\n正在载入礁缘结构"
+    },
+    {
+      "id": "material",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/surface-grounding-candidate/scan-exhibit.html",
+      "iframeSrc": "preview/surface-grounding-candidate/scan-exhibit.html",
+      "text": "← 返回人工礁区\n浅蓝 / 自由海域阶段演示\n合成海底世界 · 真实扫描仅为局部锚点\n向更深处游去\n\n扫描：Matan Yuval / Tali Treibitz · CC BY-NC 2.0\n\n原生扫描礁区 · 自由探索\n\n前进 W\n自动导览 · 72 秒\n暂停游览\n操作 / 来源"
+    },
+    {
+      "id": "lod4",
+      "url": "https://yydshly.github.io/azure-reef-3d/preview/real-splats-probe/",
+      "iframeSrc": "preview/real-splats-probe/",
+      "text": "SONEVA · OOTS L · 2026.02.18\n\n真实礁坡 独立数据探针\n\n约 9.396 × 9 m 参考范围 · 30,381 个 Gaussian · LOD4\n\n30,381 Gaussian 已解析 · 30,381 参与绘制\n\n已观测到 WebGL 实例化绘制调用；外观与完整度仍需目视验收。\n\n当前在参考范围外：这里及背面/空洞处均没有完整数据保证。\n\n概览 / 重置\n侧面\n背面\n低角度\n范围标记：开卸载数据重新加载导出检查报告\n操作与数据边界\n前进\n后退\n左移\n右移\n上升\n下降\nSoneva Conservation and Sustainability Maldives team · Wildflow · CC BY 4.0\n完整署名与改动说明 · 原始 LOD4 PLY；只作坐标平移/旋转展示。Three r186 + Spark 2.3.1。扫描之外保留空白。"
+    }
+  ],
+  "errors": [],
+  "status": "PASS"
+}

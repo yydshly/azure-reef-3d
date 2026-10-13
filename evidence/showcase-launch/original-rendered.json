@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "oldRootAtLegacyReady": true,
+  "secondsIncludingHomepage": 19.61,
+  "state": {
+    "ready": true,
+    "low": false,
+    "tour": false,
+    "passageProgress": 0,
+    "specimenInspection": false,
+    "guide": {
+      "active": true,
+      "index": 0,
+      "playing": false,
+      "paused": false
+    },
+    "fish": 6,
+    "simulationTime": 2.745800000000001,
+    "tourTiming": {
+      "lastStep": 0,
+      "interrupted": false
+    },
+    "camera": [
+      1.5000000000000004,
+      2.099999999999999,
+      4.800000000000003
+    ],
+    "target": [
+      -0.4999999999999999,
+      0.7999999999999996,
+      -5.999999999999997
+    ]
+  },
+  "errors": []
+}

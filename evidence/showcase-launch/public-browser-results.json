@@ -1,0 +1,170 @@
+{
+  "base": "https://yydshly.github.io/azure-reef-3d/",
+  "checks": [
+    "desktop 10 cards",
+    "desktop initial scene count zero",
+    "desktop no 3D resource preloading",
+    "desktop no horizontal overflow",
+    "desktop published filter",
+    "desktop evidence filter",
+    "desktop unverified preview explicit",
+    "desktop keyboard selection focus",
+    "desktop selecting does not start scene",
+    "desktop one active iframe",
+    "desktop switch replaces iframe",
+    "desktop actual rendered natural tour advances",
+    "desktop return unloads scene",
+    "desktop video metadata valid",
+    "desktop video actually advances",
+    "desktop video-to-scene only one viewer",
+    "desktop final scene unloaded",
+    "mobile 10 cards",
+    "mobile initial scene count zero",
+    "mobile no 3D resource preloading",
+    "mobile no horizontal overflow",
+    "mobile published filter",
+    "mobile evidence filter",
+    "mobile unverified preview explicit",
+    "mobile keyboard selection focus",
+    "mobile selecting does not start scene",
+    "mobile one active iframe",
+    "mobile switch replaces iframe",
+    "mobile actual rendered natural tour advances",
+    "mobile return unloads scene",
+    "mobile video metadata valid",
+    "mobile video actually advances",
+    "mobile video-to-scene only one viewer",
+    "mobile final scene unloaded",
+    "no JavaScript page errors"
+  ],
+  "errors": [],
+  "desktopSceneText": "AZURE / REEF GARDEN\n海庭阶段版 · 01.2\n之前的探索 ↗\nA GARDEN BENEATH THE TIDE\n海庭\n在珊瑚之间，\n慢慢游向光。\n\n穿过门廊、礁庭与月弧峡湾。\n每一次转身，都有另一段风景。\n\n01 / 06\n珊瑚门廊\n沿着光，继续游\n01\n02\n03\n04\n05\n06\n开始 72 秒导览\n↗\n自由探索\n暂停\n↶ 返回\n操作说明\n5 / 72 秒\n程序化原创世界 · 非实地复原\nThree.js / MIT",
+  "desktopSceneState": {
+    "ready": true,
+    "camera": [
+      -0.32828427491712586,
+      4.134343145016575,
+      8.89892335381221
+    ],
+    "target": [
+      0.01594132684396843,
+      4.275209928682904,
+      -1.0941575166877247
+    ],
+    "route": {
+      "active": true,
+      "mode": "tour",
+      "paused": false,
+      "elapsed": 5.521100000000004,
+      "duration": 72,
+      "progress": 0.0766819444444445,
+      "goal": 0.0766819444444445,
+      "yaw": 0.034432779603887124,
+      "pitch": 0.014087144288752636,
+      "position": [
+        -0.32828427491712586,
+        4.134343145016575,
+        8.89892335381221
+      ],
+      "speed": 4.5283421162303705,
+      "region": "珊瑚门廊",
+      "reduced": false,
+      "heldKeys": []
+    },
+    "time": 5.896200000000004,
+    "ambientPaused": false,
+    "frames": 341,
+    "stats": {
+      "version": "01.2-stage",
+      "habitats": [
+        "shell-portal",
+        "rose-plate-garden",
+        "sea-feather-bay",
+        "blue-canyon",
+        "umbrella-grove",
+        "gold-fan-lookout"
+      ],
+      "reefVariants": 6,
+      "coralInstances": 730,
+      "artLanguage": "pastel-sculpted-reef-garden",
+      "originalProcedural": true,
+      "scansInThisScene": false,
+      "formations": 42,
+      "seaFans": 9,
+      "giantCorals": 10,
+      "fish": 288,
+      "plantTufts": 512,
+      "obstacles": 68,
+      "triangles": 512030
+    },
+    "renderer": {
+      "calls": 81,
+      "triangles": 517662
+    }
+  },
+  "mobileSceneText": "AZURE / REEF GARDEN\n之前的探索 ↗\nA GARDEN BENEATH THE TIDE\n海庭\n在珊瑚之间，\n慢慢游向光。\n01 / 06\n珊瑚门廊\n沿着光，继续游\n01\n02\n03\n04\n05\n06\n开始 72 秒导览\n↗\n自由探索\n暂停\n↶ 返回\n5 / 72 秒\n↓\n前进\n↑\n↶\n后退\n↷\n程序化原创世界 · 非实地复原\nThree.js / MIT",
+  "mobileSceneState": {
+    "ready": true,
+    "camera": [
+      -0.313158332350098,
+      4.137368333529981,
+      9.594716711895492
+    ],
+    "target": [
+      0.012129147353183267,
+      4.280057172973192,
+      -0.39897269445723005
+    ],
+    "route": {
+      "active": true,
+      "mode": "tour",
+      "paused": false,
+      "elapsed": 5.366700000000003,
+      "duration": 72,
+      "progress": 0.07453750000000005,
+      "goal": 0.07453750000000005,
+      "yaw": 0.032537800956792096,
+      "pitch": 0.014269368181978445,
+      "position": [
+        -0.313158332350098,
+        4.137368333529981,
+        9.594716711895492
+      ],
+      "speed": 4.4792661371251725,
+      "region": "珊瑚门廊",
+      "reduced": false,
+      "heldKeys": []
+    },
+    "time": 5.575000000000003,
+    "ambientPaused": false,
+    "frames": 496,
+    "stats": {
+      "version": "01.2-stage",
+      "habitats": [
+        "shell-portal",
+        "rose-plate-garden",
+        "sea-feather-bay",
+        "blue-canyon",
+        "umbrella-grove",
+        "gold-fan-lookout"
+      ],
+      "reefVariants": 6,
+      "coralInstances": 730,
+      "artLanguage": "pastel-sculpted-reef-garden",
+      "originalProcedural": true,
+      "scansInThisScene": false,
+      "formations": 42,
+      "seaFans": 9,
+      "giantCorals": 10,
+      "fish": 288,
+      "plantTufts": 512,
+      "obstacles": 68,
+      "triangles": 512030
+    },
+    "renderer": {
+      "calls": 81,
+      "triangles": 517662
+    }
+  },
+  "status": "PASS"
+}
