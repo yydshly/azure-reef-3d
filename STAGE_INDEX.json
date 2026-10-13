@@ -50,11 +50,12 @@
     {
       "id": "lod3",
       "name": "LOD3 / Gaussian",
-      "status": "证据未闭环、未发布、停止",
-      "experience": null,
+      "status": "独立实验预览；本次实际加载和移动通过，旧证据未闭环记录保留",
+      "experience": "https://yydshly.github.io/azure-reef-3d/preview/real-splats-lod-compare/",
       "sourceKind": "历史诊断提交",
       "sourceCommit": "dd6b671461aa1a9ff2fb2287137ae7bbdea0da50",
-      "limits": "不能作为产品基线；本次不重启解码"
+      "limits": "不能作为产品基线；本次不重启解码",
+      "sourceArchiveCommit": "f436dd8ce08960e653b8476dbd67c3fc748a2de5"
     },
     {
       "id": "garden01",
@@ -90,8 +91,8 @@
     {
       "id": "continuous-composition",
       "name": "连续谷地/构图候选",
-      "status": "视觉失败、未发布、停止",
-      "experience": null,
+      "status": "独立实验预览；历史视觉未达标结论保留",
+      "experience": "https://yydshly.github.io/azure-reef-3d/preview/composition-candidate/scan-exhibit.html",
       "sourceKind": "main必要源码归档；原分支与固定增量包保留，不接入产品",
       "branch": "candidate/continuous-reef-20261012",
       "sourceCommit": "0478d7ab42eae11e65fc53f83b5253e9dcda9822",
@@ -101,19 +102,25 @@
       "mainArchivePaths": [
         "archive/continuous-candidate/",
         "archive/composition-candidate/"
+      ],
+      "additionalExperiences": [
+        "https://yydshly.github.io/azure-reef-3d/preview/continuous-candidate/scan-exhibit.html"
       ]
     },
     {
       "id": "basin",
       "name": "盆地证明段",
-      "status": "三项视觉门槛失败、未发布、停止",
-      "experience": null,
+      "status": "首版/修正版独立实验预览；历史三项门槛失败结论保留",
+      "experience": "https://yydshly.github.io/azure-reef-3d/preview/reef-basin-proof/",
       "sourceKind": "main保存5份运行源码档案；素材复用，未接入主展示",
       "branch": "candidate/reef-basin-proof",
       "sourceCommit": "bef0b8506b5e1b6726585722573014038bdc570a",
       "sourcePath": "dist/preview/reef-basin-proof/",
       "limits": "42.36秒原始证明录像；台座感、空回望、持续层次三项仍失败",
-      "mainArchivePath": "archive/basin-proof/"
+      "mainArchivePath": "archive/basin-proof/",
+      "additionalExperiences": [
+        "https://yydshly.github.io/azure-reef-3d/preview/reef-basin-first/"
+      ]
     }
   ],
   "externalOrLocalOnly": {
@@ -125,5 +132,7 @@
   "mainSourceArchiveDirectory": "archive/",
   "archiveDoesNotIntegrateCandidates": true,
   "website": "https://yydshly.github.io/azure-reef-3d/",
-  "websiteSource": "dist/index.html"
+  "websiteSource": "dist/index.html",
+  "historicalSceneRelease": "HISTORY_RELEASE.md",
+  "historicalSceneManifest": "history-release.json"
 }

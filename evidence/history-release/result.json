@@ -1,0 +1,756 @@
+{
+  "checks": [
+    "LOD4 comparison runtime ready",
+    "LOD3 exact count/hash ready",
+    "Basic movement"
+  ],
+  "pageErrors": [],
+  "status": "PASS",
+  "before": {
+    "schemaVersion": 2,
+    "at": "2026-10-13T04:00:14.309Z",
+    "status": "ready",
+    "view": "overview",
+    "source": {
+      "requestedLod": 3,
+      "lod": 3,
+      "sha256": "85c0f7b5bdae524c47fb91dbafcfefa5365186f0be75fba52c01923f547f9b67",
+      "count": 135471,
+      "bytes": 31972633,
+      "expectedCount": 135471,
+      "expectedBytes": 31972633,
+      "transportBytes": 13527171
+    },
+    "dependencies": {
+      "three": "186",
+      "spark": "2.3.1"
+    },
+    "comparison": {
+      "fixedOrigin": "Original LOD4 origin; LOD3 own median is never applied",
+      "presets": "Exact original four camera presets",
+      "viewport": [
+        1120,
+        712
+      ],
+      "dpr": 1,
+      "fov": 65,
+      "near": 0.03,
+      "far": 80,
+      "exposure": 1,
+      "toneMapping": "NoToneMapping",
+      "outputColorSpace": "SRGBColorSpace",
+      "sparkOptions": {
+        "autoUpdate": false,
+        "enableLod": false,
+        "enableDriveLod": false
+      },
+      "splatOptions": {
+        "extSplats": true,
+        "lod": false,
+        "enableLod": false,
+        "raycastable": false
+      },
+      "sourceShDegree": 3,
+      "runtimeSh": "Default original SH3 preserved; no DC-only or color baking",
+      "onlyOneLodAtATime": true
+    },
+    "renderSettings": {
+      "toneMapping": 0,
+      "exposure": 1,
+      "outputColorSpace": "srgb",
+      "enableLod": false,
+      "enableDriveLod": false,
+      "autoUpdate": false,
+      "accumExtSplats": false,
+      "meshScale": [
+        1,
+        1,
+        1
+      ],
+      "meshPosition": [
+        -0.45850688219070435,
+        6.687568664550781,
+        -2.624598979949951
+      ],
+      "meshQuaternion": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ]
+    },
+    "viewport": {
+      "width": 1280,
+      "height": 820,
+      "dpr": 1,
+      "drawingWidth": 1280,
+      "drawingHeight": 820
+    },
+    "cadence": {
+      "windowMs": 5000,
+      "render": {
+        "samples": 79,
+        "spanMs": 1148.5,
+        "hz": 67.91467131040487
+      },
+      "raf": {
+        "samples": 95,
+        "spanMs": 1530.8999999523162,
+        "hz": 61.40178979876404
+      },
+      "totalRendered": 79,
+      "totalRafCallbacks": 95,
+      "lowCadence": false,
+      "note": "render = completed renderer.render submissions per second; independent RAF callbacks are scheduling cadence, neither measures GPU presentation FPS."
+    },
+    "storage": {
+      "sourceArrayBytesObserved": {
+        "extArrays.0": 2195456,
+        "extArrays.1": 2195456,
+        "extra.sh1": 2195456,
+        "extra.sh2": 2195456,
+        "extra.sh3a": 2195456,
+        "extra.sh3b": 2195456
+      },
+      "sourceArraySumBytes": 13172736,
+      "sourceMaxSplats": 137216,
+      "sourceMaxSh": 3,
+      "meshMaxSh": 3,
+      "sourceShDegree": 3,
+      "effectiveShDegree": 3,
+      "automaticLodDataPresent": false,
+      "threeMemory": {
+        "geometries": 4,
+        "textures": 10
+      },
+      "jsHeap": {
+        "usedJSHeapSize": 60935448,
+        "totalJSHeapSize": 65879112,
+        "jsHeapSizeLimit": 4395630592
+      },
+      "gpuTotalBytes": null,
+      "peakTotalBytes": null,
+      "note": "Observed JS source arrays and Three counters are partial. GPU driver, decoder/WASM peaks and global decoder pool are not measured."
+    },
+    "lifecycle": {
+      "activeLods": [
+        3
+      ],
+      "allocatedMeshLods": [
+        3
+      ],
+      "meshCountInScene": 1,
+      "quarantined": false,
+      "pendingLod": null
+    },
+    "camera": {
+      "position": [
+        0,
+        8,
+        8
+      ],
+      "quaternion": [
+        -0.3826834323650898,
+        0,
+        0,
+        0.9238795325112867
+      ],
+      "fov": 65,
+      "near": 0.03,
+      "far": 80,
+      "aspect": 1.5609756097560976,
+      "projectionMatrix": [
+        1.005579822840892,
+        0,
+        0,
+        0,
+        0,
+        1.5696855771174902,
+        0,
+        0,
+        0,
+        0,
+        -1.0007502813555083,
+        -1,
+        0,
+        0,
+        -0.06002250844066525,
+        0
+      ]
+    },
+    "draw": {
+      "hookInstalled": true,
+      "instancedCalls": 79,
+      "nonzeroSplatDraws": 79,
+      "instancesSubmitted": 10702209,
+      "lastInstances": 135471,
+      "lastAt": 4229.600000023842,
+      "activeSplats": 135471,
+      "instanceCount": 135471,
+      "rendererInfo": {
+        "frame": 80,
+        "calls": 3,
+        "triangles": 270942,
+        "points": 0,
+        "lines": 15
+      }
+    },
+    "gl": {
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "renderer": "WebKit WebGL",
+      "unmaskedRenderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A788) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "unmaskedVendor": "Google Inc. (Intel)",
+      "isContextLost": false,
+      "error": 0,
+      "errorHistory": []
+    },
+    "stats": {
+      "loads": 2,
+      "unloads": 1,
+      "contextLosses": 0,
+      "frames": 79,
+      "lastDispose": {
+        "at": "2026-10-13T04:00:12.216Z",
+        "disposedLod": 4,
+        "sourceStorageBefore": {
+          "sourceArrayBytesObserved": {
+            "extArrays.0": 491520,
+            "extArrays.1": 491520,
+            "extra.sh1": 491520,
+            "extra.sh2": 491520,
+            "extra.sh3a": 491520,
+            "extra.sh3b": 491520
+          },
+          "sourceArraySumBytes": 2949120,
+          "sourceMaxSplats": 30720,
+          "sourceMaxSh": 3,
+          "meshMaxSh": 3,
+          "sourceShDegree": 3,
+          "effectiveShDegree": 3,
+          "automaticLodDataPresent": false,
+          "threeMemory": {
+            "geometries": 1,
+            "textures": 9
+          },
+          "jsHeap": {
+            "usedJSHeapSize": 41520262,
+            "totalJSHeapSize": 45707834,
+            "jsHeapSizeLimit": 4395630592
+          },
+          "gpuTotalBytes": null,
+          "peakTotalBytes": null,
+          "note": "Observed JS source arrays and Three counters are partial. GPU driver, decoder/WASM peaks and global decoder pool are not measured."
+        },
+        "before": {
+          "geometries": 1,
+          "textures": 9
+        },
+        "after": {
+          "geometries": 1,
+          "textures": 1
+        },
+        "sceneChildren": 0,
+        "meshCleared": true,
+        "sortWorkerCleared": true,
+        "animationLoopCancelled": true,
+        "scope": "Per-runtime mesh/GPU resources and sort worker; Spark global decoder pool may remain alive"
+      },
+      "assetSha": "85c0f7b5bdae524c47fb91dbafcfefa5365186f0be75fba52c01923f547f9b67",
+      "peakActiveRuntimes": 1,
+      "frameMs": null,
+      "frameWorkMedianMs": 0.5,
+      "frameWorkP95Ms": 1.100000023841858
+    },
+    "errors": [],
+    "history": [
+      {
+        "at": "2026-10-13T04:00:10.852Z",
+        "event": "loading"
+      },
+      {
+        "at": "2026-10-13T04:00:11.161Z",
+        "event": "view",
+        "name": "overview",
+        "position": [
+          0,
+          8,
+          8
+        ]
+      },
+      {
+        "at": "2026-10-13T04:00:11.404Z",
+        "event": "ready"
+      },
+      {
+        "at": "2026-10-13T04:00:11.404Z",
+        "event": "decoded",
+        "lod": 4,
+        "bytes": 7171392,
+        "count": 30381,
+        "bounds": {
+          "min": [
+            -4.052836894989014,
+            -7.563488483428955,
+            -9.972301483154297
+          ],
+          "max": [
+            5.272486209869385,
+            1.4976906776428223,
+            -4.413937091827393
+          ]
+        }
+      },
+      {
+        "at": "2026-10-13T04:00:12.216Z",
+        "event": "disposed",
+        "disposedLod": 4,
+        "sourceStorageBefore": {
+          "sourceArrayBytesObserved": {
+            "extArrays.0": 491520,
+            "extArrays.1": 491520,
+            "extra.sh1": 491520,
+            "extra.sh2": 491520,
+            "extra.sh3a": 491520,
+            "extra.sh3b": 491520
+          },
+          "sourceArraySumBytes": 2949120,
+          "sourceMaxSplats": 30720,
+          "sourceMaxSh": 3,
+          "meshMaxSh": 3,
+          "sourceShDegree": 3,
+          "effectiveShDegree": 3,
+          "automaticLodDataPresent": false,
+          "threeMemory": {
+            "geometries": 1,
+            "textures": 9
+          },
+          "jsHeap": {
+            "usedJSHeapSize": 41520262,
+            "totalJSHeapSize": 45707834,
+            "jsHeapSizeLimit": 4395630592
+          },
+          "gpuTotalBytes": null,
+          "peakTotalBytes": null,
+          "note": "Observed JS source arrays and Three counters are partial. GPU driver, decoder/WASM peaks and global decoder pool are not measured."
+        },
+        "before": {
+          "geometries": 1,
+          "textures": 9
+        },
+        "after": {
+          "geometries": 1,
+          "textures": 1
+        },
+        "sceneChildren": 0,
+        "meshCleared": true,
+        "sortWorkerCleared": true,
+        "animationLoopCancelled": true,
+        "scope": "Per-runtime mesh/GPU resources and sort worker; Spark global decoder pool may remain alive"
+      },
+      {
+        "at": "2026-10-13T04:00:12.217Z",
+        "event": "loading"
+      },
+      {
+        "at": "2026-10-13T04:00:12.797Z",
+        "event": "ready"
+      },
+      {
+        "at": "2026-10-13T04:00:12.797Z",
+        "event": "decoded",
+        "lod": 3,
+        "bytes": 31972633,
+        "count": 135471,
+        "bounds": {
+          "min": [
+            -4.05568265914917,
+            -7.566619396209717,
+            -9.972660064697266
+          ],
+          "max": [
+            5.338098049163818,
+            1.5318044424057007,
+            -4.425473213195801
+          ]
+        }
+      }
+    ],
+    "captures": [],
+    "visualAcceptance": "NOT_AUTOMATIC: actual side/back/low screenshots and reviewer judgement required",
+    "performanceNote": "frameWork includes awaited Spark update; not FPS. cadence.render tracks actual render submissions; cadence.raf is a separate RAF monitor. Neither is GPU presentation FPS or proof of client performance."
+  },
+  "after": {
+    "schemaVersion": 2,
+    "at": "2026-10-13T04:00:15.346Z",
+    "status": "ready",
+    "view": "free",
+    "source": {
+      "requestedLod": 3,
+      "lod": 3,
+      "sha256": "85c0f7b5bdae524c47fb91dbafcfefa5365186f0be75fba52c01923f547f9b67",
+      "count": 135471,
+      "bytes": 31972633,
+      "expectedCount": 135471,
+      "expectedBytes": 31972633,
+      "transportBytes": 13527171
+    },
+    "dependencies": {
+      "three": "186",
+      "spark": "2.3.1"
+    },
+    "comparison": {
+      "fixedOrigin": "Original LOD4 origin; LOD3 own median is never applied",
+      "presets": "Exact original four camera presets",
+      "viewport": [
+        1120,
+        712
+      ],
+      "dpr": 1,
+      "fov": 65,
+      "near": 0.03,
+      "far": 80,
+      "exposure": 1,
+      "toneMapping": "NoToneMapping",
+      "outputColorSpace": "SRGBColorSpace",
+      "sparkOptions": {
+        "autoUpdate": false,
+        "enableLod": false,
+        "enableDriveLod": false
+      },
+      "splatOptions": {
+        "extSplats": true,
+        "lod": false,
+        "enableLod": false,
+        "raycastable": false
+      },
+      "sourceShDegree": 3,
+      "runtimeSh": "Default original SH3 preserved; no DC-only or color baking",
+      "onlyOneLodAtATime": true
+    },
+    "renderSettings": {
+      "toneMapping": 0,
+      "exposure": 1,
+      "outputColorSpace": "srgb",
+      "enableLod": false,
+      "enableDriveLod": false,
+      "autoUpdate": false,
+      "accumExtSplats": false,
+      "meshScale": [
+        1,
+        1,
+        1
+      ],
+      "meshPosition": [
+        -0.45850688219070435,
+        6.687568664550781,
+        -2.624598979949951
+      ],
+      "meshQuaternion": [
+        -0.7071067811865475,
+        0,
+        0,
+        0.7071067811865476
+      ]
+    },
+    "viewport": {
+      "width": 1280,
+      "height": 820,
+      "dpr": 1,
+      "drawingWidth": 1280,
+      "drawingHeight": 820
+    },
+    "cadence": {
+      "windowMs": 5000,
+      "render": {
+        "samples": 118,
+        "spanMs": 2185.5,
+        "hz": 53.534660260809886
+      },
+      "raf": {
+        "samples": 305,
+        "spanMs": 2567.899999952316,
+        "hz": 118.38467230252152
+      },
+      "totalRendered": 118,
+      "totalRafCallbacks": 305,
+      "lowCadence": false,
+      "note": "render = completed renderer.render submissions per second; independent RAF callbacks are scheduling cadence, neither measures GPU presentation FPS."
+    },
+    "storage": {
+      "sourceArrayBytesObserved": {
+        "extArrays.0": 2195456,
+        "extArrays.1": 2195456,
+        "extra.sh1": 2195456,
+        "extra.sh2": 2195456,
+        "extra.sh3a": 2195456,
+        "extra.sh3b": 2195456
+      },
+      "sourceArraySumBytes": 13172736,
+      "sourceMaxSplats": 137216,
+      "sourceMaxSh": 3,
+      "meshMaxSh": 3,
+      "sourceShDegree": 3,
+      "effectiveShDegree": 3,
+      "automaticLodDataPresent": false,
+      "threeMemory": {
+        "geometries": 4,
+        "textures": 12
+      },
+      "jsHeap": {
+        "usedJSHeapSize": 74456898,
+        "totalJSHeapSize": 78527758,
+        "jsHeapSizeLimit": 4395630592
+      },
+      "gpuTotalBytes": null,
+      "peakTotalBytes": null,
+      "note": "Observed JS source arrays and Three counters are partial. GPU driver, decoder/WASM peaks and global decoder pool are not measured."
+    },
+    "lifecycle": {
+      "activeLods": [
+        3
+      ],
+      "allocatedMeshLods": [
+        3
+      ],
+      "meshCountInScene": 1,
+      "quarantined": false,
+      "pendingLod": null
+    },
+    "camera": {
+      "position": [
+        0,
+        7.133758837707419,
+        7.133758837707419
+      ],
+      "quaternion": [
+        -0.3826834323650898,
+        0,
+        0,
+        0.9238795325112867
+      ],
+      "fov": 65,
+      "near": 0.03,
+      "far": 80,
+      "aspect": 1.5609756097560976,
+      "projectionMatrix": [
+        1.005579822840892,
+        0,
+        0,
+        0,
+        0,
+        1.5696855771174902,
+        0,
+        0,
+        0,
+        0,
+        -1.0007502813555083,
+        -1,
+        0,
+        0,
+        -0.06002250844066525,
+        0
+      ]
+    },
+    "draw": {
+      "hookInstalled": true,
+      "instancedCalls": 118,
+      "nonzeroSplatDraws": 118,
+      "instancesSubmitted": 15985578,
+      "lastInstances": 135471,
+      "lastAt": 5260.899999976158,
+      "activeSplats": 135471,
+      "instanceCount": 135471,
+      "rendererInfo": {
+        "frame": 140,
+        "calls": 1,
+        "triangles": 1,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    "gl": {
+      "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+      "renderer": "WebKit WebGL",
+      "unmaskedRenderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A788) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "unmaskedVendor": "Google Inc. (Intel)",
+      "isContextLost": false,
+      "error": 0,
+      "errorHistory": []
+    },
+    "stats": {
+      "loads": 2,
+      "unloads": 1,
+      "contextLosses": 0,
+      "frames": 118,
+      "lastDispose": {
+        "at": "2026-10-13T04:00:12.216Z",
+        "disposedLod": 4,
+        "sourceStorageBefore": {
+          "sourceArrayBytesObserved": {
+            "extArrays.0": 491520,
+            "extArrays.1": 491520,
+            "extra.sh1": 491520,
+            "extra.sh2": 491520,
+            "extra.sh3a": 491520,
+            "extra.sh3b": 491520
+          },
+          "sourceArraySumBytes": 2949120,
+          "sourceMaxSplats": 30720,
+          "sourceMaxSh": 3,
+          "meshMaxSh": 3,
+          "sourceShDegree": 3,
+          "effectiveShDegree": 3,
+          "automaticLodDataPresent": false,
+          "threeMemory": {
+            "geometries": 1,
+            "textures": 9
+          },
+          "jsHeap": {
+            "usedJSHeapSize": 41520262,
+            "totalJSHeapSize": 45707834,
+            "jsHeapSizeLimit": 4395630592
+          },
+          "gpuTotalBytes": null,
+          "peakTotalBytes": null,
+          "note": "Observed JS source arrays and Three counters are partial. GPU driver, decoder/WASM peaks and global decoder pool are not measured."
+        },
+        "before": {
+          "geometries": 1,
+          "textures": 9
+        },
+        "after": {
+          "geometries": 1,
+          "textures": 1
+        },
+        "sceneChildren": 0,
+        "meshCleared": true,
+        "sortWorkerCleared": true,
+        "animationLoopCancelled": true,
+        "scope": "Per-runtime mesh/GPU resources and sort worker; Spark global decoder pool may remain alive"
+      },
+      "assetSha": "85c0f7b5bdae524c47fb91dbafcfefa5365186f0be75fba52c01923f547f9b67",
+      "peakActiveRuntimes": 1,
+      "frameMs": null,
+      "frameWorkMedianMs": 0.5999999046325684,
+      "frameWorkP95Ms": 44.60000002384186
+    },
+    "errors": [],
+    "history": [
+      {
+        "at": "2026-10-13T04:00:10.852Z",
+        "event": "loading"
+      },
+      {
+        "at": "2026-10-13T04:00:11.161Z",
+        "event": "view",
+        "name": "overview",
+        "position": [
+          0,
+          8,
+          8
+        ]
+      },
+      {
+        "at": "2026-10-13T04:00:11.404Z",
+        "event": "ready"
+      },
+      {
+        "at": "2026-10-13T04:00:11.404Z",
+        "event": "decoded",
+        "lod": 4,
+        "bytes": 7171392,
+        "count": 30381,
+        "bounds": {
+          "min": [
+            -4.052836894989014,
+            -7.563488483428955,
+            -9.972301483154297
+          ],
+          "max": [
+            5.272486209869385,
+            1.4976906776428223,
+            -4.413937091827393
+          ]
+        }
+      },
+      {
+        "at": "2026-10-13T04:00:12.216Z",
+        "event": "disposed",
+        "disposedLod": 4,
+        "sourceStorageBefore": {
+          "sourceArrayBytesObserved": {
+            "extArrays.0": 491520,
+            "extArrays.1": 491520,
+            "extra.sh1": 491520,
+            "extra.sh2": 491520,
+            "extra.sh3a": 491520,
+            "extra.sh3b": 491520
+          },
+          "sourceArraySumBytes": 2949120,
+          "sourceMaxSplats": 30720,
+          "sourceMaxSh": 3,
+          "meshMaxSh": 3,
+          "sourceShDegree": 3,
+          "effectiveShDegree": 3,
+          "automaticLodDataPresent": false,
+          "threeMemory": {
+            "geometries": 1,
+            "textures": 9
+          },
+          "jsHeap": {
+            "usedJSHeapSize": 41520262,
+            "totalJSHeapSize": 45707834,
+            "jsHeapSizeLimit": 4395630592
+          },
+          "gpuTotalBytes": null,
+          "peakTotalBytes": null,
+          "note": "Observed JS source arrays and Three counters are partial. GPU driver, decoder/WASM peaks and global decoder pool are not measured."
+        },
+        "before": {
+          "geometries": 1,
+          "textures": 9
+        },
+        "after": {
+          "geometries": 1,
+          "textures": 1
+        },
+        "sceneChildren": 0,
+        "meshCleared": true,
+        "sortWorkerCleared": true,
+        "animationLoopCancelled": true,
+        "scope": "Per-runtime mesh/GPU resources and sort worker; Spark global decoder pool may remain alive"
+      },
+      {
+        "at": "2026-10-13T04:00:12.217Z",
+        "event": "loading"
+      },
+      {
+        "at": "2026-10-13T04:00:12.797Z",
+        "event": "ready"
+      },
+      {
+        "at": "2026-10-13T04:00:12.797Z",
+        "event": "decoded",
+        "lod": 3,
+        "bytes": 31972633,
+        "count": 135471,
+        "bounds": {
+          "min": [
+            -4.05568265914917,
+            -7.566619396209717,
+            -9.972660064697266
+          ],
+          "max": [
+            5.338098049163818,
+            1.5318044424057007,
+            -4.425473213195801
+          ]
+        }
+      }
+    ],
+    "captures": [],
+    "visualAcceptance": "NOT_AUTOMATIC: actual side/back/low screenshots and reviewer judgement required",
+    "performanceNote": "frameWork includes awaited Spark update; not FPS. cadence.render tracks actual render submissions; cadence.raf is a separate RAF monitor. Neither is GPU presentation FPS or proof of client performance."
+  },
+  "seconds": 6.95
+}

@@ -89,6 +89,37 @@
       "webpSha256": "436f89297bc1d26d070500a3779efe68b940ea42665633b1bea86efe9dc3229a",
       "conversion": "resize only; WebP quality 88; no generated or painted content",
       "captureDateUtc": "2026-10-12"
+    },
+    {
+      "id": "continuous",
+      "image": "continuous.webp",
+      "kind": "actual-browser-screenshot",
+      "source": "https://raw.githubusercontent.com/yydshly/azure-reef-3d/bef0b8506b5e1b6726585722573014038bdc570a/evidence/continuous-20261012/candidate-entry.png",
+      "originalScreenshotSha256": "7de98858d2db84884b94d27a2aed71c42f4898c0f26de8653882cbc0b0c79511",
+      "webpSha256": "cedf6bcfd2af6d6bd345f94763a2d006ea68d5aa84386a7997011dfb0a38d8c5",
+      "conversion": "resize only; no generated content",
+      "captureDateUtc": "2026-10-12"
+    },
+    {
+      "id": "basin-first",
+      "image": "basin-first.webp",
+      "kind": "actual-browser-screenshot",
+      "source": "https://raw.githubusercontent.com/yydshly/azure-reef-3d/bef0b8506b5e1b6726585722573014038bdc570a/evidence/basin-proof/first-pass/00-start-front.png",
+      "originalScreenshotSha256": "603c885ce469cad049d60984d47817401a7237106450be7d8c7b32107ba6dfa7",
+      "webpSha256": "887d461ec60c38409e494c14ca2470813e6e7bfcefa5c7e8392ed8758b90f560",
+      "conversion": "resize only; no generated content",
+      "captureDateUtc": "2026-10-12"
+    },
+    {
+      "id": "lod3",
+      "image": "lod3.webp",
+      "kind": "actual-browser-screenshot",
+      "source": "HISTORY_RELEASE.md: Windows sandboxed Edge, restored f436dd8 package",
+      "originalScreenshotSha256": "95be1e1c8fcc3e0982eba512450a03b2be2be8fa6bc8b6d395da9620a2f80686",
+      "webpSha256": "13644e21e251613e4883c268ea61da7d8bba01d8a6b8a07a7c5b9a3c6e09fa23",
+      "conversion": "resize only; no generated content",
+      "captureDateUtc": "2026-10-13",
+      "scanSha256": "85c0f7b5bdae524c47fb91dbafcfefa5365186f0be75fba52c01923f547f9b67"
     }
   ],
   "video": {

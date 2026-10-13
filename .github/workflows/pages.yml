@@ -40,8 +40,16 @@ jobs:
             /dist/showcase/**
             /publish-showcase.py
             /qa-showcase.py
-      - name: Restore pinned published bytes and replace only root HTML
-        run: python3 publish-showcase.py
+            /publish-history.py
+            /publish_showcase_import.py
+            /history-release.json
+            /dist/preview/continuous-candidate/**
+            /dist/preview/composition-candidate/**
+            /dist/preview/reef-basin-first/**
+            /dist/preview/reef-basin-proof/**
+            /dist/preview/real-splats-lod-compare/**
+      - name: Restore pinned published bytes and append independent historical experiments
+        run: python3 publish-history.py
       - name: Set up the existing Node runtime
         uses: actions/setup-node@v6
         with:

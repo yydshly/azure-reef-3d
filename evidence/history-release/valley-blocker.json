@@ -1,0 +1,11 @@
+{
+  "scene": "valley-heightfield",
+  "sourceName": "azure-reef-continuous-valley-REJECTED-SOURCE.zip",
+  "sourceBytes": 186792652,
+  "expectedSha256": "9c30a416c6725bee9411afde1b47352ff246c2af6cbd00276cd4ef0527fe22ca",
+  "materializeAttempted": true,
+  "result": "BLOCKED",
+  "reason": "Current official Library helper uses os.setxattr; Windows Python lacks this API. Transfer was not installed, destination contains no file.",
+  "sourceHashVerified": false,
+  "noWorkaroundApplied": true
+}

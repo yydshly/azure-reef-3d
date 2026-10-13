@@ -1,0 +1,7 @@
+
+# Preserve restored experiment source bytes.
+dist/preview/continuous-candidate/** -text
+dist/preview/composition-candidate/** -text
+dist/preview/reef-basin-first/** -text
+dist/preview/reef-basin-proof/** -text
+dist/preview/real-splats-lod-compare/** -text

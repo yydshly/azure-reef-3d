@@ -1,0 +1,75 @@
+{
+  "base": "http://127.0.0.1:51896/",
+  "scenes": [
+    {
+      "id": "continuous",
+      "url": "http://127.0.0.1:51896/preview/continuous-candidate/scan-exhibit.html",
+      "ready": true,
+      "movement": true,
+      "before": [
+        4,
+        5,
+        10
+      ],
+      "after": [
+        4,
+        5,
+        8.658800000000012
+      ],
+      "seconds": 28.52
+    },
+    {
+      "id": "composition",
+      "url": "http://127.0.0.1:51896/preview/composition-candidate/scan-exhibit.html",
+      "ready": true,
+      "movement": true,
+      "before": [
+        4,
+        5,
+        10
+      ],
+      "after": [
+        4,
+        5,
+        7.754400000000009
+      ],
+      "seconds": 24.92
+    },
+    {
+      "id": "basin-first",
+      "url": "http://127.0.0.1:51896/preview/reef-basin-first/",
+      "ready": true,
+      "movement": true,
+      "before": [
+        28,
+        5,
+        -52
+      ],
+      "after": [
+        26.767319391050737,
+        5,
+        -53.82222350888155
+      ],
+      "seconds": 4.86
+    },
+    {
+      "id": "basin",
+      "url": "http://127.0.0.1:51896/preview/reef-basin-proof/",
+      "ready": true,
+      "movement": true,
+      "before": [
+        28,
+        5,
+        -52
+      ],
+      "after": [
+        26.10413722343603,
+        5,
+        -54.802579756659796
+      ],
+      "seconds": 3.59
+    }
+  ],
+  "errors": [],
+  "status": "PASS"
+}

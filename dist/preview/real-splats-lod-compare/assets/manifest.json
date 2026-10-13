@@ -1,0 +1,433 @@
+{
+  "schemaVersion": 2,
+  "status": "CPU_SOURCE_CHECKED_GPU_COMPARISON_NOT_RUN",
+  "retrievedAt": "2026-10-11",
+  "source": {
+    "dataset": "wildflow/soneva-corals",
+    "page": "https://huggingface.co/datasets/wildflow/soneva-corals",
+    "commit": "200aaf30cda920bd9b0e5d5da8838d4165c9e289",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "attribution": "Soneva Conservation and Sustainability Maldives team and Wildflow, Soneva CSM Coral Reef Time-Series Photogrammetry Dataset",
+    "captureDate": "2026-02-18",
+    "site": "OOTS L",
+    "notes": "On slope, SW corner located on tall outcrop near start of vertical wall section",
+    "scaleBarLengthM": 0.5,
+    "scaleBarDepthsM": {
+      "I": 7.5,
+      "II": 5.0,
+      "III": 7.1
+    }
+  },
+  "defaultLod": 4,
+  "allowedLods": [
+    4,
+    3
+  ],
+  "assets": {
+    "4": {
+      "lod": 4,
+      "url": "./assets/soneva-ootsl1-20260218-lod4.ply.gz",
+      "transport": {
+        "encoding": "gzip",
+        "bytes": 3021212,
+        "sha256": "309e7d40ab38ce3afb1ba7359fe97439de8e363643730ff6c401f62fdfeee816"
+      },
+      "sourcePath": "maldives_soneva_ootsl1_20260218/splats/ply/lod4.ply",
+      "bytes": 7171392,
+      "sha256": "bdf77330d5a4df5c92aa2bb0f0dcc800ccebbc471903429703309c955fd82499",
+      "count": 30381,
+      "format": "binary_little_endian 1.0",
+      "properties": [
+        "x",
+        "y",
+        "z",
+        "scale_0",
+        "scale_1",
+        "scale_2",
+        "f_dc_0",
+        "f_dc_1",
+        "f_dc_2",
+        "opacity",
+        "rot_0",
+        "rot_1",
+        "rot_2",
+        "rot_3",
+        "f_rest_0",
+        "f_rest_1",
+        "f_rest_2",
+        "f_rest_3",
+        "f_rest_4",
+        "f_rest_5",
+        "f_rest_6",
+        "f_rest_7",
+        "f_rest_8",
+        "f_rest_9",
+        "f_rest_10",
+        "f_rest_11",
+        "f_rest_12",
+        "f_rest_13",
+        "f_rest_14",
+        "f_rest_15",
+        "f_rest_16",
+        "f_rest_17",
+        "f_rest_18",
+        "f_rest_19",
+        "f_rest_20",
+        "f_rest_21",
+        "f_rest_22",
+        "f_rest_23",
+        "f_rest_24",
+        "f_rest_25",
+        "f_rest_26",
+        "f_rest_27",
+        "f_rest_28",
+        "f_rest_29",
+        "f_rest_30",
+        "f_rest_31",
+        "f_rest_32",
+        "f_rest_33",
+        "f_rest_34",
+        "f_rest_35",
+        "f_rest_36",
+        "f_rest_37",
+        "f_rest_38",
+        "f_rest_39",
+        "f_rest_40",
+        "f_rest_41",
+        "f_rest_42",
+        "f_rest_43",
+        "f_rest_44"
+      ],
+      "triangleFaces": 0,
+      "shDegree": 3,
+      "allPropertiesFinite": true,
+      "headerBytes": 1476,
+      "rawFloatPayloadBytes": 7169916,
+      "quaternionNormMaxError": 5.960464477539063e-08
+    },
+    "3": {
+      "lod": 3,
+      "url": "./assets/soneva-ootsl1-20260218-lod3.ply.gz",
+      "transport": {
+        "encoding": "gzip",
+        "bytes": 13527171,
+        "sha256": "d7ed8dd3d67aa29610ca5c9a085985629a6d4c0617d177dabadd874dccd51345"
+      },
+      "sourcePath": "maldives_soneva_ootsl1_20260218/splats/ply/lod3.ply",
+      "bytes": 31972633,
+      "sha256": "85c0f7b5bdae524c47fb91dbafcfefa5365186f0be75fba52c01923f547f9b67",
+      "count": 135471,
+      "format": "binary_little_endian 1.0",
+      "properties": [
+        "x",
+        "y",
+        "z",
+        "scale_0",
+        "scale_1",
+        "scale_2",
+        "f_dc_0",
+        "f_dc_1",
+        "f_dc_2",
+        "opacity",
+        "rot_0",
+        "rot_1",
+        "rot_2",
+        "rot_3",
+        "f_rest_0",
+        "f_rest_1",
+        "f_rest_2",
+        "f_rest_3",
+        "f_rest_4",
+        "f_rest_5",
+        "f_rest_6",
+        "f_rest_7",
+        "f_rest_8",
+        "f_rest_9",
+        "f_rest_10",
+        "f_rest_11",
+        "f_rest_12",
+        "f_rest_13",
+        "f_rest_14",
+        "f_rest_15",
+        "f_rest_16",
+        "f_rest_17",
+        "f_rest_18",
+        "f_rest_19",
+        "f_rest_20",
+        "f_rest_21",
+        "f_rest_22",
+        "f_rest_23",
+        "f_rest_24",
+        "f_rest_25",
+        "f_rest_26",
+        "f_rest_27",
+        "f_rest_28",
+        "f_rest_29",
+        "f_rest_30",
+        "f_rest_31",
+        "f_rest_32",
+        "f_rest_33",
+        "f_rest_34",
+        "f_rest_35",
+        "f_rest_36",
+        "f_rest_37",
+        "f_rest_38",
+        "f_rest_39",
+        "f_rest_40",
+        "f_rest_41",
+        "f_rest_42",
+        "f_rest_43",
+        "f_rest_44"
+      ],
+      "triangleFaces": 0,
+      "shDegree": 3,
+      "allPropertiesFinite": true,
+      "headerBytes": 1477,
+      "rawFloatPayloadBytes": 31971156,
+      "quaternionNormMaxError": 1.1920928955078125e-07
+    }
+  },
+  "bounds": {
+    "orthoXY": {
+      "min_x": -4.056482315063477,
+      "max_x": 5.339517684936524,
+      "min_y": -7.566709995269775,
+      "max_y": 1.4332900047302246
+    },
+    "widthM": 9.396,
+    "depthM": 9.0,
+    "boundingRectangleAreaM2": 84.56400000000001,
+    "rawCenterMin": [
+      -4.052836894989014,
+      -7.563488483428955,
+      -9.972301483154297
+    ],
+    "rawCenterMax": [
+      5.272486209869385,
+      1.4976906776428223,
+      -4.413937091827393
+    ],
+    "worldCenterMin": [
+      -4.511343955993652,
+      -3.2847328186035156,
+      -4.122289657592773
+    ],
+    "worldCenterMax": [
+      4.813979148864746,
+      2.2736315727233887,
+      4.938889503479004
+    ],
+    "centersOutsideOrthoRectangle": 27,
+    "gridProjectionOccupancy40x40": 0.91875,
+    "warning": "The orthomosaic bounding rectangle is a reference extent, not certified continuous coverage; Gaussian centers slightly exceed it. No unseen surface is inferred."
+  },
+  "coordinates": {
+    "sourcePlane": "source XY from world_to_pixel.json",
+    "sourceVertical": "Z inferred from XY orthomosaic and negative depths; positive-up sign still requires visual verification",
+    "rawOrigin": [
+      0.45850688219070435,
+      -2.624598979949951,
+      -6.687568664550781
+    ],
+    "renderMapping": "X=x-cx, Y=z-cz, Z=-(y-cy)",
+    "rotationEulerX": -1.5707963267948966,
+    "uniformScale": 1,
+    "noDeformation": true
+  },
+  "diagnosticsByLod": {
+    "4": {
+      "rawCenterMin": [
+        -4.052836894989014,
+        -7.563488483428955,
+        -9.972301483154297
+      ],
+      "rawCenterMax": [
+        5.272486209869385,
+        1.4976906776428223,
+        -4.413937091827393
+      ],
+      "rawAxisSpan": [
+        9.325323104858398,
+        9.061179161071777,
+        5.558364391326904
+      ],
+      "worldCenterMin": [
+        -4.511343777179718,
+        -3.2847328186035156,
+        -4.122289657592773
+      ],
+      "worldCenterMax": [
+        4.81397932767868,
+        2.2736315727233887,
+        4.938889503479004
+      ],
+      "centersOutsideOrthoRectangle": 27,
+      "gridProjectionOccupancy40x40": 0.91875,
+      "ownMedianNotUsed": [
+        0.45850688219070435,
+        -2.624598979949951,
+        -6.687568664550781
+      ],
+      "scaleMetersQuantiles": [
+        [
+          1.7493402992840856e-05,
+          4.27992272307165e-05,
+          4.745405385619961e-05
+        ],
+        [
+          0.020534617826342583,
+          0.020534617826342583,
+          0.020534617826342583
+        ],
+        [
+          0.13254983723163605,
+          0.13254983723163605,
+          0.13254983723163605
+        ],
+        [
+          0.5227359533309937,
+          0.4619795083999634,
+          0.5227359533309937
+        ]
+      ],
+      "opacityQuantiles": [
+        9.999997701015673e-07,
+        0.988235354423523,
+        0.9960784316062927,
+        0.9960784316062927
+      ]
+    },
+    "3": {
+      "rawCenterMin": [
+        -4.05568265914917,
+        -7.566619396209717,
+        -9.972660064697266
+      ],
+      "rawCenterMax": [
+        5.338098049163818,
+        1.5318044424057007,
+        -4.425473213195801
+      ],
+      "rawAxisSpan": [
+        9.393780708312988,
+        9.098423957824707,
+        5.547186851501465
+      ],
+      "worldCenterMin": [
+        -4.514189541339874,
+        -3.2850914001464844,
+        -4.156403422355652
+      ],
+      "worldCenterMax": [
+        4.879591166973114,
+        2.2620954513549805,
+        4.942020416259766
+      ],
+      "centersOutsideOrthoRectangle": 103,
+      "gridProjectionOccupancy40x40": 0.9325,
+      "ownMedianNotUsed": [
+        0.5024576187133789,
+        -2.6540238857269287,
+        -6.71722412109375
+      ],
+      "scaleMetersQuantiles": [
+        [
+          1.1725679541996215e-05,
+          9.11907136469381e-06,
+          9.11907136469381e-06
+        ],
+        [
+          0.010514342226088047,
+          0.010514342226088047,
+          0.010312180034816265
+        ],
+        [
+          0.06678543984889984,
+          0.06678543984889984,
+          0.06678543984889984
+        ],
+        [
+          0.3025476634502411,
+          0.3025476634502411,
+          0.3025476634502411
+        ]
+      ],
+      "opacityQuantiles": [
+        9.999997701015673e-07,
+        0.988235354423523,
+        0.9960784316062927,
+        0.9960784316062927
+      ]
+    }
+  },
+  "dependencyPins": {
+    "spark": "2.3.1",
+    "three": "0.186.0",
+    "threeRevision": "186",
+    "sameThreeAsBaseline": "verified-live"
+  },
+  "comparison": {
+    "fixedOrigin": "Original LOD4 origin; LOD3 own median is never applied",
+    "presets": "Exact original four camera presets",
+    "viewport": [
+      1120,
+      712
+    ],
+    "dpr": 1,
+    "fov": 65,
+    "near": 0.03,
+    "far": 80,
+    "exposure": 1,
+    "toneMapping": "NoToneMapping",
+    "outputColorSpace": "SRGBColorSpace",
+    "sparkOptions": {
+      "autoUpdate": false,
+      "enableLod": false,
+      "enableDriveLod": false
+    },
+    "splatOptions": {
+      "extSplats": true,
+      "lod": false,
+      "enableLod": false,
+      "raycastable": false
+    },
+    "sourceShDegree": 3,
+    "runtimeSh": "Default original SH3 preserved; no DC-only or color baking",
+    "onlyOneLodAtATime": true
+  },
+  "memoryBudget": {
+    "policy": "No prefetch or app-level byte cache; destroy prior runtime before next fetch/parse. Browser HTTP cache, decoder worker pool and driver retention are outside app ownership.",
+    "sourcePayloadBytesByLod": {
+      "4": 7171392,
+      "3": 31972633
+    },
+    "transportBufferPlanningBytesByLod": {
+      "4": 16235028,
+      "3": 72554146
+    },
+    "transportBufferPlanningNote": "Planning allowance for compressed stream parts, contiguous compressed bytes, Blob snapshot and raw decode output. Collection timing, stream/digest/network buffering and decompressor internals remain unknown; this is not a measured or total-memory bound.",
+    "rawDecodedFloatPayloadBytesByLod": {
+      "4": 7169916,
+      "3": 31971156
+    },
+    "sourceExtSh3PayloadBytesByLod": {
+      "4": 2949120,
+      "3": 13172736
+    },
+    "gpuSourceAccumulatorOrderingPayloadBytesByLod": {
+      "4": 4923392,
+      "3": 21995520
+    },
+    "planningEstimateAt1120x712DPR1MiB": {
+      "4": 137.3,
+      "3": 306.5
+    },
+    "planningEstimateNote": "Conservative policy estimate, not a measured peak or hardware guarantee: 6*raw file bytes + 2*source arrays + 3 accumulators + 16*ordering capacity + 32*drawing pixels + 64MiB reserve. Gzip introduces wire bytes and decompression buffers within a non-binding planning allowance. Source arrays use 96 bytes per padded splat with SH3. Driver, decoder and allocator peaks remain unknown.",
+    "gpuPeakBytes": null,
+    "jsWasmPeakBytes": null,
+    "unknownTotalBudget": true
+  },
+  "renderStatus": "NOT_RUN: only baseline LOD4 has separately archived software-WebGL evidence; LOD3 and same-run comparison are pending",
+  "stopCondition": "Stop upgrade if LOD3 clarity is insufficient or same-view structural defects do not improve. Do not fetch LOD2/1/0."
+}
