@@ -47,3 +47,6 @@
 最新完整 Pages 包 artifact `11805017825`，2,904,694,811 字节，SHA256 `2812632b4fb83d41fa39e1b9afb73c46157eda4d80f31ec18d8b63f395aeec1f`。保留现有临时 artifact 到期规则，2026-10-14 10:43:45 UTC 到期，未声称永久备份；已发布完整站点和旧入口继续存在。[快照及部署记录](evidence/remaining-restoration/deployment-and-snapshot.json)。
 
 最终状态：七项原模型样本完成；谷地与疏枝层级因用户本轮不安装且当前工具不支持而未完成；照片输入原未形成场景，仅作证据。没有安装任何新软件，未绕过官方 Library 身份元数据流程。海底项目整体视觉目标仍未达标。
+
+
+完整当前站点的持久备份已补齐：原ZIP字节三卷、全站2,969文件清单、远端回读与逐文件恢复校验、main索引见 [PAGES_ARCHIVE.md](PAGES_ARCHIVE.md)。不再依赖上文短期artifact到期前才能恢复；原artifact照常保留，网站未再次发布。

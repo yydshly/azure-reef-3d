@@ -1,12 +1,14 @@
 """Append restored experiments to the latest site, preserving all old scenes."""
 from pathlib import Path
-import hashlib,json,os,re,shutil,time,urllib.parse,urllib.request
+import hashlib,importlib.util,json,os,re,shutil,time,urllib.parse,urllib.request
 from publish_showcase_import import sha,unpack
 
 def main():
     workspace=Path(os.environ['GITHUB_WORKSPACE']).resolve();inputs=json.loads(Path(os.environ['GITHUB_EVENT_PATH']).read_text())['inputs']
     url=inputs['snapshot_url'];parsed=urllib.parse.urlparse(url)
-    assert parsed.scheme=='https' and parsed.hostname and (parsed.hostname.endswith('.blob.core.windows.net') or parsed.hostname.endswith('.actions.githubusercontent.com'))
+    signed_artifact=parsed.hostname and (parsed.hostname.endswith('.blob.core.windows.net') or parsed.hostname.endswith('.actions.githubusercontent.com'))
+    persistent_release=parsed.hostname=='github.com' and parsed.path.startswith('/yydshly/azure-reef-3d/releases/download/')
+    assert parsed.scheme=='https' and (signed_artifact or persistent_release)
     print('::add-mask::'+url,flush=True)
     expected=inputs['snapshot_digest'].removeprefix('sha256:');assert re.fullmatch('[a-f0-9]{64}',expected)
     protected=json.loads(inputs['protected_hashes']);manifest=json.loads((workspace/'history-release.json').read_text())
@@ -20,6 +22,17 @@ def main():
             if received>=next_log:print('PRESERVED_SNAPSHOT_BYTES',received,flush=True);next_log+=256*1024*1024
             assert time.monotonic()-start<480
     assert digest.hexdigest()==expected,'Latest published snapshot digest mismatch'
+    source_digest=expected;source_format='github-pages-zip'
+    with archive.open('rb') as f:split_manifest=f.read(64).lstrip().startswith(b'{')
+    if split_manifest:
+        assert persistent_release,'Split archive requires the pinned same-repository Release'
+        spec=importlib.util.spec_from_file_location('restore_pages_archive',workspace/'restore-pages-archive.py')
+        restore_module=importlib.util.module_from_spec(spec);spec.loader.exec_module(restore_module)
+        restore_module.load_manifest(archive,expected)
+        restore_module.download_parts(archive,url)
+        restored=Path(os.environ['RUNNER_TEMP'])/'exact-published-pages.zip'
+        restored_result=restore_module.restore(archive,restored,expected_manifest_sha256=expected)
+        archive=restored;source_digest=restored_result['sourceZipSha256'];source_format='azure-reef-pages-split-v1'
     before=unpack(archive,site)
     for name,h in protected.items():assert before.get(name)==h,'Current public hash mismatch: '+name
     assert sha(workspace/'dist/legacy.html')==before['legacy.html'],'Legacy entry must stay unchanged'
@@ -56,6 +69,6 @@ def main():
     assert all(sha(site/n)==h for n,h in preserved.items()),'Existing scene/resource changed'
     assert all(sha(site/n)==h for n,h in before.items() if n.startswith('preview/'))
     aggregate=hashlib.sha256(''.join(k+'\0'+preserved[k]+'\n' for k in sorted(preserved)).encode()).hexdigest()
-    receipt={'status':'HISTORICAL_EXPERIMENTS_APPENDED_ALL_OLD_SCENES_PRESERVED','sourceCommit':os.environ['GITHUB_SHA'],'previousSiteFileCount':len(before),'preservedExistingFiles':len(preserved),'preservedHashAggregate':aggregate,'previewFileCount':sum(n.startswith('preview/') for n in before),'previewFilesChanged':0,'worldPointerChanged':False,'legacyRootSha256':sha(site/'legacy.html'),'allowedChangedFiles':sorted(mutable),'addedScenes':added,'snapshotDigest':expected,'snapshotBytes':received,'previousPreviewEntrypoints':sorted(n for n in before if n.startswith('preview/') and (n.endswith('/index.html') or n.endswith('/scan-exhibit.html'))),'newRootSha256':sha(site/'index.html'),'newShowcaseFiles':{p.relative_to(site).as_posix():sha(p) for p in (site/'showcase').rglob('*') if p.is_file()}}
+    receipt={'status':'HISTORICAL_EXPERIMENTS_APPENDED_ALL_OLD_SCENES_PRESERVED','sourceCommit':os.environ['GITHUB_SHA'],'previousSiteFileCount':len(before),'preservedExistingFiles':len(preserved),'preservedHashAggregate':aggregate,'previewFileCount':sum(n.startswith('preview/') for n in before),'previewFilesChanged':0,'worldPointerChanged':False,'legacyRootSha256':sha(site/'legacy.html'),'allowedChangedFiles':sorted(mutable),'addedScenes':added,'snapshotDigest':source_digest,'snapshotBytes':archive.stat().st_size,'snapshotSourceFormat':source_format,'downloadDigest':expected,'downloadBytes':received,'previousPreviewEntrypoints':sorted(n for n in before if n.startswith('preview/') and (n.endswith('/index.html') or n.endswith('/scan-exhibit.html'))),'newRootSha256':sha(site/'index.html'),'newShowcaseFiles':{p.relative_to(site).as_posix():sha(p) for p in (site/'showcase').rglob('*') if p.is_file()}}
     (workspace/'publication-receipt.json').write_text(json.dumps(receipt,indent=2));print(json.dumps({k:v for k,v in receipt.items() if k not in ['newShowcaseFiles','previousPreviewEntrypoints']}),flush=True)
 if __name__=='__main__':main()

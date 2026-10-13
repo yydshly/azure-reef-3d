@@ -51,3 +51,8 @@
 
 
 本轮原模型样本及原脚本重建清单：[REMAINING_RESTORATION.md](REMAINING_RESTORATION.md)。七个模型均保留历史哈希；谷地与疏枝层级的阻塞单独列明。
+
+
+## 完整当前 Pages 站点的持久备份
+
+完整站点现已按原 ZIP 字节三卷保存到同仓库 Release，并从远端回读恢复全部2,969文件通过哈希核验。固定版本、源包大小/SHA256、逐文件清单、main索引和无需原artifact的恢复步骤见 [PAGES_ARCHIVE.md](PAGES_ARCHIVE.md)。main的dist仍是局部源码；完整公开站点字节由此持久归档承载。

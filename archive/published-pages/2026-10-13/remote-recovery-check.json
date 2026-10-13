@@ -1,0 +1,9 @@
+{
+  "status": "EXACT_ARTIFACT_AND_ALL_SITE_FILES_RESTORED",
+  "manifestSha256": "87f15f64e8c1bdf41e14308e1ad0668fc75d5007689afabd842aba05d734b679",
+  "sourceZipSha256": "2812632b4fb83d41fa39e1b9afb73c46157eda4d80f31ec18d8b63f395aeec1f",
+  "sourceZipBytes": 2904694811,
+  "siteFileCount": 2969,
+  "restoredFiles": 2969,
+  "siteHashAggregate": "a26bf5bb525f5835f5fc7f085dccd58dee3629208dbe11cc2a99dda470405d91"
+}

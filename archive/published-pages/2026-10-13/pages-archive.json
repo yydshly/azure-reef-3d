@@ -1,0 +1,34 @@
+{
+  "format": "azure-reef-pages-split-v1",
+  "source": {
+    "artifactId": 11805017825,
+    "runId": 38385076150,
+    "sourceCommit": "5a9c61c64b4734e38d09e6fc6c80d708a5152d16",
+    "bytes": 2904694811,
+    "sha256": "2812632b4fb83d41fa39e1b9afb73c46157eda4d80f31ec18d8b63f395aeec1f"
+  },
+  "siteFileCount": 2969,
+  "siteFileBytes": 4139910115,
+  "siteManifest": "site-files.json",
+  "siteManifestSha256": "c721e397eac186b74e6cadf3fc68a664dc5d91f4fdaf02918b9c69a86fd07338",
+  "siteHashAggregate": "a26bf5bb525f5835f5fc7f085dccd58dee3629208dbe11cc2a99dda470405d91",
+  "parts": [
+    {
+      "name": "azure-reef-pages-20261013-5a9c61c.zip.part001",
+      "bytes": 1073741824,
+      "sha256": "987b20d36a0591baffff7b378c679a3c2c7e1d04c4085d8501248602d9639dec"
+    },
+    {
+      "name": "azure-reef-pages-20261013-5a9c61c.zip.part002",
+      "bytes": 1073741824,
+      "sha256": "48325ca823f213ff68968c915f3428fbd0f26e103f927921e78d3644d327bee8"
+    },
+    {
+      "name": "azure-reef-pages-20261013-5a9c61c.zip.part003",
+      "bytes": 757211163,
+      "sha256": "265038fd8c13ea1a675d99dde4d6517f8e3dee836f2425f77deaa07ca06c02ce"
+    }
+  ],
+  "releaseTag": "pages-snapshot-20261013-5a9c61c",
+  "method": "Concatenate the original ZIP byte slices in this order. No encoding, model or site file changes."
+}

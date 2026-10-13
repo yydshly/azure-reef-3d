@@ -1,0 +1,66 @@
+[
+  {
+    "name": "azure-reef-pages-20261013-5a9c61c.zip.part001",
+    "assetId": 636811697,
+    "bytes": 1073741824,
+    "expectedSha256": "987b20d36a0591baffff7b378c679a3c2c7e1d04c4085d8501248602d9639dec",
+    "readbackSha256": "987b20d36a0591baffff7b378c679a3c2c7e1d04c4085d8501248602d9639dec",
+    "status": "FULL_REMOTE_READ_MATCH"
+  },
+  {
+    "name": "azure-reef-pages-20261013-5a9c61c.zip.part002",
+    "assetId": 636823028,
+    "bytes": 1073741824,
+    "expectedSha256": "48325ca823f213ff68968c915f3428fbd0f26e103f927921e78d3644d327bee8",
+    "readbackSha256": "48325ca823f213ff68968c915f3428fbd0f26e103f927921e78d3644d327bee8",
+    "status": "FULL_REMOTE_READ_MATCH"
+  },
+  {
+    "name": "azure-reef-pages-20261013-5a9c61c.zip.part003",
+    "assetId": 636833926,
+    "bytes": 757211163,
+    "expectedSha256": "265038fd8c13ea1a675d99dde4d6517f8e3dee836f2425f77deaa07ca06c02ce",
+    "readbackSha256": "265038fd8c13ea1a675d99dde4d6517f8e3dee836f2425f77deaa07ca06c02ce",
+    "status": "FULL_REMOTE_READ_MATCH"
+  },
+  {
+    "name": "pages-archive.json",
+    "assetId": 636843154,
+    "bytes": 1337,
+    "expectedSha256": "87f15f64e8c1bdf41e14308e1ad0668fc75d5007689afabd842aba05d734b679",
+    "readbackSha256": "87f15f64e8c1bdf41e14308e1ad0668fc75d5007689afabd842aba05d734b679",
+    "status": "FULL_REMOTE_READ_MATCH"
+  },
+  {
+    "name": "site-files.json",
+    "assetId": 636843341,
+    "bytes": 563019,
+    "expectedSha256": "c721e397eac186b74e6cadf3fc68a664dc5d91f4fdaf02918b9c69a86fd07338",
+    "readbackSha256": "c721e397eac186b74e6cadf3fc68a664dc5d91f4fdaf02918b9c69a86fd07338",
+    "status": "FULL_REMOTE_READ_MATCH"
+  },
+  {
+    "name": "restore-pages-archive.py",
+    "assetId": 636843528,
+    "bytes": 6444,
+    "expectedSha256": "7d9da6cdfc89c68338afddf08a54d99c7ba955642abce6c454ce7e59eef01bd7",
+    "readbackSha256": "7d9da6cdfc89c68338afddf08a54d99c7ba955642abce6c454ce7e59eef01bd7",
+    "status": "FULL_REMOTE_READ_MATCH"
+  },
+  {
+    "name": "SHA256SUMS",
+    "assetId": 636843683,
+    "bytes": 685,
+    "expectedSha256": "a1951bd5f8d0d8321cae67f67f684d3af015f164f1ec65d4729eef2d3778743e",
+    "readbackSha256": "a1951bd5f8d0d8321cae67f67f684d3af015f164f1ec65d4729eef2d3778743e",
+    "status": "FULL_REMOTE_READ_MATCH"
+  },
+  {
+    "name": "README-RESTORE.md",
+    "assetId": 636843859,
+    "bytes": 1584,
+    "expectedSha256": "a31a6a49f5b0fa1f520f0c26722a639c9b4fb99411053e9cb5e9e747e12bbe16",
+    "readbackSha256": "a31a6a49f5b0fa1f520f0c26722a639c9b4fb99411053e9cb5e9e747e12bbe16",
+    "status": "FULL_REMOTE_READ_MATCH"
+  }
+]

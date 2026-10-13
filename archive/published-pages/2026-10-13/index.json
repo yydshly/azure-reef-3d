@@ -1,0 +1,47 @@
+{
+  "status": "COMPLETE_PAGES_PERSISTENT_BACKUP_VERIFIED",
+  "releaseId": 411596982,
+  "releaseTag": "pages-snapshot-20261013-5a9c61c",
+  "releaseUrl": "https://github.com/yydshly/azure-reef-3d/releases/tag/pages-snapshot-20261013-5a9c61c",
+  "sourceCommit": "5a9c61c64b4734e38d09e6fc6c80d708a5152d16",
+  "sourceRun": 38385076150,
+  "sourceZipBytes": 2904694811,
+  "sourceZipSha256": "2812632b4fb83d41fa39e1b9afb73c46157eda4d80f31ec18d8b63f395aeec1f",
+  "siteFileCount": 2969,
+  "siteFileBytes": 4139910115,
+  "siteHashAggregate": "a26bf5bb525f5835f5fc7f085dccd58dee3629208dbe11cc2a99dda470405d91",
+  "manifestUrl": "https://github.com/yydshly/azure-reef-3d/releases/download/pages-snapshot-20261013-5a9c61c/pages-archive.json",
+  "manifestSha256": "87f15f64e8c1bdf41e14308e1ad0668fc75d5007689afabd842aba05d734b679",
+  "parts": [
+    {
+      "id": 636811697,
+      "name": "azure-reef-pages-20261013-5a9c61c.zip.part001",
+      "bytes": 1073741824,
+      "sha256": "987b20d36a0591baffff7b378c679a3c2c7e1d04c4085d8501248602d9639dec",
+      "url": "https://github.com/yydshly/azure-reef-3d/releases/download/pages-snapshot-20261013-5a9c61c/azure-reef-pages-20261013-5a9c61c.zip.part001",
+      "apiUrl": "https://api.github.com/repos/yydshly/azure-reef-3d/releases/assets/636811697"
+    },
+    {
+      "id": 636823028,
+      "name": "azure-reef-pages-20261013-5a9c61c.zip.part002",
+      "bytes": 1073741824,
+      "sha256": "48325ca823f213ff68968c915f3428fbd0f26e103f927921e78d3644d327bee8",
+      "url": "https://github.com/yydshly/azure-reef-3d/releases/download/pages-snapshot-20261013-5a9c61c/azure-reef-pages-20261013-5a9c61c.zip.part002",
+      "apiUrl": "https://api.github.com/repos/yydshly/azure-reef-3d/releases/assets/636823028"
+    },
+    {
+      "id": 636833926,
+      "name": "azure-reef-pages-20261013-5a9c61c.zip.part003",
+      "bytes": 757211163,
+      "sha256": "265038fd8c13ea1a675d99dde4d6517f8e3dee836f2425f77deaa07ca06c02ce",
+      "url": "https://github.com/yydshly/azure-reef-3d/releases/download/pages-snapshot-20261013-5a9c61c/azure-reef-pages-20261013-5a9c61c.zip.part003",
+      "apiUrl": "https://api.github.com/repos/yydshly/azure-reef-3d/releases/assets/636833926"
+    }
+  ],
+  "recoveryInput": "Only fully read-back persistent Release assets; original artifact endpoint not used during recovery",
+  "softwareInstallation": false,
+  "repositoryVisibilityChanged": false,
+  "workflowPermissionsChanged": false,
+  "websiteDeploymentPerformed": false,
+  "originalArtifactDeleted": false
+}

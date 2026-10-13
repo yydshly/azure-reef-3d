@@ -3,11 +3,11 @@ on:
   workflow_dispatch:
     inputs:
       snapshot_url:
-        description: Short-lived authorized download of the existing published artifact
+        description: Authorized artifact download or pinned same-repository persistent Release archive
         required: true
         type: string
       snapshot_digest:
-        description: Existing artifact SHA256
+        description: Downloaded artifact or persistent archive SHA256
         required: true
         type: string
       protected_hashes:
@@ -41,6 +41,7 @@ jobs:
             /publish-showcase.py
             /qa-showcase.py
             /publish-history.py
+            /restore-pages-archive.py
             /publish_showcase_import.py
             /history-release.json
             /dist/preview/continuous-candidate/**
