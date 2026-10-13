@@ -1,0 +1,11 @@
+{
+  "id": "solid-shoulder",
+  "title": "实体肩部局部样本",
+  "kind": "局部模型样本，不是完整海域",
+  "sourceCommit": "acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b",
+  "sourcePath": "experiments/2026-10-07-solid-shoulder-rejected/rejected-solid-shoulder.glb",
+  "sourceURL": "https://github.com/yydshly/azure-reef-3d/blob/acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b/experiments/2026-10-07-solid-shoulder-rejected/rejected-solid-shoulder.glb",
+  "bytes": 377428,
+  "sha256": "7472155ab3be14c310eb0865093397b1906d759b6a40a79af6ebbe885ab0ce40",
+  "limitations": "原始几何及材质保持不变；查看器中性光照，未作实地尺度标定。原历史视觉未达标结论保留。"
+}

@@ -1,0 +1,11 @@
+{
+  "webgl2": true,
+  "pixel": [
+    255,
+    0,
+    0,
+    255
+  ],
+  "glError": 0,
+  "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A788) Direct3D11 vs_5_0 ps_5_0, D3D11)"
+}

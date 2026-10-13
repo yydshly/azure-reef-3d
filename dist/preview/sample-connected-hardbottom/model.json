@@ -1,0 +1,14 @@
+{
+  "id": "connected-hardbottom",
+  "title": "连续硬底原模型样本",
+  "kind": "原模型样本，不是完整网页海域",
+  "sourceCommit": "acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b",
+  "sourcePath": "experiments/2026-10-07-connected-hardbottom-rejected/replace_hardbottom.py",
+  "sourceURL": "https://github.com/yydshly/azure-reef-3d/blob/acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b/experiments/2026-10-07-connected-hardbottom-rejected/replace_hardbottom.py",
+  "bytes": 30515244,
+  "sha256": "75a181a1fea752a05792a055cc2fad2a42c0d0516f42ed9ae64a3d8300f64265",
+  "rebuild": "原脚本、原输入、原参数；与历史输出 SHA256 完全一致",
+  "limitations": "原模型及材质原样展示，中性查看器不复现原网页的水体、动态鱼群或导览。历史视觉未达标结论保留。",
+  "focusNode": "Spatial_Continuous_Weathered_Limestone",
+  "cameraDisclosure": "初始视角对准原模型中的实验地形；原模型、坐标及材质均不改动。"
+}

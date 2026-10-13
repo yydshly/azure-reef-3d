@@ -1,0 +1,44 @@
+{
+  "base": "http://127.0.0.1:65310/",
+  "samples": [
+    {
+      "id": "connected-hardbottom",
+      "ready": true,
+      "drawCalls": 92,
+      "triangles": 1366500,
+      "cameraChanged": true,
+      "originalRootTransformPreserved": true,
+      "sourceSha256": "75a181a1fea752a05792a055cc2fad2a42c0d0516f42ed9ae64a3d8300f64265"
+    },
+    {
+      "id": "shoulder-sample",
+      "ready": true,
+      "drawCalls": 92,
+      "triangles": 1343394,
+      "cameraChanged": true,
+      "originalRootTransformPreserved": true,
+      "sourceSha256": "1d0b54fb008b205a102a88c682636cad827114aeb2d0234f2752d57158b31b22"
+    },
+    {
+      "id": "visible-ledge",
+      "ready": true,
+      "drawCalls": 92,
+      "triangles": 1331474,
+      "cameraChanged": true,
+      "originalRootTransformPreserved": true,
+      "sourceSha256": "9e0cb3f417905582b7947e5fc4e239dbd6596e3bea6905921c177903356e4239"
+    },
+    {
+      "id": "late-bank-grey",
+      "ready": true,
+      "drawCalls": 92,
+      "triangles": 1331474,
+      "cameraChanged": true,
+      "originalRootTransformPreserved": true,
+      "sourceSha256": "941e9fa1ca42b2918ff818a2f9f46aff1f948860d52d0dc836f1625b68947ed1"
+    }
+  ],
+  "errors": [],
+  "actualWebgl2PixelProbe": "browser-capability.json",
+  "status": "PASS"
+}

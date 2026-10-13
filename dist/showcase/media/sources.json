@@ -276,6 +276,83 @@
       "webpSha256": "eb971067a991448fb163e09ee900d195c319d477eaf049d2740d61b1f4dbfdd2",
       "conversion": "resize only; no generated content",
       "note": "Historical QA image; not a new live screenshot. Fan-current original QA lacked CJK glyphs."
+    },
+    {
+      "id": "sample-solid-shoulder",
+      "image": "sample-solid-shoulder.webp",
+      "kind": "actual-WebGL2-canvas-pixel-export",
+      "source": "evidence/remaining-restoration/solid-shoulder.png",
+      "originalScreenshotSha256": "9653691f1b9c77b0b7338cabf27aec40b9aed273b530950dc41f305b9984937d",
+      "webpSha256": "f9138201d214f99be269d391604c043a15e180e68b0000713d3c2ba4fb6389d5",
+      "conversion": "resize only; WebP quality 88; no generated or painted content",
+      "captureDateUtc": "2026-10-13",
+      "rawModelSha256": "7472155ab3be14c310eb0865093397b1906d759b6a40a79af6ebbe885ab0ce40"
+    },
+    {
+      "id": "sample-staggered-colony",
+      "image": "sample-staggered-colony.webp",
+      "kind": "actual-WebGL2-canvas-pixel-export",
+      "source": "evidence/remaining-restoration/staggered-colony.png",
+      "originalScreenshotSha256": "e89360db4a0900dd8a1a08fbc754145d80de854ce2cd630fad6aae6aff1710af",
+      "webpSha256": "0e2b849350854aad4477193f0bb3b4df7f968e89b742e416e079b79deca833b4",
+      "conversion": "resize only; WebP quality 88; no generated or painted content",
+      "captureDateUtc": "2026-10-13",
+      "rawModelSha256": "4a6f291b0ffad79a6b9d9fba581c9944ba3009f035f38b8642d09f766b579b28"
+    },
+    {
+      "id": "sample-volume-shoulder",
+      "image": "sample-volume-shoulder.webp",
+      "kind": "actual-WebGL2-canvas-pixel-export",
+      "source": "evidence/remaining-restoration/volume-shoulder.png",
+      "originalScreenshotSha256": "54634559a11f995eefda399fc3ba59ede22aa5d27435632830a1750e3342a4a1",
+      "webpSha256": "d6f8a7d151da69c6fab262931aea876eeb42f27469910fbaa85aa7d41b952769",
+      "conversion": "resize only; WebP quality 88; no generated or painted content",
+      "captureDateUtc": "2026-10-13",
+      "rawModelSha256": "f77845ac5a06c872e9821aab6e097c91cf8c2f071a2692774770d8d7d0c6d9fc"
+    },
+    {
+      "id": "sample-connected-hardbottom",
+      "image": "sample-connected-hardbottom.webp",
+      "kind": "actual-WebGL2-canvas-pixel-export",
+      "source": "evidence/remaining-restoration/connected-hardbottom.png",
+      "originalScreenshotSha256": "f72399a2a42748129116fc049a0d543459993ec1a547ec8f7b38e3b67a83aaf6",
+      "webpSha256": "b99220662f17a65c9cb52527bee73e8d032874083f1e178ec5eeff8f0dec549d",
+      "conversion": "resize only; WebP quality 88; no generated or painted content",
+      "captureDateUtc": "2026-10-13",
+      "rawModelSha256": "75a181a1fea752a05792a055cc2fad2a42c0d0516f42ed9ae64a3d8300f64265"
+    },
+    {
+      "id": "sample-shoulder-sample",
+      "image": "sample-shoulder-sample.webp",
+      "kind": "actual-WebGL2-canvas-pixel-export",
+      "source": "evidence/remaining-restoration/shoulder-sample.png",
+      "originalScreenshotSha256": "51dea38dde26e2518031cf3cdbceeadb2afd2549aaa7dc072cddddc9aa92ba11",
+      "webpSha256": "f6cb5fcca772189c5eb141382b6d539b8e5390934d53e97f82098c484447ae5d",
+      "conversion": "resize only; WebP quality 88; no generated or painted content",
+      "captureDateUtc": "2026-10-13",
+      "rawModelSha256": "1d0b54fb008b205a102a88c682636cad827114aeb2d0234f2752d57158b31b22"
+    },
+    {
+      "id": "sample-visible-ledge",
+      "image": "sample-visible-ledge.webp",
+      "kind": "actual-WebGL2-canvas-pixel-export",
+      "source": "evidence/remaining-restoration/visible-ledge.png",
+      "originalScreenshotSha256": "2231a0b27dc75def5a161c841959fa122b447b6c99b846177b2e1657040459f4",
+      "webpSha256": "09c5fba05df03857b0d7c4b963bc903e2214624d0221cbdd407a18834f9b66ab",
+      "conversion": "resize only; WebP quality 88; no generated or painted content",
+      "captureDateUtc": "2026-10-13",
+      "rawModelSha256": "9e0cb3f417905582b7947e5fc4e239dbd6596e3bea6905921c177903356e4239"
+    },
+    {
+      "id": "sample-late-bank-grey",
+      "image": "sample-late-bank-grey.webp",
+      "kind": "actual-WebGL2-canvas-pixel-export",
+      "source": "evidence/remaining-restoration/late-bank-grey.png",
+      "originalScreenshotSha256": "e2a8a1e8b32355691668144e4791323cbf58dc77a4fe5bb2b9d06e1c8cb3f826",
+      "webpSha256": "27bfd71326b2be33e58792478f7d0316907ddef7351862d942de8c3d5e7470d8",
+      "conversion": "resize only; WebP quality 88; no generated or painted content",
+      "captureDateUtc": "2026-10-13",
+      "rawModelSha256": "941e9fa1ca42b2918ff818a2f9f46aff1f948860d52d0dc836f1625b68947ed1"
     }
   ],
   "video": {

@@ -8,3 +8,11 @@ dist/preview/real-splats-lod-compare/** -text
 dist/preview/history-fan-current/** -text
 dist/preview/history-fan-lod/** -text
 dist/preview/history-low-camera/** -text
+dist/preview/sample-solid-shoulder/** -text
+dist/preview/sample-staggered-colony/** -text
+dist/preview/sample-volume-shoulder/** -text
+dist/preview/sample-connected-hardbottom/** -text
+dist/preview/sample-shoulder-sample/** -text
+dist/preview/sample-visible-ledge/** -text
+dist/preview/sample-late-bank-grey/** -text
+evidence/remaining-restoration/original-scripts/** -text

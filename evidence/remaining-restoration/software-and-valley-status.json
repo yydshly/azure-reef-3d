@@ -1,0 +1,25 @@
+{
+  "checkedAtUtc": "2026-10-13",
+  "designatedHost": "current Windows computer",
+  "python": "3.10.11",
+  "pythonSetxattrAvailable": false,
+  "existingWslComponent": true,
+  "installedWslDistributions": [],
+  "existingCompatiblePythonFound": false,
+  "blenderFound": false,
+  "libraryMaterialization": {
+    "officialCurrentHelperCompared": "unchanged logic",
+    "officialPrepareResult": "signed transfer; workspace_path null",
+    "identityMetadata": "requires user.library-file-version extended attribute",
+    "priorFailure": "AttributeError: os.setxattr unavailable in Windows Python",
+    "repeatedIdenticalTransfer": false,
+    "archiveSha256Verified": false,
+    "restored": false
+  },
+  "softwareInstallAuthorization": "pending parent/user approval; nothing installed",
+  "request": {
+    "UbuntuWsl": "official Microsoft wsl --install -d Ubuntu; use Linux filesystem for unchanged Library materializer and identity metadata",
+    "Blender": "official Windows portable ZIP inside workspace .tools/blender, original archived thicket builder only"
+  },
+  "independentRebuilds": "4 original Python recipes rebuilt exact historical SHA256 without software installation"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "visible-ledge",
+  "title": "可见折叠原模型样本",
+  "kind": "原模型样本，不是完整网页海域",
+  "sourceCommit": "acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b",
+  "sourcePath": "experiments/2026-10-07-visible-ledge-rejected/fold_visible_ledge.py",
+  "sourceURL": "https://github.com/yydshly/azure-reef-3d/blob/acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b/experiments/2026-10-07-visible-ledge-rejected/fold_visible_ledge.py",
+  "bytes": 29534488,
+  "sha256": "9e0cb3f417905582b7947e5fc4e239dbd6596e3bea6905921c177903356e4239",
+  "rebuild": "原脚本、原输入、原参数；与历史输出 SHA256 完全一致",
+  "limitations": "原模型及材质原样展示，中性查看器不复现原网页的水体、动态鱼群或导览。历史视觉未达标结论保留。",
+  "focusNode": "Spatial_Continuous_Weathered_Limestone",
+  "cameraDisclosure": "初始视角对准原模型中的实验地形；原模型、坐标及材质均不改动。"
+}

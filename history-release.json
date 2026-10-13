@@ -319,6 +319,125 @@
         "water-light.js": "cb262c5f91e98d8ecab1cfd66054233971e170c829e35b316aef48837e799963"
       },
       "sourceFiles": 79
+    },
+    {
+      "id": "sample-solid-shoulder",
+      "path": "preview/sample-solid-shoulder",
+      "base": null,
+      "entry": "index.html",
+      "sourceCommit": "acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b",
+      "originalPath": "experiments/2026-10-07-solid-shoulder-rejected/rejected-solid-shoulder.glb",
+      "kind": "original-local-GLB-sample-viewer",
+      "overlayHashes": {
+        "app.js": "21a2d59e0b313ca93efe3a856cbbc8e56dae0ec230edb7e1bb796fdab780245f",
+        "index.html": "7b0b7bb7faf1b20276ecc39192e5a9d8c0310b243467ef55de02aff5cc595647",
+        "model.glb": "7472155ab3be14c310eb0865093397b1906d759b6a40a79af6ebbe885ab0ce40",
+        "model.json": "b5c3fd74a5ae924668ac9b2f1982b24fe1aafca31fd634f12188c52164a00e00",
+        "style.css": "2fecbb9476ad37dd889774956328497490a2e09116786b0c6b58e53cc61eddf5"
+      },
+      "sourceFiles": 5
+    },
+    {
+      "id": "sample-staggered-colony",
+      "path": "preview/sample-staggered-colony",
+      "base": null,
+      "entry": "index.html",
+      "sourceCommit": "acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b",
+      "originalPath": "experiments/2026-10-07-staggered-colony-rejected/replacement.glb",
+      "kind": "original-local-GLB-sample-viewer",
+      "overlayHashes": {
+        "app.js": "21a2d59e0b313ca93efe3a856cbbc8e56dae0ec230edb7e1bb796fdab780245f",
+        "index.html": "7b0b7bb7faf1b20276ecc39192e5a9d8c0310b243467ef55de02aff5cc595647",
+        "model.glb": "4a6f291b0ffad79a6b9d9fba581c9944ba3009f035f38b8642d09f766b579b28",
+        "model.json": "ac73ce0bfa2a4de25b58de00ae4a5c052eccb579ef1314aa27e89eb2909cedc3",
+        "style.css": "2fecbb9476ad37dd889774956328497490a2e09116786b0c6b58e53cc61eddf5"
+      },
+      "sourceFiles": 5
+    },
+    {
+      "id": "sample-volume-shoulder",
+      "path": "preview/sample-volume-shoulder",
+      "base": null,
+      "entry": "index.html",
+      "sourceCommit": "acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b",
+      "originalPath": "experiments/2026-10-07-volume-surface-rejected/volume-shoulder.glb",
+      "kind": "original-local-GLB-sample-viewer",
+      "overlayHashes": {
+        "app.js": "21a2d59e0b313ca93efe3a856cbbc8e56dae0ec230edb7e1bb796fdab780245f",
+        "index.html": "7b0b7bb7faf1b20276ecc39192e5a9d8c0310b243467ef55de02aff5cc595647",
+        "model.glb": "f77845ac5a06c872e9821aab6e097c91cf8c2f071a2692774770d8d7d0c6d9fc",
+        "model.json": "1d9abc338aa2f8e2a179fd80f9c341940d835c47242bd82cb18dfe511b6ae2be",
+        "style.css": "2fecbb9476ad37dd889774956328497490a2e09116786b0c6b58e53cc61eddf5"
+      },
+      "sourceFiles": 5
+    },
+    {
+      "id": "sample-connected-hardbottom",
+      "path": "preview/sample-connected-hardbottom",
+      "base": null,
+      "entry": "index.html",
+      "sourceCommit": "acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b",
+      "originalPath": "experiments/2026-10-07-connected-hardbottom-rejected/replace_hardbottom.py",
+      "kind": "original-local-GLB-sample-viewer",
+      "overlayHashes": {
+        "app.js": "21a2d59e0b313ca93efe3a856cbbc8e56dae0ec230edb7e1bb796fdab780245f",
+        "index.html": "7b0b7bb7faf1b20276ecc39192e5a9d8c0310b243467ef55de02aff5cc595647",
+        "model.glb": "75a181a1fea752a05792a055cc2fad2a42c0d0516f42ed9ae64a3d8300f64265",
+        "model.json": "82c87e583716734cd8f02b6f1a5548d6574a1f558dc8b4bf96899f15b2efb8ef",
+        "style.css": "2fecbb9476ad37dd889774956328497490a2e09116786b0c6b58e53cc61eddf5"
+      },
+      "sourceFiles": 5
+    },
+    {
+      "id": "sample-shoulder-sample",
+      "path": "preview/sample-shoulder-sample",
+      "base": null,
+      "entry": "index.html",
+      "sourceCommit": "acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b",
+      "originalPath": "experiments/2026-10-07-shoulder-sample-rejected/shape_shoulder.py",
+      "kind": "original-local-GLB-sample-viewer",
+      "overlayHashes": {
+        "app.js": "21a2d59e0b313ca93efe3a856cbbc8e56dae0ec230edb7e1bb796fdab780245f",
+        "index.html": "7b0b7bb7faf1b20276ecc39192e5a9d8c0310b243467ef55de02aff5cc595647",
+        "model.glb": "1d0b54fb008b205a102a88c682636cad827114aeb2d0234f2752d57158b31b22",
+        "model.json": "f2dd74af5932e7e62fb8a9ccbec81e676c28e1aad6a05d64ba891f957c8b31c5",
+        "style.css": "2fecbb9476ad37dd889774956328497490a2e09116786b0c6b58e53cc61eddf5"
+      },
+      "sourceFiles": 5
+    },
+    {
+      "id": "sample-visible-ledge",
+      "path": "preview/sample-visible-ledge",
+      "base": null,
+      "entry": "index.html",
+      "sourceCommit": "acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b",
+      "originalPath": "experiments/2026-10-07-visible-ledge-rejected/fold_visible_ledge.py",
+      "kind": "original-local-GLB-sample-viewer",
+      "overlayHashes": {
+        "app.js": "21a2d59e0b313ca93efe3a856cbbc8e56dae0ec230edb7e1bb796fdab780245f",
+        "index.html": "7b0b7bb7faf1b20276ecc39192e5a9d8c0310b243467ef55de02aff5cc595647",
+        "model.glb": "9e0cb3f417905582b7947e5fc4e239dbd6596e3bea6905921c177903356e4239",
+        "model.json": "b9c354ac3e45d6e4d426f2b2998854a346c0c3abb5228ae2e67db22ebb806f82",
+        "style.css": "2fecbb9476ad37dd889774956328497490a2e09116786b0c6b58e53cc61eddf5"
+      },
+      "sourceFiles": 5
+    },
+    {
+      "id": "sample-late-bank-grey",
+      "path": "preview/sample-late-bank-grey",
+      "base": null,
+      "entry": "index.html",
+      "sourceCommit": "acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b",
+      "originalPath": "experiments/2026-10-07-late-bank-grey-rejected/sculpt_late_bank.py",
+      "kind": "original-local-GLB-sample-viewer",
+      "overlayHashes": {
+        "app.js": "21a2d59e0b313ca93efe3a856cbbc8e56dae0ec230edb7e1bb796fdab780245f",
+        "index.html": "7b0b7bb7faf1b20276ecc39192e5a9d8c0310b243467ef55de02aff5cc595647",
+        "model.glb": "941e9fa1ca42b2918ff818a2f9f46aff1f948860d52d0dc836f1625b68947ed1",
+        "model.json": "f251d78c6f2c463fe8c39eba37d76154fdddf6d4cd3db21ac35e1f16c04ec857",
+        "style.css": "2fecbb9476ad37dd889774956328497490a2e09116786b0c6b58e53cc61eddf5"
+      },
+      "sourceFiles": 5
     }
   ],
   "preserveAllOldSceneFiles": true,

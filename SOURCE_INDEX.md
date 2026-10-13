@@ -48,3 +48,6 @@
 ## 已知材质候选发布来源
 
 补齐[历史体验](https://yydshly.github.io/azure-reef-3d/preview/surface-grounding-candidate/scan-exhibit.html)、[原main发布提交ef6a761](https://github.com/yydshly/azure-reef-3d/commit/ef6a7618ef02bdcf8134aa3f395be5e9d90e2f6f)与[Actions38147691994](https://github.com/yydshly/azure-reef-3d/actions/runs/38147691994)。局部法线/粗糙度略有收益，整体目标未达，未提升主展示。本次没有重新验收画面；已知历史发布来源不等于本轮完整源码和素材已迁入当前main，原完整还原链仍按未迁移范围记录。
+
+
+本轮原模型样本及原脚本重建清单：[REMAINING_RESTORATION.md](REMAINING_RESTORATION.md)。七个模型均保留历史哈希；谷地与疏枝层级的阻塞单独列明。

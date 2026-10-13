@@ -1,0 +1,11 @@
+{
+  "id": "volume-shoulder",
+  "title": "体积表面局部样本",
+  "kind": "局部模型样本，不是完整海域",
+  "sourceCommit": "acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b",
+  "sourcePath": "experiments/2026-10-07-volume-surface-rejected/volume-shoulder.glb",
+  "sourceURL": "https://github.com/yydshly/azure-reef-3d/blob/acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b/experiments/2026-10-07-volume-surface-rejected/volume-shoulder.glb",
+  "bytes": 325212,
+  "sha256": "f77845ac5a06c872e9821aab6e097c91cf8c2f071a2692774770d8d7d0c6d9fc",
+  "limitations": "原始几何及材质保持不变；查看器中性光照，未作实地尺度标定。原历史视觉未达标结论保留。"
+}

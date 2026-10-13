@@ -1,0 +1,35 @@
+{
+  "base": "http://127.0.0.1:59935/",
+  "samples": [
+    {
+      "id": "solid-shoulder",
+      "ready": true,
+      "drawCalls": 1,
+      "triangles": 3764,
+      "cameraChanged": true,
+      "originalRootTransformPreserved": true,
+      "sourceSha256": "7472155ab3be14c310eb0865093397b1906d759b6a40a79af6ebbe885ab0ce40"
+    },
+    {
+      "id": "staggered-colony",
+      "ready": true,
+      "drawCalls": 1,
+      "triangles": 21722,
+      "cameraChanged": true,
+      "originalRootTransformPreserved": true,
+      "sourceSha256": "4a6f291b0ffad79a6b9d9fba581c9944ba3009f035f38b8642d09f766b579b28"
+    },
+    {
+      "id": "volume-shoulder",
+      "ready": true,
+      "drawCalls": 1,
+      "triangles": 18000,
+      "cameraChanged": true,
+      "originalRootTransformPreserved": true,
+      "sourceSha256": "f77845ac5a06c872e9821aab6e097c91cf8c2f071a2692774770d8d7d0c6d9fc"
+    }
+  ],
+  "errors": [],
+  "actualWebgl2PixelProbe": "browser-capability.json",
+  "status": "PASS"
+}

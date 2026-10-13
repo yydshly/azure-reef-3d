@@ -1,0 +1,27 @@
+{
+  "base": "http://127.0.0.1:61054/",
+  "errors": [],
+  "continuousMovement": {
+    "steps": 8,
+    "distinctCameraPositions": 8,
+    "start": [
+      14.034881836799457,
+      5.128573916003328,
+      -39.2806978159868
+    ],
+    "end": [
+      10.644980625011407,
+      9.258890275743038,
+      -54.283553530916336
+    ],
+    "actualPixelCapture": "continuous-drag.png"
+  },
+  "switchAndReturn": true,
+  "smallViewport": {
+    "width": 390,
+    "height": 740,
+    "horizontalOverflow": false,
+    "physicalPhone": false
+  },
+  "status": "PASS"
+}

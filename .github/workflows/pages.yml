@@ -51,6 +51,13 @@ jobs:
             /dist/preview/history-fan-current/**
             /dist/preview/history-fan-lod/**
             /dist/preview/history-low-camera/**
+            /dist/preview/sample-solid-shoulder/**
+            /dist/preview/sample-staggered-colony/**
+            /dist/preview/sample-volume-shoulder/**
+            /dist/preview/sample-connected-hardbottom/**
+            /dist/preview/sample-shoulder-sample/**
+            /dist/preview/sample-visible-ledge/**
+            /dist/preview/sample-late-bank-grey/**
       - name: Restore pinned published bytes and append independent historical experiments
         run: python3 publish-history.py
       - name: Set up the existing Node runtime

@@ -1,0 +1,11 @@
+{
+  "id": "staggered-colony",
+  "title": "交错侧枝局部样本",
+  "kind": "局部模型样本，不是完整海域",
+  "sourceCommit": "acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b",
+  "sourcePath": "experiments/2026-10-07-staggered-colony-rejected/replacement.glb",
+  "sourceURL": "https://github.com/yydshly/azure-reef-3d/blob/acd6b3f9f287b8fa5b8e07e4ffddf3491668c92b/experiments/2026-10-07-staggered-colony-rejected/replacement.glb",
+  "bytes": 393140,
+  "sha256": "4a6f291b0ffad79a6b9d9fba581c9944ba3009f035f38b8642d09f766b579b28",
+  "limitations": "原始几何及材质保持不变；查看器中性光照，未作实地尺度标定。原导出有16条非流形边记录，原样展示，未修模。"
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": "connected-hardbottom",
+    "script": "replace_hardbottom.py",
+    "originalScriptSha256": "11155fc8d7dc3dbfd95ef9761687d8eaac10bddbe97a840ba05c19954f702534",
+    "expectedSha256": "75a181a1fea752a05792a055cc2fad2a42c0d0516f42ed9ae64a3d8300f64265",
+    "actualSha256": "75a181a1fea752a05792a055cc2fad2a42c0d0516f42ed9ae64a3d8300f64265",
+    "bytes": 30515244,
+    "status": "ORIGINAL_SCRIPT_BYTE_IDENTICAL_REBUILD",
+    "requiresBlenderForThisRebuild": false
+  },
+  {
+    "id": "shoulder-sample",
+    "script": "shape_shoulder.py",
+    "originalScriptSha256": "ef4c739bb601ef1791bc62d189a868a8714bda1d8ea474b58a657e9e1ba19212",
+    "expectedSha256": "1d0b54fb008b205a102a88c682636cad827114aeb2d0234f2752d57158b31b22",
+    "actualSha256": "1d0b54fb008b205a102a88c682636cad827114aeb2d0234f2752d57158b31b22",
+    "bytes": 30455516,
+    "status": "ORIGINAL_SCRIPT_BYTE_IDENTICAL_REBUILD",
+    "requiresBlenderForThisRebuild": false
+  },
+  {
+    "id": "visible-ledge",
+    "script": "fold_visible_ledge.py",
+    "originalScriptSha256": "29d6b3769d383f4e150e7b1733a37fa121f1700f39cc1bb5e25085e94045febc",
+    "expectedSha256": "9e0cb3f417905582b7947e5fc4e239dbd6596e3bea6905921c177903356e4239",
+    "actualSha256": "9e0cb3f417905582b7947e5fc4e239dbd6596e3bea6905921c177903356e4239",
+    "bytes": 29534488,
+    "status": "ORIGINAL_SCRIPT_BYTE_IDENTICAL_REBUILD",
+    "requiresBlenderForThisRebuild": false
+  },
+  {
+    "id": "late-bank-grey",
+    "script": "sculpt_late_bank.py",
+    "originalScriptSha256": "9d317a2f05a3f40bd97f4899747f4776fd6ccb84971048a7b1d7944993f962af",
+    "expectedSha256": "941e9fa1ca42b2918ff818a2f9f46aff1f948860d52d0dc836f1625b68947ed1",
+    "actualSha256": "941e9fa1ca42b2918ff818a2f9f46aff1f948860d52d0dc836f1625b68947ed1",
+    "bytes": 29534488,
+    "status": "ORIGINAL_SCRIPT_BYTE_IDENTICAL_REBUILD",
+    "requiresBlenderForThisRebuild": false
+  }
+]
